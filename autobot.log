@@ -1,56 +1,14 @@
-==> Installing dependencies for ldns: swig, openssl@1.1
-==> Installing ldns dependency: swig
-==> Downloading https://linuxbrew.bintray.com/bottles/swig-3.0.12.x86_64_linux.bottle.tar.gz
-==> Pouring swig-3.0.12.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/swig/3.0.12: 755 files, 5.5MB
-==> Installing ldns dependency: openssl@1.1
-==> Downloading https://linuxbrew.bintray.com/bottles/openssl@1.1-1.1.0g.x86_64_linux.bottle.tar.gz
-==> Pouring openssl@1.1-1.1.0g.x86_64_linux.bottle.tar.gz
-==> Downloading https://curl.haxx.se/ca/cacert-2017-01-18.pem
-==> Caveats
-A CA file has been bootstrapped using certificates from the system
-keychain. To add additional certificates, place .pem files in
-  /home/linuxbrew/.linuxbrew/etc/openssl@1.1/certs
-
-and run
-  /home/linuxbrew/.linuxbrew/opt/openssl@1.1/bin/c_rehash
-
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/openssl@1.1/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/openssl@1.1/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/openssl@1.1/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/openssl@1.1/lib/pkgconfig
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.0g: 6,586 files, 18.5MB
-==> Installing ldns
-==> Downloading https://nlnetlabs.nl/downloads/ldns/ldns-1.7.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ldns/1.7.0 --with-drill --with-examples --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl@1.1 --with-pyldns PYTHON_SITE_PKG=/home/linuxbrew/.linuxbrew/Cellar/ldns/1.7.0/lib/python2.7/site-packages
-==> make
+==> Downloading http://dist.schmorp.de/libev/Attic/libev-4.24.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24/share/man
 ==> make install
-==> make install-pyldns
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ldns`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ldns/1.7.0: 566 files, 39.1MB, built in 1 minute 2 seconds
-==> Determining ldns bottle rebuild...
-==> Bottling ldns-1.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ldns-1.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ldns-1.7.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libev`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libev/4.24: 10 files, 705.7KB, built in 23 seconds
+==> Determining libev bottle rebuild...
+==> Bottling libev-4.24.x86_64_linux.bottle.1.tar.gz...
+./libev-4.24.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c07c3d69b0a6aba5df24e83d7b1c7e913c531deab8bf9d389c2bbf484424554c" => :x86_64_linux
+    sha256 "aaebef0225cc386c95b9c22cec176923082d1854b0bbdff9617d46f4360fcd95" => :x86_64_linux
   end
