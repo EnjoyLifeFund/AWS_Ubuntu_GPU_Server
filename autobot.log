@@ -1,8 +1,13 @@
-==> Determining mpfr bottle rebuild...
-==> Bottling mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/n/nc6/nc6_1.0.orig.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall netcat6`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/netcat6/1.0: 10 files, 262.4KB, built in 22 seconds
+==> Determining netcat6 bottle rebuild...
+==> Bottling netcat6-1.0.x86_64_linux.bottle.1.tar.gz...
+./netcat6-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7cdc9f2de563e902a8532604c379bf05f5b5ef00a991a2db9e8eab3bad5ced14" => :x86_64_linux
+    sha256 "c3f7e3efb73acb33fa44c38758c235cdab0888f2157108116801d9cfc97dec11" => :x86_64_linux
   end
