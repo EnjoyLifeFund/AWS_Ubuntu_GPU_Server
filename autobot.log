@@ -1,7 +1,26 @@
-==> Determining atk bottle rebuild...
-==> Bottling atk-2.26.1.x86_64_linux.bottle.1.tar.gz...
-./atk-2.26.1.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for atkmm: libsigc++, glibmm
+==> Installing atkmm dependency: libsigc++
+==> Downloading https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.x86_64_linux.bottle.tar.gz
+==> Pouring libsigc++-2.10.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsigc++/2.10.0: 680 files, 14.2MB
+==> Installing atkmm dependency: glibmm
+==> Downloading https://linuxbrew.bintray.com/bottles/glibmm-2.54.1.x86_64_linux.bottle.tar.gz
+==> Pouring glibmm-2.54.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glibmm/2.54.1: 1,690 files, 65.6MB
+==> Installing atkmm
+==> Downloading https://download.gnome.org/sources/atkmm/2.24/atkmm-2.24.2.tar.xz
+==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/atkmm/2.24/atkmm-2.24.2.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atkmm/2.24.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall atkmm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/atkmm/2.24.2: 234 files, 8.3MB, built in 22 seconds
+==> Determining atkmm bottle rebuild...
+==> Bottling atkmm-2.24.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if atkmm-2.24.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./atkmm-2.24.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b6cdbd62f39a8598a7960a799ad9f2da3553c0492a17cf770d07a1f4a70885f5" => :x86_64_linux
+    sha256 "a36f559ea41355fdac91ff2502ad9d7cf69132014a1f7735e00311eef5ae54fb" => :x86_64_linux
   end
