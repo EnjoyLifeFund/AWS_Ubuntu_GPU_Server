@@ -1,12 +1,20 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/AutoScaling-2011-01-01.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
-
-See the website for more details:
-https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/UsingTheCommandLineTools.html
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/auto-scaling/1.0.61.6: 127 files, 7.1MB, built in 3 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for autobench: httperf
+==> Installing autobench dependency: httperf
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/httperf/httperf-0.9.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httperf/0.9.0_1
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/httperf/0.9.0_1: 10 files, 849.2KB, built in 23 seconds
+==> Installing autobench
+==> Downloading http://www.xenoclast.org/autobench/downloads/autobench-2.1.2.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2/share/man/man1 CC=gcc-5 CFLAGS= install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autobench`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2: 18 files, 132KB, built in 3 seconds
+==> Determining autobench bottle rebuild...
+==> Bottling autobench-2.1.2.x86_64_linux.bottle.1.tar.gz...
+./autobench-2.1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "88ffe491f787413db726651ed019bc571a4e1fae68ea0891ea162503934d30e5" => :x86_64_linux
+  end
