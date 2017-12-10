@@ -1,15 +1,8 @@
-==> Downloading https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio3420.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cfitsio/3.420
-==> make shared
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cfitsio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cfitsio/3.420: 17 files, 10.1MB, built in 24 seconds
-==> Determining cfitsio bottle rebuild...
-==> Bottling cfitsio-3.420.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cfitsio-3.420.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cfitsio-3.420.x86_64_linux.bottle.1.tar.gz
+==> Determining cmake bottle rebuild...
+==> Bottling cmake-3.10.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if cmake-3.10.0.x86_64_linux.bottle.tar.gz is relocatable...
+./cmake-3.10.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "8bff0090c7204983dbc8e2adafc8d0a046a2da716808d7540ea1514cc4371e53" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "ace36504422d13ced8a85d8aa419d35a0be971b863559a76d15c57a423f44c37" => :x86_64_linux
   end
