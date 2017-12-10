@@ -1,14 +1,13 @@
-==> Downloading https://github.com/theZiz/aha/archive/0.4.10.6.tar.gz
-==> Downloading from https://codeload.github.com/theZiz/aha/tar.gz/0.4.10.6
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/aha/0.4.10.6
+==> Downloading https://web.archive.org/web/20150510210401/craz.net/programs/itunes/files/alac_decoder-0.2.0.tgz
+==> make CFLAGS= CC=gcc-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aha`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aha/0.4.10.6: 6 files, 55.2KB, built in 1 second
-==> Determining aha bottle rebuild...
-==> Bottling aha-0.4.10.6.x86_64_linux.bottle.1.tar.gz...
-./aha-0.4.10.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall alac`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/alac/0.2.0: 4 files, 49.4KB, built in 2 seconds
+==> Determining alac bottle rebuild...
+==> Bottling alac-0.2.0.x86_64_linux.bottle.1.tar.gz...
+./alac-0.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "bd3e48846017937170899895be87bcae8ff808336e08558a0885b8dbddf6c732" => :x86_64_linux
+    sha256 "5c4aacf5740094067748b02ccdef7d3d074e08a5ab7fe9b0a62cf3f86659820d" => :x86_64_linux
   end
