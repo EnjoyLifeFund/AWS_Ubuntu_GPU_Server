@@ -1,9 +1,10 @@
-advancecomp: stable 2.0 (bottled)
-Recompression utilities for .PNG, .MNG, .ZIP, and .GZ files
-http://www.advancemame.it/comp-readme.html
-/home/linuxbrew/.linuxbrew/Cellar/advancecomp/2.0 (14 files, 3.3MB) *
-  Built from source on 2017-12-10 at 13:41:48
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/advancecomp.rb
+advancemame: stable 3.5 (bottled)
+MAME with advanced video support
+http://www.advancemame.it/
+Conflicts with:
+  advancemenu (because both install `advmenu` binaries)
+/home/linuxbrew/.linuxbrew/Cellar/advancemame/3.5 (105 files, 61.8MB) *
+  Built from source on 2017-12-10 at 13:47:00
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/advancemame.rb
 ==> Dependencies
-Build: autoconf, automake, libtool
-Required: bzip2, zlib
+Required: sdl, freetype, expat, ncurses
