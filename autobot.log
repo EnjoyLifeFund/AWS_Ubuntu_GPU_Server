@@ -1,17 +1,16 @@
-==> Downloading https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.5.0/sleuthkit-4.5.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2562873/f425a442-b1fa-11e7-80a4-8458de1219c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T164418Z&X-Amz-Expires=300&X-Amz-Signature=b230516bb62ca7165d29e5fd9296a8a49c5d07c0ce4274f44feea051e94056e4&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dsleuthkit-4.5.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sleuthkit/4.5.0 --disable-java
-==> make
+==> Downloading https://github.com/tatsuhiro-t/spdylay/archive/v1.4.0.tar.gz
+==> Downloading from https://codeload.github.com/tatsuhiro-t/spdylay/tar.gz/v1.4.0
+==> autoreconf -fiv
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/spdylay/1.4.0_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sleuthkit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sleuthkit/4.5.0: 96 files, 21.7MB, built in 39 seconds
-==> Determining sleuthkit bottle rebuild...
-==> Bottling sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall spdylay`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/spdylay/1.4.0_1: 16 files, 5.5MB, built in 38 seconds
+==> Determining spdylay bottle rebuild...
+==> Bottling spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b9a3b846a366f790497e51336ccf74536149e94f90d35f208a97a7e9f42da184" => :x86_64_linux
+    sha256 "abb2ecaeb8240d7ba7deec1893e6e42869bd67add069ad0be915eb32463d2648" => :x86_64_linux
   end
