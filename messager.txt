@@ -1,8 +1,10 @@
-aalib: stable 1.4rc5
-Portable ASCII art graphics library
-https://aa-project.sourceforge.io/aalib/
-/home/linuxbrew/.linuxbrew/Cellar/aalib/1.4rc5_1 (83 files, 1.7MB) *
-  Built from source on 2017-12-10 at 13:08:02
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/aalib.rb
+aap: stable 1.094 (bottled)
+Make-like tool to download, build, and install software
+http://www.a-a-p.org
+/home/linuxbrew/.linuxbrew/Cellar/aap/1.094 (117 files, 2.8MB) *
+  Built from source on 2017-12-10 at 13:09:51
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/aap.rb
 ==> Dependencies
-Build: gpatch
+Build: unzip
+==> Requirements
+Required: python

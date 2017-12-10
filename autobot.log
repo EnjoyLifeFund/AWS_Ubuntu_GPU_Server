@@ -1,27 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz
-==> Downloading from https://downloads.sourceforge.net/project/aa-project/aa-lib/1.4rc5/aalib-1.4rc5.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/6e23dfb/aalib/1.4rc5.patch
-==> Patching
-==> Applying 1.4rc5.patch
-patching file src/aaedit.c
-patching file src/aakbdreg.c
-patching file src/aalib.c
-patching file src/aamoureg.c
-patching file src/aarec.c
-patching file src/aaregist.c
-patching file src/aax.c
-patching file src/aaxkbd.c
-patching file src/aaxmouse.c
-patching file aalib.m4
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aalib/1.4rc5_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/aalib/1.4rc5_1/share/man --infodir=/home/linuxbrew/.linuxbrew/Cellar/aalib/1.4rc5_1/share/info --enable-shared=yes --enable-static=yes --without-x
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/a-a-p/aap-1.094.zip
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/a-a-p/aap-1.094.zip
+==> ./aap install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/aap/1.094 MANSUBDIR=share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aalib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aalib/1.4rc5_1: 83 files, 1.7MB, built in 9 seconds
-==> Determining aalib bottle rebuild...
-==> Bottling aalib-1.4rc5_1.x86_64_linux.bottle.1.tar.gz...
-./aalib-1.4rc5_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall aap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aap/1.094: 166 files, 3.3MB, built in 2 seconds
+==> Determining aap bottle rebuild...
+==> Bottling aap-1.094.x86_64_linux.bottle.tar.gz...
+./aap-1.094.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "93285c68bbb22b491534bdd22c067147d194e015f3559cdbc6c7bab8431bfa06" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "5543211fd71bd64915e0dc9641d5ebf8bb89ad5c7b9bb58f1d5d6518557fdb70" => :x86_64_linux
   end
