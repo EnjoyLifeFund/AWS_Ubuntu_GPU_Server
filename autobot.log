@@ -1,16 +1,11 @@
-==> Downloading https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lzo/2.10 --enable-shared
-==> make
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lzo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lzo/2.10: 29 files, 950.8KB, built in 33 seconds
-==> Determining lzo bottle rebuild...
-==> Bottling lzo-2.10.x86_64_linux.bottle.1.tar.gz...
-./lzo-2.10.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "eb50b4e79584b13af868c4da234ccc6b0ed411ac2a4354350bdf21560ae5c700" => :x86_64_linux
-  end
+==> Downloading https://d3kbcqa49mib13.cloudfront.net/spark-1.5.2-bin-hadoop2.6.tgz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/apache-spark@1.5/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-spark@1.5/1.5.2_1: 655 files, 302.8MB, built in 19 seconds
+This formula doesn't require compiling.
