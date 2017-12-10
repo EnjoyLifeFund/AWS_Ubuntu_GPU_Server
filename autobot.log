@@ -1,7 +1,32 @@
-==> Determining docbook bottle rebuild...
-==> Bottling docbook-5.0.x86_64_linux.bottle.tar.gz...
-./docbook-5.0.x86_64_linux.bottle.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.43.7/e2fsprogs-1.43.7.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.43.7/e2fsprogs-1.43.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/e2fsprogs/1.43.7 --disable-e2initrd-helper
+==> make
+==> make install
+==> make install-libs
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall e2fsprogs`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this installs several executables which shadow macOS system commands.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/e2fsprogs/bin:$PATH"' >> ~/.bash_profile
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/e2fsprogs/sbin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/e2fsprogs/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/e2fsprogs/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/e2fsprogs/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/e2fsprogs/1.43.7: 114 files, 23.3MB, built in 55 seconds
+==> Determining e2fsprogs bottle rebuild...
+==> Bottling e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "590a9c445e1ab6937f0ae75f48a9300494ce9ae1dab4e2b5a3f32d64675f8e63" => :x86_64_linux
+    rebuild 1
+    sha256 "0ad18669ec4fd83f2a697cece417a92799899d9a54e03fcad3c6308309475379" => :x86_64_linux
   end
