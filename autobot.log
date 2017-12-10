@@ -1,13 +1,7 @@
-==> Downloading http://sid.rstack.org/arp-sk/files/arp-sk-0.0.16.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/arp-sk/0.0.16 --mandir=/home/linuxbrew/.linuxbrew/Cellar/arp-sk/0.0.16/share/man --with-libnet=/home/linuxbrew/.linuxbrew/opt/libnet
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall arp-sk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/arp-sk/0.0.16: 11 files, 198.0KB, built in 11 seconds
-==> Determining arp-sk bottle rebuild...
-==> Bottling arp-sk-0.0.16.x86_64_linux.bottle.1.tar.gz...
-./arp-sk-0.0.16.x86_64_linux.bottle.1.tar.gz
+==> Determining arpack bottle rebuild...
+==> Bottling arpack-3.5.0.x86_64_linux.bottle.1.tar.gz...
+./arpack-3.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5f1d003848d4c1f307b33befa220678fa0cec526d87acaa8675752fd0638c8ee" => :x86_64_linux
+    sha256 "5e52e9044009dce83320477fc3e7a3fa5362423634cec8f1c9029b73f94d7b50" => :x86_64_linux
   end
