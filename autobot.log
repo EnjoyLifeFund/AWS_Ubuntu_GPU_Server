@@ -1,15 +1,15 @@
-==> Downloading https://files.nothingisreal.com/software/gpp/gpp-2.25.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpp/2.25 --mandir=/home/linuxbrew/.linuxbrew/Cellar/gpp/2.25/share/man
-==> make
-==> make check
+==> Downloading https://github.com/silnrsi/graphite/releases/download/1.3.10/graphite2-1.3.10.tgz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/44083391/63f735c2-31b5-11e7-91cc-bc6feb6eea7c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T124524Z&X-Amz-Expires=300&X-Amz-Signature=ee85ad4da329b230d622bb61ee2b632768f4fbcbf829ba854ebfedb92ab0716d&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgraphite2-1.3.10.tgz&response-content-type=application%2Foctet-stream
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/graphite2/1.3.10 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gpp/2.25: 12 files, 455.2KB, built in 9 seconds
-==> Determining gpp bottle rebuild...
-==> Bottling gpp-2.25.x86_64_linux.bottle.1.tar.gz...
-./gpp-2.25.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall graphite2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/graphite2/1.3.10: 18 files, 513.0KB, built in 12 seconds
+==> Determining graphite2 bottle rebuild...
+==> Bottling graphite2-1.3.10.x86_64_linux.bottle.1.tar.gz...
+./graphite2-1.3.10.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "08adf35c48756e96ded35608b5c78732c027e51a0323a6ac938c61ee29faeec3" => :x86_64_linux
+    sha256 "7a1f24dc84562b3030e5e650f18a8247874790a16880322f5a5be1894cbf1c93" => :x86_64_linux
   end
