@@ -1,8 +1,4 @@
-==> Determining libxml2 bottle rebuild...
-==> Bottling libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "7658147e3eeb17fac20c419df59b68b8e8ace02141f4efcc30b586dbbbbbc3e7" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=opennlp/opennlp-1.8.3/apache-opennlp-1.8.3-bin.tar.gz
+==> Best Mirror http://mirror.reverse.net/pub/apache/opennlp/opennlp-1.8.3/apache-opennlp-1.8.3-bin.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-opennlp/1.8.3: 1,535 files, 29.8MB, built in 4 seconds
+This formula doesn't require compiling.
