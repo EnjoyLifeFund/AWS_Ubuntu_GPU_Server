@@ -1,14 +1,15 @@
-==> Downloading http://www.catb.org/~esr/ascii/ascii-3.18.tar.gz
-==> make
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ascii/3.18 install
+==> Downloading https://github.com/asciidoctor/asciidoctor/archive/v1.5.6.1.tar.gz
+==> Downloading from https://codeload.github.com/asciidoctor/asciidoctor/tar.gz/v1.5.6.1
+==> gem build asciidoctor.gemspec
+==> gem install asciidoctor-1.5.6.1.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ascii`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ascii/3.18: 7 files, 72.9KB, built in 1 second
-==> Determining ascii bottle rebuild...
-==> Bottling ascii-3.18.x86_64_linux.bottle.1.tar.gz...
-./ascii-3.18.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall asciidoctor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/asciidoctor/1.5.6.1: 1,005 files, 3.2MB, built in 7 seconds
+==> Determining asciidoctor bottle rebuild...
+==> Bottling asciidoctor-1.5.6.1.x86_64_linux.bottle.1.tar.gz...
+./asciidoctor-1.5.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "61d953d5ab02fba05cc04a43e91c4a9fe0378c09ec2622e90a45fe92339ca75b" => :x86_64_linux
+    sha256 "fa7774d9fae789f0ff4db5eb77a27bda2a1b1b1a67382c97ee615b4277b1b67f" => :x86_64_linux
   end
