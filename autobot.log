@@ -1,16 +1,8 @@
-==> Downloading https://github.com/tatsuhiro-t/spdylay/archive/v1.4.0.tar.gz
-==> Downloading from https://codeload.github.com/tatsuhiro-t/spdylay/tar.gz/v1.4.0
-==> autoreconf -fiv
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/spdylay/1.4.0_1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall spdylay`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/spdylay/1.4.0_1: 16 files, 5.5MB, built in 38 seconds
-==> Determining spdylay bottle rebuild...
-==> Bottling spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./spdylay-1.4.0_1.x86_64_linux.bottle.1.tar.gz
+==> Determining sqlite bottle rebuild...
+==> Bottling sqlite-3.21.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if sqlite-3.21.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./sqlite-3.21.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "abb2ecaeb8240d7ba7deec1893e6e42869bd67add069ad0be915eb32463d2648" => :x86_64_linux
+    sha256 "55912ab11ac48503612d685329352869429f2ae6465a7023ae26448bfb0ed637" => :x86_64_linux
   end
