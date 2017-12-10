@@ -1,16 +1,4 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz
-==> Best Mirror http://mirror.metrocast.net/apache/avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/avro-cpp/1.8.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall avro-cpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/avro-cpp/1.8.2: 50 files, 20.4MB, built in 34 seconds
-==> Determining avro-cpp bottle rebuild...
-==> Bottling avro-cpp-1.8.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if avro-cpp-1.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./avro-cpp-1.8.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "41f1aed77a7eab32a2125050d9cb6415b20e7c990a4c58f51a8cef03c06748b1" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/java/avro-tools-1.8.2.jar
+==> Best Mirror http://mirror.olnevhost.net/pub/apache/avro/avro-1.8.2/java/avro-tools-1.8.2.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/avro-tools/1.8.2: 4 files, 33.2MB, built in 9 seconds
+This formula doesn't require compiling.
