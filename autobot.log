@@ -1,37 +1,24 @@
-==> Installing dependencies for gdk-pixbuf: flex, gobject-introspection, shared-mime-info
-==> Installing gdk-pixbuf dependency: flex
-==> Downloading https://linuxbrew.bintray.com/bottles/flex-2.6.4.x86_64_linux.bottle.tar.gz
-==> Pouring flex-2.6.4.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flex/2.6.4: 47 files, 2MB
-==> Installing gdk-pixbuf dependency: gobject-introspection
-==> Downloading https://linuxbrew.bintray.com/bottles/gobject-introspection-1.54.1.x86_64_linux.bottle.tar.gz
-==> Pouring gobject-introspection-1.54.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gobject-introspection/1.54.1: 174 files, 13.5MB
-==> Installing gdk-pixbuf dependency: shared-mime-info
-==> Downloading https://linuxbrew.bintray.com/bottles/shared-mime-info-1.9.x86_64_linux.bottle.tar.gz
-==> Pouring shared-mime-info-1.9.x86_64_linux.bottle.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/shared-mime-info/1.9/bin/update-mime-database /home/linuxbrew/.linuxbrew/share/mime
-🍺  /home/linuxbrew/.linuxbrew/Cellar/shared-mime-info/1.9: 81 files, 5.3MB
-==> Installing gdk-pixbuf
-==> Downloading https://download.gnome.org/sources/gdk-pixbuf/2.36/gdk-pixbuf-2.36.11.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gdk-pixbuf/2.36/gdk-pixbuf-2.36.11.tar.xz
-==> ./configure --disable-maintainer-mode --enable-debug=no --prefix=/home/linuxbrew/.linuxbrew/Cellar/gdk-pixbuf/2.36.11 --disable-Bsymbolic --enable-static --without-gdiplus --enable-introspection=yes
-==> make
-==> make install
+==> Installing dependencies for geckodriver: libssh2, rust
+==> Installing geckodriver dependency: libssh2
+==> Downloading https://linuxbrew.bintray.com/bottles/libssh2-1.8.0.x86_64_linux.bottle.1.tar.gz
+==> Pouring libssh2-1.8.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libssh2/1.8.0: 183 files, 898.2KB
+==> Installing geckodriver dependency: rust
+==> Downloading https://linuxbrew.bintray.com/bottles/rust-1.22.1.x86_64_linux.bottle.tar.gz
+==> Pouring rust-1.22.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/rust/1.22.1: 6,213 files, 419.9MB
+==> Installing geckodriver
+==> Downloading https://github.com/mozilla/geckodriver/archive/v0.19.1.tar.gz
+==> Downloading from https://codeload.github.com/mozilla/geckodriver/tar.gz/v0.19.1
+==> cargo build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gdk-pixbuf`
-==> Caveats
-Programs that require this module need to set the environment variable
-  export GDK_PIXBUF_MODULEDIR="/home/linuxbrew/.linuxbrew/lib/gdk-pixbuf-2.0/2.10.0/loaders"
-If you need to manually update the query loader cache, set these variables then run
-  /home/linuxbrew/.linuxbrew/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gdk-pixbuf/2.36.11: 185 files, 5.4MB, built in 31 seconds
-==> Determining gdk-pixbuf bottle rebuild...
-==> Bottling gdk-pixbuf-2.36.11.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gdk-pixbuf-2.36.11.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gdk-pixbuf-2.36.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall geckodriver`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/geckodriver/0.19.1: 6 files, 42.7MB, built in 1 minute 7 seconds
+==> Determining geckodriver bottle rebuild...
+==> Bottling geckodriver-0.19.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if geckodriver-0.19.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./geckodriver-0.19.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "fd005f741ae40e43af783dad3632feaa38e892ae04d5d144451fa887c1b45536" => :x86_64_linux
+    sha256 "efec15f965874e4a82ef2bfa180935f04bff3cae8e6b432dc4bafeb82bfe0e0f" => :x86_64_linux
   end
