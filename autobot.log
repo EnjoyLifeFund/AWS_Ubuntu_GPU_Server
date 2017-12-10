@@ -1,8 +1,15 @@
-==> Determining scons bottle rebuild...
-==> Bottling scons-3.0.1.x86_64_linux.bottle.1.tar.gz...
-./scons-3.0.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://libsdl.org/release/SDL2-2.0.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sdl2/2.0.7_1 --disable-haptic --disable-joystick
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall sdl2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sdl2/2.0.7_1: 84 files, 8.9MB, built in 48 seconds
+==> Determining sdl2 bottle rebuild...
+==> Bottling sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "60ad942485d557920487d7412d42681a77a23053babdeda0445875ab083c5a6e" => :x86_64_linux
+    sha256 "500e2ede6581e5f1ed0754ec4577504a58c8ff4107410dc21f2a8cf63e112e49" => :x86_64_linux
   end
