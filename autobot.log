@@ -1,13 +1,15 @@
-==> Downloading https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz
-==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/align/1.7.5/bin
+==> Downloading http://www.winfield.demon.nl/linux/antiword-0.37.tar.gz
+==> make CC=gcc-5 LD=gcc-5 CFLAGS= -DNDEBUG GLOBAL_INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/bin GLOBAL_RESOURCES_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/share/antiword
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall align`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/align/1.7.5: 7 files, 43.1KB, built in 3 seconds
-==> Determining align bottle rebuild...
-==> Bottling align-1.7.5.x86_64_linux.bottle.1.tar.gz...
-./align-1.7.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall antiword`
+==> Caveats
+You can install mapping files in ~/.antiword
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/antiword/0.37: 40 files, 674.1KB, built in 4 seconds
+==> Determining antiword bottle rebuild...
+==> Bottling antiword-0.37.x86_64_linux.bottle.1.tar.gz...
+./antiword-0.37.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "437e3dfb41da43dfb4da140dbd497f9b452f46814e4bcf1f69d27c7ba9af9754" => :x86_64_linux
+    sha256 "24f5529d8053fdff839cef06f502f79c42488c4f8a7569429f0e51d03d9dae64" => :x86_64_linux
   end
