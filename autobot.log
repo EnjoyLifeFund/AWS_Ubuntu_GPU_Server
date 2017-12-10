@@ -1,13 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/apng2gif/apng2gif-1.8-src.zip
-==> Downloading from https://downloads.sourceforge.net/project/apng2gif/1.8/apng2gif-1.8-src.zip
-==> make
+==> Downloading https://github.com/apngasm/apngasm/archive/3.1.6.tar.gz
+==> Downloading from https://codeload.github.com/apngasm/apngasm/tar.gz/3.1.6
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/apngasm/3.1.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apng2gif`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apng2gif/1.8: 4 files, 45.0KB, built in 3 seconds
-==> Determining apng2gif bottle rebuild...
-==> Bottling apng2gif-1.8.x86_64_linux.bottle.tar.gz...
-./apng2gif-1.8.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall apngasm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apngasm/3.1.6: 19 files, 2.5MB, built in 18 seconds
+==> Determining apngasm bottle rebuild...
+==> Bottling apngasm-3.1.6.x86_64_linux.bottle.tar.gz...
+./apngasm-3.1.6.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "1efd89c2daf17f676c65470be8fb7ee7b638833578b3b2a5e33e7b0647a48ebb" => :x86_64_linux
+    sha256 "7f483aa5567045dcd81b07b5a5f8ed53d7f49ddf1600a214b732bf30e0fac5ab" => :x86_64_linux
   end
