@@ -1,8 +1,19 @@
-==> Determining zlib bottle rebuild...
-==> Bottling zlib-1.2.11.x86_64_linux.bottle.1.tar.gz...
-./zlib-1.2.11.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/aria2/aria2/releases/download/release-1.33.1/aria2-1.33.1.tar.xz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1116542/5e160b92-c4d1-11e7-8404-13d547df4381?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T214330Z&X-Amz-Expires=300&X-Amz-Signature=b3e449ee9b05e7257cc3b63bf1dd15b2baa2b2f3dd14f0e9878e06c4a893d770&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daria2-1.33.1.tar.xz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aria2/1.33.1 --without-appletls --with-openssl --without-gnutls --without-libgmp --without-libnettle --without-libgcrypt
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall aria2`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aria2/1.33.1: 64 files, 78.6MB, built in 1 minute 52 seconds
+==> Determining aria2 bottle rebuild...
+==> Bottling aria2-1.33.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if aria2-1.33.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./aria2-1.33.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ace2e6c8a7eb47725acafda46b4cdab20724ff43427bf8afe9d005532060888b" => :x86_64_linux
+    sha256 "64416829f261a018180da8762f5985366aee9d57288724c5e6f05c75f06bdb87" => :x86_64_linux
   end
