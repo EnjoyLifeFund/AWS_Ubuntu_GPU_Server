@@ -1,18 +1,7 @@
-==> Downloading http://download.augeas.net/augeas-1.9.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/augeas/1.9.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall augeas`
-==> Caveats
-Lenses have been installed to:
-  /home/linuxbrew/.linuxbrew/share/augeas/lenses/dist
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/augeas/1.9.0: 454 files, 9.9MB, built in 1 minute 9 seconds
-==> Determining augeas bottle rebuild...
-==> Bottling augeas-1.9.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if augeas-1.9.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./augeas-1.9.0.x86_64_linux.bottle.1.tar.gz
+==> Determining autoconf bottle rebuild...
+==> Bottling autoconf-2.69.x86_64_linux.bottle.tar.gz...
+./autoconf-2.69.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "8ea0f80398fcb6c610baaa88dc75dd0fce103d696d964e79e3770a2eae859138" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "3c3e5b52755054611a80684b0eabd794654859eb84563162be1a7ec532bdc211" => :x86_64_linux
   end
