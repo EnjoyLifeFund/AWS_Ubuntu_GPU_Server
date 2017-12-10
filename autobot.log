@@ -1,8 +1,15 @@
-==> Determining go bottle rebuild...
-==> Bottling go-1.9.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if go-1.9.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./go-1.9.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/tools/godep/archive/v79.tar.gz
+==> Downloading from https://codeload.github.com/tools/godep/tar.gz/v79
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/godep/79_8/bin/godep
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall godep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/godep/79_8: 6 files, 9.1MB, built in 2 seconds
+==> Determining godep bottle rebuild...
+==> Bottling godep-79_8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if godep-79_8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./godep-79_8.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b0235a80193230e74fc7e2e004863ac213132949b17d2650156ba96eb088322b" => :x86_64_linux
+    sha256 "96b1078cbfb277d074b201c8e2064cc659279ca59ef628dc80ee235384c99fd1" => :x86_64_linux
   end
