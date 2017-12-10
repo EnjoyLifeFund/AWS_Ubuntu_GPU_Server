@@ -1,24 +1,7 @@
-==> Installing dependencies for cunit: libtool
-==> Installing cunit dependency: libtool
-==> Downloading https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.x86_64_linux.bottle.tar.gz
-==> Pouring libtool-2.4.6_2.x86_64_linux.bottle.tar.gz
-==> Caveats
-In order to prevent conflicts with Apple's own libtool we have prepended a "g"
-so, you have instead: glibtool and glibtoolize.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtool/2.4.6_2: 73 files, 3.7MB
-==> Installing cunit
-==> Downloading https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
-==> Downloading from https://gigenet.dl.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
-==> sh bootstrap /home/linuxbrew/.linuxbrew/Cellar/cunit/2.1-3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cunit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cunit/2.1-3: 55 files, 1.7MB, built in 22 seconds
-==> Determining cunit bottle rebuild...
-==> Bottling cunit-2.1-3.x86_64_linux.bottle.1.tar.gz...
-./cunit-2.1-3.x86_64_linux.bottle.1.tar.gz
+==> Determining curl bottle rebuild...
+==> Bottling curl-7.57.0.x86_64_linux.bottle.1.tar.gz...
+./curl-7.57.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "05a22f4a8feddfdf5d733dc4224c4d05929f78a4ffe7bb9c50b2cdd16a918485" => :x86_64_linux
+    sha256 "ddde670f398a30889b504705cfe23456380917122019c35f0b69b6276e1d04a4" => :x86_64_linux
   end
