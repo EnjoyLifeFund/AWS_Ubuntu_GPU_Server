@@ -1,14 +1,14 @@
-==> Downloading https://savannah.nongnu.org/download/openexr/ilmbase-2.2.0.tar.gz
-==> Downloading from http://download.savannah.gnu.org/releases/openexr/ilmbase-2.2.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ilmbase/2.2.0
+==> Downloading https://dl.bintray.com/homebrew/mirror/imagemagick-7.0.7-14.tar.xz
+==> ./configure --disable-osx-universal-binary --prefix=/home/linuxbrew/.linuxbrew/Cellar/imagemagick/7.0.7-14 --disable-silent-rules --enable-shared --enable-static --with-modules --disable-opencl --disable-openmp --without-webp --without-openjp2 --without-gslib --with-gs-font-dir=/home/linuxbrew/.linuxbrew/share/ghostscript/fonts --without-fftw --without-pango --without-x --with-freetype=yes --without-wmf
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ilmbase`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ilmbase/2.2.0: 315 files, 8.9MB, built in 26 seconds
-==> Determining ilmbase bottle rebuild...
-==> Bottling ilmbase-2.2.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if ilmbase-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
-./ilmbase-2.2.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall imagemagick`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/imagemagick/7.0.7-14: 1,288 files, 56.9MB, built in 1 minute 49 seconds
+==> Determining imagemagick bottle rebuild...
+==> Bottling imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz is relocatable...
+./imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "4505e8a2dac37857a371c08e386113e9d783dca45bfbedb55a5e485291060b33" => :x86_64_linux
+    rebuild 1
+    sha256 "737443c812e7b9ef3ebb224ee8958aa930b2543766d338396c951f4e20619a8c" => :x86_64_linux
   end
