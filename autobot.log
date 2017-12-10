@@ -1,13 +1,13 @@
-==> Downloading https://bues.ch/b43/fwcutter/b43-fwcutter-019.tar.bz2
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/b43-fwcutter/019 install
+==> Downloading https://registry.npmjs.org/babel-cli/-/babel-cli-6.24.1.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/babel/6.24.1/libexec /tmp/babel-20171210-15279-nhqatd/package/babel-cli-6.24.1.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall b43-fwcutter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/b43-fwcutter/019: 6 files, 73.8KB, built in 18 seconds
-==> Determining b43-fwcutter bottle rebuild...
-==> Bottling b43-fwcutter-019.x86_64_linux.bottle.1.tar.gz...
-./b43-fwcutter-019.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall babel`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/babel/6.24.1: 3,516 files, 8.0MB, built in 1 minute 46 seconds
+==> Determining babel bottle rebuild...
+==> Bottling babel-6.24.1.x86_64_linux.bottle.tar.gz...
+==> Detecting if babel-6.24.1.x86_64_linux.bottle.tar.gz is relocatable...
+./babel-6.24.1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d8565d8193e82e7dbb444734053651226eb6a6c77d829c8dc07459fd88a114d1" => :x86_64_linux
+    sha256 "cd914f12363d74230466f5bd35f5b2f02ad7d3675c6ea9359806bc855144c12e" => :x86_64_linux
   end
