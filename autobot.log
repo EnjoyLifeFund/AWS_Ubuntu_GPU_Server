@@ -1,17 +1,16 @@
-==> Downloading https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.9.tar.gz
-==> Downloading from https://download-mirror.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lzlib/1.9 CC=gcc-5 CFLAGS=
+==> Downloading https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lzo/2.10 --enable-shared
 ==> make
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lzlib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lzlib/1.9: 11 files, 157.1KB, built in 6 seconds
-==> Determining lzlib bottle rebuild...
-==> Bottling lzlib-1.9.x86_64_linux.bottle.1.tar.gz...
-./lzlib-1.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lzo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lzo/2.10: 29 files, 950.8KB, built in 33 seconds
+==> Determining lzo bottle rebuild...
+==> Bottling lzo-2.10.x86_64_linux.bottle.1.tar.gz...
+./lzo-2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c5cb384344d990a2611b9fff71496a640ef0e7bc5cf6e745e3e6405c69ae1938" => :x86_64_linux
+    sha256 "eb50b4e79584b13af868c4da234ccc6b0ed411ac2a4354350bdf21560ae5c700" => :x86_64_linux
   end
