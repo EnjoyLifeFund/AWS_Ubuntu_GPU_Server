@@ -1,8 +1,15 @@
-==> Determining proj bottle rebuild...
-==> Bottling proj-4.9.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if proj-4.9.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./proj-4.9.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/pyenv/pyenv/archive/v1.1.5.tar.gz
+==> Downloading from https://codeload.github.com/pyenv/pyenv/tar.gz/v1.1.5
+==> src/configure
+==> make -C src
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall pyenv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pyenv/1.1.5: 594 files, 2.8MB, built in 2 seconds
+==> Determining pyenv bottle rebuild...
+==> Bottling pyenv-1.1.5.x86_64_linux.bottle.1.tar.gz...
+./pyenv-1.1.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "218b1218c5019f77ea0e8573c48d0e02a9d7f547ff25bafbba40ec0c6d8111a7" => :x86_64_linux
+    sha256 "3e9381fc97b09e667bfbb7baa57bca1bc28359f56571b4a8db4ac51e7c7e4d9d" => :x86_64_linux
   end
