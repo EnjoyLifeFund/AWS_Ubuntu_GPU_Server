@@ -1,12 +1,17 @@
-==> Downloading http://avce00.maptools.org/dl/avce00-2.0.0.tar.gz
-==> make CC=gcc-5
+==> Downloading https://downloads.sourceforge.net/project/avf/avfs/1.0.5/avfs-1.0.5.tar.bz2
+==> Downloading from https://versaweb.dl.sourceforge.net/project/avf/avfs/1.0.5/avfs-1.0.5.tar.bz2
+==> Patching
+patching file scripts/mountavfs
+patching file scripts/umountavfs
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/avfs/1.0.5 --disable-silent-rules --enable-fuse --enable-library
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall avce00`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/avce00/2.0.0: 19 files, 1.3MB, built in 4 seconds
-==> Determining avce00 bottle rebuild...
-==> Bottling avce00-2.0.0.x86_64_linux.bottle.1.tar.gz...
-./avce00-2.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall avfs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/avfs/1.0.5: 55 files, 1.3MB, built in 17 seconds
+==> Determining avfs bottle rebuild...
+==> Bottling avfs-1.0.5.x86_64_linux.bottle.1.tar.gz...
+./avfs-1.0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bd7ef6b4c4c1cb8d15de7d9225ba1b5ed87e12fdad2d744e0919cf474b736aaf" => :x86_64_linux
+    sha256 "73f70253517b9fb70b09451a153146bd5d30253cbef56ee53cb972497ce57f0c" => :x86_64_linux
   end
