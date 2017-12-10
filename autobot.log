@@ -1,30 +1,8 @@
-==> Installing h5utils from homebrew/science
-==> Installing dependencies for homebrew/science/h5utils: szip, hdf5
-==> Installing homebrew/science/h5utils dependency: szip
-==> Downloading https://linuxbrew.bintray.com/bottles/szip-2.1.1.x86_64_linux.bottle.tar.gz
-==> Pouring szip-2.1.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/szip/2.1.1: 12 files, 142.3KB
-==> Installing homebrew/science/h5utils dependency: hdf5
-==> Downloading https://linuxbrew.bintray.com/bottles/hdf5-1.10.1_2.x86_64_linux.bottle.tar.gz
-==> Pouring hdf5-1.10.1_2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hdf5/1.10.1_2: 275 files, 20.3MB
-==> Installing homebrew/science/h5utils
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading http://ab-initio.mit.edu/h5utils/h5utils-1.12.1.tar.gz
-==> Downloading https://trac.macports.org/export/102291/trunk/dports/science/h5utils/files/patch-writepng.c
-==> Patching
-==> Applying patch-writepng.c
-patching file writepng.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/h5utils/1.12.1_6 --without-octave
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/h5utils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/h5utils/1.12.1_6: 37 files, 440.3KB, built in 12 seconds
-==> Determining homebrew/science/h5utils bottle rebuild...
-==> Bottling h5utils-1.12.1_6.x86_64_linux.bottle.1.tar.gz...
-./h5utils-1.12.1_6.x86_64_linux.bottle.1.tar.gz
+==> Determining hdf5 bottle rebuild...
+==> Bottling hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "84c01ca912cac955d7ea8784ebdc9e0480e435e1824bf6cdf5db730ede793cdf" => :x86_64_linux
+    sha256 "58927113af0bc243620ef91e2ed8815c4f47d9c40fbe3552cd2ad3f97d2e9439" => :x86_64_linux
   end
