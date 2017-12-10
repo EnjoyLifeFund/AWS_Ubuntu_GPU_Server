@@ -1,27 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/squashfs/squashfs/squashfs4.3/squashfs4.3.tar.gz
-==> Downloading from https://gigenet.dl.sourceforge.net/project/squashfs/squashfs/squashfs4.3/squashfs4.3.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/05ae0eb1/squashfs/squashfs-osx-bundle.diff
-==> Patching
-==> Applying squashfs-osx-bundle.diff
-patching file squashfs-tools/action.c
-patching file squashfs-tools/info.c
-patching file squashfs-tools/mksquashfs.c
-patching file squashfs-tools/mksquashfs.h
-patching file squashfs-tools/pseudo.c
-patching file squashfs-tools/read_xattrs.c
-patching file squashfs-tools/unsquashfs.c
-patching file squashfs-tools/unsquashfs.h
-patching file squashfs-tools/unsquashfs_info.c
-patching file squashfs-tools/unsquashfs_xattr.c
-patching file squashfs-tools/xattr.c
-==> make XATTR_SUPPORT=0 EXTRA_CFLAGS=-std=gnu89 LZO_SUPPORT=1 LZO_DIR=/home/linuxbrew/.linuxbrew/opt/lzo XZ_SUPPORT=1 XZ_DIR=/home/linuxbrew/.linuxbrew/opt/xz
+==> Downloading https://github.com/libfuse/sshfs/releases/download/sshfs-2.10/sshfs-2.10.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/48388286/1a36a668-7876-11e7-8987-bb8725a9b74a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T165015Z&X-Amz-Expires=300&X-Amz-Signature=36626914549b4fb0debbe40a9e9b08f5d1e99bd7592024b00d1faa4fdb462376&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dsshfs-2.10.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sshfs/2.10
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall squashfs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/squashfs/4.3: 21 files, 629.6KB, built in 4 seconds
-==> Determining squashfs bottle rebuild...
-==> Bottling squashfs-4.3.x86_64_linux.bottle.tar.gz...
-./squashfs-4.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall sshfs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sshfs/2.10: 6 files, 443.6KB, built in 6 seconds
+==> Determining sshfs bottle rebuild...
+==> Bottling sshfs-2.10.x86_64_linux.bottle.1.tar.gz...
+./sshfs-2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "1b63eb392dafbd7753e12074aae670be02822a4e5f3b8cdae696e8fec5aa0293" => :x86_64_linux
+    rebuild 1
+    sha256 "d93cf3b884836b4c611df7a609d82a146cab01b2027459be2dd46b82d528b172" => :x86_64_linux
   end
