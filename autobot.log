@@ -1,13 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/a-a-p/aap-1.094.zip
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/a-a-p/aap-1.094.zip
-==> ./aap install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/aap/1.094 MANSUBDIR=share/man
+==> Downloading https://github.com/leesavide/abcm2ps/archive/v8.13.17.tar.gz
+==> Downloading from https://codeload.github.com/leesavide/abcm2ps/tar.gz/v8.13.17
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/abcm2ps/8.13.17
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aap/1.094: 166 files, 3.3MB, built in 2 seconds
-==> Determining aap bottle rebuild...
-==> Bottling aap-1.094.x86_64_linux.bottle.tar.gz...
-./aap-1.094.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall abcm2ps`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/abcm2ps/8.13.17: 24 files, 1.3MB, built in 4 seconds
+==> Determining abcm2ps bottle rebuild...
+==> Bottling abcm2ps-8.13.17.x86_64_linux.bottle.1.tar.gz...
+./abcm2ps-8.13.17.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "5543211fd71bd64915e0dc9641d5ebf8bb89ad5c7b9bb58f1d5d6518557fdb70" => :x86_64_linux
+    rebuild 1
+    sha256 "3ee785035e56279407f412722fffa98a894ef3fe339b748f13fabd7d5b3f5648" => :x86_64_linux
   end
