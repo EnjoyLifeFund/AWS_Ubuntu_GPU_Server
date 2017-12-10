@@ -1,8 +1,6 @@
 bot_path
-x86-64_llvm-4.0.1.high_sierra.bottle.1.tar.gzbot_path
-i386-llvm-4.0.1.high_sierra.bottle.1.tar.gz
-llvm-5.0.0.high_sierra.bottle.1.tar.gz
-rust-1.20.0.high_sierra.bottle.1.tar.gz
+llvm-*.bottle.*.tar.gz
+rust-*.bottle.*.tar.gz
 message.txt
 tmpBot
 tmpbot
@@ -11,4 +9,4 @@ tobe.run
 tobe.install
 tobe.move
 nohup.out
-ghc-8.2.2.x86_64_linux.bottle.1.tar.gz
+ghc-*.bottle.*.tar.gz
