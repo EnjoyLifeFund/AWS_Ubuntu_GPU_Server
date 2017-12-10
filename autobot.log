@@ -1,8 +1,8 @@
-==> Determining libunistring bottle rebuild...
-==> Bottling libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "557296c34f064fcda6ce000772d7754c992bd70fb80422cdb3aeb5a1b1a6fa7c" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=geode/1.3.0/apache-geode-1.3.0.tgz
+==> Best Mirror http://apache.mirrors.pair.com/geode/1.3.0/apache-geode-1.3.0.tgz
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-geode/1.3.0: 847 files, 110.6MB, built in 30 seconds
+This formula doesn't require compiling.
