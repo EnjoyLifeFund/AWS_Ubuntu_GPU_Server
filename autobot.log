@@ -1,7 +1,14 @@
-==> Determining autoconf bottle rebuild...
-==> Bottling autoconf-2.69.x86_64_linux.bottle.tar.gz...
-./autoconf-2.69.x86_64_linux.bottle.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/autoconf-archive/autoconf-archive-2017.09.28.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autoconf-archive/2017.09.28
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autoconf-archive`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autoconf-archive/2017.09.28: 583 files, 3.5MB, built in 7 seconds
+==> Determining autoconf-archive bottle rebuild...
+==> Bottling autoconf-archive-2017.09.28.x86_64_linux.bottle.1.tar.gz...
+./autoconf-archive-2017.09.28.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "3c3e5b52755054611a80684b0eabd794654859eb84563162be1a7ec532bdc211" => :x86_64_linux
+    rebuild 1
+    sha256 "a23ecadbcfc485757c52258518c28039bfe4289768a7c401951ac085803304a8" => :x86_64_linux
   end
