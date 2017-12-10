@@ -1,11 +1,10 @@
-==> Downloading https://downloads.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/autopsy/autopsy/2.24/autopsy-2.24.tar.gz
+==> Downloading from https://svwh.dl.sourceforge.net/project/autopsy/autopsy/2.24/autopsy-2.24.tar.gz
+==> Patching
+patching file base/autopsy.base
 ==> Caveats
-You will have to edit
-  /home/linuxbrew/.linuxbrew/etc/automysqlbackup/automysqlbackup.conf
-to set AutoMySQLBackup up to find your database and backup directory.
-
-The included plist file will run AutoMySQLBackup every day at 04:00.
+By default, the evidence locker is in:
+  /home/linuxbrew/.linuxbrew/var/lib/autopsy
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/automysqlbackup/3.0-rc6: 6 files, 135KB, built in 1 second
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autopsy/2.24: 179 files, 964.8KB, built in 2 seconds
 This formula doesn't require compiling.
