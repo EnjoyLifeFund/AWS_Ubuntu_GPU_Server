@@ -1,33 +1,8 @@
-==> Installing dependencies for gnuplot: lua
-==> Installing gnuplot dependency: lua
-==> Downloading https://linuxbrew.bintray.com/bottles/lua-5.3.4_2.x86_64_linux.bottle.tar.gz
-==> Pouring lua-5.3.4_2.x86_64_linux.bottle.tar.gz
-==> Caveats
-Please be aware due to the way Luarocks is designed any binaries installed
-via Luarocks-5.3 AND 5.1 will overwrite each other in /home/linuxbrew/.linuxbrew/bin.
-
-This is, for now, unavoidable. If this is troublesome for you, you can build
-rocks with the `--tree=` command to a special, non-conflicting location and
-then add that to your `$PATH`.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lua/5.3.4_2: 145 files, 1.7MB
-==> Installing gnuplot
-==> Downloading https://downloads.sourceforge.net/project/gnuplot/gnuplot/5.2.2/gnuplot-5.2.2.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/gnuplot/gnuplot/5.2.2/gnuplot-5.2.2.tar.gz
-==> Downloading http://apps.jcns.fz-juelich.de/src/libcerf/libcerf-1.5.tgz
-==> ./configure --prefix=/tmp/gnuplot-20171210-120532-npz9oq/gnuplot-5.2.2/libcerf --enable-static --disable-shared
-==> make install
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnuplot/5.2.2_1 --with-readline=/home/linuxbrew/.linuxbrew/opt/readline --without-tutorial --disable-wxwidgets --without-cairo --with-qt=no --without-aquaterm --without-x
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnuplot`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnuplot/5.2.2_1: 45 files, 6MB, built in 1 minute 32 seconds
-==> Determining gnuplot bottle rebuild...
-==> Bottling gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz
+==> Determining go bottle rebuild...
+==> Bottling go-1.9.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if go-1.9.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./go-1.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5737db088ef6aaba858f87f63f08c2874bc68e064f5954ebab27687632c26a17" => :x86_64_linux
+    sha256 "b0235a80193230e74fc7e2e004863ac213132949b17d2650156ba96eb088322b" => :x86_64_linux
   end
