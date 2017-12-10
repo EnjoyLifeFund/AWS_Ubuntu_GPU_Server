@@ -1,15 +1,8 @@
-==> Downloading https://www.gaia-gis.it/gaia-sins/freexl-sources/freexl-1.0.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freexl/1.0.4 --disable-silent-rules
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall freexl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/freexl/1.0.4: 10 files, 283.6KB, built in 20 seconds
-==> Determining freexl bottle rebuild...
-==> Bottling freexl-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./freexl-1.0.4.x86_64_linux.bottle.1.tar.gz
+==> Determining gcc bottle rebuild...
+==> Bottling gcc-5.4.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gcc-5.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gcc-5.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "297c08028331b70e0076923d9038f92a7d880152eeefae032a67f03c4d258f37" => :x86_64_linux
+    sha256 "336fed1ae65657e9cff134380c5f11fc28194c26448ac3508466d64431a1e8d6" => :x86_64_linux
   end
