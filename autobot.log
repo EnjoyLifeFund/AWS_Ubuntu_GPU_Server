@@ -1,13 +1,13 @@
-==> Downloading http://www.antlr3.org/download/antlr-3.5.2-complete.jar
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/aoeui/aoeui-1.6.tgz
+==> make INST_DIR=/home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall antlr@3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/antlr@3/3.5.2: 5 files, 2.4MB, built in 0 seconds
-==> Determining antlr@3 bottle rebuild...
-==> Bottling antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall aoeui`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6: 12 files, 262.2KB, built in 1 second
+==> Determining aoeui bottle rebuild...
+==> Bottling aoeui-1.6.x86_64_linux.bottle.1.tar.gz...
+./aoeui-1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5bf9b473322ebe4bc61918ed350d961ca27c89f7c709a9ed0eebcd3d2684b0c9" => :x86_64_linux
+    sha256 "bb95741fd3853b601d15da7f467a450f85c79bd1d6e1682482e2fe4b94fde81f" => :x86_64_linux
   end
