@@ -1,6 +1,6 @@
-admesh: stable 0.98.3 (bottled)
-Processes triangulated solid meshes
-https://github.com/admesh/admesh
-/home/linuxbrew/.linuxbrew/Cellar/admesh/0.98.3 (17 files, 506.2KB) *
-  Built from source on 2017-12-10 at 13:34:55
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/admesh.rb
+adns: stable 1.5.1 (bottled), HEAD
+C/C++ resolver library and DNS resolver utilities
+https://www.chiark.greenend.org.uk/~ian/adns/
+/home/linuxbrew/.linuxbrew/Cellar/adns/1.5.1 (14 files, 2.6MB) *
+  Built from source on 2017-12-10 at 13:37:07
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/adns.rb
