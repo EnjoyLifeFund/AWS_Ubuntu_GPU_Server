@@ -1,4 +1,8 @@
-==> Downloading https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.3.0.jar
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/0becf6a1-1706-4f2e-9ae6-891e00a8dd5f/downloads/c2a4217f-24bc-4ea6-b43d-9a544204b87a/apktool_2.3.0.jar?Signature=BZ4DSKxE6YNVD%2BRQcGRwhXYnNHg%3D&Expires=1512922709&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=5DwwECoLNr6.WoR647O7hV76Bzqa8bJH&response-content-disposition=attachment%3B%20filename%3D%22apktool_2.3.0.jar%22
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apktool/2.3.0: 4 files, 5.6MB, built in 3 seconds
+==> Downloading https://github.com/vigo/apm-bash-completion/archive/1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/vigo/apm-bash-completion/tar.gz/1.0.0
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apm-bash-completion/1.0.0: 4 files, 20.2KB, built in 1 second
 This formula doesn't require compiling.
