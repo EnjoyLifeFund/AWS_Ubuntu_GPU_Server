@@ -1,28 +1,15 @@
-==> Downloading https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
-==> Patching
-patching file interfaces/cc/aspell.h
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1
-==> make install
-==> Downloading https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2017.01.22-0.tar.bz2
-==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
-==> make install
-==> Downloading https://ftp.gnu.org/gnu/aspell/dict/de/aspell6-de-20030222-1.tar.bz2
-==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
-==> make install
-==> Downloading https://ftp.gnu.org/gnu/aspell/dict/es/aspell6-es-1.11-2.tar.bz2
-==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
-==> make install
-==> Downloading https://ftp.gnu.org/gnu/aspell/dict/fr/aspell-fr-0.50-3.tar.bz2
-==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
-==> make install
+==> Downloading https://github.com/moul/advanced-ssh-config/archive/v2.7.0.tar.gz
+==> Downloading from https://codeload.github.com/moul/advanced-ssh-config/tar.gz/v2.7.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/assh/2.7.0/bin/assh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aspell`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1: 282 files, 53.9MB, built in 34 seconds
-==> Determining aspell bottle rebuild...
-==> Bottling aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall assh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/assh/2.7.0: 3 files, 8.7MB, built in 7 seconds
+==> Determining assh bottle rebuild...
+==> Bottling assh-2.7.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if assh-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./assh-2.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "481f413e0fb6ff2105df63fabc366a364d9342ca91700685b386acb7d590dd16" => :x86_64_linux
+    sha256 "3330ddad65f7e3de78a7044e0d0f75224656d9d0cefe66b6808c4f53cf3259ef" => :x86_64_linux
   end
