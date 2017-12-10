@@ -1,17 +1,17 @@
-==> Downloading https://downloads.sourceforge.net/project/avf/avfs/1.0.5/avfs-1.0.5.tar.bz2
-==> Downloading from https://versaweb.dl.sourceforge.net/project/avf/avfs/1.0.5/avfs-1.0.5.tar.bz2
+==> Downloading https://downloads.sourceforge.net/aa-project/aview-1.3.0rc1.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/aa-project/aview/1.3.0rc1/aview-1.3.0rc1.tar.gz
 ==> Patching
-patching file scripts/mountavfs
-patching file scripts/umountavfs
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/avfs/1.0.5 --disable-silent-rules --enable-fuse --enable-library
+patching file image.c
+patching file ui.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aview/1.3.0rc1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/aview/1.3.0rc1/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall avfs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/avfs/1.0.5: 55 files, 1.3MB, built in 17 seconds
-==> Determining avfs bottle rebuild...
-==> Bottling avfs-1.0.5.x86_64_linux.bottle.1.tar.gz...
-./avfs-1.0.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall aview`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aview/1.3.0rc1: 13 files, 602.8KB, built in 5 seconds
+==> Determining aview bottle rebuild...
+==> Bottling aview-1.3.0rc1.x86_64_linux.bottle.1.tar.gz...
+./aview-1.3.0rc1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "73f70253517b9fb70b09451a153146bd5d30253cbef56ee53cb972497ce57f0c" => :x86_64_linux
+    sha256 "84b195cd7834a852a7e346e8581ad97ac5c41eb323b91f8f028373b00784e1a3" => :x86_64_linux
   end
