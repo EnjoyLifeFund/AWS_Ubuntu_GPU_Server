@@ -1,30 +1,25 @@
-==> Installing dependencies for gcsfuse: go
-==> Installing gcsfuse dependency: go
-==> Downloading https://linuxbrew.bintray.com/bottles/go-1.9.2.x86_64_linux.bottle.tar.gz
-==> Pouring go-1.9.2.x86_64_linux.bottle.tar.gz
-==> Caveats
-A valid GOPATH is required to use the `go get` command.
-If $GOPATH is not specified, $HOME/go will be used by default:
-  https://golang.org/doc/code.html#GOPATH
-
-You may wish to add the GOROOT-based install location to your PATH:
-  export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go/libexec/bin
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/go/1.9.2: 7,646 files, 299.4MB
-==> Installing gcsfuse
-==> Downloading https://github.com/GoogleCloudPlatform/gcsfuse/archive/v0.23.0.tar.gz
-==> Downloading from https://codeload.github.com/GoogleCloudPlatform/gcsfuse/tar.gz/v0.23.0
-==> go build ./tools/build_gcsfuse
-==> ./build_gcsfuse /tmp/gcsfuse-20171210-63042-cuavct/gcsfuse-0.23.0 /home/linuxbrew/.linuxbrew/Cellar/gcsfuse/0.23.0 0.23.0
+==> Installing dependencies for gd: libtiff, webp
+==> Installing gd dependency: libtiff
+==> Downloading https://linuxbrew.bintray.com/bottles/libtiff-4.0.8_5.x86_64_linux.bottle.tar.gz
+==> Pouring libtiff-4.0.8_5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtiff/4.0.8_5: 247 files, 8.0MB
+==> Installing gd dependency: webp
+==> Downloading https://linuxbrew.bintray.com/bottles/webp-0.6.1.x86_64_linux.bottle.tar.gz
+==> Pouring webp-0.6.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/webp/0.6.1: 42 files, 13.5MB
+==> Installing gd
+==> Downloading https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.xz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/29669711/cac200cc-8d93-11e7-9c70-b1687d0c51f4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T121050Z&X-Amz-Expires=300&X-Amz-Signature=d6b544084a172db741cadceaa39b504746a56b41d5035e1b789af006d7f47cdc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibgd-2.2.5.tar.xz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gd/2.2.5 --with-freetype=/home/linuxbrew/.linuxbrew/opt/freetype --with-png=/home/linuxbrew/.linuxbrew/opt/libpng --without-x --without-xpm
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gcsfuse`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gcsfuse/0.23.0: 7 files, 12.3MB, built in 5 seconds
-==> Determining gcsfuse bottle rebuild...
-==> Bottling gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gd/2.2.5: 33 files, 4.5MB, built in 16 seconds
+==> Determining gd bottle rebuild...
+==> Bottling gd-2.2.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gd-2.2.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gd-2.2.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "632dd8e0804d4e5fb8504dc4aaaa18e9c6faf0e4920f2db0a4b9b638963519cc" => :x86_64_linux
+    sha256 "e42b9c474340586e29e08885c4786a6b224d7a40d66701c65c0d6a5638f7436e" => :x86_64_linux
   end
