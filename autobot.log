@@ -1,14 +1,19 @@
-==> Downloading http://www.harding.motd.ca/autossh/autossh-1.4e.tgz
+==> Downloading https://downloads.sourceforge.net/project/avanor/avanor/0.5.8/avanor-0.5.8-src.tar.bz2
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/avanor/avanor/0.5.8/avanor-0.5.8-src.tar.bz2
+==> Downloading https://gist.githubusercontent.com/mistydemeo/64f47233ee64d55cb7d5/raw/c1847d7e3a134e6109ad30ce1968919dd962e727/avanor-clang.diff
 ==> Patching
-patching file rscreen
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e --mandir=/home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e/share/man
-==> make install
+==> Applying avanor-clang.diff
+patching file game/location.h
+patching file game/cave.cpp
+patching file creature/creature.h
+==> make DATA_DIR=/home/linuxbrew/.linuxbrew/Cellar/avanor/0.5.8/share/avanor/ CC=g++-5 LD=g++-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autossh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e: 11 files, 149.0KB, built in 14 seconds
-==> Determining autossh bottle rebuild...
-==> Bottling autossh-1.4e.x86_64_linux.bottle.tar.gz...
-./autossh-1.4e.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall avanor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/avanor/0.5.8: 21 files, 929.2KB, built in 6 seconds
+==> Determining avanor bottle rebuild...
+==> Bottling avanor-0.5.8.x86_64_linux.bottle.1.tar.gz...
+./avanor-0.5.8.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "160faff00766ec177265ee047cc6cea59bad47565b4b4a5c66fcc49c58d0f173" => :x86_64_linux
+    rebuild 1
+    sha256 "916d55e5d37b4faf152b81d3d27d8ec5e8b29319b09b31dcd51b53beefde1fb0" => :x86_64_linux
   end
