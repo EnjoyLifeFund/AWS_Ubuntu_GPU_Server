@@ -1,15 +1,22 @@
-==> Downloading https://downloads.sourceforge.net/aften/aften-0.0.8.tar.bz2
-==> Downloading from https://downloads.sourceforge.net/project/aften/aften/0.0.8/aften-0.0.8.tar.bz2
-==> cmake -DSHARED=ON .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/aften/0.0.8 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Installing dependencies for agedu: halibut
+==> Installing agedu dependency: halibut
+==> Downloading https://www.chiark.greenend.org.uk/~sgtatham/halibut/halibut-1.2/halibut-1.2.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2 mandir=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2/share/man all
+==> make -C doc prefix=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2 mandir=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2/share/man
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2 mandir=/home/linuxbrew/.linuxbrew/Cellar/halibut/1.2/share/man install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/halibut/1.2: 5 files, 1.5MB, built in 6 seconds
+==> Installing agedu
+==> Downloading https://www.chiark.greenend.org.uk/~sgtatham/agedu/agedu-20171202.8a8299e.tar.gz
+==> ./mkauto.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/agedu/20171202
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aften`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aften/0.0.8: 14 files, 591.7KB, built in 10 seconds
-==> Determining aften bottle rebuild...
-==> Bottling aften-0.0.8.x86_64_linux.bottle.1.tar.gz...
-./aften-0.0.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall agedu`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/agedu/20171202: 6 files, 363.5KB, built in 20 seconds
+==> Determining agedu bottle rebuild...
+==> Bottling agedu-20171202.x86_64_linux.bottle.1.tar.gz...
+./agedu-20171202.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a75c696a8f59d2d86965925d4aa28b47164092020ea13bd18c3fb937e43615d7" => :x86_64_linux
+    sha256 "52151bf461e57b3c94ec15367a7862237afea1f9156bc5f78ebd59ef34912c8e" => :x86_64_linux
   end
