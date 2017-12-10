@@ -1,9 +1,23 @@
-==> Determining x264 bottle rebuild...
-==> Bottling x264-r2795.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if x264-r2795.x86_64_linux.bottle.1.tar.gz is relocatable...
-./x264-r2795.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://bitbucket.org/multicoreware/x265/downloads/x265_2.6.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/b8d6bf3b-c76e-4683-87c4-31459ce32bdd/downloads/e22bb5c3-787c-4616-a96c-86e46aa0bb3b/x265_2.6.tar.gz?Signature=2JfdJ0x3qeuhgnuCGMBY%2BMiImEI%3D&Expires=1512928300&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=OrmI__6qgA3_47DzGLHMU77TOOS50nEL&response-content-disposition=attachment%3B%20filename%3D%22x265_2.6.tar.gz%22
+==> cmake /tmp/x265-20171210-53815-kobjzn/x265_v2.6/source -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/x265/2.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DHIGH_BIT_DEPTH=ON -DEXPORT_C_API=OFF -DENABLE_SHARED=OFF -DENABLE_CLI=OFF
+==> make
+==> cmake /tmp/x265-20171210-53815-kobjzn/x265_v2.6/source -DMAIN12=ON -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/x265/2.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DHIGH_BIT_DEPTH=ON -DEXPORT_C_API=OFF -DENABLE_SHARED=OFF -DENABLE_CLI=OFF
+==> make
+==> cmake /tmp/x265-20171210-53815-kobjzn/x265_v2.6/source -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/x265/2.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DLINKED_10BIT=ON -DLINKED_12BIT=ON -DEXTRA_LINK_FLAGS=-L. -DEXTRA_LIB=x265_main10.a;x265_main12.a
+==> make
+==> ar cr libx265.a libx265_main.a libx265_main10.a libx265_main12.a
+==> ranlib libx265.a
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall x265`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/x265/2.6: 11 files, 33.0MB, built in 3 minutes 18 seconds
+==> Determining x265 bottle rebuild...
+==> Bottling x265-2.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if x265-2.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./x265-2.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "3a2c697f4d206d3ea3eec91ef9da4f0b49e00a77d8db0da413a939b65c80a4bb" => :x86_64_linux
+    sha256 "ceebb0aacc591d17e30c96485d78c1ca112d1cb147bcccddc4c525d822fabb9e" => :x86_64_linux
   end
