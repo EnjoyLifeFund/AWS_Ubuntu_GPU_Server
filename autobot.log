@@ -1,4 +1,19 @@
-==> Downloading https://www.apache.org/dyn/closer.lua?path=zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
-==> Best Mirror http://mirrors.ocf.berkeley.edu/apache/zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-zeppelin/0.7.3: 1,837 files, 898MB, built in 1 minute 19 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/APE-Project/APE_Server/archive/v1.1.2.tar.gz
+==> Downloading from https://codeload.github.com/APE-Project/APE_Server/tar.gz/v1.1.2
+==> ./build.sh
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/ape/1.1.2
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ape`
+==> Caveats
+The default configuration file is stored in /home/linuxbrew/.linuxbrew/etc. You should load aped with:
+  aped --cfg /home/linuxbrew/.linuxbrew/etc/ape.conf
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ape/1.1.2: 30 files, 4.3MB, built in 1 minute 24 seconds
+==> Determining ape bottle rebuild...
+==> Bottling ape-1.1.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ape-1.1.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ape-1.1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d82039aa3166b01c0dc6af16c3a5414a490c13a1025f07f623b8bef0571822a5" => :x86_64_linux
+  end
