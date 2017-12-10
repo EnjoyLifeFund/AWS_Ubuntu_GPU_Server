@@ -1,5 +1,28 @@
-==> Downloading https://www.eclipse.org/downloads/download.php?r=1&file=/tools/aspectj/aspectj-1.8.13.jar
-==> Downloading from http://download.eclipse.org/tools/aspectj/aspectj-1.8.13.jar
-==> java -jar aspectj-1.8.13.jar -to /home/linuxbrew/.linuxbrew/Cellar/aspectj/1.8.13/libexec/aspectj
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aspectj/1.8.13: 447 files, 20.6MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+==> Patching
+patching file interfaces/cc/aspell.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1
+==> make install
+==> Downloading https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2017.01.22-0.tar.bz2
+==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
+==> make install
+==> Downloading https://ftp.gnu.org/gnu/aspell/dict/de/aspell6-de-20030222-1.tar.bz2
+==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
+==> make install
+==> Downloading https://ftp.gnu.org/gnu/aspell/dict/es/aspell6-es-1.11-2.tar.bz2
+==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
+==> make install
+==> Downloading https://ftp.gnu.org/gnu/aspell/dict/fr/aspell-fr-0.50-3.tar.bz2
+==> ./configure --vars ASPELL=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/aspell PREZIP=/home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1/bin/prezip
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall aspell`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aspell/0.60.6.1_1: 282 files, 53.9MB, built in 34 seconds
+==> Determining aspell bottle rebuild...
+==> Bottling aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./aspell-0.60.6.1_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "481f413e0fb6ff2105df63fabc366a364d9342ca91700685b386acb7d590dd16" => :x86_64_linux
+  end
