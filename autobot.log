@@ -1,23 +1,20 @@
-==> Downloading https://nmap.org/dist/nmap-7.60.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nmap/7.60 --with-libpcre=included --with-liblua=included --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --without-nmap-update --disable-universal --without-zenmap
-==> make
+==> Downloading https://nodejs.org/dist/v9.2.1/node-v9.2.1.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/9.2.1 --without-npm --with-intl=system-icu
 ==> make install
+==> Downloading https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+==> node /tmp/node-20171210-124775-1ax5paa/node-v9.2.1/npm_bootstrap/bin/npm-cli.js install -ddd --global --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/9.2.1/libexec /home/ubuntu/.cache/Homebrew/node--npm-5.6.0.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall nmap`
+You can run it manually using `brew postinstall node`
 ==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nmap/7.60: 797 files, 25.9MB, built in 3 minutes 39 seconds
-==> Determining nmap bottle rebuild...
-==> Bottling nmap-7.60.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nmap-7.60.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nmap-7.60.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/node/9.2.1: 5,144 files, 54.4MB, built in 4 minutes 59 seconds
+==> Determining node bottle rebuild...
+==> Bottling node-9.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if node-9.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./node-9.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6de11073344e30cdd574f697ca5fcb2bd1e25be5fa5b87f2df37be479cc45c55" => :x86_64_linux
+    sha256 "ff5fcc74b4112f538ad93f726d2b872bd886f95ae5972bf3ce6bb578d98c12a1" => :x86_64_linux
   end
