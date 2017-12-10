@@ -1,31 +1,25 @@
-==> Installing dependencies for nghttp2: sphinx-doc
-==> Installing nghttp2 dependency: sphinx-doc
-==> Downloading https://linuxbrew.bintray.com/bottles/sphinx-doc-1.6.5.x86_64_linux.bottle.tar.gz
-==> Pouring sphinx-doc-1.6.5.x86_64_linux.bottle.tar.gz
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this formula is mainly used internally by other formulae.
-Users are advised to use `pip` to install sphinx-doc.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin:$PATH"' >> ~/.bash_profile
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sphinx-doc/1.6.5: 2,613 files, 37.9MB
-==> Installing nghttp2
-==> Downloading https://github.com/nghttp2/nghttp2/releases/download/v1.28.0/nghttp2-1.28.0.tar.xz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/11452676/82da5308-d231-11e7-8d72-6bb80a7cb55d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T144850Z&X-Amz-Expires=300&X-Amz-Signature=83c34708be3ec0fc13bd6f928a3db1017c1f3141f1708bdde5e8a07901ab824e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dnghttp2-1.28.0.tar.xz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nghttp2/1.28.0 --disable-silent-rules --enable-app --with-boost=/home/linuxbrew/.linuxbrew/opt/boost --enable-asio-lib --disable-python-bindings
-==> make
-==> make install
+==> Downloading https://github.com/ninja-build/ninja/archive/v1.8.2.tar.gz
+==> Downloading from https://codeload.github.com/ninja-build/ninja/tar.gz/v1.8.2
+==> python configure.py --bootstrap
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/googletest/gtest-1.7.0.zip
+==> ./configure.py --with-gtest=gtest
+==> ./ninja ninja_test
+==> ./ninja_test --gtest_filter=-SubprocessTest.SetWithLots
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall nghttp2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nghttp2/1.28.0: 29 files, 52.3MB, built in 1 minute 14 seconds
-==> Determining nghttp2 bottle rebuild...
-==> Bottling nghttp2-1.28.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nghttp2-1.28.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nghttp2-1.28.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ninja`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /home/linuxbrew/.linuxbrew/share/zsh/site-functions
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ninja/1.8.2: 7 files, 3.4MB, built in 34 seconds
+==> Determining ninja bottle rebuild...
+==> Bottling ninja-1.8.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ninja-1.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ninja-1.8.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7f2555b139ef91acf83af0aec88eace0bdbbcac15a8396a28893ca069436adb4" => :x86_64_linux
+    sha256 "4792f07221599837008b61e07695aae1aa68fff01c5654e7b073ea64742b39f7" => :x86_64_linux
   end
