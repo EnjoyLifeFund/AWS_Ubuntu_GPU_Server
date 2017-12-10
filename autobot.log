@@ -1,15 +1,8 @@
-==> Downloading https://github.com/pyenv/pyenv/archive/v1.1.5.tar.gz
-==> Downloading from https://codeload.github.com/pyenv/pyenv/tar.gz/v1.1.5
-==> src/configure
-==> make -C src
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall pyenv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pyenv/1.1.5: 594 files, 2.8MB, built in 2 seconds
-==> Determining pyenv bottle rebuild...
-==> Bottling pyenv-1.1.5.x86_64_linux.bottle.1.tar.gz...
-./pyenv-1.1.5.x86_64_linux.bottle.1.tar.gz
+==> Determining python bottle rebuild...
+==> Bottling python-2.7.14.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if python-2.7.14.x86_64_linux.bottle.1.tar.gz is relocatable...
+./python-2.7.14.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3e9381fc97b09e667bfbb7baa57bca1bc28359f56571b4a8db4ac51e7c7e4d9d" => :x86_64_linux
+    sha256 "cca656637f95aa86cfd42a5f7ca236f4464afbbc09c485bd4392ecdf8930f003" => :x86_64_linux
   end
