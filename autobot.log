@@ -1,4 +1,8 @@
-==> Downloading https://www.apache.org/dyn/closer.lua?path=flink/flink-1.3.2/flink-1.3.2-bin-hadoop27-scala_2.11.tgz
-==> Best Mirror http://apache.claz.org/flink/flink-1.3.2/flink-1.3.2-bin-hadoop27-scala_2.11.tgz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-flink/1.3.2: 105 files, 156.6MB, built in 25 seconds
-This formula doesn't require compiling.
+==> Determining libgeotiff bottle rebuild...
+==> Bottling libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "29337f3625722ec53d7a066f2a99f3ad0e2a5be871d14c2c160549b34914ae72" => :x86_64_linux
+  end
