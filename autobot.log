@@ -1,8 +1,21 @@
-==> Determining augeas bottle rebuild...
-==> Bottling augeas-1.9.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if augeas-1.9.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./augeas-1.9.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/xuri/aurora/archive/2.1.tar.gz
+==> Downloading from https://codeload.github.com/xuri/aurora/tar.gz/2.1
+==> Cloning https://github.com/BurntSushi/toml.git
+==> Checking out revision a368813c5e648fee92e5f6c30e3944ff9d5e8895
+==> Cloning https://github.com/rakyll/statik.git
+==> Checking out revision 89fe3459b5c829c32e89bdff9c43f18aad728f2f
+==> Cloning https://github.com/xuri/aurora.git
+==> Checking out revision ba6eea49d8e2ba665613b570b1532ac9fbfcfbbb
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/aurora/2.1/bin/aurora
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall aurora`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aurora/2.1: 5 files, 8.3MB, built in 4 seconds
+==> Determining aurora bottle rebuild...
+==> Bottling aurora-2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if aurora-2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./aurora-2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bfcd2e41c95ac74a9dbeecaba5d97c5f68da5f2595ffea4d2b1bd480297b1ffa" => :x86_64_linux
+    sha256 "ef70025b97ae7c21ed4de673d389e3ff9b1e066441e186bc312c2aef035ba6c0" => :x86_64_linux
   end
