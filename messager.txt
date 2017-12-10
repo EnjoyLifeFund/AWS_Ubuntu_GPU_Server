@@ -1,10 +1,6 @@
-advancemame: stable 3.5 (bottled)
-MAME with advanced video support
-http://www.advancemame.it/
-Conflicts with:
-  advancemenu (because both install `advmenu` binaries)
-/home/linuxbrew/.linuxbrew/Cellar/advancemame/3.5 (105 files, 61.8MB) *
-  Built from source on 2017-12-10 at 13:47:00
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/advancemame.rb
-==> Dependencies
-Required: sdl, freetype, expat, ncurses
+advancescan: stable 1.18
+Rom manager for AdvanceMAME/MESS
+http://www.advancemame.it/scan-readme.html
+/home/linuxbrew/.linuxbrew/Cellar/advancescan/1.18 (10 files, 6MB) *
+  Built from source on 2017-12-10 at 13:49:44
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/advancescan.rb
