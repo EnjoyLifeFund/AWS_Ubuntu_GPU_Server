@@ -1,19 +1,12 @@
-==> Downloading https://downloads.sourceforge.net/project/avanor/avanor/0.5.8/avanor-0.5.8-src.tar.bz2
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/avanor/avanor/0.5.8/avanor-0.5.8-src.tar.bz2
-==> Downloading https://gist.githubusercontent.com/mistydemeo/64f47233ee64d55cb7d5/raw/c1847d7e3a134e6109ad30ce1968919dd962e727/avanor-clang.diff
-==> Patching
-==> Applying avanor-clang.diff
-patching file game/location.h
-patching file game/cave.cpp
-patching file creature/creature.h
-==> make DATA_DIR=/home/linuxbrew/.linuxbrew/Cellar/avanor/0.5.8/share/avanor/ CC=g++-5 LD=g++-5
+==> Downloading http://avce00.maptools.org/dl/avce00-2.0.0.tar.gz
+==> make CC=gcc-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall avanor`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/avanor/0.5.8: 21 files, 929.2KB, built in 6 seconds
-==> Determining avanor bottle rebuild...
-==> Bottling avanor-0.5.8.x86_64_linux.bottle.1.tar.gz...
-./avanor-0.5.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall avce00`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/avce00/2.0.0: 19 files, 1.3MB, built in 4 seconds
+==> Determining avce00 bottle rebuild...
+==> Bottling avce00-2.0.0.x86_64_linux.bottle.1.tar.gz...
+./avce00-2.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "916d55e5d37b4faf152b81d3d27d8ec5e8b29319b09b31dcd51b53beefde1fb0" => :x86_64_linux
+    sha256 "bd7ef6b4c4c1cb8d15de7d9225ba1b5ed87e12fdad2d744e0919cf474b736aaf" => :x86_64_linux
   end
