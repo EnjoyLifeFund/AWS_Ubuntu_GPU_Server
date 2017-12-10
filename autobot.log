@@ -1,8 +1,17 @@
-==> Determining jasper bottle rebuild...
-==> Bottling jasper-2.0.14.x86_64_linux.bottle.1.tar.gz...
-./jasper-2.0.14.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/jemalloc/jemalloc/releases/download/5.0.1/jemalloc-5.0.1.tar.bz2
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/13310527/f8a50da0-5e85-11e7-801a-515c76ca3031?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T131744Z&X-Amz-Expires=300&X-Amz-Signature=ebacc7ee0fbcb54e5fe9354b9ba35f64e0cf4928141031c985be18a1c9a02c99&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djemalloc-5.0.1.tar.bz2&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jemalloc/5.0.1 --with-jemalloc-prefix=
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jemalloc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jemalloc/5.0.1: 18 files, 23.3MB, built in 1 minute 3 seconds
+==> Determining jemalloc bottle rebuild...
+==> Bottling jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "069b6f718af166659b85e7da64be56cac705ed4f0573261eb4b1dfdfbd269ad1" => :x86_64_linux
+    sha256 "be4a5e11603f373147a536f54c84c90d8b1647f9d5199fb69eff5ca6625ae778" => :x86_64_linux
   end
