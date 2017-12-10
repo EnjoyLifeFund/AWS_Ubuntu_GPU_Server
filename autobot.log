@@ -1,15 +1,15 @@
-==> Downloading https://github.com/moul/advanced-ssh-config/archive/v2.7.0.tar.gz
-==> Downloading from https://codeload.github.com/moul/advanced-ssh-config/tar.gz/v2.7.0
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/assh/2.7.0/bin/assh
+==> Downloading https://github.com/assimp/assimp/archive/v4.0.1.tar.gz
+==> Downloading from https://codeload.github.com/assimp/assimp/tar.gz/v4.0.1
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DASSIMP_BUILD_TESTS=OFF
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall assh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/assh/2.7.0: 3 files, 8.7MB, built in 7 seconds
-==> Determining assh bottle rebuild...
-==> Bottling assh-2.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if assh-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./assh-2.7.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall assimp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/assimp/4.0.1: 59 files, 76.9MB, built in 1 minute 17 seconds
+==> Determining assimp bottle rebuild...
+==> Bottling assimp-4.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if assimp-4.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./assimp-4.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3330ddad65f7e3de78a7044e0d0f75224656d9d0cefe66b6808c4f53cf3259ef" => :x86_64_linux
+    sha256 "a6598f87fd7d0ce726b6ca9aa0e29a43a88aa4c55dc540e620e639354a2d9fc8" => :x86_64_linux
   end
