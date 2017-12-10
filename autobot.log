@@ -1,20 +1,13 @@
-==> Installing dependencies for autobench: httperf
-==> Installing autobench dependency: httperf
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/httperf/httperf-0.9.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httperf/0.9.0_1
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/httperf/0.9.0_1: 10 files, 849.2KB, built in 23 seconds
-==> Installing autobench
-==> Downloading http://www.xenoclast.org/autobench/downloads/autobench-2.1.2.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2/share/man/man1 CC=gcc-5 CFLAGS= install
+==> Downloading https://registry.npmjs.org/autocode/-/autocode-1.3.1.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/autocode/1.3.1/libexec /tmp/autocode-20171210-1829-1njgxy1/package/autocode-1.3.1.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autobench`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autobench/2.1.2: 18 files, 132KB, built in 3 seconds
-==> Determining autobench bottle rebuild...
-==> Bottling autobench-2.1.2.x86_64_linux.bottle.1.tar.gz...
-./autobench-2.1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall autocode`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autocode/1.3.1: 4,224 files, 31MB, built in 15 seconds
+==> Determining autocode bottle rebuild...
+==> Bottling autocode-1.3.1.x86_64_linux.bottle.tar.gz...
+==> Detecting if autocode-1.3.1.x86_64_linux.bottle.tar.gz is relocatable...
+./autocode-1.3.1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "88ffe491f787413db726651ed019bc571a4e1fae68ea0891ea162503934d30e5" => :x86_64_linux
+    sha256 "7805ce7039c0ff7be0419f9535d36bbdcf48e0b348d27ab220a00616409de44d" => :x86_64_linux
   end
