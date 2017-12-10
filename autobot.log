@@ -1,13 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/aoeui/aoeui-1.6.tgz
-==> make INST_DIR=/home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aoeui`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6: 12 files, 262.2KB, built in 1 second
-==> Determining aoeui bottle rebuild...
-==> Bottling aoeui-1.6.x86_64_linux.bottle.1.tar.gz...
-./aoeui-1.6.x86_64_linux.bottle.1.tar.gz
+==> Determining giflib bottle rebuild...
+==> Bottling giflib-5.1.4.x86_64_linux.bottle.1.tar.gz...
+./giflib-5.1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "bb95741fd3853b601d15da7f467a450f85c79bd1d6e1682482e2fe4b94fde81f" => :x86_64_linux
+    sha256 "f2c0484f37f627c1a0e4a6256452e99899a019d4f0691866d0726cb6b8dd4488" => :x86_64_linux
   end
