@@ -1,12 +1,6 @@
-abcm2ps: stable 8.13.17 (bottled)
-ABC music notation software
-http://moinejf.free.fr
-/home/linuxbrew/.linuxbrew/Cellar/abcm2ps/8.13.17 (24 files, 1.3MB) *
-  Built from source on 2017-12-10 at 13:16:13
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/abcm2ps.rb
-==> Dependencies
-Build: pkg-config
-Optional: pango
-==> Options
---with-pango
-	Build with pango support
+abduco: stable 0.6 (bottled), HEAD
+Provides session management: i.e. separate programs from terminals
+http://www.brain-dump.org/projects/abduco
+/home/linuxbrew/.linuxbrew/Cellar/abduco/0.6 (6 files, 75.6KB) *
+  Built from source on 2017-12-10 at 13:18:04
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/abduco.rb

@@ -1,14 +1,13 @@
-==> Downloading https://github.com/leesavide/abcm2ps/archive/v8.13.17.tar.gz
-==> Downloading from https://codeload.github.com/leesavide/abcm2ps/tar.gz/v8.13.17
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/abcm2ps/8.13.17
-==> make install
+==> Downloading http://www.brain-dump.org/projects/abduco/abduco-0.6.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/abduco/0.6 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall abcm2ps`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/abcm2ps/8.13.17: 24 files, 1.3MB, built in 4 seconds
-==> Determining abcm2ps bottle rebuild...
-==> Bottling abcm2ps-8.13.17.x86_64_linux.bottle.1.tar.gz...
-./abcm2ps-8.13.17.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall abduco`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/abduco/0.6: 6 files, 71.6KB, built in 2 seconds
+==> Determining abduco bottle rebuild...
+==> Bottling abduco-0.6.x86_64_linux.bottle.1.tar.gz...
+./abduco-0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3ee785035e56279407f412722fffa98a894ef3fe339b748f13fabd7d5b3f5648" => :x86_64_linux
+    sha256 "a19e4427b5a236549ec49333888c14f29cff4e263ba8051d0367f72405fbfcf2" => :x86_64_linux
   end
