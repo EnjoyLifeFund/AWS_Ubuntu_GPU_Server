@@ -1,15 +1,23 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.1.tar.bz2
-==> Best Mirror http://apache.mesi.com.ar/apr/apr-util-1.6.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
-==> make
+==> Installing dependencies for asio: automake
+==> Installing asio dependency: automake
+==> Downloading https://linuxbrew.bintray.com/bottles/automake-1.15.1.x86_64_linux.bottle.tar.gz
+==> Pouring automake-1.15.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1: 131 files, 3MB
+==> Installing asio
+==> Downloading https://downloads.sourceforge.net/project/asio/asio/1.10.8%20%28Stable%29/asio-1.10.8.tar.bz2
+==> Downloading from https://iweb.dl.sourceforge.net/project/asio/asio/1.10.8%20%28Stable%29/asio-1.10.8.tar.bz2
+==> autoconf
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/asio/1.10.8_1 --with-boost=no
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr-util`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1: 48 files, 1.8MB, built in 11 seconds
-==> Determining apr-util bottle rebuild...
-==> Bottling apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
-./apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall asio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/asio/1.10.8_1: 622 files, 38.1MB, built in 13 seconds
+==> Determining asio bottle rebuild...
+==> Bottling asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "41e5ad2a6f8858e5b5a35c9920fbf41b9b5757921fb7604425ae0243c757eb89" => :x86_64_linux
+    sha256 "373f1c1810069b2bc706231f6d45f8489f152ab58fcc02113466acaf73d26de4" => :x86_64_linux
   end
