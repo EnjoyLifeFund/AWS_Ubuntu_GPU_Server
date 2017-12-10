@@ -1,8 +1,14 @@
-==> Determining homebrew/science/boost-compute bottle rebuild...
-==> Bottling boost-compute-1.65.1.x86_64_linux.bottle.1.tar.gz...
-./boost-compute-1.65.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://cairographics.org/releases/cairo-1.14.10.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.10_1 --enable-gobject=yes --enable-svg=yes --enable-tee=yes --enable-xcb=yes --enable-xlib=yes --enable-xlib-xrender=yes
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cairo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.10_1: 108 files, 18.6MB, built in 1 minute 33 seconds
+==> Determining cairo bottle rebuild...
+==> Bottling cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4c6151404d73cecdd43fcef85c1d57982eaa2364238749adb455c6ffa3d037d1" => :x86_64_linux
+    sha256 "029af7f3e85933a5506fa93a48c5908f6b0c14a1087acd3bd5425e6ad834b58b" => :x86_64_linux
   end
