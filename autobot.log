@@ -1,7 +1,21 @@
-==> Determining arpack bottle rebuild...
-==> Bottling arpack-3.5.0.x86_64_linux.bottle.1.tar.gz...
-./arpack-3.5.0.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for arss: fftw
+==> Installing arss dependency: fftw
+==> Downloading https://linuxbrew.bintray.com/bottles/fftw-3.3.6-pl2.x86_64_linux.bottle.tar.gz
+==> Pouring fftw-3.3.6-pl2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fftw/3.3.6-pl2: 52 files, 13.6MB
+==> Installing arss
+==> Downloading https://downloads.sourceforge.net/project/arss/arss/0.2.3/arss-0.2.3-src.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/arss/arss/0.2.3/arss-0.2.3-src.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/arss/0.2.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall arss`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/arss/0.2.3: 6 files, 67.9KB, built in 2 seconds
+==> Determining arss bottle rebuild...
+==> Bottling arss-0.2.3.x86_64_linux.bottle.1.tar.gz...
+./arss-0.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5e52e9044009dce83320477fc3e7a3fa5362423634cec8f1c9029b73f94d7b50" => :x86_64_linux
+    sha256 "6ec6481b706c9402963d562cf3d57cc200abf445f87e6e4a0db3fe75e62739ab" => :x86_64_linux
   end
