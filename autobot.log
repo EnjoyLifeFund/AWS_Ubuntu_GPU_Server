@@ -1,15 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/bashdb/bashdb/4.4-0.94/bashdb-4.4-0.94.tar.bz2
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/bashdb/bashdb/4.4-0.94/bashdb-4.4-0.94.tar.bz2
-==> ./configure --with-bash=/home/linuxbrew/.linuxbrew/bin/bash --prefix=/home/linuxbrew/.linuxbrew/Cellar/bashdb/4.4-0.94
+==> Downloading https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bison/3.0.4_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bashdb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bashdb/4.4-0.94: 160 files, 958.9KB, built in 7 seconds
-==> Determining bashdb bottle rebuild...
-==> Bottling bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz...
-./bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bison`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bison/3.0.4_1: 118 files, 4.5MB, built in 1 minute 27 seconds
+==> Determining bison bottle rebuild...
+==> Bottling bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "276a84be7e1fd7d46092edf74ece774892ec20e572d009b743ee14651cd8060d" => :x86_64_linux
+    sha256 "f86fb0c9af2d26ddad3e0c8b2466582aebceec2cb3b2a618227808a8f1a2717b" => :x86_64_linux
   end
