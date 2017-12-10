@@ -1,10 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/autopsy/autopsy/2.24/autopsy-2.24.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/autopsy/autopsy/2.24/autopsy-2.24.tar.gz
+==> Downloading http://www.harding.motd.ca/autossh/autossh-1.4e.tgz
 ==> Patching
-patching file base/autopsy.base
-==> Caveats
-By default, the evidence locker is in:
-  /home/linuxbrew/.linuxbrew/var/lib/autopsy
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autopsy/2.24: 179 files, 964.8KB, built in 2 seconds
-This formula doesn't require compiling.
+patching file rscreen
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e --mandir=/home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autossh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autossh/1.4e: 11 files, 149.0KB, built in 14 seconds
+==> Determining autossh bottle rebuild...
+==> Bottling autossh-1.4e.x86_64_linux.bottle.tar.gz...
+./autossh-1.4e.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "160faff00766ec177265ee047cc6cea59bad47565b4b4a5c66fcc49c58d0f173" => :x86_64_linux
+  end
