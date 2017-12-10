@@ -1,15 +1,14 @@
-==> Downloading https://libsdl.org/release/SDL2-2.0.7.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sdl2/2.0.7_1 --disable-haptic --disable-joystick
+==> Downloading https://ftp.gnu.org/gnu/shtool/shtool-2.0.8.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/shtool/2.0.8
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sdl2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sdl2/2.0.7_1: 84 files, 8.9MB, built in 48 seconds
-==> Determining sdl2 bottle rebuild...
-==> Bottling sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./sdl2-2.0.7_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall shtool`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/shtool/2.0.8: 51 files, 570.0KB, built in 5 seconds
+==> Determining shtool bottle rebuild...
+==> Bottling shtool-2.0.8.x86_64_linux.bottle.1.tar.gz...
+./shtool-2.0.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "500e2ede6581e5f1ed0754ec4577504a58c8ff4107410dc21f2a8cf63e112e49" => :x86_64_linux
+    sha256 "bd21601962d6874a931824dfdd5075f733cfb8182e934c2b5372a7fc79d6ae40" => :x86_64_linux
   end
