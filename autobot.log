@@ -1,8 +1,18 @@
-==> Downloading https://github.com/vigo/apm-bash-completion/archive/1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/vigo/apm-bash-completion/tar.gz/1.0.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apm-bash-completion/1.0.0: 4 files, 20.2KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/elastic/apm-server/archive/v6.0.0.tar.gz
+==> Downloading from https://codeload.github.com/elastic/apm-server/tar.gz/v6.0.0
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/apm-server-20171210-95987-o6rz74/apm-server-6.0.0/vendor --single-version-externally-managed --record=installed.txt
+==> make
+==> make update
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall apm-server`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apm-server/6.0.0: 31 files, 42.6MB, built in 48 seconds
+==> Determining apm-server bottle rebuild...
+==> Bottling apm-server-6.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if apm-server-6.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./apm-server-6.0.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "11ca8caf874b52c2f8aa17db94469432846d99d9470c217e3b82c3635a47b6f2" => :x86_64_linux
+  end
