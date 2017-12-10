@@ -1,31 +1,7 @@
-==> Installing dependencies for gdb: texinfo
-==> Installing gdb dependency: texinfo
-==> Downloading https://linuxbrew.bintray.com/bottles/texinfo-6.5.x86_64_linux.bottle.tar.gz
-==> Pouring texinfo-6.5.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5: 458 files, 11.5MB
-==> Installing gdb
-==> Downloading https://ftp.gnu.org/gnu/gdb/gdb-8.0.1.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gdb/8.0.1 --with-python=/home/linuxbrew/.linuxbrew/bin/python2
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gdb`
-==> Caveats
-gdb requires special privileges to access Mach ports.
-You will need to codesign the binary. For instructions, see:
-
-  https://sourceware.org/gdb/wiki/BuildingOnDarwin
-
-On 10.12 (Sierra) or later with SIP, you need to run this:
-
-  echo "set startup-with-shell off" >> ~/.gdbinit
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gdb/8.0.1: 64 files, 55.8MB, built in 5 minutes 11 seconds
-==> Determining gdb bottle rebuild...
-==> Bottling gdb-8.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gdb-8.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gdb-8.0.1.x86_64_linux.bottle.1.tar.gz
+==> Determining gdbm bottle rebuild...
+==> Bottling gdbm-1.13_1.x86_64_linux.bottle.1.tar.gz...
+./gdbm-1.13_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "47a137e2eac2a7e70df1b9d8a342b74fe973f6505f6ae74e9641b19ae98bcedd" => :x86_64_linux
+    sha256 "dfbac9b56554f3f276f73602e2471f58bacccc6f3e54034ef7791f90fcb406f9" => :x86_64_linux
   end
