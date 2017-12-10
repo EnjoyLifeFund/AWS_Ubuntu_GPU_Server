@@ -1,36 +1,11 @@
-==> Downloading https://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/automake@1.12/1.12.6_1 --program-suffix=112
-==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink share/aclocal/README
-Target /home/linuxbrew/.linuxbrew/share/aclocal/README
-is a symlink belonging to automake. You can unlink it:
-  brew unlink automake
+==> Downloading https://downloads.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
+==> Caveats
+You will have to edit
+  /home/linuxbrew/.linuxbrew/etc/automysqlbackup/automysqlbackup.conf
+to set AutoMySQLBackup up to find your database and backup directory.
 
-To force the link and overwrite all conflicting files:
-  brew link --overwrite automake@1.12
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run automake@1.12
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/share/aclocal/README -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/aclocal/README
-/home/linuxbrew/.linuxbrew/share/aclocal/dirlist -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/aclocal/dirlist
-/home/linuxbrew/.linuxbrew/share/doc/automake/amhello-1.0.tar.gz
-/home/linuxbrew/.linuxbrew/share/doc/automake/amhello-1.0.tar.gz
-/home/linuxbrew/.linuxbrew/share/info/automake-history.info -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/info/automake-history.info
-/home/linuxbrew/.linuxbrew/share/info/automake.info -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/info/automake.info
-/home/linuxbrew/.linuxbrew/share/info/automake.info-1 -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/info/automake.info-1
-/home/linuxbrew/.linuxbrew/share/info/automake.info-2 -> /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/info/automake.info-2
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall automake@1.12`
+The included plist file will run AutoMySQLBackup every day at 04:00.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/automake@1.12/1.12.6_1: 136 files, 2.6MB, built in 6 seconds
-==> Determining automake@1.12 bottle rebuild...
-==> Bottling automake@1.12-1.12.6_1.x86_64_linux.bottle.1.tar.gz...
-./automake@1.12-1.12.6_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d7fee603d5c3c3e0ac0c9ac0ae79c7c1757afba9ff0859bc61314d8efb3da026" => :x86_64_linux
-  end
+🍺  /home/linuxbrew/.linuxbrew/Cellar/automysqlbackup/3.0-rc6: 6 files, 135KB, built in 1 second
+This formula doesn't require compiling.
