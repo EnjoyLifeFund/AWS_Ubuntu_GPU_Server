@@ -1,7 +1,25 @@
-==> Determining autogen bottle rebuild...
-==> Bottling autogen-5.18.7_1.x86_64_linux.bottle.1.tar.gz...
-./autogen-5.18.7_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/wting/autojump/archive/release-v22.5.1.tar.gz
+==> Downloading from https://codeload.github.com/wting/autojump/tar.gz/release-v22.5.1
+==> ./install.py -d /home/linuxbrew/.linuxbrew/Cellar/autojump/22.5.1 -z /home/linuxbrew/.linuxbrew/Cellar/autojump/22.5.1/share/zsh/site-functions
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autojump`
+==> Caveats
+Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
+to source the file to update your current session):
+  [ -f /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
+
+If you use the Fish shell then add the following line to your ~/.config/fish/config.fish:
+  [ -f /home/linuxbrew/.linuxbrew/share/autojump/autojump.fish ]; and source /home/linuxbrew/.linuxbrew/share/autojump/autojump.fish
+
+zsh completions have been installed to:
+  /home/linuxbrew/.linuxbrew/share/zsh/site-functions
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autojump/22.5.1: 20 files, 218.5KB, built in 0 seconds
+==> Determining autojump bottle rebuild...
+==> Bottling autojump-22.5.1.x86_64_linux.bottle.1.tar.gz...
+./autojump-22.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "32a27bdce65663bd332c44199548eb5b8afc1c1b23aa0e1909ad115151b09cf4" => :x86_64_linux
+    sha256 "d8b6647311afc09c4e0e639a907883faf57fa09ebf3cd55e254015b74fe426f0" => :x86_64_linux
   end
