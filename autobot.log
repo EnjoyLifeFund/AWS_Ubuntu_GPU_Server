@@ -1,23 +1,18 @@
-==> Installing dependencies for asio: automake
-==> Installing asio dependency: automake
-==> Downloading https://linuxbrew.bintray.com/bottles/automake-1.15.1.x86_64_linux.bottle.tar.gz
-==> Pouring automake-1.15.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1: 131 files, 3MB
-==> Installing asio
-==> Downloading https://downloads.sourceforge.net/project/asio/asio/1.10.8%20%28Stable%29/asio-1.10.8.tar.bz2
-==> Downloading from https://iweb.dl.sourceforge.net/project/asio/asio/1.10.8%20%28Stable%29/asio-1.10.8.tar.bz2
-==> autoconf
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/asio/1.10.8_1 --with-boost=no
+==> Downloading http://download.augeas.net/augeas-1.9.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/augeas/1.9.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall asio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/asio/1.10.8_1: 622 files, 38.1MB, built in 13 seconds
-==> Determining asio bottle rebuild...
-==> Bottling asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall augeas`
+==> Caveats
+Lenses have been installed to:
+  /home/linuxbrew/.linuxbrew/share/augeas/lenses/dist
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/augeas/1.9.0: 454 files, 9.9MB, built in 1 minute 9 seconds
+==> Determining augeas bottle rebuild...
+==> Bottling augeas-1.9.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if augeas-1.9.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./augeas-1.9.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "373f1c1810069b2bc706231f6d45f8489f152ab58fcc02113466acaf73d26de4" => :x86_64_linux
+    sha256 "8ea0f80398fcb6c610baaa88dc75dd0fce103d696d964e79e3770a2eae859138" => :x86_64_linux
   end
