@@ -1,8 +1,22 @@
-==> Determining libffi bottle rebuild...
-==> Bottling libffi-3.2.1.x86_64_linux.bottle.1.tar.gz...
-./libffi-3.2.1.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for libgcrypt: libgpg-error
+==> Installing libgcrypt dependency: libgpg-error
+==> Downloading https://linuxbrew.bintray.com/bottles/libgpg-error-1.27.x86_64_linux.bottle.tar.gz
+==> Pouring libgpg-error-1.27.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgpg-error/1.27: 42 files, 1.2MB
+==> Installing libgcrypt
+==> Downloading https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.1.tar.bz2
+==> ./configure --disable-silent-rules --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgcrypt/1.8.1 --disable-asm --with-libgpg-error-prefix=/home/linuxbrew/.linuxbrew/opt/libgpg-error --disable-jent-support
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libgcrypt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgcrypt/1.8.1: 18 files, 10.7MB, built in 2 minutes 38 seconds
+==> Determining libgcrypt bottle rebuild...
+==> Bottling libgcrypt-1.8.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libgcrypt-1.8.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libgcrypt-1.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "28c04eb545a57828c1bda30696bbed38997a81c8f7a1791d03546957cc2fac98" => :x86_64_linux
+    sha256 "83f9a18d110c32f77c9334b630cf928e820cc73304caaf60c38a188032409448" => :x86_64_linux
   end
