@@ -1,30 +1,8 @@
-==> Installing dependencies for fish: pcre2
-==> Installing fish dependency: pcre2
-==> Downloading https://linuxbrew.bintray.com/bottles/pcre2-10.30.x86_64_linux.bottle.tar.gz
-==> Pouring pcre2-10.30.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pcre2/10.30: 228 files, 6MB
-==> Installing fish
-==> Downloading https://github.com/fish-shell/fish-shell/releases/download/2.7.0/fish-2.7.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4279682/07691758-d070-11e7-93bc-c5104dbdd0ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T115056Z&X-Amz-Expires=300&X-Amz-Signature=dd2e5c0323e053fe7004569aa72b99fc64c5b79e30dbf1e0a4db745cf7bf2ff7&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfish-2.7.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0 --with-extra-functionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_functions.d --with-extra-completionsdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d --with-extra-confdir=/home/linuxbrew/.linuxbrew/share/fish/vendor_conf.d
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fish`
-==> Caveats
-You will need to add:
-  /home/linuxbrew/.linuxbrew/bin/fish
-to /etc/shells.
-
-Then run:
-  chsh -s /home/linuxbrew/.linuxbrew/bin/fish
-to make fish your default shell.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fish/2.7.0: 914 files, 54MB, built in 36 seconds
-==> Determining fish bottle rebuild...
-==> Bottling fish-2.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fish-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fish-2.7.0.x86_64_linux.bottle.1.tar.gz
+==> Determining fontconfig bottle rebuild...
+==> Bottling fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fontconfig-2.12.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f056d8d28327d2d4672e0f04083eee6a7536e16b580c572e314a21f1d76514bb" => :x86_64_linux
+    sha256 "7fc1803927cacefbcacdbacdf42548aa22b57d616933379665a792ac5aaf4702" => :x86_64_linux
   end
