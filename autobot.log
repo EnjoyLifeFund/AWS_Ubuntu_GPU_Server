@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining artifactory-cli-go bottle rebuild...
+==> Bottling artifactory-cli-go-1.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if artifactory-cli-go-1.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./artifactory-cli-go-1.3.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "89281b062ee00384d34a277c0749030eb7fc0f27a1594d076abad80bbd1d4a30" => :x86_64_linux
+  end
