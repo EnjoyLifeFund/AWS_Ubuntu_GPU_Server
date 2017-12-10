@@ -1,19 +1,4 @@
-==> Downloading https://github.com/APE-Project/APE_Server/archive/v1.1.2.tar.gz
-==> Downloading from https://codeload.github.com/APE-Project/APE_Server/tar.gz/v1.1.2
-==> ./build.sh
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/ape/1.1.2
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ape`
-==> Caveats
-The default configuration file is stored in /home/linuxbrew/.linuxbrew/etc. You should load aped with:
-  aped --cfg /home/linuxbrew/.linuxbrew/etc/ape.conf
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ape/1.1.2: 30 files, 4.3MB, built in 1 minute 24 seconds
-==> Determining ape bottle rebuild...
-==> Bottling ape-1.1.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ape-1.1.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ape-1.1.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "d82039aa3166b01c0dc6af16c3a5414a490c13a1025f07f623b8bef0571822a5" => :x86_64_linux
-  end
+==> Downloading https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.3.0.jar
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/0becf6a1-1706-4f2e-9ae6-891e00a8dd5f/downloads/c2a4217f-24bc-4ea6-b43d-9a544204b87a/apktool_2.3.0.jar?Signature=BZ4DSKxE6YNVD%2BRQcGRwhXYnNHg%3D&Expires=1512922709&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=5DwwECoLNr6.WoR647O7hV76Bzqa8bJH&response-content-disposition=attachment%3B%20filename%3D%22apktool_2.3.0.jar%22
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apktool/2.3.0: 4 files, 5.6MB, built in 3 seconds
+This formula doesn't require compiling.
