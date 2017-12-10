@@ -1,8 +1,19 @@
-==> Determining hdf5 bottle rebuild...
-==> Bottling hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/github/hub/archive/v2.2.9.tar.gz
+==> Downloading from https://codeload.github.com/github/hub/tar.gz/v2.2.9
+==> script/build -o hub
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hub`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hub/2.2.9: 10 files, 9.5MB, built in 3 seconds
+==> Determining hub bottle rebuild...
+==> Bottling hub-2.2.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hub-2.2.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hub-2.2.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "58927113af0bc243620ef91e2ed8815c4f47d9c40fbe3552cd2ad3f97d2e9439" => :x86_64_linux
+    sha256 "1cccc38c00cd134cb3a8ba2193fd9ac667db9ebc8609e52f8c8c9d62ceebbe60" => :x86_64_linux
   end
