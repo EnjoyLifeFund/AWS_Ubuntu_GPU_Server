@@ -1,14 +1,17 @@
-==> Downloading https://downloads.sourceforge.net/project/asciitex/asciiTeX-0.21.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/asciitex/asciiTeX-0.21.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/asciitex/0.21 --disable-gtk
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall asciitex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/asciitex/0.21: 10 files, 180.6KB, built in 7 seconds
-==> Determining asciitex bottle rebuild...
-==> Bottling asciitex-0.21.x86_64_linux.bottle.1.tar.gz...
-./asciitex-0.21.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "7164058ddd6df8bc36f2cad2dae90e90f7d1544da12015f1959c7bf701a7e95d" => :x86_64_linux
-  end
+==> Downloading https://github.com/asdf-vm/asdf/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/asdf-vm/asdf/tar.gz/v0.4.0
+==> Caveats
+Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)
+     source /home/linuxbrew/.linuxbrew/opt/asdf/asdf.sh
+
+If you use Fish shell, add the following line to your fish config (e.g. ~/.config/fish/config.fish)
+     source /home/linuxbrew/.linuxbrew/opt/asdf/asdf.fish
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+
+fish completions have been installed to:
+  /home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/asdf/0.4.0: 59 files, 167.7KB, built in 1 second
+This formula doesn't require compiling.
