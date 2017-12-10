@@ -1,8 +1,15 @@
-==> Determining pango bottle rebuild...
-==> Bottling pango-1.40.14.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if pango-1.40.14.x86_64_linux.bottle.1.tar.gz is relocatable...
-./pango-1.40.14.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/parallel/parallel-20171122.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/parallel/20171122
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall parallel`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/parallel/20171122: 65 files, 3.1MB, built in 3 seconds
+==> Determining parallel bottle rebuild...
+==> Bottling parallel-20171122.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if parallel-20171122.x86_64_linux.bottle.1.tar.gz is relocatable...
+./parallel-20171122.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "449afa6547f10301ba99d9254c0b11a2c96fd5772528c943a2168882877bdde6" => :x86_64_linux
+    sha256 "1931f839e5b5c9daa9ae2f04eccc20a41c5eafc62dbb1f61fede21066e42f6bc" => :x86_64_linux
   end
