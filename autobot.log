@@ -1,13 +1,14 @@
-==> Downloading https://invisible-mirror.net/archives/byacc/byacc-20170709.tgz
-==> ./configure --program-prefix=b --prefix=/home/linuxbrew/.linuxbrew/Cellar/byacc/20170709 --man=/home/linuxbrew/.linuxbrew/Cellar/byacc/20170709/share/man
+==> Downloading https://c-ares.haxx.se/download/c-ares-1.13.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/c-ares/1.13.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall byacc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/byacc/20170709: 8 files, 460.3KB, built in 7 seconds
-==> Determining byacc bottle rebuild...
-==> Bottling byacc-20170709.x86_64_linux.bottle.1.tar.gz...
-./byacc-20170709.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall c-ares`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/c-ares/1.13.0: 68 files, 485.9KB, built in 2 minutes 30 seconds
+==> Determining c-ares bottle rebuild...
+==> Bottling c-ares-1.13.0.x86_64_linux.bottle.1.tar.gz...
+./c-ares-1.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9103c779ed301eba7c79a95bc4e4dd4e46ed983bffa09bff207bab8db2fa721e" => :x86_64_linux
+    sha256 "0b130f117eaf85ae7be88aec180280fdb02d6931c9c14e145e501c7bc1c3210b" => :x86_64_linux
   end
