@@ -1,14 +1,18 @@
-==> Downloading https://ftp.gnu.org/gnu/shtool/shtool-2.0.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/shtool/2.0.8
+==> Downloading https://downloads.sourceforge.net/project/pyqt/sip/sip-4.19.6/sip-4.19.6.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/pyqt/sip/sip-4.19.6/sip-4.19.6.tar.gz
+==> python configure.py --destdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/lib/python2.7/site-packages --bindir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/bin --incdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/include --sipdir=/home/linuxbrew/.linuxbrew/share/sip
+==> make
 ==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall shtool`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/shtool/2.0.8: 51 files, 570.0KB, built in 5 seconds
-==> Determining shtool bottle rebuild...
-==> Bottling shtool-2.0.8.x86_64_linux.bottle.1.tar.gz...
-./shtool-2.0.8.x86_64_linux.bottle.1.tar.gz
+==> make clean
+==> python3 configure.py --destdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/lib/python3.6/site-packages --bindir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/bin --incdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/include --sipdir=/home/linuxbrew/.linuxbrew/share/sip
+==> make
+==> make install
+==> make clean
+==> Determining sip bottle rebuild...
+==> Bottling sip-4.19.6.x86_64_linux.bottle.1.tar.gz...
+./sip-4.19.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "bd21601962d6874a931824dfdd5075f733cfb8182e934c2b5372a7fc79d6ae40" => :x86_64_linux
+    sha256 "2954d72fd77f4b189c0a9f436d503fa460664b1a68b55641c0b7f7dda3e1a91c" => :x86_64_linux
   end
