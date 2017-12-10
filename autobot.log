@@ -1,7 +1,30 @@
-==> Determining afuse bottle rebuild...
-==> Bottling afuse-0.4.1.x86_64_linux.bottle.1.tar.gz...
-./afuse-0.4.1.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for ant: jdk, xz
+==> Installing ant dependency: jdk
+==> Downloading https://linuxbrew.bintray.com/bottles/jdk-9.0.1+11.x86_64_linux.bottle.tar.gz
+Already downloaded: /home/ubuntu/.cache/Homebrew/jdk-9.0.1+11.x86_64_linux.bottle.tar.gz
+==> Pouring jdk-9.0.1+11.x86_64_linux.bottle.tar.gz
+==> Caveats
+By installing and using JDK you agree to the
+Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11: 1,218 files, 556.2MB
+==> Installing ant dependency: xz
+==> Downloading https://linuxbrew.bintray.com/bottles/xz-5.2.3.x86_64_linux.bottle.tar.gz
+==> Pouring xz-5.2.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xz/5.2.3: 99 files, 1.8MB
+==> Installing ant
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.10.1-bin.tar.xz
+==> Best Mirror http://download.nextag.com/apache/ant/binaries/apache-ant-1.10.1-bin.tar.xz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ant`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ant/1.10.1: 1,628 files, 37MB, built in 3 seconds
+==> Determining ant bottle rebuild...
+==> Bottling ant-1.10.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ant-1.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ant-1.10.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8cfd8ad0a0bf1360e3c8222302ca7243e9f3e6b847720edf99b3c58af4724cf4" => :x86_64_linux
+    sha256 "ba629deb018af66882c5d5dc896502a036f9ccfd20add7be03aacdd1c756440a" => :x86_64_linux
   end
