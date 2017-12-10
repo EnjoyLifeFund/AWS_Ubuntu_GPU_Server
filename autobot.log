@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining isl bottle rebuild...
+==> Bottling isl-0.18.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if isl-0.18.x86_64_linux.bottle.1.tar.gz is relocatable...
+./isl-0.18.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "91adc82445e192a4df6b79c7bd69ffec73a559e478aa27b4354accaa40f67c51" => :x86_64_linux
+  end
