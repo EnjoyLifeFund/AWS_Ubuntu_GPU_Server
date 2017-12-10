@@ -1,14 +1,8 @@
-==> Downloading http://dist.schmorp.de/libev/Attic/libev-4.24.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libev/4.24/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libev`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libev/4.24: 10 files, 705.7KB, built in 23 seconds
-==> Determining libev bottle rebuild...
-==> Bottling libev-4.24.x86_64_linux.bottle.1.tar.gz...
-./libev-4.24.x86_64_linux.bottle.1.tar.gz
+==> Determining libevent bottle rebuild...
+==> Bottling libevent-2.1.8.x86_64_linux.bottle.1.tar.gz...
+./libevent-2.1.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "aaebef0225cc386c95b9c22cec176923082d1854b0bbdff9617d46f4360fcd95" => :x86_64_linux
+    sha256 "6d88cf7a57ab5507496a674c7a9b8dfae8b6e14ed906bcd593058e9551d0b563" => :x86_64_linux
   end
