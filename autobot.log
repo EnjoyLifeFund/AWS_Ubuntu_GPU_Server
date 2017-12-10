@@ -1,9 +1,36 @@
-==> Determining awscli bottle rebuild...
-==> Bottling awscli-1.11.190.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if awscli-1.11.190.x86_64_linux.bottle.1.tar.gz is relocatable...
-./awscli-1.11.190.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/jorgebastida/awslogs/archive/0.10.tar.gz
+==> Downloading from https://codeload.github.com/jorgebastida/awslogs/tar.gz/0.10
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/awslogs--homebrew-virtualenv-20171210-1045-5l401o/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/awslogs--homebrew-virtualenv-20171210-1045-5l401o/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec
+==> Downloading https://files.pythonhosted.org/packages/58/61/50d2e459049c5dbc963473a71fae928ac0e58ffe3fe7afd24c817ee210b9/boto3-1.4.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--boto3-20171210-1045-zntm9n/boto3-1.4.4
+==> Downloading https://files.pythonhosted.org/packages/e4/f9/b7026f410edf33b6c10143482b42d0168c7ffdb14dcc89fe0eb4c7f2d7c9/botocore-1.5.38.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--botocore-20171210-1045-vu1fzy/botocore-1.5.38
+==> Downloading https://files.pythonhosted.org/packages/05/25/7b5484aca5d46915493f1fd4ecb63c38c333bd32aa9ad6e19da8d08895ae/docutils-0.13.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--docutils-20171210-1045-1nq52n4/docutils-0.13.1
+==> Downloading https://files.pythonhosted.org/packages/55/db/97c1ca37edab586a1ae03d6892b6633d8eaa23b23ac40c7e5bbc55423c78/futures-3.0.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--futures-20171210-1045-ar54u4/futures-3.0.5
+==> Downloading https://files.pythonhosted.org/packages/96/6e/0723cccec195a37de6a428ad8879fe063b6debe5c855444e9285b27d253e/jmespath-0.9.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--jmespath-20171210-1045-cl2x7p/jmespath-0.9.2
+==> Downloading https://files.pythonhosted.org/packages/51/fc/39a3fbde6864942e8bb24c93663734b74e281b984d1b8c4f95d64b0c21f6/python-dateutil-2.6.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--python-dateutil-20171210-1045-1tojp19/python-dateutil-2.6.0
+==> Downloading https://files.pythonhosted.org/packages/8b/13/517e8ec7c13f0bb002be33fbf53c4e3198c55bb03148827d72064426fe6e/s3transfer-0.1.10.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--s3transfer-20171210-1045-18pfh99/s3transfer-0.1.10
+==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--six-20171210-1045-30l0o7/six-1.10.0
+==> Downloading https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs--termcolor-20171210-1045-h2vft8/termcolor-1.1.0
+==> /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/awslogs-20171210-1045-qhs7vd/awslogs-0.10
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall awslogs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/awslogs/0.10: 1,931 files, 39.9MB, built in 4 minutes 54 seconds
+==> Determining awslogs bottle rebuild...
+==> Bottling awslogs-0.10.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if awslogs-0.10.x86_64_linux.bottle.1.tar.gz is relocatable...
+./awslogs-0.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a47a174a1daac522f275296556259993132367e170dc36fbe5f2dc8eac6ddfe4" => :x86_64_linux
+    sha256 "c284ed71f71616659aec538a9e1127fbc37194609e02e21009866ee16b11bcdc" => :x86_64_linux
   end
