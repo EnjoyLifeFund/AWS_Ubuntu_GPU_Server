@@ -1,15 +1,16 @@
-==> Downloading https://www.chiark.greenend.org.uk/~ian/adns/ftp/adns-1.5.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/adns/1.5.1 --disable-dynamic
-==> make
+==> Downloading https://github.com/amadvance/advancecomp/archive/v2.0.tar.gz
+==> Downloading from https://codeload.github.com/amadvance/advancecomp/tar.gz/v2.0
+==> autoreconf -fiv
+==> ./configure --enable-bzip2 --prefix=/home/linuxbrew/.linuxbrew/Cellar/advancecomp/2.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/advancecomp/2.0/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall adns`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/adns/1.5.1: 14 files, 2.6MB, built in 8 seconds
-==> Determining adns bottle rebuild...
-==> Bottling adns-1.5.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if adns-1.5.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./adns-1.5.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall advancecomp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/advancecomp/2.0: 14 files, 3.3MB, built in 14 seconds
+==> Determining advancecomp bottle rebuild...
+==> Bottling advancecomp-2.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if advancecomp-2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./advancecomp-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5734a96409b585ce11e7e1f1094c284daaf88b8e64998d7d0f75704cb49fdddf" => :x86_64_linux
+    sha256 "a5150858c7188db75adee4731de6251956b0a72ace2d168435911f7656872f24" => :x86_64_linux
   end

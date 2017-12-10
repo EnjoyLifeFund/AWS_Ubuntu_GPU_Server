@@ -1,6 +1,9 @@
-adns: stable 1.5.1 (bottled), HEAD
-C/C++ resolver library and DNS resolver utilities
-https://www.chiark.greenend.org.uk/~ian/adns/
-/home/linuxbrew/.linuxbrew/Cellar/adns/1.5.1 (14 files, 2.6MB) *
-  Built from source on 2017-12-10 at 13:37:07
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/adns.rb
+advancecomp: stable 2.0 (bottled)
+Recompression utilities for .PNG, .MNG, .ZIP, and .GZ files
+http://www.advancemame.it/comp-readme.html
+/home/linuxbrew/.linuxbrew/Cellar/advancecomp/2.0 (14 files, 3.3MB) *
+  Built from source on 2017-12-10 at 13:41:48
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/advancecomp.rb
+==> Dependencies
+Build: autoconf, automake, libtool
+Required: bzip2, zlib
