@@ -1,8 +1,7 @@
-==> Downloading https://github.com/kennethreitz/autoenv/archive/v0.2.1.tar.gz
-==> Downloading from https://codeload.github.com/kennethreitz/autoenv/tar.gz/v0.2.1
-==> Caveats
-To finish the installation, source activate.sh in your shell:
-  source /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autoenv/0.2.1: 6 files, 18.8KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining autogen bottle rebuild...
+==> Bottling autogen-5.18.7_1.x86_64_linux.bottle.1.tar.gz...
+./autogen-5.18.7_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "32a27bdce65663bd332c44199548eb5b8afc1c1b23aa0e1909ad115151b09cf4" => :x86_64_linux
+  end
