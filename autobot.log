@@ -1,15 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.64.tar.gz
-==> ./configure --program-suffix=264 --prefix=/home/linuxbrew/.linuxbrew/Cellar/autoconf@2.64/2.64 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/autoconf@2.64/2.64/share/emacs/site-lisp/autoconf@2.64 --infodir=/home/linuxbrew/.linuxbrew/Cellar/autoconf@2.64/2.64/share/autoconf@2.64/info --datadir=/home/linuxbrew/.linuxbrew/Cellar/autoconf@2.64/2.64/share/autoconf@2.64
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf@2.64`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autoconf@2.64/2.64: 67 files, 3.7MB, built in 4 seconds
-==> Determining autoconf@2.64 bottle rebuild...
-==> Bottling autoconf@2.64-2.64.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if autoconf@2.64-2.64.x86_64_linux.bottle.1.tar.gz is relocatable...
-./autoconf@2.64-2.64.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "041e8d0a4ec897595fbdcfc9b17ab157827a1f3b188817f6c628d9de98cc4f1b" => :x86_64_linux
-  end
+==> Downloading https://github.com/kennethreitz/autoenv/archive/v0.2.1.tar.gz
+==> Downloading from https://codeload.github.com/kennethreitz/autoenv/tar.gz/v0.2.1
+==> Caveats
+To finish the installation, source activate.sh in your shell:
+  source /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autoenv/0.2.1: 6 files, 18.8KB, built in 1 second
+This formula doesn't require compiling.
