@@ -1,13 +1,8 @@
-==> Downloading https://research.wand.net.nz/software/wandio/wandio-1.0.4.tar.gz
-==> ./configure --with-http --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/wandio/1.0.4
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall wandio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/wandio/1.0.4: 8 files, 476.3KB, built in 18 seconds
-==> Determining wandio bottle rebuild...
-==> Bottling wandio-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./wandio-1.0.4.x86_64_linux.bottle.1.tar.gz
+==> Determining webp bottle rebuild...
+==> Bottling webp-0.6.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if webp-0.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./webp-0.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4960d41044fe6e81a7dae840f8121f8f60ba45721f7c55a6c36fcf72b46cabc5" => :x86_64_linux
+    sha256 "06e1f8809ffd2ddd9513d2ca13b35ef0c68cd87fccf821770342cd8b900efba2" => :x86_64_linux
   end
