@@ -1,15 +1,13 @@
-==> Downloading http://www.winfield.demon.nl/linux/antiword-0.37.tar.gz
-==> make CC=gcc-5 LD=gcc-5 CFLAGS= -DNDEBUG GLOBAL_INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/bin GLOBAL_RESOURCES_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/share/antiword
+==> Downloading http://www.antlr3.org/download/antlr-3.5.2-complete.jar
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall antiword`
-==> Caveats
-You can install mapping files in ~/.antiword
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/antiword/0.37: 40 files, 674.1KB, built in 4 seconds
-==> Determining antiword bottle rebuild...
-==> Bottling antiword-0.37.x86_64_linux.bottle.1.tar.gz...
-./antiword-0.37.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall antlr@3`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/antlr@3/3.5.2: 5 files, 2.4MB, built in 0 seconds
+==> Determining antlr@3 bottle rebuild...
+==> Bottling antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./antlr@3-3.5.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "24f5529d8053fdff839cef06f502f79c42488c4f8a7569429f0e51d03d9dae64" => :x86_64_linux
+    sha256 "5bf9b473322ebe4bc61918ed350d961ca27c89f7c709a9ed0eebcd3d2684b0c9" => :x86_64_linux
   end
