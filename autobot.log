@@ -1,21 +1,12 @@
-==> Downloading https://github.com/xuri/aurora/archive/2.1.tar.gz
-==> Downloading from https://codeload.github.com/xuri/aurora/tar.gz/2.1
-==> Cloning https://github.com/BurntSushi/toml.git
-==> Checking out revision a368813c5e648fee92e5f6c30e3944ff9d5e8895
-==> Cloning https://github.com/rakyll/statik.git
-==> Checking out revision 89fe3459b5c829c32e89bdff9c43f18aad728f2f
-==> Cloning https://github.com/xuri/aurora.git
-==> Checking out revision ba6eea49d8e2ba665613b570b1532ac9fbfcfbbb
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/aurora/2.1/bin/aurora
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aurora`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aurora/2.1: 5 files, 8.3MB, built in 4 seconds
-==> Determining aurora bottle rebuild...
-==> Bottling aurora-2.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if aurora-2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./aurora-2.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "ef70025b97ae7c21ed4de673d389e3ff9b1e066441e186bc312c2aef035ba6c0" => :x86_64_linux
-  end
+==> Downloading https://ec2-downloads.s3.amazonaws.com/AutoScaling-2011-01-01.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+
+See the website for more details:
+https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/UsingTheCommandLineTools.html
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/auto-scaling/1.0.61.6: 127 files, 7.1MB, built in 3 seconds
+This formula doesn't require compiling.
