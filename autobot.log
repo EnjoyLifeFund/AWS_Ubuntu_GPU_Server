@@ -1,15 +1,8 @@
-==> Downloading https://aubio.org/pub/aubio-0.4.6.tar.bz2
-==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aubio/0.4.6
-==> ./waf build
-==> ./waf install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aubio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aubio/0.4.6: 69 files, 926KB, built in 9 seconds
-==> Determining aubio bottle rebuild...
-==> Bottling aubio-0.4.6.x86_64_linux.bottle.1.tar.gz...
-./aubio-0.4.6.x86_64_linux.bottle.1.tar.gz
+==> Determining augeas bottle rebuild...
+==> Bottling augeas-1.9.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if augeas-1.9.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./augeas-1.9.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "161975fd1e57321ac2d087381ba36043b578e71f04afff2bf6b7546990f87b35" => :x86_64_linux
+    sha256 "bfcd2e41c95ac74a9dbeecaba5d97c5f68da5f2595ffea4d2b1bd480297b1ffa" => :x86_64_linux
   end
