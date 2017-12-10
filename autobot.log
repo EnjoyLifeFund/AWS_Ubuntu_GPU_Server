@@ -1,14 +1,7 @@
-==> Downloading https://dl.bintray.com/homebrew/mirror/dash-0.5.9.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1 --with-libedit --enable-fnmatch --enable-glob
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1: 6 files, 568.2KB, built in 11 seconds
-==> Determining dash bottle rebuild...
-==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
-./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
+==> Determining docbook bottle rebuild...
+==> Bottling docbook-5.0.x86_64_linux.bottle.tar.gz...
+./docbook-5.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "25192c29ae0b4a4364093be71ab2f2558621ed15a3a92c52871734f5d3fa70b6" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "590a9c445e1ab6937f0ae75f48a9300494ce9ae1dab4e2b5a3f32d64675f8e63" => :x86_64_linux
   end
