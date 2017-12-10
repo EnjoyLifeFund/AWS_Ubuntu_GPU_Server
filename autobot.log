@@ -1,41 +1,26 @@
-==> Installing dependencies for cassandra: cython
-==> Installing cassandra dependency: cython
-==> Downloading https://linuxbrew.bintray.com/bottles/cython-0.27.3.x86_64_linux.bottle.tar.gz
-==> Pouring cython-0.27.3.x86_64_linux.bottle.tar.gz
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this formula is mainly used internally by other formulae.
-Users are advised to use `pip` to install cython.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cython/bin:$PATH"' >> ~/.bash_profile
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cython/0.27.3: 316 files, 8.3MB
-==> Installing cassandra
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=cassandra/3.11.1/apache-cassandra-3.11.1-bin.tar.gz
-==> Best Mirror http://ftp.wayne.edu/apache/cassandra/3.11.1/apache-cassandra-3.11.1-bin.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/a4/c8/9a7a47f683d54d83f648d37c3e180317f80dc126a304c45dc6663246233a/setuptools-36.5.0.zip
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/cc/26/b61e3a4eb50653e8a7339d84eeaa46d1e93b92951978873c220ae64d0733/futures-3.1.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/a3/ea/84a41e03f1ab14fb314c8bcf1c451090efa14c5cdfb9797d1079f502b54e/thrift-0.10.0.zip
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/0b/15/523f6008d32f05dd3c6a2e7c2f21505f0a785b6dc8949cad325306858afc/cql-1.4.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/5a/96/a5b2458a0483d3cefdf13064d40119754c1552ea34b7f0e8c6e03e66eb0a/cassandra-driver-3.11.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://www.samba.org/ftp/ccache/ccache-3.3.4.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1/share/man --with-bundled-zlib
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cassandra`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1: 5,843 files, 139MB, built in 7 minutes 8 seconds
-==> Determining cassandra bottle rebuild...
-==> Bottling cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ccache`
+==> Caveats
+To install symlinks for compilers that will automatically use
+ccache, prepend this directory to your PATH:
+  /home/linuxbrew/.linuxbrew/opt/ccache/libexec
+
+If this is an upgrade and you have previously added the symlinks to
+your PATH, you may need to modify it to the path specified above so
+it points to the current version.
+
+NOTE: ccache can prevent some software from compiling.
+ALSO NOTE: The brew command, by design, will never use ccache.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1: 61 files, 937.8KB, built in 13 seconds
+==> Determining ccache bottle rebuild...
+==> Bottling ccache-3.3.4_1.x86_64_linux.bottle.1.tar.gz...
+./ccache-3.3.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "43db0094af3b2e78fd2b8f5bc01bbe145be5d4a8349607cd3de79158d0a193f2" => :x86_64_linux
+    sha256 "b6c4612bdf380b54499c1fa628fe90fbcdc8253cfb1cca4f9c2d1c562c3d253e" => :x86_64_linux
   end
