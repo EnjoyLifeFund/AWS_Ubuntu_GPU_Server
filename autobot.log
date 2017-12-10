@@ -1,15 +1,1 @@
-==> Cloning https://github.com/ipfs/go-ipfs.git
-==> Checking out tag v0.4.13
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ipfs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipfs/0.4.13: 17 files, 40.2MB, built in 3 minutes 3 seconds
-==> Determining ipfs bottle rebuild...
-==> Bottling ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "08f360ce8d0eca0a1eabdfe56e3e6cfdf4edd24a07de38ca8faf070978f88102" => :x86_64_linux
-  end
+This formula doesn't require compiling.
