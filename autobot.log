@@ -1,15 +1,27 @@
-==> Downloading https://ftp.gnu.org/gnu/gsl/gsl-2.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gsl/2.4
-==> make
+==> Installing dependencies for gts: jasper, netpbm
+==> Installing gts dependency: jasper
+==> Downloading https://linuxbrew.bintray.com/bottles/jasper-2.0.14.x86_64_linux.bottle.tar.gz
+==> Pouring jasper-2.0.14.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jasper/2.0.14: 37 files, 1.3MB
+==> Installing gts dependency: netpbm
+==> Downloading https://linuxbrew.bintray.com/bottles/netpbm-10.73.17.x86_64_linux.bottle.tar.gz
+==> Pouring netpbm-10.73.17.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/netpbm/10.73.17: 740 files, 8.5MB
+==> Installing gts
+==> Downloading https://downloads.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz
+==> Downloading from https://cytranet.dl.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz
+==> Patching
+patching file examples/happrox.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gts/0.7.6
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gsl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gsl/2.4: 264 files, 17.6MB, built in 1 minute
-==> Determining gsl bottle rebuild...
-==> Bottling gsl-2.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gsl-2.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gsl-2.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gts`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gts/0.7.6: 23 files, 13.7MB, built in 19 seconds
+==> Determining gts bottle rebuild...
+==> Bottling gts-0.7.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gts-0.7.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gts-0.7.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "9cb25d54d532ddb5d2a15b1f6c756f1cccdf87270c159465a6cbb427259276d1" => :x86_64_linux
+    sha256 "4c99d5469da90048512b6eda33256322ac7c1d91c1d467f0542701f94699af3e" => :x86_64_linux
   end
