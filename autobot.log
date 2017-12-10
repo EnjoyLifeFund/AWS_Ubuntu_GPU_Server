@@ -1,14 +1,19 @@
-==> Downloading https://github.com/asciinema/asciinema/archive/v1.4.0.tar.gz
-==> Downloading from https://codeload.github.com/asciinema/asciinema/tar.gz/v1.4.0
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/asciinema/1.4.0/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading http://www.robobunny.com/projects/asciiquarium/asciiquarium_1.1.tar.gz
+==> Downloading https://cpan.metacpan.org/authors/id/G/GI/GIRAFFED/Curses-1.34.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/asciiquarium/1.1_1/libexec
+==> make
+==> make install
+==> Downloading http://robobunny.com/projects/animation/Term-Animation-2.6.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/asciiquarium/1.1_1/libexec
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall asciinema`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/asciinema/1.4.0: 48 files, 165KB, built in 2 seconds
-==> Determining asciinema bottle rebuild...
-==> Bottling asciinema-1.4.0.x86_64_linux.bottle.1.tar.gz...
-./asciinema-1.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall asciiquarium`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/asciiquarium/1.1_1: 16 files, 895.8KB, built in 57 seconds
+==> Determining asciiquarium bottle rebuild...
+==> Bottling asciiquarium-1.1_1.x86_64_linux.bottle.1.tar.gz...
+./asciiquarium-1.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ebafcfeabf69c726eb8d3e3db6ea5281df10f0dd98019347a41cda42c755cfe8" => :x86_64_linux
+    sha256 "b7f450fd879bd3a16765a43501faf5bb6f98175c17ba190587c1555e2cd636d9" => :x86_64_linux
   end
