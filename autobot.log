@@ -1,13 +1,15 @@
-==> Downloading https://github.com/gerard/ext4fuse/archive/v0.1.3.tar.gz
-==> Downloading from https://codeload.github.com/gerard/ext4fuse/tar.gz/v0.1.3
-==> make
+==> Downloading https://downloads.sourceforge.net/project/faac/faac-src/faac-1.29/faac-1.29.9.2.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/faac/faac-src/faac-1.29/faac-1.29.9.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/faac/1.29.9.2
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ext4fuse`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ext4fuse/0.1.3: 5 files, 206.2KB, built in 1 second
-==> Determining ext4fuse bottle rebuild...
-==> Bottling ext4fuse-0.1.3.x86_64_linux.bottle.1.tar.gz...
-./ext4fuse-0.1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall faac`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/faac/1.29.9.2: 13 files, 260.5KB, built in 14 seconds
+==> Determining faac bottle rebuild...
+==> Bottling faac-1.29.9.2.x86_64_linux.bottle.1.tar.gz...
+./faac-1.29.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9261201679c6510ed560431f7766f6899dca2f37d10cd349d3f581bccbc1c83a" => :x86_64_linux
+    sha256 "7281e13284d7b8e1d30799473a5615f6c5b477d3d31bd391019e00a237994db4" => :x86_64_linux
   end
