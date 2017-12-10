@@ -1,12 +1,7 @@
-==> Downloading https://micans.org/apparix/src/apparix-11-062.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apparix/11-062
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apparix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apparix/11-062: 14 files, 616.7KB, built in 13 seconds
-==> Determining apparix bottle rebuild...
-==> Bottling apparix-11-062.x86_64_linux.bottle.tar.gz...
-./apparix-11-062.x86_64_linux.bottle.tar.gz
+==> Determining apr bottle rebuild...
+==> Bottling apr-1.6.3.x86_64_linux.bottle.1.tar.gz...
+./apr-1.6.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "307b82a99ccfd15f1e7ca112226c397d1541e208c924b752fada00a03f64e96d" => :x86_64_linux
+    rebuild 1
+    sha256 "4844b257134b91e6960dfc21288150daa229ecd110ceebb2849094c713c91ec4" => :x86_64_linux
   end
