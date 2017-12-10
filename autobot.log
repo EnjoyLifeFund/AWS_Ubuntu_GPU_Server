@@ -1,15 +1,8 @@
-==> Downloading https://github.com/smira/aptly/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/smira/aptly/tar.gz/v1.2.0
-==> make VERSION=1.2.0 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aptly`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aptly/1.2.0: 6 files, 21MB, built in 14 seconds
-==> Determining aptly bottle rebuild...
-==> Bottling aptly-1.2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if aptly-1.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./aptly-1.2.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "9e0286ae888905b113d36cc1d57e07010da7d4c518cf722c645cc78f12ca509d" => :x86_64_linux
-  end
+==> Downloading https://github.com/aptly-dev/aptly-bash-completion/archive/1.0.1.tar.gz
+==> Downloading from https://codeload.github.com/aptly-dev/aptly-bash-completion/tar.gz/1.0.1
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aptly-completion/1.0.1: 5 files, 38.7KB, built in 1 second
+This formula doesn't require compiling.
