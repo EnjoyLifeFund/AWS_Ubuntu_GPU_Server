@@ -1,8 +1,30 @@
-==> Determining gcc bottle rebuild...
-==> Bottling gcc-5.4.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gcc-5.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gcc-5.4.0.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for gcsfuse: go
+==> Installing gcsfuse dependency: go
+==> Downloading https://linuxbrew.bintray.com/bottles/go-1.9.2.x86_64_linux.bottle.tar.gz
+==> Pouring go-1.9.2.x86_64_linux.bottle.tar.gz
+==> Caveats
+A valid GOPATH is required to use the `go get` command.
+If $GOPATH is not specified, $HOME/go will be used by default:
+  https://golang.org/doc/code.html#GOPATH
+
+You may wish to add the GOROOT-based install location to your PATH:
+  export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go/libexec/bin
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/go/1.9.2: 7,646 files, 299.4MB
+==> Installing gcsfuse
+==> Downloading https://github.com/GoogleCloudPlatform/gcsfuse/archive/v0.23.0.tar.gz
+==> Downloading from https://codeload.github.com/GoogleCloudPlatform/gcsfuse/tar.gz/v0.23.0
+==> go build ./tools/build_gcsfuse
+==> ./build_gcsfuse /tmp/gcsfuse-20171210-63042-cuavct/gcsfuse-0.23.0 /home/linuxbrew/.linuxbrew/Cellar/gcsfuse/0.23.0 0.23.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gcsfuse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gcsfuse/0.23.0: 7 files, 12.3MB, built in 5 seconds
+==> Determining gcsfuse bottle rebuild...
+==> Bottling gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gcsfuse-0.23.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "336fed1ae65657e9cff134380c5f11fc28194c26448ac3508466d64431a1e8d6" => :x86_64_linux
+    sha256 "632dd8e0804d4e5fb8504dc4aaaa18e9c6faf0e4920f2db0a4b9b638963519cc" => :x86_64_linux
   end
