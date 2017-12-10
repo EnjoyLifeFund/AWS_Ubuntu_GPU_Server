@@ -1,16 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz
-==> Downloading from https://superb-dca2.dl.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/argtable/2.13
-==> make install
+==> Downloading https://github.com/labstack/armor/archive/v0.3.3.tar.gz
+==> Downloading from https://codeload.github.com/labstack/armor/tar.gz/v0.3.3
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/armor/0.3.3/bin/armor cmd/armor/main.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall argtable`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/argtable/2.13: 38 files, 4.7MB, built in 12 seconds
-==> Determining argtable bottle rebuild...
-==> Bottling argtable-2.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if argtable-2.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./argtable-2.13.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall armor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/armor/0.3.3: 5 files, 9.3MB, built in 4 seconds
+==> Determining armor bottle rebuild...
+==> Bottling armor-0.3.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if armor-0.3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./armor-0.3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "572104b91528e844930adc5f13d23b59c5d23aac5bf6692584aeb15c321352bf" => :x86_64_linux
+    sha256 "34c6e7635420d8d8172f68888d77b9079e31337e06bbbad3c1c9babaa1d8073e" => :x86_64_linux
   end
