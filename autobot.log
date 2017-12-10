@@ -1,8 +1,8 @@
-==> Downloading https://github.com/aptly-dev/aptly-bash-completion/archive/1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/aptly-dev/aptly-bash-completion/tar.gz/1.0.1
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aptly-completion/1.0.1: 5 files, 38.7KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining archivemail bottle rebuild...
+==> Bottling archivemail-0.9.0.x86_64_linux.bottle.1.tar.gz...
+./archivemail-0.9.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8af6cb62cbaebf7caa434af0ef5d05b16edbd40b66af3c07a3600a59cdaeb379" => :x86_64_linux
+  end
