@@ -1,8 +1,14 @@
-==> Determining texi2html bottle rebuild...
-==> Bottling texi2html-5.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if texi2html-5.0.x86_64_linux.bottle.tar.gz is relocatable...
-./texi2html-5.0.x86_64_linux.bottle.tar.gz
+==> Downloading http://www.corpit.ru/mjt/tinycdb/tinycdb-0.78.tar.gz
+==> make
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/tinycdb/0.78 mandir=/home/linuxbrew/.linuxbrew/Cellar/tinycdb/0.78/share/man
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall tinycdb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tinycdb/0.78: 10 files, 135.4KB, built in 3 seconds
+==> Determining tinycdb bottle rebuild...
+==> Bottling tinycdb-0.78.x86_64_linux.bottle.1.tar.gz...
+./tinycdb-0.78.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "1a72a871d367693052491a9dbc825460df055218fe37eae94b913a89f850f803" => :x86_64_linux
+    rebuild 1
+    sha256 "99674db35fbd3979a36499473b4e52ddae0a70844d5aebcfdcd1b849d37ec5a0" => :x86_64_linux
   end
