@@ -1,15 +1,15 @@
-==> Downloading https://github.com/tools/godep/archive/v79.tar.gz
-==> Downloading from https://codeload.github.com/tools/godep/tar.gz/v79
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/godep/79_8/bin/godep
+==> Downloading https://files.nothingisreal.com/software/gpp/gpp-2.25.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpp/2.25 --mandir=/home/linuxbrew/.linuxbrew/Cellar/gpp/2.25/share/man
+==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall godep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/godep/79_8: 6 files, 9.1MB, built in 2 seconds
-==> Determining godep bottle rebuild...
-==> Bottling godep-79_8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if godep-79_8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./godep-79_8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gpp/2.25: 12 files, 455.2KB, built in 9 seconds
+==> Determining gpp bottle rebuild...
+==> Bottling gpp-2.25.x86_64_linux.bottle.1.tar.gz...
+./gpp-2.25.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "96b1078cbfb277d074b201c8e2064cc659279ca59ef628dc80ee235384c99fd1" => :x86_64_linux
+    sha256 "08adf35c48756e96ded35608b5c78732c027e51a0323a6ac938c61ee29faeec3" => :x86_64_linux
   end
