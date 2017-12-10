@@ -1,14 +1,41 @@
-==> Downloading https://cairographics.org/releases/cairo-1.14.10.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.10_1 --enable-gobject=yes --enable-svg=yes --enable-tee=yes --enable-xcb=yes --enable-xlib=yes --enable-xlib-xrender=yes
-==> make install
+==> Installing dependencies for cassandra: cython
+==> Installing cassandra dependency: cython
+==> Downloading https://linuxbrew.bintray.com/bottles/cython-0.27.3.x86_64_linux.bottle.tar.gz
+==> Pouring cython-0.27.3.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this formula is mainly used internally by other formulae.
+Users are advised to use `pip` to install cython.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cython/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cython/0.27.3: 316 files, 8.3MB
+==> Installing cassandra
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=cassandra/3.11.1/apache-cassandra-3.11.1-bin.tar.gz
+==> Best Mirror http://ftp.wayne.edu/apache/cassandra/3.11.1/apache-cassandra-3.11.1-bin.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/a4/c8/9a7a47f683d54d83f648d37c3e180317f80dc126a304c45dc6663246233a/setuptools-36.5.0.zip
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/cc/26/b61e3a4eb50653e8a7339d84eeaa46d1e93b92951978873c220ae64d0733/futures-3.1.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/a3/ea/84a41e03f1ab14fb314c8bcf1c451090efa14c5cdfb9797d1079f502b54e/thrift-0.10.0.zip
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/0b/15/523f6008d32f05dd3c6a2e7c2f21505f0a785b6dc8949cad325306858afc/cql-1.4.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/5a/96/a5b2458a0483d3cefdf13064d40119754c1552ea34b7f0e8c6e03e66eb0a/cassandra-driver-3.11.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1/libexec/vendor --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cairo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cairo/1.14.10_1: 108 files, 18.6MB, built in 1 minute 33 seconds
-==> Determining cairo bottle rebuild...
-==> Bottling cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cassandra`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cassandra/3.11.1: 5,843 files, 139MB, built in 7 minutes 8 seconds
+==> Determining cassandra bottle rebuild...
+==> Bottling cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cassandra-3.11.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "029af7f3e85933a5506fa93a48c5908f6b0c14a1087acd3bd5425e6ad834b58b" => :x86_64_linux
+    sha256 "43db0094af3b2e78fd2b8f5bc01bbe145be5d4a8349607cd3de79158d0a193f2" => :x86_64_linux
   end
