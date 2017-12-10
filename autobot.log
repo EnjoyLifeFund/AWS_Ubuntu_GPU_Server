@@ -1,18 +1,17 @@
-==> Downloading https://downloads.sourceforge.net/project/pyqt/sip/sip-4.19.6/sip-4.19.6.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/pyqt/sip/sip-4.19.6/sip-4.19.6.tar.gz
-==> python configure.py --destdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/lib/python2.7/site-packages --bindir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/bin --incdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/include --sipdir=/home/linuxbrew/.linuxbrew/share/sip
+==> Downloading https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.5.0/sleuthkit-4.5.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2562873/f425a442-b1fa-11e7-80a4-8458de1219c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T164418Z&X-Amz-Expires=300&X-Amz-Signature=b230516bb62ca7165d29e5fd9296a8a49c5d07c0ce4274f44feea051e94056e4&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dsleuthkit-4.5.0.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sleuthkit/4.5.0 --disable-java
 ==> make
 ==> make install
-==> make clean
-==> python3 configure.py --destdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/lib/python3.6/site-packages --bindir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/bin --incdir=/home/linuxbrew/.linuxbrew/Cellar/sip/4.19.6/include --sipdir=/home/linuxbrew/.linuxbrew/share/sip
-==> make
-==> make install
-==> make clean
-==> Determining sip bottle rebuild...
-==> Bottling sip-4.19.6.x86_64_linux.bottle.1.tar.gz...
-./sip-4.19.6.x86_64_linux.bottle.1.tar.gz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall sleuthkit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sleuthkit/4.5.0: 96 files, 21.7MB, built in 39 seconds
+==> Determining sleuthkit bottle rebuild...
+==> Bottling sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./sleuthkit-4.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2954d72fd77f4b189c0a9f436d503fa460664b1a68b55641c0b7f7dda3e1a91c" => :x86_64_linux
+    sha256 "b9a3b846a366f790497e51336ccf74536149e94f90d35f208a97a7e9f42da184" => :x86_64_linux
   end
