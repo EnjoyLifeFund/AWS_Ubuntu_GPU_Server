@@ -1,15 +1,7 @@
-==> Downloading https://launchpad.net/libmetalink/trunk/libmetalink-0.1.3/+download/libmetalink-0.1.3.tar.xz
-==> Downloading from https://launchpadlibrarian.net/210087595/libmetalink-0.1.3.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmetalink`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmetalink/0.1.3: 29 files, 367.8KB, built in 15 seconds
-==> Determining libmetalink bottle rebuild...
-==> Bottling libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz...
-./libmetalink-0.1.3.x86_64_linux.bottle.1.tar.gz
+==> Determining libmpc bottle rebuild...
+==> Bottling libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "55cfb16eb9892968f392fb41660e4db6ba6b77f71343353a7505dadde24a8e6c" => :x86_64_linux
+    sha256 "06708a31f014fb9f720d6656db90d5f291c1d9f687845a34e051cc1a6578a3d4" => :x86_64_linux
   end
