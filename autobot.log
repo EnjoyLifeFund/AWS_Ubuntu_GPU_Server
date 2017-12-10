@@ -1,14 +1,7 @@
-==> Downloading http://www.digip.org/jansson/releases/jansson-2.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jansson/2.10
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jansson`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jansson/2.10: 9 files, 437.8KB, built in 15 seconds
-==> Determining jansson bottle rebuild...
-==> Bottling jansson-2.10.x86_64_linux.bottle.1.tar.gz...
-./jansson-2.10.x86_64_linux.bottle.1.tar.gz
+==> Determining afuse bottle rebuild...
+==> Bottling afuse-0.4.1.x86_64_linux.bottle.1.tar.gz...
+./afuse-0.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "420140ac42560d0f72087700aa7c1406b773da2eb4ae3bb4de2b401035ddef1b" => :x86_64_linux
+    sha256 "8cfd8ad0a0bf1360e3c8222302ca7243e9f3e6b847720edf99b3c58af4724cf4" => :x86_64_linux
   end
