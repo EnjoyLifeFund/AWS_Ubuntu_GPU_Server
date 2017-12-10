@@ -1,11 +1,27 @@
-==> Downloading https://www.atagar.com/arm/resources/static/arm-1.4.5.0.tar.bz2
-==> Caveats
-You'll need to enable the Tor Control Protocol in your torrc.
-See here for details: https://www.torproject.org/tor-manual.html.en
-
-To configure Arm, copy the sample configuration from
-/home/linuxbrew/.linuxbrew/opt/arm/libexec/armrc.sample
-to ~/.arm/armrc, adjusting as needed.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/arm/1.4.5.0_1: 94 files, 1.4MB, built in 1 second
-This formula doesn't require compiling.
+==> Installing dependencies for armadillo: arpack, superlu
+==> Installing armadillo dependency: arpack
+==> Downloading https://linuxbrew.bintray.com/bottles/arpack-3.5.0.x86_64_linux.bottle.tar.gz
+==> Pouring arpack-3.5.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/arpack/3.5.0: 22 files, 2.7MB
+==> Installing armadillo dependency: superlu
+==> Downloading https://linuxbrew.bintray.com/bottles/superlu-5.2.1_2.x86_64_linux.bottle.tar.gz
+==> Pouring superlu-5.2.1_2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/superlu/5.2.1_2: 19 files, 1.2MB
+==> Installing armadillo
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://downloads.sourceforge.net/project/arma/armadillo-8.300.1.tar.xz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/arma/armadillo-8.300.1.tar.xz
+==> cmake . -DDETECT_HDF5=ON -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/armadillo/8.300.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall armadillo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/armadillo/8.300.1: 526 files, 4.1MB, built in 9 seconds
+==> Determining armadillo bottle rebuild...
+==> Bottling armadillo-8.300.1.x86_64_linux.bottle.1.tar.gz...
+./armadillo-8.300.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d0901e6d24716fa2d8dc17fc34d0ffaeb90b28d58e1b440afc523462305aa2cb" => :x86_64_linux
+  end
