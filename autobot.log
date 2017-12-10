@@ -1,17 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/libidn/libidn-1.33.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libidn/1.33 --disable-csharp --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/libidn/1.33/share/emacs/site-lisp/libidn
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libidn`
-==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/libidn
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libidn/1.33: 92 files, 2.0MB, built in 53 seconds
-==> Determining libidn bottle rebuild...
-==> Bottling libidn-1.33.x86_64_linux.bottle.1.tar.gz...
-./libidn-1.33.x86_64_linux.bottle.1.tar.gz
+==> Determining liblwgeom bottle rebuild...
+==> Bottling liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz...
+./liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "60d5bdb2d39ea8534418bdda2c97f79a788c5caba2e70fb911d5f6d746d9d2ac" => :x86_64_linux
+    sha256 "b004336472783d6e759af6db246ae34834cbc23c7ba3651b128620e1f357cbaa" => :x86_64_linux
   end
