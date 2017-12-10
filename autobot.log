@@ -1,25 +1,31 @@
-==> Installing dependencies for gd: libtiff, webp
-==> Installing gd dependency: libtiff
-==> Downloading https://linuxbrew.bintray.com/bottles/libtiff-4.0.8_5.x86_64_linux.bottle.tar.gz
-==> Pouring libtiff-4.0.8_5.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtiff/4.0.8_5: 247 files, 8.0MB
-==> Installing gd dependency: webp
-==> Downloading https://linuxbrew.bintray.com/bottles/webp-0.6.1.x86_64_linux.bottle.tar.gz
-==> Pouring webp-0.6.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/webp/0.6.1: 42 files, 13.5MB
-==> Installing gd
-==> Downloading https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.xz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/29669711/cac200cc-8d93-11e7-9c70-b1687d0c51f4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T121050Z&X-Amz-Expires=300&X-Amz-Signature=d6b544084a172db741cadceaa39b504746a56b41d5035e1b789af006d7f47cdc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibgd-2.2.5.tar.xz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gd/2.2.5 --with-freetype=/home/linuxbrew/.linuxbrew/opt/freetype --with-png=/home/linuxbrew/.linuxbrew/opt/libpng --without-x --without-xpm
+==> Installing dependencies for gdb: texinfo
+==> Installing gdb dependency: texinfo
+==> Downloading https://linuxbrew.bintray.com/bottles/texinfo-6.5.x86_64_linux.bottle.tar.gz
+==> Pouring texinfo-6.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5: 458 files, 11.5MB
+==> Installing gdb
+==> Downloading https://ftp.gnu.org/gnu/gdb/gdb-8.0.1.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gdb/8.0.1 --with-python=/home/linuxbrew/.linuxbrew/bin/python2
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gd/2.2.5: 33 files, 4.5MB, built in 16 seconds
-==> Determining gd bottle rebuild...
-==> Bottling gd-2.2.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gd-2.2.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gd-2.2.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gdb`
+==> Caveats
+gdb requires special privileges to access Mach ports.
+You will need to codesign the binary. For instructions, see:
+
+  https://sourceware.org/gdb/wiki/BuildingOnDarwin
+
+On 10.12 (Sierra) or later with SIP, you need to run this:
+
+  echo "set startup-with-shell off" >> ~/.gdbinit
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gdb/8.0.1: 64 files, 55.8MB, built in 5 minutes 11 seconds
+==> Determining gdb bottle rebuild...
+==> Bottling gdb-8.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gdb-8.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gdb-8.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e42b9c474340586e29e08885c4786a6b224d7a40d66701c65c0d6a5638f7436e" => :x86_64_linux
+    sha256 "47a137e2eac2a7e70df1b9d8a342b74fe973f6505f6ae74e9641b19ae98bcedd" => :x86_64_linux
   end
