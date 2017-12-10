@@ -1,27 +1,8 @@
-==> Installing dependencies for mongodb: scons, libpcap
-==> Installing mongodb dependency: scons
-==> Downloading https://linuxbrew.bintray.com/bottles/scons-3.0.1.x86_64_linux.bottle.tar.gz
-==> Pouring scons-3.0.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/scons/3.0.1: 211 files, 2.3MB
-==> Installing mongodb dependency: libpcap
-==> Downloading https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.x86_64_linux.bottle.tar.gz
-==> Pouring libpcap-1.8.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpcap/1.8.1: 102 files, 3.0MB
-==> Installing mongodb
-==> Downloading https://fastdl.mongodb.org/src/mongodb-src-r3.4.10.tar.gz
-==> Cloning https://github.com/mongodb/mongo-tools.git
-==> Checking out tag r3.4.10
-==> bash ./build.sh ssl
-==> /home/linuxbrew/.linuxbrew/opt/scons/bin/scons install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10 -j32 CC=/home/linuxbrew/.linuxbrew/bin/gcc-5 CXX=/home/linuxbrew/.linuxbrew/bin/g++-5 -std=c++11 --use-new-tools --build-mongoreplay=true --disable-warnings-as-errors --ssl CCFLAGS=-I/home/linuxbrew/.linuxbrew/opt/openssl/include LINKFLAGS=-L/home/linuxbrew/.linuxbrew/opt/openssl/lib
-==> strip /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongos /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongoperf /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/bsondump /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongoimport /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongod /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongotop /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongofiles /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongostat /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongooplog /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongorestore /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongodump /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongo /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongoexport /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10/bin/mongoreplay
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mongodb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mongodb/3.4.10: 56 files, 208.1MB, built in 12 minutes 42 seconds
-==> Determining mongodb bottle rebuild...
-==> Bottling mongodb-3.4.10.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mongodb-3.4.10.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mongodb-3.4.10.x86_64_linux.bottle.1.tar.gz
+==> Determining mpfr bottle rebuild...
+==> Bottling mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mpfr-3.1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1cf3249c531d5f5bed80f0eeae478e9aa69d555b7c7066237b4b87319b3265ea" => :x86_64_linux
+    sha256 "7cdc9f2de563e902a8532604c379bf05f5b5ef00a991a2db9e8eab3bad5ced14" => :x86_64_linux
   end
