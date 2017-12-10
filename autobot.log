@@ -1,27 +1,5 @@
-==> Installing dependencies for aspcud: re2c, clingo
-==> Installing aspcud dependency: re2c
-==> Downloading https://linuxbrew.bintray.com/bottles/re2c-1.0.3.x86_64_linux.bottle.tar.gz
-==> Pouring re2c-1.0.3.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/re2c/1.0.3: 6 files, 9.9MB
-==> Installing aspcud dependency: clingo
-==> Downloading https://github.com/potassco/clingo/archive/v5.2.2.tar.gz
-==> Downloading from https://codeload.github.com/potassco/clingo/tar.gz/v5.2.2
-==> cmake . -DCLINGO_BUILD_WITH_PYTHON=ON -DCLINGO_BUILD_PY_SHARED=ON -DPYCLINGO_USE_INSTALL_PREFIX=ON -DCLINGO_BUILD_WITH_LUA=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clingo/5.2.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clingo/5.2.2: 18 files, 23.7MB, built in 53 seconds
-==> Installing aspcud
-==> Downloading https://github.com/potassco/aspcud/archive/v1.9.4.tar.gz
-==> Downloading from https://codeload.github.com/potassco/aspcud/tar.gz/v1.9.4
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/aspcud/1.9.4_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DASPCUD_GRINGO_PATH=/home/linuxbrew/.linuxbrew/opt/clingo/bin/gringo -DASPCUD_CLASP_PATH=/home/linuxbrew/.linuxbrew/opt/clingo/bin/clasp
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aspcud`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aspcud/1.9.4_1: 11 files, 2.6MB, built in 26 seconds
-==> Determining aspcud bottle rebuild...
-==> Bottling aspcud-1.9.4_1.x86_64_linux.bottle.1.tar.gz...
-./aspcud-1.9.4_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "6c64a350aadecba43b45e26c454af040c76f4577c8ac95dec02343b81580215c" => :x86_64_linux
-  end
+==> Downloading https://www.eclipse.org/downloads/download.php?r=1&file=/tools/aspectj/aspectj-1.8.13.jar
+==> Downloading from http://download.eclipse.org/tools/aspectj/aspectj-1.8.13.jar
+==> java -jar aspectj-1.8.13.jar -to /home/linuxbrew/.linuxbrew/Cellar/aspectj/1.8.13/libexec/aspectj
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aspectj/1.8.13: 447 files, 20.6MB, built in 7 seconds
+This formula doesn't require compiling.
