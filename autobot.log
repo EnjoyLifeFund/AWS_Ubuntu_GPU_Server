@@ -1,9 +1,15 @@
-==> Determining gmp bottle rebuild...
-==> Bottling gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/nats-io/gnatsd/archive/v1.0.4.tar.gz
+==> Downloading from https://codeload.github.com/nats-io/gnatsd/tar.gz/v1.0.4
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gnatsd/1.0.4/bin/gnatsd main.go
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnatsd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnatsd/1.0.4: 6 files, 9.2MB, built in 2 seconds
+==> Determining gnatsd bottle rebuild...
+==> Bottling gnatsd-1.0.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnatsd-1.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnatsd-1.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d32d561bf7738382f3311ae1725173d331744242559cd8ad795417a7dbdd0ce9" => :x86_64_linux
+    sha256 "567ed90b43b2a53134b3b9685daeb3f66dd2aa0b0429ff96d1181e1e02291b0d" => :x86_64_linux
   end
