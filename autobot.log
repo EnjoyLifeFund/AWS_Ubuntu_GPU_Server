@@ -1,27 +1,71 @@
-==> Installing dependencies for gts: jasper, netpbm
-==> Installing gts dependency: jasper
-==> Downloading https://linuxbrew.bintray.com/bottles/jasper-2.0.14.x86_64_linux.bottle.tar.gz
-==> Pouring jasper-2.0.14.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jasper/2.0.14: 37 files, 1.3MB
-==> Installing gts dependency: netpbm
-==> Downloading https://linuxbrew.bintray.com/bottles/netpbm-10.73.17.x86_64_linux.bottle.tar.gz
-==> Pouring netpbm-10.73.17.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/netpbm/10.73.17: 740 files, 8.5MB
-==> Installing gts
-==> Downloading https://downloads.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz
-==> Downloading from https://cytranet.dl.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz
-==> Patching
-patching file examples/happrox.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gts/0.7.6
-==> make install
+==> Downloading https://github.com/whyrusleeping/gx/archive/v0.12.1.tar.gz
+==> Downloading from https://codeload.github.com/whyrusleeping/gx/tar.gz/v0.12.1
+==> Cloning https://github.com/agl/ed25519.git
+==> Checking out revision 5312a61534124124185d41f09206b9fef1d88403
+==> Cloning https://github.com/blang/semver.git
+==> Checking out revision 2ee87856327ba09384cabd113bc6b5d174e9ec0f
+==> Cloning https://github.com/btcsuite/btcd.git
+==> Checking out revision 8cea3866d0f7fb12d567a20744942c0d078c7d15
+==> Cloning https://github.com/gogo/protobuf.git
+==> Checking out revision 616a82ed12d78d24d4839363e8f3c5d3f20627cf
+==> Cloning https://github.com/ipfs/go-ipfs-api.git
+==> Checking out revision 08c2643ffe65b5e2dc2785093fa6b006fc9b8402
+==> Cloning https://github.com/ipfs/go-ipfs-cmdkit.git
+==> Checking out revision f3631e8ddde711a7aefed041806902d907a1f9ae
+==> Cloning https://github.com/ipfs/go-log.git
+==> Checking out revision 48d644b006ba26f1793bffc46396e981801078e3
+==> Cloning https://github.com/jbenet/go-base58.git
+==> Checking out revision 6237cf65f3a6f7111cd8a42be3590df99a66bc7d
+==> Cloning https://github.com/jbenet/go-os-rename.git
+==> Checking out revision 3ac97f61ef67a6b87b95c1282f6c317ed0e693c2
+==> Cloning https://github.com/libp2p/go-libp2p-crypto.git
+==> Checking out revision e89e1de117dd65c6129d99d1d853f48bc847cf17
+==> Cloning https://github.com/libp2p/go-libp2p-peer.git
+==> Checking out revision d863b451638c441d046c53834ccfef13beebd025
+==> Cloning https://github.com/libp2p/go-libp2p-pubsub.git
+==> Checking out revision a031ab4d1b8142714eec946acb7033abafade3d7
+==> Cloning https://github.com/mitchellh/go-homedir.git
+==> Checking out revision b8bc1bf767474819792c23f32d8286a45736f1c6
+==> Cloning https://github.com/multiformats/go-multiaddr.git
+==> Checking out revision 6a3fc2bc0c9f2cae466f61d658136d8da99e66f5
+==> Cloning https://github.com/multiformats/go-multiaddr-net.git
+==> Checking out revision 376ba58703c84bfff9ca6e0057adf38ad48d3de5
+==> Cloning https://github.com/multiformats/go-multicodec-packed.git
+==> Checking out revision 0ee69486dc1c9087aacfcc575e333f305009997e
+==> Cloning https://github.com/multiformats/go-multihash.git
+==> Checking out revision 9f612d271047a209928f7310045cad25250f39c6
+==> Cloning https://github.com/sabhiram/go-git-ignore.git
+==> Checking out revision 362f9845770f1606d61ba3ddf9cfb1f0780d2ffe
+==> Cloning https://github.com/spaolacci/murmur3.git
+==> Checking out revision 9f5d223c60793748f04a9d5b4b4eacddfc1f755d
+==> Cloning https://github.com/urfave/cli.git
+==> Checking out revision 7ace96b43d4bdc46f81d0d1219742b2469874cf6
+==> Cloning https://github.com/whyrusleeping/go-logging.git
+==> Checking out revision 0457bb6b88fc1973573aaf6b5145d8d3ae972390
+==> Cloning https://github.com/whyrusleeping/go-multipart-files.git
+==> Checking out revision 3be93d9f6b618f2b8564bfb1d22f1e744eabbae2
+==> Cloning https://github.com/whyrusleeping/json-filter.git
+==> Checking out revision ff25329a9528f01c5175414f16cc0a6a162a5b8b
+==> Cloning https://github.com/whyrusleeping/progmeter.git
+==> Checking out revision 30d42a105341e640d284d9920da2078029764980
+==> Cloning https://github.com/whyrusleeping/stump.git
+==> Checking out revision 206f8f13aae1697a6fc1f4a55799faf955971fc5
+==> Cloning https://github.com/whyrusleeping/tar-utils.git
+==> Checking out revision beab27159606f5a7c978268dd1c3b12a0f1de8a7
+==> Cloning https://go.googlesource.com/crypto.git
+==> Checking out revision 9f005a07e0d31d45e6656d241bb5c0f2efd4bc94
+==> Cloning https://github.com/tildeleb/hashland.git
+==> Checking out revision 07375b562deaa8d6891f9618a04e94a0b98e2ee7
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gx/0.12.1/bin/gx
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gts`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gts/0.7.6: 23 files, 13.7MB, built in 19 seconds
-==> Determining gts bottle rebuild...
-==> Bottling gts-0.7.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gts-0.7.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gts-0.7.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gx`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gx/0.12.1: 5 files, 9.6MB, built in 31 seconds
+==> Determining gx bottle rebuild...
+==> Bottling gx-0.12.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gx-0.12.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gx-0.12.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4c99d5469da90048512b6eda33256322ac7c1d91c1d467f0542701f94699af3e" => :x86_64_linux
+    sha256 "a0214d2ed82a93be9eb162894849b0d0dbeb6098c9c52d2514cc7c317d68d224" => :x86_64_linux
   end
