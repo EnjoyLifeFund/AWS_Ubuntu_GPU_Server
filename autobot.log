@@ -1,21 +1,26 @@
-==> Installing triangle from homebrew/science
-==> Downloading http://www.netlib.org/voronoi/triangle.zip
-==> make
-==> make trilibrary
-==> ar r libtriangle.a triangle.o
+==> Downloading https://downloads.sourceforge.net/project/unixodbc/unixODBC/2.3.4/unixODBC-2.3.4.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/unixodbc/unixODBC/2.3.4/unixODBC-2.3.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/unixodbc/2.3.4 --enable-static --enable-gui=no
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/triangle`
+You can run it manually using `brew postinstall unixodbc`
 ==> Caveats
-Triangle is distributed under a license that places restrictions on how
-the code or library may be used in commercial products.  See the README
-file for more info:
-    /home/linuxbrew/.linuxbrew/opt/triangle/README
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because Shadows system iODBC header files.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/unixodbc/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/unixodbc/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/unixodbc/include
+
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/triangle/1.6: 9 files, 529.5KB, built in 18 seconds
-==> Determining homebrew/science/triangle bottle rebuild...
-==> Bottling triangle-1.6.x86_64_linux.bottle.tar.gz...
-./triangle-1.6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/unixodbc/2.3.4: 37 files, 11.6MB, built in 43 seconds
+==> Determining unixodbc bottle rebuild...
+==> Bottling unixodbc-2.3.4.x86_64_linux.bottle.tar.gz...
+==> Detecting if unixodbc-2.3.4.x86_64_linux.bottle.tar.gz is relocatable...
+./unixodbc-2.3.4.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "d0197dfaf0cb24bae60d5e4e7e2d82c7c27545f8fab5af5c9eb0b9311202e66c" => :x86_64_linux
+    sha256 "5f2b2d63908e3ed07092c98987ebae7aaccea24fdd78291b5278ad3de70abee9" => :x86_64_linux
   end
