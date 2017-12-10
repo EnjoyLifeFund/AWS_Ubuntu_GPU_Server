@@ -1,9 +1,14 @@
-==> Determining asio bottle rebuild...
-==> Bottling asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/vlm/asn1c/releases/download/v0.9.28/asn1c-0.9.28.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/989603/d2920f30-11d4-11e7-8e71-94673461c839?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T215919Z&X-Amz-Expires=300&X-Amz-Signature=72fdafa16d741a5cd6de004f060bfade546e11b7647e82c5281fd0a1bf7852c1&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dasn1c-0.9.28.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/asn1c/0.9.28 --mandir=/home/linuxbrew/.linuxbrew/Cellar/asn1c/0.9.28/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall asn1c`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/asn1c/0.9.28: 132 files, 2.3MB, built in 19 seconds
+==> Determining asn1c bottle rebuild...
+==> Bottling asn1c-0.9.28.x86_64_linux.bottle.1.tar.gz...
+./asn1c-0.9.28.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1b3b143d805b78b29655f91db15e2684f072f28baccdeeae5bd89f8651107b28" => :x86_64_linux
+    sha256 "2f10fbe934214453c864d100a34001304a334212e42df09db9b5edbc260aa62e" => :x86_64_linux
   end
