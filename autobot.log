@@ -1,14 +1,15 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-1.6.3.tar.bz2
-==> Best Mirror http://ftp.wayne.edu/apache/apr/apr-1.6.3.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr/1.6.3/libexec
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.1.tar.bz2
+==> Best Mirror http://apache.mesi.com.ar/apr/apr-util-1.6.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr/1.6.3: 58 files, 2.8MB, built in 1 minute 14 seconds
-==> Determining apr bottle rebuild...
-==> Bottling apr-1.6.3.x86_64_linux.bottle.1.tar.gz...
-./apr-1.6.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall apr-util`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.1_1: 48 files, 1.8MB, built in 11 seconds
+==> Determining apr-util bottle rebuild...
+==> Bottling apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
+./apr-util-1.6.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4844b257134b91e6960dfc21288150daa229ecd110ceebb2849094c713c91ec4" => :x86_64_linux
+    sha256 "41e5ad2a6f8858e5b5a35c9920fbf41b9b5757921fb7604425ae0243c757eb89" => :x86_64_linux
   end
