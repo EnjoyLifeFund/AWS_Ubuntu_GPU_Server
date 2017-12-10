@@ -1,26 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/unixodbc/unixODBC/2.3.4/unixODBC-2.3.4.tar.gz
-==> Downloading from https://newcontinuum.dl.sourceforge.net/project/unixodbc/unixODBC/2.3.4/unixODBC-2.3.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/unixodbc/2.3.4 --enable-static --enable-gui=no
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall unixodbc`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because Shadows system iODBC header files.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/unixodbc/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/unixodbc/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/unixodbc/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/unixodbc/2.3.4: 37 files, 11.6MB, built in 43 seconds
-==> Determining unixodbc bottle rebuild...
-==> Bottling unixodbc-2.3.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if unixodbc-2.3.4.x86_64_linux.bottle.tar.gz is relocatable...
-./unixodbc-2.3.4.x86_64_linux.bottle.tar.gz
+==> Determining valgrind bottle rebuild...
+==> Bottling valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "5f2b2d63908e3ed07092c98987ebae7aaccea24fdd78291b5278ad3de70abee9" => :x86_64_linux
+    rebuild 1
+    sha256 "35a25e03a23da0133bbc6e2596487665d563aff33e264973df52f7214982b66f" => :x86_64_linux
   end
