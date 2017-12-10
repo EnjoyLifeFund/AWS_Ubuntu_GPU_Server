@@ -1,9 +1,14 @@
-==> Determining cython bottle rebuild...
-==> Bottling cython-0.27.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cython-0.27.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cython-0.27.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dl.bintray.com/homebrew/mirror/dash-0.5.9.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1 --with-libedit --enable-fnmatch --enable-glob
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dash/0.5.9.1: 6 files, 568.2KB, built in 11 seconds
+==> Determining dash bottle rebuild...
+==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
+./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5f3d52b63363f4930876b69bbb337ceaa6dad14dabdc68218ed29ba371c36b49" => :x86_64_linux
+    sha256 "25192c29ae0b4a4364093be71ab2f2558621ed15a3a92c52871734f5d3fa70b6" => :x86_64_linux
   end
