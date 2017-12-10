@@ -1,15 +1,38 @@
-==> Downloading https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-0.1.5.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-0.1.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fdk-aac/0.1.5 --enable-example
+==> Installing dependencies for ffmpeg: nasm, texi2html, lame, x264, xvid
+==> Installing ffmpeg dependency: nasm
+==> Downloading http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nasm/2.13.02
+==> make rdf
+==> make install install_rdf
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nasm/2.13.02: 30 files, 4.5MB, built in 23 seconds
+==> Installing ffmpeg dependency: texi2html
+==> Downloading https://linuxbrew.bintray.com/bottles/texi2html-5.0.x86_64_linux.bottle.1.tar.gz
+==> Pouring texi2html-5.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/texi2html/5.0: 279 files, 6.5MB
+==> Installing ffmpeg dependency: lame
+==> Downloading https://linuxbrew.bintray.com/bottles/lame-3.99.5.x86_64_linux.bottle.1.tar.gz
+==> Pouring lame-3.99.5.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lame/3.99.5: 27 files, 2.1MB
+==> Installing ffmpeg dependency: x264
+==> Downloading https://linuxbrew.bintray.com/bottles/x264-r2795.x86_64_linux.bottle.tar.gz
+==> Pouring x264-r2795.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/x264/r2795: 11 files, 4.0MB
+==> Installing ffmpeg dependency: xvid
+==> Downloading https://linuxbrew.bintray.com/bottles/xvid-1.3.4.x86_64_linux.bottle.tar.gz
+==> Pouring xvid-1.3.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xvid/1.3.4: 11 files, 1.2MB
+==> Installing ffmpeg
+==> Downloading https://ffmpeg.org/releases/ffmpeg-3.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=gcc-5 --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --disable-lzma
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fdk-aac`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fdk-aac/0.1.5: 12 files, 7.4MB, built in 21 seconds
-==> Determining fdk-aac bottle rebuild...
-==> Bottling fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ffmpeg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ffmpeg/3.4: 247 files, 194.2MB, built in 3 minutes 31 seconds
+==> Determining ffmpeg bottle rebuild...
+==> Bottling ffmpeg-3.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ffmpeg-3.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ffmpeg-3.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0bb493bb380bd038ef8175eb23d15774f5f7c0649ca3bf9229ddba6d84ecac30" => :x86_64_linux
+    sha256 "4e6d26ac25c485ccf1e7fee251b34e006af7c26d5594df4c29f4b64962b5be3c" => :x86_64_linux
   end
