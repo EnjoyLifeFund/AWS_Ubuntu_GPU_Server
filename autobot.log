@@ -1,26 +1,15 @@
-==> Downloading https://www.samba.org/ftp/ccache/ccache-3.3.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1/share/man --with-bundled-zlib
-==> make
+==> Downloading https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio3420.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cfitsio/3.420
+==> make shared
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ccache`
-==> Caveats
-To install symlinks for compilers that will automatically use
-ccache, prepend this directory to your PATH:
-  /home/linuxbrew/.linuxbrew/opt/ccache/libexec
-
-If this is an upgrade and you have previously added the symlinks to
-your PATH, you may need to modify it to the path specified above so
-it points to the current version.
-
-NOTE: ccache can prevent some software from compiling.
-ALSO NOTE: The brew command, by design, will never use ccache.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ccache/3.3.4_1: 61 files, 937.8KB, built in 13 seconds
-==> Determining ccache bottle rebuild...
-==> Bottling ccache-3.3.4_1.x86_64_linux.bottle.1.tar.gz...
-./ccache-3.3.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cfitsio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cfitsio/3.420: 17 files, 10.1MB, built in 24 seconds
+==> Determining cfitsio bottle rebuild...
+==> Bottling cfitsio-3.420.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cfitsio-3.420.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cfitsio-3.420.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b6c4612bdf380b54499c1fa628fe90fbcdc8253cfb1cca4f9c2d1c562c3d253e" => :x86_64_linux
+    sha256 "8bff0090c7204983dbc8e2adafc8d0a046a2da716808d7540ea1514cc4371e53" => :x86_64_linux
   end
