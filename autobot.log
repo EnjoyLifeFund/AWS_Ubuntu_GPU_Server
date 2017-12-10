@@ -1,25 +1,23 @@
-==> Downloading https://github.com/ninja-build/ninja/archive/v1.8.2.tar.gz
-==> Downloading from https://codeload.github.com/ninja-build/ninja/tar.gz/v1.8.2
-==> python configure.py --bootstrap
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/googletest/gtest-1.7.0.zip
-==> ./configure.py --with-gtest=gtest
-==> ./ninja ninja_test
-==> ./ninja_test --gtest_filter=-SubprocessTest.SetWithLots
+==> Downloading https://nmap.org/dist/nmap-7.60.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nmap/7.60 --with-libpcre=included --with-liblua=included --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --without-nmap-update --disable-universal --without-zenmap
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ninja`
+You can run it manually using `brew postinstall nmap`
 ==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-
-zsh completions have been installed to:
-  /home/linuxbrew/.linuxbrew/share/zsh/site-functions
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ninja/1.8.2: 7 files, 3.4MB, built in 34 seconds
-==> Determining ninja bottle rebuild...
-==> Bottling ninja-1.8.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ninja-1.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ninja-1.8.2.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nmap/7.60: 797 files, 25.9MB, built in 3 minutes 39 seconds
+==> Determining nmap bottle rebuild...
+==> Bottling nmap-7.60.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nmap-7.60.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nmap-7.60.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4792f07221599837008b61e07695aae1aa68fff01c5654e7b073ea64742b39f7" => :x86_64_linux
+    sha256 "6de11073344e30cdd574f697ca5fcb2bd1e25be5fa5b87f2df37be479cc45c55" => :x86_64_linux
   end
