@@ -1,7 +1,16 @@
-==> Determining xz bottle rebuild...
-==> Bottling xz-5.2.3.x86_64_linux.bottle.1.tar.gz...
-./xz-5.2.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/VirusTotal/yara/archive/v3.7.0.tar.gz
+==> Downloading from https://codeload.github.com/VirusTotal/yara/tar.gz/v3.7.0
+==> ./bootstrap.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/yara/3.7.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall yara`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/yara/3.7.0: 38 files, 1.5MB, built in 32 seconds
+==> Determining yara bottle rebuild...
+==> Bottling yara-3.7.0.x86_64_linux.bottle.1.tar.gz...
+./yara-3.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fe94cc0d0e039c079c8c8dbd0ce4af22e19f4625f658bd8e203e20d847c1c2e6" => :x86_64_linux
+    sha256 "afe5bf5a4c7f456fdf6a647a98f14351148a1f3e0b106248e288402f6c3791aa" => :x86_64_linux
   end
