@@ -1,14 +1,16 @@
-==> Downloading https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bison/3.0.4_1
-==> make install
+==> Downloading https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.bz2
+==> ./bootstrap.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.65.1 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.65.1/lib --without-icu --without-libraries=python,mpi
+==> ./b2 headers
+==> ./b2 --prefix=/home/linuxbrew/.linuxbrew/Cellar/boost/1.65.1 --libdir=/home/linuxbrew/.linuxbrew/Cellar/boost/1.65.1/lib -d2 -j32 --layout=tagged --user-config=user-config.jam -sNO_LZMA=1 install threading=multi,single link=shared,static include=/home/linuxbrew/.linuxbrew/include linkflags=-L/home/linuxbrew/.linuxbrew/lib
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bison`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bison/3.0.4_1: 118 files, 4.5MB, built in 1 minute 27 seconds
-==> Determining bison bottle rebuild...
-==> Bottling bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bison-3.0.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall boost`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/boost/1.65.1: 12,748 files, 198.9MB, built in 4 minutes 17 seconds
+==> Determining boost bottle rebuild...
+==> Bottling boost-1.65.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if boost-1.65.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./boost-1.65.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f86fb0c9af2d26ddad3e0c8b2466582aebceec2cb3b2a618227808a8f1a2717b" => :x86_64_linux
+    sha256 "becaa44a291c3e77dc08dc20c4500eee1fc2e9670b1c0503b56c995f06a7f8d8" => :x86_64_linux
   end
