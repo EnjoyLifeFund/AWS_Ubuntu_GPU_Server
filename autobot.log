@@ -1,128 +1,14 @@
-==> Installing dependencies for libusb: ncurses, readline, sqlite, gdbm, zlib, openssl, berkeley-db@4, bzip2, python, libbsd, expat, libcap, util-linux, systemd
-==> Installing libusb dependency: ncurses
-==> Downloading https://linuxbrew.bintray.com/bottles/ncurses-6.0_4.x86_64_linux.bottle.tar.gz
-==> Pouring ncurses-6.0_4.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ncurses/6.0_4: 3,899 files, 17.5MB
-==> Installing libusb dependency: readline
-==> Downloading https://linuxbrew.bintray.com/bottles/readline-7.0.3_1.x86_64_linux.bottle.tar.gz
-==> Pouring readline-7.0.3_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/readline/7.0.3_1: 46 files, 1.7MB
-==> Installing libusb dependency: sqlite
-==> Downloading https://linuxbrew.bintray.com/bottles/sqlite-3.21.0.x86_64_linux.bottle.tar.gz
-==> Pouring sqlite-3.21.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sqlite/3.21.0: 12 files, 19.5MB
-==> Installing libusb dependency: gdbm
-==> Downloading https://linuxbrew.bintray.com/bottles/gdbm-1.13_1.x86_64_linux.bottle.tar.gz
-==> Pouring gdbm-1.13_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gdbm/1.13_1: 37 files, 2MB
-==> Installing libusb dependency: zlib
-==> Downloading https://linuxbrew.bintray.com/bottles/zlib-1.2.11.x86_64_linux.bottle.tar.gz
-==> Pouring zlib-1.2.11.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/zlib/1.2.11: 12 files, 423.5KB
-==> Installing libusb dependency: openssl
-==> Downloading https://linuxbrew.bintray.com/bottles/openssl-1.0.2n.x86_64_linux.bottle.tar.gz
-==> Pouring openssl-1.0.2n.x86_64_linux.bottle.tar.gz
-==> Downloading https://curl.haxx.se/ca/cacert-2017-01-18.pem
-==> Caveats
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /home/linuxbrew/.linuxbrew/etc/openssl/certs
-
-and run
-  /home/linuxbrew/.linuxbrew/opt/openssl/bin/c_rehash
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openssl/1.0.2n: 1,799 files, 14.8MB
-==> Installing libusb dependency: berkeley-db@4
-==> Downloading https://linuxbrew.bintray.com/bottles/berkeley-db@4-4.8.30.x86_64_linux.bottle.tar.gz
-==> Pouring berkeley-db@4-4.8.30.x86_64_linux.bottle.tar.gz
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/berkeley-db@4/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/berkeley-db@4/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/berkeley-db@4/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/berkeley-db@4/4.8.30: 4,596 files, 82.2MB
-==> Installing libusb dependency: bzip2
-==> Downloading https://linuxbrew.bintray.com/bottles/bzip2-1.0.6_1.x86_64_linux.bottle.tar.gz
-==> Pouring bzip2-1.0.6_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bzip2/1.0.6_1: 30 files, 1.5MB
-==> Installing libusb dependency: python
-==> Downloading https://linuxbrew.bintray.com/bottles/python-2.7.14.x86_64_linux.bottle.tar.gz
-==> Pouring python-2.7.14.x86_64_linux.bottle.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin/python2 -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin --install-lib=/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages
-==> /home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin/python2 -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin --install-lib=/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages
-==> /home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin/python2 -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/linuxbrew/.linuxbrew/Cellar/python/2.7.14/bin --install-lib=/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages
-==> Caveats
-This formula installs a python2 executable to /home/linuxbrew/.linuxbrew/bin.
-If you wish to have this formula's python executable in your PATH then add
-the following to ~/.bash_profile:
-  export PATH="/home/linuxbrew/.linuxbrew/opt/python/libexec/bin:$PATH"
-
-Pip and setuptools have been installed. To update them
-  pip2 install --upgrade pip setuptools
-
-You can install Python packages with
-  pip2 install <package>
-
-They will install into the site-package directory
-  /home/linuxbrew/.linuxbrew/lib/python2.7/site-packages
-
-See: https://docs.brew.sh/Homebrew-and-Python.html
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/python/2.7.14: 2,946 files, 71.5MB
-==> Installing libusb dependency: libbsd
-==> Downloading https://linuxbrew.bintray.com/bottles/libbsd-0.8.3.x86_64_linux.bottle.tar.gz
-==> Pouring libbsd-0.8.3.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbsd/0.8.3: 82 files, 713.9KB
-==> Installing libusb dependency: expat
-==> Downloading https://linuxbrew.bintray.com/bottles/expat-2.2.5.x86_64_linux.bottle.tar.gz
-==> Pouring expat-2.2.5.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/expat/2.2.5: 18 files, 1.8MB
-==> Installing libusb dependency: libcap
-==> Downloading https://linuxbrew.bintray.com/bottles/libcap-2.25.x86_64_linux.bottle.tar.gz
-==> Pouring libcap-2.25.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcap/2.25: 44 files, 404.7KB
-==> Installing libusb dependency: util-linux
-==> Downloading https://linuxbrew.bintray.com/bottles/util-linux-2.30.1.x86_64_linux.bottle.tar.gz
-==> Pouring util-linux-2.30.1.x86_64_linux.bottle.tar.gz
-==> Caveats
-Some commands were moved to the bsdmainutils formula.
-You may wish to install it as well.
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/util-linux/2.30.1: 350 files, 33.7MB
-==> Installing libusb dependency: systemd
-==> Downloading https://linuxbrew.bintray.com/bottles/systemd-234_1.x86_64_linux.bottle.tar.gz
-==> Pouring systemd-234_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/systemd/234_1: 1,170 files, 202.4MB
-==> Installing libusb
-==> Downloading https://github.com/libusb/libusb/releases/download/v1.0.21/libusb-1.0.21.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/15120676/391d1602-9a9b-11e6-85f7-70b3577a8763?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T093444Z&X-Amz-Expires=300&X-Amz-Signature=a1d4a146bf929eaecbbc7100be676bc917526b431a38e890ee985df2e1699463&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibusb-1.0.21.tar.bz2&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libusb/1.0.21
+==> Downloading http://www.digip.org/jansson/releases/jansson-2.10.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jansson/2.10
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libusb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libusb/1.0.21: 27 files, 981.3KB, built in 19 seconds
-==> Determining libusb bottle rebuild...
-==> Bottling libusb-1.0.21.x86_64_linux.bottle.1.tar.gz...
-./libusb-1.0.21.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jansson`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jansson/2.10: 9 files, 437.8KB, built in 15 seconds
+==> Determining jansson bottle rebuild...
+==> Bottling jansson-2.10.x86_64_linux.bottle.1.tar.gz...
+./jansson-2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "421a90d1150044b6333686a5d1f90d6ae933f9672c07d53c948af13a9cce5600" => :x86_64_linux
+    sha256 "420140ac42560d0f72087700aa7c1406b773da2eb4ae3bb4de2b401035ddef1b" => :x86_64_linux
   end
