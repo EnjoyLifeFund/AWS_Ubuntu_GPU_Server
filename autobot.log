@@ -1,26 +1,15 @@
-==> Downloading https://bash-completion.alioth.debian.org/files/bash-completion-1.3.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c1d87451da3b5b147bed95b2dc783a1b02520ac5/bash-completion/bug-740971.patch
-==> Patching
-==> Applying bug-740971.patch
-patching file bash_completion
-patching file completions/man
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3
+==> Downloading https://downloads.sourceforge.net/project/bashdb/bashdb/4.4-0.94/bashdb-4.4-0.94.tar.bz2
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/bashdb/bashdb/4.4-0.94/bashdb-4.4-0.94.tar.bz2
+==> ./configure --with-bash=/home/linuxbrew/.linuxbrew/bin/bash --prefix=/home/linuxbrew/.linuxbrew/Cellar/bashdb/4.4-0.94
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bash-completion`
-==> Caveats
-Add the following line to your ~/.bash_profile:
-  [ -f /home/linuxbrew/.linuxbrew/etc/bash_completion ] && . /home/linuxbrew/.linuxbrew/etc/bash_completion
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3: 189 files, 625.8KB, built in 5 seconds
-==> Determining bash-completion bottle rebuild...
-==> Bottling bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz...
-./bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bashdb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bashdb/4.4-0.94: 160 files, 958.9KB, built in 7 seconds
+==> Determining bashdb bottle rebuild...
+==> Bottling bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz...
+./bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "86598c93ef5bbb26683032dbc5ead794e8af542e7a426a16ddee9e1dd8cee303" => :x86_64_linux
+    sha256 "276a84be7e1fd7d46092edf74ece774892ec20e572d009b743ee14651cd8060d" => :x86_64_linux
   end
