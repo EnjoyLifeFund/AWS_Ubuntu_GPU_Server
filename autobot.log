@@ -1,9 +1,14 @@
-==> Determining icu4c bottle rebuild...
-==> Bottling icu4c-60.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if icu4c-60.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./icu4c-60.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://savannah.nongnu.org/download/openexr/ilmbase-2.2.0.tar.gz
+==> Downloading from http://download.savannah.gnu.org/releases/openexr/ilmbase-2.2.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ilmbase/2.2.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ilmbase`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ilmbase/2.2.0: 315 files, 8.9MB, built in 26 seconds
+==> Determining ilmbase bottle rebuild...
+==> Bottling ilmbase-2.2.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if ilmbase-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
+./ilmbase-2.2.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "1a455f351cdeb6a46abd3580e86aea5dda6d196b48e47e17a043eb678684ad53" => :x86_64_linux
+    sha256 "4505e8a2dac37857a371c08e386113e9d783dca45bfbedb55a5e485291060b33" => :x86_64_linux
   end
