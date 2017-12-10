@@ -1,13 +1,13 @@
-==> Downloading http://www.brain-dump.org/projects/abduco/abduco-0.6.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/abduco/0.6 install
+==> Downloading http://www.quut.com/abnfgen/abnfgen-0.17.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/abnfgen/0.17 --mandir=/home/linuxbrew/.linuxbrew/Cellar/abnfgen/0.17/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall abduco`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/abduco/0.6: 6 files, 71.6KB, built in 2 seconds
-==> Determining abduco bottle rebuild...
-==> Bottling abduco-0.6.x86_64_linux.bottle.1.tar.gz...
-./abduco-0.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall abnfgen`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/abnfgen/0.17: 9 files, 192.8KB, built in 4 seconds
+==> Determining abnfgen bottle rebuild...
+==> Bottling abnfgen-0.17.x86_64_linux.bottle.1.tar.gz...
+./abnfgen-0.17.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a19e4427b5a236549ec49333888c14f29cff4e263ba8051d0367f72405fbfcf2" => :x86_64_linux
+    sha256 "a9e7929d79647dfc67be757d126db0c91925dd10c9f9d1652abf07b37a9d33db" => :x86_64_linux
   end

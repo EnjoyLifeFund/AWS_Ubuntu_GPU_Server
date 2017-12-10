@@ -1,6 +1,6 @@
-abduco: stable 0.6 (bottled), HEAD
-Provides session management: i.e. separate programs from terminals
-http://www.brain-dump.org/projects/abduco
-/home/linuxbrew/.linuxbrew/Cellar/abduco/0.6 (6 files, 75.6KB) *
-  Built from source on 2017-12-10 at 13:18:04
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/abduco.rb
+abnfgen: stable 0.17 (bottled)
+Quickly generate random documents that match an ABFN grammar
+http://www.quut.com/abnfgen/
+/home/linuxbrew/.linuxbrew/Cellar/abnfgen/0.17 (9 files, 196.8KB) *
+  Built from source on 2017-12-10 at 13:19:58
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/abnfgen.rb
