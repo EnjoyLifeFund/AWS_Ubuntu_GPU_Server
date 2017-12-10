@@ -1,0 +1,7 @@
+==> Determining patchelf bottle rebuild...
+==> Bottling patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz...
+./patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "11298b185d29caf73000df646654714fd3f7640b742594f2375f3a219ad2c459" => :x86_64_linux
+  end
