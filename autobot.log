@@ -1,3 +1,12 @@
-==> Downloading https://storage.googleapis.com/appengine-sdks/featured/appengine-java-sdk-1.9.59.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/app-engine-java/1.9.59: 1,565 files, 219.6MB, built in 9 seconds
-This formula doesn't require compiling.
+==> Downloading https://micans.org/apparix/src/apparix-11-062.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apparix/11-062
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall apparix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apparix/11-062: 14 files, 616.7KB, built in 13 seconds
+==> Determining apparix bottle rebuild...
+==> Bottling apparix-11-062.x86_64_linux.bottle.tar.gz...
+./apparix-11-062.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "307b82a99ccfd15f1e7ca112226c397d1541e208c924b752fada00a03f64e96d" => :x86_64_linux
+  end
