@@ -10,3 +10,4 @@ tobe.install
 tobe.move
 nohup.out
 ghc-*.bottle.*.tar.gz
+arangodb*
