@@ -1,14 +1,15 @@
-==> Downloading https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz
-==> Downloading from http://download.savannah.gnu.org/releases/atool/atool-0.39.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atool/0.39.0
-==> make install
+==> Downloading https://aubio.org/pub/aubio-0.4.6.tar.bz2
+==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/aubio/0.4.6
+==> ./waf build
+==> ./waf install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall atool`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/atool/0.39.0: 22 files, 211.3KB, built in 4 seconds
-==> Determining atool bottle rebuild...
-==> Bottling atool-0.39.0.x86_64_linux.bottle.tar.gz...
-./atool-0.39.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall aubio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aubio/0.4.6: 69 files, 926KB, built in 9 seconds
+==> Determining aubio bottle rebuild...
+==> Bottling aubio-0.4.6.x86_64_linux.bottle.1.tar.gz...
+./aubio-0.4.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "7025a68306b81ba5d4431ee4a4fbabd862c730c393cf3d9fcf63023eca538b67" => :x86_64_linux
+    rebuild 1
+    sha256 "161975fd1e57321ac2d087381ba36043b578e71f04afff2bf6b7546990f87b35" => :x86_64_linux
   end
