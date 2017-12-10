@@ -1,30 +1,9 @@
-==> Installing dependencies for hydra: mysql
-==> Installing hydra dependency: mysql
-==> Downloading https://linuxbrew.bintray.com/bottles/mysql-5.7.20.x86_64_linux.bottle.tar.gz
-==> Pouring mysql-5.7.20.x86_64_linux.bottle.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/mysql/5.7.20/bin/mysqld --initialize-insecure --user=ubuntu --basedir=/home/linuxbrew/.linuxbrew/Cellar/mysql/5.7.20 --datadir=/home/linuxbrew/.linuxbrew/var/mysql --tmpdir=/tmp
-==> Caveats
-We've installed your MySQL database without a root password. To secure it run:
-    mysql_secure_installation
-
-MySQL is configured to only allow connections from localhost by default
-
-To connect run:
-    mysql -uroot
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mysql/5.7.20: 324 files, 426.6MB
-==> Installing hydra
-==> Downloading https://github.com/vanhauser-thc/thc-hydra/archive/8.6.tar.gz
-==> Downloading from https://codeload.github.com/vanhauser-thc/thc-hydra/tar.gz/8.6
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hydra/8.6
-==> make all install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hydra`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hydra/8.6: 15 files, 1.6MB, built in 7 seconds
-==> Determining hydra bottle rebuild...
-==> Bottling hydra-8.6.x86_64_linux.bottle.1.tar.gz...
-./hydra-8.6.x86_64_linux.bottle.1.tar.gz
+==> Determining icu4c bottle rebuild...
+==> Bottling icu4c-60.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if icu4c-60.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./icu4c-60.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e3a4b4164153641b7d466e078b160c310342e47ac33d5a35afc1d79c5ba5ce1c" => :x86_64_linux
+    sha256 "1a455f351cdeb6a46abd3580e86aea5dda6d196b48e47e17a043eb678684ad53" => :x86_64_linux
   end
