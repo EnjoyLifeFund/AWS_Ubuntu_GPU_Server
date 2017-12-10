@@ -1,31 +1,13 @@
-==> Downloading https://github.com/BLAKE2/BLAKE2/archive/20160619.tar.gz
-==> Downloading from https://codeload.github.com/BLAKE2/BLAKE2/tar.gz/20160619
-==> make NO_OPENMP=1
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619/share/man
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/b2sum
-Target /home/linuxbrew/.linuxbrew/bin/b2sum
-is a symlink belonging to coreutils. You can unlink it:
-  brew unlink coreutils
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite b2sum
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run b2sum
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/b2sum -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/bin/b2sum
-/home/linuxbrew/.linuxbrew/share/man/man1/b2sum.1 -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/share/man/man1/b2sum.1
+==> Downloading https://bues.ch/b43/fwcutter/b43-fwcutter-019.tar.bz2
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/b43-fwcutter/019 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall b2sum`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619: 6 files, 69.6KB, built in 31 seconds
-==> Determining b2sum bottle rebuild...
-==> Bottling b2sum-20160619.x86_64_linux.bottle.1.tar.gz...
-./b2sum-20160619.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall b43-fwcutter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/b43-fwcutter/019: 6 files, 73.8KB, built in 18 seconds
+==> Determining b43-fwcutter bottle rebuild...
+==> Bottling b43-fwcutter-019.x86_64_linux.bottle.1.tar.gz...
+./b43-fwcutter-019.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c5f16c7513a44d37ad16bb6961152b01c71cb566fa2aebde6ad1db5f9ee683bd" => :x86_64_linux
+    sha256 "d8565d8193e82e7dbb444734053651226eb6a6c77d829c8dc07459fd88a114d1" => :x86_64_linux
   end
