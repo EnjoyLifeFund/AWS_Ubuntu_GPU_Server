@@ -1,13 +1,13 @@
-==> Downloading https://web.archive.org/web/20150510210401/craz.net/programs/itunes/files/alac_decoder-0.2.0.tgz
-==> make CFLAGS= CC=gcc-5
+==> Downloading https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz
+==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/align/1.7.5/bin
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall alac`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/alac/0.2.0: 4 files, 49.4KB, built in 2 seconds
-==> Determining alac bottle rebuild...
-==> Bottling alac-0.2.0.x86_64_linux.bottle.1.tar.gz...
-./alac-0.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall align`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/align/1.7.5: 7 files, 43.1KB, built in 3 seconds
+==> Determining align bottle rebuild...
+==> Bottling align-1.7.5.x86_64_linux.bottle.1.tar.gz...
+./align-1.7.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5c4aacf5740094067748b02ccdef7d3d074e08a5ab7fe9b0a62cf3f86659820d" => :x86_64_linux
+    sha256 "437e3dfb41da43dfb4da140dbd497f9b452f46814e4bcf1f69d27c7ba9af9754" => :x86_64_linux
   end
