@@ -1,1 +1,14 @@
-This formula doesn't require compiling.
+==> Downloading https://media.luffy.cx/files/lldpd/lldpd-0.9.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lldpd/0.9.9 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --with-xml --with-readline --with-privsep-chroot=/var/empty --with-privsep-user=nobody --with-privsep-group=nogroup --with-launchddaemonsdir=no CPPFLAGS=-I/home/linuxbrew/.linuxbrew/opt/readline/include -DRONLY=1 LDFLAGS=-L/home/linuxbrew/.linuxbrew/opt/readline/lib --without-snmp
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall lldpd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lldpd/0.9.9: 27 files, 2.5MB, built in 56 seconds
+==> Determining lldpd bottle rebuild...
+==> Bottling lldpd-0.9.9.x86_64_linux.bottle.1.tar.gz...
+./lldpd-0.9.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "f4004004fc5a9952fcb01c30b21229a04e25f7b50d20c2f217b7c92d35d143e1" => :x86_64_linux
+  end
