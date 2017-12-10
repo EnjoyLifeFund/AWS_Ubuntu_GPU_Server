@@ -1,16 +1,15 @@
-==> Downloading https://github.com/nickgillian/grt/archive/v0.0.1.tar.gz
-==> Downloading from https://codeload.github.com/nickgillian/grt/tar.gz/v0.0.1
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/grt/0.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://ftp.gnu.org/gnu/gsl/gsl-2.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gsl/2.4
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall grt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grt/0.0.1: 159 files, 7.8MB, built in 31 seconds
-==> Determining grt bottle rebuild...
-==> Bottling grt-0.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if grt-0.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./grt-0.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gsl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gsl/2.4: 264 files, 17.6MB, built in 1 minute
+==> Determining gsl bottle rebuild...
+==> Bottling gsl-2.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gsl-2.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gsl-2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "355c051c5dca33cdadea8cd75bd53c1e2175094c9b908e38bf4a0af42c7e7e43" => :x86_64_linux
+    sha256 "9cb25d54d532ddb5d2a15b1f6c756f1cccdf87270c159465a6cbb427259276d1" => :x86_64_linux
   end
