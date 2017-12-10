@@ -1,14 +1,13 @@
-==> Downloading https://aescrypt.sourceforge.io/aescrypt-0.7.tar.gz
-==> Downloading from http://aescrypt.sourceforge.net/aescrypt-0.7.tar.gz
-==> ./configure
-==> make
+==> Downloading http://members.chello.nl/~k.holtman/afio-2.5.1.tgz
+==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/afio/2.5.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aescrypt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aescrypt/0.7: 8 files, 120.9KB, built in 2 seconds
-==> Determining aescrypt bottle rebuild...
-==> Bottling aescrypt-0.7.x86_64_linux.bottle.1.tar.gz...
-./aescrypt-0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall afio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/afio/2.5.1: 26 files, 225.8KB, built in 5 seconds
+==> Determining afio bottle rebuild...
+==> Bottling afio-2.5.1.x86_64_linux.bottle.1.tar.gz...
+./afio-2.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7071a3b9b873962249ca460bba7a2fa7c581a4f3daf0bf15436b89f8b46b31d4" => :x86_64_linux
+    sha256 "ad7be5e1b7127d1dcea46da47d3e844a88619a787f50dd815405d1dabe8a6f9c" => :x86_64_linux
   end
