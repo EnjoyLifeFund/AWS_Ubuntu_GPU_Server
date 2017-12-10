@@ -1,0 +1,6 @@
+a52dec: stable 0.7.4 (bottled)
+Library for decoding ATSC A/52 streams (AKA 'AC-3')
+https://liba52.sourceforge.io/
+/home/linuxbrew/.linuxbrew/Cellar/a52dec/0.7.4 (18 files, 287.7KB) *
+  Built from source on 2017-12-10 at 13:05:50
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/a52dec.rb

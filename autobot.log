@@ -1,8 +1,15 @@
-==> Determining python3 bottle rebuild...
-==> Bottling python3-3.6.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if python3-3.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./python3-3.6.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://liba52.sourceforge.io/files/a52dec-0.7.4.tar.gz
+==> Downloading from http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/a52dec/0.7.4 --enable-shared --mandir=/home/linuxbrew/.linuxbrew/Cellar/a52dec/0.7.4/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall a52dec`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/a52dec/0.7.4: 18 files, 279.7KB, built in 13 seconds
+==> Determining a52dec bottle rebuild...
+==> Bottling a52dec-0.7.4.x86_64_linux.bottle.1.tar.gz...
+./a52dec-0.7.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1eba81870a717d5e7485f49939401a8e03bb06ce0a9c01e7946764afdc260124" => :x86_64_linux
+    sha256 "58cf1d2e24e68216dea6d38d0d2ae329a283de9ed5d2ffc6d369a9b126a1de7c" => :x86_64_linux
   end
