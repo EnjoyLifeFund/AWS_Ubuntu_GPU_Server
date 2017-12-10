@@ -1,14 +1,14 @@
-==> Downloading https://bitbucket.org/dinkypumpkin/atomicparsley/downloads/atomicparsley-0.9.6.tar.bz2
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/dinkypumpkin/atomicparsley/downloads/atomicparsley-0.9.6.tar.bz2?Signature=7oQSJJ%2BVhUjdk3dX0%2B9zk5843W8%3D&Expires=1512945506&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22atomicparsley-0.9.6.tar.bz2%22
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atomicparsley/0.9.6 --disable-universal
+==> Downloading https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz
+==> Downloading from http://download.savannah.gnu.org/releases/atool/atool-0.39.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atool/0.39.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall atomicparsley`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/atomicparsley/0.9.6: 6 files, 815.9KB, built in 19 seconds
-==> Determining atomicparsley bottle rebuild...
-==> Bottling atomicparsley-0.9.6.x86_64_linux.bottle.tar.gz...
-./atomicparsley-0.9.6.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall atool`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/atool/0.39.0: 22 files, 211.3KB, built in 4 seconds
+==> Determining atool bottle rebuild...
+==> Bottling atool-0.39.0.x86_64_linux.bottle.tar.gz...
+./atool-0.39.0.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "01c361cd2c9db47a1d39deee8fd1f5459b73f787a0bd7cb0ad665f87bb32f75b" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "7025a68306b81ba5d4431ee4a4fbabd862c730c393cf3d9fcf63023eca538b67" => :x86_64_linux
   end
