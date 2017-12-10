@@ -1,23 +1,26 @@
-==> Downloading https://github.com/01org/tbb/archive/2018_U1.tar.gz
-==> Downloading from https://codeload.github.com/01org/tbb/tar.gz/2018_U1
-==> make tbb_build_prefix=BUILDPREFIX compiler=gcc
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/tbb/2018_U1 --single-version-externally-managed --record=installed.txt
+==> Installing dependencies for tesseract: leptonica
+==> Installing tesseract dependency: leptonica
+==> Downloading https://linuxbrew.bintray.com/bottles/leptonica-1.74.4_1.x86_64_linux.bottle.tar.gz
+==> Pouring leptonica-1.74.4_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/leptonica/1.74.4_1: 53 files, 25.6MB
+==> Installing tesseract
+==> Downloading https://github.com/tesseract-ocr/tesseract/archive/3.05.01.tar.gz
+==> Downloading from https://codeload.github.com/tesseract-ocr/tesseract/tar.gz/3.05.01
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/tesseract/3.05.01
+==> make install
+==> Downloading https://github.com/tesseract-ocr/tessdata/raw/3.04.00/eng.traineddata
+==> Downloading from https://raw.githubusercontent.com/tesseract-ocr/tessdata/3.04.00/eng.traineddata
+==> Downloading https://github.com/tesseract-ocr/tessdata/raw/3.04.00/osd.traineddata
+==> Downloading from https://raw.githubusercontent.com/tesseract-ocr/tessdata/3.04.00/osd.traineddata
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall tbb`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tbb/2018_U1: 127 files, 4.7MB, built in 16 seconds
-==> Determining tbb bottle rebuild...
-==> Bottling tbb-2018_U1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if tbb-2018_U1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./tbb-2018_U1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall tesseract`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tesseract/3.05.01: 77 files, 110.9MB, built in 1 minute 19 seconds
+==> Determining tesseract bottle rebuild...
+==> Bottling tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz is relocatable...
+./tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "36ebcd34d8c7fef5138d7b3fc243f1c5f59e4de82c8808dbb48842ee083806e0" => :x86_64_linux
+    sha256 "7cb4c76f92b914cdbc11e22b9f76eba6c23a7cffd0ab9ba407819d826421cd43" => :x86_64_linux
   end
