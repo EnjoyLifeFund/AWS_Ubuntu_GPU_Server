@@ -1,7 +1,16 @@
-==> Determining argon2 bottle rebuild...
-==> Bottling argon2-20161029.x86_64_linux.bottle.1.tar.gz...
-./argon2-20161029.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz
+==> Downloading from https://superb-dca2.dl.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/argtable/2.13
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall argtable`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/argtable/2.13: 38 files, 4.7MB, built in 12 seconds
+==> Determining argtable bottle rebuild...
+==> Bottling argtable-2.13.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if argtable-2.13.x86_64_linux.bottle.1.tar.gz is relocatable...
+./argtable-2.13.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9719aeb075a3a9d5c6a46a26940ae5ea0e412f38f687ef547834e67ad1c6756a" => :x86_64_linux
+    sha256 "572104b91528e844930adc5f13d23b59c5d23aac5bf6692584aeb15c321352bf" => :x86_64_linux
   end
