@@ -1,13 +1,7 @@
-==> Downloading https://registry.npmjs.org/autocode/-/autocode-1.3.1.tgz
-==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/autocode/1.3.1/libexec /tmp/autocode-20171210-1829-1njgxy1/package/autocode-1.3.1.tgz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autocode`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autocode/1.3.1: 4,224 files, 31MB, built in 15 seconds
-==> Determining autocode bottle rebuild...
-==> Bottling autocode-1.3.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if autocode-1.3.1.x86_64_linux.bottle.tar.gz is relocatable...
-./autocode-1.3.1.x86_64_linux.bottle.tar.gz
+==> Determining autoconf bottle rebuild...
+==> Bottling autoconf-2.69.x86_64_linux.bottle.tar.gz...
+./autoconf-2.69.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "7805ce7039c0ff7be0419f9535d36bbdcf48e0b348d27ab220a00616409de44d" => :x86_64_linux
+    sha256 "3c3e5b52755054611a80684b0eabd794654859eb84563162be1a7ec532bdc211" => :x86_64_linux
   end
