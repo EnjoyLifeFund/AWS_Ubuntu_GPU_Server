@@ -1,16 +1,9 @@
-==> Downloading https://downloads.xiph.org/releases/ogg/libogg-1.3.3.tar.gz
-==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/ogg/libogg-1.3.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libogg/1.3.3
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libogg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libogg/1.3.3: 95 files, 528KB, built in 10 seconds
-==> Determining libogg bottle rebuild...
-==> Bottling libogg-1.3.3.x86_64_linux.bottle.1.tar.gz...
-./libogg-1.3.3.x86_64_linux.bottle.1.tar.gz
+==> Determining libspatialite bottle rebuild...
+==> Bottling libspatialite-4.3.0a_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libspatialite-4.3.0a_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libspatialite-4.3.0a_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "abc22afd3ce3d27fbdc7637e49b0bfcf297f1ad84474f1c0a86d6bdd41f3b588" => :x86_64_linux
+    sha256 "6043d968daa6890b556228defdce8e11b7b9f39cd631f921eba5491231e94ec8" => :x86_64_linux
   end
