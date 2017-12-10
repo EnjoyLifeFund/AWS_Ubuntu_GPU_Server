@@ -1,14 +1,8 @@
-==> Downloading http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/portaudio/19.6.0 --enable-mac-universal=no --enable-cxx
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall portaudio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/portaudio/19.6.0: 30 files, 1.3MB, built in 23 seconds
-==> Determining portaudio bottle rebuild...
-==> Bottling portaudio-19.6.0.x86_64_linux.bottle.1.tar.gz...
-./portaudio-19.6.0.x86_64_linux.bottle.1.tar.gz
+==> Determining proj bottle rebuild...
+==> Bottling proj-4.9.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if proj-4.9.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./proj-4.9.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2999bc64540b84849ab38b77cec71ab0b2346b702dc93add13424cbf6e970582" => :x86_64_linux
+    sha256 "218b1218c5019f77ea0e8573c48d0e02a9d7f547ff25bafbba40ec0c6d8111a7" => :x86_64_linux
   end
