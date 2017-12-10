@@ -1,4 +1,14 @@
-==> Downloading https://bobswift.atlassian.net/wiki/download/attachments/16285777/atlassian-cli-7.1.0-distribution.zip
-==> Downloading from https://media-api.atlassian.io/file/7c50ccea-c241-4812-a67b-8f2798a3a722/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxYzZjOWRlMy05NDAyLTQwZjItYTM1YS0zYmM3MzVjOGQzNWMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOjdjNTBjY2VhLWMyNDEtNDgxMi1hNjdiLThmMjc5OGEzYTcyMiI6WyJyZWFkIl19LCJleHAiOjE1MTI5NDY2OTQsIm5iZiI6MTUxMjk0MzYzNH0.sxXsVQDs7l-4vBXRoVOo3Mpaxp8r3W2WxD2Bj9KKQ3I&client=1c6c9de3-9402-40f2-a35a-3bc735c8d35c&name=atlassian-cli-7.1.0-distribution.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/atlassian-cli/7.1.0: 50 files, 6.1MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://bitbucket.org/dinkypumpkin/atomicparsley/downloads/atomicparsley-0.9.6.tar.bz2
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/dinkypumpkin/atomicparsley/downloads/atomicparsley-0.9.6.tar.bz2?Signature=7oQSJJ%2BVhUjdk3dX0%2B9zk5843W8%3D&Expires=1512945506&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22atomicparsley-0.9.6.tar.bz2%22
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atomicparsley/0.9.6 --disable-universal
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall atomicparsley`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/atomicparsley/0.9.6: 6 files, 815.9KB, built in 19 seconds
+==> Determining atomicparsley bottle rebuild...
+==> Bottling atomicparsley-0.9.6.x86_64_linux.bottle.tar.gz...
+./atomicparsley-0.9.6.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "01c361cd2c9db47a1d39deee8fd1f5459b73f787a0bd7cb0ad665f87bb32f75b" => :x86_64_linux
+  end
