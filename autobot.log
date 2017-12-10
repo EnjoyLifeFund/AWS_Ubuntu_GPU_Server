@@ -1,15 +1,8 @@
-==> Downloading https://github.com/labstack/armor/archive/v0.3.3.tar.gz
-==> Downloading from https://codeload.github.com/labstack/armor/tar.gz/v0.3.3
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/armor/0.3.3/bin/armor cmd/armor/main.go
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall armor`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/armor/0.3.3: 5 files, 9.3MB, built in 4 seconds
-==> Determining armor bottle rebuild...
-==> Bottling armor-0.3.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if armor-0.3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./armor-0.3.3.x86_64_linux.bottle.1.tar.gz
+==> Determining readline bottle rebuild...
+==> Bottling readline-7.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./readline-7.0.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "34c6e7635420d8d8172f68888d77b9079e31337e06bbbad3c1c9babaa1d8073e" => :x86_64_linux
+    sha256 "0ca05680812edac4734e4043581188aadd9d9201e31b420b660b2643390731b2" => :x86_64_linux
   end
