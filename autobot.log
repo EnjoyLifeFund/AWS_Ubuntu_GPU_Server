@@ -1,24 +1,31 @@
-==> Downloading https://github.com/Backblaze/B2_Command_Line_Tool/archive/v1.1.0.tar.gz
-==> Downloading from https://codeload.github.com/Backblaze/B2_Command_Line_Tool/tar.gz/v1.1.0
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/b2-tools--homebrew-virtualenv-20171210-10827-1ql3ums/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/b2-tools--homebrew-virtualenv-20171210-10827-1ql3ums/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/b2-tools/1.1.0/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/b2-tools-20171210-10827-12sqesi/B2_Command_Line_Tool-1.1.0
-==> /home/linuxbrew/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip uninstall -y b2
-==> /home/linuxbrew/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/b2-tools-20171210-10827-12sqesi/B2_Command_Line_Tool-1.1.0
+==> Downloading https://github.com/BLAKE2/BLAKE2/archive/20160619.tar.gz
+==> Downloading from https://codeload.github.com/BLAKE2/BLAKE2/tar.gz/20160619
+==> make NO_OPENMP=1
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619/share/man
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/b2sum
+Target /home/linuxbrew/.linuxbrew/bin/b2sum
+is a symlink belonging to coreutils. You can unlink it:
+  brew unlink coreutils
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite b2sum
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run b2sum
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/b2sum -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/bin/b2sum
+/home/linuxbrew/.linuxbrew/share/man/man1/b2sum.1 -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/share/man/man1/b2sum.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall b2-tools`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+You can run it manually using `brew postinstall b2sum`
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/b2-tools/1.1.0: 1,281 files, 15MB, built in 4 minutes 10 seconds
-==> Determining b2-tools bottle rebuild...
-==> Bottling b2-tools-1.1.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if b2-tools-1.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./b2-tools-1.1.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/b2sum/20160619: 6 files, 69.6KB, built in 31 seconds
+==> Determining b2sum bottle rebuild...
+==> Bottling b2sum-20160619.x86_64_linux.bottle.1.tar.gz...
+./b2sum-20160619.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d3ab0a6a567ac2cfa78e1020e4ef3de6b92451d43e29bca87c9afbc4d5571255" => :x86_64_linux
+    sha256 "c5f16c7513a44d37ad16bb6961152b01c71cb566fa2aebde6ad1db5f9ee683bd" => :x86_64_linux
   end
