@@ -1,8 +1,6 @@
-activemq: stable 5.15.2
-Apache ActiveMQ: powerful open source messaging server
-https://activemq.apache.org/
-/home/linuxbrew/.linuxbrew/Cellar/activemq/5.15.2 (562 files, 65.0MB) *
-  Built from source on 2017-12-10 at 13:28:49
-From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/activemq.rb
-==> Requirements
-Required: java >= 1.7
+admesh: stable 0.98.3 (bottled)
+Processes triangulated solid meshes
+https://github.com/admesh/admesh
+/home/linuxbrew/.linuxbrew/Cellar/admesh/0.98.3 (17 files, 506.2KB) *
+  Built from source on 2017-12-10 at 13:34:55
+From: https://github.com/Linuxbrew/homebrew-core/blob/master/Formula/admesh.rb
