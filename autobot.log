@@ -1,17 +1,9 @@
-==> Downloading https://github.com/asdf-vm/asdf/archive/v0.4.0.tar.gz
-==> Downloading from https://codeload.github.com/asdf-vm/asdf/tar.gz/v0.4.0
-==> Caveats
-Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)
-     source /home/linuxbrew/.linuxbrew/opt/asdf/asdf.sh
-
-If you use Fish shell, add the following line to your fish config (e.g. ~/.config/fish/config.fish)
-     source /home/linuxbrew/.linuxbrew/opt/asdf/asdf.fish
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-
-fish completions have been installed to:
-  /home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/asdf/0.4.0: 59 files, 167.7KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining asio bottle rebuild...
+==> Bottling asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./asio-1.10.8_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1b3b143d805b78b29655f91db15e2684f072f28baccdeeae5bd89f8651107b28" => :x86_64_linux
+  end
