@@ -1,26 +1,8 @@
-==> Installing dependencies for tesseract: leptonica
-==> Installing tesseract dependency: leptonica
-==> Downloading https://linuxbrew.bintray.com/bottles/leptonica-1.74.4_1.x86_64_linux.bottle.tar.gz
-==> Pouring leptonica-1.74.4_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/leptonica/1.74.4_1: 53 files, 25.6MB
-==> Installing tesseract
-==> Downloading https://github.com/tesseract-ocr/tesseract/archive/3.05.01.tar.gz
-==> Downloading from https://codeload.github.com/tesseract-ocr/tesseract/tar.gz/3.05.01
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/tesseract/3.05.01
-==> make install
-==> Downloading https://github.com/tesseract-ocr/tessdata/raw/3.04.00/eng.traineddata
-==> Downloading from https://raw.githubusercontent.com/tesseract-ocr/tessdata/3.04.00/eng.traineddata
-==> Downloading https://github.com/tesseract-ocr/tessdata/raw/3.04.00/osd.traineddata
-==> Downloading from https://raw.githubusercontent.com/tesseract-ocr/tessdata/3.04.00/osd.traineddata
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall tesseract`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tesseract/3.05.01: 77 files, 110.9MB, built in 1 minute 19 seconds
-==> Determining tesseract bottle rebuild...
-==> Bottling tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz is relocatable...
-./tesseract-3.05.01.x86_64_linux.bottle.1.tar.gz
+==> Determining texi2html bottle rebuild...
+==> Bottling texi2html-5.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if texi2html-5.0.x86_64_linux.bottle.tar.gz is relocatable...
+./texi2html-5.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "7cb4c76f92b914cdbc11e22b9f76eba6c23a7cffd0ab9ba407819d826421cd43" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "1a72a871d367693052491a9dbc825460df055218fe37eae94b913a89f850f803" => :x86_64_linux
   end
