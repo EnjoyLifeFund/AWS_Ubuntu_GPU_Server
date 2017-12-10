@@ -1,20 +1,16 @@
-==> Installing dependencies for atdtool: txt2tags
-==> Installing atdtool dependency: txt2tags
-==> Downloading https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
-==> Downloading from https://codeload.github.com/txt2tags/txt2tags/tar.gz/2.6
-🍺  /home/linuxbrew/.linuxbrew/Cellar/txt2tags/2.6_1: 7 files, 273.8KB, built in 1 second
-==> Installing atdtool
-==> Downloading https://github.com/lpenz/atdtool/archive/upstream/1.3.tar.gz
-==> Downloading from https://codeload.github.com/lpenz/atdtool/tar.gz/upstream/1.3
+==> Downloading https://github.com/jmmv/atf/releases/download/atf-0.21/atf-0.21.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/16577491/2c53fcdc-5af2-11e4-919e-d9b98862222c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171210T220616Z&X-Amz-Expires=300&X-Amz-Signature=aeb4612422a69371397d993c1df7182c39864ee0e97ff29e801ba28cbd294584&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Datf-0.21.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/atf/0.21 --sysconfdir=/home/linuxbrew/.linuxbrew/etc
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall atdtool`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/atdtool/1.3: 7 files, 38.8KB, built in 0 seconds
-==> Determining atdtool bottle rebuild...
-==> Bottling atdtool-1.3.x86_64_linux.bottle.1.tar.gz...
-./atdtool-1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall atf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/atf/0.21: 111 files, 31.4MB, built in 28 seconds
+==> Determining atf bottle rebuild...
+==> Bottling atf-0.21.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if atf-0.21.x86_64_linux.bottle.1.tar.gz is relocatable...
+./atf-0.21.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b350b2ab8543820b715239780544992fe825ad349a33ed47804c85559cf9f2e7" => :x86_64_linux
+    sha256 "7b3a2c0d0acc5d2217d5579d6765f9053b3dc0a5068258c2b3e08b5f9fa9cef8" => :x86_64_linux
   end
