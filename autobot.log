@@ -1,7 +1,16 @@
-==> Determining bdw-gc bottle rebuild...
-==> Bottling bdw-gc-7.6.0.x86_64_linux.bottle.1.tar.gz...
-./bdw-gc-7.6.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/douban/beansdb/archive/v0.7.1.4.tar.gz
+==> Downloading from https://codeload.github.com/douban/beansdb/tar.gz/v0.7.1.4
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/beansdb/0.7.1.4
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall beansdb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/beansdb/0.7.1.4: 11 files, 996.9KB, built in 16 seconds
+==> Determining beansdb bottle rebuild...
+==> Bottling beansdb-0.7.1.4.x86_64_linux.bottle.1.tar.gz...
+./beansdb-0.7.1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "9f98fee797aee4941c0b50979c074629f81ebcd2e379131db159655247975e3c" => :x86_64_linux
+    sha256 "4e78b083912dd7c1c229795edaf564e6a3a4669b04d671e080873cedb14c4cdc" => :x86_64_linux
   end
