@@ -1,13 +1,14 @@
-==> Downloading https://www.inlab.de/balance-3.57.tar.gz
-==> make
+==> Downloading https://download.tuxfamily.org/baller/ballerburg-1.2.0.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ballerburg/1.2.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall balance`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/balance/3.57: 6 files, 91KB, built in 20 seconds
-==> Determining balance bottle rebuild...
-==> Bottling balance-3.57.x86_64_linux.bottle.1.tar.gz...
-./balance-3.57.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ballerburg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ballerburg/1.2.0: 14 files, 303.6KB, built in 52 seconds
+==> Determining ballerburg bottle rebuild...
+==> Bottling ballerburg-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./ballerburg-1.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "598b09d829bb21b796d133d5ce3022e8eb933abf346b1e30957fe903f32144ec" => :x86_64_linux
+    sha256 "3e624ff7a9a51534291cb94b978c6f21faa34ee1a9777fd77ac26f583dbf2efc" => :x86_64_linux
   end
