@@ -1,16 +1,5 @@
-==> Downloading https://github.com/fph/bastet/archive/0.43.2.tar.gz
-==> Downloading from https://codeload.github.com/fph/bastet/tar.gz/0.43.2
-==> Downloading https://github.com/fph/bastet/commit/0e03f8d4.patch?full_index=1
-==> Patching
-==> Applying 0e03f8d4.patch
-patching file BastetBlockChooser.hpp
-==> make all
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bastet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bastet/0.43.2: 9 files, 803.6KB, built in 1 minute 22 seconds
-==> Determining bastet bottle rebuild...
-==> Bottling bastet-0.43.2.x86_64_linux.bottle.tar.gz...
-./bastet-0.43.2.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "9766cdb37d3f8a0739924b69c250249774ba3fc82291e0e697a944fe97ef3959" => :x86_64_linux
-  end
+==> Downloading https://github.com/sstephenson/bats/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/sstephenson/bats/tar.gz/v0.4.0
+==> ./install.sh /home/linuxbrew/.linuxbrew/Cellar/bats/0.4.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bats/0.4.0: 12 files, 66.2KB, built in 13 seconds
+This formula doesn't require compiling.
