@@ -1,21 +1,14 @@
-==> Installing dependencies for bibtex2html: hevea
-==> Installing bibtex2html dependency: hevea
-==> Downloading https://linuxbrew.bintray.com/bottles/hevea-2.31.x86_64_linux.bottle.tar.gz
-==> Pouring hevea-2.31.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hevea/2.31: 157 files, 8.2MB
-==> Installing bibtex2html
-==> Downloading https://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.98.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bibtex2html/1.98_1
+==> Downloading https://www.uni-due.de/~be0001/bibtexconv/download/bibtexconv-1.1.11.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bibtexconv/1.1.11
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bibtex2html`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bibtex2html/1.98_1: 11 files, 2.2MB, built in 4 minutes 7 seconds
-==> Determining bibtex2html bottle rebuild...
-==> Bottling bibtex2html-1.98_1.x86_64_linux.bottle.1.tar.gz...
-./bibtex2html-1.98_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bibtexconv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bibtexconv/1.1.11: 22 files, 1.5MB, built in 1 minute 43 seconds
+==> Determining bibtexconv bottle rebuild...
+==> Bottling bibtexconv-1.1.11.x86_64_linux.bottle.1.tar.gz...
+./bibtexconv-1.1.11.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0f29b49b34cdc3a926f3b41a4a1b74a1213d6d1a5151c2b4e805a65fe9241c7f" => :x86_64_linux
+    sha256 "d81d2e774f5c5ffdc526af88dfca4dce82a2b2777785e0237049eced533e10e7" => :x86_64_linux
   end
