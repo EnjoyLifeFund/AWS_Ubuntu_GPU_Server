@@ -1,16 +1,16 @@
-==> Downloading https://github.com/WebAssembly/binaryen/archive/version_40.tar.gz
-==> Downloading from https://codeload.github.com/WebAssembly/binaryen/tar.gz/version_40
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/binaryen/40 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2 --enable-threads --enable-ipv6 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-libjson=no
+==> make
 ==> make install
+==> /home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2/sbin/rndc-confgen -a -c /tmp/bind-20171211-2997-29ros3/bind-9.11.2/rndc.key
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall binaryen`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/binaryen/40: 2,109 files, 66.0MB, built in 6 minutes 45 seconds
-==> Determining binaryen bottle rebuild...
-==> Bottling binaryen-40.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if binaryen-40.x86_64_linux.bottle.1.tar.gz is relocatable...
-./binaryen-40.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bind`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2: 425 files, 231.2MB, built in 50 minutes 20 seconds
+==> Determining bind bottle rebuild...
+==> Bottling bind-9.11.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bind-9.11.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bind-9.11.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "86347d64c8c8d06b21ef6b00bb9c75a9cf4e3fec9fe5431128fe4e3ec94cb79b" => :x86_64_linux
+    sha256 "a34eb70d662d15523e6f5f9742d318d0e7685d3c799a8ac7fa825c87a76376a4" => :x86_64_linux
   end
