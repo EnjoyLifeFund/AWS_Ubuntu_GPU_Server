@@ -1,11 +1,8 @@
-==> Downloading https://github.com/magicmonty/bash-git-prompt/archive/2.6.3.tar.gz
-==> Downloading from https://codeload.github.com/magicmonty/bash-git-prompt/tar.gz/2.6.3
+==> Downloading https://github.com/rcaloras/bash-preexec/archive/0.3.6.tar.gz
+==> Downloading from https://codeload.github.com/rcaloras/bash-preexec/tar.gz/0.3.6
 ==> Caveats
-You should add the following to your .bashrc (or equivalent):
-  if [ -f "/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR="/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share"
-    source "/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh"
-  fi
+Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)
+  [ -f /home/linuxbrew/.linuxbrew/etc/profile.d/bash-preexec.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/bash-preexec.sh
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-git-prompt/2.6.3: 42 files, 121.9KB, built in 11 seconds
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-preexec/0.3.6: 5 files, 33.9KB, built in 12 seconds
 This formula doesn't require compiling.
