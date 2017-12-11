@@ -1,8 +1,16 @@
-==> Determining bashdb bottle rebuild...
-==> Bottling bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz...
-./bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/bashish/bashish/2.2.4/bashish-2.2.4.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/bashish/bashish/2.2.4/bashish-2.2.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bashish/2.2.4
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bashish`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bashish/2.2.4: 282 files, 840.8KB, built in 31 seconds
+==> Determining bashish bottle rebuild...
+==> Bottling bashish-2.2.4.x86_64_linux.bottle.1.tar.gz...
+./bashish-2.2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "276a84be7e1fd7d46092edf74ece774892ec20e572d009b743ee14651cd8060d" => :x86_64_linux
+    sha256 "c58aea74a1696b69042e4f3645876a3b04968f9358f217d94efdc43800e5077b" => :x86_64_linux
   end
