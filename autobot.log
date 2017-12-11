@@ -1,15 +1,7 @@
-==> Downloading https://github.com/mjuhasz/BDSup2Sub/archive/5.1.2.tar.gz
-==> Downloading from https://codeload.github.com/mjuhasz/BDSup2Sub/tar.gz/5.1.2
-==> Downloading http://www.java2s.com/Code/JarDownload/macify/macify-1.4.jar.zip
-==> Downloading http://www.java2s.com/Code/JarDownload/java-image/java-image-scaling-0.8.5.jar.zip
-==> mvn clean package -DskipTests
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bdsup2sub`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bdsup2sub/5.1.2: 5 files, 645.8KB, built in 13 seconds
-==> Determining bdsup2sub bottle rebuild...
-==> Bottling bdsup2sub-5.1.2.x86_64_linux.bottle.tar.gz...
-./bdsup2sub-5.1.2.x86_64_linux.bottle.tar.gz
+==> Determining bdw-gc bottle rebuild...
+==> Bottling bdw-gc-7.6.0.x86_64_linux.bottle.1.tar.gz...
+./bdw-gc-7.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "2a9c71ab33c859e7e0a677e066d5b0b4340cb537ea6126152b773c9b2ec93589" => :x86_64_linux
+    rebuild 1
+    sha256 "9f98fee797aee4941c0b50979c074629f81ebcd2e379131db159655247975e3c" => :x86_64_linux
   end
