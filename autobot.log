@@ -1,8 +1,14 @@
-==> Determining bbcolors bottle rebuild...
-==> Bottling bbcolors-1.0.1.x86_64_linux.bottle.1.tar.gz...
-./bbcolors-1.0.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz
+==> Downloading from https://svwh.dl.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bbe/0.2.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bbe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bbe/0.2.2: 11 files, 189.2KB, built in 5 seconds
+==> Determining bbe bottle rebuild...
+==> Bottling bbe-0.2.2.x86_64_linux.bottle.1.tar.gz...
+./bbe-0.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1a366c13171352518e67c4f3ac7c5da4b87f2d3bd97310b8949cf6d2d5fa6622" => :x86_64_linux
+    sha256 "401ec9d8ff9beeff1422d37b5d5d8eb233d12aa73a4d33a90cbe66a2a8f992c2" => :x86_64_linux
   end
