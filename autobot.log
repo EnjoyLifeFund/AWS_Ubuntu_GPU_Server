@@ -1,14 +1,18 @@
-==> Downloading http://doc.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz
-==> Downloading from http://software.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz
-==> ./configure --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl --prefix=/home/linuxbrew/.linuxbrew/Cellar/bbftp-client/3.2.1_1
+==> Installing dependencies for bc: ed
+==> Installing bc dependency: ed
+==> Downloading https://linuxbrew.bintray.com/bottles/ed-1.14.2.x86_64_linux.bottle.tar.gz
+==> Pouring ed-1.14.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ed/1.14.2: 13 files, 210.7KB
+==> Installing bc
+==> Downloading https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1 --infodir=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1/share/info --mandir=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1/share/man --with-libedit
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bbftp-client`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bbftp-client/3.2.1_1: 8 files, 2.0MB, built in 15 seconds
-==> Determining bbftp-client bottle rebuild...
-==> Bottling bbftp-client-3.2.1_1.x86_64_linux.bottle.1.tar.gz...
-./bbftp-client-3.2.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1: 13 files, 668.3KB, built in 10 seconds
+==> Determining bc bottle rebuild...
+==> Bottling bc-1.07.1.x86_64_linux.bottle.tar.gz...
+./bc-1.07.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "4cbef188e6f7104da1453f88ef21762ac0948b7e606a8231b2096437a5881132" => :x86_64_linux
+    sha256 "fdd4282da42f4ddcc686f43a675ce8b2ab2fd1e61e23748769e4f26829c91f35" => :x86_64_linux
   end
