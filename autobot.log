@@ -1,5 +1,8 @@
-==> Downloading https://github.com/alexanderepstein/Bash-Snippets/archive/v1.20.0.tar.gz
-==> Downloading from https://codeload.github.com/alexanderepstein/Bash-Snippets/tar.gz/v1.20.0
-==> ./install.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash-snippets/1.20.0 all
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-snippets/1.20.0: 25 files, 218.3KB, built in 15 seconds
-This formula doesn't require compiling.
+==> Determining bashdb bottle rebuild...
+==> Bottling bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz...
+./bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "276a84be7e1fd7d46092edf74ece774892ec20e572d009b743ee14651cd8060d" => :x86_64_linux
+  end
