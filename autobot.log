@@ -1,9 +1,22 @@
-==> Determining berkeley-db@4 bottle rebuild...
-==> Bottling berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz is relocatable...
-./berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/evilsocket/bettercap/archive/v1.6.2.tar.gz
+==> Downloading from https://codeload.github.com/evilsocket/bettercap/tar.gz/v1.6.2
+==> gem install bundler
+==> /home/linuxbrew/.linuxbrew/Cellar/bettercap/1.6.2/libexec/bin/bundle install
+==> gem build bettercap.gemspec
+==> gem install bettercap-1.6.2.gem
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bettercap`
+==> Caveats
+bettercap requires root privileges so you will need to run `sudo bettercap`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bettercap/1.6.2: 4,692 files, 29.7MB, built in 11 minutes 26 seconds
+==> Determining bettercap bottle rebuild...
+==> Bottling bettercap-1.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bettercap-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bettercap-1.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "248c4cef4da6b996c5b4c24d53238707f0935673848a1a2747a72d3d4c4a77e6" => :x86_64_linux
+    sha256 "d3fbcb7d6387f8857ad2cea6c4c8c4ac337097a8455414d0527bde9cf2850c5b" => :x86_64_linux
   end
