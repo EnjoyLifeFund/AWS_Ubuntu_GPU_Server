@@ -1,14 +1,16 @@
-==> Downloading https://www.uni-due.de/~be0001/bibtexconv/download/bibtexconv-1.1.11.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bibtexconv/1.1.11
-==> make
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/bibutils/bibutils_6.2_src.tgz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/bibutils/bibutils_6.2_src.tgz
+==> ./configure --install-dir /home/linuxbrew/.linuxbrew/Cellar/bibutils/6.2/bin --install-lib /home/linuxbrew/.linuxbrew/Cellar/bibutils/6.2/lib
+==> make install CC=gcc-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bibtexconv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bibtexconv/1.1.11: 22 files, 1.5MB, built in 1 minute 43 seconds
-==> Determining bibtexconv bottle rebuild...
-==> Bottling bibtexconv-1.1.11.x86_64_linux.bottle.1.tar.gz...
-./bibtexconv-1.1.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bibutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bibutils/6.2: 23 files, 17.5MB, built in 30 seconds
+==> Determining bibutils bottle rebuild...
+==> Bottling bibutils-6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bibutils-6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bibutils-6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d81d2e774f5c5ffdc526af88dfca4dce82a2b2777785e0237049eced533e10e7" => :x86_64_linux
+    sha256 "b1b4e8b233389a2a063abe428a4f25c873f2015f292468ea6a5ade5845963137" => :x86_64_linux
   end
