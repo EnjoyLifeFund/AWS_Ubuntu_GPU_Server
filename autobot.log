@@ -1,14 +1,15 @@
-==> Downloading https://bcrypt.sourceforge.io/bcrypt-1.1.tar.gz
-==> Downloading from http://bcrypt.sourceforge.net/bcrypt-1.1.tar.gz
-==> make CC=gcc-5 CFLAGS= LDFLAGS=-lz
+==> Downloading https://github.com/mjuhasz/BDSup2Sub/archive/5.1.2.tar.gz
+==> Downloading from https://codeload.github.com/mjuhasz/BDSup2Sub/tar.gz/5.1.2
+==> Downloading http://www.java2s.com/Code/JarDownload/macify/macify-1.4.jar.zip
+==> Downloading http://www.java2s.com/Code/JarDownload/java-image/java-image-scaling-0.8.5.jar.zip
+==> mvn clean package -DskipTests
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bcrypt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bcrypt/1.1: 6 files, 58.9KB, built in 1 second
-==> Determining bcrypt bottle rebuild...
-==> Bottling bcrypt-1.1.x86_64_linux.bottle.1.tar.gz...
-./bcrypt-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bdsup2sub`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bdsup2sub/5.1.2: 5 files, 645.8KB, built in 13 seconds
+==> Determining bdsup2sub bottle rebuild...
+==> Bottling bdsup2sub-5.1.2.x86_64_linux.bottle.tar.gz...
+./bdsup2sub-5.1.2.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "ff699dba047840072f5eff357e8d6900170e8199cae04cfc949ebbde58d4b87d" => :x86_64_linux
+    sha256 "2a9c71ab33c859e7e0a677e066d5b0b4340cb537ea6126152b773c9b2ec93589" => :x86_64_linux
   end
