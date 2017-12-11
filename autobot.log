@@ -1,13 +1,15 @@
-==> Downloading https://github.com/kr/beanstalkd/archive/v1.10.tar.gz
-==> Downloading from https://codeload.github.com/kr/beanstalkd/tar.gz/v1.10
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/beanstalkd/1.10
+==> Downloading https://github.com/rizsotto/Bear/archive/2.3.9.tar.gz
+==> Downloading from https://codeload.github.com/rizsotto/Bear/tar.gz/2.3.9
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bear/2.3.9 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall beanstalkd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/beanstalkd/1.10: 6 files, 175KB, built in 0 seconds
-==> Determining beanstalkd bottle rebuild...
-==> Bottling beanstalkd-1.10.x86_64_linux.bottle.1.tar.gz...
-./beanstalkd-1.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bear`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bear/2.3.9: 11 files, 179.8KB, built in 3 seconds
+==> Determining bear bottle rebuild...
+==> Bottling bear-2.3.9.x86_64_linux.bottle.1.tar.gz...
+./bear-2.3.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "af93c52d53226c0ba9ccc477671443c8fda0655ed775d86aa573578b68adb413" => :x86_64_linux
+    sha256 "fdc3e1bf8fa713e5d32cf98fd921230795ba0d20911fa6aa8a3d8a3ae9f5afe5" => :x86_64_linux
   end
