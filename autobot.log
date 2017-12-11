@@ -1,4 +1,14 @@
-==> Downloading https://github.com/bluesoft/bee/releases/download/1.62/bee-1.62.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1901689/0b673060-47a9-11e7-8012-48fd9946835e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171211T031108Z&X-Amz-Expires=300&X-Amz-Signature=7fd890e3ccb55b991e83e7f15d88d035e1fa5a153f208b9f885293cf6c374b47&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dbee-1.62.zip&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bee/1.62: 10 files, 7.5MB, built in 16 seconds
-This formula doesn't require compiling.
+==> Downloading https://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip
+==> Downloading from http://static.catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall befunge93`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/befunge93/2.23-2015.0101: 7 files, 88.1KB, built in 13 seconds
+==> Determining befunge93 bottle rebuild...
+==> Bottling befunge93-2.23-2015.0101.x86_64_linux.bottle.1.tar.gz...
+./befunge93-2.23-2015.0101.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "174dbd5d4420bc5fab34675deaae538e82462485fe2e18c94c1b24823c726b11" => :x86_64_linux
+  end
