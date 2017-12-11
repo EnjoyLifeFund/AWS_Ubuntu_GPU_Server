@@ -1,16 +1,13 @@
-==> Downloading https://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2 --enable-threads --enable-ipv6 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-libjson=no
-==> make
+==> Downloading https://bindfs.org/downloads/bindfs-1.13.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bindfs/1.13.9
 ==> make install
-==> /home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2/sbin/rndc-confgen -a -c /tmp/bind-20171211-2997-29ros3/bind-9.11.2/rndc.key
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bind`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bind/9.11.2: 425 files, 231.2MB, built in 50 minutes 20 seconds
-==> Determining bind bottle rebuild...
-==> Bottling bind-9.11.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bind-9.11.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bind-9.11.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bindfs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bindfs/1.13.9: 8 files, 232.7KB, built in 2 minutes 24 seconds
+==> Determining bindfs bottle rebuild...
+==> Bottling bindfs-1.13.9.x86_64_linux.bottle.1.tar.gz...
+./bindfs-1.13.9.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a34eb70d662d15523e6f5f9742d318d0e7685d3c799a8ac7fa825c87a76376a4" => :x86_64_linux
+    sha256 "9930d4ed0a6d3a7da69a126326d9fbfd33687aa710ef877be7c1eeb15d6d4077" => :x86_64_linux
   end
