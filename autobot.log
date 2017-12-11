@@ -1,4 +1,13 @@
-==> Downloading https://github.com/LibraryOfCongress/bagit-java/releases/download/v4.12.3/bagit-v4.12.3.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/10645334/70ec92ce-07e2-11e7-8207-fa058c7bf278?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171211T001623Z&X-Amz-Expires=300&X-Amz-Signature=194fe8fadbaff5f54e7f8a96cb357d8fa6abd3f434530badc1b7eda0d6bacf91&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dbagit-v4.12.3.zip&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bagit/4.12.3: 27 files, 3.7MB, built in 19 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.inlab.de/balance-3.57.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall balance`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/balance/3.57: 6 files, 91KB, built in 20 seconds
+==> Determining balance bottle rebuild...
+==> Bottling balance-3.57.x86_64_linux.bottle.1.tar.gz...
+./balance-3.57.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "598b09d829bb21b796d133d5ce3022e8eb933abf346b1e30957fe903f32144ec" => :x86_64_linux
+  end
