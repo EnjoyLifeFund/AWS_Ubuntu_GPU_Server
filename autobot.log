@@ -1,13 +1,13 @@
-==> Downloading http://he.fi/bchunk/bchunk-1.2.2.tar.gz
-==> make
+==> Downloading https://invisible-mirror.net/archives/bcpp/bcpp-20150811.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bchunk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bchunk/1.2.2: 7 files, 70.7KB, built in 1 second
-==> Determining bchunk bottle rebuild...
-==> Bottling bchunk-1.2.2.x86_64_linux.bottle.1.tar.gz...
-./bchunk-1.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bcpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811: 9 files, 314KB, built in 4 seconds
+==> Determining bcpp bottle rebuild...
+==> Bottling bcpp-20150811.x86_64_linux.bottle.1.tar.gz...
+./bcpp-20150811.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a228950307cb6cc131207fb7f73920b41fc7b8fa25f2b1b14fd41d10ab423260" => :x86_64_linux
+    sha256 "ba73de2d936fefb4dc64f014f5694c0ebf0e85c5beae7c9207a9d76963dc330d" => :x86_64_linux
   end
