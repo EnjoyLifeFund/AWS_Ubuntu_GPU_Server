@@ -1,12 +1,8 @@
-==> Downloading https://happy.kiev.ua/pub/fidosoft/mailer/binkd/binkd-1.0.4.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall binkd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4: 8 files, 753.3KB, built in 2 minutes 57 seconds
-==> Determining binkd bottle rebuild...
-==> Bottling binkd-1.0.4.x86_64_linux.bottle.tar.gz...
-./binkd-1.0.4.x86_64_linux.bottle.tar.gz
+==> Determining binutils bottle rebuild...
+==> Bottling binutils-2.29.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if binutils-2.29.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./binutils-2.29.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8ef15f6c217cc6cec9cb4ec467da3f1396c091f5ebaaaad01ac54fa8ea06c048" => :x86_64_linux
+    rebuild 1
+    sha256 "575153045e8b1ba15819e96fdbce5ef0fbaec3ae1ce710d8acc04f783d6c382c" => :x86_64_linux
   end
