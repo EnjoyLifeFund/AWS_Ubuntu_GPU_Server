@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bbe/0.2.2
+==> Downloading http://doc.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz
+==> Downloading from http://software.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz
+==> ./configure --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl --prefix=/home/linuxbrew/.linuxbrew/Cellar/bbftp-client/3.2.1_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bbe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bbe/0.2.2: 11 files, 189.2KB, built in 5 seconds
-==> Determining bbe bottle rebuild...
-==> Bottling bbe-0.2.2.x86_64_linux.bottle.1.tar.gz...
-./bbe-0.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bbftp-client`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bbftp-client/3.2.1_1: 8 files, 2.0MB, built in 15 seconds
+==> Determining bbftp-client bottle rebuild...
+==> Bottling bbftp-client-3.2.1_1.x86_64_linux.bottle.1.tar.gz...
+./bbftp-client-3.2.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "401ec9d8ff9beeff1422d37b5d5d8eb233d12aa73a4d33a90cbe66a2a8f992c2" => :x86_64_linux
+    sha256 "4cbef188e6f7104da1453f88ef21762ac0948b7e606a8231b2096437a5881132" => :x86_64_linux
   end
