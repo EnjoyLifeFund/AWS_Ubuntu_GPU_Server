@@ -1,18 +1,15 @@
-==> Downloading https://github.com/snar/bgpq3/archive/v0.1.33.tar.gz
-==> Downloading from https://codeload.github.com/snar/bgpq3/tar.gz/v0.1.33
-==> Patching
-patching file Makefile.in
-Hunk #1 succeeded at 30 with fuzz 2 (offset 1 line).
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33/share/man
+==> Downloading https://github.com/ge-ne/bibtool/releases/download/BibTool_2_67/BibTool-2.67.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/15113168/2bd68c36-da5f-11e6-8333-0b23460ea96c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171211T040142Z&X-Amz-Expires=300&X-Amz-Signature=d43c01529436ace980225d02d2ce35cd8e7fe55d8d57bad0f61e7fbfc8aa1400&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DBibTool-2.67.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bib-tool/2.67 --without-kpathsea
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bgpq3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33: 7 files, 129.1KB, built in 1 minute 12 seconds
-==> Determining bgpq3 bottle rebuild...
-==> Bottling bgpq3-0.1.33.x86_64_linux.bottle.1.tar.gz...
-./bgpq3-0.1.33.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bib-tool`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bib-tool/2.67: 19 files, 607.1KB, built in 1 minute 48 seconds
+==> Determining bib-tool bottle rebuild...
+==> Bottling bib-tool-2.67.x86_64_linux.bottle.1.tar.gz...
+./bib-tool-2.67.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6571313eaeee266c4f055c4e81301d4fd87b009663e283c8f48131ec6a1051a8" => :x86_64_linux
+    sha256 "dc20c4b011d1620dc292288f0da85a095d540ed6759c73a813339b2b73838dc5" => :x86_64_linux
   end
