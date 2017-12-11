@@ -1,15 +1,15 @@
-==> Downloading https://github.com/beast-dev/beast-mcmc/archive/v1.8.4.tar.gz
-==> Downloading from https://codeload.github.com/beast-dev/beast-mcmc/tar.gz/v1.8.4
-==> ant linux
+==> Downloading https://github.com/arq5x/bedtools2/archive/v2.26.0.tar.gz
+==> Downloading from https://codeload.github.com/arq5x/bedtools2/tar.gz/v2.26.0
+==> make
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/bedtools/2.26.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall beast`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/beast/1.8.4: 206 files, 31.3MB, built in 5 minutes 28 seconds
-==> Determining beast bottle rebuild...
-==> Bottling beast-1.8.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if beast-1.8.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./beast-1.8.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bedtools`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bedtools/2.26.0: 43 files, 2.1MB, built in 3 minutes 7 seconds
+==> Determining bedtools bottle rebuild...
+==> Bottling bedtools-2.26.0.x86_64_linux.bottle.1.tar.gz...
+./bedtools-2.26.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "06e68bc5bd9320f4a639ee68c42d95d02b55f577de0e7bbf9d538c6a2d9fa3f5" => :x86_64_linux
+    sha256 "b981b99b4964740ea1a6bf89b9c2782b48417273a38f0d52c8f38cc19a19c63b" => :x86_64_linux
   end
