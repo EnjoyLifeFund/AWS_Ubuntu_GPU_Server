@@ -1,13 +1,14 @@
-==> Downloading https://invisible-mirror.net/archives/bcpp/bcpp-20150811.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811/share/man
-==> make install
+==> Downloading https://bcrypt.sourceforge.io/bcrypt-1.1.tar.gz
+==> Downloading from http://bcrypt.sourceforge.net/bcrypt-1.1.tar.gz
+==> make CC=gcc-5 CFLAGS= LDFLAGS=-lz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bcpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bcpp/20150811: 9 files, 314KB, built in 4 seconds
-==> Determining bcpp bottle rebuild...
-==> Bottling bcpp-20150811.x86_64_linux.bottle.1.tar.gz...
-./bcpp-20150811.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bcrypt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bcrypt/1.1: 6 files, 58.9KB, built in 1 second
+==> Determining bcrypt bottle rebuild...
+==> Bottling bcrypt-1.1.x86_64_linux.bottle.1.tar.gz...
+./bcrypt-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ba73de2d936fefb4dc64f014f5694c0ebf0e85c5beae7c9207a9d76963dc330d" => :x86_64_linux
+    sha256 "ff699dba047840072f5eff357e8d6900170e8199cae04cfc949ebbde58d4b87d" => :x86_64_linux
   end
