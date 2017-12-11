@@ -1,16 +1,18 @@
-==> Downloading https://bitbucket.org/ripencc/bgpdump/get/1.5.0.tar.gz
-==> ./bootstrap.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bgpdump/1.5.0
-==> make
-==> make check
+==> Downloading https://github.com/snar/bgpq3/archive/v0.1.33.tar.gz
+==> Downloading from https://codeload.github.com/snar/bgpq3/tar.gz/v0.1.33
+==> Patching
+patching file Makefile.in
+Hunk #1 succeeded at 30 with fuzz 2 (offset 1 line).
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bgpdump`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bgpdump/1.5.0: 12 files, 384.5KB, built in 8 minutes 21 seconds
-==> Determining bgpdump bottle rebuild...
-==> Bottling bgpdump-1.5.0.x86_64_linux.bottle.1.tar.gz...
-./bgpdump-1.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bgpq3`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bgpq3/0.1.33: 7 files, 129.1KB, built in 1 minute 12 seconds
+==> Determining bgpq3 bottle rebuild...
+==> Bottling bgpq3-0.1.33.x86_64_linux.bottle.1.tar.gz...
+./bgpq3-0.1.33.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ea6404322b53e295a6eee77f3528d8630e9451918b78ac0ae15db34bb0675f60" => :x86_64_linux
+    sha256 "6571313eaeee266c4f055c4e81301d4fd87b009663e283c8f48131ec6a1051a8" => :x86_64_linux
   end
