@@ -1,3 +1,16 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=com/madgag/bfg/1.12.15/bfg-1.12.15.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bfg/1.12.15: 4 files, 14.1MB, built in 17 seconds
-This formula doesn't require compiling.
+==> Downloading https://bitbucket.org/ripencc/bgpdump/get/1.5.0.tar.gz
+==> ./bootstrap.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bgpdump/1.5.0
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bgpdump`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bgpdump/1.5.0: 12 files, 384.5KB, built in 8 minutes 21 seconds
+==> Determining bgpdump bottle rebuild...
+==> Bottling bgpdump-1.5.0.x86_64_linux.bottle.1.tar.gz...
+./bgpdump-1.5.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "ea6404322b53e295a6eee77f3528d8630e9451918b78ac0ae15db34bb0675f60" => :x86_64_linux
+  end
