@@ -1,14 +1,25 @@
-==> Downloading https://download.gimp.org/pub/babl/0.1/babl-0.1.38.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/babl/0.1.38
+==> Installing dependencies for backupninja: dialog, gawk
+==> Installing backupninja dependency: dialog
+==> Downloading https://linuxbrew.bintray.com/bottles/dialog-1.3-20170509.x86_64_linux.bottle.tar.gz
+==> Pouring dialog-1.3-20170509.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dialog/1.3-20170509: 14 files, 2.9MB
+==> Installing backupninja dependency: gawk
+==> Downloading https://linuxbrew.bintray.com/bottles/gawk-4.2.0.x86_64_linux.bottle.tar.gz
+==> Pouring gawk-4.2.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gawk/4.2.0: 85 files, 6.8MB
+==> Installing backupninja
+==> Downloading https://labs.riseup.net/code/attachments/download/275/backupninja-1.0.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/backupninja/1.0.1
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall babl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/babl/0.1.38: 39 files, 2.5MB, built in 3 minutes 46 seconds
-==> Determining babl bottle rebuild...
-==> Bottling babl-0.1.38.x86_64_linux.bottle.1.tar.gz...
-./babl-0.1.38.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall backupninja`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/backupninja/1.0.1: 51 files, 374.5KB, built in 25 seconds
+==> Determining backupninja bottle rebuild...
+==> Bottling backupninja-1.0.1.x86_64_linux.bottle.1.tar.gz...
+./backupninja-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "060d7250fe45081ad31978ea5547b1fd6d04dd9b0b590e8bd890e6080089525a" => :x86_64_linux
+    sha256 "53f26f69d5159beb92e5e43909137b0ad9607a9788b2309cba2ff1c48ee26ea8" => :x86_64_linux
   end
