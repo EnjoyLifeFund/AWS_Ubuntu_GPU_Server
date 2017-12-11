@@ -1,15 +1,15 @@
-==> Downloading https://github.com/rizsotto/Bear/archive/2.3.9.tar.gz
-==> Downloading from https://codeload.github.com/rizsotto/Bear/tar.gz/2.3.9
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bear/2.3.9 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/beast-dev/beast-mcmc/archive/v1.8.4.tar.gz
+==> Downloading from https://codeload.github.com/beast-dev/beast-mcmc/tar.gz/v1.8.4
+==> ant linux
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bear`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bear/2.3.9: 11 files, 179.8KB, built in 3 seconds
-==> Determining bear bottle rebuild...
-==> Bottling bear-2.3.9.x86_64_linux.bottle.1.tar.gz...
-./bear-2.3.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall beast`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/beast/1.8.4: 206 files, 31.3MB, built in 5 minutes 28 seconds
+==> Determining beast bottle rebuild...
+==> Bottling beast-1.8.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if beast-1.8.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./beast-1.8.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "fdc3e1bf8fa713e5d32cf98fd921230795ba0d20911fa6aa8a3d8a3ae9f5afe5" => :x86_64_linux
+    sha256 "06e68bc5bd9320f4a639ee68c42d95d02b55f577de0e7bbf9d538c6a2d9fa3f5" => :x86_64_linux
   end
