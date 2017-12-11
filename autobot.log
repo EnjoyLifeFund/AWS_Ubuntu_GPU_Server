@@ -1,14 +1,18 @@
-==> Downloading https://download.tuxfamily.org/baller/ballerburg-1.2.0.tar.gz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ballerburg/1.2.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/matricks/bam/archive/v0.5.0.tar.gz
+==> Downloading from https://codeload.github.com/matricks/bam/tar.gz/v0.5.0
+==> Downloading https://github.com/matricks/bam/commit/27b28f09.patch?full_index=1
+==> Patching
+==> Applying 27b28f09.patch
+patching file src/tools.lua
+==> ./make_unix.sh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ballerburg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ballerburg/1.2.0: 14 files, 303.6KB, built in 52 seconds
-==> Determining ballerburg bottle rebuild...
-==> Bottling ballerburg-1.2.0.x86_64_linux.bottle.1.tar.gz...
-./ballerburg-1.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bam`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bam/0.5.0: 5 files, 351.8KB, built in 2 minutes 7 seconds
+==> Determining bam bottle rebuild...
+==> Bottling bam-0.5.0.x86_64_linux.bottle.1.tar.gz...
+./bam-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "3e624ff7a9a51534291cb94b978c6f21faa34ee1a9777fd77ac26f583dbf2efc" => :x86_64_linux
+    sha256 "7d3bd87d301d627cd8038197e409973c0e6f59c984da50097f95017d07e6afe2" => :x86_64_linux
   end
