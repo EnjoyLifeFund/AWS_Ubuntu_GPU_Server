@@ -1,13 +1,12 @@
-==> Downloading https://bindfs.org/downloads/bindfs-1.13.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bindfs/1.13.9
+==> Downloading https://happy.kiev.ua/pub/fidosoft/mailer/binkd/binkd-1.0.4.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bindfs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bindfs/1.13.9: 8 files, 232.7KB, built in 2 minutes 24 seconds
-==> Determining bindfs bottle rebuild...
-==> Bottling bindfs-1.13.9.x86_64_linux.bottle.1.tar.gz...
-./bindfs-1.13.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall binkd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/binkd/1.0.4: 8 files, 753.3KB, built in 2 minutes 57 seconds
+==> Determining binkd bottle rebuild...
+==> Bottling binkd-1.0.4.x86_64_linux.bottle.tar.gz...
+./binkd-1.0.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "9930d4ed0a6d3a7da69a126326d9fbfd33687aa710ef877be7c1eeb15d6d4077" => :x86_64_linux
+    sha256 "8ef15f6c217cc6cec9cb4ec467da3f1396c091f5ebaaaad01ac54fa8ea06c048" => :x86_64_linux
   end
