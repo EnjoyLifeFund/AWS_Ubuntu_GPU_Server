@@ -1,16 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/bashish/bashish/2.2.4/bashish-2.2.4.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/bashish/bashish/2.2.4/bashish-2.2.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bashish/2.2.4
-==> make
-==> make install
+==> Downloading https://github.com/fph/bastet/archive/0.43.2.tar.gz
+==> Downloading from https://codeload.github.com/fph/bastet/tar.gz/0.43.2
+==> Downloading https://github.com/fph/bastet/commit/0e03f8d4.patch?full_index=1
+==> Patching
+==> Applying 0e03f8d4.patch
+patching file BastetBlockChooser.hpp
+==> make all
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bashish`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bashish/2.2.4: 282 files, 840.8KB, built in 31 seconds
-==> Determining bashish bottle rebuild...
-==> Bottling bashish-2.2.4.x86_64_linux.bottle.1.tar.gz...
-./bashish-2.2.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bastet`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bastet/0.43.2: 9 files, 803.6KB, built in 1 minute 22 seconds
+==> Determining bastet bottle rebuild...
+==> Bottling bastet-0.43.2.x86_64_linux.bottle.tar.gz...
+./bastet-0.43.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c58aea74a1696b69042e4f3645876a3b04968f9358f217d94efdc43800e5077b" => :x86_64_linux
+    sha256 "9766cdb37d3f8a0739924b69c250249774ba3fc82291e0e697a944fe97ef3959" => :x86_64_linux
   end
