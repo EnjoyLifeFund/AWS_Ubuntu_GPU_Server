@@ -1,8 +1,11 @@
-==> Determining bash-completion bottle rebuild...
-==> Bottling bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz...
-./bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "86598c93ef5bbb26683032dbc5ead794e8af542e7a426a16ddee9e1dd8cee303" => :x86_64_linux
-  end
+==> Downloading https://github.com/magicmonty/bash-git-prompt/archive/2.6.3.tar.gz
+==> Downloading from https://codeload.github.com/magicmonty/bash-git-prompt/tar.gz/2.6.3
+==> Caveats
+You should add the following to your .bashrc (or equivalent):
+  if [ -f "/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+    __GIT_PROMPT_DIR="/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share"
+    source "/home/linuxbrew/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh"
+  fi
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-git-prompt/2.6.3: 42 files, 121.9KB, built in 11 seconds
+This formula doesn't require compiling.
