@@ -1,15 +1,9 @@
-==> Downloading https://github.com/axiomatic-systems/Bento4/archive/v1.5.1-621.tar.gz
-==> Downloading from https://codeload.github.com/axiomatic-systems/Bento4/tar.gz/v1.5.1-621
-==> make AP4_BUILD_CONFIG=Release
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bento4`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bento4/1.5.1-621: 23 files, 13.6MB, built in 10 minutes 40 seconds
-==> Determining bento4 bottle rebuild...
-==> Bottling bento4-1.5.1-621.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bento4-1.5.1-621.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bento4-1.5.1-621.x86_64_linux.bottle.1.tar.gz
+==> Determining berkeley-db bottle rebuild...
+==> Bottling berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz is relocatable...
+./berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7350e0da8d5fa3dd1a6cf22012564c755a7991e24da0c86dace2c5a359a9e190" => :x86_64_linux
+    sha256 "30eea150bd74ce8aaf24e3f97c306e6d58f8a8df286a6cc2ab2d3162f495a1b5" => :x86_64_linux
   end
