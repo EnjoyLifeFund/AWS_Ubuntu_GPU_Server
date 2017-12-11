@@ -1,5 +1,20 @@
-==> Downloading https://github.com/sstephenson/bats/archive/v0.4.0.tar.gz
-==> Downloading from https://codeload.github.com/sstephenson/bats/tar.gz/v0.4.0
-==> ./install.sh /home/linuxbrew/.linuxbrew/Cellar/bats/0.4.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bats/0.4.0: 12 files, 66.2KB, built in 13 seconds
-This formula doesn't require compiling.
+==> Downloading https://launchpad.net/bzr/2.7/2.7.0/+download/bzr-2.7.0.tar.gz
+==> Downloading from https://launchpadlibrarian.net/235965106/bzr-2.7.0.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/b/bzr/bzr_2.7.0+bzr6622-9.debian.tar.xz
+==> Patching
+==> Applying patches/27_fix_sec_ssh
+patching file bzrlib/tests/test_ssh_transport.py
+patching file bzrlib/transport/ssh.py
+==> make man1/bzr.1
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bazaar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bazaar/2.7.0_1: 985 files, 25.4MB, built in 9 minutes 26 seconds
+==> Determining bazaar bottle rebuild...
+==> Bottling bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "015f3c4dc035c0cedb552b7ce2a7652155365c21894624a5ac1245b852141554" => :x86_64_linux
+  end
