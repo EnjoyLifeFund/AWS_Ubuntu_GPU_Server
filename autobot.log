@@ -1,30 +1,21 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-acmetool
-aws-sdk-cpp
-bedtools
-dcm2niix
-libassuan
-notmuch
-packer
-qbs
-treefrog
-
-==> Downloading http://ftp.math.utah.edu/pub/bibclean/bibclean-2.17.tar.gz
-Already downloaded: /home/ubuntu/.cache/Homebrew/bibclean-2.17.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bibclean/2.17 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bibclean/2.17/share/man
-==> make all
-==> make check
+==> Installing dependencies for bibtex2html: hevea
+==> Installing bibtex2html dependency: hevea
+==> Downloading https://linuxbrew.bintray.com/bottles/hevea-2.31.x86_64_linux.bottle.tar.gz
+==> Pouring hevea-2.31.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hevea/2.31: 157 files, 8.2MB
+==> Installing bibtex2html
+==> Downloading https://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.98.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bibtex2html/1.98_1
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bibclean`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bibclean/2.17: 14 files, 471.3KB, built in 16 minutes 52 seconds
-==> Determining bibclean bottle rebuild...
-==> Bottling bibclean-2.17.x86_64_linux.bottle.1.tar.gz...
-./bibclean-2.17.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bibtex2html`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bibtex2html/1.98_1: 11 files, 2.2MB, built in 4 minutes 7 seconds
+==> Determining bibtex2html bottle rebuild...
+==> Bottling bibtex2html-1.98_1.x86_64_linux.bottle.1.tar.gz...
+./bibtex2html-1.98_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1efa082681711a2dc7e3e48e2e17fcf4787a130d6f545ad6aaca0f30a2599f8b" => :x86_64_linux
+    sha256 "0f29b49b34cdc3a926f3b41a4a1b74a1213d6d1a5151c2b4e805a65fe9241c7f" => :x86_64_linux
   end
