@@ -1,18 +1,13 @@
-==> Installing dependencies for bc: ed
-==> Installing bc dependency: ed
-==> Downloading https://linuxbrew.bintray.com/bottles/ed-1.14.2.x86_64_linux.bottle.tar.gz
-==> Pouring ed-1.14.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ed/1.14.2: 13 files, 210.7KB
-==> Installing bc
-==> Downloading https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1 --infodir=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1/share/info --mandir=/home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1/share/man --with-libedit
-==> make install
+==> Downloading http://he.fi/bchunk/bchunk-1.2.2.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bc/1.07.1: 13 files, 668.3KB, built in 10 seconds
-==> Determining bc bottle rebuild...
-==> Bottling bc-1.07.1.x86_64_linux.bottle.tar.gz...
-./bc-1.07.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall bchunk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bchunk/1.2.2: 7 files, 70.7KB, built in 1 second
+==> Determining bchunk bottle rebuild...
+==> Bottling bchunk-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./bchunk-1.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "fdd4282da42f4ddcc686f43a675ce8b2ab2fd1e61e23748769e4f26829c91f35" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a228950307cb6cc131207fb7f73920b41fc7b8fa25f2b1b14fd41d10ab423260" => :x86_64_linux
   end
