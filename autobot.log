@@ -1,16 +1,13 @@
-==> Downloading https://github.com/douban/beansdb/archive/v0.7.1.4.tar.gz
-==> Downloading from https://codeload.github.com/douban/beansdb/tar.gz/v0.7.1.4
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/beansdb/0.7.1.4
-==> make
-==> make install
+==> Downloading https://github.com/kr/beanstalkd/archive/v1.10.tar.gz
+==> Downloading from https://codeload.github.com/kr/beanstalkd/tar.gz/v1.10
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/beanstalkd/1.10
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall beansdb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/beansdb/0.7.1.4: 11 files, 996.9KB, built in 16 seconds
-==> Determining beansdb bottle rebuild...
-==> Bottling beansdb-0.7.1.4.x86_64_linux.bottle.1.tar.gz...
-./beansdb-0.7.1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall beanstalkd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/beanstalkd/1.10: 6 files, 175KB, built in 0 seconds
+==> Determining beanstalkd bottle rebuild...
+==> Bottling beanstalkd-1.10.x86_64_linux.bottle.1.tar.gz...
+./beanstalkd-1.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4e78b083912dd7c1c229795edaf564e6a3a4669b04d671e080873cedb14c4cdc" => :x86_64_linux
+    sha256 "af93c52d53226c0ba9ccc477671443c8fda0655ed775d86aa573578b68adb413" => :x86_64_linux
   end
