@@ -1,16 +1,32 @@
-==> Downloading https://files.pythonhosted.org/packages/2f/41/289bedde7fb32d817d5802eff68b99546842cb34df840665ec39b363f258/csvtomd-0.2.1.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/csvtomd--homebrew-virtualenv-20171213-20335-sz6a2r/target --single-version-externally-managed --record=installed.txt
-==> python3 -s /tmp/csvtomd--homebrew-virtualenv-20171213-20335-sz6a2r/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/csvtomd/0.2.1/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/csvtomd/0.2.1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvtomd-20171213-20335-ersx95/csvtomd-0.2.1
+==> Downloading https://downloads.sourceforge.net/ctags/ctags-5.8.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/ctags/ctags/5.8/ctags-5.8.tar.gz
+==> Downloading https://gist.githubusercontent.com/naegelejd/9a0f3af61954ae5a77e7/raw/16d981a3d99628994ef0f73848b6beffc70b5db8/Ctags%20r782
+==> Patching
+==> Applying Ctags%20r782
+patching file routines.c
+patch unexpectedly ends in middle of line
+Hunk #1 succeeded at 757 with fuzz 1.
+patching file read.c
+patching file read.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ctags/5.8_1 --enable-macro-patterns --mandir=/home/linuxbrew/.linuxbrew/Cellar/ctags/5.8_1/share/man --with-readlib
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall csvtomd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/csvtomd/0.2.1: 827 files, 9.5MB, built in 1 minute 55 seconds
-==> Determining csvtomd bottle rebuild...
-==> Bottling csvtomd-0.2.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if csvtomd-0.2.1.x86_64_linux.bottle.tar.gz is relocatable...
-./csvtomd-0.2.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall ctags`
+==> Caveats
+Under some circumstances, emacs and ctags can conflict. By default,
+emacs provides an executable `ctags` that would conflict with the
+executable of the same name that ctags provides. To prevent this,
+Homebrew removes the emacs `ctags` and its manpage before linking.
+
+However, if you install emacs with the `--keep-ctags` option, then
+the `ctags` emacs provides will not be removed. In that case, you
+won't be able to install ctags successfully. It will build but not
+link.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ctags/5.8_1: 9 files, 1.1MB, built in 2 minutes 33 seconds
+==> Determining ctags bottle rebuild...
+==> Bottling ctags-5.8_1.x86_64_linux.bottle.tar.gz...
+./ctags-5.8_1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "fb64737937da8b300eff418923000f16d0b2ca2e28b9ac4d3e5f0a48a1c59674" => :x86_64_linux
+    sha256 "b89b638d177f2a93b623c438eac53d884caf536c0eafb87407bbab806813430e" => :x86_64_linux
   end
