@@ -1,7 +1,15 @@
-==> Determining curl bottle rebuild...
-==> Bottling curl-7.57.0.x86_64_linux.bottle.1.tar.gz...
-./curl-7.57.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/curlftpfs/curlftpfs/0.9.2/curlftpfs-0.9.2.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/curlftpfs/curlftpfs/0.9.2/curlftpfs-0.9.2.tar.gz
+==> autoreconf -fvi
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/curlftpfs/0.9.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall curlftpfs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/curlftpfs/0.9.2: 9 files, 271.8KB, built in 8 minutes 6 seconds
+==> Determining curlftpfs bottle rebuild...
+==> Bottling curlftpfs-0.9.2.x86_64_linux.bottle.1.tar.gz...
+./curlftpfs-0.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "166bea3c5dd374158ba7ba7712a86ca3fe5edff5329215049421d638f57f3242" => :x86_64_linux
+    sha256 "cf60f8e29b1b845c36a28043fd5e861a65526228d5a8a6d712d37e279bd2c45e" => :x86_64_linux
   end
