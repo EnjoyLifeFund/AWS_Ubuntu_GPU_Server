@@ -1,17 +1,8 @@
-==> Downloading https://github.com/actor-framework/actor-framework/archive/0.15.5.tar.gz
-==> Downloading from https://codeload.github.com/actor-framework/actor-framework/tar.gz/0.15.5
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/caf/0.15.5 --no-examples --build-static --no-opencl
-==> make
-==> make test
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall caf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/caf/0.15.5: 357 files, 139.6MB, built in 24 minutes 22 seconds
-==> Determining caf bottle rebuild...
-==> Bottling caf-0.15.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if caf-0.15.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./caf-0.15.5.x86_64_linux.bottle.1.tar.gz
+==> Determining cairomm bottle rebuild...
+==> Bottling cairomm-1.12.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cairomm-1.12.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cairomm-1.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6456fbb17260a859dbe7ce716977d2452f203b85c348fd95d473571d5d87aaf7" => :x86_64_linux
+    sha256 "c60bdabb4513c3bea0c3530c3ef0c21865dba9cb594d75a048a2ad125a01bc81" => :x86_64_linux
   end
