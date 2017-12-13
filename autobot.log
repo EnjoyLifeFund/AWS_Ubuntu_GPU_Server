@@ -1,20 +1,13 @@
-==> Installing dependencies for convertlit: libtommath
-==> Installing convertlit dependency: libtommath
-==> Downloading https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.x86_64_linux.bottle.tar.gz
-==> Pouring libtommath-1.0.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtommath/1.0.1: 11 files, 510.6KB
-==> Installing convertlit
-==> Downloading http://www.convertlit.com/clit18src.zip
-==> make -C lib
-==> make -C clit18
+==> Downloading https://www.j3e.de/linux/convmv/convmv-2.04.tar.gz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/convmv/2.04
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall convertlit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/convertlit/1.8: 4 files, 206.0KB, built in 32 seconds
-==> Determining convertlit bottle rebuild...
-==> Bottling convertlit-1.8.x86_64_linux.bottle.1.tar.gz...
-./convertlit-1.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall convmv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/convmv/2.04: 6 files, 75KB, built in 13 seconds
+==> Determining convmv bottle rebuild...
+==> Bottling convmv-2.04.x86_64_linux.bottle.1.tar.gz...
+./convmv-2.04.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "02fc72e06b04ae59bd2123f4bb59d9428ca925f98f1e1c0833df17420e57a124" => :x86_64_linux
+    sha256 "ad943300d73decbac2d8e97f5ca0d1d4cb4dc25eda403c562e3cd95a2a4a6f0e" => :x86_64_linux
   end
