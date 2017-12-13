@@ -1,14 +1,16 @@
-==> Cloning https://github.com/camlistore/camlistore.git
-==> Checking out tag 0.9
-==> go run make.go
+==> Downloading https://github.com/camlp5/camlp5/archive/rel703.tar.gz
+==> Downloading from https://codeload.github.com/camlp5/camlp5/tar.gz/rel703
+==> ./configure --prefix /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1 --mandir /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1/share/man --transitional
+==> make world.opt
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall camlistore`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/camlistore/0.9: 15 files, 141.7MB, built in 2 minutes 57 seconds
-==> Determining camlistore bottle rebuild...
-==> Bottling camlistore-0.9.x86_64_linux.bottle.tar.gz...
-==> Detecting if camlistore-0.9.x86_64_linux.bottle.tar.gz is relocatable...
-./camlistore-0.9.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall camlp5`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1: 213 files, 30.6MB, built in 5 minutes 30 seconds
+==> Determining camlp5 bottle rebuild...
+==> Bottling camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "123ac72e0e7f0fbeffcbf0ba71db640229a698b775763e4c1bfd033d1a4fc810" => :x86_64_linux
+    rebuild 1
+    sha256 "21ba6f64870875f88ada2cb7adfa4b8a22d0376eea390e6e081aa6bdbbd73f21" => :x86_64_linux
   end
