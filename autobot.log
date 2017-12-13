@@ -1,14 +1,7 @@
-==> Downloading http://turnserver.open-sys.org/downloads/v4.5.0.6/turnserver-4.5.0.6.tar.gz
-==> ./configure --disable-silent-rules --mandir=/home/linuxbrew/.linuxbrew/Cellar/coturn/4.5.0.6/share/man --prefix=/home/linuxbrew/.linuxbrew/Cellar/coturn/4.5.0.6
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall coturn`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/coturn/4.5.0.6: 102 files, 4.2MB, built in 2 minutes 13 seconds
-==> Determining coturn bottle rebuild...
-==> Bottling coturn-4.5.0.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if coturn-4.5.0.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./coturn-4.5.0.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "9301f3fa2f33ffce32a78b0e12865b0f85bf46a2048216dd6e135e12528ed17e" => :x86_64_linux
-  end
+==> Downloading https://github.com/RuudBurger/CouchPotatoServer/archive/build/3.0.1.tar.gz
+==> Downloading from https://github.com/CouchPotato/CouchPotatoServer/archive/build/3.0.1.tar.gz
+==> Caveats
+CouchPotatoServer defaults to port 5050.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/couchpotatoserver/3.0.1: 1,014 files, 10.9MB, built in 15 seconds
+This formula doesn't require compiling.
