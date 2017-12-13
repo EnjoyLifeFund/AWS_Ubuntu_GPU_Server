@@ -1,12 +1,15 @@
-==> Downloading http://www.crufty.net/ftp/pub/sjg/bmake-20171126.tar.gz
-==> sh boot-strap --prefix=/home/linuxbrew/.linuxbrew/Cellar/bmake/20171126 -DWITHOUT_PROG_LINK --install
+==> Downloading https://downloads.sourceforge.net/project/bogofilter/bogofilter-1.2.4/bogofilter-1.2.4.tar.bz2
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/bogofilter/bogofilter-1.2.4/bogofilter-1.2.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bogofilter/1.2.4_1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bmake`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bmake/20171126: 82 files, 608.4KB, built in 6 minutes 51 seconds
-==> Determining bmake bottle rebuild...
-==> Bottling bmake-20171126.x86_64_linux.bottle.1.tar.gz...
-./bmake-20171126.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bogofilter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bogofilter/1.2.4_1: 24 files, 3.1MB, built in 5 minutes 5 seconds
+==> Determining bogofilter bottle rebuild...
+==> Bottling bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b0fd900aff89c9f35648496972f353d6a6cec9316d05c12094b67a78b3e1ea4a" => :x86_64_linux
+    sha256 "b715b114cd83608458fd3e3076139eaa0ae63d01322ce3cf7ace05d72ae99ef3" => :x86_64_linux
   end
