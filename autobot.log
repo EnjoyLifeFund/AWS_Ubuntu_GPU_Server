@@ -1,13 +1,15 @@
-==> Downloading https://www.j3e.de/linux/convmv/convmv-2.04.tar.gz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/convmv/2.04
+==> Downloading https://github.com/convox/rack/archive/20171110202042.tar.gz
+==> Downloading from https://codeload.github.com/convox/rack/tar.gz/20171110202042
+==> go build -ldflags=-X main.Version=20171110202042 -o /home/linuxbrew/.linuxbrew/Cellar/convox/20171110202042/bin/convox -v github.com/convox/rack/cmd/convox
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall convmv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/convmv/2.04: 6 files, 75KB, built in 13 seconds
-==> Determining convmv bottle rebuild...
-==> Bottling convmv-2.04.x86_64_linux.bottle.1.tar.gz...
-./convmv-2.04.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall convox`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/convox/20171110202042: 3 files, 34.3MB, built in 2 minutes 49 seconds
+==> Determining convox bottle rebuild...
+==> Bottling convox-20171110202042.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if convox-20171110202042.x86_64_linux.bottle.1.tar.gz is relocatable...
+./convox-20171110202042.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ad943300d73decbac2d8e97f5ca0d1d4cb4dc25eda403c562e3cd95a2a4a6f0e" => :x86_64_linux
+    sha256 "902c192faa89d256b6d41179f336d892ce2f6e696c7ea17db164412675ba9985" => :x86_64_linux
   end
