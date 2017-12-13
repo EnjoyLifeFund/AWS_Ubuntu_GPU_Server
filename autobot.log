@@ -1,14 +1,15 @@
-==> Downloading http://ccal.chinesebay.com/ccal/ccal-2.5.3.tar.gz
-==> make -e BINDIR=/home/linuxbrew/.linuxbrew/Cellar/ccal/2.5.3/bin install
-==> make -e MANDIR=/home/linuxbrew/.linuxbrew/Cellar/ccal/2.5.3/share/man install-man
+==> Downloading https://github.com/jingweno/ccat/archive/v1.1.0.tar.gz
+==> Downloading from https://codeload.github.com/jingweno/ccat/tar.gz/v1.1.0
+==> ./script/build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ccal`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ccal/2.5.3: 9 files, 318.6KB, built in 21 seconds
-==> Determining ccal bottle rebuild...
-==> Bottling ccal-2.5.3.x86_64_linux.bottle.1.tar.gz...
-./ccal-2.5.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ccat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ccat/1.1.0: 5 files, 3.5MB, built in 23 seconds
+==> Determining ccat bottle rebuild...
+==> Bottling ccat-1.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ccat-1.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ccat-1.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1650fcd308ce04122d740fa1b97c0591f79c9a3b061e38e445582be702d1dfb8" => :x86_64_linux
+    sha256 "271f4812689e6d458efad765ac3903b2fcb9a5c65bb9fdafd5d0a1fd8eb486fc" => :x86_64_linux
   end
