@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/chordii/chordii/4.5/chordii-4.5.3.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/chordii/chordii/4.5/chordii-4.5.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/chordii/4.5.3
+==> Downloading https://github.com/acoustid/chromaprint/releases/download/v1.4.2/chromaprint-1.4.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1625818/c9054086-cd4b-11e6-9b7f-c0a4347d743d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171212T152914Z&X-Amz-Expires=300&X-Amz-Signature=5ad4af1581a269bd223ad317d5c919ac71cf8de59c3ee9a7c0880db16df2ed18&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dchromaprint-1.4.2.tar.gz&response-content-type=application%2Foctet-stream
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chromaprint/1.4.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chordii`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chordii/4.5.3: 12 files, 344.4KB, built in 1 minute 22 seconds
-==> Determining chordii bottle rebuild...
-==> Bottling chordii-4.5.3.x86_64_linux.bottle.1.tar.gz...
-./chordii-4.5.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chromaprint`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chromaprint/1.4.2: 10 files, 546.5KB, built in 1 minute 51 seconds
+==> Determining chromaprint bottle rebuild...
+==> Bottling chromaprint-1.4.2.x86_64_linux.bottle.tar.gz...
+./chromaprint-1.4.2.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "836cb1430a1946f3ee83b0f497619a082f584ada84eb084cc383f02696d731dd" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "cd784bbb566fd7eae35a8dd7a088731c713b6bbb38366b2156a97d04af101ee5" => :x86_64_linux
   end
