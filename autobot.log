@@ -1,14 +1,22 @@
-==> Downloading https://downloads.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/clpbar/1.11.1 --program-prefix='clp'
+==> Downloading https://downloads.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/ec8d133/clucene/patch-src-shared-CLucene-LuceneThreads.h.diff
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/ec8d133/clucene/patch-src-shared-CLucene-config-repl_tchar.h.diff
+==> Patching
+==> Applying patch-src-shared-CLucene-LuceneThreads.h.diff
+patching file src/shared/CLucene/LuceneThreads.h
+==> Applying patch-src-shared-CLucene-config-repl_tchar.h.diff
+patching file src/shared/CLucene/config/repl_tchar.h
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clucene/2.3.3.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clpbar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clpbar/1.11.1: 7 files, 326.3KB, built in 2 minutes 27 seconds
-==> Determining clpbar bottle rebuild...
-==> Bottling clpbar-1.11.1.x86_64_linux.bottle.1.tar.gz...
-./clpbar-1.11.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clucene`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clucene/2.3.3.4: 307 files, 5.5MB, built in 8 minutes 39 seconds
+==> Determining clucene bottle rebuild...
+==> Bottling clucene-2.3.3.4.x86_64_linux.bottle.tar.gz...
+==> Detecting if clucene-2.3.3.4.x86_64_linux.bottle.tar.gz is relocatable...
+./clucene-2.3.3.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "95f9f3f499784ecbf3a360b2b59acd033a32cb991beef570b3d143350fcc4837" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "2e50ef7aacec82077850d922a190e6fd696ea0913277c0849fedf17122021bd0" => :x86_64_linux
   end
