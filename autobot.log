@@ -1,18 +1,13 @@
-==> Downloading https://www.coker.com.au/bonnie++/bonnie++-1.97.3.tgz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/57a21ef/bonnie%2B%2B/remove-large-file-support-macros.diff
-==> Patching
-==> Applying remove-large-file-support-macros.diff
-patching file bonnie++.cpp
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1/share/man
+==> Downloading http://www.juiblex.co.uk/pgdp/bookloupe/bookloupe-2.0.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bookloupe/2.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bonnie++`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1: 19 files, 217.2KB, built in 1 minute 47 seconds
-==> Determining bonnie++ bottle rebuild...
-==> Bottling bonnie++-1.97.3_1.x86_64_linux.bottle.1.tar.gz...
-./bonnie++-1.97.3_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bookloupe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bookloupe/2.0: 44 files, 371.7KB, built in 2 minutes 38 seconds
+==> Determining bookloupe bottle rebuild...
+==> Bottling bookloupe-2.0.x86_64_linux.bottle.1.tar.gz...
+./bookloupe-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d27cfbf3b1496116791145221af1240b70097a9b19c334cd73e4ab439ecc9b9e" => :x86_64_linux
+    sha256 "0cc6f0950ae0ea38e34340f58f5ed08ad37d26b4b8f03cbf52f6e0ceeff1f17f" => :x86_64_linux
   end
