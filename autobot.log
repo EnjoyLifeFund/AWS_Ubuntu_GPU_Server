@@ -1,14 +1,25 @@
-==> Downloading https://registry.npmjs.org/bit-bin/-/bit-bin-0.11.1.tgz
-==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/bit/0.11.1/libexec /tmp/bit-20171211-64358-1t15n8o/package/bit-bin-0.11.1.tgz
+==> Downloading https://github.com/udoprog/c10t/archive/1.7.tar.gz
+==> Downloading from https://codeload.github.com/udoprog/c10t/tar.gz/1.7
+==> Downloading https://github.com/udoprog/c10t/commit/4a392b9f06d08c70290f4c7591e84ecdbc73d902.diff?full_index=1
+==> Downloading https://gist.githubusercontent.com/mistydemeo/f7ab02089c43dd557ef4/raw/a0ae7974e635b8ebfd02e314cfca9aa8dc95029d/c10t-freetype.diff
+==> Downloading https://github.com/udoprog/c10t/commit/800977bb23e6b4f9da3ac850ac15dd216ece0cda.diff?full_index=1
+==> Patching
+==> Applying 4a392b9f06d08c70290f4c7591e84ecdbc73d902.diff
+patching file src/fileutils.hpp
+==> Applying c10t-freetype.diff
+patching file CMakeLists.txt
+patching file cmake/modules/FindFreeType.cmake
+==> Applying 800977bb23e6b4f9da3ac850ac15dd216ece0cda.diff
+patching file src/image/format/png.hpp
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/c10t/1.7 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bit/0.11.1: 11,582 files, 441.3MB, built in 11 minutes 29 seconds
-==> Determining bit bottle rebuild...
-==> Bottling bit-0.11.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bit-0.11.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bit-0.11.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall c10t`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/c10t/1.7: 6 files, 2.3MB, built in 4 minutes 6 seconds
+==> Determining c10t bottle rebuild...
+==> Bottling c10t-1.7.x86_64_linux.bottle.1.tar.gz...
+./c10t-1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8e032eb850d97dac9c3519114dfacdb4696ce9cf1eb8e8b5e7674091e58b50e9" => :x86_64_linux
+    sha256 "d4fa1a36468c0db5f4bc65915902c5c3010df1cc298cedf814d002aa4c149d4a" => :x86_64_linux
   end
