@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/bsponmpi/bsponmpi/0.3/bsponmpi-0.3.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/bsponmpi/bsponmpi/0.3/bsponmpi-0.3.tar.gz
-==> /home/linuxbrew/.linuxbrew/opt/scons/bin/scons -Q mode=release
+==> Downloading https://www.gerg.ca/software/btOOL/btparse-0.34.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/btparse/0.34 --mandir=/home/linuxbrew/.linuxbrew/Cellar/btparse/0.34/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bsponmpi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bsponmpi/0.3_1: 21 files, 255.4KB, built in 1 minute 4 seconds
-==> Determining bsponmpi bottle rebuild...
-==> Bottling bsponmpi-0.3_1.x86_64_linux.bottle.1.tar.gz...
-./bsponmpi-0.3_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall btparse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/btparse/0.34: 20 files, 738.2KB, built in 3 minutes 30 seconds
+==> Determining btparse bottle rebuild...
+==> Bottling btparse-0.34.x86_64_linux.bottle.1.tar.gz...
+./btparse-0.34.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eedd2dd7d97f960bd34b4292816ae36f65504354c345ed5352192c91e9063eed" => :x86_64_linux
+    sha256 "072e5484cd9ffcd387b336f3e075ece7a71ffced997190616a46d4a6a5cdde20" => :x86_64_linux
   end
