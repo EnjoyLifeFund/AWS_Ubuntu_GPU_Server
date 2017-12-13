@@ -1,15 +1,20 @@
-==> Cloning https://github.com/hashicorp/consul-template.git
-==> Checking out tag v0.19.4
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/consul-template/0.19.4/bin/consul-template -ldflags -X github.com/hashicorp/consul-template/version.Name=consul-template -X github.com/hashicorp/consul-template/version.GitCommit=111a804
+==> Installing dependencies for convertlit: libtommath
+==> Installing convertlit dependency: libtommath
+==> Downloading https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.x86_64_linux.bottle.tar.gz
+==> Pouring libtommath-1.0.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtommath/1.0.1: 11 files, 510.6KB
+==> Installing convertlit
+==> Downloading http://www.convertlit.com/clit18src.zip
+==> make -C lib
+==> make -C clit18
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall consul-template`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/consul-template/0.19.4: 6 files, 11.5MB, built in 1 minute 35 seconds
-==> Determining consul-template bottle rebuild...
-==> Bottling consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall convertlit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/convertlit/1.8: 4 files, 206.0KB, built in 32 seconds
+==> Determining convertlit bottle rebuild...
+==> Bottling convertlit-1.8.x86_64_linux.bottle.1.tar.gz...
+./convertlit-1.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0b72f756f8a5e0bb70c073b8b5140deca131017186f748932975ea54c9ddf3d2" => :x86_64_linux
+    sha256 "02fc72e06b04ae59bd2123f4bb59d9428ca925f98f1e1c0833df17420e57a124" => :x86_64_linux
   end
