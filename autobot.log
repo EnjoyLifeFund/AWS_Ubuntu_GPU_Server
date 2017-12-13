@@ -1,4 +1,18 @@
-==> Downloading https://github.com/miyagawa/cpanminus/archive/1.7043.tar.gz
-==> Downloading from https://codeload.github.com/miyagawa/cpanminus/tar.gz/1.7043
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpanminus/1.7043: 6 files, 393.1KB, built in 9 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/c9s/cpansearch/archive/0.2.tar.gz
+==> Downloading from https://codeload.github.com/c9s/cpansearch/tar.gz/0.2
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cpansearch`
+==> Caveats
+For usage instructions:
+    more /home/linuxbrew/.linuxbrew/opt/cpansearch/README.md
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cpansearch/0.2: 4 files, 49.2KB, built in 10 seconds
+==> Determining cpansearch bottle rebuild...
+==> Bottling cpansearch-0.2.x86_64_linux.bottle.1.tar.gz...
+./cpansearch-0.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7008c99add7e1e93f84ae899735e4be83f9f1d6ff4ce3f5b4bc5e7580f5ceb16" => :x86_64_linux
+  end
