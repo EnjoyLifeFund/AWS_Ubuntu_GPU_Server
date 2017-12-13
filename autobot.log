@@ -1,15 +1,16 @@
-==> Downloading https://github.com/nats-io/cnats/archive/v1.7.4.tar.gz
-==> Downloading from https://codeload.github.com/nats-io/cnats/tar.gz/v1.7.4
-==> cmake . -DNATS_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4 -DBUILD_TESTING=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/cntlm/cntlm/cntlm%200.92.3/cntlm-0.92.3.tar.bz2
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/cntlm/cntlm/cntlm%200.92.3/cntlm-0.92.3.tar.bz2
+==> ./configure
+==> make CC=gcc-5 SYSCONFDIR=/home/linuxbrew/.linuxbrew/etc
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cnats`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4: 13 files, 636.0KB, built in 1 minute 6 seconds
-==> Determining cnats bottle rebuild...
-==> Bottling cnats-1.7.4.x86_64_linux.bottle.1.tar.gz...
-./cnats-1.7.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cntlm`
+==> Caveats
+Edit /home/linuxbrew/.linuxbrew/etc/cntlm.conf to configure Cntlm
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cntlm/0.92.3: 8 files, 202.1KB, built in 26 seconds
+==> Determining cntlm bottle rebuild...
+==> Bottling cntlm-0.92.3.x86_64_linux.bottle.tar.gz...
+./cntlm-0.92.3.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "899e96eaeeda0414de027f98c46380fff01843ea301bd57c1f555d80827a4517" => :x86_64_linux
+    sha256 "154918d1e10e485dadf105902859a5fc4b49f84af64558c9159ed51a5c0c1860" => :x86_64_linux
   end
