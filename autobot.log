@@ -1,19 +1,41 @@
-==> Downloading https://www.clamav.net/downloads/production/clamav-0.99.2.tar.gz
-==> Downloading from https://s3.amazonaws.com/clamav-site/production/release_files/files/000/000/301/original/clamav-0.99.2.tar.gz?AWSAccessKeyId=AKIAIY6OSGQFGUNJQ7GQ&Expires=1513107381&Signature=4tr%2BiJxrQwt7hvEHW6Df8MEtYwc%3D
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1 --libdir=/home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1/lib --sysconfdir=/home/linuxbrew/.linuxbrew/etc/clamav --disable-zlib-vcheck --with-zlib=/usr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --enable-llvm=no --with-pcre=/home/linuxbrew/.linuxbrew/opt/pcre --disable-yara
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/clamz/clamz-0.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/clamz/0.5_1
 ==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink share/mime/XMLnamespaces
+Target /home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
+already exists. You may want to remove it:
+  rm '/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite clamz
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run clamz
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
+/home/linuxbrew/.linuxbrew/share/mime/aliases
+/home/linuxbrew/.linuxbrew/share/mime/audio/x-amzxml.xml
+/home/linuxbrew/.linuxbrew/share/mime/generic-icons
+/home/linuxbrew/.linuxbrew/share/mime/globs
+/home/linuxbrew/.linuxbrew/share/mime/globs2
+/home/linuxbrew/.linuxbrew/share/mime/icons
+/home/linuxbrew/.linuxbrew/share/mime/magic
+/home/linuxbrew/.linuxbrew/share/mime/mime.cache
+/home/linuxbrew/.linuxbrew/share/mime/subclasses
+/home/linuxbrew/.linuxbrew/share/mime/treemagic
+/home/linuxbrew/.linuxbrew/share/mime/types
+/home/linuxbrew/.linuxbrew/share/mime/version
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clamav`
-==> Caveats
-To finish installation & run clamav you will need to edit
-the example conf files at /home/linuxbrew/.linuxbrew/etc/clamav/
+You can run it manually using `brew postinstall clamz`
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1: 37 files, 56.4MB, built in 13 minutes 21 seconds
-==> Determining clamav bottle rebuild...
-==> Bottling clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clamz/0.5_1: 21 files, 4.3MB, built in 1 minute 15 seconds
+==> Determining clamz bottle rebuild...
+==> Bottling clamz-0.5_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clamz-0.5_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clamz-0.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "209d9d10a63ecb1685eb26776f9e5bd3e3de487c4317a504bececae65e09b0f9" => :x86_64_linux
+    sha256 "ee3cc45bda7f014308781a04777552ea4c3e7275f8cd1fae1be6b2e0745311d3" => :x86_64_linux
   end
