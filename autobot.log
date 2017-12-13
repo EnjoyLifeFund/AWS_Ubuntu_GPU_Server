@@ -1,25 +1,15 @@
-==> Downloading https://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bison@2.7/2.7.1_1
-==> make install
+==> Downloading https://github.com/wincent/clipper/archive/0.4.2.tar.gz
+==> Downloading from https://codeload.github.com/wincent/clipper/tar.gz/0.4.2
+==> go build clipper.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bison@2.7`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/bison@2.7/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/bison@2.7/lib
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bison@2.7/2.7.1_1: 102 files, 3.7MB, built in 18 minutes 23 seconds
-==> Determining bison@2.7 bottle rebuild...
-==> Bottling bison@2.7-2.7.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bison@2.7-2.7.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bison@2.7-2.7.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clipper`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clipper/0.4.2: 5 files, 3.5MB, built in 16 seconds
+==> Determining clipper bottle rebuild...
+==> Bottling clipper-0.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clipper-0.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clipper-0.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "98e894555d43fb69973d1686b4e167e3479b4ac0caa1e3aa2af9100ab333ae5e" => :x86_64_linux
+    sha256 "e9753ba53dbe2e467df253e43dc6fcbde25e3d7fffeb655f9181100a535076e4" => :x86_64_linux
   end
