@@ -1,14 +1,29 @@
-==> Downloading https://github.com/a-nikolaev/curseofwar/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/a-nikolaev/curseofwar/tar.gz/v1.2.0
-==> make
+==> Downloading http://cvs2svn.tigris.org/files/documents/1462/49237/cvs2svn-2.4.0.tar.gz
+==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cvs2svn/2.4.0
+==> make man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall curseofwar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/curseofwar/1.2.0: 7 files, 138.1KB, built in 15 seconds
-==> Determining curseofwar bottle rebuild...
-==> Bottling curseofwar-1.2.0.x86_64_linux.bottle.1.tar.gz...
-./curseofwar-1.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cvs2svn`
+==> Caveats
+NOTE: man pages have been installed, but for better documentation see:
+  /home/linuxbrew/.linuxbrew/share/doc/cvs2svn/cvs2svn.html
+or http://cvs2svn.tigris.org/cvs2svn.html.
+
+Contrib scripts and example options files are installed in:
+  /home/linuxbrew/.linuxbrew/opt/cvs2svn
+
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cvs2svn/2.4.0: 209 files, 2MB, built in 17 seconds
+==> Determining cvs2svn bottle rebuild...
+==> Bottling cvs2svn-2.4.0.x86_64_linux.bottle.1.tar.gz...
+./cvs2svn-2.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "71841a96ffc1263973c4864d11262094297ff954c4e8886f3ceb440d54f12345" => :x86_64_linux
+    sha256 "91c69fbc77d26c13ce09e1ede71ff20aa630b9b16b26337db858574e852e603f" => :x86_64_linux
   end
