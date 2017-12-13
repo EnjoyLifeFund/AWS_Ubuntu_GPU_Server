@@ -1,26 +1,16 @@
-==> Downloading https://github.com/kinetiknz/cubeb/archive/cubeb-0.2.tar.gz
-==> Downloading from https://codeload.github.com/kinetiknz/cubeb/tar.gz/cubeb-0.2
-==> autoreconf --install
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cubeb/0.2
-==> make install
+==> Downloading https://github.com/cucumber/cucumber-cpp/archive/v0.4.tar.gz
+==> Downloading from https://codeload.github.com/cucumber/cucumber-cpp/tar.gz/v0.4
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cucumber-cpp/0.4_3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCUKE_DISABLE_GTEST=on -DCUKE_DISABLE_CPPSPEC=on -DCUKE_DISABLE_FUNCTIONAL=on -DCUKE_DISABLE_BOOST_TEST=on
+==> cmake --build .
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cubeb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cubeb/0.2: 14 files, 75.6KB, built in 7 minutes 27 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> New Formulae
-igv
-==> Updated Formulae
-apm-server
-bitrise
-dpkg
-pipenv
-
-==> Determining cubeb bottle rebuild...
-==> Bottling cubeb-0.2.x86_64_linux.bottle.1.tar.gz...
-./cubeb-0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cucumber-cpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cucumber-cpp/0.4_3: 33 files, 17MB, built in 3 minutes 15 seconds
+==> Determining cucumber-cpp bottle rebuild...
+==> Bottling cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2285ba216178fa17c72181e9c987bdefed8846f38e4df46646ee608e87a293a3" => :x86_64_linux
+    sha256 "5db285390ddd3d455225a88bba640f7b582a03d3c713cf888548613386e4fcb2" => :x86_64_linux
   end
