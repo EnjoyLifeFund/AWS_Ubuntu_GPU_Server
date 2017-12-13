@@ -1,14 +1,19 @@
-==> Downloading https://github.com/soveran/clac/archive/0.3.1.tar.gz
-==> Downloading from https://codeload.github.com/soveran/clac/tar.gz/0.3.1
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clac/0.3.1 install
+==> Downloading https://www.clamav.net/downloads/production/clamav-0.99.2.tar.gz
+==> Downloading from https://s3.amazonaws.com/clamav-site/production/release_files/files/000/000/301/original/clamav-0.99.2.tar.gz?AWSAccessKeyId=AKIAIY6OSGQFGUNJQ7GQ&Expires=1513107381&Signature=4tr%2BiJxrQwt7hvEHW6Df8MEtYwc%3D
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1 --libdir=/home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1/lib --sysconfdir=/home/linuxbrew/.linuxbrew/etc/clamav --disable-zlib-vcheck --with-zlib=/usr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --enable-llvm=no --with-pcre=/home/linuxbrew/.linuxbrew/opt/pcre --disable-yara
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clac`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clac/0.3.1: 6 files, 69.9KB, built in 18 seconds
-==> Determining clac bottle rebuild...
-==> Bottling clac-0.3.1.x86_64_linux.bottle.1.tar.gz...
-./clac-0.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clamav`
+==> Caveats
+To finish installation & run clamav you will need to edit
+the example conf files at /home/linuxbrew/.linuxbrew/etc/clamav/
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clamav/0.99.2_1: 37 files, 56.4MB, built in 13 minutes 21 seconds
+==> Determining clamav bottle rebuild...
+==> Bottling clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clamav-0.99.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "463de03d246a7052f8f29c1b0b775247be010b88c5d411096d96159c4bfaeaba" => :x86_64_linux
+    sha256 "209d9d10a63ecb1685eb26776f9e5bd3e3de487c4317a504bececae65e09b0f9" => :x86_64_linux
   end
