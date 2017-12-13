@@ -1,16 +1,7 @@
-==> Downloading https://github.com/cucumber/cucumber-cpp/archive/v0.4.tar.gz
-==> Downloading from https://codeload.github.com/cucumber/cucumber-cpp/tar.gz/v0.4
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cucumber-cpp/0.4_3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCUKE_DISABLE_GTEST=on -DCUKE_DISABLE_CPPSPEC=on -DCUKE_DISABLE_FUNCTIONAL=on -DCUKE_DISABLE_BOOST_TEST=on
-==> cmake --build .
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cucumber-cpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cucumber-cpp/0.4_3: 33 files, 17MB, built in 3 minutes 15 seconds
-==> Determining cucumber-cpp bottle rebuild...
-==> Bottling cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cucumber-cpp-0.4_3.x86_64_linux.bottle.1.tar.gz
+==> Determining cunit bottle rebuild...
+==> Bottling cunit-2.1-3.x86_64_linux.bottle.1.tar.gz...
+./cunit-2.1-3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5db285390ddd3d455225a88bba640f7b582a03d3c713cf888548613386e4fcb2" => :x86_64_linux
+    sha256 "25d420abe635199db293d5adcbc3d404b33531e95ecc3b11100c3c91e55bf515" => :x86_64_linux
   end
