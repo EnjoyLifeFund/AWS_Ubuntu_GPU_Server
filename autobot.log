@@ -1,14 +1,14 @@
-==> Downloading https://github.com/postmodern/chgems/archive/v0.3.2.tar.gz
-==> Downloading from https://codeload.github.com/postmodern/chgems/tar.gz/v0.3.2
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chgems/0.3.2
+==> Downloading https://code.call-cc.org/releases/4.12.0/chicken-4.12.0.tar.gz
+==> make PLATFORM=linux PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0 C_COMPILER=gcc-5 LIBRARIAN=ar ARCH=x86-64
+==> make install PLATFORM=linux PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0 C_COMPILER=gcc-5 LIBRARIAN=ar ARCH=x86-64
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chgems`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chgems/0.3.2: 9 files, 38.2KB, built in 7 seconds
-==> Determining chgems bottle rebuild...
-==> Bottling chgems-0.3.2.x86_64_linux.bottle.1.tar.gz...
-./chgems-0.3.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chicken`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0: 111 files, 16.7MB, built in 68 minutes 22 seconds
+==> Determining chicken bottle rebuild...
+==> Bottling chicken-4.12.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if chicken-4.12.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./chicken-4.12.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2b48fbb74dcecd8203d5691868574e4512c857969604a675603a8aeedea3a999" => :x86_64_linux
+    sha256 "b2be3bc1f3288a873270f2014b30c7385d5ee15f7444861fb47d582c1bf4cd84" => :x86_64_linux
   end
