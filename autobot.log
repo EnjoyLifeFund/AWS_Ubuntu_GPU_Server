@@ -1,17 +1,13 @@
-==> Downloading https://github.com/ruben2020/codequery/archive/v0.21.0.tar.gz
-==> Downloading from https://codeload.github.com/ruben2020/codequery/tar.gz/v0.21.0
-==> cmake .. -G Unix Makefiles -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/codequery/0.21.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_QT5=ON
-==> make
-==> make install
+==> Downloading https://registry.npmjs.org/coffeescript/-/coffeescript-2.0.3.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/coffeescript/2.0.3/libexec /tmp/coffeescript-20171213-35826-2i185t/package/coffeescript-2.0.3.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall codequery`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/codequery/0.21.0: 10 files, 4.8MB, built in 7 minutes 37 seconds
-==> Determining codequery bottle rebuild...
-==> Bottling codequery-0.21.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if codequery-0.21.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./codequery-0.21.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall coffeescript`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/coffeescript/2.0.3: 31 files, 632KB, built in 33 seconds
+==> Determining coffeescript bottle rebuild...
+==> Bottling coffeescript-2.0.3.x86_64_linux.bottle.1.tar.gz...
+./coffeescript-2.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9a632bf97abec067082b9f8a331a10359d882618a5b85a18c5ecfd2078174f7a" => :x86_64_linux
+    sha256 "fc40b8adc513dbb9036b3fec677eb6c6c0eaf46c59c4670517a8e0cbcd537e65" => :x86_64_linux
   end
