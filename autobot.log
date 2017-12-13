@@ -1,15 +1,15 @@
-==> Downloading https://github.com/square/certstrap/archive/v1.1.1.tar.gz
-==> Downloading from https://codeload.github.com/square/certstrap/tar.gz/v1.1.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/certstrap/1.1.1/bin/certstrap
+==> Downloading https://ee.lbl.gov/downloads/cf/cf-1.2.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cf/1.2.5
+==> make
+==> make install
+==> make install-man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall certstrap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/certstrap/1.1.1: 6 files, 4.7MB, built in 21 seconds
-==> Determining certstrap bottle rebuild...
-==> Bottling certstrap-1.1.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if certstrap-1.1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./certstrap-1.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cf/1.2.5: 5 files, 52KB, built in 1 minute 8 seconds
+==> Determining cf bottle rebuild...
+==> Bottling cf-1.2.5.x86_64_linux.bottle.1.tar.gz...
+./cf-1.2.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c0bb299297a0a25a3f3a7cef3b1e50af3927833a43d7f4d4c9c0871c8e518c67" => :x86_64_linux
+    sha256 "e30b863ad484236377c1faaa4c07b6eb5911d8640b6a617fa3b34e9a0080895c" => :x86_64_linux
   end
