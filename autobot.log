@@ -1,12 +1,15 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/blazeblogger/blazeblogger-1.2.0.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0 compdir=/home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0 install
+==> Downloading https://downloads.sourceforge.net/project/blitz/blitz/Blitz++%200.10/blitz-0.10.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/blitz/blitz/Blitz%2B%2B%200.10/blitz-0.10.tar.gz
+==> ./configure --infodir=/home/linuxbrew/.linuxbrew/Cellar/blitz/0.10/share/info --enable-shared --disable-doxygen --disable-dot --prefix=/home/linuxbrew/.linuxbrew/Cellar/blitz/0.10
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall blazeblogger`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0: 44 files, 530.0KB, built in 19 seconds
-==> Determining blazeblogger bottle rebuild...
-==> Bottling blazeblogger-1.2.0.x86_64_linux.bottle.tar.gz...
-./blazeblogger-1.2.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall blitz`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/blitz/0.10: 131 files, 2.2MB, built in 5 minutes 9 seconds
+==> Determining blitz bottle rebuild...
+==> Bottling blitz-0.10.x86_64_linux.bottle.1.tar.gz...
+./blitz-0.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "f1ba0ee6b5580a436a867e8a95d6768c7ee5df23b0a15470390482ee1047f755" => :x86_64_linux
+    rebuild 1
+    sha256 "47559d152c47d557dcdb8f5d2bcb8b02272922fa53b32158e52ad8f6474e7caa" => :x86_64_linux
   end
