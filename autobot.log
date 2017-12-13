@@ -1,15 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/chadwick/chadwick-0.6/chadwick-0.6.5/chadwick-0.6.5.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/chadwick/chadwick-0.6/chadwick-0.6.5/chadwick-0.6.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/chadwick/0.6.5
-==> make
+==> Downloading https://github.com/ChaiScript/ChaiScript/archive/v6.0.0.tar.gz
+==> Downloading from https://codeload.github.com/ChaiScript/ChaiScript/tar.gz/v6.0.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chaiscript/6.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chadwick`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chadwick/0.6.5: 22 files, 2.2MB, built in 2 minutes 23 seconds
-==> Determining chadwick bottle rebuild...
-==> Bottling chadwick-0.6.5.x86_64_linux.bottle.1.tar.gz...
-./chadwick-0.6.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chaiscript`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chaiscript/6.0.0: 462 files, 30.6MB, built in 14 minutes 26 seconds
+==> Determining chaiscript bottle rebuild...
+==> Bottling chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b4e999783c47211c6cddd15e06c601aaa3aca052042d1f5af2f1ad33f2cf83f1" => :x86_64_linux
+    sha256 "115a87f094c0a15b35ff00ee18269868ac0aecb199d63c3333fea276b8a553a1" => :x86_64_linux
   end
