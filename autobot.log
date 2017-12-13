@@ -1,15 +1,26 @@
-==> Downloading https://github.com/bcicen/ctop/archive/v0.6.1.tar.gz
-==> Downloading from https://codeload.github.com/bcicen/ctop/tar.gz/v0.6.1
-==> glide install
-==> make build
+==> Downloading https://github.com/kinetiknz/cubeb/archive/cubeb-0.2.tar.gz
+==> Downloading from https://codeload.github.com/kinetiknz/cubeb/tar.gz/cubeb-0.2
+==> autoreconf --install
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cubeb/0.2
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ctop`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ctop/0.6.1: 5 files, 9MB, built in 5 minutes 48 seconds
-==> Determining ctop bottle rebuild...
-==> Bottling ctop-0.6.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if ctop-0.6.1.x86_64_linux.bottle.tar.gz is relocatable...
-./ctop-0.6.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cubeb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cubeb/0.2: 14 files, 75.6KB, built in 7 minutes 27 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+igv
+==> Updated Formulae
+apm-server
+bitrise
+dpkg
+pipenv
+
+==> Determining cubeb bottle rebuild...
+==> Bottling cubeb-0.2.x86_64_linux.bottle.1.tar.gz...
+./cubeb-0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "ff70f8df6407b8ba2527f927ed756ca0821da278a86db22ba2646fc77dad8e2e" => :x86_64_linux
+    rebuild 1
+    sha256 "2285ba216178fa17c72181e9c987bdefed8846f38e4df46646ee608e87a293a3" => :x86_64_linux
   end
