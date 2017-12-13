@@ -1,13 +1,17 @@
-==> Downloading https://kiyuko.org/software/cattle/releases/1.2.2/source
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cattle/1.2.2
-==> make install
+==> Downloading https://github.com/cayleygraph/cayley/archive/v0.6.1.tar.gz
+==> Downloading from https://codeload.github.com/cayleygraph/cayley/tar.gz/v0.6.1
+==> glide install
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cayley/0.6.1/bin/cayley -ldflags -X main.Version=0.6.1 .../cmd/cayley
+==> gzip -d data/30kmoviedata.nq.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cattle`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cattle/1.2.2: 68 files, 1MB, built in 3 minutes 29 seconds
-==> Determining cattle bottle rebuild...
-==> Bottling cattle-1.2.2.x86_64_linux.bottle.1.tar.gz...
-./cattle-1.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cayley`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cayley/0.6.1: 56 files, 51.6MB, built in 3 minutes 11 seconds
+==> Determining cayley bottle rebuild...
+==> Bottling cayley-0.6.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cayley-0.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cayley-0.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e896a79dd92ab649fddc9812e7768b543ae8ddc4c9a1343e0dabde9425921752" => :x86_64_linux
+    sha256 "1d736e69bab49fe72847fa14abdf92faef64ee4b4f583a149bf6af149a4fedeb" => :x86_64_linux
   end
