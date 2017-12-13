@@ -1,14 +1,22 @@
-==> Downloading https://github.com/acoustid/chromaprint/releases/download/v1.4.2/chromaprint-1.4.2.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1625818/c9054086-cd4b-11e6-9b7f-c0a4347d743d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171212T152914Z&X-Amz-Expires=300&X-Amz-Signature=5ad4af1581a269bd223ad317d5c919ac71cf8de59c3ee9a7c0880db16df2ed18&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dchromaprint-1.4.2.tar.gz&response-content-type=application%2Foctet-stream
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chromaprint/1.4.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/postmodern/chruby/archive/v0.3.9.tar.gz
+==> Downloading from https://codeload.github.com/postmodern/chruby/tar.gz/v0.3.9
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chruby/0.3.9
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chromaprint`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chromaprint/1.4.2: 10 files, 546.5KB, built in 1 minute 51 seconds
-==> Determining chromaprint bottle rebuild...
-==> Bottling chromaprint-1.4.2.x86_64_linux.bottle.tar.gz...
-./chromaprint-1.4.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall chruby`
+==> Caveats
+Add the following to the ~/.bash_profile or ~/.zshrc file:
+  source /home/linuxbrew/.linuxbrew/opt/chruby/share/chruby/chruby.sh
+
+To enable auto-switching of Rubies specified by .ruby-version files,
+add the following to ~/.bash_profile or ~/.zshrc:
+  source /home/linuxbrew/.linuxbrew/opt/chruby/share/chruby/auto.sh
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chruby/0.3.9: 12 files, 77.8KB, built in 7 seconds
+==> Determining chruby bottle rebuild...
+==> Bottling chruby-0.3.9.x86_64_linux.bottle.1.tar.gz...
+./chruby-0.3.9.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "cd784bbb566fd7eae35a8dd7a088731c713b6bbb38366b2156a97d04af101ee5" => :x86_64_linux
+    rebuild 1
+    sha256 "5a7062a560a18c3a8455c5a34b61c5f07dcf3ad2907fd01556270079a3759a52" => :x86_64_linux
   end
