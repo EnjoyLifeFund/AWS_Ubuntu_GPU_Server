@@ -1,27 +1,18 @@
-==> Downloading http://colorsvn.tigris.org/files/documents/4414/49311/colorsvn-0.3.3.tar.gz
+==> Cloning https://github.com/joakim666/colortail.git
+==> Checking out revision f44fce0dbfd6bd38cba03400db26a99b489505b5
+==> Downloading https://github.com/joakim666/colortail/commit/36dd0437bb364fd1493934bdb618cc102a29d0a5.diff?full_index=1
 ==> Patching
-patching file Makefile.in
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/colorsvn/0.3.3_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/colorsvn/0.3.3_1/share/man --sysconfdir=/home/linuxbrew/.linuxbrew/etc
-==> make
+==> Applying 36dd0437bb364fd1493934bdb618cc102a29d0a5.diff
+patching file autogen.sh
+==> ./autogen.sh --disable-dependency-tracking --prefix=/home/linuxbrew/.linuxbrew/Cellar/colortail/0.3.4
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall colorsvn`
-==> Caveats
-You probably want to set an alias to svn in your bash profile.
-So source /home/linuxbrew/.linuxbrew/etc/profile.d/colorsvn-env.sh or add the line
-
-    alias svn=colorsvn
-
-to your bash profile.
-
-So when you type "svn" you'll run "colorsvn".
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/colorsvn/0.3.3_1: 8 files, 70.1KB, built in 19 seconds
-==> Determining colorsvn bottle rebuild...
-==> Bottling colorsvn-0.3.3_1.x86_64_linux.bottle.1.tar.gz...
-./colorsvn-0.3.3_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall colortail`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/colortail/0.3.4: 9 files, 405.3KB, built in 1 minute 26 seconds
+==> Determining colortail bottle rebuild...
+==> Bottling colortail-0.3.4.x86_64_linux.bottle.1.tar.gz...
+./colortail-0.3.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e323470724ee283b4b65ca8d32af2ec12d6eb532c177786144a158d43985476e" => :x86_64_linux
+    sha256 "8b8c81b5603e650f23a4bd8d99427a4c9613e2d0d247fd3831065a3fccac071b" => :x86_64_linux
   end
