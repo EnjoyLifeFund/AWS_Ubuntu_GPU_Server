@@ -1,24 +1,14 @@
-==> Downloading https://www.skamphausen.de/downloads/cdargs/cdargs-1.35.tar.gz
-==> Patching
-patching file contrib/cdargs-bash.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35/share/man
-==> make
-==> make install-strip
+==> Downloading https://invisible-mirror.net/archives/cdk/cdk-5.0-20161210.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cdk/5.0.20161210 --with-ncurses
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cdargs`
-==> Caveats
-Support files for bash, tcsh, and emacs have been installed to:
-  /home/linuxbrew/.linuxbrew/opt/cdargs/contrib
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35: 14 files, 169.9KB, built in 1 minute 45 seconds
-==> Determining cdargs bottle rebuild...
-==> Bottling cdargs-1.35.x86_64_linux.bottle.1.tar.gz...
-./cdargs-1.35.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cdk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cdk/5.0.20161210: 1,036 files, 2.4MB, built in 4 minutes 19 seconds
+==> Determining cdk bottle rebuild...
+==> Bottling cdk-5.0.20161210.x86_64_linux.bottle.1.tar.gz...
+./cdk-5.0.20161210.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "118a273accd9dd6f38e1c1465e0227386eb0ab0ca6143de27c714b513e66121e" => :x86_64_linux
+    sha256 "cb7fadaaedd72f4822fbef432a8c73a05a05fc517161123e58bf02723df623fa" => :x86_64_linux
   end
