@@ -1,14 +1,14 @@
-==> Downloading https://github.com/geier/choose/archive/v0.1.0.tar.gz
-==> Downloading from https://codeload.github.com/geier/choose/tar.gz/v0.1.0
-==> Downloading https://pypi.python.org/packages/source/u/urwid/urwid-1.2.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/choose/0.1.0/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://downloads.sourceforge.net/project/chordii/chordii/4.5/chordii-4.5.3.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/chordii/chordii/4.5/chordii-4.5.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/chordii/4.5.3
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall choose`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/choose/0.1.0: 95 files, 1.8MB, built in 16 seconds
-==> Determining choose bottle rebuild...
-==> Bottling choose-0.1.0.x86_64_linux.bottle.tar.gz...
-./choose-0.1.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall chordii`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chordii/4.5.3: 12 files, 344.4KB, built in 1 minute 22 seconds
+==> Determining chordii bottle rebuild...
+==> Bottling chordii-4.5.3.x86_64_linux.bottle.1.tar.gz...
+./chordii-4.5.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "99e76f52e6071b4d386e5ca6214cdcb27f5a2ade54e9f4166c4b864222592348" => :x86_64_linux
+    rebuild 1
+    sha256 "836cb1430a1946f3ee83b0f497619a082f584ada84eb084cc383f02696d731dd" => :x86_64_linux
   end
