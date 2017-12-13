@@ -1,8 +1,14 @@
-==> Determining bzip2 bottle rebuild...
-==> Bottling bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz...
-./bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://registry.npmjs.org/bit-bin/-/bit-bin-0.11.1.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/bit/0.11.1/libexec /tmp/bit-20171211-64358-1t15n8o/package/bit-bin-0.11.1.tgz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bit/0.11.1: 11,582 files, 441.3MB, built in 11 minutes 29 seconds
+==> Determining bit bottle rebuild...
+==> Bottling bit-0.11.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bit-0.11.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bit-0.11.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1a326ee3f99528e9cc5ae8d7ddfb5aa7291959a0cdf97bf6a768a6129bde57a0" => :x86_64_linux
+    sha256 "8e032eb850d97dac9c3519114dfacdb4696ce9cf1eb8e8b5e7674091e58b50e9" => :x86_64_linux
   end
