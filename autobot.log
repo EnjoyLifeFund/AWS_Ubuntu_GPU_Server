@@ -1,43 +1,15 @@
-==> Installing dependencies for cmus: mp4v2, libcue
-==> Installing cmus dependency: mp4v2
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mp4v2/mp4v2-2.0.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mp4v2/2.0.0
-==> make
-==> make install
-==> make install-man
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/mp4extract
-Target /home/linuxbrew/.linuxbrew/bin/mp4extract
-is a symlink belonging to bento4. You can unlink it:
-  brew unlink bento4
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite mp4v2
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run mp4v2
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/mp4extract -> /home/linuxbrew/.linuxbrew/Cellar/bento4/1.5.1-621/bin/mp4extract
-/home/linuxbrew/.linuxbrew/bin/mp4info -> /home/linuxbrew/.linuxbrew/Cellar/bento4/1.5.1-621/bin/mp4info
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mp4v2/2.0.0: 35 files, 5.2MB, built in 4 minutes 39 seconds
-==> Installing cmus dependency: libcue
-==> Downloading https://linuxbrew.bintray.com/bottles/libcue-2.2.0.x86_64_linux.bottle.tar.gz
-==> Pouring libcue-2.2.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcue/2.2.0: 20 files, 173.5KB
-==> Installing cmus
-==> Downloading https://github.com/cmus/cmus/archive/v2.7.1.tar.gz
-==> Downloading from https://codeload.github.com/cmus/cmus/tar.gz/v2.7.1
-==> ./configure prefix=/home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2 mandir=/home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2/share/man
+==> Downloading https://github.com/nats-io/cnats/archive/v1.7.4.tar.gz
+==> Downloading from https://codeload.github.com/nats-io/cnats/tar.gz/v1.7.4
+==> cmake . -DNATS_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4 -DBUILD_TESTING=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmus`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2: 31 files, 1.9MB, built in 1 minute 50 seconds
-==> Determining cmus bottle rebuild...
-==> Bottling cmus-2.7.1_2.x86_64_linux.bottle.1.tar.gz...
-./cmus-2.7.1_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cnats`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cnats/1.7.4: 13 files, 636.0KB, built in 1 minute 6 seconds
+==> Determining cnats bottle rebuild...
+==> Bottling cnats-1.7.4.x86_64_linux.bottle.1.tar.gz...
+./cnats-1.7.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "13c7d44671fd59f66064fbe6b761625a8e3b15f1110c5dc38fabbaf668ba13a6" => :x86_64_linux
+    sha256 "899e96eaeeda0414de027f98c46380fff01843ea301bd57c1f555d80827a4517" => :x86_64_linux
   end
