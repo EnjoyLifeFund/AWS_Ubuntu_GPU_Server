@@ -1,15 +1,13 @@
-==> Downloading https://github.com/cpputest/cpputest/releases/download/v3.8/cpputest-3.8.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5269602/6b9e938c-2285-11e6-85bc-e47314da9676?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171213T140918Z&X-Amz-Expires=300&X-Amz-Signature=db22ecb48a4b0953300f6c7b399f46bbe1bdbaee62de0ef479c13f5f6a1b2752&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcpputest-3.8.tar.gz&response-content-type=application%2Foctet-stream
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cpputest/3.8 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/opsengine/cpulimit/archive/v0.2.tar.gz
+==> Downloading from https://codeload.github.com/opsengine/cpulimit/tar.gz/v0.2
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpputest`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpputest/3.8: 60 files, 1.4MB, built in 2 minutes 17 seconds
-==> Determining cpputest bottle rebuild...
-==> Bottling cpputest-3.8.x86_64_linux.bottle.1.tar.gz...
-./cpputest-3.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cpulimit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cpulimit/0.2: 5 files, 64KB, built in 16 seconds
+==> Determining cpulimit bottle rebuild...
+==> Bottling cpulimit-0.2.x86_64_linux.bottle.1.tar.gz...
+./cpulimit-0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e8fa788528592360184eb0d95cac20983e518d948bbfb7345a00fe6cd389b61d" => :x86_64_linux
+    sha256 "7c5fe19c689f01dbf93a1e59283df9ce355ad0c86422bc6b11614aa3da046f0b" => :x86_64_linux
   end
