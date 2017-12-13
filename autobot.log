@@ -1,18 +1,16 @@
-==> Downloading http://ftp.cs.wisc.edu/condor/classad/c++/classads-1.0.10.tar.gz
-==> ./configure --enable-namespace --prefix=/home/linuxbrew/.linuxbrew/Cellar/classads/1.0.10
+==> Downloading https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz
+==> Downloading from https://codeload.github.com/clMathLibraries/clBLAS/tar.gz/v2.12
+==> cmake src -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clblas/2.12 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_CLIENT=OFF -DBUILD_KTEST=OFF -DBUILD_TEST=OFF -DCMAKE_MACOSX_RPATH:BOOL=ON -DSUFFIX_LIB:STRING=
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall classads`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/classads/1.0.10: 42 files, 29.8MB, built in 7 minutes 20 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-qt
-
-==> Determining classads bottle rebuild...
-==> Bottling classads-1.0.10.x86_64_linux.bottle.tar.gz...
-==> Detecting if classads-1.0.10.x86_64_linux.bottle.tar.gz is relocatable...
-./classads-1.0.10.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall clblas`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clblas/2.12: 21 files, 27.2MB, built in 4 minutes 53 seconds
+==> Determining clblas bottle rebuild...
+==> Bottling clblas-2.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clblas-2.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clblas-2.12.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8614da6745ed0e87ac01c545bc7e2ecde6e8315a70a915f741573dccfc227edd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1575452b9d9d9fdea5766316dd581a52f7b9017a6eae04200ca1d9d469b17851" => :x86_64_linux
   end
