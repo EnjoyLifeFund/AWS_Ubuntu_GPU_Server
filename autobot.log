@@ -1,21 +1,14 @@
-==> Downloading https://github.com/ok-borg/borg/archive/v0.0.3.tar.gz
-==> Downloading from https://codeload.github.com/ok-borg/borg/tar.gz/v0.0.3
-==> Cloning https://github.com/fatih/color.git
-==> Checking out revision 9131ab34cf20d2f6d83fdc67168a5430d1c7dc23
-==> Cloning https://github.com/juju/gnuflag.git
-==> Checking out revision 4e76c56581859c14d9d87e1ddbe29e1c0f10195f
-==> Cloning https://gopkg.in/yaml.v2.git
-==> Checking out revision a3f3340b5840cee44f372bddb5880fcbc419b46a
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/borg/0.0.3/bin/borg github.com/ok-borg/borg
+==> Downloading https://registry.npmjs.org/bower/-/bower-1.8.2.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/bower/1.8.2/libexec /tmp/bower-20171211-33526-ttfqv0/package/bower-1.8.2.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall borg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/borg/0.0.3: 5 files, 8MB, built in 53 seconds
-==> Determining borg bottle rebuild...
-==> Bottling borg-0.0.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if borg-0.0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./borg-0.0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bower`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bower/1.8.2: 4,022 files, 15.8MB, built in 1 minute 41 seconds
+==> Determining bower bottle rebuild...
+==> Bottling bower-1.8.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bower-1.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bower-1.8.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "db5155053fc511e05550c27a31382622796e4979b76107113ed832c1deea868e" => :x86_64_linux
+    sha256 "232a4302b84d5b39a38d38e838bc757fe283700fa44d2947722095397d045e70" => :x86_64_linux
   end
