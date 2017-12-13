@@ -1,44 +1,8 @@
-==> Installing dependencies for byobu: tmux, newt
-==> Installing byobu dependency: tmux
-==> Downloading https://linuxbrew.bintray.com/bottles/tmux-2.6.x86_64_linux.bottle.tar.gz
-==> Pouring tmux-2.6.x86_64_linux.bottle.tar.gz
-==> Caveats
-Example configuration has been installed to:
-  /home/linuxbrew/.linuxbrew/opt/tmux/share/tmux
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tmux/2.6: 10 files, 848.9KB
-==> Installing byobu dependency: newt
-==> Downloading https://linuxbrew.bintray.com/bottles/newt-0.52.20.x86_64_linux.bottle.tar.gz
-==> Pouring newt-0.52.20.x86_64_linux.bottle.tar.gz
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/newt/0.52.20: 90 files, 1.8MB
-==> Installing byobu
-==> Downloading https://launchpad.net/byobu/trunk/5.124/+download/byobu_5.124.orig.tar.gz
-==> Downloading from https://launchpadlibrarian.net/348034037/byobu_5.124.orig.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/byobu/5.124
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall byobu`
-==> Caveats
-Add the following to your shell configuration file:
-  export BYOBU_PREFIX=/home/linuxbrew/.linuxbrew
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/byobu/5.124: 164 files, 768.2KB, built in 46 seconds
-==> Determining byobu bottle rebuild...
-==> Bottling byobu-5.124.x86_64_linux.bottle.1.tar.gz...
-./byobu-5.124.x86_64_linux.bottle.1.tar.gz
+==> Determining bzip2 bottle rebuild...
+==> Bottling bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz...
+./bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0303844d128fb7a6fa00b072d7b2c9f77d0e1f55dfc1bd55262bbe4b4320cd6d" => :x86_64_linux
+    sha256 "1a326ee3f99528e9cc5ae8d7ddfb5aa7291959a0cdf97bf6a768a6129bde57a0" => :x86_64_linux
   end
