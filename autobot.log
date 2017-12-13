@@ -1,14 +1,13 @@
-==> Downloading http://www.igoweb.org/~wms/comp/cgoban/cgoban-1.9.12.tar.gz
-==> ./configure --disable-silent-rules
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cgoban/1.9.12 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/cgoban/1.9.12/share/man
+==> Downloading http://www.uzix.org/cgvg/cgvg-1.6.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cgoban`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cgoban/1.9.12: 7 files, 580KB, built in 2 minutes 52 seconds
-==> Determining cgoban bottle rebuild...
-==> Bottling cgoban-1.9.12.x86_64_linux.bottle.1.tar.gz...
-./cgoban-1.9.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cgvg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3: 14 files, 87.3KB, built in 17 seconds
+==> Determining cgvg bottle rebuild...
+==> Bottling cgvg-1.6.3.x86_64_linux.bottle.tar.gz...
+./cgvg-1.6.3.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "18a840c6f396ee4e44626f049707f105b49b4401eb0a1ff126875d6c844e7072" => :x86_64_linux
+    sha256 "6cdc6ef35af89599a1cd2341fec6f430fc7d2a8a6c500c706ba6ebc093bf1efe" => :x86_64_linux
   end
