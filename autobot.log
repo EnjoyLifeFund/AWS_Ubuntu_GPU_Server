@@ -1,15 +1,15 @@
-==> Downloading https://github.com/danmar/cppcheck/archive/1.81.tar.gz
-==> Downloading from https://codeload.github.com/danmar/cppcheck/tar.gz/1.81
-==> make HAVE_RULES=yes CFGDIR=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81/cfg
-==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81 BIN=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81/bin CFGDIR=/cfg install
+==> Downloading https://ftp.gnu.org/gnu/cppi/cppi-1.18.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cppi/1.18
+==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cppcheck`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81: 28 files, 3.9MB, built in 3 minutes 29 seconds
-==> Determining cppcheck bottle rebuild...
-==> Bottling cppcheck-1.81.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cppcheck-1.81.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cppcheck-1.81.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cppi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cppi/1.18: 23 files, 520.1KB, built in 6 minutes 46 seconds
+==> Determining cppi bottle rebuild...
+==> Bottling cppi-1.18.x86_64_linux.bottle.1.tar.gz...
+./cppi-1.18.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "647a541ab6fab91886314032c6f190bde588a285f95590a428c20d79064b46f2" => :x86_64_linux
+    sha256 "50a8ed1f77f561ecd5dafe72daaf6b8f406ee1e050bb2097f6823894ed23516e" => :x86_64_linux
   end
