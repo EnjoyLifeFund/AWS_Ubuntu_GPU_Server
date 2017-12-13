@@ -1,17 +1,4 @@
-==> Downloading https://downloads.sourceforge.net/project/cracklib/cracklib/2.9.5/cracklib-2.9.5.tar.gz
-==> Downloading from https://cytranet.dl.sourceforge.net/project/cracklib/cracklib/2.9.5/cracklib-2.9.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5/bin --without-python --with-default-dict=/home/linuxbrew/.linuxbrew/share/cracklib-words
-==> make install
-==> Downloading https://downloads.sourceforge.net/project/cracklib/cracklib-words/2008-05-07/cracklib-words-20080507.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/cracklib/cracklib-words/2008-05-07/cracklib-words-20080507.gz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cracklib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5: 55 files, 17.2MB, built in 3 minutes 28 seconds
-==> Determining cracklib bottle rebuild...
-==> Bottling cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "be9bf381004a205557f543ca13715a881124eb84db18d07573578a10ed695453" => :x86_64_linux
-  end
+==> Downloading https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2.tar.gz
+==> Downloading https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2-docs.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crash/1.3.2: 1,993 files, 37.0MB, built in 24 seconds
+This formula doesn't require compiling.
