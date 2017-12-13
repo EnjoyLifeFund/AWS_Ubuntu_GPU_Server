@@ -1,14 +1,14 @@
-==> Downloading http://calcurse.org/files/calcurse-4.3.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/calcurse/4.3.0
-==> make
-==> make install
+==> Cloning https://github.com/camlistore/camlistore.git
+==> Checking out tag 0.9
+==> go run make.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall calcurse`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/calcurse/4.3.0: 173 files, 1.5MB, built in 2 minutes 21 seconds
-==> Determining calcurse bottle rebuild...
-==> Bottling calcurse-4.3.0.x86_64_linux.bottle.1.tar.gz...
-./calcurse-4.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall camlistore`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/camlistore/0.9: 15 files, 141.7MB, built in 2 minutes 57 seconds
+==> Determining camlistore bottle rebuild...
+==> Bottling camlistore-0.9.x86_64_linux.bottle.tar.gz...
+==> Detecting if camlistore-0.9.x86_64_linux.bottle.tar.gz is relocatable...
+./camlistore-0.9.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "c4d3f4d11b5593fa2d03c2d46eb533a1c9e9d7b9a241ff009db5ca6a99a09718" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "123ac72e0e7f0fbeffcbf0ba71db640229a698b775763e4c1bfd033d1a4fc810" => :x86_64_linux
   end
