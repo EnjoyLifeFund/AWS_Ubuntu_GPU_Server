@@ -1,19 +1,28 @@
-==> Downloading https://github.com/bulletphysics/bullet3/archive/2.87.tar.gz
-==> Downloading from https://codeload.github.com/bulletphysics/bullet3/tar.gz/2.87
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bullet/2.87 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DINSTALL_EXTRA_LIBS=ON -DBUILD_UNIT_TESTS=OFF -DBUILD_BULLET2_DEMOS=OFF -DBUILD_SHARED_LIBS=ON
-==> make install
-==> make clean
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bullet/2.87 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DINSTALL_EXTRA_LIBS=ON -DBUILD_UNIT_TESTS=OFF -DBUILD_SHARED_LIBS=OFF -DBUILD_BULLET2_DEMOS=OFF
-==> make install
+==> Installing dependencies for burp: librsync
+==> Installing burp dependency: librsync
+==> Downloading https://linuxbrew.bintray.com/bottles/librsync-2.0.1.x86_64_linux.bottle.tar.gz
+==> Pouring librsync-2.0.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/librsync/2.0.1: 14 files, 232.1KB
+==> Installing burp
+==> Downloading https://downloads.sourceforge.net/project/burp/burp-2.0.54/burp-2.0.54.tar.bz2
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/burp/burp-2.0.54/burp-2.0.54.tar.bz2
+==> Downloading https://github.com/troydhanson/uthash/archive/v2.0.1.tar.gz
+==> Downloading from https://codeload.github.com/troydhanson/uthash/tar.gz/v2.0.1
+==> make -C libut
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54 --sysconfdir=/home/linuxbrew/.linuxbrew/etc/burp --sbindir=/home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54/bin --localstatedir=/home/linuxbrew/.linuxbrew/var
+==> make install-all
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bullet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bullet/2.87: 477 files, 14.5MB, built in 6 minutes 40 seconds
-==> Determining bullet bottle rebuild...
-==> Bottling bullet-2.87.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bullet-2.87.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bullet-2.87.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall burp`
+==> Caveats
+Before installing the launchd entry you should configure your burp client in
+  /home/linuxbrew/.linuxbrew/etc/burp/burp.conf
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54: 49 files, 3.8MB, built in 4 minutes 6 seconds
+==> Determining burp bottle rebuild...
+==> Bottling burp-2.0.54.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if burp-2.0.54.x86_64_linux.bottle.1.tar.gz is relocatable...
+./burp-2.0.54.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "180c84e29a2412ecbe961c47d66fc0c7c7df088a6c079bf871a9efce08693556" => :x86_64_linux
+    sha256 "bce0950de7e8dcaaa58687815f9448910534296bfc3216133dc5ba1b085b8512" => :x86_64_linux
   end
