@@ -1,16 +1,15 @@
-==> Downloading https://github.com/camlp5/camlp5/archive/rel703.tar.gz
-==> Downloading from https://codeload.github.com/camlp5/camlp5/tar.gz/rel703
-==> ./configure --prefix /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1 --mandir /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1/share/man --transitional
-==> make world.opt
+==> Downloading https://capnproto.org/capnproto-c++-0.6.1.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/capnp/0.6.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall camlp5`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/camlp5/7.03_1: 213 files, 30.6MB, built in 5 minutes 30 seconds
-==> Determining camlp5 bottle rebuild...
-==> Bottling camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./camlp5-7.03_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall capnp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/capnp/0.6.1: 100 files, 43.4MB, built in 7 minutes 14 seconds
+==> Determining capnp bottle rebuild...
+==> Bottling capnp-0.6.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if capnp-0.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./capnp-0.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "21ba6f64870875f88ada2cb7adfa4b8a22d0376eea390e6e081aa6bdbbd73f21" => :x86_64_linux
+    sha256 "4f6b38928b86cee6d6602739e49a377f9f63a4d03168c00b304efec506b4d505" => :x86_64_linux
   end
