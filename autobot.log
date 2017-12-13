@@ -1,13 +1,19 @@
-==> Downloading https://registry.npmjs.org/coffeescript/-/coffeescript-2.0.3.tgz
-==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/coffeescript/2.0.3/libexec /tmp/coffeescript-20171213-35826-2i185t/package/coffeescript-2.0.3.tgz
+==> Downloading https://downloads.sourceforge.net/project/collada-dom/Collada%20DOM/Collada%20DOM%202.4/collada-dom-2.4.0.tgz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/collada-dom/Collada%20DOM/Collada%20DOM%202.4/collada-dom-2.4.0.tgz
+==> Patching
+patching file CMakeLists.txt
+Hunk #1 succeeded at 127 with fuzz 1 (offset 27 lines).
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/collada-dom/2.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall coffeescript`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/coffeescript/2.0.3: 31 files, 632KB, built in 33 seconds
-==> Determining coffeescript bottle rebuild...
-==> Bottling coffeescript-2.0.3.x86_64_linux.bottle.1.tar.gz...
-./coffeescript-2.0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall collada-dom`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/collada-dom/2.4.0: 465 files, 16.8MB, built in 10 minutes 27 seconds
+==> Determining collada-dom bottle rebuild...
+==> Bottling collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "fc40b8adc513dbb9036b3fec677eb6c6c0eaf46c59c4670517a8e0cbcd537e65" => :x86_64_linux
+    sha256 "9830307d2ead4cc0879ef32b32c8a21bd3c48710f1d3e42d86912cd0c419df65" => :x86_64_linux
   end
