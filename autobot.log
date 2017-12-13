@@ -1,20 +1,18 @@
-==> Downloading https://sites.google.com/site/broguegame/brogue-1.7.4-linux-amd64.tbz2
-==> Downloading from https://sites.google.com/site/broguegame/brogue-1.7.4-linux-amd64.tbz2?attredirects=0
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c999df7dff/brogue/1.7.4.patch
-==> Patching
-==> Applying 1.7.4.patch
-patching file src/platform/platformdependent.c
-==> make clean curses
+==> Downloading https://github.com/google/brotli/archive/v1.0.2.tar.gz
+==> Downloading from https://codeload.github.com/google/brotli/tar.gz/v1.0.2
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/brotli/1.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make VERBOSE=1
+==> ctest -V
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall brogue`
-==> Caveats
-If you are upgrading from 1.7.2, you need to copy your highscores file:
-    cp /home/linuxbrew/.linuxbrew/Cellar/brogue/1.7.2/BrogueHighScores.txt /home/linuxbrew/.linuxbrew/var/brogue/
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/brogue/1.7.4: 8 files, 1.8MB, built in 36 seconds
-==> Determining brogue bottle rebuild...
-==> Bottling brogue-1.7.4.x86_64_linux.bottle.tar.gz...
-./brogue-1.7.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall brotli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/brotli/1.0.2: 25 files, 3.6MB, built in 4 minutes 20 seconds
+==> Determining brotli bottle rebuild...
+==> Bottling brotli-1.0.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if brotli-1.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./brotli-1.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8d6f5f8ece1f61d599bcdc30d8fc3dc6bf8c340e05d1e839d7e8117644663156" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "dba6503497dad66ec6ee153d5fa8d4e981838b8046c1c92c58e5652a8a5ad2b6" => :x86_64_linux
   end
