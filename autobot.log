@@ -1,16 +1,16 @@
-==> Downloading http://capstone-engine.org/download/3.0.4/capstone-3.0.4.tgz
-==> Downloading from http://www.capstone-engine.org/download/3.0.4/capstone-3.0.4.tgz
-==> ./make.sh
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/capstone/3.0.4
+==> Cloning https://github.com/getcarina/carina.git
+==> Checking out tag v2.1.3
+==> make get-deps
+==> make local VERSION=2.1.3
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall capstone`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/capstone/3.0.4: 20 files, 6.9MB, built in 3 minutes 1 second
-==> Determining capstone bottle rebuild...
-==> Bottling capstone-3.0.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if capstone-3.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./capstone-3.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall carina`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/carina/2.1.3: 5 files, 8.7MB, built in 4 minutes 12 seconds
+==> Determining carina bottle rebuild...
+==> Bottling carina-2.1.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if carina-2.1.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./carina-2.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ec185a40572c5fd68ed0809f3fbc3048e8ad4ae247b0317708c6a16e4e1dcbb5" => :x86_64_linux
+    sha256 "c70997d2ef8d2c66dd07f70a1f02ca92ef32bb8dc0193d69764da49798c477a3" => :x86_64_linux
   end
