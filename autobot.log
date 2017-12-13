@@ -1,21 +1,12 @@
-==> Downloading http://gva.noekeon.org/blahtexml/blahtexml-0.9-src.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0632225f/blahtexml/patch-mainPng.cpp.diff
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0632225f/blahtexml/patch-main.cpp.diff
-==> Patching
-==> Applying patch-mainPng.cpp.diff
-patching file Source/mainPng.cpp
-==> Applying patch-main.cpp.diff
-patching file Source/main.cpp
-==> make blahtex-linux
-==> make blahtexml-linux
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/blazeblogger/blazeblogger-1.2.0.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0 compdir=/home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall blahtexml`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/blahtexml/0.9_1: 5 files, 1.9MB, built in 11 minutes 5 seconds
-==> Determining blahtexml bottle rebuild...
-==> Bottling blahtexml-0.9_1.x86_64_linux.bottle.1.tar.gz...
-./blahtexml-0.9_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall blazeblogger`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/blazeblogger/1.2.0: 44 files, 530.0KB, built in 19 seconds
+==> Determining blazeblogger bottle rebuild...
+==> Bottling blazeblogger-1.2.0.x86_64_linux.bottle.tar.gz...
+./blazeblogger-1.2.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "bb145e66e854aef8b68eb2d2f101d3cb866bb8b4bbca57b6a9851c2f0a681fc8" => :x86_64_linux
+    sha256 "f1ba0ee6b5580a436a867e8a95d6768c7ee5df23b0a15470390482ee1047f755" => :x86_64_linux
   end
