@@ -1,15 +1,15 @@
-==> Downloading https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.4.0.0.tgz
-==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev /tmp/clhep-20171212-8339-zcz0xe/2.4.0.0/CLHEP
-==> make install
+==> Downloading https://github.com/barnybug/cli53/archive/0.8.12.tar.gz
+==> Downloading from https://codeload.github.com/barnybug/cli53/tar.gz/0.8.12
+==> make build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clhep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.0: 348 files, 11.7MB, built in 7 minutes 20 seconds
-==> Determining clhep bottle rebuild...
-==> Bottling clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cli53`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cli53/0.8.12: 6 files, 19.7MB, built in 1 minute 53 seconds
+==> Determining cli53 bottle rebuild...
+==> Bottling cli53-0.8.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cli53-0.8.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cli53-0.8.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "45ab848c79230f4c95094dca5a57d8e8f8a45db0903b2d0f372f0f339b690cbc" => :x86_64_linux
+    sha256 "c78a92c0db27a3102cd7a0b63bbf01016925f9d273b1782f1c62f4cd88b74879" => :x86_64_linux
   end
