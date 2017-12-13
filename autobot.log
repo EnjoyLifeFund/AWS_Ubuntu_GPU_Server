@@ -1,14 +1,21 @@
-==> Downloading https://downloads.sourceforge.net/project/bittwist/Mac%20OS%20X/Bit-Twist%202.0/bittwist-macosx-2.0.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/bittwist/Mac%20OS%20X/Bit-Twist%202.0/bittwist-macosx-2.0.tar.gz
-==> make
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/bittwist/2.0
+==> Downloading http://gva.noekeon.org/blahtexml/blahtexml-0.9-src.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0632225f/blahtexml/patch-mainPng.cpp.diff
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0632225f/blahtexml/patch-main.cpp.diff
+==> Patching
+==> Applying patch-mainPng.cpp.diff
+patching file Source/mainPng.cpp
+==> Applying patch-main.cpp.diff
+patching file Source/main.cpp
+==> make blahtex-linux
+==> make blahtexml-linux
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bittwist`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bittwist/2.0: 10 files, 203.2KB, built in 23 seconds
-==> Determining bittwist bottle rebuild...
-==> Bottling bittwist-2.0.x86_64_linux.bottle.1.tar.gz...
-./bittwist-2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall blahtexml`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/blahtexml/0.9_1: 5 files, 1.9MB, built in 11 minutes 5 seconds
+==> Determining blahtexml bottle rebuild...
+==> Bottling blahtexml-0.9_1.x86_64_linux.bottle.1.tar.gz...
+./blahtexml-0.9_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "51e077a90745835e660645a34fb413e9bb3324da7eb89d492c8b2cdd614d5d2f" => :x86_64_linux
+    sha256 "bb145e66e854aef8b68eb2d2f101d3cb866bb8b4bbca57b6a9851c2f0a681fc8" => :x86_64_linux
   end
