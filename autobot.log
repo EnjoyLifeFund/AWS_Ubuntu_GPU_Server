@@ -1,15 +1,14 @@
-==> Downloading http://concurrencykit.org/releases/ck-0.6.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ck/0.6.0
-==> make
+==> Downloading http://zakalwe.fi/~shd/foss/cksfv/files/cksfv-1.3.14.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cksfv/1.3.14
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ck`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ck/0.6.0: 242 files, 800.8KB, built in 39 seconds
-==> Determining ck bottle rebuild...
-==> Bottling ck-0.6.0.x86_64_linux.bottle.1.tar.gz...
-./ck-0.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cksfv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cksfv/1.3.14: 9 files, 80.7KB, built in 18 seconds
+==> Determining cksfv bottle rebuild...
+==> Bottling cksfv-1.3.14.x86_64_linux.bottle.1.tar.gz...
+./cksfv-1.3.14.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d2f49a8b5152e28eeb6adc2948089ad502f872fdcbb90f6abf8ca5d2fbd71629" => :x86_64_linux
+    sha256 "fdfcb354bb150a4a65e8e4166de080388ad4750e2d8655a11bd5049c37c5fa64" => :x86_64_linux
   end
