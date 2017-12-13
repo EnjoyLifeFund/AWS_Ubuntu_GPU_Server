@@ -1,20 +1,14 @@
-==> Installing dependencies for bwctl: i2util
-==> Installing bwctl dependency: i2util
-==> Downloading https://software.internet2.edu/sources/I2util/I2util-1.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/i2util/1.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/i2util/1.2/share/man
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/i2util/1.2: 28 files, 584.9KB, built in 2 minutes 13 seconds
-==> Installing bwctl
-==> Downloading https://software.internet2.edu/sources/bwctl/bwctl-1.5.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4/share/man --with-I2util=/home/linuxbrew/.linuxbrew/opt/i2util
+==> Downloading https://mediaarea.net/download/binary/bwfmetaedit/1.3.3/BWFMetaEdit_CLI_1.3.3_GNU_FromSource.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bwfmetaedit/1.3.3
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bwctl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4: 20 files, 2.8MB, built in 3 minutes 33 seconds
-==> Determining bwctl bottle rebuild...
-==> Bottling bwctl-1.5.4.x86_64_linux.bottle.1.tar.gz...
-./bwctl-1.5.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bwfmetaedit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bwfmetaedit/1.3.3: 4 files, 660.9KB, built in 1 minute 55 seconds
+==> Determining bwfmetaedit bottle rebuild...
+==> Bottling bwfmetaedit-1.3.3.x86_64_linux.bottle.1.tar.gz...
+./bwfmetaedit-1.3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e1b11480a4e3b18aa318d0c38c1676d1def81fa626f58b41a2366c1e01a6dd06" => :x86_64_linux
+    sha256 "8fa52b52bfbece4477256134699573272b1d7933497a4cf2eea37daf96af2dac" => :x86_64_linux
   end
