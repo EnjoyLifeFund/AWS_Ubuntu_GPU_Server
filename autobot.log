@@ -1,14 +1,27 @@
-==> Downloading https://github.com/BenLangmead/bowtie2/archive/v2.3.3.1.tar.gz
-==> Downloading from https://codeload.github.com/BenLangmead/bowtie2/tar.gz/v2.3.3.1
-==> make install WITH_TBB=1 prefix=/home/linuxbrew/.linuxbrew/Cellar/bowtie2/2.3.3.1 EXTRA_FLAGS=-L /home/linuxbrew/.linuxbrew/opt/tbb/lib INC=-I /home/linuxbrew/.linuxbrew/opt/tbb/include
+==> Cloning https://github.com/cristibalan/braid.git
+==> Checking out tag v1.0.21
+==> Downloading https://rubygems.org/gems/arrayfields-4.9.2.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--arrayfields-4.9.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> Downloading https://rubygems.org/gems/chronic-0.10.2.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--chronic-0.10.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> Downloading https://rubygems.org/gems/fattr-2.3.0.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--fattr-2.3.0.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> Downloading https://rubygems.org/gems/main-6.2.2.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--main-6.2.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> Downloading https://rubygems.org/gems/map-6.6.0.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--map-6.6.0.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> Downloading https://rubygems.org/gems/open4-1.3.4.gem
+==> gem install /home/ubuntu/.cache/Homebrew/braid--open4-1.3.4.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
+==> gem build braid.gemspec
+==> gem install --ignore-dependencies braid-1.0.21.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bowtie2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bowtie2/2.3.3.1: 76 files, 57.1MB, built in 30 minutes 21 seconds
-==> Determining bowtie2 bottle rebuild...
-==> Bottling bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall braid`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21: 443 files, 1.6MB, built in 1 minute 9 seconds
+==> Determining braid bottle rebuild...
+==> Bottling braid-1.0.21.x86_64_linux.bottle.1.tar.gz...
+./braid-1.0.21.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4b288d9084001901fdbfb0a0ffa81c1e214c41d805cee00a4caec9fa41c1626b" => :x86_64_linux
+    sha256 "3c370dae90bdc983628409b7dc093eb42179da5a0386adfcac6c138a936ba0b0" => :x86_64_linux
   end
