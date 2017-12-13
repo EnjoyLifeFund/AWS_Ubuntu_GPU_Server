@@ -1,14 +1,13 @@
-==> Downloading https://invisible-mirror.net/archives/cdk/cdk-5.0-20161210.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cdk/5.0.20161210 --with-ncurses
-==> make install
+==> Downloading https://www.aczoom.com/pub/tools/cdlabelgen-4.3.0.tgz
+==> make install BASE_DIR=/home/linuxbrew/.linuxbrew/Cellar/cdlabelgen/4.3.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cdk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cdk/5.0.20161210: 1,036 files, 2.4MB, built in 4 minutes 19 seconds
-==> Determining cdk bottle rebuild...
-==> Bottling cdk-5.0.20161210.x86_64_linux.bottle.1.tar.gz...
-./cdk-5.0.20161210.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cdlabelgen`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cdlabelgen/4.3.0: 19 files, 542.2KB, built in 8 seconds
+==> Determining cdlabelgen bottle rebuild...
+==> Bottling cdlabelgen-4.3.0.x86_64_linux.bottle.1.tar.gz...
+./cdlabelgen-4.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cb7fadaaedd72f4822fbef432a8c73a05a05fc517161123e58bf02723df623fa" => :x86_64_linux
+    sha256 "3ef4849269b56d18995441d960c12c81391c7d46726cae4c77fa5b21ac508ebd" => :x86_64_linux
   end
