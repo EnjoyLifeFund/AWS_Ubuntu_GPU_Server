@@ -1,20 +1,13 @@
-==> Downloading https://github.com/AlDanial/cloc/archive/1.74.tar.gz
-==> Downloading from https://codeload.github.com/AlDanial/cloc/tar.gz/1.74
-==> Downloading https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2016060801.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec
-==> make install
-==> make -C Unix prefix=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec install
+==> Downloading https://soomka.com/clockywock-0.3.1a.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cloc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cloc/1.74: 84 files, 1.4MB, built in 35 seconds
-==> Determining cloc bottle rebuild...
-==> Bottling cloc-1.74.x86_64_linux.bottle.1.tar.gz...
-./cloc-1.74.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clockywock`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clockywock/0.3.1a: 7 files, 82.0KB, built in 20 seconds
+==> Determining clockywock bottle rebuild...
+==> Bottling clockywock-0.3.1a.x86_64_linux.bottle.1.tar.gz...
+./clockywock-0.3.1a.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "3a501bb0d647540b7062fc44a3924b97eb927a2aa1b4d0dd02797dcdc5bd1973" => :x86_64_linux
+    sha256 "37027fa1da6f065a1e92c805c99e23fb4458b050cf6d6f0bdc189e8aad46127e" => :x86_64_linux
   end
