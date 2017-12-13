@@ -1,15 +1,29 @@
-==> Downloading https://github.com/bmc/daemonize/archive/release-1.7.7.tar.gz
-==> Downloading from https://codeload.github.com/bmc/daemonize/tar.gz/release-1.7.7
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/daemonize/1.7.7
-==> make
+==> Installing dependencies for daemonlogger: libdnet
+==> Installing daemonlogger dependency: libdnet
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/libdnet/libdnet-1.12.tgz
+==> autoreconf -ivf
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12/share/man --with-python
+==> make install
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12: 31 files, 1.3MB, built in 8 minutes 20 seconds
+==> Installing daemonlogger
+==> Downloading https://downloads.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/daemonlogger/1.2.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall daemonize`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/daemonize/1.7.7: 7 files, 76.6KB, built in 2 minutes 2 seconds
-==> Determining daemonize bottle rebuild...
-==> Bottling daemonize-1.7.7.x86_64_linux.bottle.1.tar.gz...
-./daemonize-1.7.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall daemonlogger`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/daemonlogger/1.2.1: 8 files, 92.5KB, built in 1 minute 55 seconds
+==> Determining daemonlogger bottle rebuild...
+==> Bottling daemonlogger-1.2.1.x86_64_linux.bottle.tar.gz...
+./daemonlogger-1.2.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "695ff18269cc81014cb8a58b3e8c942ad69e6d265546d69debd70c9ed2ef7d10" => :x86_64_linux
+    sha256 "8a406242e5fbfc27ead61e45b46437ebf40d6ab8079e73b8aa939f72add14673" => :x86_64_linux
   end
