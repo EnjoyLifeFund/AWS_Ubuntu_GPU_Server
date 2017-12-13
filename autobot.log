@@ -1,15 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/cppi/cppi-1.18.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cppi/1.18
+==> Downloading http://www.muppetlabs.com/~breadbox/pub/software/cppp-2.6.tar.gz
 ==> make
-==> make check
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cppi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cppi/1.18: 23 files, 520.1KB, built in 6 minutes 46 seconds
-==> Determining cppi bottle rebuild...
-==> Bottling cppi-1.18.x86_64_linux.bottle.1.tar.gz...
-./cppi-1.18.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cppp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cppp/2.6: 4 files, 52.3KB, built in 9 seconds
+==> Determining cppp bottle rebuild...
+==> Bottling cppp-2.6.x86_64_linux.bottle.1.tar.gz...
+./cppp-2.6.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "50a8ed1f77f561ecd5dafe72daaf6b8f406ee1e050bb2097f6823894ed23516e" => :x86_64_linux
+    sha256 "c7ec8eeae932b1ec843cd458b8c99f3ed228074f16feac5d2b0e90446832060d" => :x86_64_linux
   end
