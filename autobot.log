@@ -1,13 +1,20 @@
-==> Downloading https://ftp.gnu.org/gnu/cflow/cflow-1.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cflow/1.5 --infodir=/home/linuxbrew/.linuxbrew/Cellar/cflow/1.5/share/info --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/cflow/1.5/share/emacs/site-lisp/cflow
-==> make install
+==> Downloading https://github.com/cloudflare/cfssl/archive/1.2.0.tar.gz
+==> Downloading from https://codeload.github.com/cloudflare/cfssl/tar.gz/1.2.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfssl cmd/cfssl/cfssl.go
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfssljson cmd/cfssljson/cfssljson.go
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfsslmkbundle cmd/mkbundle/mkbundle.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cflow`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cflow/1.5: 26 files, 963.8KB, built in 9 minutes 27 seconds
-==> Determining cflow bottle rebuild...
-==> Bottling cflow-1.5.x86_64_linux.bottle.1.tar.gz...
-./cflow-1.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cfssl`
+==> Caveats
+`mkbundle` has been installed as `cfsslmkbundle` to avoid conflict
+with Mono and other tools that ship the same executable.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2: 5 files, 18MB, built in 1 minute 14 seconds
+==> Determining cfssl bottle rebuild...
+==> Bottling cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz...
+==> Detecting if cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz is relocatable...
+./cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "46039aeccae9108c4d6fb64d55b56f158f9816c11454a8b4644c0257c4c118d7" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "fd7caddc0c4ddc36856b3248f7aa504e556f8b28980d72788a249359a6c0790a" => :x86_64_linux
   end
