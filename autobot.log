@@ -1,14 +1,43 @@
-==> Downloading https://downloads.sourceforge.net/project/cmusphinx/cmuclmtk/0.7/cmuclmtk-0.7.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/cmusphinx/cmuclmtk/0.7/cmuclmtk-0.7.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cmuclmtk/0.7
+==> Installing dependencies for cmus: mp4v2, libcue
+==> Installing cmus dependency: mp4v2
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mp4v2/mp4v2-2.0.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mp4v2/2.0.0
+==> make
+==> make install
+==> make install-man
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/mp4extract
+Target /home/linuxbrew/.linuxbrew/bin/mp4extract
+is a symlink belonging to bento4. You can unlink it:
+  brew unlink bento4
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite mp4v2
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run mp4v2
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/mp4extract -> /home/linuxbrew/.linuxbrew/Cellar/bento4/1.5.1-621/bin/mp4extract
+/home/linuxbrew/.linuxbrew/bin/mp4info -> /home/linuxbrew/.linuxbrew/Cellar/bento4/1.5.1-621/bin/mp4info
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mp4v2/2.0.0: 35 files, 5.2MB, built in 4 minutes 39 seconds
+==> Installing cmus dependency: libcue
+==> Downloading https://linuxbrew.bintray.com/bottles/libcue-2.2.0.x86_64_linux.bottle.tar.gz
+==> Pouring libcue-2.2.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcue/2.2.0: 20 files, 173.5KB
+==> Installing cmus
+==> Downloading https://github.com/cmus/cmus/archive/v2.7.1.tar.gz
+==> Downloading from https://codeload.github.com/cmus/cmus/tar.gz/v2.7.1
+==> ./configure prefix=/home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2 mandir=/home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmuclmtk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cmuclmtk/0.7: 46 files, 1.6MB, built in 2 minutes 33 seconds
-==> Determining cmuclmtk bottle rebuild...
-==> Bottling cmuclmtk-0.7.x86_64_linux.bottle.1.tar.gz...
-./cmuclmtk-0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cmus`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cmus/2.7.1_2: 31 files, 1.9MB, built in 1 minute 50 seconds
+==> Determining cmus bottle rebuild...
+==> Bottling cmus-2.7.1_2.x86_64_linux.bottle.1.tar.gz...
+./cmus-2.7.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c5e1381e4a7d4a6c82473d09d8a899764c0b6087b32c42874f376c16dc0fa4ab" => :x86_64_linux
+    sha256 "13c7d44671fd59f66064fbe6b761625a8e3b15f1110c5dc38fabbaf668ba13a6" => :x86_64_linux
   end
