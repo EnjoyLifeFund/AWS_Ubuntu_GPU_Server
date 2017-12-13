@@ -1,20 +1,9 @@
-==> Installing dependencies for crm114: tre
-==> Installing crm114 dependency: tre
-==> Downloading https://linuxbrew.bintray.com/bottles/tre-0.8.0.x86_64_linux.bottle.tar.gz
-==> Pouring tre-0.8.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tre/0.8.0: 19 files, 236.0KB
-==> Installing crm114
-==> Downloading https://crm114.sourceforge.io/tarballs/crm114-20100106-BlameMichelson.src.tar.gz
-==> Downloading from http://crm114.sourceforge.net/tarballs/crm114-20100106-BlameMichelson.src.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/crm114/20100106 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall crm114`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/crm114/20100106: 8 files, 737.4KB, built in 1 minute 5 seconds
-==> Determining crm114 bottle rebuild...
-==> Bottling crm114-20100106.x86_64_linux.bottle.1.tar.gz...
-./crm114-20100106.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "08551edaf4a61062360bbb7adaf3f80780ecc5a89b145351c836736f3a1b5ed7" => :x86_64_linux
-  end
+==> Installing dependencies for cromwell: akka
+==> Installing cromwell dependency: akka
+==> Downloading https://downloads.typesafe.com/akka/akka_2.11-2.4.17.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/akka/2.4.17: 3,238 files, 251.4MB, built in 53 seconds
+==> Installing cromwell
+==> Downloading https://github.com/broadinstitute/cromwell/releases/download/30/cromwell-30.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/34136406/3d9bd532-d90c-11e7-9ee5-7875dba5e496?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171213T150126Z&X-Amz-Expires=300&X-Amz-Signature=09ecf45351464b3185d8d72166864911028236297a45f168ccb6834ae8f8fad8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcromwell-30.jar&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cromwell/30: 4 files, 91.7MB, built in 32 seconds
+This formula doesn't require compiling.
