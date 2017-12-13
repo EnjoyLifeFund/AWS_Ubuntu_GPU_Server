@@ -1,32 +1,21 @@
-==> Installing dependencies for boot2docker: docker
-==> Installing boot2docker dependency: docker
-==> Downloading https://linuxbrew.bintray.com/bottles/docker-17.11.0.x86_64_linux.bottle.tar.gz
-==> Pouring docker-17.11.0.x86_64_linux.bottle.tar.gz
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker/17.11.0: 8 files, 26.9MB
-==> Installing boot2docker
-==> Cloning https://github.com/boot2docker/boot2docker-cli.git
-==> Checking out tag v1.8.0
-==> Cloning https://github.com/BurntSushi/toml.git
-==> Checking out tag v0.2.0
-==> Cloning https://github.com/ogier/pflag.git
-==> Checking out tag v0.0.1
-==> make goinstall
+==> Downloading https://github.com/ok-borg/borg/archive/v0.0.3.tar.gz
+==> Downloading from https://codeload.github.com/ok-borg/borg/tar.gz/v0.0.3
+==> Cloning https://github.com/fatih/color.git
+==> Checking out revision 9131ab34cf20d2f6d83fdc67168a5430d1c7dc23
+==> Cloning https://github.com/juju/gnuflag.git
+==> Checking out revision 4e76c56581859c14d9d87e1ddbe29e1c0f10195f
+==> Cloning https://gopkg.in/yaml.v2.git
+==> Checking out revision a3f3340b5840cee44f372bddb5880fcbc419b46a
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/borg/0.0.3/bin/borg github.com/ok-borg/borg
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall boot2docker`
-==> Caveats
-Rebuild the VM after an upgrade with:
-  boot2docker destroy && boot2docker upgrade
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/boot2docker/1.8.0_1: 3 files, 6.7MB, built in 49 seconds
-==> Determining boot2docker bottle rebuild...
-==> Bottling boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz...
-==> Detecting if boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz is relocatable...
-./boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall borg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/borg/0.0.3: 5 files, 8MB, built in 53 seconds
+==> Determining borg bottle rebuild...
+==> Bottling borg-0.0.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if borg-0.0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./borg-0.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "2197d920937eeac48edc203606cef8690f733fc928053cd67610dda4210f60c5" => :x86_64_linux
+    rebuild 1
+    sha256 "db5155053fc511e05550c27a31382622796e4979b76107113ed832c1deea868e" => :x86_64_linux
   end
