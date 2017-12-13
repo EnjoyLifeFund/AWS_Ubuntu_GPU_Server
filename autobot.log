@@ -1,15 +1,20 @@
-==> Downloading https://github.com/kelseyhightower/compose2kube/archive/0.0.2.tar.gz
-==> Downloading from https://codeload.github.com/kelseyhightower/compose2kube/tar.gz/0.0.2
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/compose2kube/0.0.2_1/bin/compose2kube
+==> Downloading https://github.com/conan-io/conan/archive/0.29.2.tar.gz
+==> Downloading from https://codeload.github.com/conan-io/conan/tar.gz/0.29.2
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/conan--homebrew-virtualenv-20171213-110930-1xavad4/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/conan--homebrew-virtualenv-20171213-110930-1xavad4/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/conan/0.29.2/libexec
+==> /home/linuxbrew/.linuxbrew/Cellar/conan/0.29.2/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/conan-20171213-110930-1m5axq5/conan-0.29.2
+==> /home/linuxbrew/.linuxbrew/Cellar/conan/0.29.2/libexec/bin/pip uninstall -y conan
+==> /home/linuxbrew/.linuxbrew/Cellar/conan/0.29.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/conan-20171213-110930-1m5axq5/conan-0.29.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall compose2kube`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/compose2kube/0.0.2_1: 5 files, 20.2MB, built in 3 minutes 6 seconds
-==> Determining compose2kube bottle rebuild...
-==> Bottling compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall conan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/conan/0.29.2: 4,254 files, 34.9MB, built in 8 minutes 49 seconds
+==> Determining conan bottle rebuild...
+==> Bottling conan-0.29.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if conan-0.29.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./conan-0.29.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c3d8ad07695fa2aaeff8205f6d9ffbddbe1c279a0cc5ed186e7bf11fcec1a5e0" => :x86_64_linux
+    sha256 "377a79c8bcd02c15f319806f60cdfee31fe06e53dcb249afa3ce35210a6200a9" => :x86_64_linux
   end
