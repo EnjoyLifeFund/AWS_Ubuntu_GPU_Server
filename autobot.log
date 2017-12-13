@@ -1,16 +1,13 @@
-==> Downloading https://github.com/Microsoft/cpprestsdk/archive/v2.10.0.tar.gz
-==> Downloading from https://codeload.github.com/Microsoft/cpprestsdk/tar.gz/v2.10.0
-==> cmake -DBUILD_SAMPLES=OFF -DBUILD_TESTS=OFF Release -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cpprestsdk/2.10.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://downloads.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cpptest/1.1.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpprestsdk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpprestsdk/2.10.0: 52 files, 19MB, built in 4 minutes 4 seconds
-==> Determining cpprestsdk bottle rebuild...
-==> Bottling cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cpptest`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cpptest/1.1.2: 22 files, 2.5MB, built in 2 minutes 53 seconds
+==> Determining cpptest bottle rebuild...
+==> Bottling cpptest-1.1.2.x86_64_linux.bottle.tar.gz...
+./cpptest-1.1.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "4b629e475d642c9add808587aec673eda1273a9de95431aadce76f7070569417" => :x86_64_linux
+    sha256 "229aaa0fff2497ba91fecb85a74ad2318823b7c50a939c923d3795a5335d1589" => :x86_64_linux
   end
