@@ -1,15 +1,17 @@
-==> Downloading https://github.com/mholt/caddy/archive/v0.10.10.tar.gz
-==> Downloading from https://codeload.github.com/mholt/caddy/tar.gz/v0.10.10
-==> go build -ldflags -X github.com/mholt/caddy/caddy/caddymain.gitTag=0.10.10 -o /home/linuxbrew/.linuxbrew/Cellar/caddy/0.10.10/bin/caddy github.com/mholt/caddy/caddy
+==> Downloading https://github.com/actor-framework/actor-framework/archive/0.15.5.tar.gz
+==> Downloading from https://codeload.github.com/actor-framework/actor-framework/tar.gz/0.15.5
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/caf/0.15.5 --no-examples --build-static --no-opencl
+==> make
+==> make test
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall caddy`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/caddy/0.10.10: 5 files, 16.9MB, built in 1 minute 31 seconds
-==> Determining caddy bottle rebuild...
-==> Bottling caddy-0.10.10.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if caddy-0.10.10.x86_64_linux.bottle.1.tar.gz is relocatable...
-./caddy-0.10.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall caf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/caf/0.15.5: 357 files, 139.6MB, built in 24 minutes 22 seconds
+==> Determining caf bottle rebuild...
+==> Bottling caf-0.15.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if caf-0.15.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./caf-0.15.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b7e797df6511118b2ad81f6852c120a4eef78b4465dff45bb2deb51561ac9470" => :x86_64_linux
+    sha256 "6456fbb17260a859dbe7ce716977d2452f203b85c348fd95d473571d5d87aaf7" => :x86_64_linux
   end
