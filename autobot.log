@@ -1,47 +1,20 @@
-==> Downloading https://downloads.sourceforge.net/project/bub-n-bros/bub-n-bros/1.6.2/bubbros-1.6.2.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/bub-n-bros/bub-n-bros/1.6.2/bubbros-1.6.2.tar.gz
-==> Downloading https://sources.debian.net/data/main/b/bubbros/1.6.2-1/debian/patches/replace_sf_logo.patch
-==> Downloading from https://sources.debian.org/data/main/b/bubbros/1.6.2-1/debian/patches/replace_sf_logo.patch
-==> Downloading https://sources.debian.net/data/main/b/bubbros/1.6.2-1/debian/patches/config_in_homedir.patch
-==> Downloading from https://sources.debian.org/data/main/b/bubbros/1.6.2-1/debian/patches/config_in_homedir.patch
-==> Downloading https://sources.debian.net/data/main/b/bubbros/1.6.2-1/debian/patches/disable_runtime_image_building.patch
-==> Downloading from https://sources.debian.org/data/main/b/bubbros/1.6.2-1/debian/patches/disable_runtime_image_building.patch
-==> Downloading https://sources.debian.net/data/main/b/bubbros/1.6.2-1/debian/patches/manpages.patch
-==> Downloading from https://sources.debian.org/data/main/b/bubbros/1.6.2-1/debian/patches/manpages.patch
-==> Downloading https://sources.debian.net/data/main/b/bubbros/1.6.2-1/debian/patches/remove_shabangs.patch
-==> Downloading from https://sources.debian.org/data/main/b/bubbros/1.6.2-1/debian/patches/remove_shabangs.patch
-==> Patching
-==> Applying replace_sf_logo.patch
-patching file http2/sf/started.html
-==> Applying config_in_homedir.patch
-patching file display/pclient.py
-Hunk #1 succeeded at 162 (offset 1 line).
-patching file http2/httppages.py
-==> Applying disable_runtime_image_building.patch
-patching file bubbob/images.py
-patching file http2/httppages.py
-==> Applying manpages.patch
-patching file doc/bb.py.1
-patching file doc/BubBob.py.1
-patching file doc/Client.py.1
-==> Applying remove_shabangs.patch
-patching file bubbob/bb.py
-patching file bubbob/doc/bonus-doc.py
-patching file bubbob/images/buildcolors.py
-patching file BubBob.py
-patching file display/Client.py
-patching file display/pclient.py
-patching file display/playback.py
-==> make -C bubbob
-==> python bubbob/images/buildcolors.py
+==> Installing dependencies for buildapp: sbcl
+==> Installing buildapp dependency: sbcl
+==> Downloading https://linuxbrew.bintray.com/bottles/sbcl-1.4.2.x86_64_linux.bottle.tar.gz
+==> Pouring sbcl-1.4.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sbcl/1.4.2: 1,287 files, 68.5MB
+==> Installing buildapp
+==> Downloading https://github.com/xach/buildapp/archive/release-1.5.6.tar.gz
+==> Downloading from https://codeload.github.com/xach/buildapp/tar.gz/release-1.5.6
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/buildapp/1.5.6
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bubbros`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bubbros/1.6.2: 560 files, 34.8MB, built in 39 seconds
-==> Determining bubbros bottle rebuild...
-==> Bottling bubbros-1.6.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bubbros-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bubbros-1.6.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall buildapp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/buildapp/1.5.6: 4 files, 42.8MB, built in 1 minute 10 seconds
+==> Determining buildapp bottle rebuild...
+==> Bottling buildapp-1.5.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if buildapp-1.5.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./buildapp-1.5.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2fb78bc6dcff6196cf499cba0d557800083a64796a76f34e974c1cd878037770" => :x86_64_linux
+    sha256 "4903a40bb4bf939e5ea382a3d3aafaf877f822ef751bd059054af545010864d4" => :x86_64_linux
   end
