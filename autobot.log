@@ -1,9 +1,15 @@
-==> Determining cython bottle rebuild...
-==> Bottling cython-0.27.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cython-0.27.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cython-0.27.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://libslack.org/daemon/download/daemon-0.6.4.tar.gz
+==> ./config
+==> make
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/daemon/0.6.4 install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall daemon`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/daemon/0.6.4: 7 files, 308.3KB, built in 2 minutes 53 seconds
+==> Determining daemon bottle rebuild...
+==> Bottling daemon-0.6.4.x86_64_linux.bottle.1.tar.gz...
+./daemon-0.6.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ccaf962867c9335333059676e2cf4dbfa3e24fd7f367e370bb1615bd135a21ca" => :x86_64_linux
+    sha256 "b5613b3cf904673c44ab1ba79cf2f30967abe59d8be6ec21ed40b0c5bf64c168" => :x86_64_linux
   end
