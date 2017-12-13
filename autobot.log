@@ -1,14 +1,7 @@
-==> Downloading https://github.com/Ultimaker/CuraEngine/archive/15.04.tar.gz
-==> Downloading from https://codeload.github.com/Ultimaker/CuraEngine/tar.gz/15.04
-==> make VERSION=15.04
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall curaengine`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/curaengine/15.04: 5 files, 2.7MB, built in 2 minutes 47 seconds
-==> Determining curaengine bottle rebuild...
-==> Bottling curaengine-15.04.x86_64_linux.bottle.tar.gz...
-==> Detecting if curaengine-15.04.x86_64_linux.bottle.tar.gz is relocatable...
-./curaengine-15.04.x86_64_linux.bottle.tar.gz
+==> Determining curl bottle rebuild...
+==> Bottling curl-7.57.0.x86_64_linux.bottle.1.tar.gz...
+./curl-7.57.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "9548e7da5cf8a309f3fec5f1f83cc832eae52276561b101c4e52df52951bc7b3" => :x86_64_linux
+    rebuild 1
+    sha256 "166bea3c5dd374158ba7ba7712a86ca3fe5edff5329215049421d638f57f3242" => :x86_64_linux
   end
