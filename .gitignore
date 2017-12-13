@@ -11,3 +11,6 @@ tobe.move
 nohup.out
 ghc-*.bottle.*.tar.gz
 arangodb*
+bitcoin-*.tar.gz
+bit-*.tar.gz
+cling-*.tar.gz 
