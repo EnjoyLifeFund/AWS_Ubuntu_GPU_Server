@@ -1,18 +1,14 @@
-==> Downloading https://github.com/stevenjack/cig/archive/v0.1.5.tar.gz
-==> Downloading from https://codeload.github.com/stevenjack/cig/tar.gz/v0.1.5
-==> Cloning https://github.com/kr/fs.git
-==> Checking out revision 2788f0dbd16903de03cb8186e5c7d97b69ad387b
-==> Cloning https://github.com/golang/tools.git
-==> Checking out revision 473fd854f8276c0b22f17fb458aa8f1a0e2cf5f5
-==> godep go build -o cig .
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cityhash/cityhash-1.1.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cityhash/1.1.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cig`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cig/0.1.5: 5 files, 3.9MB, built in 1 minute 11 seconds
-==> Determining cig bottle rebuild...
-==> Bottling cig-0.1.5.x86_64_linux.bottle.tar.gz...
-==> Detecting if cig-0.1.5.x86_64_linux.bottle.tar.gz is relocatable...
-./cig-0.1.5.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cityhash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cityhash/1.1.1: 10 files, 91.9KB, built in 2 minutes 42 seconds
+==> Determining cityhash bottle rebuild...
+==> Bottling cityhash-1.1.1.x86_64_linux.bottle.1.tar.gz...
+./cityhash-1.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "7b1f6f3278d4b2a0315eb4aad419f1ac6adb3f404deb70ea67bdcd60caf47c25" => :x86_64_linux
+    rebuild 1
+    sha256 "67c97443b75ee6b13bdc1b64f979461ccbb56073a14a29ec01276c8be7c188b4" => :x86_64_linux
   end
