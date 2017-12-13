@@ -1,15 +1,18 @@
-==> Downloading https://downloads.sourceforge.net/project/blitz/blitz/Blitz++%200.10/blitz-0.10.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/blitz/blitz/Blitz%2B%2B%200.10/blitz-0.10.tar.gz
-==> ./configure --infodir=/home/linuxbrew/.linuxbrew/Cellar/blitz/0.10/share/info --enable-shared --disable-doxygen --disable-dot --prefix=/home/linuxbrew/.linuxbrew/Cellar/blitz/0.10
+==> Downloading https://github.com/oschulz/blitzwave/archive/v0.8.0.tar.gz
+==> Downloading from https://codeload.github.com/oschulz/blitzwave/tar.gz/v0.8.0
+==> Patching
+patching file configure.ac
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/blitzwave/0.8.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall blitz`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/blitz/0.10: 131 files, 2.2MB, built in 5 minutes 9 seconds
-==> Determining blitz bottle rebuild...
-==> Bottling blitz-0.10.x86_64_linux.bottle.1.tar.gz...
-./blitz-0.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall blitzwave`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/blitzwave/0.8.0: 20 files, 1.9MB, built in 6 minutes 57 seconds
+==> Determining blitzwave bottle rebuild...
+==> Bottling blitzwave-0.8.0.x86_64_linux.bottle.1.tar.gz...
+./blitzwave-0.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "47559d152c47d557dcdb8f5d2bcb8b02272922fa53b32158e52ad8f6474e7caa" => :x86_64_linux
+    sha256 "814ef2dc41fbc25b8caa4c369c6cefcecbc8ac5093c7ab564adae6970b3c06fb" => :x86_64_linux
   end
