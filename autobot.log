@@ -1,14 +1,11 @@
-==> Downloading http://www.red-bean.com/cvsutils/releases/cvsutils-0.2.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cvsutils/0.2.6
+==> Downloading http://www.cvsync.org/dist/cvsync-0.24.19.tar.gz
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cvsutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cvsutils/0.2.6: 15 files, 93KB, built in 18 seconds
-==> Determining cvsutils bottle rebuild...
-==> Bottling cvsutils-0.2.6.x86_64_linux.bottle.1.tar.gz...
-./cvsutils-0.2.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cvsync`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cvsync/0.24.19: 16 files, 1.2MB, built in 50 seconds
+==> Determining cvsync bottle rebuild...
+==> Bottling cvsync-0.24.19.x86_64_linux.bottle.tar.gz...
+./cvsync-0.24.19.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6f193aa008b561aa9b154d5a4645b36beceef3aaf8e8124a2a344801b9862f74" => :x86_64_linux
+    sha256 "3f38fcede76321f3ba7012fbcf49bd7fb0ab6f115a63eac29c21f64049ffbb14" => :x86_64_linux
   end
