@@ -1,15 +1,14 @@
-==> Downloading https://github.com/barnybug/cli53/archive/0.8.12.tar.gz
-==> Downloading from https://codeload.github.com/barnybug/cli53/tar.gz/0.8.12
-==> make build
+==> Downloading https://github.com/clibs/clib/archive/1.8.1.tar.gz
+==> Downloading from https://codeload.github.com/clibs/clib/tar.gz/1.8.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cli53`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cli53/0.8.12: 6 files, 19.7MB, built in 1 minute 53 seconds
-==> Determining cli53 bottle rebuild...
-==> Bottling cli53-0.8.12.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cli53-0.8.12.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cli53-0.8.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clib/1.8.1: 8 files, 953.9KB, built in 18 seconds
+==> Determining clib bottle rebuild...
+==> Bottling clib-1.8.1.x86_64_linux.bottle.1.tar.gz...
+./clib-1.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c78a92c0db27a3102cd7a0b63bbf01016925f9d273b1782f1c62f4cd88b74879" => :x86_64_linux
+    sha256 "2fe036581aafe31de36156b895db7434dc53ff416592b145756fab12c326a0e5" => :x86_64_linux
   end
