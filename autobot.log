@@ -1,12 +1,15 @@
-==> Downloading http://www.moria.de/~michael/cpmtools/files/cpmtools-2.20.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cpmtools/2.20
-==> make install
+==> Downloading https://github.com/danmar/cppcheck/archive/1.81.tar.gz
+==> Downloading from https://codeload.github.com/danmar/cppcheck/tar.gz/1.81
+==> make HAVE_RULES=yes CFGDIR=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81/cfg
+==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81 BIN=/home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81/bin CFGDIR=/cfg install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpmtools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpmtools/2.20: 23 files, 463.0KB, built in 1 minute 42 seconds
-==> Determining cpmtools bottle rebuild...
-==> Bottling cpmtools-2.20.x86_64_linux.bottle.tar.gz...
-./cpmtools-2.20.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cppcheck`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cppcheck/1.81: 28 files, 3.9MB, built in 3 minutes 29 seconds
+==> Determining cppcheck bottle rebuild...
+==> Bottling cppcheck-1.81.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cppcheck-1.81.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cppcheck-1.81.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "33f1e7218060396045eadf8161f8dbb6e54822f0cc14f4b8b9595574c860e9fe" => :x86_64_linux
+    rebuild 1
+    sha256 "647a541ab6fab91886314032c6f190bde588a285f95590a428c20d79064b46f2" => :x86_64_linux
   end
