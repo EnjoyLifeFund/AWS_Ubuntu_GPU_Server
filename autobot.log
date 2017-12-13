@@ -1,14 +1,21 @@
-==> Downloading http://www.conserver.com/conserver-8.2.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/conserver/8.2.1
+==> Installing dependencies for consul: zip
+==> Installing consul dependency: zip
+==> Downloading https://linuxbrew.bintray.com/bottles/zip-3.0.x86_64_linux.bottle.tar.gz
+==> Pouring zip-3.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zip/3.0: 14 files, 714KB
+==> Installing consul
+==> Cloning https://github.com/hashicorp/consul.git
+==> Checking out tag v1.0.1
 ==> make
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall conserver`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/conserver/8.2.1: 16 files, 489.1KB, built in 4 minutes 19 seconds
-==> Determining conserver bottle rebuild...
-==> Bottling conserver-8.2.1.x86_64_linux.bottle.1.tar.gz...
-./conserver-8.2.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall consul`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/consul/1.0.1: 7 files, 44.7MB, built in 24 minutes 41 seconds
+==> Determining consul bottle rebuild...
+==> Bottling consul-1.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if consul-1.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./consul-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7ea8ddf60c1983a1b28e8f5c82aea7338b4a8aff8910c0163a668e9f8fd9d6a3" => :x86_64_linux
+    sha256 "c37881fc77c23b965b1b4ca4deafd9142ba5a31d5ab10381ac5e456f11e3d593" => :x86_64_linux
   end
