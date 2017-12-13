@@ -1,13 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/cidrmerge/cidrmerge/cidrmerge-1.5.3/cidrmerge-1.5.3.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/cidrmerge/cidrmerge/cidrmerge-1.5.3/cidrmerge-1.5.3.tar.gz
-==> make
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cifer/cifer-1.2.0.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/cifer/1.2.0 CC=gcc-5 CFLAGS= LDFLAGS= install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cidrmerge`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cidrmerge/1.5.3: 6 files, 101.4KB, built in 15 seconds
-==> Determining cidrmerge bottle rebuild...
-==> Bottling cidrmerge-1.5.3.x86_64_linux.bottle.1.tar.gz...
-./cidrmerge-1.5.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cifer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cifer/1.2.0: 10 files, 236.6KB, built in 13 seconds
+==> Determining cifer bottle rebuild...
+==> Bottling cifer-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./cifer-1.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eb7c32426af1eba82b3c47a6379c48c89ca398c9a892455ebcdcccd6e6219539" => :x86_64_linux
+    sha256 "d20a18330a5588ee9e1753229929f85f90b5f450f48e15a021e64d6f25b90ce7" => :x86_64_linux
   end
