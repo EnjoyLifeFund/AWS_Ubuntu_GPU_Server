@@ -1,14 +1,13 @@
-==> Downloading https://github.com/clibs/clib/archive/1.8.1.tar.gz
-==> Downloading from https://codeload.github.com/clibs/clib/tar.gz/1.8.1
-==> make install
+==> Downloading https://github.com/Oblomov/clinfo/archive/2.2.17.10.25.tar.gz
+==> Downloading from https://codeload.github.com/Oblomov/clinfo/tar.gz/2.2.17.10.25
+==> make MANDIR=/home/linuxbrew/.linuxbrew/Cellar/clinfo/2.2.17.10.25/share/man PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clinfo/2.2.17.10.25 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clib/1.8.1: 8 files, 953.9KB, built in 18 seconds
-==> Determining clib bottle rebuild...
-==> Bottling clib-1.8.1.x86_64_linux.bottle.1.tar.gz...
-./clib-1.8.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clinfo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clinfo/2.2.17.10.25: 6 files, 142.8KB, built in 15 seconds
+==> Determining clinfo bottle rebuild...
+==> Bottling clinfo-2.2.17.10.25.x86_64_linux.bottle.1.tar.gz...
+./clinfo-2.2.17.10.25.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2fe036581aafe31de36156b895db7434dc53ff416592b145756fab12c326a0e5" => :x86_64_linux
+    sha256 "a9fdaac2413a8d1463a8ee5d24b70a5a84983292d38a28892f9039c35a8f7ca9" => :x86_64_linux
   end
