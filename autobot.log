@@ -1,15 +1,15 @@
-==> Downloading http://libslack.org/daemon/download/daemon-0.6.4.tar.gz
-==> ./config
+==> Downloading https://github.com/bmc/daemonize/archive/release-1.7.7.tar.gz
+==> Downloading from https://codeload.github.com/bmc/daemonize/tar.gz/release-1.7.7
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/daemonize/1.7.7
 ==> make
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/daemon/0.6.4 install
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall daemon`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/daemon/0.6.4: 7 files, 308.3KB, built in 2 minutes 53 seconds
-==> Determining daemon bottle rebuild...
-==> Bottling daemon-0.6.4.x86_64_linux.bottle.1.tar.gz...
-./daemon-0.6.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall daemonize`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/daemonize/1.7.7: 7 files, 76.6KB, built in 2 minutes 2 seconds
+==> Determining daemonize bottle rebuild...
+==> Bottling daemonize-1.7.7.x86_64_linux.bottle.1.tar.gz...
+./daemonize-1.7.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b5613b3cf904673c44ab1ba79cf2f30967abe59d8be6ec21ed40b0c5bf64c168" => :x86_64_linux
+    sha256 "695ff18269cc81014cb8a58b3e8c942ad69e6d265546d69debd70c9ed2ef7d10" => :x86_64_linux
   end
