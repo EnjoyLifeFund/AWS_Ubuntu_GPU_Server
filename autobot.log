@@ -1,70 +1,20 @@
-==> Installing dependencies for creduce: delta, llvm@4
-==> Installing creduce dependency: delta
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/delta/delta_2006.08.03.orig.tar.gz
-==> make
-🍺  /home/linuxbrew/.linuxbrew/Cellar/delta/2006.08.03: 7 files, 60.4KB, built in 14 seconds
-==> Installing creduce dependency: llvm@4
-==> Downloading https://linuxbrew.bintray.com/bottles/llvm@4-4.0.1.x86_64_linux.bottle.tar.gz
-==> Pouring llvm@4-4.0.1.x86_64_linux.bottle.tar.gz
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/llvm@4/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/llvm@4/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/llvm@4/include
-
-
-If you need Python to find bindings for this keg-only formula, run:
-  echo /home/linuxbrew/.linuxbrew/opt/llvm@4/lib/python2.7/site-packages >> /home/linuxbrew/.linuxbrew/lib/python2.7/site-packages/llvm@4.pth
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/llvm@4/4.0.1: 2,108 files, 3.4GB
-==> Installing creduce
-==> Downloading https://embed.cs.utah.edu/creduce/creduce-2.7.0.tar.gz
-==> Downloading https://cpan.metacpan.org/authors/id/E/ET/ETHER/URI-1.72.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/D/DC/DCOPPIT/Benchmark-Timer-0.7107.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/N/NE/NEILB/Exporter-Lite-0.08.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Which-1.21.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/G/GW/GWARD/Getopt-Tabular-0.3.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017040401.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/M/MZ/MZSANFORD/Sys-CPU-0.61.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1 --with-llvm=/home/linuxbrew/.linuxbrew/opt/llvm@4 --bindir=/home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1/libexec
-==> make
-==> make install
+==> Installing dependencies for crm114: tre
+==> Installing crm114 dependency: tre
+==> Downloading https://linuxbrew.bintray.com/bottles/tre-0.8.0.x86_64_linux.bottle.tar.gz
+==> Pouring tre-0.8.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tre/0.8.0: 19 files, 236.0KB
+==> Installing crm114
+==> Downloading https://crm114.sourceforge.io/tarballs/crm114-20100106-BlameMichelson.src.tar.gz
+==> Downloading from http://crm114.sourceforge.net/tarballs/crm114-20100106-BlameMichelson.src.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/crm114/20100106 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall creduce`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/creduce/2.7.0_1: 185 files, 267.6MB, built in 26 minutes 34 seconds
-==> Determining creduce bottle rebuild...
-==> Bottling creduce-2.7.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if creduce-2.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./creduce-2.7.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall crm114`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crm114/20100106: 8 files, 737.4KB, built in 1 minute 5 seconds
+==> Determining crm114 bottle rebuild...
+==> Bottling crm114-20100106.x86_64_linux.bottle.1.tar.gz...
+./crm114-20100106.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5119dcd34a6a9779a9af73109a03d099afa5c6fe76f3b485b1b18cfbfc9539d9" => :x86_64_linux
+    sha256 "08551edaf4a61062360bbb7adaf3f80780ecc5a89b145351c836736f3a1b5ed7" => :x86_64_linux
   end
