@@ -1,3 +1,13 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/csshx/csshX-0.74.tgz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/csshx/0.74: 4 files, 96.9KB, built in 12 seconds
-This formula doesn't require compiling.
+==> Downloading https://bitbucket.org/neilb/csvfix/get/version-1.6.tar.gz
+==> make lin
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall csv-fix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/csv-fix/1.6: 5 files, 1.5MB, built in 1 minute 8 seconds
+==> Determining csv-fix bottle rebuild...
+==> Bottling csv-fix-1.6.x86_64_linux.bottle.1.tar.gz...
+./csv-fix-1.6.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f452b579596588dedf2098b6edd3179c61d8ace9646649077c2ede2fed1d2e71" => :x86_64_linux
+  end
