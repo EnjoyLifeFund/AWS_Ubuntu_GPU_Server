@@ -1,14 +1,14 @@
-==> Downloading https://code.call-cc.org/releases/4.12.0/chicken-4.12.0.tar.gz
-==> make PLATFORM=linux PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0 C_COMPILER=gcc-5 LIBRARIAN=ar ARCH=x86-64
-==> make install PLATFORM=linux PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0 C_COMPILER=gcc-5 LIBRARIAN=ar ARCH=x86-64
+==> Downloading https://chipmunk-physics.net/release/Chipmunk-7.x/Chipmunk-7.0.2.tgz
+==> cmake . -DBUILD_DEMOS=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chipmunk/7.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chicken`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chicken/4.12.0: 111 files, 16.7MB, built in 68 minutes 22 seconds
-==> Determining chicken bottle rebuild...
-==> Bottling chicken-4.12.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if chicken-4.12.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./chicken-4.12.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chipmunk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chipmunk/7.0.2: 512 files, 5.2MB, built in 1 minute 1 second
+==> Determining chipmunk bottle rebuild...
+==> Bottling chipmunk-7.0.2.x86_64_linux.bottle.1.tar.gz...
+./chipmunk-7.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b2be3bc1f3288a873270f2014b30c7385d5ee15f7444861fb47d582c1bf4cd84" => :x86_64_linux
+    sha256 "31b2c170b3f8c778e7c577136a24e4c342a5157db4a7d6abb1972779656629e0" => :x86_64_linux
   end
