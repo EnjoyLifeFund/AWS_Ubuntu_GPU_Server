@@ -1,17 +1,14 @@
-==> Downloading https://github.com/cayleygraph/cayley/archive/v0.6.1.tar.gz
-==> Downloading from https://codeload.github.com/cayleygraph/cayley/tar.gz/v0.6.1
-==> glide install
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cayley/0.6.1/bin/cayley -ldflags -X main.Version=0.6.1 .../cmd/cayley
-==> gzip -d data/30kmoviedata.nq.gz
+==> Downloading https://downloads.sourceforge.net/project/cbmbasic/cbmbasic/1.0/cbmbasic-1.0.tgz
+==> Downloading from https://ayera.dl.sourceforge.net/project/cbmbasic/cbmbasic/1.0/cbmbasic-1.0.tgz
+==> make CFLAGS= LDFLAGS=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cayley`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cayley/0.6.1: 56 files, 51.6MB, built in 3 minutes 11 seconds
-==> Determining cayley bottle rebuild...
-==> Bottling cayley-0.6.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cayley-0.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cayley-0.6.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cbmbasic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cbmbasic/1.0: 4 files, 288.4KB, built in 30 seconds
+==> Determining cbmbasic bottle rebuild...
+==> Bottling cbmbasic-1.0.x86_64_linux.bottle.1.tar.gz...
+./cbmbasic-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1d736e69bab49fe72847fa14abdf92faef64ee4b4f583a149bf6af149a4fedeb" => :x86_64_linux
+    sha256 "820735a0b2b992a06f5237bc6c720bddd589335e3f013dba65a5f45baddde413" => :x86_64_linux
   end
