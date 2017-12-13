@@ -1,13 +1,57 @@
-==> Downloading https://bitbucket.org/neilb/csvfix/get/version-1.6.tar.gz
-==> make lin
+==> Downloading https://files.pythonhosted.org/packages/53/de/a8ee2fb47af463251fd39e0dc2b7356ceb58fd0f5867f7f6d0f7cc6e8a0d/csvkit-1.0.2.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/csvkit--homebrew-virtualenv-20171213-16021-jeir7w/target --single-version-externally-managed --record=installed.txt
+==> python3 -s /tmp/csvkit--homebrew-virtualenv-20171213-16021-jeir7w/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec
+==> Downloading https://files.pythonhosted.org/packages/72/37/48192f2cb18c7ebe413f7410783b64a6236d20a4461f5c36f5efcb793f89/agate-1.6.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--agate-20171213-16021-16v5jza/agate-1.6.0
+==> Downloading https://files.pythonhosted.org/packages/61/81/17a635599352eab163958905a70261f9eb1d7c4b54036d1c2115adf88162/agate-dbf-0.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--agate-dbf-20171213-16021-m4asjz/agate-dbf-0.2.0
+==> Downloading https://files.pythonhosted.org/packages/ab/62/c74895d6f715624646a2e2e9bb022a84c9c7a37577bf3bc98907e47c5e5a/agate-excel-0.2.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--agate-excel-20171213-16021-1aqqugs/agate-excel-0.2.1
+==> Downloading https://files.pythonhosted.org/packages/25/38/fc14fb76e63b3e133c5a6cca798af0ea18b90a9d6068dfd5676dbb5bec1d/agate-sql-0.5.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--agate-sql-20171213-16021-ajy1bf/agate-sql-0.5.2
+==> Downloading https://files.pythonhosted.org/packages/5a/22/63f1dbb8514bb7e0d0c8a85cc9b14506599a075e231985f98afd70430e1f/Babel-2.5.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--Babel-20171213-16021-1jvfgc2/Babel-2.5.1
+==> Downloading https://files.pythonhosted.org/packages/ad/ae/a5891681f5012724d062a4ca63ec2ff539c73d5804ba594e7e0e72099d3f/dbfread-2.0.7.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--dbfread-20171213-16021-1yxngrt/dbfread-2.0.7
+==> Downloading https://files.pythonhosted.org/packages/22/28/a99c42aea746e18382ad9fb36f64c1c1f04216f41797f2f0fa567da11388/et_xmlfile-1.0.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--et_xmlfile-20171213-16021-1l1k4kk/et_xmlfile-1.0.1
+==> Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--future-20171213-16021-jmmwx5/future-0.16.0
+==> Downloading https://files.pythonhosted.org/packages/b1/80/fb8c13a4cd38eb5021dc3741a9e588e4d1de88d895c1910c6fc8a08b7a70/isodate-0.6.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--isodate-20171213-16021-17vbrav/isodate-0.6.0
+==> Downloading https://files.pythonhosted.org/packages/9b/fa/40beb2aa43a13f740dd5be367a10a03270043787833409c61b79e69f1dfd/jdcal-1.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--jdcal-20171213-16021-aomjr3/jdcal-1.3
+==> Downloading https://files.pythonhosted.org/packages/a0/44/1acad8bfe958874c66825a4bdddbd277a549580b88c5daf3a4c128c521b0/leather-0.3.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--leather-20171213-16021-wofwao/leather-0.3.3
+==> Downloading https://files.pythonhosted.org/packages/8c/75/c4e557207c7ff3d217d002d4fee32b4e5dbfc5498e2a2c9ce6b5424c5e37/openpyxl-2.4.9.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--openpyxl-20171213-16021-p0bylm/openpyxl-2.4.9
+==> Downloading https://files.pythonhosted.org/packages/e3/b3/02385db13f1f25f04ad7895f35e9fe3960a4b9d53112775a6f7d63f264b6/parsedatetime-2.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--parsedatetime-20171213-16021-1ic12bq/parsedatetime-2.4
+==> Downloading https://files.pythonhosted.org/packages/9f/b0/2723356c20fb01b0e09f6ee03c0c629f4e30811e7d92ebd15453d648e5f0/python-slugify-1.2.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--python-slugify-20171213-16021-21wu5s/python-slugify-1.2.4
+==> Downloading https://files.pythonhosted.org/packages/a0/04/3bed21467ade80579ce4dd867055e6150444543de013fca55ce8fb0505c9/pytimeparse-1.1.7.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--pytimeparse-20171213-16021-8o74hl/pytimeparse-1.1.7
+==> Downloading https://files.pythonhosted.org/packages/60/88/d3152c234da4b2a1f7a989f89609ea488225eaea015bc16fbde2b3fdfefa/pytz-2017.3.zip
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--pytz-20171213-16021-6c9ps9/pytz-2017.3
+==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--six-20171213-16021-xsgkt7/six-1.11.0
+==> Downloading https://files.pythonhosted.org/packages/c2/f6/11fcc1ce19a7cb81b1c9377f4e27ce3813265611922e355905e57c44d164/SQLAlchemy-1.1.15.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--SQLAlchemy-20171213-16021-kl1fdj/SQLAlchemy-1.1.15
+==> Downloading https://files.pythonhosted.org/packages/0e/26/6a4295c494e381d56bba986893382b5dd5e82e2643fc72e4e49b6c99ce15/Unidecode-0.04.21.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--Unidecode-20171213-16021-1twfp5v/Unidecode-0.04.21
+==> Downloading https://files.pythonhosted.org/packages/86/cf/bb010f16cefa8f26ac9329ca033134bcabc7a27f5c3d8de961bacc0f80b3/xlrd-1.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit--xlrd-20171213-16021-1lb5ksh/xlrd-1.1.0
+==> /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/csvkit-20171213-16021-xc23k2/csvkit-1.0.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall csv-fix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/csv-fix/1.6: 5 files, 1.5MB, built in 1 minute 8 seconds
-==> Determining csv-fix bottle rebuild...
-==> Bottling csv-fix-1.6.x86_64_linux.bottle.1.tar.gz...
-./csv-fix-1.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall csvkit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/csvkit/1.0.2: 4,331 files, 46.2MB, built in 11 minutes 22 seconds
+==> Determining csvkit bottle rebuild...
+==> Bottling csvkit-1.0.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if csvkit-1.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./csvkit-1.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f452b579596588dedf2098b6edd3179c61d8ace9646649077c2ede2fed1d2e71" => :x86_64_linux
+    sha256 "7a1d0af252f46bd90d08611e37a53cff06d254f932a60d552667acf92731f42a" => :x86_64_linux
   end
