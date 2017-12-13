@@ -1,28 +1,14 @@
-==> Installing dependencies for burp: librsync
-==> Installing burp dependency: librsync
-==> Downloading https://linuxbrew.bintray.com/bottles/librsync-2.0.1.x86_64_linux.bottle.tar.gz
-==> Pouring librsync-2.0.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/librsync/2.0.1: 14 files, 232.1KB
-==> Installing burp
-==> Downloading https://downloads.sourceforge.net/project/burp/burp-2.0.54/burp-2.0.54.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/burp/burp-2.0.54/burp-2.0.54.tar.bz2
-==> Downloading https://github.com/troydhanson/uthash/archive/v2.0.1.tar.gz
-==> Downloading from https://codeload.github.com/troydhanson/uthash/tar.gz/v2.0.1
-==> make -C libut
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54 --sysconfdir=/home/linuxbrew/.linuxbrew/etc/burp --sbindir=/home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54/bin --localstatedir=/home/linuxbrew/.linuxbrew/var
-==> make install-all
+==> Downloading https://downloads.sourceforge.net/bvi/bvi-1.4.0.src.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/bvi/bvi/1.4.0/bvi-1.4.0.src.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall burp`
-==> Caveats
-Before installing the launchd entry you should configure your burp client in
-  /home/linuxbrew/.linuxbrew/etc/burp/burp.conf
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/burp/2.0.54: 49 files, 3.8MB, built in 4 minutes 6 seconds
-==> Determining burp bottle rebuild...
-==> Bottling burp-2.0.54.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if burp-2.0.54.x86_64_linux.bottle.1.tar.gz is relocatable...
-./burp-2.0.54.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bvi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0: 12 files, 328.9KB, built in 2 minutes 6 seconds
+==> Determining bvi bottle rebuild...
+==> Bottling bvi-1.4.0.x86_64_linux.bottle.1.tar.gz...
+./bvi-1.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bce0950de7e8dcaaa58687815f9448910534296bfc3216133dc5ba1b085b8512" => :x86_64_linux
+    sha256 "1ec6aabdd6da6338ff55fa04c317c8b993785db03d4b5c8ef3534316b65bf7ae" => :x86_64_linux
   end
