@@ -1,4 +1,17 @@
-==> Downloading https://files.pythonhosted.org/packages/9b/e3/cb31bfcf14f976060ea7b7f34135ebc796cde65eba923f6a0c4b71f15cc2/codemod-1.0.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/codemod/1.0.0/libexec --single-version-externally-managed --record=installed.txt
-🍺  /home/linuxbrew/.linuxbrew/Cellar/codemod/1.0.0: 14 files, 117.6KB, built in 15 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/ruben2020/codequery/archive/v0.21.0.tar.gz
+==> Downloading from https://codeload.github.com/ruben2020/codequery/tar.gz/v0.21.0
+==> cmake .. -G Unix Makefiles -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/codequery/0.21.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_QT5=ON
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall codequery`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/codequery/0.21.0: 10 files, 4.8MB, built in 7 minutes 37 seconds
+==> Determining codequery bottle rebuild...
+==> Bottling codequery-0.21.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if codequery-0.21.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./codequery-0.21.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9a632bf97abec067082b9f8a331a10359d882618a5b85a18c5ecfd2078174f7a" => :x86_64_linux
+  end
