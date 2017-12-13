@@ -1,14 +1,20 @@
-==> Downloading https://downloads.sourceforge.net/bvi/bvi-1.4.0.src.tar.gz
-==> Downloading from https://downloads.sourceforge.net/project/bvi/bvi/1.4.0/bvi-1.4.0.src.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0/share/man
+==> Installing dependencies for bwctl: i2util
+==> Installing bwctl dependency: i2util
+==> Downloading https://software.internet2.edu/sources/I2util/I2util-1.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/i2util/1.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/i2util/1.2/share/man
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/i2util/1.2: 28 files, 584.9KB, built in 2 minutes 13 seconds
+==> Installing bwctl
+==> Downloading https://software.internet2.edu/sources/bwctl/bwctl-1.5.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4/share/man --with-I2util=/home/linuxbrew/.linuxbrew/opt/i2util
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bvi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bvi/1.4.0: 12 files, 328.9KB, built in 2 minutes 6 seconds
-==> Determining bvi bottle rebuild...
-==> Bottling bvi-1.4.0.x86_64_linux.bottle.1.tar.gz...
-./bvi-1.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bwctl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bwctl/1.5.4: 20 files, 2.8MB, built in 3 minutes 33 seconds
+==> Determining bwctl bottle rebuild...
+==> Bottling bwctl-1.5.4.x86_64_linux.bottle.1.tar.gz...
+./bwctl-1.5.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1ec6aabdd6da6338ff55fa04c317c8b993785db03d4b5c8ef3534316b65bf7ae" => :x86_64_linux
+    sha256 "e1b11480a4e3b18aa318d0c38c1676d1def81fa626f58b41a2366c1e01a6dd06" => :x86_64_linux
   end
