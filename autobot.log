@@ -1,19 +1,27 @@
-==> Downloading https://github.com/conformal/clens/archive/CLENS_0_7_0.tar.gz
-==> Downloading from https://codeload.github.com/conformal/clens/tar.gz/CLENS_0_7_0
-==> Downloading https://github.com/conformal/clens/commit/83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff?full_index=1
-==> Patching
-==> Applying 83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff
-patching file config/Makefile.darwin
-patching file include/clens/clens.h
-==> make all install LOCALBASE=/home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+ansible-lint
+graphicsmagick
+html-xml-utils
+libtiff
+python-markdown
+reminiscence
+sfk
+traefik
+
+==> Downloading https://github.com/clMathLibraries/clFFT/archive/v2.12.2.tar.gz
+==> Downloading from https://codeload.github.com/clMathLibraries/clFFT/tar.gz/v2.12.2
+==> cmake ../src -DBUILD_EXAMPLES:BOOL=OFF -DBUILD_TEST:BOOL=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clfft/2.12.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clens`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0: 8 files, 147.6KB, built in 35 seconds
-==> Determining clens bottle rebuild...
-==> Bottling clens-0.7.0.x86_64_linux.bottle.1.tar.gz...
-./clens-0.7.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clfft`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clfft/2.12.2: 25 files, 1.8MB, built in 1 minute 47 seconds
+==> Determining clfft bottle rebuild...
+==> Bottling clfft-2.12.2.x86_64_linux.bottle.1.tar.gz...
+./clfft-2.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "dab6e698f8bb4c1d1bac19d74b1cb21c8cf4bab1833864b53bc4f11d9b0eed37" => :x86_64_linux
+    sha256 "802dde0b55181cacc6f1214b08664a2387902c7089a22f994264f944a8b2f218" => :x86_64_linux
   end
