@@ -1,16 +1,14 @@
-==> Downloading https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz
-==> Downloading from https://codeload.github.com/clMathLibraries/clBLAS/tar.gz/v2.12
-==> cmake src -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clblas/2.12 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_CLIENT=OFF -DBUILD_KTEST=OFF -DBUILD_TEST=OFF -DCMAKE_MACOSX_RPATH:BOOL=ON -DSUFFIX_LIB:STRING=
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clblas`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clblas/2.12: 21 files, 27.2MB, built in 4 minutes 53 seconds
-==> Determining clblas bottle rebuild...
-==> Bottling clblas-2.12.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clblas-2.12.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clblas-2.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clean`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clean/3.4: 6 files, 54.5KB, built in 12 seconds
+==> Determining clean bottle rebuild...
+==> Bottling clean-3.4.x86_64_linux.bottle.1.tar.gz...
+./clean-3.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1575452b9d9d9fdea5766316dd581a52f7b9017a6eae04200ca1d9d469b17851" => :x86_64_linux
+    sha256 "0359a9e670758cf3add48f83dbc192f64538822ae424664c47b838dcbe227c2b" => :x86_64_linux
   end
