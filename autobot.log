@@ -1,11 +1,17 @@
-==> Downloading http://www.cvsync.org/dist/cvsync-0.24.19.tar.gz
-==> make install
+==> Downloading https://www.ctan.org/tex-archive/web/c_cpp/cweb/cweb-3.64b.tar.gz
+==> Downloading from http://mirrors.ctan.org/web/c_cpp/cweb/cweb-3.64b.tar.gz
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/bin/ MANDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/man/man1 MANEXT=1 MACROSDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/texmf/tex/generic EMACSDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/emacs/site-lisp/cweb CWEBINPUTS=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/lib/cweb
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cvsync`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cvsync/0.24.19: 16 files, 1.2MB, built in 50 seconds
-==> Determining cvsync bottle rebuild...
-==> Bottling cvsync-0.24.19.x86_64_linux.bottle.tar.gz...
-./cvsync-0.24.19.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cweb`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/cweb
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b: 9 files, 295.3KB, built in 28 seconds
+==> Determining cweb bottle rebuild...
+==> Bottling cweb-3.64b.x86_64_linux.bottle.1.tar.gz...
+./cweb-3.64b.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "3f38fcede76321f3ba7012fbcf49bd7fb0ab6f115a63eac29c21f64049ffbb14" => :x86_64_linux
+    rebuild 1
+    sha256 "6fd493bf06133692fc5db562d0ecfec862c5dd6137742dd453189e04b9db05a9" => :x86_64_linux
   end
