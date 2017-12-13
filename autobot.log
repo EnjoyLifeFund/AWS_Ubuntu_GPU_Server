@@ -1,15 +1,13 @@
-==> Downloading https://github.com/posva/catimg/archive/v2.4.0.tar.gz
-==> Downloading from https://codeload.github.com/posva/catimg/tar.gz/v2.4.0
-==> cmake -DMAN_OUTPUT_PATH=/home/linuxbrew/.linuxbrew/Cellar/catimg/2.4.0/share/man/man1 . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/catimg/2.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://kiyuko.org/software/cattle/releases/1.2.2/source
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cattle/1.2.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall catimg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/catimg/2.4.0: 6 files, 103KB, built in 1 minute 21 seconds
-==> Determining catimg bottle rebuild...
-==> Bottling catimg-2.4.0.x86_64_linux.bottle.1.tar.gz...
-./catimg-2.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cattle`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cattle/1.2.2: 68 files, 1MB, built in 3 minutes 29 seconds
+==> Determining cattle bottle rebuild...
+==> Bottling cattle-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./cattle-1.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2b9d66e64dac5fea18660c46456a7e7ec6df7d461b3e0c5db001185b40307675" => :x86_64_linux
+    sha256 "e896a79dd92ab649fddc9812e7768b543ae8ddc4c9a1343e0dabde9425921752" => :x86_64_linux
   end
