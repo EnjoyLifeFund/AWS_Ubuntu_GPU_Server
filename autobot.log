@@ -1,14 +1,15 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cityhash/cityhash-1.1.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cityhash/1.1.1
+==> Downloading http://concurrencykit.org/releases/ck-0.6.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ck/0.6.0
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cityhash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cityhash/1.1.1: 10 files, 91.9KB, built in 2 minutes 42 seconds
-==> Determining cityhash bottle rebuild...
-==> Bottling cityhash-1.1.1.x86_64_linux.bottle.1.tar.gz...
-./cityhash-1.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ck`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ck/0.6.0: 242 files, 800.8KB, built in 39 seconds
+==> Determining ck bottle rebuild...
+==> Bottling ck-0.6.0.x86_64_linux.bottle.1.tar.gz...
+./ck-0.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "67c97443b75ee6b13bdc1b64f979461ccbb56073a14a29ec01276c8be7c188b4" => :x86_64_linux
+    sha256 "d2f49a8b5152e28eeb6adc2948089ad502f872fdcbb90f6abf8ca5d2fbd71629" => :x86_64_linux
   end
