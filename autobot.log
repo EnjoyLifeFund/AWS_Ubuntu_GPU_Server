@@ -1,45 +1,14 @@
-==> Downloading http://pkgs.fedoraproject.org/repo/pkgs/cherokee/cherokee-1.2.103.tar.gz/527b3de97ef9727bfd5f6832043cf916/cherokee-1.2.103.tar.gz
-==> Downloading https://github.com/cherokee/webserver/commit/d0213768fdc6cf3aee61fe0be398d7825c01198f.diff?full_index=1
-==> Patching
-==> Applying d0213768fdc6cf3aee61fe0be398d7825c01198f.diff
-patching file admin/SystemStats.py
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cherokee/1.2.103 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var/cherokee --with-wwwuser=ubuntu --with-wwwgroup=www --enable-internal-pcre --with-wwwroot=/home/linuxbrew/.linuxbrew/etc/cherokee/htdocs --with-cgiroot=/home/linuxbrew/.linuxbrew/etc/cherokee/cgi-bin
-==> make install
+==> Downloading https://github.com/postmodern/chgems/archive/v0.3.2.tar.gz
+==> Downloading from https://codeload.github.com/postmodern/chgems/tar.gz/v0.3.2
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chgems/0.3.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cherokee`
-==> Caveats
-Cherokee is setup to run with your user permissions as part of the
-www group on port 80. This can be changed in the cherokee-admin
-but be aware the new user will need permissions to write to:
-  /home/linuxbrew/.linuxbrew/var/cherokee
-for logging and runtime files.
-
-By default, documents will be served out of:
-  /home/linuxbrew/.linuxbrew/etc/cherokee/htdocs
-
-And CGI scripts from:
-  /home/linuxbrew/.linuxbrew/etc/cherokee/cgi-bin
-
- If this is your first install, automatically load on startup with:
-    sudo cp /home/linuxbrew/.linuxbrew/opt/cherokee/org.cherokee.webserver.plist /Library/LaunchDaemons
-    sudo launchctl load -w /Library/LaunchDaemons/org.cherokee.webserver.plist
-
-If this is an upgrade and you already have the plist loaded:
-    sudo launchctl unload -w /Library/LaunchDaemons/org.cherokee.webserver.plist
-    sudo cp /home/linuxbrew/.linuxbrew/opt/cherokee/org.cherokee.webserver.plist /Library/LaunchDaemons
-    sudo launchctl load -w /Library/LaunchDaemons/org.cherokee.webserver.plist
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cherokee/1.2.103: 1,046 files, 16.6MB, built in 9 minutes 58 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/science).
-==> Updated Formulae
-homebrew/science/swarm
-
-==> Determining cherokee bottle rebuild...
-==> Bottling cherokee-1.2.103.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cherokee-1.2.103.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cherokee-1.2.103.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chgems`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chgems/0.3.2: 9 files, 38.2KB, built in 7 seconds
+==> Determining chgems bottle rebuild...
+==> Bottling chgems-0.3.2.x86_64_linux.bottle.1.tar.gz...
+./chgems-0.3.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b2f5fff73c1379e2714e70bab97bc12e11578e907005b418d85fab1c5eb7551f" => :x86_64_linux
+    sha256 "2b48fbb74dcecd8203d5691868574e4512c857969604a675603a8aeedea3a999" => :x86_64_linux
   end
