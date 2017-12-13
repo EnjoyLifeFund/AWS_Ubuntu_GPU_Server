@@ -1,64 +1,19 @@
-==> Installing dependencies for buku: expect
-==> Installing buku dependency: expect
-==> Downloading https://linuxbrew.bintray.com/bottles/expect-5.45.3.x86_64_linux.bottle.tar.gz
-==> Pouring expect-5.45.3.x86_64_linux.bottle.tar.gz
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/weather
-Target /home/linuxbrew/.linuxbrew/bin/weather
-is a symlink belonging to bash-snippets. You can unlink it:
-  brew unlink bash-snippets
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite expect
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run expect
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/weather -> /home/linuxbrew/.linuxbrew/Cellar/bash-snippets/1.20.0/bin/weather
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/expect/5.45.3: 48 files, 831.1KB
-==> Installing buku
-==> Downloading https://github.com/jarun/Buku/archive/v3.5.tar.gz
-==> Downloading from https://codeload.github.com/jarun/Buku/tar.gz/v3.5
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/buku--homebrew-virtualenv-20171211-24056-2e79va/target --single-version-externally-managed --record=installed.txt
-==> python3 -s /tmp/buku--homebrew-virtualenv-20171211-24056-2e79va/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec
-==> Downloading https://files.pythonhosted.org/packages/67/14/5d66588868c4304f804ebaff9397255f6ec5559e46724c2496e0f26e68d6/asn1crypto-0.22.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--asn1crypto-20171211-24056-4ja1cp/asn1crypto-0.22.0
-==> Downloading https://files.pythonhosted.org/packages/fa/8d/1d14391fdaed5abada4e0f63543fef49b8331a34ca60c88bd521bcf7f782/beautifulsoup4-4.6.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--beautifulsoup4-20171211-24056-10hyoya/beautifulsoup4-4.6.0
-==> Downloading https://files.pythonhosted.org/packages/20/d0/3f7a84b0c5b89e94abbd073a5f00c7176089f526edb056686751d5064cbd/certifi-2017.7.27.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--certifi-20171211-24056-t5yoip/certifi-2017.7.27.1
-==> Downloading https://files.pythonhosted.org/packages/4e/32/4070bdf32812c89eb635c80880a5caa2e0189aa7999994c265577e5154f3/cffi-1.11.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--cffi-20171211-24056-2mk9ar/cffi-1.11.0
-==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--chardet-20171211-24056-1uhdwti/chardet-3.0.4
-==> Downloading https://files.pythonhosted.org/packages/9c/1a/0fc8cffb04582f9ffca61b15b0681cf2e8588438e55f61403eb9880bd8e0/cryptography-2.0.3.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--cryptography-20171211-24056-lfyq67/cryptography-2.0.3
-==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--idna-20171211-24056-1pifv9k/idna-2.6
-==> Downloading https://files.pythonhosted.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--pycparser-20171211-24056-1rn17j3/pycparser-2.18
-==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--requests-20171211-24056-1fr1we0/requests-2.18.4
-==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--six-20171211-24056-18kqw1v/six-1.11.0
-==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/buku/3.5/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/buku--urllib3-20171211-24056-akh4vz/urllib3-1.22
+==> Downloading https://github.com/bulletphysics/bullet3/archive/2.87.tar.gz
+==> Downloading from https://codeload.github.com/bulletphysics/bullet3/tar.gz/2.87
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bullet/2.87 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DINSTALL_EXTRA_LIBS=ON -DBUILD_UNIT_TESTS=OFF -DBUILD_BULLET2_DEMOS=OFF -DBUILD_SHARED_LIBS=ON
+==> make install
+==> make clean
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bullet/2.87 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DINSTALL_EXTRA_LIBS=ON -DBUILD_UNIT_TESTS=OFF -DBUILD_SHARED_LIBS=OFF -DBUILD_BULLET2_DEMOS=OFF
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall buku`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/buku/3.5: 1,405 files, 18MB, built in 14 minutes 8 seconds
-==> Determining buku bottle rebuild...
-==> Bottling buku-3.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if buku-3.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./buku-3.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bullet`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bullet/2.87: 477 files, 14.5MB, built in 6 minutes 40 seconds
+==> Determining bullet bottle rebuild...
+==> Bottling bullet-2.87.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bullet-2.87.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bullet-2.87.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7b84ccc996f3ccabe2d46f42cf61d41daeebcbc79d83b7d37587bb84a98e14c0" => :x86_64_linux
+    sha256 "180c84e29a2412ecbe961c47d66fc0c7c7df088a6c079bf871a9efce08693556" => :x86_64_linux
   end
