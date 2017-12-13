@@ -1,15 +1,16 @@
-==> Downloading https://capnproto.org/capnproto-c++-0.6.1.tar.gz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/capnp/0.6.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading http://capstone-engine.org/download/3.0.4/capstone-3.0.4.tgz
+==> Downloading from http://www.capstone-engine.org/download/3.0.4/capstone-3.0.4.tgz
+==> ./make.sh
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/capstone/3.0.4
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall capnp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/capnp/0.6.1: 100 files, 43.4MB, built in 7 minutes 14 seconds
-==> Determining capnp bottle rebuild...
-==> Bottling capnp-0.6.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if capnp-0.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./capnp-0.6.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall capstone`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/capstone/3.0.4: 20 files, 6.9MB, built in 3 minutes 1 second
+==> Determining capstone bottle rebuild...
+==> Bottling capstone-3.0.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if capstone-3.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./capstone-3.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4f6b38928b86cee6d6602739e49a377f9f63a4d03168c00b304efec506b4d505" => :x86_64_linux
+    sha256 "ec185a40572c5fd68ed0809f3fbc3048e8ad4ae247b0317708c6a16e4e1dcbb5" => :x86_64_linux
   end
