@@ -1,18 +1,12 @@
-==> Downloading https://github.com/c9s/cpansearch/archive/0.2.tar.gz
-==> Downloading from https://codeload.github.com/c9s/cpansearch/tar.gz/0.2
-==> make
+==> Downloading http://www.moria.de/~michael/cpmtools/files/cpmtools-2.20.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cpmtools/2.20
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpansearch`
-==> Caveats
-For usage instructions:
-    more /home/linuxbrew/.linuxbrew/opt/cpansearch/README.md
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpansearch/0.2: 4 files, 49.2KB, built in 10 seconds
-==> Determining cpansearch bottle rebuild...
-==> Bottling cpansearch-0.2.x86_64_linux.bottle.1.tar.gz...
-./cpansearch-0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cpmtools`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cpmtools/2.20: 23 files, 463.0KB, built in 1 minute 42 seconds
+==> Determining cpmtools bottle rebuild...
+==> Bottling cpmtools-2.20.x86_64_linux.bottle.tar.gz...
+./cpmtools-2.20.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "7008c99add7e1e93f84ae899735e4be83f9f1d6ff4ce3f5b4bc5e7580f5ceb16" => :x86_64_linux
+    sha256 "33f1e7218060396045eadf8161f8dbb6e54822f0cc14f4b8b9595574c860e9fe" => :x86_64_linux
   end
