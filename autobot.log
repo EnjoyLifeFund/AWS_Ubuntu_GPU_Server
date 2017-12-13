@@ -1,16 +1,15 @@
-==> Downloading https://github.com/myENA/consul-backinator/archive/v1.6.2.tar.gz
-==> Downloading from https://codeload.github.com/myENA/consul-backinator/tar.gz/v1.6.2
-==> glide install -v
-==> go build -v -ldflags -X main.appVersion=1.6.2 -o /home/linuxbrew/.linuxbrew/Cellar/consul-backinator/1.6.2/bin/consul-backinator
+==> Cloning https://github.com/hashicorp/consul-template.git
+==> Checking out tag v0.19.4
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/consul-template/0.19.4/bin/consul-template -ldflags -X github.com/hashicorp/consul-template/version.Name=consul-template -X github.com/hashicorp/consul-template/version.GitCommit=111a804
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall consul-backinator`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/consul-backinator/1.6.2: 5 files, 13.3MB, built in 2 minutes 56 seconds
-==> Determining consul-backinator bottle rebuild...
-==> Bottling consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall consul-template`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/consul-template/0.19.4: 6 files, 11.5MB, built in 1 minute 35 seconds
+==> Determining consul-template bottle rebuild...
+==> Bottling consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./consul-template-0.19.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "56cd5b96d59bffda8cca5e3eb725b461ea375c6048e371c64ce8d4394200ba59" => :x86_64_linux
+    sha256 "0b72f756f8a5e0bb70c073b8b5140deca131017186f748932975ea54c9ddf3d2" => :x86_64_linux
   end
