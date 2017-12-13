@@ -1,13 +1,15 @@
-==> Downloading https://github.com/fireteam/curlish/archive/1.22.tar.gz
-==> Downloading from https://codeload.github.com/fireteam/curlish/tar.gz/1.22
+==> Downloading https://github.com/jpbarrette/curlpp/archive/v0.8.1.tar.gz
+==> Downloading from https://codeload.github.com/jpbarrette/curlpp/tar.gz/v0.8.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/curlpp/0.8.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall curlish`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/curlish/1.22: 6 files, 51.2KB, built in 8 seconds
-==> Determining curlish bottle rebuild...
-==> Bottling curlish-1.22.x86_64_linux.bottle.1.tar.gz...
-./curlish-1.22.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall curlpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/curlpp/0.8.1: 43 files, 1.2MB, built in 1 minute 4 seconds
+==> Determining curlpp bottle rebuild...
+==> Bottling curlpp-0.8.1.x86_64_linux.bottle.1.tar.gz...
+./curlpp-0.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4f374159ae84540837ab0cd189a5087e80bb8c83ee6504f60ad0009b3b526224" => :x86_64_linux
+    sha256 "dc1fc8b7265bf5427565c484cde93c4d4be10c0274802096a624b9f321d31656" => :x86_64_linux
   end
