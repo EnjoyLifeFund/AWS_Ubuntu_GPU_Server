@@ -1,14 +1,19 @@
-==> Downloading https://downloads.sourceforge.net/project/cscope/cscope/15.8b/cscope-15.8b.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/cscope/cscope/15.8b/cscope-15.8b.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cscope/15.8b --mandir=/home/linuxbrew/.linuxbrew/Cellar/cscope/15.8b/share/man
+==> Downloading https://embed.cs.utah.edu/csmith/csmith-2.3.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/csmith/2.3.0
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cscope`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cscope/15.8b: 11 files, 1014.8KB, built in 2 minutes 55 seconds
-==> Determining cscope bottle rebuild...
-==> Bottling cscope-15.8b.x86_64_linux.bottle.1.tar.gz...
-./cscope-15.8b.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall csmith`
+==> Caveats
+It is recommended that you set the environment variable 'CSMITH_PATH' to
+  /home/linuxbrew/.linuxbrew/opt/csmith/include/csmith-2.3.0
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/csmith/2.3.0: 53 files, 19MB, built in 4 minutes 36 seconds
+==> Determining csmith bottle rebuild...
+==> Bottling csmith-2.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if csmith-2.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./csmith-2.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6a95b69e04788b893e3f3e1ee529e50c21653920514c5c12098ef621cf41b43a" => :x86_64_linux
+    sha256 "1059d8f6f30282801dd21a55802a4981219d04f2f89cd1c7521482b5a813befc" => :x86_64_linux
   end
