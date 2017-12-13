@@ -1,13 +1,15 @@
-==> Downloading http://www.uzix.org/cgvg/cgvg-1.6.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3/share/man
+==> Downloading https://downloads.sourceforge.net/project/chadwick/chadwick-0.6/chadwick-0.6.5/chadwick-0.6.5.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/chadwick/chadwick-0.6/chadwick-0.6.5/chadwick-0.6.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/chadwick/0.6.5
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cgvg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cgvg/1.6.3: 14 files, 87.3KB, built in 17 seconds
-==> Determining cgvg bottle rebuild...
-==> Bottling cgvg-1.6.3.x86_64_linux.bottle.tar.gz...
-./cgvg-1.6.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall chadwick`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chadwick/0.6.5: 22 files, 2.2MB, built in 2 minutes 23 seconds
+==> Determining chadwick bottle rebuild...
+==> Bottling chadwick-0.6.5.x86_64_linux.bottle.1.tar.gz...
+./chadwick-0.6.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "6cdc6ef35af89599a1cd2341fec6f430fc7d2a8a6c500c706ba6ebc093bf1efe" => :x86_64_linux
+    rebuild 1
+    sha256 "b4e999783c47211c6cddd15e06c601aaa3aca052042d1f5af2f1ad33f2cf83f1" => :x86_64_linux
   end
