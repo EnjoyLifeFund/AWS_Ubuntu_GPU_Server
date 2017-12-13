@@ -1,13 +1,32 @@
-==> Downloading http://www.juiblex.co.uk/pgdp/bookloupe/bookloupe-2.0.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/bookloupe/2.0
-==> make install
+==> Installing dependencies for boot2docker: docker
+==> Installing boot2docker dependency: docker
+==> Downloading https://linuxbrew.bintray.com/bottles/docker-17.11.0.x86_64_linux.bottle.tar.gz
+==> Pouring docker-17.11.0.x86_64_linux.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker/17.11.0: 8 files, 26.9MB
+==> Installing boot2docker
+==> Cloning https://github.com/boot2docker/boot2docker-cli.git
+==> Checking out tag v1.8.0
+==> Cloning https://github.com/BurntSushi/toml.git
+==> Checking out tag v0.2.0
+==> Cloning https://github.com/ogier/pflag.git
+==> Checking out tag v0.0.1
+==> make goinstall
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bookloupe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bookloupe/2.0: 44 files, 371.7KB, built in 2 minutes 38 seconds
-==> Determining bookloupe bottle rebuild...
-==> Bottling bookloupe-2.0.x86_64_linux.bottle.1.tar.gz...
-./bookloupe-2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall boot2docker`
+==> Caveats
+Rebuild the VM after an upgrade with:
+  boot2docker destroy && boot2docker upgrade
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/boot2docker/1.8.0_1: 3 files, 6.7MB, built in 49 seconds
+==> Determining boot2docker bottle rebuild...
+==> Bottling boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz is relocatable...
+./boot2docker-1.8.0_1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "0cc6f0950ae0ea38e34340f58f5ed08ad37d26b4b8f03cbf52f6e0ceeff1f17f" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "2197d920937eeac48edc203606cef8690f733fc928053cd67610dda4210f60c5" => :x86_64_linux
   end
