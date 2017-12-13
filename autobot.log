@@ -1,18 +1,15 @@
-==> Downloading https://github.com/google/brotli/archive/v1.0.2.tar.gz
-==> Downloading from https://codeload.github.com/google/brotli/tar.gz/v1.0.2
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/brotli/1.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make VERBOSE=1
-==> ctest -V
-==> make install
+==> Downloading https://github.com/buganini/bsdconv/archive/11.5.tar.gz
+==> Downloading from https://codeload.github.com/buganini/bsdconv/tar.gz/11.5
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bsdconv/11.5
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bsdconv/11.5 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall brotli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/brotli/1.0.2: 25 files, 3.6MB, built in 4 minutes 20 seconds
-==> Determining brotli bottle rebuild...
-==> Bottling brotli-1.0.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if brotli-1.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./brotli-1.0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bsdconv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bsdconv/11.5: 414 files, 53.6MB, built in 4 minutes 52 seconds
+==> Determining bsdconv bottle rebuild...
+==> Bottling bsdconv-11.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bsdconv-11.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bsdconv-11.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "dba6503497dad66ec6ee153d5fa8d4e981838b8046c1c92c58e5652a8a5ad2b6" => :x86_64_linux
+    sha256 "4ec922a3cdc5f5169e0c054ce4034298464f0722c929d187906490a9349c97c2" => :x86_64_linux
   end
