@@ -1,15 +1,13 @@
-==> Downloading https://github.com/libcheck/check/releases/download/0.12.0/check-0.12.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/f07f7342-b572-11e7-9a8d-d889ecadba6c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171212T115500Z&X-Amz-Expires=300&X-Amz-Signature=d906ed0d924f19ec98c026ee59511a28e96c64cbfdcba90fd683f979d994d869&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcheck-0.12.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/check/0.12.0
+==> Downloading https://files.nothingisreal.com/software/cheops/cheops-1.3.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cheops/1.3
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall check`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/check/0.12.0: 40 files, 716.0KB, built in 5 minutes 5 seconds
-==> Determining check bottle rebuild...
-==> Bottling check-0.12.0.x86_64_linux.bottle.1.tar.gz...
-./check-0.12.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cheops`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cheops/1.3: 17 files, 732.3KB, built in 53 seconds
+==> Determining cheops bottle rebuild...
+==> Bottling cheops-1.3.x86_64_linux.bottle.1.tar.gz...
+./cheops-1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cbd276ac00bbd00643db5abff94604494a99fdb35325d9941a5ca220671055b3" => :x86_64_linux
+    sha256 "5197808e6f2f8faeb7b0e2b4faa308f494680353c07fe9b782771964f0e3868d" => :x86_64_linux
   end
