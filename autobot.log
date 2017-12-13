@@ -1,22 +1,40 @@
-==> Downloading https://www.eblong.com/zarf/glk/cheapglk-106.tar.gz
-==> make
+==> Downloading https://github.com/chrisallenlane/cheat/archive/2.2.2.tar.gz
+==> Downloading from https://codeload.github.com/chrisallenlane/cheat/tar.gz/2.2.2
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/cheat--homebrew-virtualenv-20171212-88086-5tm3fx/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/cheat--homebrew-virtualenv-20171212-88086-5tm3fx/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec
+==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--docopt-20171212-88086-7qah03/docopt-0.6.2
+==> Downloading https://files.pythonhosted.org/packages/71/2a/2e4e77803a8bd6408a2903340ac498cb0a2181811af7c9ec92cb70b0308a/Pygments-2.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--Pygments-20171212-88086-q8var5/Pygments-2.2.0
+==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat-20171212-88086-yc7nhe/cheat-2.2.2
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/cheat
+Target /home/linuxbrew/.linuxbrew/bin/cheat
+is a symlink belonging to bash-snippets. You can unlink it:
+  brew unlink bash-snippets
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite cheat
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run cheat
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/cheat -> /home/linuxbrew/.linuxbrew/Cellar/bash-snippets/1.20.0/bin/cheat
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cheapglk`
+You can run it manually using `brew postinstall cheat`
 ==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because it conflicts with other Glk libraries.
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/cheapglk/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/cheapglk/include
-
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cheapglk/1.0.6: 10 files, 584KB, built in 14 seconds
-==> Determining cheapglk bottle rebuild...
-==> Bottling cheapglk-1.0.6.x86_64_linux.bottle.1.tar.gz...
-./cheapglk-1.0.6.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2: 1,393 files, 15.9MB, built in 2 minutes 3 seconds
+==> Determining cheat bottle rebuild...
+==> Bottling cheat-2.2.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cheat-2.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cheat-2.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0c36193d643ea145b2a8f4f3dfd5706d66509f098e264556200dec68068ebcf7" => :x86_64_linux
+    sha256 "a50c17f53cee6e769fb02bfcb1ea47ed26f9d71710d767fece431874223f33ba" => :x86_64_linux
   end
