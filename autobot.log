@@ -1,8 +1,45 @@
-==> Downloading https://github.com/clojure/clojurescript/releases/download/r1.9.946/cljs.jar
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2080922/8d03b9b2-a844-11e7-9dca-86c8f51b3621?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171213T014855Z&X-Amz-Expires=300&X-Amz-Signature=46bb46e8123944dff57931b7dc089935d61f4c2781102fb49b6018165613296f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcljs.jar&response-content-type=application%2Foctet-stream
+==> Installing dependencies for cloog: gmp@4, isl@0.12
+==> Installing cloog dependency: gmp@4
+==> Downloading https://linuxbrew.bintray.com/bottles/gmp@4-4.3.2.x86_64_linux.bottle.1.tar.gz
+==> Pouring gmp@4-4.3.2.x86_64_linux.bottle.1.tar.gz
 ==> Caveats
-This formula is useful if you need to use the ClojureScript compiler directly.
-For a more integrated workflow use Leiningen, Boot, or Maven.
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/gmp@4/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/gmp@4/include
+
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clojurescript/1.9.946: 4 files, 24.5MB, built in 21 seconds
-This formula doesn't require compiling.
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmp@4/4.3.2: 20 files, 2.8MB
+==> Installing cloog dependency: isl@0.12
+==> Downloading https://linuxbrew.bintray.com/bottles/isl@0.12-0.12.2.x86_64_linux.bottle.1.tar.gz
+==> Pouring isl@0.12-0.12.2.x86_64_linux.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/isl@0.12/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/isl@0.12/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/isl@0.12/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/isl@0.12/0.12.2: 58 files, 3.6MB
+==> Installing cloog
+==> Downloading https://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.4.tar.gz
+==> Downloading from https://www.bastoul.net/cloog/pages/download/cloog-0.18.4.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cloog/0.18.4_1 --with-gmp=system --with-gmp-prefix=/home/linuxbrew/.linuxbrew/opt/gmp@4 --with-isl=system --with-isl-prefix=/home/linuxbrew/.linuxbrew/opt/isl@0.12
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cloog`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cloog/0.18.4_1: 36 files, 725.0KB, built in 3 minutes 36 seconds
+==> Determining cloog bottle rebuild...
+==> Bottling cloog-0.18.4_1.x86_64_linux.bottle.1.tar.gz...
+./cloog-0.18.4_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "766384be19d2f8efee19547da44831266fb04b310c10ef1854bb1e699b78250e" => :x86_64_linux
+  end
