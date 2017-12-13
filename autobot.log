@@ -1,14 +1,15 @@
-==> Downloading https://www.inet.no/dante/files/dante-1.4.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/dante/1.4.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc/dante
+==> Downloading https://downloads.sourceforge.net/project/dar/dar/2.5.13/dar-2.5.13.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/dar/dar/2.5.13/dar-2.5.13.tar.gz
+==> ./configure --enable-mode=64 --disable-dar-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/dar/2.5.13 --disable-build-html --disable-upx --disable-libgcrypt-linking --disable-liblzo2-linking --disable-libxz-linking
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dante`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dante/1.4.2: 17 files, 8.2MB, built in 24 minutes 30 seconds
-==> Determining dante bottle rebuild...
-==> Bottling dante-1.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dante-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dante-1.4.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dar/2.5.13: 165 files, 112.3MB, built in 10 minutes 29 seconds
+==> Determining dar bottle rebuild...
+==> Bottling dar-2.5.13.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dar-2.5.13.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dar-2.5.13.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "702f2851dc156c6b265d2f8357630309eb514c25f76eed097ba34682af5f9448" => :x86_64_linux
+    sha256 "65114a1b96a6912b8d09b446fe1717c10767dd14c7b9ef11f0191251fda5234b" => :x86_64_linux
   end
