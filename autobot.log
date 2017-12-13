@@ -1,22 +1,8 @@
-==> Downloading https://github.com/coq/coq/archive/V8.7.0.tar.gz
-==> Downloading from https://codeload.github.com/coq/coq/tar.gz/V8.7.0
-==> opam init --no-setup
-==> opam install ocamlfind
-==> opam config exec -- ./configure -prefix /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1 -mandir /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/man -emacslib /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/emacs/site-lisp/coq -coqdocdir /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/coq/latex -coqide no -with-doc no
-==> make world
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall coq`
-==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/coq
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1: 3,866 files, 244.6MB, built in 38 minutes
-==> Determining coq bottle rebuild...
-==> Bottling coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz
+==> Determining coreutils bottle rebuild...
+==> Bottling coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2f147b87a09b195772ece878a007a3d33589fc8f9712b05e6af5dde0c57ea58d" => :x86_64_linux
+    sha256 "b063fd3e2c64c945c99fb3022918b681ee4d6f6926a815273b98e99c1ee1b969" => :x86_64_linux
   end
