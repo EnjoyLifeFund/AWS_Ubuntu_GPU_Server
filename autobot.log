@@ -1,27 +1,15 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-ansible-lint
-graphicsmagick
-html-xml-utils
-libtiff
-python-markdown
-reminiscence
-sfk
-traefik
-
-==> Downloading https://github.com/clMathLibraries/clFFT/archive/v2.12.2.tar.gz
-==> Downloading from https://codeload.github.com/clMathLibraries/clFFT/tar.gz/v2.12.2
-==> cmake ../src -DBUILD_EXAMPLES:BOOL=OFF -DBUILD_TEST:BOOL=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clfft/2.12.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.4.0.0.tgz
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev /tmp/clhep-20171212-8339-zcz0xe/2.4.0.0/CLHEP
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clfft`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clfft/2.12.2: 25 files, 1.8MB, built in 1 minute 47 seconds
-==> Determining clfft bottle rebuild...
-==> Bottling clfft-2.12.2.x86_64_linux.bottle.1.tar.gz...
-./clfft-2.12.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clhep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.0: 348 files, 11.7MB, built in 7 minutes 20 seconds
+==> Determining clhep bottle rebuild...
+==> Bottling clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clhep-2.4.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "802dde0b55181cacc6f1214b08664a2387902c7089a22f994264f944a8b2f218" => :x86_64_linux
+    sha256 "45ab848c79230f4c95094dca5a57d8e8f8a45db0903b2d0f372f0f339b690cbc" => :x86_64_linux
   end
