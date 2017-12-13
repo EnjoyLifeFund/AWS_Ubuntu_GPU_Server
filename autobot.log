@@ -1,21 +1,17 @@
-==> Cloning https://github.com/mevdschee/2048.c.git
-==> Checking out revision 578a5f314e1ce31b57e645a8c0a2c9d9d5539cde
-==> make
+==> Downloading https://www.cabextract.org.uk/cabextract-1.6.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cabextract/1.6
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall c2048`
-==> Caveats
-The game supports different color schemes.
-For the black-to white:
-  2048 blackwhite
-For the blue-to-red:
-  2048 bluered
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/c2048/0+20150805: 5 files, 32.7KB, built in 13 seconds
-==> Determining c2048 bottle rebuild...
-==> Bottling c2048-0+20150805.x86_64_linux.bottle.1.tar.gz...
-./c2048-0+20150805.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cabextract`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cabextract/1.6: 10 files, 340.8KB, built in 2 minutes 37 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+==> Determining cabextract bottle rebuild...
+==> Bottling cabextract-1.6.x86_64_linux.bottle.1.tar.gz...
+./cabextract-1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7faefdebc424a0d54b4076ae5e858b6c51dab6b003c68cb25e776d7e5609b7ad" => :x86_64_linux
+    sha256 "6c614238f07a46569145df8b20aef89e6156b0d8d4452e9555b53434293887fa" => :x86_64_linux
   end
