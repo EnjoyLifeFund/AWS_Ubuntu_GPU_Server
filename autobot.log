@@ -1,41 +1,18 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/clamz/clamz-0.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/clamz/0.5_1
+==> Downloading http://ftp.cs.wisc.edu/condor/classad/c++/classads-1.0.10.tar.gz
+==> ./configure --enable-namespace --prefix=/home/linuxbrew/.linuxbrew/Cellar/classads/1.0.10
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink share/mime/XMLnamespaces
-Target /home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite clamz
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run clamz
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
-/home/linuxbrew/.linuxbrew/share/mime/aliases
-/home/linuxbrew/.linuxbrew/share/mime/audio/x-amzxml.xml
-/home/linuxbrew/.linuxbrew/share/mime/generic-icons
-/home/linuxbrew/.linuxbrew/share/mime/globs
-/home/linuxbrew/.linuxbrew/share/mime/globs2
-/home/linuxbrew/.linuxbrew/share/mime/icons
-/home/linuxbrew/.linuxbrew/share/mime/magic
-/home/linuxbrew/.linuxbrew/share/mime/mime.cache
-/home/linuxbrew/.linuxbrew/share/mime/subclasses
-/home/linuxbrew/.linuxbrew/share/mime/treemagic
-/home/linuxbrew/.linuxbrew/share/mime/types
-/home/linuxbrew/.linuxbrew/share/mime/version
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clamz`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clamz/0.5_1: 21 files, 4.3MB, built in 1 minute 15 seconds
-==> Determining clamz bottle rebuild...
-==> Bottling clamz-0.5_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clamz-0.5_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clamz-0.5_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall classads`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/classads/1.0.10: 42 files, 29.8MB, built in 7 minutes 20 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+qt
+
+==> Determining classads bottle rebuild...
+==> Bottling classads-1.0.10.x86_64_linux.bottle.tar.gz...
+==> Detecting if classads-1.0.10.x86_64_linux.bottle.tar.gz is relocatable...
+./classads-1.0.10.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "ee3cc45bda7f014308781a04777552ea4c3e7275f8cd1fae1be6b2e0745311d3" => :x86_64_linux
+    sha256 "8614da6745ed0e87ac01c545bc7e2ecde6e8315a70a915f741573dccfc227edd" => :x86_64_linux
   end
