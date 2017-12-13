@@ -1,14 +1,14 @@
-==> Downloading https://registry.npmjs.org/bower/-/bower-1.8.2.tgz
-==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/bower/1.8.2/libexec /tmp/bower-20171211-33526-ttfqv0/package/bower-1.8.2.tgz
+==> Downloading https://github.com/BenLangmead/bowtie2/archive/v2.3.3.1.tar.gz
+==> Downloading from https://codeload.github.com/BenLangmead/bowtie2/tar.gz/v2.3.3.1
+==> make install WITH_TBB=1 prefix=/home/linuxbrew/.linuxbrew/Cellar/bowtie2/2.3.3.1 EXTRA_FLAGS=-L /home/linuxbrew/.linuxbrew/opt/tbb/lib INC=-I /home/linuxbrew/.linuxbrew/opt/tbb/include
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bower`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bower/1.8.2: 4,022 files, 15.8MB, built in 1 minute 41 seconds
-==> Determining bower bottle rebuild...
-==> Bottling bower-1.8.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bower-1.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bower-1.8.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bowtie2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bowtie2/2.3.3.1: 76 files, 57.1MB, built in 30 minutes 21 seconds
+==> Determining bowtie2 bottle rebuild...
+==> Bottling bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bowtie2-2.3.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "232a4302b84d5b39a38d38e838bc757fe283700fa44d2947722095397d045e70" => :x86_64_linux
+    sha256 "4b288d9084001901fdbfb0a0ffa81c1e214c41d805cee00a4caec9fa41c1626b" => :x86_64_linux
   end
