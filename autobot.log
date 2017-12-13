@@ -1,14 +1,19 @@
-==> Downloading https://downloads.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2
-==> make
+==> Downloading https://github.com/conformal/clens/archive/CLENS_0_7_0.tar.gz
+==> Downloading from https://codeload.github.com/conformal/clens/tar.gz/CLENS_0_7_0
+==> Downloading https://github.com/conformal/clens/commit/83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff?full_index=1
+==> Patching
+==> Applying 83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff
+patching file config/Makefile.darwin
+patching file include/clens/clens.h
+==> make all install LOCALBASE=/home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clean`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clean/3.4: 6 files, 54.5KB, built in 12 seconds
-==> Determining clean bottle rebuild...
-==> Bottling clean-3.4.x86_64_linux.bottle.1.tar.gz...
-./clean-3.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clens`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0: 8 files, 147.6KB, built in 35 seconds
+==> Determining clens bottle rebuild...
+==> Bottling clens-0.7.0.x86_64_linux.bottle.1.tar.gz...
+./clens-0.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0359a9e670758cf3add48f83dbc192f64538822ae424664c47b838dcbe227c2b" => :x86_64_linux
+    sha256 "dab6e698f8bb4c1d1bac19d74b1cb21c8cf4bab1833864b53bc4f11d9b0eed37" => :x86_64_linux
   end
