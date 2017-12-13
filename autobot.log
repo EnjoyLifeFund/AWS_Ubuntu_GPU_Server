@@ -1,13 +1,14 @@
-==> Downloading http://www.isthe.com/chongo/src/calc/calc-2.12.6.0.tar.bz2
-==> make install INCDIR=/usr/include BINDIR=/home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0/bin LIBDIR=/home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0/lib MANDIR=/home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0/share/man/man1 CALC_INCDIR=/home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0/include/calc CALC_SHAREDIR=/home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0/share/calc USE_READLINE=-DUSE_READLINE READLINE_LIB=-L/home/linuxbrew/.linuxbrew/opt/readline/lib -lreadline READLINE_EXTRAS=-lhistory -lncurses
+==> Downloading http://calcurse.org/files/calcurse-4.3.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/calcurse/4.3.0
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall calc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/calc/2.12.6.0: 519 files, 6.7MB, built in 10 minutes 14 seconds
-==> Determining calc bottle rebuild...
-==> Bottling calc-2.12.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if calc-2.12.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./calc-2.12.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall calcurse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/calcurse/4.3.0: 173 files, 1.5MB, built in 2 minutes 21 seconds
+==> Determining calcurse bottle rebuild...
+==> Bottling calcurse-4.3.0.x86_64_linux.bottle.1.tar.gz...
+./calcurse-4.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "9e4e3f8718bae2b3f51ca2b0292d67c5b858d4846cd18f7d5a63d3ff5646f0ba" => :x86_64_linux
+    sha256 "c4d3f4d11b5593fa2d03c2d46eb533a1c9e9d7b9a241ff009db5ca6a99a09718" => :x86_64_linux
   end
