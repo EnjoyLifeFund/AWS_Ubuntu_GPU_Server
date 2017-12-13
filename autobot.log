@@ -1,32 +1,15 @@
-==> Downloading http://waxandwane.org/download/clipsafe-1.1.tar.gz
-==> Downloading https://cpan.metacpan.org/authors/id/A/AM/AMS/Crypt-Twofish-2.17.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA-5.96.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.35.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.05.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
-==> make
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.01.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
-==> make
-==> make install
+==> Downloading https://github.com/bitrise-io/bitrise/archive/1.10.1.tar.gz
+==> Downloading from https://codeload.github.com/bitrise-io/bitrise/tar.gz/1.10.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/bitrise/1.10.1/bin/bitrise
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clipsafe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1: 1,849 files, 30.2MB, built in 8 minutes 40 seconds
-==> Determining clipsafe bottle rebuild...
-==> Bottling clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bitrise`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bitrise/1.10.1: 6 files, 9.9MB, built in 1 minute 9 seconds
+==> Determining bitrise bottle rebuild...
+==> Bottling bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "988dadbffcc91c1ab342b4e05969dd17645b8c55f5eab941322fcc2b83ed0855" => :x86_64_linux
+    sha256 "80a45279877d9c20f484b8ba0522febe4c97985ed607bdb1935570ddd736990e" => :x86_64_linux
   end
