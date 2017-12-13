@@ -1,15 +1,20 @@
-==> Downloading https://www.ginac.de/CLN/cln-1.3.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cln/1.3.4
-==> make
-==> make check
+==> Downloading https://github.com/AlDanial/cloc/archive/1.74.tar.gz
+==> Downloading from https://codeload.github.com/AlDanial/cloc/tar.gz/1.74
+==> Downloading https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2016060801.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec
 ==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec
+==> make install
+==> make -C Unix prefix=/home/linuxbrew/.linuxbrew/Cellar/cloc/1.74/libexec install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cln`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cln/1.3.4: 93 files, 88.6MB, built in 15 minutes 16 seconds
-==> Determining cln bottle rebuild...
-==> Bottling cln-1.3.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if cln-1.3.4.x86_64_linux.bottle.tar.gz is relocatable...
-./cln-1.3.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cloc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cloc/1.74: 84 files, 1.4MB, built in 35 seconds
+==> Determining cloc bottle rebuild...
+==> Bottling cloc-1.74.x86_64_linux.bottle.1.tar.gz...
+./cloc-1.74.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "ce3db2561573798f51438ec1b4ea4fa82c7a0a2fc11486f1c16f7e7017d666dc" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3a501bb0d647540b7062fc44a3924b97eb927a2aa1b4d0dd02797dcdc5bd1973" => :x86_64_linux
   end
