@@ -1,19 +1,4 @@
-==> Downloading https://downloads.sourceforge.net/project/collada-dom/Collada%20DOM/Collada%20DOM%202.4/collada-dom-2.4.0.tgz
-==> Downloading from https://newcontinuum.dl.sourceforge.net/project/collada-dom/Collada%20DOM/Collada%20DOM%202.4/collada-dom-2.4.0.tgz
-==> Patching
-patching file CMakeLists.txt
-Hunk #1 succeeded at 127 with fuzz 1 (offset 27 lines).
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/collada-dom/2.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall collada-dom`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/collada-dom/2.4.0: 465 files, 16.8MB, built in 10 minutes 27 seconds
-==> Determining collada-dom bottle rebuild...
-==> Bottling collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./collada-dom-2.4.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "9830307d2ead4cc0879ef32b32c8a21bd3c48710f1d3e42d86912cd0c419df65" => :x86_64_linux
-  end
+==> Downloading https://github.com/pagekite/Colormake/archive/0.9.20140503.tar.gz
+==> Downloading from https://codeload.github.com/pagekite/Colormake/tar.gz/0.9.20140503
+🍺  /home/linuxbrew/.linuxbrew/Cellar/colormake/0.9.20140503: 13 files, 57.4KB, built in 11 seconds
+This formula doesn't require compiling.
