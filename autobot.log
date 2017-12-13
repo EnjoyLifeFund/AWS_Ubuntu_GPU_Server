@@ -1,40 +1,15 @@
-==> Downloading https://github.com/chrisallenlane/cheat/archive/2.2.2.tar.gz
-==> Downloading from https://codeload.github.com/chrisallenlane/cheat/tar.gz/2.2.2
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/cheat--homebrew-virtualenv-20171212-88086-5tm3fx/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/cheat--homebrew-virtualenv-20171212-88086-5tm3fx/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec
-==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--docopt-20171212-88086-7qah03/docopt-0.6.2
-==> Downloading https://files.pythonhosted.org/packages/71/2a/2e4e77803a8bd6408a2903340ac498cb0a2181811af7c9ec92cb70b0308a/Pygments-2.2.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--Pygments-20171212-88086-q8var5/Pygments-2.2.0
-==> /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat-20171212-88086-yc7nhe/cheat-2.2.2
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/cheat
-Target /home/linuxbrew/.linuxbrew/bin/cheat
-is a symlink belonging to bash-snippets. You can unlink it:
-  brew unlink bash-snippets
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite cheat
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run cheat
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/cheat -> /home/linuxbrew/.linuxbrew/Cellar/bash-snippets/1.20.0/bin/cheat
+==> Downloading https://github.com/libcheck/check/releases/download/0.12.0/check-0.12.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/f07f7342-b572-11e7-9a8d-d889ecadba6c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171212T115500Z&X-Amz-Expires=300&X-Amz-Signature=d906ed0d924f19ec98c026ee59511a28e96c64cbfdcba90fd683f979d994d869&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcheck-0.12.0.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/check/0.12.0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cheat`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cheat/2.2.2: 1,393 files, 15.9MB, built in 2 minutes 3 seconds
-==> Determining cheat bottle rebuild...
-==> Bottling cheat-2.2.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cheat-2.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cheat-2.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall check`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/check/0.12.0: 40 files, 716.0KB, built in 5 minutes 5 seconds
+==> Determining check bottle rebuild...
+==> Bottling check-0.12.0.x86_64_linux.bottle.1.tar.gz...
+./check-0.12.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a50c17f53cee6e769fb02bfcb1ea47ed26f9d71710d767fece431874223f33ba" => :x86_64_linux
+    sha256 "cbd276ac00bbd00643db5abff94604494a99fdb35325d9941a5ca220671055b3" => :x86_64_linux
   end
