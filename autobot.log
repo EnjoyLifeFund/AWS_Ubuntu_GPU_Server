@@ -1,16 +1,22 @@
-==> Downloading https://github.com/ChaiScript/ChaiScript/archive/v6.0.0.tar.gz
-==> Downloading from https://codeload.github.com/ChaiScript/ChaiScript/tar.gz/v6.0.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/chaiscript/6.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Installing dependencies for chamber: govendor
+==> Installing chamber dependency: govendor
+==> Downloading https://linuxbrew.bintray.com/bottles/govendor-1.0.9.x86_64_linux.bottle.tar.gz
+==> Pouring govendor-1.0.9.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/govendor/1.0.9: 5 files, 11.0MB
+==> Installing chamber
+==> Downloading https://github.com/segmentio/chamber/archive/v1.13.0.tar.gz
+==> Downloading from https://codeload.github.com/segmentio/chamber/tar.gz/v1.13.0
+==> govendor sync
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/chamber/1.13.0/bin/chamber
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chaiscript`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chaiscript/6.0.0: 462 files, 30.6MB, built in 14 minutes 26 seconds
-==> Determining chaiscript bottle rebuild...
-==> Bottling chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./chaiscript-6.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall chamber`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chamber/1.13.0: 5 files, 13.3MB, built in 4 minutes 58 seconds
+==> Determining chamber bottle rebuild...
+==> Bottling chamber-1.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if chamber-1.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./chamber-1.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "115a87f094c0a15b35ff00ee18269868ac0aecb199d63c3333fea276b8a553a1" => :x86_64_linux
+    sha256 "2076813280c829ad03f439e8763d583013b36d31bab84ebc451b2a2b37b931a7" => :x86_64_linux
   end
