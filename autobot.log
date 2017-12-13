@@ -1,17 +1,22 @@
-==> Downloading https://www.ctan.org/tex-archive/web/c_cpp/cweb/cweb-3.64b.tar.gz
-==> Downloading from http://mirrors.ctan.org/web/c_cpp/cweb/cweb-3.64b.tar.gz
-==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/bin/ MANDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/man/man1 MANEXT=1 MACROSDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/texmf/tex/generic EMACSDIR=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/share/emacs/site-lisp/cweb CWEBINPUTS=/home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b/lib/cweb
+==> Downloading https://github.com/CxxTest/cxxtest/releases/download/4.4/cxxtest-4.4.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/3089022/5ba6bfd0-eba1-11e3-8e90-c709e9a0d331?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171213T220303Z&X-Amz-Expires=300&X-Amz-Signature=d77d131ff5709cca284276e3d2e49243d2a43bcfc1c6fc97ece1b50b650d4549&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcxxtest-4.4.tar.gz&response-content-type=application%2Foctet-stream
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cxxtest/4.4 --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cweb`
+You can run it manually using `brew postinstall cxxtest`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/cweb
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cweb/3.64b: 9 files, 295.3KB, built in 28 seconds
-==> Determining cweb bottle rebuild...
-==> Bottling cweb-3.64b.x86_64_linux.bottle.1.tar.gz...
-./cweb-3.64b.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cxxtest/4.4: 183 files, 796.5KB, built in 15 seconds
+==> Determining cxxtest bottle rebuild...
+==> Bottling cxxtest-4.4.x86_64_linux.bottle.1.tar.gz...
+./cxxtest-4.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6fd493bf06133692fc5db562d0ecfec862c5dd6137742dd453189e04b9db05a9" => :x86_64_linux
+    sha256 "999b4f507474e64de15f8f6c8e93ac67e5e6830b3d28368bce1aeb71ee208083" => :x86_64_linux
   end
