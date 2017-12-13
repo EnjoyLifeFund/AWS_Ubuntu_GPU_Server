@@ -1,14 +1,15 @@
-==> Downloading https://mirrorservice.org/sites/ftp.xemacs.org/pub/xemacs/aux/compface-1.5.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2/share/man
-==> make install
+==> Downloading https://github.com/kelseyhightower/compose2kube/archive/0.0.2.tar.gz
+==> Downloading from https://codeload.github.com/kelseyhightower/compose2kube/tar.gz/0.0.2
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/compose2kube/0.0.2_1/bin/compose2kube
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall compface`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2: 12 files, 148.4KB, built in 1 minute 19 seconds
-==> Determining compface bottle rebuild...
-==> Bottling compface-1.5.2.x86_64_linux.bottle.1.tar.gz...
-./compface-1.5.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall compose2kube`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/compose2kube/0.0.2_1: 5 files, 20.2MB, built in 3 minutes 6 seconds
+==> Determining compose2kube bottle rebuild...
+==> Bottling compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./compose2kube-0.0.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "79d1f768b505be1e1c485b2a94d902e26923a4eefe6acbc0cbddd04cf4bbc446" => :x86_64_linux
+    sha256 "c3d8ad07695fa2aaeff8205f6d9ffbddbe1c279a0cc5ed186e7bf11fcec1a5e0" => :x86_64_linux
   end
