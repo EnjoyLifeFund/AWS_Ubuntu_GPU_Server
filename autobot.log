@@ -1,22 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/ec8d133/clucene/patch-src-shared-CLucene-LuceneThreads.h.diff
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/ec8d133/clucene/patch-src-shared-CLucene-config-repl_tchar.h.diff
-==> Patching
-==> Applying patch-src-shared-CLucene-LuceneThreads.h.diff
-patching file src/shared/CLucene/LuceneThreads.h
-==> Applying patch-src-shared-CLucene-config-repl_tchar.h.diff
-patching file src/shared/CLucene/config/repl_tchar.h
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clucene/2.3.3.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clucene`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clucene/2.3.3.4: 307 files, 5.5MB, built in 8 minutes 39 seconds
-==> Determining clucene bottle rebuild...
-==> Bottling clucene-2.3.3.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if clucene-2.3.3.4.x86_64_linux.bottle.tar.gz is relocatable...
-./clucene-2.3.3.4.x86_64_linux.bottle.tar.gz
+==> Determining cmake bottle rebuild...
+==> Bottling cmake-3.10.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if cmake-3.10.0.x86_64_linux.bottle.tar.gz is relocatable...
+./cmake-3.10.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "2e50ef7aacec82077850d922a190e6fd696ea0913277c0849fedf17122021bd0" => :x86_64_linux
+    sha256 "02ba894042bd489c4e7576eb5aea8aee2f9c7a67cce1b219b88096d32d108f3a" => :x86_64_linux
   end
