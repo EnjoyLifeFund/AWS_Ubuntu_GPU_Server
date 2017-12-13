@@ -1,8 +1,13 @@
-==> Determining coreutils bottle rebuild...
-==> Bottling coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./coreutils-8.28_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/c/corkscrew/corkscrew_2.0.orig.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/corkscrew/2.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall corkscrew`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/corkscrew/2.0: 9 files, 59.6KB, built in 43 seconds
+==> Determining corkscrew bottle rebuild...
+==> Bottling corkscrew-2.0.x86_64_linux.bottle.1.tar.gz...
+./corkscrew-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b063fd3e2c64c945c99fb3022918b681ee4d6f6926a815273b98e99c1ee1b969" => :x86_64_linux
+    sha256 "a7d7c15b64d7db7175210132ed23a879e8394aaa52998925b74481d5bb37d5f0" => :x86_64_linux
   end
