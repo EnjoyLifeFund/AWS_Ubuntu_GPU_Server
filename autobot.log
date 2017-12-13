@@ -1,13 +1,64 @@
-==> Downloading https://downloads.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz
-==> make CC=gcc-5 LFS=-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+==> Installing dependencies for crystal-icr: libatomic_ops, crystal-lang
+==> Installing crystal-icr dependency: libatomic_ops
+==> Downloading https://linuxbrew.bintray.com/bottles/libatomic_ops-7.4.8.x86_64_linux.bottle.tar.gz
+==> Pouring libatomic_ops-7.4.8.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.4.8: 80 files, 760.8KB
+==> Installing crystal-icr dependency: crystal-lang
+==> Downloading https://github.com/crystal-lang/crystal/archive/0.23.1.tar.gz
+==> Downloading from https://codeload.github.com/crystal-lang/crystal/tar.gz/0.23.1
+==> Downloading https://github.com/crystal-lang/crystal/releases/download/0.23.0/crystal-0.23.0-1-linux-x86_64.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6887813/4dc661c6-5ce7-11e7-8e27-bd47257dd96c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171213T152743Z&X-Amz-Expires=300&X-Amz-Signature=c6d2c06edc9fcbb584541e24fa2576636208802f54b8e89797bbd9c6b5276f4c&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcrystal-0.23.0-1-linux-x86_64.tar.gz&response-content-type=application%2Foctet-stream
+==> make crystal release=true
+==> Downloading https://github.com/crystal-lang/shards/archive/v0.7.1.tar.gz
+==> Downloading from https://codeload.github.com/crystal-lang/shards/tar.gz/v0.7.1
+==> /tmp/crystal-lang-20171213-125883-16gbcx5/crystal-0.23.1/bin/crystal build -o /tmp/crystal-lang-20171213-125883-16gbcx5/crystal-0.23.1/.build/shards src/shards.cr
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crystal-lang/0.23.1_3: 812 files, 117.3MB, built in 205 minutes 42 seconds
+==> Installing crystal-icr
+==> Downloading https://github.com/crystal-community/icr/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/crystal-community/icr/tar.gz/v0.4.0
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/crystal-icr/0.4.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall crunch`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/crunch/3.6: 7 files, 132.5KB, built in 13 seconds
-==> Determining crunch bottle rebuild...
-==> Bottling crunch-3.6.x86_64_linux.bottle.tar.gz...
-./crunch-3.6.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall crystal-icr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crystal-icr/0.4.0: 5 files, 1004.4KB, built in 80 minutes 14 seconds
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/science, homebrew/core).
+==> New Formulae
+google-authenticator-libpam
+==> Updated Formulae
+abcmidi
+armadillo
+assimp
+bartycrouch
+bmake
+clhep
+coffeescript
+folly
+fuse-emulator
+gearman
+global
+gopass
+heroku
+homebrew/science/omcompiler
+jboss-forge
+jenkins
+just
+kibana
+knot-resolver
+kompose
+kubeless
+minio-mc
+pegtl
+vala
+xtensor
+
+==> Determining crystal-icr bottle rebuild...
+==> Bottling crystal-icr-0.4.0.x86_64_linux.bottle.1.tar.gz...
+./crystal-icr-0.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "094d77595b2ec194d352b8877dcbc2ccfd229e195445a94eb208eddbdf23cabe" => :x86_64_linux
+    rebuild 1
+    sha256 "474b79f5da0b544e56fd20a00ad140aea51b9566ca386a37124d27c70f42fd73" => :x86_64_linux
   end
