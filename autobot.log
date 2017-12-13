@@ -1,21 +1,16 @@
-==> Installing dependencies for consul: zip
-==> Installing consul dependency: zip
-==> Downloading https://linuxbrew.bintray.com/bottles/zip-3.0.x86_64_linux.bottle.tar.gz
-==> Pouring zip-3.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/zip/3.0: 14 files, 714KB
-==> Installing consul
-==> Cloning https://github.com/hashicorp/consul.git
-==> Checking out tag v1.0.1
-==> make
+==> Downloading https://github.com/myENA/consul-backinator/archive/v1.6.2.tar.gz
+==> Downloading from https://codeload.github.com/myENA/consul-backinator/tar.gz/v1.6.2
+==> glide install -v
+==> go build -v -ldflags -X main.appVersion=1.6.2 -o /home/linuxbrew/.linuxbrew/Cellar/consul-backinator/1.6.2/bin/consul-backinator
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall consul`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/consul/1.0.1: 7 files, 44.7MB, built in 24 minutes 41 seconds
-==> Determining consul bottle rebuild...
-==> Bottling consul-1.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if consul-1.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./consul-1.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall consul-backinator`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/consul-backinator/1.6.2: 5 files, 13.3MB, built in 2 minutes 56 seconds
+==> Determining consul-backinator bottle rebuild...
+==> Bottling consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./consul-backinator-1.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c37881fc77c23b965b1b4ca4deafd9142ba5a31d5ab10381ac5e456f11e3d593" => :x86_64_linux
+    sha256 "56cd5b96d59bffda8cca5e3eb725b461ea375c6048e371c64ce8d4394200ba59" => :x86_64_linux
   end
