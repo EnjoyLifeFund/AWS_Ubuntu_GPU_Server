@@ -1,13 +1,16 @@
-==> Downloading http://www.muppetlabs.com/~breadbox/pub/software/cppp-2.6.tar.gz
-==> make
+==> Downloading https://github.com/Microsoft/cpprestsdk/archive/v2.10.0.tar.gz
+==> Downloading from https://codeload.github.com/Microsoft/cpprestsdk/tar.gz/v2.10.0
+==> cmake -DBUILD_SAMPLES=OFF -DBUILD_TESTS=OFF Release -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cpprestsdk/2.10.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cppp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cppp/2.6: 4 files, 52.3KB, built in 9 seconds
-==> Determining cppp bottle rebuild...
-==> Bottling cppp-2.6.x86_64_linux.bottle.1.tar.gz...
-./cppp-2.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cpprestsdk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cpprestsdk/2.10.0: 52 files, 19MB, built in 4 minutes 4 seconds
+==> Determining cpprestsdk bottle rebuild...
+==> Bottling cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cpprestsdk-2.10.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c7ec8eeae932b1ec843cd458b8c99f3ed228074f16feac5d2b0e90446832060d" => :x86_64_linux
+    sha256 "4b629e475d642c9add808587aec673eda1273a9de95431aadce76f7070569417" => :x86_64_linux
   end
