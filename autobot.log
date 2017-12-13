@@ -1,13 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3 mandir=/home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3/share/man install
+==> Downloading https://github.com/CGAL/cgal/releases/download/releases/CGAL-4.11/CGAL-4.11.tar.xz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/24677392/4528f23c-9ec7-11e7-9df9-f1873bf77cf6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171212T073918Z&X-Amz-Expires=300&X-Amz-Signature=ad597c5ca1b631d3f45faf72aa1d04f2035041b8bfa93a0e7303fb796f564595&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DCGAL-4.11.tar.xz&response-content-type=application%2Foctet-stream
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cgal/4.11 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON -DCMAKE_INSTALL_NAME_DIR=/home/linuxbrew/.linuxbrew/lib -DWITH_CGAL_Qt5=OFF -DWITH_CGAL_ImageIO=OFF -DWITH_Eigen3=OFF -DWITH_LAPACK=OFF
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cfv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3: 7 files, 145.6KB, built in 8 seconds
-==> Determining cfv bottle rebuild...
-==> Bottling cfv-1.18.3.x86_64_linux.bottle.tar.gz...
-./cfv-1.18.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cgal`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cgal/4.11: 3,173 files, 35.6MB, built in 5 minutes 8 seconds
+==> Determining cgal bottle rebuild...
+==> Bottling cgal-4.11.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cgal-4.11.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cgal-4.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "f9740eecd521b45398a07f11eb449716f8c620d3cb8b049e62e6fe6c6fb73a38" => :x86_64_linux
+    rebuild 1
+    sha256 "0885532619092ba8a994c41b1091bea4b43bf04df3481e38122602be3d4913ba" => :x86_64_linux
   end
