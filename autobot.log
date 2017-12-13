@@ -1,12 +1,14 @@
-==> Downloading http://www.jedrea.com/chmlib/chmlib-0.40.tar.gz
-==> ./configure --disable-io64 --enable-examples --prefix=/home/linuxbrew/.linuxbrew/Cellar/chmlib/0.40
-==> make install
+==> Downloading https://github.com/geier/choose/archive/v0.1.0.tar.gz
+==> Downloading from https://codeload.github.com/geier/choose/tar.gz/v0.1.0
+==> Downloading https://pypi.python.org/packages/source/u/urwid/urwid-1.2.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/choose/0.1.0/libexec --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chmlib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chmlib/0.40: 15 files, 755.0KB, built in 2 minutes 3 seconds
-==> Determining chmlib bottle rebuild...
-==> Bottling chmlib-0.40.x86_64_linux.bottle.tar.gz...
-./chmlib-0.40.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall choose`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/choose/0.1.0: 95 files, 1.8MB, built in 16 seconds
+==> Determining choose bottle rebuild...
+==> Bottling choose-0.1.0.x86_64_linux.bottle.tar.gz...
+./choose-0.1.0.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "da13335e241889de6e217d256ba4b6ee83260a4148c8d265728fc3c36aa153e3" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "99e76f52e6071b4d386e5ca6214cdcb27f5a2ade54e9f4166c4b864222592348" => :x86_64_linux
   end
