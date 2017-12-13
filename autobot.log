@@ -1,4 +1,14 @@
-==> Downloading https://ccl.clozure.com/ftp/pub/release/1.11/ccl-1.11-linuxx86.tar.gz
-==> scripts/ccl64 -n -e (ccl:rebuild-ccl :full t) -e (quit)
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clozure-cl/1.11: 955 files, 88.4MB, built in 13 minutes 4 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/clpbar/1.11.1 --program-prefix='clp'
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall clpbar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clpbar/1.11.1: 7 files, 326.3KB, built in 2 minutes 27 seconds
+==> Determining clpbar bottle rebuild...
+==> Bottling clpbar-1.11.1.x86_64_linux.bottle.1.tar.gz...
+./clpbar-1.11.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "95f9f3f499784ecbf3a360b2b59acd033a32cb991beef570b3d143350fcc4837" => :x86_64_linux
+  end
