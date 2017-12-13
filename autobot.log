@@ -1,27 +1,20 @@
-==> Cloning https://github.com/cristibalan/braid.git
-==> Checking out tag v1.0.21
-==> Downloading https://rubygems.org/gems/arrayfields-4.9.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--arrayfields-4.9.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> Downloading https://rubygems.org/gems/chronic-0.10.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--chronic-0.10.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> Downloading https://rubygems.org/gems/fattr-2.3.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--fattr-2.3.0.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> Downloading https://rubygems.org/gems/main-6.2.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--main-6.2.2.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> Downloading https://rubygems.org/gems/map-6.6.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--map-6.6.0.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> Downloading https://rubygems.org/gems/open4-1.3.4.gem
-==> gem install /home/ubuntu/.cache/Homebrew/braid--open4-1.3.4.gem --ignore-dependencies --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21/libexec
-==> gem build braid.gemspec
-==> gem install --ignore-dependencies braid-1.0.21.gem
+==> Installing dependencies for bro: geoip
+==> Installing bro dependency: geoip
+==> Downloading https://linuxbrew.bintray.com/bottles/geoip-1.6.11.x86_64_linux.bottle.tar.gz
+==> Pouring geoip-1.6.11.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/geoip/1.6.11: 19 files, 2.4MB
+==> Installing bro
+==> Downloading https://www.bro.org/downloads/bro-2.5.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bro/2.5.2 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --localstatedir=/home/linuxbrew/.linuxbrew/var --conf-files-dir=/home/linuxbrew/.linuxbrew/etc
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall braid`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/braid/1.0.21: 443 files, 1.6MB, built in 1 minute 9 seconds
-==> Determining braid bottle rebuild...
-==> Bottling braid-1.0.21.x86_64_linux.bottle.1.tar.gz...
-./braid-1.0.21.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bro`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bro/2.5.2: 584 files, 143.2MB, built in 25 minutes 25 seconds
+==> Determining bro bottle rebuild...
+==> Bottling bro-2.5.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bro-2.5.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bro-2.5.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3c370dae90bdc983628409b7dc093eb42179da5a0386adfcac6c138a936ba0b0" => :x86_64_linux
+    sha256 "c82b311fe4e38cb5684391a6275790e264ae1f11cbdd3c64d18d264a368b2847" => :x86_64_linux
   end
