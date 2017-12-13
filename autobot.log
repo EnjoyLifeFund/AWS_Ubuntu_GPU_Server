@@ -1,14 +1,19 @@
-==> Downloading https://downloads.sourceforge.net/project/cbmbasic/cbmbasic/1.0/cbmbasic-1.0.tgz
-==> Downloading from https://ayera.dl.sourceforge.net/project/cbmbasic/cbmbasic/1.0/cbmbasic-1.0.tgz
-==> make CFLAGS= LDFLAGS=
+==> Downloading https://github.com/cc65/cc65/archive/V2.16.tar.gz
+==> Downloading from https://codeload.github.com/cc65/cc65/tar.gz/V2.16
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/cc65/2.16 libdir=/home/linuxbrew/.linuxbrew/Cellar/cc65/2.16/share
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/cc65/2.16 libdir=/home/linuxbrew/.linuxbrew/Cellar/cc65/2.16/share
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cbmbasic`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cbmbasic/1.0: 4 files, 288.4KB, built in 30 seconds
-==> Determining cbmbasic bottle rebuild...
-==> Bottling cbmbasic-1.0.x86_64_linux.bottle.1.tar.gz...
-./cbmbasic-1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cc65`
+==> Caveats
+Library files have been installed to:
+  /home/linuxbrew/.linuxbrew/opt/cc65/share/cc65
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cc65/2.16: 442 files, 28MB, built in 26 minutes 27 seconds
+==> Determining cc65 bottle rebuild...
+==> Bottling cc65-2.16.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cc65-2.16.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cc65-2.16.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "820735a0b2b992a06f5237bc6c720bddd589335e3f013dba65a5f45baddde413" => :x86_64_linux
+    sha256 "98e4b5ba630dd6555508dbaa5ddf10c084829e5b0f8d0dc21331f21e1f44ca6b" => :x86_64_linux
   end
