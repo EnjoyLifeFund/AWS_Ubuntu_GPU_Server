@@ -1,13 +1,33 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/c/corkscrew/corkscrew_2.0.orig.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/corkscrew/2.0
-==> make install
+==> Downloading https://github.com/dedis/cosi/archive/0.8.5.tar.gz
+==> Downloading from https://codeload.github.com/dedis/cosi/tar.gz/0.8.5
+==> Cloning https://github.com/BurntSushi/toml.git
+==> Checking out revision f0aeabca5a127c4078abb8c8d64298b147264b55
+==> Cloning https://github.com/daviddengcn/go-colortext.git
+==> Checking out revision 511bcaf42ccd42c38aba7427b6673277bf19e2a1
+==> Cloning https://github.com/dedis/crypto.git
+==> Checking out revision d9272cb478c0942e1d60049e6df219cba2067fcd
+==> Cloning https://github.com/dedis/protobuf.git
+==> Checking out revision 6948fbd96a0f1e4e96582003261cf647dc66c831
+==> Cloning https://github.com/montanaflynn/stats.git
+==> Checking out revision 60dcacf48f43d6dd654d0ed94120ff5806c5ca5c
+==> Cloning https://github.com/satori/go.uuid.git
+==> Checking out revision f9ab0dce87d815821e221626b772e3475a0d2749
+==> Cloning https://go.googlesource.com/net.git
+==> Checking out revision 0c607074acd38c5f23d1344dfe74c977464d1257
+==> Cloning https://gopkg.in/codegangsta/cli.v1.git
+==> Checking out revision 01857ac33766ce0c93856370626f9799281c14f4
+==> Cloning https://gopkg.in/dedis/cothority.v0.git
+==> Checking out revision e5eb384290e5fd98b8cb150a1348661aa2d49e2a
+==> go build -o cosi
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall corkscrew`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/corkscrew/2.0: 9 files, 59.6KB, built in 43 seconds
-==> Determining corkscrew bottle rebuild...
-==> Bottling corkscrew-2.0.x86_64_linux.bottle.1.tar.gz...
-./corkscrew-2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cosi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cosi/0.8.5: 5 files, 9.1MB, built in 2 minutes 57 seconds
+==> Determining cosi bottle rebuild...
+==> Bottling cosi-0.8.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cosi-0.8.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cosi-0.8.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a7d7c15b64d7db7175210132ed23a879e8394aaa52998925b74481d5bb37d5f0" => :x86_64_linux
+    sha256 "e6f2c9fe1ac311734fcad24e61a33b8cc60f6819df50ccdbd251c6ff0947e6b6" => :x86_64_linux
   end
