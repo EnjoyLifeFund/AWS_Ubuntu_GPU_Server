@@ -1,13 +1,14 @@
-==> Downloading https://www.gerg.ca/software/btOOL/btparse-0.34.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/btparse/0.34 --mandir=/home/linuxbrew/.linuxbrew/Cellar/btparse/0.34/share/man
+==> Downloading https://github.com/downloads/btpd/btpd/btpd-0.16.tar.gz
+==> Downloading from https://github.s3.amazonaws.com/downloads/btpd/btpd/btpd-0.16.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20171211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171211T165337Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=10fdaa753d3b1e7156e420d133997ed539b676997a174e68834c1f16fc76e5ed
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/btpd/0.16_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall btparse`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/btparse/0.34: 20 files, 738.2KB, built in 3 minutes 30 seconds
-==> Determining btparse bottle rebuild...
-==> Bottling btparse-0.34.x86_64_linux.bottle.1.tar.gz...
-./btparse-0.34.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall btpd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/btpd/0.16_1: 11 files, 836.5KB, built in 1 minute 30 seconds
+==> Determining btpd bottle rebuild...
+==> Bottling btpd-0.16_1.x86_64_linux.bottle.1.tar.gz...
+./btpd-0.16_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "072e5484cd9ffcd387b336f3e075ece7a71ffced997190616a46d4a6a5cdde20" => :x86_64_linux
+    sha256 "bd099ad46691e5f62f12536c76f0224c761644779426054aede98417f5b63fec" => :x86_64_linux
   end
