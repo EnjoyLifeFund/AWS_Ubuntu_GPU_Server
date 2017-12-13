@@ -1,22 +1,7 @@
-==> Downloading https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz
-==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/cdparanoia/cdparanoia-III-10.2.src.tgz
-==> Downloading https://raw.githubusercontent.com/drewc/guix/master/gnu/packages/patches/cdparanoia-fpic.patch
-==> Patching
-==> Applying cdparanoia-fpic.patch
-patching file interface/Makefile.in
-patching file paranoia/Makefile.in
-==> autoconf
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cdparanoia/10.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cdparanoia/10.2/share/man --libdir=/home/linuxbrew/.linuxbrew/Cellar/cdparanoia/10.2/libexec
-==> make all
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cdparanoia`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cdparanoia/10.2: 16 files, 373.8KB, built in 1 minute 16 seconds
-==> Determining cdparanoia bottle rebuild...
-==> Bottling cdparanoia-10.2.x86_64_linux.bottle.1.tar.gz...
-./cdparanoia-10.2.x86_64_linux.bottle.1.tar.gz
+==> Determining cdrtools bottle rebuild...
+==> Bottling cdrtools-3.01_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if cdrtools-3.01_1.x86_64_linux.bottle.tar.gz is relocatable...
+./cdrtools-3.01_1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "952e8d7a765c0ab578c3c78d3c7f36847c5e98a30d1bedb5346e0fe4deda02e8" => :x86_64_linux
+    sha256 "3e1df1c1cb10d7227ddd5851a2406a5936f44763ef3437fe76109dc66cdd08ef" => :x86_64_linux
   end
