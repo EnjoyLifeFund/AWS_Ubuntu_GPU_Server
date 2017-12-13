@@ -1,12 +1,3 @@
-==> Downloading https://www.mirrorservice.org/sites/distfiles.macports.org/cronolog/cronolog-1.6.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cronolog/1.6.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cronolog/1.6.2/share/man --infodir=/home/linuxbrew/.linuxbrew/Cellar/cronolog/1.6.2/share/info
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cronolog`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cronolog/1.6.2: 13 files, 130.5KB, built in 1 minute 3 seconds
-==> Determining cronolog bottle rebuild...
-==> Bottling cronolog-1.6.2.x86_64_linux.bottle.tar.gz...
-./cronolog-1.6.2.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "064ad129040eb51fb20086967cbafa266e9c240e6c102e52764ea37193017d07" => :x86_64_linux
-  end
+==> Downloading https://downloads.crowdin.com/cli/v2/crowdin-cli-2.0.20.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crowdin/2.0.20: 4 files, 7.6MB, built in 19 seconds
+This formula doesn't require compiling.
