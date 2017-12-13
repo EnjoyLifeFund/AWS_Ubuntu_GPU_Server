@@ -1,13 +1,14 @@
-==> Downloading https://bitbucket.org/gotoh/connect/get/1.105.tar.gz
+==> Downloading http://www.conserver.com/conserver-8.2.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/conserver/8.2.1
 ==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall connect`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/connect/1.105: 3 files, 65KB, built in 14 seconds
-==> Determining connect bottle rebuild...
-==> Bottling connect-1.105.x86_64_linux.bottle.1.tar.gz...
-./connect-1.105.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall conserver`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/conserver/8.2.1: 16 files, 489.1KB, built in 4 minutes 19 seconds
+==> Determining conserver bottle rebuild...
+==> Bottling conserver-8.2.1.x86_64_linux.bottle.1.tar.gz...
+./conserver-8.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b9f3ec81dcaf022bf799bc3c317ed619501f16c857b5a74db107c16f655c1811" => :x86_64_linux
+    sha256 "7ea8ddf60c1983a1b28e8f5c82aea7338b4a8aff8910c0163a668e9f8fd9d6a3" => :x86_64_linux
   end
