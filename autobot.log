@@ -1,45 +1,47 @@
-==> Installing dependencies for cloog: gmp@4, isl@0.12
-==> Installing cloog dependency: gmp@4
-==> Downloading https://linuxbrew.bintray.com/bottles/gmp@4-4.3.2.x86_64_linux.bottle.1.tar.gz
-==> Pouring gmp@4-4.3.2.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for cloog@0.15: ppl@0.11
+==> Installing cloog@0.15 dependency: ppl@0.11
+==> Downloading https://gcc.gnu.org/pub/gcc/infrastructure/ppl-0.11.tar.gz
+==> Downloading https://gist.githubusercontent.com/manphiz/9507743/raw/45081e12c2f1faf81e8536f365af05173c6dab5c/patch-ppl-flexible-array-clang_v2.patch
+==> Patching
+==> Applying patch-ppl-flexible-array-clang_v2.patch
+patching file configure
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ppl@0.11/0.11_1 --disable-silent-rules --disable-ppl_lpsol --disable-ppl_lcdd --disable-ppl_pips --with-gmp-prefix=/home/linuxbrew/.linuxbrew/opt/gmp@4
+==> make install
 ==> Caveats
 This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
 because this is an alternate version of another formula.
 
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/gmp@4/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/gmp@4/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gmp@4/4.3.2: 20 files, 2.8MB
-==> Installing cloog dependency: isl@0.12
-==> Downloading https://linuxbrew.bintray.com/bottles/isl@0.12-0.12.2.x86_64_linux.bottle.1.tar.gz
-==> Pouring isl@0.12-0.12.2.x86_64_linux.bottle.1.tar.gz
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/ppl@0.11/bin:$PATH"' >> ~/.bash_profile
 
 For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/isl@0.12/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/isl@0.12/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/isl@0.12/lib/pkgconfig
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/ppl@0.11/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/ppl@0.11/include
 
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/isl@0.12/0.12.2: 58 files, 3.6MB
-==> Installing cloog
-==> Downloading https://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.4.tar.gz
-==> Downloading from https://www.bastoul.net/cloog/pages/download/cloog-0.18.4.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/cloog/0.18.4_1 --with-gmp=system --with-gmp-prefix=/home/linuxbrew/.linuxbrew/opt/gmp@4 --with-isl=system --with-isl-prefix=/home/linuxbrew/.linuxbrew/opt/isl@0.12
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ppl@0.11/0.11_1: 1,208 files, 168.3MB, built in 29 minutes
+==> Installing cloog@0.15
+==> Downloading https://gcc.gnu.org/pub/gcc/infrastructure/cloog-ppl-0.15.11.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cloog@0.15/0.15.11 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp@4" --with-ppl=/home/linuxbrew/.linuxbrew/opt/ppl@0.11"
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cloog`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cloog/0.18.4_1: 36 files, 725.0KB, built in 3 minutes 36 seconds
-==> Determining cloog bottle rebuild...
-==> Bottling cloog-0.18.4_1.x86_64_linux.bottle.1.tar.gz...
-./cloog-0.18.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cloog@0.15`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cloog@0.15/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/cloog@0.15/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/cloog@0.15/include
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cloog@0.15/0.15.11: 24 files, 1.3MB, built in 3 minutes 10 seconds
+==> Determining cloog@0.15 bottle rebuild...
+==> Bottling cloog@0.15-0.15.11.x86_64_linux.bottle.tar.gz...
+./cloog@0.15-0.15.11.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "766384be19d2f8efee19547da44831266fb04b310c10ef1854bb1e699b78250e" => :x86_64_linux
+    sha256 "d1d914d82ff92e6581b6c9b971538c4c885918339ff1351403abe694c2098159" => :x86_64_linux
   end
