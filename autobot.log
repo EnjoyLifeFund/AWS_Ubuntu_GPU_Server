@@ -1,29 +1,14 @@
-==> Installing dependencies for daemonlogger: libdnet
-==> Installing daemonlogger dependency: libdnet
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/libdnet/libdnet-1.12.tgz
-==> autoreconf -ivf
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12/share/man --with-python
-==> make install
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdnet/1.12: 31 files, 1.3MB, built in 8 minutes 20 seconds
-==> Installing daemonlogger
-==> Downloading https://downloads.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/daemonlogger/1.2.1
+==> Downloading https://www.inet.no/dante/files/dante-1.4.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/dante/1.4.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc/dante
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall daemonlogger`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/daemonlogger/1.2.1: 8 files, 92.5KB, built in 1 minute 55 seconds
-==> Determining daemonlogger bottle rebuild...
-==> Bottling daemonlogger-1.2.1.x86_64_linux.bottle.tar.gz...
-./daemonlogger-1.2.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall dante`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dante/1.4.2: 17 files, 8.2MB, built in 24 minutes 30 seconds
+==> Determining dante bottle rebuild...
+==> Bottling dante-1.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dante-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dante-1.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8a406242e5fbfc27ead61e45b46437ebf40d6ab8079e73b8aa939f72add14673" => :x86_64_linux
+    rebuild 1
+    sha256 "702f2851dc156c6b265d2f8357630309eb514c25f76eed097ba34682af5f9448" => :x86_64_linux
   end
