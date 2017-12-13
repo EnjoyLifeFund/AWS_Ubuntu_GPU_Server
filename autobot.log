@@ -1,50 +1,22 @@
-==> Downloading https://github.com/audreyr/cookiecutter/archive/1.6.0.tar.gz
-==> Downloading from https://codeload.github.com/audreyr/cookiecutter/tar.gz/1.6.0
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/cookiecutter--homebrew-virtualenv-20171213-72758-1753mp6/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/cookiecutter--homebrew-virtualenv-20171213-72758-1753mp6/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec
-==> Downloading https://files.pythonhosted.org/packages/54/db/76459c4dd3561bbe682619a5c576ff30c42e37c2e01900ed30a501957150/arrow-0.10.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--arrow-20171213-72758-vk66kh/arrow-0.10.0
-==> Downloading https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--binaryornot-20171213-72758-i504ad/binaryornot-0.4.4
-==> Downloading https://files.pythonhosted.org/packages/20/d0/3f7a84b0c5b89e94abbd073a5f00c7176089f526edb056686751d5064cbd/certifi-2017.7.27.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--certifi-20171213-72758-1b028bf/certifi-2017.7.27.1
-==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--chardet-20171213-72758-19a0sz9/chardet-3.0.4
-==> Downloading https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--click-20171213-72758-17gezx3/click-6.7
-==> Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--future-20171213-72758-76ecqe/future-0.16.0
-==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--idna-20171213-72758-vlflt7/idna-2.6
-==> Downloading https://files.pythonhosted.org/packages/90/61/f820ff0076a2599dd39406dcb858ecb239438c02ce706c8e91131ab9c7f1/Jinja2-2.9.6.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--Jinja2-20171213-72758-1fnnxv/Jinja2-2.9.6
-==> Downloading https://files.pythonhosted.org/packages/de/7c/ee2f2014a2a0616ad3328e58e7dac879251babdb4cb796d770b5d32c469f/jinja2-time-0.2.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--jinja2-time-20171213-72758-vhqa7p/jinja2-time-0.2.0
-==> Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--MarkupSafe-20171213-72758-17qgmqn/MarkupSafe-1.0
-==> Downloading https://files.pythonhosted.org/packages/9f/7a/d92b5cc1d2f6bf0f1c1cd427e1665a3b3889563ba25fbb66f50356954c45/poyo-0.4.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--poyo-20171213-72758-af2qok/poyo-0.4.1
-==> Downloading https://files.pythonhosted.org/packages/54/bb/f1db86504f7a49e1d9b9301531181b00a1c7325dc85a29160ee3eaa73a54/python-dateutil-2.6.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--python-dateutil-20171213-72758-em0dx9/python-dateutil-2.6.1
-==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--requests-20171213-72758-1df0woy/requests-2.18.4
-==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--six-20171213-72758-1xaql4f/six-1.11.0
-==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--urllib3-20171213-72758-1dze5rx/urllib3-1.22
-==> Downloading https://files.pythonhosted.org/packages/e5/cd/7fb54d4b3d43ed59ecb704fb96876831e0b493c4e24eecddd4ecb2442f5e/whichcraft-0.4.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter--whichcraft-20171213-72758-5gq01w/whichcraft-0.4.1
-==> /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cookiecutter-20171213-72758-1sjfo75/cookiecutter-1.6.0
+==> Downloading https://github.com/coq/coq/archive/V8.7.0.tar.gz
+==> Downloading from https://codeload.github.com/coq/coq/tar.gz/V8.7.0
+==> opam init --no-setup
+==> opam install ocamlfind
+==> opam config exec -- ./configure -prefix /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1 -mandir /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/man -emacslib /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/emacs/site-lisp/coq -coqdocdir /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1/share/coq/latex -coqide no -with-doc no
+==> make world
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cookiecutter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cookiecutter/1.6.0: 1,772 files, 19.9MB, built in 4 minutes 43 seconds
-==> Determining cookiecutter bottle rebuild...
-==> Bottling cookiecutter-1.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cookiecutter-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cookiecutter-1.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall coq`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/coq
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/coq/8.7.0_1: 3,866 files, 244.6MB, built in 38 minutes
+==> Determining coq bottle rebuild...
+==> Bottling coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./coq-8.7.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a4be19d857d05bb8d5b25077e05748fdc4431b1dff74d03c8d98fbd3e18eaa66" => :x86_64_linux
+    sha256 "2f147b87a09b195772ece878a007a3d33589fc8f9712b05e6af5dde0c57ea58d" => :x86_64_linux
   end
