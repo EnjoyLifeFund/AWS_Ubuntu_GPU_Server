@@ -1,20 +1,20 @@
-==> Installing dependencies for bro: geoip
-==> Installing bro dependency: geoip
-==> Downloading https://linuxbrew.bintray.com/bottles/geoip-1.6.11.x86_64_linux.bottle.tar.gz
-==> Pouring geoip-1.6.11.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/geoip/1.6.11: 19 files, 2.4MB
-==> Installing bro
-==> Downloading https://www.bro.org/downloads/bro-2.5.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bro/2.5.2 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --localstatedir=/home/linuxbrew/.linuxbrew/var --conf-files-dir=/home/linuxbrew/.linuxbrew/etc
-==> make install
+==> Downloading https://sites.google.com/site/broguegame/brogue-1.7.4-linux-amd64.tbz2
+==> Downloading from https://sites.google.com/site/broguegame/brogue-1.7.4-linux-amd64.tbz2?attredirects=0
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c999df7dff/brogue/1.7.4.patch
+==> Patching
+==> Applying 1.7.4.patch
+patching file src/platform/platformdependent.c
+==> make clean curses
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bro`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bro/2.5.2: 584 files, 143.2MB, built in 25 minutes 25 seconds
-==> Determining bro bottle rebuild...
-==> Bottling bro-2.5.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bro-2.5.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bro-2.5.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall brogue`
+==> Caveats
+If you are upgrading from 1.7.2, you need to copy your highscores file:
+    cp /home/linuxbrew/.linuxbrew/Cellar/brogue/1.7.2/BrogueHighScores.txt /home/linuxbrew/.linuxbrew/var/brogue/
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/brogue/1.7.4: 8 files, 1.8MB, built in 36 seconds
+==> Determining brogue bottle rebuild...
+==> Bottling brogue-1.7.4.x86_64_linux.bottle.tar.gz...
+./brogue-1.7.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "c82b311fe4e38cb5684391a6275790e264ae1f11cbdd3c64d18d264a368b2847" => :x86_64_linux
+    sha256 "8d6f5f8ece1f61d599bcdc30d8fc3dc6bf8c340e05d1e839d7e8117644663156" => :x86_64_linux
   end
