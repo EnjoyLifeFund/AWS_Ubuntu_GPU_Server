@@ -1,16 +1,14 @@
-==> Downloading https://github.com/CocoaPods/CocoaPods/archive/1.3.1.tar.gz
-==> Downloading from https://codeload.github.com/CocoaPods/CocoaPods/tar.gz/1.3.1
-==> gem build cocoapods.gemspec
-==> gem install cocoapods-1.3.1.gem
+==> Downloading https://github.com/vmi/cocot/archive/cocot-1.2-20171118.tar.gz
+==> Downloading from https://codeload.github.com/vmi/cocot/tar.gz/cocot-1.2-20171118
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cocot/1.2-20171118
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cocoapods`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cocoapods/1.3.1: 8,734 files, 17.9MB, built in 7 minutes 7 seconds
-==> Determining cocoapods bottle rebuild...
-==> Bottling cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cocot`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cocot/1.2-20171118: 8 files, 95.0KB, built in 2 minutes 23 seconds
+==> Determining cocot bottle rebuild...
+==> Bottling cocot-1.2-20171118.x86_64_linux.bottle.1.tar.gz...
+./cocot-1.2-20171118.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2722fa59aad0de8f3726f31a8c3770ecf391290aa8710dcc1cf828f97b0df058" => :x86_64_linux
+    sha256 "863b7da3899f94c5d6397690ba334a44a7760584737d2b31c01d6df587291b1a" => :x86_64_linux
   end
