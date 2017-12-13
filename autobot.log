@@ -1,15 +1,17 @@
-==> Downloading https://cmocka.org/files/1.1/cmocka-1.1.1.tar.xz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cmocka/1.1.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DWITH_STATIC_LIB=ON -DWITH_CMOCKERY_SUPPORT=ON -DUNIT_TESTING=ON
-==> make
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cmockery/cmockery-0.1.2.tar.gz
+==> Patching
+patching file src/cmockery.c
+patching file src/example/allocate_module.c
+patching file src/example/calculator.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cmockery/0.1.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmocka`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cmocka/1.1.1: 18 files, 238.2KB, built in 2 minutes 40 seconds
-==> Determining cmocka bottle rebuild...
-==> Bottling cmocka-1.1.1.x86_64_linux.bottle.1.tar.gz...
-./cmocka-1.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cmockery`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cmockery/0.1.2: 20 files, 407KB, built in 4 minutes 42 seconds
+==> Determining cmockery bottle rebuild...
+==> Bottling cmockery-0.1.2.x86_64_linux.bottle.1.tar.gz...
+./cmockery-0.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "83f9c9af4929fd0466075d200eaf44e785c9020e46a5c589cddc1005db28cd72" => :x86_64_linux
+    sha256 "f3d3ebbddbac92f4d54513ae669fde6c8317011a09381dd1da02a7dfc0977f94" => :x86_64_linux
   end
