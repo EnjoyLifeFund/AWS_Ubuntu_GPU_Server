@@ -1,17 +1,24 @@
-==> Downloading https://files.pythonhosted.org/packages/f1/4b/04f57158a0fb15473c37096b8beca725321bf969f15b7d190333ab019c94/ccm-3.1.1.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ccm/3.1.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ccm/3.1.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ccm/3.1.1/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://www.skamphausen.de/downloads/cdargs/cdargs-1.35.tar.gz
+==> Patching
+patching file contrib/cdargs-bash.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35/share/man
+==> make
+==> make install-strip
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ccm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ccm/3.1.1: 85 files, 1.4MB, built in 1 minute 33 seconds
-==> Determining ccm bottle rebuild...
-==> Bottling ccm-3.1.1.x86_64_linux.bottle.1.tar.gz...
-./ccm-3.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cdargs`
+==> Caveats
+Support files for bash, tcsh, and emacs have been installed to:
+  /home/linuxbrew/.linuxbrew/opt/cdargs/contrib
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cdargs/1.35: 14 files, 169.9KB, built in 1 minute 45 seconds
+==> Determining cdargs bottle rebuild...
+==> Bottling cdargs-1.35.x86_64_linux.bottle.1.tar.gz...
+./cdargs-1.35.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2d4b96a59c9e340f77402ca5e119e36d42f099871137e15b91418a777e8d81be" => :x86_64_linux
+    sha256 "118a273accd9dd6f38e1c1465e0227386eb0ab0ca6143de27c714b513e66121e" => :x86_64_linux
   end
