@@ -1,17 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/bsdsfv/bsdsfv/1.18/bsdsfv-1.18.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/bsdsfv/bsdsfv/1.18/bsdsfv-1.18.tar.gz
-==> Patching
-patching file bsdsfv.c
-==> make all
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/bsponmpi/bsponmpi/0.3/bsponmpi-0.3.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/bsponmpi/bsponmpi/0.3/bsponmpi-0.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/opt/scons/bin/scons -Q mode=release
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bsdsfv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bsdsfv/1.18: 4 files, 37.9KB, built in 10 seconds
-==> Determining bsdsfv bottle rebuild...
-==> Bottling bsdsfv-1.18.x86_64_linux.bottle.1.tar.gz...
-./bsdsfv-1.18.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bsponmpi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bsponmpi/0.3_1: 21 files, 255.4KB, built in 1 minute 4 seconds
+==> Determining bsponmpi bottle rebuild...
+==> Bottling bsponmpi-0.3_1.x86_64_linux.bottle.1.tar.gz...
+./bsponmpi-0.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "07bf23bd26cc3775c8c7bf66b361b43e1461ceae989d6f39586536e2119a1f8f" => :x86_64_linux
+    sha256 "eedd2dd7d97f960bd34b4292816ae36f65504354c345ed5352192c91e9063eed" => :x86_64_linux
   end
