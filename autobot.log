@@ -1,14 +1,4 @@
-==> Downloading https://github.com/vmi/cocot/archive/cocot-1.2-20171118.tar.gz
-==> Downloading from https://codeload.github.com/vmi/cocot/tar.gz/cocot-1.2-20171118
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cocot/1.2-20171118
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cocot`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cocot/1.2-20171118: 8 files, 95.0KB, built in 2 minutes 23 seconds
-==> Determining cocot bottle rebuild...
-==> Bottling cocot-1.2-20171118.x86_64_linux.bottle.1.tar.gz...
-./cocot-1.2-20171118.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "863b7da3899f94c5d6397690ba334a44a7760584737d2b31c01d6df587291b1a" => :x86_64_linux
-  end
+==> Downloading https://github.com/bobthecow/coda-cli/archive/v1.0.5.tar.gz
+==> Downloading from https://codeload.github.com/bobthecow/coda-cli/tar.gz/v1.0.5
+🍺  /home/linuxbrew/.linuxbrew/Cellar/coda-cli/1.0.5: 5 files, 22.9KB, built in 11 seconds
+This formula doesn't require compiling.
