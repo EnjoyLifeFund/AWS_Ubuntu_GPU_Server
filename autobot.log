@@ -1,15 +1,14 @@
-==> Downloading https://github.com/jpbarrette/curlpp/archive/v0.8.1.tar.gz
-==> Downloading from https://codeload.github.com/jpbarrette/curlpp/tar.gz/v0.8.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/curlpp/0.8.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/a-nikolaev/curseofwar/archive/v1.2.0.tar.gz
+==> Downloading from https://codeload.github.com/a-nikolaev/curseofwar/tar.gz/v1.2.0
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall curlpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/curlpp/0.8.1: 43 files, 1.2MB, built in 1 minute 4 seconds
-==> Determining curlpp bottle rebuild...
-==> Bottling curlpp-0.8.1.x86_64_linux.bottle.1.tar.gz...
-./curlpp-0.8.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall curseofwar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/curseofwar/1.2.0: 7 files, 138.1KB, built in 15 seconds
+==> Determining curseofwar bottle rebuild...
+==> Bottling curseofwar-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./curseofwar-1.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "dc1fc8b7265bf5427565c484cde93c4d4be10c0274802096a624b9f321d31656" => :x86_64_linux
+    sha256 "71841a96ffc1263973c4864d11262094297ff954c4e8886f3ceb440d54f12345" => :x86_64_linux
   end
