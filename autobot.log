@@ -1,9 +1,4 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cloud-watch/1.0.20.0: 60 files, 6.9MB, built in 17 seconds
+==> Downloading https://ccl.clozure.com/ftp/pub/release/1.11/ccl-1.11-linuxx86.tar.gz
+==> scripts/ccl64 -n -e (ccl:rebuild-ccl :full t) -e (quit)
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clozure-cl/1.11: 955 files, 88.4MB, built in 13 minutes 4 seconds
 This formula doesn't require compiling.
