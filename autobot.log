@@ -1,4 +1,14 @@
-==> Downloading https://downloads.ortussolutions.com/ortussolutions/commandbox/3.9.2/commandbox-bin-3.9.2.zip
-==> Downloading https://downloads.ortussolutions.com/ortussolutions/commandbox/3.9.2/commandbox-apidocs-3.9.2.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/commandbox/3.9.2: 223 files, 39.3MB, built in 33 seconds
-This formula doesn't require compiling.
+==> Downloading https://mirrorservice.org/sites/ftp.xemacs.org/pub/xemacs/aux/compface-1.5.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall compface`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/compface/1.5.2: 12 files, 148.4KB, built in 1 minute 19 seconds
+==> Determining compface bottle rebuild...
+==> Bottling compface-1.5.2.x86_64_linux.bottle.1.tar.gz...
+./compface-1.5.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "79d1f768b505be1e1c485b2a94d902e26923a4eefe6acbc0cbddd04cf4bbc446" => :x86_64_linux
+  end
