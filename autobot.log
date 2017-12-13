@@ -1,13 +1,17 @@
-==> Downloading https://github.com/opsengine/cpulimit/archive/v0.2.tar.gz
-==> Downloading from https://codeload.github.com/opsengine/cpulimit/tar.gz/v0.2
-==> make
+==> Downloading https://downloads.sourceforge.net/project/cracklib/cracklib/2.9.5/cracklib-2.9.5.tar.gz
+==> Downloading from https://cytranet.dl.sourceforge.net/project/cracklib/cracklib/2.9.5/cracklib-2.9.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5/bin --without-python --with-default-dict=/home/linuxbrew/.linuxbrew/share/cracklib-words
+==> make install
+==> Downloading https://downloads.sourceforge.net/project/cracklib/cracklib-words/2008-05-07/cracklib-words-20080507.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/cracklib/cracklib-words/2008-05-07/cracklib-words-20080507.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpulimit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpulimit/0.2: 5 files, 64KB, built in 16 seconds
-==> Determining cpulimit bottle rebuild...
-==> Bottling cpulimit-0.2.x86_64_linux.bottle.1.tar.gz...
-./cpulimit-0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cracklib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cracklib/2.9.5: 55 files, 17.2MB, built in 3 minutes 28 seconds
+==> Determining cracklib bottle rebuild...
+==> Bottling cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cracklib-2.9.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7c5fe19c689f01dbf93a1e59283df9ce355ad0c86422bc6b11614aa3da046f0b" => :x86_64_linux
+    sha256 "be9bf381004a205557f543ca13715a881124eb84db18d07573578a10ed695453" => :x86_64_linux
   end
