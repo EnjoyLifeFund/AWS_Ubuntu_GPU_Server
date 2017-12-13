@@ -1,20 +1,13 @@
-==> Downloading https://github.com/cloudflare/cfssl/archive/1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/cloudflare/cfssl/tar.gz/1.2.0
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfssl cmd/cfssl/cfssl.go
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfssljson cmd/cfssljson/cfssljson.go
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2/bin/cfsslmkbundle cmd/mkbundle/mkbundle.go
+==> Downloading https://downloads.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3 mandir=/home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3/share/man install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cfssl`
-==> Caveats
-`mkbundle` has been installed as `cfsslmkbundle` to avoid conflict
-with Mono and other tools that ship the same executable.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cfssl/1.2.0_2: 5 files, 18MB, built in 1 minute 14 seconds
-==> Determining cfssl bottle rebuild...
-==> Bottling cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz...
-==> Detecting if cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz is relocatable...
-./cfssl-1.2.0_2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cfv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cfv/1.18.3: 7 files, 145.6KB, built in 8 seconds
+==> Determining cfv bottle rebuild...
+==> Bottling cfv-1.18.3.x86_64_linux.bottle.tar.gz...
+./cfv-1.18.3.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "fd7caddc0c4ddc36856b3248f7aa504e556f8b28980d72788a249359a6c0790a" => :x86_64_linux
+    sha256 "f9740eecd521b45398a07f11eb449716f8c620d3cb8b049e62e6fe6c6fb73a38" => :x86_64_linux
   end
