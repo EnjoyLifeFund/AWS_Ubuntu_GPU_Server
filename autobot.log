@@ -1,15 +1,15 @@
-==> Downloading https://ee.lbl.gov/downloads/cf/cf-1.2.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cf/1.2.5
-==> make
+==> Downloading https://github.com/fakenmc/cf4ocl/archive/v2.1.0.tar.gz
+==> Downloading from https://codeload.github.com/fakenmc/cf4ocl/tar.gz/v2.1.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cf4ocl/2.1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
-==> make install-man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cf/1.2.5: 5 files, 52KB, built in 1 minute 8 seconds
-==> Determining cf bottle rebuild...
-==> Bottling cf-1.2.5.x86_64_linux.bottle.1.tar.gz...
-./cf-1.2.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cf4ocl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cf4ocl/2.1.0: 35 files, 530.3KB, built in 1 minute 35 seconds
+==> Determining cf4ocl bottle rebuild...
+==> Bottling cf4ocl-2.1.0.x86_64_linux.bottle.1.tar.gz...
+./cf4ocl-2.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e30b863ad484236377c1faaa4c07b6eb5911d8640b6a617fa3b34e9a0080895c" => :x86_64_linux
+    sha256 "e42954cd88860afee17202da4418a3907d82c9721de95df452bffb546c37bd0f" => :x86_64_linux
   end
