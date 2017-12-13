@@ -1,15 +1,32 @@
-==> Downloading https://github.com/wincent/clipper/archive/0.4.2.tar.gz
-==> Downloading from https://codeload.github.com/wincent/clipper/tar.gz/0.4.2
-==> go build clipper.go
+==> Downloading http://waxandwane.org/download/clipsafe-1.1.tar.gz
+==> Downloading https://cpan.metacpan.org/authors/id/A/AM/AMS/Crypt-Twofish-2.17.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
+==> make
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA-5.96.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
+==> make
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.35.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
+==> make
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.05.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
+==> make
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.01.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1/libexec
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clipper`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clipper/0.4.2: 5 files, 3.5MB, built in 16 seconds
-==> Determining clipper bottle rebuild...
-==> Bottling clipper-0.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clipper-0.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clipper-0.4.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clipsafe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clipsafe/1.1_1: 1,849 files, 30.2MB, built in 8 minutes 40 seconds
+==> Determining clipsafe bottle rebuild...
+==> Bottling clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clipsafe-1.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e9753ba53dbe2e467df253e43dc6fcbde25e3d7fffeb655f9181100a535076e4" => :x86_64_linux
+    sha256 "988dadbffcc91c1ab342b4e05969dd17645b8c55f5eab941322fcc2b83ed0855" => :x86_64_linux
   end
