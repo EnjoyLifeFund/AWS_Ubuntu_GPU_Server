@@ -1,15 +1,18 @@
-==> Downloading https://downloads.sourceforge.net/project/bogofilter/bogofilter-1.2.4/bogofilter-1.2.4.tar.bz2
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/bogofilter/bogofilter-1.2.4/bogofilter-1.2.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bogofilter/1.2.4_1
+==> Downloading https://www.coker.com.au/bonnie++/bonnie++-1.97.3.tgz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/57a21ef/bonnie%2B%2B/remove-large-file-support-macros.diff
+==> Patching
+==> Applying remove-large-file-support-macros.diff
+patching file bonnie++.cpp
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bogofilter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bogofilter/1.2.4_1: 24 files, 3.1MB, built in 5 minutes 5 seconds
-==> Determining bogofilter bottle rebuild...
-==> Bottling bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bogofilter-1.2.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bonnie++`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bonnie++/1.97.3_1: 19 files, 217.2KB, built in 1 minute 47 seconds
+==> Determining bonnie++ bottle rebuild...
+==> Bottling bonnie++-1.97.3_1.x86_64_linux.bottle.1.tar.gz...
+./bonnie++-1.97.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b715b114cd83608458fd3e3076139eaa0ae63d01322ce3cf7ace05d72ae99ef3" => :x86_64_linux
+    sha256 "d27cfbf3b1496116791145221af1240b70097a9b19c334cd73e4ab439ecc9b9e" => :x86_64_linux
   end
