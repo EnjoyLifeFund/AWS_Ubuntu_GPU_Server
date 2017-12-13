@@ -1,18 +1,12 @@
-==> Downloading https://github.com/oschulz/blitzwave/archive/v0.8.0.tar.gz
-==> Downloading from https://codeload.github.com/oschulz/blitzwave/tar.gz/v0.8.0
-==> Patching
-patching file configure.ac
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/blitzwave/0.8.0
-==> make install
+==> Downloading http://www.crufty.net/ftp/pub/sjg/bmake-20171126.tar.gz
+==> sh boot-strap --prefix=/home/linuxbrew/.linuxbrew/Cellar/bmake/20171126 -DWITHOUT_PROG_LINK --install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall blitzwave`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/blitzwave/0.8.0: 20 files, 1.9MB, built in 6 minutes 57 seconds
-==> Determining blitzwave bottle rebuild...
-==> Bottling blitzwave-0.8.0.x86_64_linux.bottle.1.tar.gz...
-./blitzwave-0.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bmake`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bmake/20171126: 82 files, 608.4KB, built in 6 minutes 51 seconds
+==> Determining bmake bottle rebuild...
+==> Bottling bmake-20171126.x86_64_linux.bottle.1.tar.gz...
+./bmake-20171126.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "814ef2dc41fbc25b8caa4c369c6cefcecbc8ac5093c7ab564adae6970b3c06fb" => :x86_64_linux
+    sha256 "b0fd900aff89c9f35648496972f353d6a6cec9316d05c12094b67a78b3e1ea4a" => :x86_64_linux
   end
