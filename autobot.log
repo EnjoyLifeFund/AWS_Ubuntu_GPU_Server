@@ -1,3 +1,13 @@
-==> Downloading https://downloads.crowdin.com/cli/v2/crowdin-cli-2.0.20.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/crowdin/2.0.20: 4 files, 7.6MB, built in 19 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz
+==> make CC=gcc-5 LFS=-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall crunch`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/crunch/3.6: 7 files, 132.5KB, built in 13 seconds
+==> Determining crunch bottle rebuild...
+==> Bottling crunch-3.6.x86_64_linux.bottle.tar.gz...
+./crunch-3.6.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "094d77595b2ec194d352b8877dcbc2ccfd229e195445a94eb208eddbdf23cabe" => :x86_64_linux
+  end
