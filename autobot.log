@@ -1,21 +1,22 @@
-==> Downloading https://github.com/juju/charmstore-client/archive/2.2.3.tar.gz
-==> Downloading from https://codeload.github.com/juju/charmstore-client/tar.gz/2.2.3
-==> Cloning https://github.com/kisielk/gotool.git
-==> Checking out revision d6ce6262d87e3a4e153e86023ff56ae771554a41
-==> Cloning https://github.com/rogpeppe/godeps.git
-==> Checking out revision e444a191d9b826975e788bb3c95511447393706d
-==> go install
-==> godeps -x -u dependencies.tsv
-==> go build github.com/juju/charmstore-client/cmd/charm
+==> Downloading https://www.eblong.com/zarf/glk/cheapglk-106.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall charm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/charm/2.2.3: 5 files, 13.1MB, built in 9 minutes 17 seconds
-==> Determining charm bottle rebuild...
-==> Bottling charm-2.2.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if charm-2.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./charm-2.2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cheapglk`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because it conflicts with other Glk libraries.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/cheapglk/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/cheapglk/include
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cheapglk/1.0.6: 10 files, 584KB, built in 14 seconds
+==> Determining cheapglk bottle rebuild...
+==> Bottling cheapglk-1.0.6.x86_64_linux.bottle.1.tar.gz...
+./cheapglk-1.0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cc3c1d890099aec138be1314cd384d784b917759708118de0a26851ee7cae582" => :x86_64_linux
+    sha256 "0c36193d643ea145b2a8f4f3dfd5706d66509f098e264556200dec68068ebcf7" => :x86_64_linux
   end
