@@ -1,15 +1,14 @@
-==> Downloading https://github.com/bitrise-io/bitrise/archive/1.10.1.tar.gz
-==> Downloading from https://codeload.github.com/bitrise-io/bitrise/tar.gz/1.10.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/bitrise/1.10.1/bin/bitrise
+==> Downloading https://downloads.sourceforge.net/project/bittwist/Mac%20OS%20X/Bit-Twist%202.0/bittwist-macosx-2.0.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/bittwist/Mac%20OS%20X/Bit-Twist%202.0/bittwist-macosx-2.0.tar.gz
+==> make
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/bittwist/2.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bitrise`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bitrise/1.10.1: 6 files, 9.9MB, built in 1 minute 9 seconds
-==> Determining bitrise bottle rebuild...
-==> Bottling bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bitrise-1.10.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bittwist`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bittwist/2.0: 10 files, 203.2KB, built in 23 seconds
+==> Determining bittwist bottle rebuild...
+==> Bottling bittwist-2.0.x86_64_linux.bottle.1.tar.gz...
+./bittwist-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "80a45279877d9c20f484b8ba0522febe4c97985ed607bdb1935570ddd736990e" => :x86_64_linux
+    sha256 "51e077a90745835e660645a34fb413e9bb3324da7eb89d492c8b2cdd614d5d2f" => :x86_64_linux
   end
