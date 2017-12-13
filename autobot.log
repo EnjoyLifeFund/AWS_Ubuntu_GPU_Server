@@ -1,77 +1,16 @@
-==> Installing dependencies for cockatrice: protobuf, qt
-==> Installing cockatrice dependency: protobuf
-==> Downloading https://linuxbrew.bintray.com/bottles/protobuf-3.5.0.1.x86_64_linux.bottle.tar.gz
-==> Pouring protobuf-3.5.0.1.x86_64_linux.bottle.tar.gz
-==> Caveats
-Editor support and examples have been installed to:
-  /home/linuxbrew/.linuxbrew/opt/protobuf/share/doc/protobuf
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/protobuf/3.5.0.1: 270 files, 64MB
-==> Installing cockatrice dependency: qt
-==> Downloading https://download.qt.io/official_releases/qt/5.10/5.10.0/single/qt-everywhere-src-5.10.0.tar.xz
-==> Downloading from http://mirrors.ocf.berkeley.edu/qt/archive/qt/5.10/5.10.0/single/qt-everywhere-src-5.10.0.tar.xz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/e8fe6567/qt5/restore-pc-files.patch
-Already downloaded: /home/ubuntu/.cache/Homebrew/qt--patch-48ff18be2f4050de7288bddbae7f47e949512ac4bcd126c2f504be2ac701158b.patch
-==> Patching
-==> Applying restore-pc-files.patch
-patching file qtbase/mkspecs/features/qt_module.prf
-Hunk #1 succeeded at 266 (offset 21 lines).
-==> ./configure -verbose -prefix /home/linuxbrew/.linuxbrew/Cellar/qt/5.10.0 -release -opensource -confirm-license -system-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-pcre -nomake tests -pkg-config -dbus-runtime -qt-xcb -R/home/linuxbrew/.linuxbrew/Cellar/qt/5.10.0/lib -nomake examples
-==> make
-==> make install
-==> Caveats
-We agreed to the Qt opensource license for you.
-If this is unacceptable you should uninstall.
-
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because Qt 5 has CMake issues when linked.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/qt/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/qt/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/qt/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/qt/lib/pkgconfig
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/qt/5.10.0: 9,522 files, 198.4MB, built in 231 minutes 36 seconds
-==> Installing cockatrice
-==> Cloning https://github.com/Cockatrice/Cockatrice.git
-==> Checking out tag 2017-11-19-Release-2.4.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cockatrice/2.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/CocoaPods/CocoaPods/archive/1.3.1.tar.gz
+==> Downloading from https://codeload.github.com/CocoaPods/CocoaPods/tar.gz/1.3.1
+==> gem build cocoapods.gemspec
+==> gem install cocoapods-1.3.1.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cockatrice`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cockatrice/2.4.0: 99 files, 14.3MB, built in 15 minutes 44 seconds
-==> Auto-updated Homebrew!
-Updated 2 taps (homebrew/science, homebrew/core).
-==> New Formulae
-libidn2
-mongodb@3.4
-==> Updated Formulae
-homebrew/science/quicktree
-mongodb
-mono
-optipng
-pygobject
-shpotify
-==> Deleted Formulae
-homebrew/science/moose
-
-==> Determining cockatrice bottle rebuild...
-==> Bottling cockatrice-2.4.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cockatrice-2.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cockatrice-2.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cocoapods`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cocoapods/1.3.1: 8,734 files, 17.9MB, built in 7 minutes 7 seconds
+==> Determining cocoapods bottle rebuild...
+==> Bottling cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cocoapods-1.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "594f72ff497ed1b7473a5213fabf8b8dbfa47838b7db453d4f8b120748bc1fad" => :x86_64_linux
+    sha256 "2722fa59aad0de8f3726f31a8c3770ecf391290aa8710dcc1cf828f97b0df058" => :x86_64_linux
   end
