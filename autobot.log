@@ -1,15 +1,15 @@
-==> Downloading https://github.com/OlafvdSpek/ctemplate/archive/ctemplate-2.3.tar.gz
-==> Downloading from https://codeload.github.com/OlafvdSpek/ctemplate/tar.gz/ctemplate-2.3
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ctemplate/2.3
-==> make install
+==> Downloading https://github.com/bcicen/ctop/archive/v0.6.1.tar.gz
+==> Downloading from https://codeload.github.com/bcicen/ctop/tar.gz/v0.6.1
+==> glide install
+==> make build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ctemplate`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ctemplate/2.3: 49 files, 17.6MB, built in 6 minutes 42 seconds
-==> Determining ctemplate bottle rebuild...
-==> Bottling ctemplate-2.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ctemplate-2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ctemplate-2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ctop`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ctop/0.6.1: 5 files, 9MB, built in 5 minutes 48 seconds
+==> Determining ctop bottle rebuild...
+==> Bottling ctop-0.6.1.x86_64_linux.bottle.tar.gz...
+==> Detecting if ctop-0.6.1.x86_64_linux.bottle.tar.gz is relocatable...
+./ctop-0.6.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "a290f4d9448d7677c8427b6b483af5ac90161469d15da018b9c476cc03e55ea4" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "ff70f8df6407b8ba2527f927ed756ca0821da278a86db22ba2646fc77dad8e2e" => :x86_64_linux
   end
