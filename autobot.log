@@ -1,13 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cpptest/1.1.2
+==> Downloading https://dev-www.libreoffice.org/src/cppunit-1.14.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cppunit/1.14.0_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cpptest`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cpptest/1.1.2: 22 files, 2.5MB, built in 2 minutes 53 seconds
-==> Determining cpptest bottle rebuild...
-==> Bottling cpptest-1.1.2.x86_64_linux.bottle.tar.gz...
-./cpptest-1.1.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cppunit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cppunit/1.14.0_1: 91 files, 8.7MB, built in 3 minutes 57 seconds
+==> Determining cppunit bottle rebuild...
+==> Bottling cppunit-1.14.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cppunit-1.14.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cppunit-1.14.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "229aaa0fff2497ba91fecb85a74ad2318823b7c50a939c923d3795a5335d1589" => :x86_64_linux
+    rebuild 1
+    sha256 "190a3788dc7508f17cf163ed80c7e29242ba344cca476b6b37001cb182dd7ccc" => :x86_64_linux
   end
