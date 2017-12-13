@@ -1,3 +1,16 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=com/google/javascript/closure-compiler/v20171112/closure-compiler-v20171112.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/closure-compiler/20171112: 4 files, 7.1MB, built in 18 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/google/closure-linter/archive/v2.3.19.tar.gz
+==> Downloading from https://codeload.github.com/google/closure-linter/tar.gz/v2.3.19
+==> Downloading https://pypi.python.org/packages/source/p/python-gflags/python-gflags-2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall closure-linter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19: 134 files, 1.2MB, built in 17 seconds
+==> Determining closure-linter bottle rebuild...
+==> Bottling closure-linter-2.3.19.x86_64_linux.bottle.1.tar.gz...
+./closure-linter-2.3.19.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a5757aa80aa9264ddccb7bdad443220dc529898252c9c85aa042542e590f9ac5" => :x86_64_linux
+  end
