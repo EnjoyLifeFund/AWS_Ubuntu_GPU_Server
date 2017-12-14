@@ -1,16 +1,13 @@
-==> Upgrading 1 outdated package, with result:
-dialog 1.3-20171209
-==> Upgrading dialog 
-==> Downloading https://invisible-mirror.net/archives/dialog/dialog-1.3-20171209.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dialog/1.3-20171209
-==> make install-full
+==> Downloading https://ftp.gnu.org/gnu/diction/diction-1.11.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/diction/1.11
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dialog`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dialog/1.3-20171209: 14 files, 2.4MB, built in 4 minutes 44 seconds
-==> Determining dialog bottle rebuild...
-==> Bottling dialog-1.3-20171209.x86_64_linux.bottle.1.tar.gz...
-./dialog-1.3-20171209.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall diction`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/diction/1.11: 17 files, 342.0KB, built in 1 minute 16 seconds
+==> Determining diction bottle rebuild...
+==> Bottling diction-1.11.x86_64_linux.bottle.1.tar.gz...
+./diction-1.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0e14a4ecf78bd598902187846466492f5bf0eac07117e7a83620ac3e6e204d82" => :x86_64_linux
+    sha256 "efa97d5c61ce444e234c77e8b1cd51a44b3709241a1f08989a8c665f48a49100" => :x86_64_linux
   end
