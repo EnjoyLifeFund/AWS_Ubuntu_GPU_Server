@@ -1,9 +1,13 @@
-==> Determining grt bottle rebuild...
-==> Bottling grt-0.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if grt-0.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./grt-0.0.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/grunt-cli/1.2.0/libexec /tmp/grunt-cli-20171214-31169-jgspt4/package/grunt-cli-1.2.0.tgz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grunt-cli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grunt-cli/1.2.0: 154 files, 594.9KB, built in 3 seconds
+==> Determining grunt-cli bottle rebuild...
+==> Bottling grunt-cli-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./grunt-cli-1.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f4460da666918534571a961e93d152514f7a77fcdf9c0da22b91717de3bbc548" => :x86_64_linux
+    sha256 "4c0dd0709232cff7d59792f94c531413f5a7e7ed67475d4b3c81199156a20cf8" => :x86_64_linux
   end
