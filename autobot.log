@@ -1,13 +1,27 @@
-==> Downloading https://www.pixelbeat.org/programs/dvd-vr/dvd-vr-0.9.7.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dvd-vr/0.9.7 install
+==> Installing dependencies for dvdauthor: libdvdcss, libdvdread
+==> Installing dvdauthor dependency: libdvdcss
+==> Downloading https://download.videolan.org/pub/videolan/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvdcss/1.4.0
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvdcss/1.4.0: 19 files, 540.4KB, built in 16 seconds
+==> Installing dvdauthor dependency: libdvdread
+==> Downloading https://download.videolan.org/pub/videolan/libdvdread/5.0.3/libdvdread-5.0.3.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvdread/5.0.3
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvdread/5.0.3: 28 files, 675.2KB, built in 8 seconds
+==> Installing dvdauthor
+==> Downloading https://downloads.sourceforge.net/project/dvdauthor/dvdauthor-0.7.2.tar.gz
+==> Downloading from https://svwh.dl.sourceforge.net/project/dvdauthor/dvdauthor-0.7.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2/share/man
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dvd-vr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dvd-vr/0.9.7: 7 files, 76.6KB, built in 2 seconds
-==> Determining dvd-vr bottle rebuild...
-==> Bottling dvd-vr-0.9.7.x86_64_linux.bottle.1.tar.gz...
-./dvd-vr-0.9.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dvdauthor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2: 24 files, 1.5MB, built in 8 seconds
+==> Determining dvdauthor bottle rebuild...
+==> Bottling dvdauthor-0.7.2.x86_64_linux.bottle.1.tar.gz...
+./dvdauthor-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f27e19d76d76c4f2b74a2b055f93f0be408e65a8b1af302a8ba16f6badf2cd86" => :x86_64_linux
+    sha256 "12d21a1b180b83b7126248ea08ff9b95433a5b0167f21c6e2672fb42289dfaf3" => :x86_64_linux
   end
