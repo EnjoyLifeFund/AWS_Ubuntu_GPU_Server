@@ -1,14 +1,13 @@
-==> Downloading https://github.com/jakewendt/envv/archive/v1.7.tar.gz
-==> Downloading from https://codeload.github.com/jakewendt/envv/tar.gz/v1.7
-==> make
+==> Downloading https://www.w3.org/Tools/eot-utils/eot-utilities-1.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/eot-utils/1.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall envv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/envv/1.7: 5 files, 54.9KB, built in 0 seconds
-==> Determining envv bottle rebuild...
-==> Bottling envv-1.7.x86_64_linux.bottle.1.tar.gz...
-./envv-1.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall eot-utils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/eot-utils/1.1: 11 files, 111.6KB, built in 6 seconds
+==> Determining eot-utils bottle rebuild...
+==> Bottling eot-utils-1.1.x86_64_linux.bottle.1.tar.gz...
+./eot-utils-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5af8ea233310e08485c6d4f176460f0c17a3b9efbef417e26246f46d963ba7a8" => :x86_64_linux
+    sha256 "a907483dc0d8bfaf17ba0d022605a824915064127689ea7912d0ded5712eded8" => :x86_64_linux
   end
