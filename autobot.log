@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/gnuski/gnuski/gnuski-0.3/gnuski-0.3.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/gnuski/gnuski/gnuski-0.3/gnuski-0.3.tar.gz
-==> make
+==> Downloading http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-make-2.7.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0 --with-config-file=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0/etc/GNUstep.conf --enable-native-objc-exceptions
+==> make install tooldir=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0/libexec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnuski`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnuski/0.3: 5 files, 27.4KB, built in 1 second
-==> Determining gnuski bottle rebuild...
-==> Bottling gnuski-0.3.x86_64_linux.bottle.1.tar.gz...
-./gnuski-0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnustep-make`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0: 155 files, 1.2MB, built in 7 seconds
+==> Determining gnustep-make bottle rebuild...
+==> Bottling gnustep-make-2.7.0.x86_64_linux.bottle.1.tar.gz...
+./gnustep-make-2.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d9da65ee61b72bf43562c719943eea44af1b33a6d52e42fc31a1888156b774cd" => :x86_64_linux
+    sha256 "82449d5999b2da3a7fc6cc762cae966e41400f8d389d1f7dc29a8249f923e18d" => :x86_64_linux
   end
