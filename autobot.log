@@ -1,14 +1,18 @@
-==> Downloading https://www.balabit.com/downloads/files/syslog-ng/sources/3.4.3/source/eventlog_0.2.13.tar.gz
-==> Downloading from https://my.balabit.com/downloads/syslog-ng/sources/3.4.3/source/eventlog_0.2.13.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/eventlog/0.2.13
-==> make install
+==> Downloading https://github.com/ogham/exa/archive/v0.8.0.tar.gz
+==> Downloading from https://codeload.github.com/ogham/exa/tar.gz/v0.8.0
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/exa/0.8.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eventlog`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/eventlog/0.2.13: 14 files, 137.7KB, built in 10 seconds
-==> Determining eventlog bottle rebuild...
-==> Bottling eventlog-0.2.13.x86_64_linux.bottle.1.tar.gz...
-./eventlog-0.2.13.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exa`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exa/0.8.0: 9 files, 4.3MB, built in 1 minute 19 seconds
+==> Determining exa bottle rebuild...
+==> Bottling exa-0.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if exa-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./exa-0.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "49247250980c019f16259b36056dd745fb535e756bf54c8ad22b827a257b5c08" => :x86_64_linux
+    sha256 "3dddce1ca1718dd1188febbdba50ecbb0cdc9d7d514aef4ffa8e1deab2c43dbc" => :x86_64_linux
   end
