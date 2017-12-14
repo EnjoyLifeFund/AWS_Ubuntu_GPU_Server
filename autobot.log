@@ -1,13 +1,6 @@
-==> Downloading http://tjaberg.com/gsar121.zip
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gsar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gsar/1.21: 4 files, 58KB, built in 1 second
-==> Determining gsar bottle rebuild...
-==> Bottling gsar-1.21.x86_64_linux.bottle.1.tar.gz...
-./gsar-1.21.x86_64_linux.bottle.1.tar.gz
+==> Determining gsasl bottle rebuild...
+==> Bottling gsasl-1.8.0.x86_64_linux.bottle.tar.gz...
+./gsasl-1.8.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "9fa868a0bdfa8cdb92e7f0beeead3b0959db50fe7a479c27bc176d449c74a196" => :x86_64_linux
+    sha256 "476c5b06d6d1356de2d67efd3fa2b52cec5943f47afdaa935fb27da483b66771" => :x86_64_linux
   end
