@@ -1,27 +1,14 @@
-==> Installing dependencies for dtrx: unrar
-==> Installing dtrx dependency: unrar
-==> Downloading https://linuxbrew.bintray.com/bottles/unrar-5.5.8.x86_64_linux.bottle.tar.gz
-==> Pouring unrar-5.5.8.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/unrar/5.5.8: 6 files, 672.3KB
-==> Installing dtrx
-==> Downloading https://brettcsmith.org/2007/dtrx/dtrx-7.1.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/dtrx/7.1
+==> Downloading https://github.com/dlang/dub/archive/v1.6.0.tar.gz
+==> Downloading from https://codeload.github.com/dlang/dub/tar.gz/v1.6.0
+==> ./build.sh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dtrx`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dtrx/7.1: 7 files, 123.3KB, built in 2 seconds
-==> Determining dtrx bottle rebuild...
-==> Bottling dtrx-7.1.x86_64_linux.bottle.1.tar.gz...
-./dtrx-7.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dub`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dub/1.6.0: 6 files, 12.4MB, built in 14 seconds
+==> Determining dub bottle rebuild...
+==> Bottling dub-1.6.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dub-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dub-1.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "016f5b03cdc6db268ebda3b0dcc827dd0d22029deec7d63ea55aa789d1a21ec7" => :x86_64_linux
+    sha256 "619d9a1684a34ebc3c31bc5d105bebf615f198e256891acc6129ce0785e860fd" => :x86_64_linux
   end
