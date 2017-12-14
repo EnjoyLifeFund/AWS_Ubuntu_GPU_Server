@@ -1,16 +1,22 @@
-==> Downloading https://github.com/cginternals/globjects/archive/v1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/cginternals/globjects/tar.gz/v1.0.0
-==> cmake . -Dglbinding_DIR=/home/linuxbrew/.linuxbrew/opt/glbinding -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/globjects/1.0.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> cmake --build . --target install
+==> Downloading https://github.com/get-iplayer/get_iplayer/archive/v3.07.tar.gz
+==> Downloading from https://codeload.github.com/get-iplayer/get_iplayer/tar.gz/v3.07
+==> Downloading https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Socket-IP-0.39.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/get_iplayer/3.07/libexec
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.052.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/get_iplayer/3.07/libexec
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-7.57.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/get_iplayer/3.07/libexec
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall globjects`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/globjects/1.0.0_1: 110 files, 8.4MB, built in 11 seconds
-==> Determining globjects bottle rebuild...
-==> Bottling globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall get_iplayer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/get_iplayer/3.07: 290 files, 3.8MB, built in 6 seconds
+==> Determining get_iplayer bottle rebuild...
+==> Bottling get_iplayer-3.07.x86_64_linux.bottle.1.tar.gz...
+./get_iplayer-3.07.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "201cad1cdfd906c2b2888e9156745861bec0d423b69db47e4263f7165a1a7da4" => :x86_64_linux
+    sha256 "3efa896b24ad9a2139692957bd9b935bd6ae86369bf0a73c403e1e4a8a6e84fc" => :x86_64_linux
   end
