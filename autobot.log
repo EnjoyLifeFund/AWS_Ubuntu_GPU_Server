@@ -1,4 +1,14 @@
-==> Downloading https://github.com/philovivero/distribution/archive/1.3.tar.gz
-==> Downloading from https://codeload.github.com/philovivero/distribution/tar.gz/1.3
-🍺  /home/linuxbrew/.linuxbrew/Cellar/distribution/1.3: 7 files, 142KB, built in 11 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/stathissideris/ditaa/archive/v0.10.tar.gz
+==> Downloading from https://codeload.github.com/stathissideris/ditaa/tar.gz/v0.10
+==> ant -buildfile build/release.xml release-jar
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ditaa`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ditaa/0.10: 7 files, 146.8KB, built in 55 seconds
+==> Determining ditaa bottle rebuild...
+==> Bottling ditaa-0.10.x86_64_linux.bottle.1.tar.gz...
+./ditaa-0.10.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3f1538a9ee3aa67f35e48b3753d3b69ce624b6ba9f96c107c070500a84d8a6af" => :x86_64_linux
+  end
