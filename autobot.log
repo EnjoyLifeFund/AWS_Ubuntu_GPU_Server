@@ -1,30 +1,9 @@
-==> Downloading https://github.com/davep/eg/archive/v1.02.tar.gz
-==> Downloading from https://codeload.github.com/davep/eg/tar.gz/v1.02
-==> make
-==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/eg/1.02/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/eg/1.02/share/man NGDIR=/home/linuxbrew/.linuxbrew/etc/norton-guides
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/eg
-Target /home/linuxbrew/.linuxbrew/bin/eg
-is a symlink belonging to easy-git. You can unlink it:
-  brew unlink easy-git
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite eg
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run eg
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/eg -> /home/linuxbrew/.linuxbrew/Cellar/easy-git/1.7.5.2/bin/eg
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eg`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/eg/1.02: 9 files, 126.8KB, built in 1 second
-==> Determining eg bottle rebuild...
-==> Bottling eg-1.02.x86_64_linux.bottle.1.tar.gz...
-./eg-1.02.x86_64_linux.bottle.1.tar.gz
+==> Determining eigen bottle rebuild...
+==> Bottling eigen-3.3.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if eigen-3.3.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./eigen-3.3.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "6aa51bf440ccfd0bc3334c2daebc96d5bc80c71e11386eb2af043332d925b04d" => :x86_64_linux
+    sha256 "2a1136630d9cc3304c330dac1c337c1583977ad4c8c4ca60e0a81bd13e63c3c4" => :x86_64_linux
   end
