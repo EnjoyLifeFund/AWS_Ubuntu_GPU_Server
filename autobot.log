@@ -1,15 +1,12 @@
-==> Downloading https://github.com/nu774/fdkaac/archive/v0.6.3.tar.gz
-==> Downloading from https://codeload.github.com/nu774/fdkaac/tar.gz/v0.6.3
-==> autoreconf -i
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fdk-aac-encoder/0.6.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/fdk-aac-encoder/0.6.3/share/man
-==> make install
+==> Downloading https://github.com/adrianlopezroche/fdupes/archive/v1.6.1.tar.gz
+==> Downloading from https://codeload.github.com/adrianlopezroche/fdupes/tar.gz/v1.6.1
+==> make fdupes
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fdk-aac-encoder`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fdk-aac-encoder/0.6.3: 9 files, 2.8MB, built in 14 seconds
-==> Determining fdk-aac-encoder bottle rebuild...
-==> Bottling fdk-aac-encoder-0.6.3.x86_64_linux.bottle.1.tar.gz...
-./fdk-aac-encoder-0.6.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fdupes`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fdupes/1.6.1: 7 files, 116.2KB, built in 1 second
+==> Determining fdupes bottle rebuild...
+==> Bottling fdupes-1.6.1.x86_64_linux.bottle.tar.gz...
+./fdupes-1.6.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "a73a6eec8d409dd661aa118ebfe35934b88663df366772e7a4bba5c7b45f6c41" => :x86_64_linux
+    sha256 "b50727e87061d110a77f0df687133b4f2c6e2f6c7318a6745e081b4a3d957ec8" => :x86_64_linux
   end
