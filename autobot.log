@@ -1,13 +1,12 @@
-==> Downloading http://www.dettus.net/dhex/dhex_0.68.tar.gz
-==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/dhex/0.68
+==> Downloading https://gentoo.com/di/di-4.44.tar.gz
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/di/4.44
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dhex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dhex/0.68: 9 files, 136.3KB, built in 19 seconds
-==> Determining dhex bottle rebuild...
-==> Bottling dhex-0.68.x86_64_linux.bottle.1.tar.gz...
-./dhex-0.68.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall di`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/di/4.44: 10 files, 181.0KB, built in 6 minutes 29 seconds
+==> Determining di bottle rebuild...
+==> Bottling di-4.44.x86_64_linux.bottle.1.tar.gz...
+./di-4.44.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7ffbfc9e488f069c81ca2ce7cc43f9b5b244c4bd5605526158bb58ae9adf4492" => :x86_64_linux
+    sha256 "d2b3f9c2cce3fdd721430f01375ae626863e87e93e4c4b1bf6c415a8abdd5a13" => :x86_64_linux
   end
