@@ -1,16 +1,25 @@
-==> Downloading https://github.com/Workiva/frugal/archive/2.13.0.tar.gz
-==> Downloading from https://codeload.github.com/Workiva/frugal/tar.gz/2.13.0
-==> godep restore
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/frugal/2.13.0/bin/frugal
+==> Installing dependencies for fs-uae: libmpeg2, openal-soft
+==> Installing fs-uae dependency: libmpeg2
+==> Downloading https://linuxbrew.bintray.com/bottles/libmpeg2-0.5.1.x86_64_linux.bottle.1.tar.gz
+==> Pouring libmpeg2-0.5.1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmpeg2/0.5.1: 25 files, 500.5KB
+==> Installing fs-uae dependency: openal-soft
+==> Downloading https://linuxbrew.bintray.com/bottles/openal-soft-1.18.2.x86_64_linux.bottle.tar.gz
+==> Pouring openal-soft-1.18.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openal-soft/1.18.2: 30 files, 1.3MB
+==> Installing fs-uae
+==> Downloading https://fs-uae.net/stable/2.8.3/fs-uae-2.8.3.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fs-uae/2.8.3
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall frugal`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/frugal/2.13.0: 5 files, 7.5MB, built in 7 seconds
-==> Determining frugal bottle rebuild...
-==> Bottling frugal-2.13.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if frugal-2.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./frugal-2.13.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fs-uae`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fs-uae/2.8.3: 30 files, 75.2MB, built in 1 minute 12 seconds
+==> Determining fs-uae bottle rebuild...
+==> Bottling fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2c6e651a59e84e36323c3c0122e25ebae8ba6ebe7282a9f7551ec80011708e5a" => :x86_64_linux
+    sha256 "63f8c46fcd53ec3e9d66fef1354c9704370525cc05a2dc441ab9b26d54fec3a8" => :x86_64_linux
   end
