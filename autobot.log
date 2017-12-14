@@ -1,9 +1,24 @@
-==> Determining eigen bottle rebuild...
-==> Bottling eigen-3.3.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if eigen-3.3.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./eigen-3.3.4.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://bitbucket.org/eigen/eigen/get/3.2.10.tar.bz2
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/eigen@3.2/3.2.10 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -Dpkg_config_libdir=/home/linuxbrew/.linuxbrew/Cellar/eigen@3.2/3.2.10/lib ..
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall eigen@3.2`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+For compilers to find this software you may need to set:
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/eigen@3.2/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/eigen@3.2/share/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/eigen@3.2/3.2.10: 369 files, 3.7MB, built in 17 seconds
+==> Determining eigen@3.2 bottle rebuild...
+==> Bottling eigen@3.2-3.2.10.x86_64_linux.bottle.1.tar.gz...
+./eigen@3.2-3.2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2a1136630d9cc3304c330dac1c337c1583977ad4c8c4ca60e0a81bd13e63c3c4" => :x86_64_linux
+    sha256 "b179a0838e489ad3f4fbbcda94f205775c3ec88b5ba74c174144f13a716bef05" => :x86_64_linux
   end
