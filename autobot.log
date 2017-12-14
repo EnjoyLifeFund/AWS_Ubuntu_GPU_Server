@@ -1,34 +1,15 @@
-==> Cloning https://github.com/FStarLang/FStar.git
-==> Checking out tag v0.9.5.0
-==> Cloning https://github.com/Z3Prover/z3.git
-==> Checking out revision 1f29cebd4df633a4fea50a29b80aa756ecd0e8e7
-==> python scripts/mk_make.py --prefix=/home/linuxbrew/.linuxbrew/Cellar/fstar/0.9.5.0_1/libexec
-==> make -C build
-==> make -C build install
-==> opam init --no-setup
-==> opam switch 4.05.0
-==> opam config exec opam install batteries=2.7.0 zarith=1.5 yojson=1.4.0 pprint=20140424 stdint=0.4.2 menhir=20170712
-==> opam config exec -- make -C src/ocaml-output
+==> Downloading https://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz
+==> Downloading from http://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gl2ps/1.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fstar`
-==> Caveats
-F* code can be extracted to OCaml code.
-To compile the generated OCaml code, you must install
-some packages from the OPAM package manager:
-- brew install opam
-- opam install batteries zarith yojson pprint stdint menhir
-
-F* code can be extracted to F# code.
-To compile the generated F# (.NET) code, you must install
-the 'mono' package that includes the fsharp compiler:
-- brew install mono
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fstar/0.9.5.0_1: 31,197 files, 396.6MB, built in 27 minutes 39 seconds
-==> Determining fstar bottle rebuild...
-==> Bottling fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gl2ps`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gl2ps/1.4.0: 14 files, 606.3KB, built in 8 seconds
+==> Determining gl2ps bottle rebuild...
+==> Bottling gl2ps-1.4.0.x86_64_linux.bottle.1.tar.gz...
+./gl2ps-1.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "65ea001b004b1e982d40c46fefe9604ca2618ea80d01f76607e9728f4f300af8" => :x86_64_linux
+    sha256 "765d41d536ff6ef0405471a167b41455f8057a62f081d1224b533b32c0f8baa6" => :x86_64_linux
   end
