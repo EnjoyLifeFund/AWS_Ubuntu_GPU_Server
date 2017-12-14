@@ -1,14 +1,18 @@
-==> Downloading https://github.com/gosuri/git-url-sub/archive/1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/gosuri/git-url-sub/tar.gz/1.0.1
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-url-sub/1.0.1
+==> Downloading https://github.com/brettlangdon/git-vendor/archive/v1.1.2.tar.gz
+==> Downloading from https://codeload.github.com/brettlangdon/git-vendor/tar.gz/v1.1.2
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-vendor/1.1.2 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-url-sub`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-url-sub/1.0.1: 6 files, 31.4KB, built in 0 seconds
-==> Determining git-url-sub bottle rebuild...
-==> Bottling git-url-sub-1.0.1.x86_64_linux.bottle.1.tar.gz...
-./git-url-sub-1.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-vendor`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-vendor/1.1.2: 7 files, 45.4KB, built in 0 seconds
+==> Determining git-vendor bottle rebuild...
+==> Bottling git-vendor-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./git-vendor-1.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2e65407f5b4c832020f3a1a6279fccc7c872a6225ae3f82c8c748b5a108819b7" => :x86_64_linux
+    sha256 "4536c2f9e1bf7381fe0f06bd61761864e56652860b9ce73639b9cb404448935d" => :x86_64_linux
   end
