@@ -1,12 +1,16 @@
-==> Downloading https://github.com/lukas2511/dehydrated/archive/v0.4.0.tar.gz
-==> Downloading from https://codeload.github.com/lukas2511/dehydrated/tar.gz/v0.4.0
+==> Downloading https://github.com/deis/workflow-cli/archive/v2.18.0.tar.gz
+==> Downloading from https://codeload.github.com/deis/workflow-cli/tar.gz/v2.18.0
+==> glide install
+==> go build -o build/deis -ldflags '-X=github.com/deis/workflow-cli/version.Version=v2.18.0'
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dehydrated`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dehydrated/0.4.0: 6 files, 64.8KB, built in 7 seconds
-==> Determining dehydrated bottle rebuild...
-==> Bottling dehydrated-0.4.0.x86_64_linux.bottle.tar.gz...
-./dehydrated-0.4.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall deis`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/deis/2.18.0: 3 files, 9.2MB, built in 1 minute 31 seconds
+==> Determining deis bottle rebuild...
+==> Bottling deis-2.18.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if deis-2.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./deis-2.18.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "72ae7a3aef658fb54180d72b9c1ef7cbd5425308c20ef60e85b58d07cdbf47a5" => :x86_64_linux
+    rebuild 1
+    sha256 "d83a3f757b9742e41461742ee30ccab6ea0418b618b28661b0618a0df730b9f0" => :x86_64_linux
   end
