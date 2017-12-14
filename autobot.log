@@ -1,16 +1,21 @@
-==> Downloading https://github.com/fnproject/cli/archive/0.4.28.tar.gz
-==> Downloading from https://codeload.github.com/fnproject/cli/tar.gz/0.4.28
-==> glide install -v --force --skip-test
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/fn/0.4.28/bin/fn
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://files.pythonhosted.org/packages/6e/c3/217ba20c53a39e68f7bef139a47f5c820230d1d672529de44c9bd961a023/FoBiS.py-2.2.7.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/fobis--homebrew-virtualenv-20171214-93362-ssbtff/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/fobis--homebrew-virtualenv-20171214-93362-ssbtff/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec
+==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed pygooglechart
+==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed graphviz
+==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/fobis-20171214-93362-9i9bc0/FoBiS.py-2.2.7
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fn`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fn/0.4.28: 5 files, 16.2MB, built in 20 seconds
-==> Determining fn bottle rebuild...
-==> Bottling fn-0.4.28.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fn-0.4.28.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fn-0.4.28.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fobis`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7: 833 files, 10.1MB, built in 8 seconds
+==> Determining fobis bottle rebuild...
+==> Bottling fobis-2.2.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fobis-2.2.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fobis-2.2.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "b4bf0e3cf2ab2af6469f225bfa133ebf227050d3927e36bedabace23ac22fd85" => :x86_64_linux
+    sha256 "69893f051b2f19c783491929810417ea650f922d830c3ee94ef967262750f50f" => :x86_64_linux
   end
