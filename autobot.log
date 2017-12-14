@@ -1,14 +1,15 @@
-==> Downloading https://www.fossil-scm.org/index.html/uv/fossil-src-2.4.tar.gz
-==> ./configure --with-tcl-private-stubs=1 --json --with-tcl --disable-fusefs
-==> make
+==> Downloading https://downloads.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fizsh/1.0.9
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fossil`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fossil/2.4: 3 files, 11.8MB, built in 48 seconds
-==> Determining fossil bottle rebuild...
-==> Bottling fossil-2.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fossil-2.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fossil-2.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fizsh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fizsh/1.0.9: 24 files, 185.2KB, built in 2 seconds
+==> Determining fizsh bottle rebuild...
+==> Bottling fizsh-1.0.9.x86_64_linux.bottle.1.tar.gz...
+./fizsh-1.0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "20eff14b1bc2aec14dc017f5c6cf3ba880aba75823c2b573f8e445cdaa5534e2" => :x86_64_linux
+    sha256 "ceb4d15f6c42da4f4c54f5bccc13d796bcd62deb68884d9eca0917a602e37231" => :x86_64_linux
   end
