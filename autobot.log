@@ -1,8 +1,35 @@
-==> Determining freeglut bottle rebuild...
-==> Bottling freeglut-3.0.0.x86_64_linux.bottle.1.tar.gz...
-./freeglut-3.0.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/freeimage/Source%20Distribution/3.17.0/FreeImage3170.zip
+==> Downloading from https://ayera.dl.sourceforge.net/project/freeimage/Source%20Distribution/3.17.0/FreeImage3170.zip
+==> Downloading https://gist.githubusercontent.com/davydden/5a4f348108d3c9110299/raw/3396840ff71c639d848ce552de9124462777ab97/freeimage.patch
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/f2b4fb19/freeimage/gcc5.diff
+==> Patching
+==> Applying freeimage.patch
+patching file Makefile.fip
+Hunk #3 succeeded at 73 with fuzz 2.
+patching file Makefile.gnu
+patch unexpectedly ends in middle of line
+Hunk #3 succeeded at 72 with fuzz 1.
+==> Applying gcc5.diff
+patching file Source/LibWebP/src/dsp/dsp.dec_mips_dsp_r2.c
+patching file Source/LibWebP/src/dsp/dsp.enc_mips32.c
+patching file Source/LibWebP/src/dsp/dsp.enc_mips_dsp_r2.c
+patching file Source/LibWebP/src/dsp/dsp.filters_mips_dsp_r2.c
+patching file Source/LibWebP/src/dsp/dsp.lossless_mips_dsp_r2.c
+patching file Source/LibWebP/src/dsp/dsp.upsampling_mips_dsp_r2.c
+patching file Source/LibWebP/src/dsp/dsp.yuv_mips_dsp_r2.c
+==> make -f Makefile.gnu
+==> make -f Makefile.gnu install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1
+==> make -f Makefile.fip
+==> make -f Makefile.fip install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall freeimage`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1: 12 files, 37.9MB, built in 21 seconds
+==> Determining freeimage bottle rebuild...
+==> Bottling freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f5395cd81be692f5178da0be8a14ff001e2933b5788a7a73b1a03a35ce50dc44" => :x86_64_linux
+    sha256 "7b61157764bd44de71330d9a705ce9fc2979c54da3a75267df3d00c78ef68045" => :x86_64_linux
   end
