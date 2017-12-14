@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/fastjar/fastjar/0.94/fastjar-0.94.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/fastjar/fastjar/0.94/fastjar-0.94.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fastjar/0.94
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/fatsort/fatsort-1.4.2.439.tar.xz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/fatsort/fatsort-1.4.2.439.tar.xz
+==> make CC=gcc-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fastjar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fastjar/0.94: 11 files, 199.7KB, built in 4 seconds
-==> Determining fastjar bottle rebuild...
-==> Bottling fastjar-0.94.x86_64_linux.bottle.1.tar.gz...
-./fastjar-0.94.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fatsort`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fatsort/1.4.2: 7 files, 101.5KB, built in 1 second
+==> Determining fatsort bottle rebuild...
+==> Bottling fatsort-1.4.2.x86_64_linux.bottle.1.tar.gz...
+./fatsort-1.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "dbb675b0302e5e337b2fabfbe4af88f416292216bda47e788a94b80590b721eb" => :x86_64_linux
+    sha256 "314d12cf31582a88d11d5bf4b25082f40dcf1c6d8ff09cbbb8b4018f86cdcb52" => :x86_64_linux
   end
