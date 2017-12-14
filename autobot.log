@@ -1,19 +1,38 @@
-==> Downloading https://github.com/paulirish/git-recent/archive/v1.0.3.tar.gz
-==> Downloading from https://codeload.github.com/paulirish/git-recent/tar.gz/v1.0.3
+==> Downloading https://files.pythonhosted.org/packages/70/c5/e2930e1017516a9cbe777581767785650b7e8ee89580ba00cabdf992e058/git-review-1.26.0.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/23/3f/8be01c50ed24a4bd6b8da799839066ce0288f66f5e11f0367323467f0cbc/certifi-2017.11.5.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0/libexec --single-version-externally-managed --record=installed.txt
 The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/git-recent
-Target /home/linuxbrew/.linuxbrew/bin/git-recent
-is a symlink belonging to git-plus. You can unlink it:
-  brew unlink git-plus
+Could not symlink bin/git-review
+Target /home/linuxbrew/.linuxbrew/bin/git-review
+is a symlink belonging to gerrit-tools. You can unlink it:
+  brew unlink gerrit-tools
 
 To force the link and overwrite all conflicting files:
-  brew link --overwrite git-recent
+  brew link --overwrite git-review
 
 To list all files that would be deleted:
-  brew link --overwrite --dry-run git-recent
+  brew link --overwrite --dry-run git-review
 
 Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/git-recent -> /home/linuxbrew/.linuxbrew/Cellar/git-plus/0.3.1/bin/git-recent
+/home/linuxbrew/.linuxbrew/bin/git-review -> /home/linuxbrew/.linuxbrew/Cellar/gerrit-tools/1.0.0/bin/git-review
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall git-review`
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-recent/1.0.3: 4 files, 15.7KB, built in 1 second
-This formula doesn't require compiling.
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-review/1.26.0: 275 files, 3.5MB, built in 5 seconds
+==> Determining git-review bottle rebuild...
+==> Bottling git-review-1.26.0.x86_64_linux.bottle.1.tar.gz...
+./git-review-1.26.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6e79ac2a19e271387c64749a64b6f6726c0dd3603ea1736e983342828b2636af" => :x86_64_linux
+  end
