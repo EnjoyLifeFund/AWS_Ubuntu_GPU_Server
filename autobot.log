@@ -1,13 +1,14 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/device-tree-compiler/device-tree-compiler_1.4.5.orig.tar.gz
-==> make NO_PYTHON=1
-==> make NO_PYTHON=1 DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/dtc/1.4.5 PREFIX= install
+==> Downloading http://www.knossos.net.nz/downloads/dterm-0.5.tgz
+==> make
+==> make install BIN=/home/linuxbrew/.linuxbrew/Cellar/dterm/0.5/bin/
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dtc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dtc/1.4.5: 17 files, 1.1MB, built in 2 seconds
-==> Determining dtc bottle rebuild...
-==> Bottling dtc-1.4.5.x86_64_linux.bottle.1.tar.gz...
-./dtc-1.4.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dterm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dterm/0.5: 5 files, 64KB, built in 2 seconds
+==> Determining dterm bottle rebuild...
+==> Bottling dterm-0.5.x86_64_linux.bottle.1.tar.gz...
+./dterm-0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "358208b92572a485a5cb9743d655d987ed2251cde4a0679dcc7bb378df77644a" => :x86_64_linux
+    sha256 "1bd7674524e855c7b21eebcc48b60448e308dd5683098dc8d1409c639d5f9407" => :x86_64_linux
   end
