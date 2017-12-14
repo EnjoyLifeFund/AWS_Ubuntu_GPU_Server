@@ -1,14 +1,8 @@
-==> Downloading https://digitalcorpora.org/downloads/frag_find/frag_find-1.0.0.tar.gz
-==> Downloading from http://downloads.digitalcorpora.org/downloads/frag_find/frag_find-1.0.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/frag_find/1.0.0_1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall frag_find`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/frag_find/1.0.0_1: 10 files, 1.6MB, built in 11 seconds
-==> Determining frag_find bottle rebuild...
-==> Bottling frag_find-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
-./frag_find-1.0.0_1.x86_64_linux.bottle.1.tar.gz
+==> Determining freeglut bottle rebuild...
+==> Bottling freeglut-3.0.0.x86_64_linux.bottle.1.tar.gz...
+./freeglut-3.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b85a9e6b06b6941cb2793bdc3727d032eb33a799b6b1c3d41f3bcd79eb7ddd8c" => :x86_64_linux
+    sha256 "f5395cd81be692f5178da0be8a14ff001e2933b5788a7a73b1a03a35ce50dc44" => :x86_64_linux
   end
