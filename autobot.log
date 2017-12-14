@@ -1,14 +1,10 @@
-==> Downloading https://bitbucket.org/hroptatyr/dateutils/downloads/dateutils-0.4.2.tar.xz
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/456139e7-3cba-495f-bca5-a068c47407ab/downloads/4eace027-21a2-46dd-bba0-c971f2867da5/dateutils-0.4.2.tar.xz?Signature=BBPMB0T4RjbxwitklzB95uWBW4Y%3D&Expires=1513217732&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=sP8_d8duzDoRTtP3qyXqUI.66nAglqUB&response-content-disposition=attachment%3B%20filename%3D%22dateutils-0.4.2.tar.xz%22
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/dateutils/0.4.2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dateutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dateutils/0.4.2: 50 files, 2.6MB, built in 5 minutes 47 seconds
-==> Determining dateutils bottle rebuild...
-==> Bottling dateutils-0.4.2.x86_64_linux.bottle.1.tar.gz...
-./dateutils-0.4.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "2ca50b5a37e639b3773be1bc3153e188fbb94b242bb5ca4be71d1cdbeff24eee" => :x86_64_linux
-  end
+==> Downloading https://my.datomic.com/downloads/free/0.9.5561
+==> Caveats
+All commands have been installed with the prefix "datomic-".
+
+We agreed to the Datomic Free Edition License for you:
+  http://www.datomic.com/datomic-free-edition-license.html
+If this is unacceptable you should uninstall.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/datomic/0.9.5561_1: 157 files, 45MB, built in 28 seconds
+This formula doesn't require compiling.
