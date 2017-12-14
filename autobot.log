@@ -1,22 +1,14 @@
-==> Downloading https://www.eblong.com/zarf/glk/glkterm-104.tar.gz
-==> make
+==> Downloading https://downloads.sourceforge.net/project/gaul/gaul-devel/0.1850-0/gaul-devel-0.1850-0.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/gaul/gaul-devel/0.1850-0/gaul-devel-0.1850-0.tar.gz
+==> ./configure --disable-g --prefix=/home/linuxbrew/.linuxbrew/Cellar/gaul/0.1850-0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall glkterm`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because conflicts with other Glk libraries.
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/glkterm/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/glkterm/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glkterm/1.0.4: 9 files, 526.8KB, built in 2 seconds
-==> Determining glkterm bottle rebuild...
-==> Bottling glkterm-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./glkterm-1.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gaul`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gaul/0.1850-0: 50 files, 2.6MB, built in 24 seconds
+==> Determining gaul bottle rebuild...
+==> Bottling gaul-0.1850-0.x86_64_linux.bottle.1.tar.gz...
+./gaul-0.1850-0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "75b8dc6fc43d9ade4a39051c86286f87801a1b814c3fd914fbac7d9da880bc0b" => :x86_64_linux
+    sha256 "fd212e755a103ec9419af3e950fde218e0740fc12045612cd35deca725a0228b" => :x86_64_linux
   end
