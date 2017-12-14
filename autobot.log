@@ -1,18 +1,8 @@
-==> Cloning https://github.com/goadapp/goad.git
-==> Checking out tag 2.0.4
-==> Cloning https://github.com/jteeuwen/go-bindata.git
-==> Checking out revision a0ff2567cfb70903282db057e799fd826784d41d
-==> go install
-==> make build
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall goad`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/goad/2.0.4: 5 files, 20.6MB, built in 13 seconds
-==> Determining goad bottle rebuild...
-==> Bottling goad-2.0.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if goad-2.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./goad-2.0.4.x86_64_linux.bottle.1.tar.gz
+==> Determining gobject-introspection bottle rebuild...
+==> Bottling gobject-introspection-1.54.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gobject-introspection-1.54.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gobject-introspection-1.54.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ee1979f7c029ff3ce2cd1b879899ca980bb9dfbb2f8e6b105a229aa832d9ad77" => :x86_64_linux
+    sha256 "1c34a40545fe22fc40dae06e4891c3e1e6ebca5b63550c53ec48d7b4673cf4f9" => :x86_64_linux
   end
