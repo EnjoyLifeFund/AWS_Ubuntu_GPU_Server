@@ -1,32 +1,42 @@
-==> Downloading https://gnupg.org/ftp/gcrypt/gnupg/gnupg-1.4.22.tar.bz2
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnupg@1.4/1.4.22 --disable-asm --program-suffix=1 --with-libusb=no
+==> Installing dependencies for gnupg@2.0: gpg-agent
+==> Installing gnupg@2.0 dependency: gpg-agent
+==> Downloading https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.0.30.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpg-agent/2.0.30_3 --enable-agent-only --with-pinentry-pgm=/home/linuxbrew/.linuxbrew/opt/pinentry/bin/pinentry --with-scdaemon-pgm=/home/linuxbrew/.linuxbrew/opt/gnupg@2.0/libexec/scdaemon
+==> make install
+==> Caveats
+Remember to add "use-standard-socket" to your ~/.gnupg/gpg-agent.conf
+file.
+
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because GPG 2.1.x ships an internal gpg-agent which it must use.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gpg-agent/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gpg-agent/2.0.30_3: 43 files, 19.5MB, built in 31 seconds
+==> Installing gnupg@2.0
+==> Downloading https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.0.30.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30/bin --enable-symcryptrun --disable-agent --with-agent-pgm=/home/linuxbrew/.linuxbrew/opt/gpg-agent/bin/gpg-agent --with-protect-tool-pgm=/home/linuxbrew/.linuxbrew/opt/gpg-agent/libexec/gpg-protect-tool --disable-nls
 ==> make
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnupg@1.4`
+You can run it manually using `brew postinstall gnupg@2.0`
 ==> Caveats
-This formula does not install either `gpg` or `gpgv` executables into
-the PATH.
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
 
-If you simply require `gpg` and `gpgv` executables without explicitly
-needing GnuPG 1.x we recommend:
-  brew install gnupg
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gnupg@2.0/bin:$PATH"' >> ~/.bash_profile
 
-If you really need to use these tools without the "1" suffix you can
-add a "gpgbin" directory to your PATH from your ~/.bash_profile like:
-
-    PATH="/home/linuxbrew/.linuxbrew/opt/gnupg@1.4/libexec/gpgbin:$PATH"
-
-Note that doing so may interfere with GPG-using formulae installed via
-Homebrew.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnupg@1.4/1.4.22: 57 files, 10.6MB, built in 39 seconds
-==> Determining gnupg@1.4 bottle rebuild...
-==> Bottling gnupg@1.4-1.4.22.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnupg@1.4-1.4.22.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnupg@1.4-1.4.22.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30: 94 files, 48MB, built in 1 minute 56 seconds
+==> Determining gnupg@2.0 bottle rebuild...
+==> Bottling gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2e904294d273838bd0a32a664ac23f1809d9211cbcdb42955f6e6cf957c1eb2b" => :x86_64_linux
+    sha256 "fdb8b4a0c2c51c06bf6e986c92bd9671207d884f4bb3327fc5d2e8dbc61fcc6a" => :x86_64_linux
   end
