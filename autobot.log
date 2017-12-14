@@ -1,14 +1,14 @@
-==> Downloading https://github.com/dlang/dub/archive/v1.6.0.tar.gz
-==> Downloading from https://codeload.github.com/dlang/dub/tar.gz/v1.6.0
-==> ./build.sh
+==> Downloading https://downloads.sourceforge.net/project/duff/duff/0.5.2/duff-0.5.2.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/duff/duff/0.5.2/duff-0.5.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dub`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dub/1.6.0: 6 files, 12.4MB, built in 14 seconds
-==> Determining dub bottle rebuild...
-==> Bottling dub-1.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dub-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dub-1.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall duff`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2: 16 files, 232.6KB, built in 12 seconds
+==> Determining duff bottle rebuild...
+==> Bottling duff-0.5.2.x86_64_linux.bottle.1.tar.gz...
+./duff-0.5.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "619d9a1684a34ebc3c31bc5d105bebf615f198e256891acc6129ce0785e860fd" => :x86_64_linux
+    sha256 "c38be0b9024720f14e7f1155ad337f63888b0d795ecae99bc0184ef13258dd08" => :x86_64_linux
   end
