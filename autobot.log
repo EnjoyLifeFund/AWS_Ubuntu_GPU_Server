@@ -1,14 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/duff/duff/0.5.2/duff-0.5.2.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/duff/duff/0.5.2/duff-0.5.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2/share/man
+==> Downloading https://downloads.sourceforge.net/project/dumb/dumb/0.9.3/dumb-0.9.3.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/dumb/dumb/0.9.3/dumb-0.9.3.tar.gz
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall duff`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/duff/0.5.2: 16 files, 232.6KB, built in 12 seconds
-==> Determining duff bottle rebuild...
-==> Bottling duff-0.5.2.x86_64_linux.bottle.1.tar.gz...
-./duff-0.5.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dumb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dumb/0.9.3: 9 files, 3.4MB, built in 8 seconds
+==> Determining dumb bottle rebuild...
+==> Bottling dumb-0.9.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dumb-0.9.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dumb-0.9.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c38be0b9024720f14e7f1155ad337f63888b0d795ecae99bc0184ef13258dd08" => :x86_64_linux
+    sha256 "e73c418b5a1d40010d33763fca96e7f4527e7fddd7dc5cb5bc31b01f99ff9944" => :x86_64_linux
   end
