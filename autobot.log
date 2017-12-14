@@ -1,12 +1,14 @@
-==> Downloading https://ftp.gnu.org/gnu/enscript/enscript-1.6.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/enscript/1.6.6
-==> make install
+==> Downloading https://github.com/psm14/ent/archive/1.0.tar.gz
+==> Downloading from https://codeload.github.com/psm14/ent/tar.gz/1.0
+==> make CC=gcc-5 CFLAGS=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall enscript`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/enscript/1.6.6: 173 files, 2.6MB, built in 23 seconds
-==> Determining enscript bottle rebuild...
-==> Bottling enscript-1.6.6.x86_64_linux.bottle.tar.gz...
-./enscript-1.6.6.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall ent`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ent/1.0: 5 files, 64.2KB, built in 1 second
+==> Determining ent bottle rebuild...
+==> Bottling ent-1.0.x86_64_linux.bottle.1.tar.gz...
+./ent-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "c9f215cfe5c7fbf589d9359e1a5f7686e3e6583744e1d47ac4a0cf3b0f6c6ca1" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4d594ffcbb1cd4f3df41b331a96cf2313bee7dee578848f995f2f843e7973ba7" => :x86_64_linux
   end
