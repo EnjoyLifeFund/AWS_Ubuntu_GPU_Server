@@ -1,16 +1,22 @@
-==> Downloading https://github.com/getgauge/gauge/archive/v0.9.5.tar.gz
-==> Downloading from https://codeload.github.com/getgauge/gauge/tar.gz/v0.9.5
-==> godep restore
-==> go run build/make.go
-==> go run build/make.go --install --prefix /home/linuxbrew/.linuxbrew/Cellar/gauge/0.9.5
+==> Downloading https://www.eblong.com/zarf/glk/glkterm-104.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gauge`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gauge/0.9.5: 3 files, 13.3MB, built in 18 seconds
-==> Determining gauge bottle rebuild...
-==> Bottling gauge-0.9.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gauge-0.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gauge-0.9.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall glkterm`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because conflicts with other Glk libraries.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/glkterm/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/glkterm/include
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glkterm/1.0.4: 9 files, 526.8KB, built in 2 seconds
+==> Determining glkterm bottle rebuild...
+==> Bottling glkterm-1.0.4.x86_64_linux.bottle.1.tar.gz...
+./glkterm-1.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "88d5b4f34186fec425774d0a753db49121c2617751e8c1e95df18cfa976bdfd4" => :x86_64_linux
+    sha256 "75b8dc6fc43d9ade4a39051c86286f87801a1b814c3fd914fbac7d9da880bc0b" => :x86_64_linux
   end
