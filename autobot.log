@@ -1,15 +1,15 @@
-==> Downloading https://github.com/deis/deis/archive/v1.13.4.tar.gz
-==> Downloading from https://codeload.github.com/deis/deis/tar.gz/v1.13.4
-==> godep restore
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/deisctl/1.13.4/bin/deisctl deisctl/deisctl.go
+==> Downloading https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1/share/man
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall deisctl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/deisctl/1.13.4: 6 files, 13.5MB, built in 8 minutes 18 seconds
-==> Determining deisctl bottle rebuild...
-==> Bottling deisctl-1.13.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if deisctl-1.13.4.x86_64_linux.bottle.tar.gz is relocatable...
-./deisctl-1.13.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall deja-gnu`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1: 100 files, 841.9KB, built in 1 minute 46 seconds
+==> Determining deja-gnu bottle rebuild...
+==> Bottling deja-gnu-1.6.1.x86_64_linux.bottle.1.tar.gz...
+./deja-gnu-1.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "630ff48a68fe5a5587d70f079061a7b7e6f2bf772f1c010864fceafc737c1e00" => :x86_64_linux
+    rebuild 1
+    sha256 "23732384d6943cb5a88f8b39d2811b6f6ed839b534a0392beeb7c6419e604f3a" => :x86_64_linux
   end
