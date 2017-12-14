@@ -1,13 +1,16 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/garmintools/garmintools-0.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/garmintools/0.10
-==> make install
+==> Downloading https://github.com/getgauge/gauge/archive/v0.9.5.tar.gz
+==> Downloading from https://codeload.github.com/getgauge/gauge/tar.gz/v0.9.5
+==> godep restore
+==> go run build/make.go
+==> go run build/make.go --install --prefix /home/linuxbrew/.linuxbrew/Cellar/gauge/0.9.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall garmintools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/garmintools/0.10: 24 files, 1.5MB, built in 17 seconds
-==> Determining garmintools bottle rebuild...
-==> Bottling garmintools-0.10.x86_64_linux.bottle.1.tar.gz...
-./garmintools-0.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gauge`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gauge/0.9.5: 3 files, 13.3MB, built in 18 seconds
+==> Determining gauge bottle rebuild...
+==> Bottling gauge-0.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gauge-0.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gauge-0.9.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8bebbd59401171f8534698e8a102a5bd29ad972cbf55599bef507d505b9086a2" => :x86_64_linux
+    sha256 "88d5b4f34186fec425774d0a753db49121c2617751e8c1e95df18cfa976bdfd4" => :x86_64_linux
   end
