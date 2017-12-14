@@ -1,4 +1,4 @@
-==> Downloading https://bintray.com/artifact/download/embulk/maven/embulk-0.8.30.jar
-==> Downloading from https://dl.bintray.com/embulk/maven/embulk-0.8.30.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/embulk/0.8.30: 4 files, 43MB, built in 11 seconds
+==> Downloading https://github.com/mrowa44/emojify/archive/v1.0.2.tar.gz
+==> Downloading from https://codeload.github.com/mrowa44/emojify/tar.gz/v1.0.2
+🍺  /home/linuxbrew/.linuxbrew/Cellar/emojify/1.0.2: 5 files, 56.2KB, built in 1 second
 This formula doesn't require compiling.
