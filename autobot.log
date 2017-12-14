@@ -1,4 +1,15 @@
-==> Downloading https://dl.digdag.io/digdag-0.9.21.jar
-==> Downloading from https://dl.bintray.com/digdag/maven/digdag-0.9.21.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/digdag/0.9.21: 4 files, 30.9MB, built in 26 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/bcl/digitemp/archive/v3.7.1.tar.gz
+==> Downloading from https://codeload.github.com/bcl/digitemp/tar.gz/v3.7.1
+==> make -C build-serial -f ../Makefile SRCDIR=.. ds9097 ds9097u
+==> make -C build-usb -f ../Makefile SRCDIR=.. ds2490
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall digitemp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/digitemp/3.7.1: 14 files, 294.2KB, built in 30 seconds
+==> Determining digitemp bottle rebuild...
+==> Bottling digitemp-3.7.1.x86_64_linux.bottle.1.tar.gz...
+./digitemp-3.7.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9e8db95d2dd70362afff5107b03c606b51ab1456453c8af7237b4fed6a057c57" => :x86_64_linux
+  end
