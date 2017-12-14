@@ -1,15 +1,13 @@
-==> Downloading https://github.com/dvidelabs/flatcc/archive/v0.4.3.tar.gz
-==> Downloading from https://codeload.github.com/dvidelabs/flatcc/tar.gz/v0.4.3
-==> cmake -G Unix Makefiles /tmp/flatcc-20171214-22449-1e4kt2n/flatcc-0.4.3 -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flatcc/0.4.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
+==> Downloading https://www.dwheeler.com/flawfinder/flawfinder-2.0.4.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/flawfinder/2.0.4 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flatcc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flatcc/0.4.3: 64 files, 1.5MB, built in 3 seconds
-==> Determining flatcc bottle rebuild...
-==> Bottling flatcc-0.4.3.x86_64_linux.bottle.1.tar.gz...
-./flatcc-0.4.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall flawfinder`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flawfinder/2.0.4: 7 files, 213.6KB, built in 1 second
+==> Determining flawfinder bottle rebuild...
+==> Bottling flawfinder-2.0.4.x86_64_linux.bottle.1.tar.gz...
+./flawfinder-2.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "07c091368afabb2353fa9d2e9f30c2f5483627760ce3c6e5e804f4cc1fbca5c2" => :x86_64_linux
+    sha256 "abd4c3dc633b295d463e361fa1c43d5dfb1bc7c6e9239988192cdea46dbcfb7a" => :x86_64_linux
   end
