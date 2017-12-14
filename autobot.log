@@ -1,20 +1,14 @@
-==> Installing dependencies for dsh: libdshconfig
-==> Installing dsh dependency: libdshconfig
-==> Downloading https://www.netfort.gr.jp/~dancer/software/downloads/libdshconfig-0.20.13.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdshconfig/0.20.13
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdshconfig/0.20.13: 12 files, 77.6KB, built in 13 seconds
-==> Installing dsh
-==> Downloading https://www.netfort.gr.jp/~dancer/software/downloads/dsh-0.25.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dsh/0.25.10
-==> make install
+==> Downloading https://github.com/pornel/dssim/archive/2.8.0.tar.gz
+==> Downloading from https://codeload.github.com/pornel/dssim/tar.gz/2.8.0
+==> cargo install --root /home/linuxbrew/.linuxbrew/Cellar/dssim/2.8.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dsh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dsh/0.25.10: 15 files, 196.6KB, built in 16 seconds
-==> Determining dsh bottle rebuild...
-==> Bottling dsh-0.25.10.x86_64_linux.bottle.1.tar.gz...
-./dsh-0.25.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dssim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dssim/2.8.0: 5 files, 4.4MB, built in 35 seconds
+==> Determining dssim bottle rebuild...
+==> Bottling dssim-2.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dssim-2.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dssim-2.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b36eff4b8c0625fbedc5876c6d48c288fbb4108d8521381ec9da20de33bedef1" => :x86_64_linux
+    sha256 "2855c8c263b03ab6ef1373d0c77b027c48df39b315fbfc99835ac2a54ae3246d" => :x86_64_linux
   end
