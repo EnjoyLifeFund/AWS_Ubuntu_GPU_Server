@@ -1,8 +1,19 @@
-==> Downloading https://github.com/grails/grails-core/releases/download/v3.3.2/grails-3.3.2.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/512295/ae4e1408-d13b-11e7-9085-94b6d974dd5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T232902Z&X-Amz-Expires=300&X-Amz-Signature=b29ac22a35b48c01040f43f724e694b514fb24d91021184d1da22a599d83a86c&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgrails-3.3.2.zip&response-content-type=application%2Foctet-stream
-==> Caveats
-The GRAILS_HOME directory is:
-  /home/linuxbrew/.linuxbrew/opt/grails/libexec
+==> Downloading https://github.com/grails/grails-core/releases/download/v2.5.6/grails-2.5.6.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/512295/72d1578e-0fa6-11e7-97fe-e006a2574d70?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T232919Z&X-Amz-Expires=300&X-Amz-Signature=d0117f73db452ad27aee4e116ee6a0f226106fab15440124e7c8f78521989dcf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgrails-2.5.6.zip&response-content-type=application%2Foctet-stream
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/grails
+Target /home/linuxbrew/.linuxbrew/bin/grails
+is a symlink belonging to grails. You can unlink it:
+  brew unlink grails
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite grails@2.5
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run grails@2.5
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/grails -> /home/linuxbrew/.linuxbrew/Cellar/grails/3.3.2/bin/grails
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grails/3.3.2: 679 files, 104.3MB, built in 9 seconds
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grails@2.5/2.5.6: 1,525 files, 145.2MB, built in 11 seconds
 This formula doesn't require compiling.
