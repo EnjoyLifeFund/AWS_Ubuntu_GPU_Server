@@ -1,4 +1,18 @@
-==> Downloading https://github.com/downloads/ryankee/growly/growly-v0.2.0.tar.gz
-==> Downloading from https://github.s3.amazonaws.com/downloads/ryankee/growly/growly-v0.2.0.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T234723Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3e47512d0d976bf759795de289eb9945f5925ccb6b74cbc86acb8d6cdf2fedfe
-🍺  /home/linuxbrew/.linuxbrew/Cellar/growly/0.2.0: 4 files, 15.2KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/grpc/grpc/archive/v1.7.3.tar.gz
+==> Downloading from https://codeload.github.com/grpc/grpc/tar.gz/v1.7.3
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.7.3
+==> make install-plugins prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.7.3
+==> Downloading https://github.com/google/googletest/archive/release-1.8.0.tar.gz
+==> Downloading from https://codeload.github.com/google/googletest/tar.gz/release-1.8.0
+==> make grpc_cli prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.7.3
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grpc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grpc/1.7.3: 199 files, 31.6MB, built in 47 seconds
+==> Determining grpc bottle rebuild...
+==> Bottling grpc-1.7.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if grpc-1.7.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./grpc-1.7.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "aa254f1550e9b5cee4dc72b39ef6f74d8e8bc3e6ce6bef74e367d3d5cd13218c" => :x86_64_linux
+  end
