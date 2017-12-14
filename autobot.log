@@ -1,19 +1,13 @@
-==> Installing dependencies for feh: imlib2
-==> Installing feh dependency: imlib2
-==> Downloading https://linuxbrew.bintray.com/bottles/imlib2-1.4.10_1.x86_64_linux.bottle.1.tar.gz
-==> Pouring imlib2-1.4.10_1.x86_64_linux.bottle.1.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/imlib2/1.4.10_1: 60 files, 4.8MB
-==> Installing feh
-==> Downloading https://feh.finalrewind.org/feh-2.22.2.tar.bz2
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/feh/2.22.2 exif=1
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/feh/2.22.2 install
+==> Downloading https://dist.eugridpma.info/distribution/util/fetch-crl3/fetch-crl-3.0.19.tar.gz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fetch-crl/3.0.19 ETC=/home/linuxbrew/.linuxbrew/etc CACHE=/home/linuxbrew/.linuxbrew/var/cache
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall feh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/feh/2.22.2: 31 files, 1.3MB, built in 28 seconds
-==> Determining feh bottle rebuild...
-==> Bottling feh-2.22.2.x86_64_linux.bottle.1.tar.gz...
-./feh-2.22.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fetch-crl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fetch-crl/3.0.19: 19 files, 227.9KB, built in 2 seconds
+==> Determining fetch-crl bottle rebuild...
+==> Bottling fetch-crl-3.0.19.x86_64_linux.bottle.1.tar.gz...
+./fetch-crl-3.0.19.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ebdf5f1252bc99d0bb01cf83a6f1f0c8c106fab4051a65e78f3629f8f0346796" => :x86_64_linux
+    sha256 "64d8f9e76290b9b9671eb9ae71ce3980e549356ca32a95c35d8fedd3f155b53b" => :x86_64_linux
   end
