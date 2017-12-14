@@ -1,18 +1,23 @@
-==> Downloading https://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
-==> Caveats
-For ddclient to work, you will need to create a configuration file
-in /home/linuxbrew/.linuxbrew/etc/ddclient, a sample configuration can be found in
-/home/linuxbrew/.linuxbrew/opt/ddclient/share/doc/ddclient.
-
-Note: don't enable daemon mode in the configuration file; see
-additional information below.
-
-The next reboot of the system will automatically start ddclient.
-
-You can adjust the execution interval by changing the value of
-StartInterval (in seconds) in /Library/LaunchDaemons/homebrew.mxcl.ddclient.plist,
-and then
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ddclient/3.8.3: 11 files, 223.3KB, built in 12 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for ddrescue: lzip
+==> Installing ddrescue dependency: lzip
+==> Downloading https://download.savannah.gnu.org/releases/lzip/lzip-1.19.tar.gz
+==> Downloading from https://download-mirror.savannah.gnu.org/releases/lzip/lzip-1.19.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lzip/1.19 CXX=g++-5 CXXFLAGS=
+==> make check
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lzip/1.19: 10 files, 291.1KB, built in 1 minute 9 seconds
+==> Installing ddrescue
+==> Downloading https://ftp.gnu.org/gnu/ddrescue/ddrescue-1.22.tar.lz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ddrescue/1.22 CXX=g++-5
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ddrescue`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ddrescue/1.22: 12 files, 349.4KB, built in 32 seconds
+==> Determining ddrescue bottle rebuild...
+==> Bottling ddrescue-1.22.x86_64_linux.bottle.1.tar.gz...
+./ddrescue-1.22.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f914e99f9987df7342301bada74c525f04cd470676dd9cda724dfc636c807b41" => :x86_64_linux
+  end
