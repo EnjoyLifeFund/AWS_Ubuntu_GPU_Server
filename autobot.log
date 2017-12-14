@@ -1,13 +1,8 @@
-==> Downloading https://github.com/AltraMayor/f3/archive/v6.0.tar.gz
-==> Downloading from https://codeload.github.com/AltraMayor/f3/tar.gz/v6.0
-==> make all
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall f3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/f3/6.0: 9 files, 126.5KB, built in 0 seconds
-==> Determining f3 bottle rebuild...
-==> Bottling f3-6.0.x86_64_linux.bottle.1.tar.gz...
-./f3-6.0.x86_64_linux.bottle.1.tar.gz
+==> Determining faac bottle rebuild...
+==> Bottling faac-1.29.9.2.x86_64_linux.bottle.1.tar.gz...
+./faac-1.29.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4326bd868111df904d268da759b4504a3a04fb45cc1406dacbc7fe1e9a103f73" => :x86_64_linux
+    sha256 "a49db873d06ece4e6ccf281f6c448f47af87d3e3f4053917f5650b7646a751d6" => :x86_64_linux
   end
