@@ -1,25 +1,24 @@
-==> Downloading https://github.com/tomnomnom/gron/archive/v0.5.0.tar.gz
-==> Downloading from https://codeload.github.com/tomnomnom/gron/tar.gz/v0.5.0
-==> Cloning https://github.com/fatih/color.git
-==> Checking out revision 34e4ee095d12986a2cef5ddb9aeb3b8cfcfea17c
-==> Cloning https://github.com/mattn/go-colorable.git
-==> Checking out revision ed8eb9e318d7a84ce5915b495b7d35e0cfe7b5a8
-==> Cloning https://github.com/mattn/go-isatty.git
-==> Checking out revision 3a115632dcd687f9c8cd01679c83a06a0e21c1f3
-==> Cloning https://github.com/nwidger/jsoncolor.git
-==> Checking out revision 0192e84d44af834c3a90c8a17bf670483b91ad5a
-==> Cloning https://github.com/pkg/errors.git
-==> Checking out revision 645ef00459ed84a119197bfb8d8205042c6df63d
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gron/0.5.0/bin/gron
+==> Installing dependencies for groonga: msgpack
+==> Installing groonga dependency: msgpack
+==> Downloading https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.x86_64_linux.bottle.tar.gz
+==> Pouring msgpack-2.1.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/msgpack/2.1.5: 670 files, 5.9MB
+==> Installing groonga
+==> Downloading https://packages.groonga.org/source/groonga/groonga-7.0.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9 --with-zlib --with-ssl --enable-mruby --disable-zeromq --without-libstemmer
+==> make install
+==> Downloading https://packages.groonga.org/source/groonga-normalizer-mysql/groonga-normalizer-mysql-1.1.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gron`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gron/0.5.0: 4 files, 6.2MB, built in 2 seconds
-==> Determining gron bottle rebuild...
-==> Bottling gron-0.5.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gron-0.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gron-0.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall groonga`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9: 798 files, 70.6MB, built in 3 minutes 55 seconds
+==> Determining groonga bottle rebuild...
+==> Bottling groonga-7.0.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if groonga-7.0.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./groonga-7.0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2523368ee0aee3600661c40222d9ea09dac430e53b40bd7a8450f823a397d09e" => :x86_64_linux
+    sha256 "21e8cf2c5a04ad73d8dd24f7c85cb6e582d7c188714ab32cef0a33f3b5bf91c1" => :x86_64_linux
   end
