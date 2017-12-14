@@ -1,13 +1,18 @@
-==> Downloading https://github.com/bo0ts/ddate/archive/v0.2.2.tar.gz
-==> Downloading from https://codeload.github.com/bo0ts/ddate/tar.gz/v0.2.2
-==> gcc-5 ddate.c -o ddate
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ddate`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ddate/0.2.2: 5 files, 52.4KB, built in 9 seconds
-==> Determining ddate bottle rebuild...
-==> Bottling ddate-0.2.2.x86_64_linux.bottle.tar.gz...
-./ddate-0.2.2.x86_64_linux.bottle.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "2288f8920e0071f1f1cd35760a821ee54749d748caef87ade6406fce71a83cca" => :x86_64_linux
-  end
+==> Downloading https://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
+==> Caveats
+For ddclient to work, you will need to create a configuration file
+in /home/linuxbrew/.linuxbrew/etc/ddclient, a sample configuration can be found in
+/home/linuxbrew/.linuxbrew/opt/ddclient/share/doc/ddclient.
+
+Note: don't enable daemon mode in the configuration file; see
+additional information below.
+
+The next reboot of the system will automatically start ddclient.
+
+You can adjust the execution interval by changing the value of
+StartInterval (in seconds) in /Library/LaunchDaemons/homebrew.mxcl.ddclient.plist,
+and then
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ddclient/3.8.3: 11 files, 223.3KB, built in 12 seconds
+This formula doesn't require compiling.
