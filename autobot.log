@@ -1,11 +1,13 @@
-==> Downloading http://siag.nu/pub/dwatch/dwatch-0.1.1.tar.gz
-==> make install CC=gcc-5 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1/share/man ETCDIR=/home/linuxbrew/.linuxbrew/etc
+==> Downloading https://www.ribbonsoft.com/archives/dxflib/dxflib-2.5.0.0-1.src.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dxflib/2.5.0.0-1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dwatch`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1: 8 files, 70.6KB, built in 1 second
-==> Determining dwatch bottle rebuild...
-==> Bottling dwatch-0.1.1.x86_64_linux.bottle.tar.gz...
-./dwatch-0.1.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall dxflib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dxflib/2.5.0.0-1: 13 files, 1MB, built in 7 seconds
+==> Determining dxflib bottle rebuild...
+==> Bottling dxflib-2.5.0.0-1.x86_64_linux.bottle.tar.gz...
+./dxflib-2.5.0.0-1.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "3d88554fd9eed863788c8b2506c9a6d9f5d89682ed7924b124212cfa5dc5dd99" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "b6c60caf3e6ed2e8fa64fc4e158e8dec9065e20abd88b1fb668bbc2af508b49c" => :x86_64_linux
   end
