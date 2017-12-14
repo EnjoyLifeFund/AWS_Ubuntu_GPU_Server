@@ -1,14 +1,23 @@
-==> Downloading https://downloads.sourceforge.net/project/fprobe/fprobe/1.1/fprobe-1.1.tar.bz2
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/fprobe/fprobe/1.1/fprobe-1.1.tar.bz2
-==> ./configure --disable-silent-rules --mandir=/home/linuxbrew/.linuxbrew/Cellar/fprobe/1.1/share/man --prefix=/home/linuxbrew/.linuxbrew/Cellar/fprobe/1.1
+==> Installing dependencies for fq: jlog
+==> Installing fq dependency: jlog
+==> Downloading https://github.com/omniti-labs/jlog/archive/2.3.0.tar.gz
+==> Downloading from https://codeload.github.com/omniti-labs/jlog/tar.gz/2.3.0
+==> autoconf
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jlog/2.3.0
 ==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jlog/2.3.0: 16 files, 1004.6KB, built in 8 seconds
+==> Installing fq
+==> Downloading https://github.com/circonus-labs/fq/archive/v0.10.5.tar.gz
+==> Downloading from https://codeload.github.com/circonus-labs/fq/tar.gz/v0.10.5
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fprobe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fprobe/1.1: 10 files, 152.7KB, built in 4 seconds
-==> Determining fprobe bottle rebuild...
-==> Bottling fprobe-1.1.x86_64_linux.bottle.1.tar.gz...
-./fprobe-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fq`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5: 34 files, 2.1MB, built in 2 seconds
+==> Determining fq bottle rebuild...
+==> Bottling fq-0.10.5.x86_64_linux.bottle.1.tar.gz...
+./fq-0.10.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "107da1f2859fdb12534df2e73773826a9d51b2fbb1b97232cd08ed09d6c704d0" => :x86_64_linux
+    sha256 "93364b1446da4323fe738fee35345bc89eead9cbbc2e74b3a33d48361c83778d" => :x86_64_linux
   end
