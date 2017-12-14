@@ -1,14 +1,9 @@
-==> Downloading https://github.com/jstemmer/gotags/archive/v1.4.1.tar.gz
-==> Downloading from https://codeload.github.com/jstemmer/gotags/tar.gz/v1.4.1
-==> go build -o gotags
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gotags`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gotags/1.4.1: 5 files, 2.8MB, built in 1 second
-==> Determining gotags bottle rebuild...
-==> Bottling gotags-1.4.1.x86_64_linux.bottle.1.tar.gz...
-./gotags-1.4.1.x86_64_linux.bottle.1.tar.gz
+==> Determining govendor bottle rebuild...
+==> Bottling govendor-1.0.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if govendor-1.0.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./govendor-1.0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a0f7e525f6c61ccd94709dd36db81745c0a20fd2fe52b250d4b8f7c42e4fa1cb" => :x86_64_linux
+    sha256 "ba86a8c9b82d30a5d68c14476973773698c664b1f6c62545a52beea629e5e3f7" => :x86_64_linux
   end
