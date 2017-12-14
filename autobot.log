@@ -1,13 +1,13 @@
-==> Downloading http://www.mavetju.org/download/dhcping-1.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dhcping/1.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dhcping/1.2/share/man
-==> make install
+==> Downloading http://www.dettus.net/dhex/dhex_0.68.tar.gz
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/dhex/0.68
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dhcping`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dhcping/1.2: 6 files, 78.8KB, built in 1 minute 4 seconds
-==> Determining dhcping bottle rebuild...
-==> Bottling dhcping-1.2.x86_64_linux.bottle.1.tar.gz...
-./dhcping-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dhex`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dhex/0.68: 9 files, 136.3KB, built in 19 seconds
+==> Determining dhex bottle rebuild...
+==> Bottling dhex-0.68.x86_64_linux.bottle.1.tar.gz...
+./dhex-0.68.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8f49be37106da84c494281e8cec56ad3c7016fa435a82390681154e4249a0e10" => :x86_64_linux
+    sha256 "7ffbfc9e488f069c81ca2ce7cc43f9b5b244c4bd5605526158bb58ae9adf4492" => :x86_64_linux
   end
