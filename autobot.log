@@ -1,12 +1,12 @@
-==> Downloading http://pyropus.ca/software/getmail/old-versions/getmail-5.4.tar.gz
+==> Downloading https://njw.name/getxbook/getxbook-1.2.tar.xz
+==> make CC=gcc-5 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/getxbook/1.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall getmail`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/getmail/5.4: 29 files, 317.7KB, built in 1 second
-==> Determining getmail bottle rebuild...
-==> Bottling getmail-5.4.x86_64_linux.bottle.1.tar.gz...
-./getmail-5.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall getxbook`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/getxbook/1.2: 7 files, 185.8KB, built in 1 second
+==> Determining getxbook bottle rebuild...
+==> Bottling getxbook-1.2.x86_64_linux.bottle.1.tar.gz...
+./getxbook-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "62c45ae29239b55fa9fc1dd99565f94f131b728f54eb1ff3a67512aa7e79f52c" => :x86_64_linux
+    sha256 "7ad6a410d66f75eadee6efeb0d18e7afa4238eb61f1fd2528a8bb2dde63771bd" => :x86_64_linux
   end
