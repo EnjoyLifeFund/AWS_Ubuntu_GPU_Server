@@ -1,14 +1,15 @@
-==> Downloading https://github.com/pornel/dssim/archive/2.8.0.tar.gz
-==> Downloading from https://codeload.github.com/pornel/dssim/tar.gz/2.8.0
-==> cargo install --root /home/linuxbrew/.linuxbrew/Cellar/dssim/2.8.0
+==> Downloading https://downloads.sourceforge.net/project/dtach/dtach/0.9/dtach-0.9.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/dtach/dtach/0.9/dtach-0.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dtach/0.9
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dssim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dssim/2.8.0: 5 files, 4.4MB, built in 35 seconds
-==> Determining dssim bottle rebuild...
-==> Bottling dssim-2.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dssim-2.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dssim-2.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dtach`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dtach/0.9: 6 files, 80.9KB, built in 8 seconds
+==> Determining dtach bottle rebuild...
+==> Bottling dtach-0.9.x86_64_linux.bottle.1.tar.gz...
+./dtach-0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2855c8c263b03ab6ef1373d0c77b027c48df39b315fbfc99835ac2a54ae3246d" => :x86_64_linux
+    sha256 "0882bbeccbc773b508fc4bf6383d6912ba50313b9fc9a6f550a553028f8d2a5e" => :x86_64_linux
   end
