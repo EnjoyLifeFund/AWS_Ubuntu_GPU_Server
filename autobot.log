@@ -1,14 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/dcfldd/dcfldd/1.3.4-1/dcfldd-1.3.4-1.tar.gz
-==> Downloading from https://newcontinuum.dl.sourceforge.net/project/dcfldd/dcfldd/1.3.4-1/dcfldd-1.3.4-1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1/share/man
+==> Downloading https://github.com/rordenlab/dcm2niix/archive/v1.0.20171204.tar.gz
+==> Downloading from https://codeload.github.com/rordenlab/dcm2niix/tar.gz/v1.0.20171204
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dcm2niix/1.0.20171204 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dcfldd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1: 9 files, 325.1KB, built in 1 minute 33 seconds
-==> Determining dcfldd bottle rebuild...
-==> Bottling dcfldd-1.3.4-1.x86_64_linux.bottle.1.tar.gz...
-./dcfldd-1.3.4-1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dcm2niix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dcm2niix/1.0.20171204: 5 files, 371.6KB, built in 2 minutes 49 seconds
+==> Determining dcm2niix bottle rebuild...
+==> Bottling dcm2niix-1.0.20171204.x86_64_linux.bottle.1.tar.gz...
+./dcm2niix-1.0.20171204.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cfb0e50dfc2440a5be407d6e17c99463c15500a67fce2ddbb9ee2ede6a0c5335" => :x86_64_linux
+    sha256 "2fa6027a59fb9fd2a64c85a2f83eb1d7a74c0c3fe7d5e6df71a3da255bad7713" => :x86_64_linux
   end
