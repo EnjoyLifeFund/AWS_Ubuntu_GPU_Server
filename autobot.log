@@ -1,15 +1,25 @@
-==> Downloading https://github.com/appc/docker2aci/archive/v0.17.1.tar.gz
-==> Downloading from https://codeload.github.com/appc/docker2aci/tar.gz/v0.17.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker2aci/0.17.1/bin/docker2aci -ldflags -X github.com/appc/docker2aci/lib.Version=0.17.1 github.com/appc/docker2aci
+==> Cloning https://github.com/docker/docker.git
+==> Checking out tag v1.11.2
+==> hack/make.sh dynbinary
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docker2aci`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker2aci/0.17.1: 6 files, 7.8MB, built in 44 seconds
-==> Determining docker2aci bottle rebuild...
-==> Bottling docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall docker@1.11`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/docker@1.11/bin:$PATH"' >> ~/.bash_profile
+
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker@1.11/1.11.2: 11 files, 9.3MB, built in 3 minutes 55 seconds
+==> Determining docker@1.11 bottle rebuild...
+==> Bottling docker@1.11-1.11.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker@1.11-1.11.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker@1.11-1.11.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3a68729b09e8176a1dd381c48bfd22439de0d699fab90a62419d24fb2c77bb80" => :x86_64_linux
+    sha256 "69c27c694d95fd32b2ecba8c0e5a47a4fb363d940ab9a8a5c38a135c0378aa57" => :x86_64_linux
   end
