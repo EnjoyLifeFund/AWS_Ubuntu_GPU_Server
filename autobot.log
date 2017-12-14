@@ -1,13 +1,14 @@
-==> Downloading https://files.pythonhosted.org/packages/b1/5d/4a5784409ff94900898ff671df2a32bf19469114eb8006286fda3fc7e8d5/doitlive-3.0.3.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/doitlive/3.0.3/libexec
+==> Downloading https://downloads.sourceforge.net/project/dopewars/dopewars/1.5.12/dopewars-1.5.12.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/dopewars/dopewars/1.5.12/dopewars-1.5.12.tar.gz
+==> ./configure --disable-gui-client --disable-gui-server --enable-plugins --enable-networking --prefix=/home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall doitlive`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/doitlive/3.0.3: 65 files, 664.9KB, built in 16 seconds
-==> Determining doitlive bottle rebuild...
-==> Bottling doitlive-3.0.3.x86_64_linux.bottle.1.tar.gz...
-./doitlive-3.0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dopewars`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12: 61 files, 1.8MB, built in 6 minutes 10 seconds
+==> Determining dopewars bottle rebuild...
+==> Bottling dopewars-1.5.12.x86_64_linux.bottle.1.tar.gz...
+./dopewars-1.5.12.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "aa9e33d84f9ea346dc14677e6305cb0bb61b02716f6ff53d82506e2502f7dc24" => :x86_64_linux
+    sha256 "bfbf8785b5c8945459ddebeb1e4f9b2bb70380b40aa86b5edfed49981168bcd4" => :x86_64_linux
   end
