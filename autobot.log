@@ -1,16 +1,8 @@
-==> Downloading https://github.com/grafana/grafana/archive/v4.6.2.tar.gz
-==> Downloading from https://codeload.github.com/grafana/grafana/tar.gz/v4.6.2
-==> go run build.go build
-==> yarn install --ignore-engines
-==> node_modules/grunt-cli/bin/grunt build
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall grafana`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grafana/4.6.2: 2,873 files, 156.4MB, built in 3 minutes 41 seconds
-==> Determining grafana bottle rebuild...
-==> Bottling grafana-4.6.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if grafana-4.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./grafana-4.6.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "0b762773549cef55ced5734beaae2dbe470f8dbf755069d9bc8c7790b9eec201" => :x86_64_linux
-  end
+==> Downloading https://github.com/grails/grails-core/releases/download/v3.3.2/grails-3.3.2.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/512295/ae4e1408-d13b-11e7-9085-94b6d974dd5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T232902Z&X-Amz-Expires=300&X-Amz-Signature=b29ac22a35b48c01040f43f724e694b514fb24d91021184d1da22a599d83a86c&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgrails-3.3.2.zip&response-content-type=application%2Foctet-stream
+==> Caveats
+The GRAILS_HOME directory is:
+  /home/linuxbrew/.linuxbrew/opt/grails/libexec
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grails/3.3.2: 679 files, 104.3MB, built in 9 seconds
+This formula doesn't require compiling.
