@@ -1,18 +1,13 @@
-==> Downloading https://mediaarea.net/download/binary/dvanalyzer/1.4.2/DVAnalyzer_CLI_1.4.2_GNU_FromSource.tar.bz2
-==> ./configure --enable-static --disable-shared
-==> make
-==> ./configure --enable-static --disable-shared
-==> make
-==> ./configure --enable-staticlibs --prefix=/home/linuxbrew/.linuxbrew/Cellar/dvanalyzer/1.4.2
-==> make install
+==> Downloading https://www.pixelbeat.org/programs/dvd-vr/dvd-vr-0.9.7.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dvd-vr/0.9.7 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dvanalyzer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dvanalyzer/1.4.2: 3 files, 8.8MB, built in 1 minute 8 seconds
-==> Determining dvanalyzer bottle rebuild...
-==> Bottling dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dvd-vr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dvd-vr/0.9.7: 7 files, 76.6KB, built in 2 seconds
+==> Determining dvd-vr bottle rebuild...
+==> Bottling dvd-vr-0.9.7.x86_64_linux.bottle.1.tar.gz...
+./dvd-vr-0.9.7.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4323a3096613b8155f8da342584263f8dbe24273eaeee558775a36f036e6d0db" => :x86_64_linux
+    sha256 "f27e19d76d76c4f2b74a2b055f93f0be408e65a8b1af302a8ba16f6badf2cd86" => :x86_64_linux
   end
