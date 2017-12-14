@@ -1,7 +1,17 @@
-==> Determining dbus bottle rebuild...
-==> Bottling dbus-1.12.2.x86_64_linux.bottle.1.tar.gz...
-./dbus-1.12.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.108.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dbus-glib/0.108
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dbus-glib`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dbus-glib/0.108: 44 files, 2.9MB, built in 3 minutes 44 seconds
+==> Determining dbus-glib bottle rebuild...
+==> Bottling dbus-glib-0.108.x86_64_linux.bottle.1.tar.gz...
+./dbus-glib-0.108.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "19d6e8bf8f7607b592b46f4a9559bc6d61096b4f2e7ee0f600a082c36d94215a" => :x86_64_linux
+    sha256 "81e4c1fefc16a6e6fd58029c59e7d4a6546a6d85fd0d6af444f4900ba750d827" => :x86_64_linux
   end
