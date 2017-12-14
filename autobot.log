@@ -1,19 +1,19 @@
-==> Downloading https://github.com/jarun/googler/archive/v3.4.tar.gz
-==> Downloading from https://codeload.github.com/jarun/googler/tar.gz/v3.4
-==> make disable-self-upgrade
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/googler/3.4
+==> Downloading https://pypi.python.org/packages/source/g/goolabs/goolabs-0.3.0.tar.gz
+==> Downloading https://pypi.python.org/packages/source/s/six/six-1.10.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://pypi.python.org/packages/source/c/click/click-6.3.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://pypi.python.org/packages/source/r/requests/requests-2.9.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall googler`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/googler/3.4: 11 files, 239.7KB, built in 1 second
-==> Determining googler bottle rebuild...
-==> Bottling googler-3.4.x86_64_linux.bottle.1.tar.gz...
-./googler-3.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall goolabs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0: 229 files, 2.9MB, built in 2 seconds
+==> Determining goolabs bottle rebuild...
+==> Bottling goolabs-0.3.0.x86_64_linux.bottle.1.tar.gz...
+./goolabs-0.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "99bdff32825dee19fbcf5ed4a7ce53ab392e473fb8d196dbcbc767ee8081dcb7" => :x86_64_linux
+    sha256 "af3cbaa7e2bdf310b377cb640967a47112db1320ac06972fb92fda24901944d8" => :x86_64_linux
   end
