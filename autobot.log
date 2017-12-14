@@ -1,7 +1,15 @@
-==> Determining flex bottle rebuild...
-==> Bottling flex-2.6.4.x86_64_linux.bottle.1.tar.gz...
-./flex-2.6.4.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/FLIF-hub/FLIF/archive/v0.3.tar.gz
+==> Downloading from https://codeload.github.com/FLIF-hub/FLIF/tar.gz/v0.3
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flif/0.3 install install-dev
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall flif`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flif/0.3: 15 files, 5.3MB, built in 50 seconds
+==> Determining flif bottle rebuild...
+==> Bottling flif-0.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if flif-0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./flif-0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "32d1733e457c655b926825cff57554ae398ad93687490731b0d4c9ccbf957545" => :x86_64_linux
+    sha256 "bb23db8899c01551067f5616b2ba7a3ac6721299e0ebd8139788ad3d7362b209" => :x86_64_linux
   end
