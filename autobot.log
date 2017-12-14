@@ -1,26 +1,19 @@
-==> Downloading https://github.com/abiosoft/dockward/archive/0.0.4.tar.gz
-==> Downloading from https://codeload.github.com/abiosoft/dockward/tar.gz/0.0.4
-==> Cloning https://github.com/Sirupsen/logrus.git
-==> Checking out revision 61e43dc76f7ee59a82bdf3d71033dc12bea4c77d
-==> Cloning https://github.com/docker/distribution.git
-==> Checking out revision 7a0972304e201e2a5336a69d00e112c27823f554
-==> Cloning https://github.com/docker/engine-api.git
-==> Checking out revision 4290f40c056686fcaa5c9caf02eac1dde9315adf
-==> Cloning https://github.com/docker/go-connections.git
-==> Checking out revision eb315e36415380e7c2fdee175262560ff42359da
-==> Cloning https://github.com/docker/go-units.git
-==> Checking out revision e30f1e79f3cd72542f2026ceec18d3bd67ab859c
-==> Cloning https://go.googlesource.com/net.git
-==> Checking out revision f2499483f923065a842d38eb4c7f1927e6fc6e6d
-==> go install github.com/abiosoft/dockward
+==> Downloading https://github.com/digitalocean/doctl/archive/v1.7.1.tar.gz
+==> Downloading from https://codeload.github.com/digitalocean/doctl/tar.gz/v1.7.1
+==> go build -ldflags -X github.com/digitalocean/doctl.Major=1 -X github.com/digitalocean/doctl.Minor=7 -X github.com/digitalocean/doctl.Patch=1 -X github.com/digitalocean/doctl.Label=release github.com/digitalocean/doctl/cmd/doctl
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dockward`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dockward/0.0.4: 5 files, 7.2MB, built in 1 minute 40 seconds
-==> Determining dockward bottle rebuild...
-==> Bottling dockward-0.0.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if dockward-0.0.4.x86_64_linux.bottle.tar.gz is relocatable...
-./dockward-0.0.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall doctl`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/doctl/1.7.1: 8 files, 12.9MB, built in 1 minute 4 seconds
+==> Determining doctl bottle rebuild...
+==> Bottling doctl-1.7.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if doctl-1.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./doctl-1.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "91ce815fda0d2047e5e6d671fbecf5639d99ca8f456202ecedf3054f633fee65" => :x86_64_linux
+    rebuild 1
+    sha256 "8e2052a47fb90eac4c8cc837aa667afce8a95ef16df9e2e0fbd305c28e022d58" => :x86_64_linux
   end
