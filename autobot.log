@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/refit/refit-src-0.14.tar.gz
-==> Downloading from https://downloads.sourceforge.net/project/refit/rEFIt/0.14/refit-src-0.14.tar.gz
-==> make -f Makefile.unix CC=gcc-6
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gptsync`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gptsync/0.14: 6 files, 88.0KB, built in 1 second
-==> Determining gptsync bottle rebuild...
-==> Bottling gptsync-0.14.x86_64_linux.bottle.1.tar.gz...
-./gptsync-0.14.x86_64_linux.bottle.1.tar.gz
+==> Determining gputils bottle rebuild...
+==> Bottling gputils-1.5.0-1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gputils-1.5.0-1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gputils-1.5.0-1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e68f851759aac73d269f87793ab13f1cc504de0360b6de7f15c83e371f3bb42f" => :x86_64_linux
+    sha256 "79aa57e8ce737880007b6bbd78c79e32c385bca2039de968845f868e1612d60d" => :x86_64_linux
   end
