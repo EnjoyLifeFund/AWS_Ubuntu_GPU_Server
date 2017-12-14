@@ -1,19 +1,13 @@
-==> Downloading https://github.com/git-ftp/git-ftp/archive/1.4.0.tar.gz
-==> Downloading from https://codeload.github.com/git-ftp/git-ftp/tar.gz/1.4.0
-==> Downloading https://curl.haxx.se/download/curl-7.57.0.tar.bz2
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/git-ftp/1.4.0_3/libexec --with-darwinssl --without-ca-bundle --without-ca-path --with-libssh2 --without-libmetalink --without-gssapi --without-librtmp --disable-ares
-==> make install
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/git-ftp/1.4.0_3 install
-==> make -C man man
+==> Downloading https://github.com/icefox/git-hooks/archive/1.00.0.tar.gz
+==> Downloading from https://codeload.github.com/icefox/git-hooks/tar.gz/1.00.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-ftp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-ftp/1.4.0_3: 419 files, 3.5MB, built in 52 seconds
-==> Determining git-ftp bottle rebuild...
-==> Bottling git-ftp-1.4.0_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if git-ftp-1.4.0_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./git-ftp-1.4.0_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-hooks`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-hooks/1.00.0: 12 files, 67.4KB, built in 0 seconds
+==> Determining git-hooks bottle rebuild...
+==> Bottling git-hooks-1.00.0.x86_64_linux.bottle.1.tar.gz...
+./git-hooks-1.00.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5f3c1571ab15cd7c6b82ed76d475a0402fdee05da4ab5f00ec7dac5e7332d98d" => :x86_64_linux
+    sha256 "4ddb368fb0d26c75628b71ab910b2e163c73c61d53a8979961ab4f802281704e" => :x86_64_linux
   end
