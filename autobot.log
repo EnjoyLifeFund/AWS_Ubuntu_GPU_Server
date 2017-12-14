@@ -1,21 +1,15 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://files.pythonhosted.org/packages/6e/c3/217ba20c53a39e68f7bef139a47f5c820230d1d672529de44c9bd961a023/FoBiS.py-2.2.7.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/fobis--homebrew-virtualenv-20171214-93362-ssbtff/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/fobis--homebrew-virtualenv-20171214-93362-ssbtff/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed pygooglechart
-==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed graphviz
-==> /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/fobis-20171214-93362-9i9bc0/FoBiS.py-2.2.7
+==> Downloading https://bitbucket.org/mhulden/foma/downloads/foma-0.9.18.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/mhulden/foma/downloads/foma-0.9.18.tar.gz?Signature=C24SIcYxeRMBAch3Ok6T%2BpI7GLI%3D&Expires=1513269420&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22foma-0.9.18.tar.gz%22
+==> make
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/foma/0.9.18
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fobis`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fobis/2.2.7: 833 files, 10.1MB, built in 8 seconds
-==> Determining fobis bottle rebuild...
-==> Bottling fobis-2.2.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fobis-2.2.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fobis-2.2.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall foma`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/foma/0.9.18: 14 files, 1.8MB, built in 4 seconds
+==> Determining foma bottle rebuild...
+==> Bottling foma-0.9.18.x86_64_linux.bottle.1.tar.gz...
+./foma-0.9.18.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "69893f051b2f19c783491929810417ea650f922d830c3ee94ef967262750f50f" => :x86_64_linux
+    sha256 "96dab58190d5dbb3e8d4dbf015b409c2a6fde50c18d6ff9e55830da24f2532a9" => :x86_64_linux
   end
