@@ -1,25 +1,13 @@
-==> Installing dependencies for fs-uae: libmpeg2, openal-soft
-==> Installing fs-uae dependency: libmpeg2
-==> Downloading https://linuxbrew.bintray.com/bottles/libmpeg2-0.5.1.x86_64_linux.bottle.1.tar.gz
-==> Pouring libmpeg2-0.5.1.x86_64_linux.bottle.1.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmpeg2/0.5.1: 25 files, 500.5KB
-==> Installing fs-uae dependency: openal-soft
-==> Downloading https://linuxbrew.bintray.com/bottles/openal-soft-1.18.2.x86_64_linux.bottle.tar.gz
-==> Pouring openal-soft-1.18.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openal-soft/1.18.2: 30 files, 1.3MB
-==> Installing fs-uae
-==> Downloading https://fs-uae.net/stable/2.8.3/fs-uae-2.8.3.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fs-uae/2.8.3
-==> make
+==> Downloading https://www.lysator.liu.se/fsh/fsh-1.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fsh/1.2 --infodir=/home/linuxbrew/.linuxbrew/Cellar/fsh/1.2/share/info
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fs-uae`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fs-uae/2.8.3: 30 files, 75.2MB, built in 1 minute 12 seconds
-==> Determining fs-uae bottle rebuild...
-==> Bottling fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fs-uae-2.8.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fsh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fsh/1.2: 21 files, 152.4KB, built in 5 seconds
+==> Determining fsh bottle rebuild...
+==> Bottling fsh-1.2.x86_64_linux.bottle.1.tar.gz...
+./fsh-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "63f8c46fcd53ec3e9d66fef1354c9704370525cc05a2dc441ab9b26d54fec3a8" => :x86_64_linux
+    sha256 "7387c8d9610b976744ff8f3ecf57fad1ba09e9fd5a0d14455fe91ad6d7f858b5" => :x86_64_linux
   end
