@@ -1,24 +1,7 @@
-==> Installing dependencies for groonga: msgpack
-==> Installing groonga dependency: msgpack
-==> Downloading https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.x86_64_linux.bottle.tar.gz
-==> Pouring msgpack-2.1.5.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/msgpack/2.1.5: 670 files, 5.9MB
-==> Installing groonga
-==> Downloading https://packages.groonga.org/source/groonga/groonga-7.0.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9 --with-zlib --with-ssl --enable-mruby --disable-zeromq --without-libstemmer
-==> make install
-==> Downloading https://packages.groonga.org/source/groonga-normalizer-mysql/groonga-normalizer-mysql-1.1.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall groonga`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/groonga/7.0.9: 798 files, 70.6MB, built in 3 minutes 55 seconds
-==> Determining groonga bottle rebuild...
-==> Bottling groonga-7.0.9.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if groonga-7.0.9.x86_64_linux.bottle.1.tar.gz is relocatable...
-./groonga-7.0.9.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "21e8cf2c5a04ad73d8dd24f7c85cb6e582d7c188714ab32cef0a33f3b5bf91c1" => :x86_64_linux
-  end
+==> Downloading https://dl.bintray.com/groovy/maven/apache-groovy-binary-2.4.12.zip
+==> Caveats
+You should set GROOVY_HOME:
+  export GROOVY_HOME=/home/linuxbrew/.linuxbrew/opt/groovy/libexec
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/groovy/2.4.12: 65 files, 27.7MB, built in 5 seconds
+This formula doesn't require compiling.
