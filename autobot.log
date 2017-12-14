@@ -1,15 +1,7 @@
-==> Downloading https://wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.0/E.tgz
-==> ./configure --bindir=/home/linuxbrew/.linuxbrew/Cellar/eprover/2.0/bin --man-prefix=/home/linuxbrew/.linuxbrew/Cellar/eprover/2.0/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eprover`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/eprover/2.0: 29 files, 8.7MB, built in 29 seconds
-==> Determining eprover bottle rebuild...
-==> Bottling eprover-2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if eprover-2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./eprover-2.0.x86_64_linux.bottle.1.tar.gz
+==> Determining epsilon bottle rebuild...
+==> Bottling epsilon-0.9.2.x86_64_linux.bottle.1.tar.gz...
+./epsilon-0.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "75e0c11c95855a6dcd1eb44d50471bb231e46a1017fc9638127ee962af7a1d1f" => :x86_64_linux
+    sha256 "a301ce57f0d3e5a8c5238d89e4072311676e7530e3dd6c2c57138c3a86c689b5" => :x86_64_linux
   end
