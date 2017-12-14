@@ -1,1 +1,13 @@
-This formula doesn't require compiling.
+==> Downloading https://projects.gw-computing.net/attachments/download/615/dfc-3.1.1.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dfc/3.1.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dfc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dfc/3.1.1: 21 files, 215.8KB, built in 48 seconds
+==> Determining dfc bottle rebuild...
+==> Bottling dfc-3.1.1.x86_64_linux.bottle.1.tar.gz...
+./dfc-3.1.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "50ee026103c3febef4372e87313781518b2ce98abe2e41975ab7665a18109220" => :x86_64_linux
+  end
