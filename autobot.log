@@ -1,16 +1,15 @@
-==> Downloading https://github.com/google/flatbuffers/archive/v1.8.0.tar.gz
-==> Downloading from https://codeload.github.com/google/flatbuffers/tar.gz/v1.8.0
-==> cmake -G Unix Makefiles -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flatbuffers/1.8.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/dvidelabs/flatcc/archive/v0.4.3.tar.gz
+==> Downloading from https://codeload.github.com/dvidelabs/flatcc/tar.gz/v0.4.3
+==> cmake -G Unix Makefiles /tmp/flatcc-20171214-22449-1e4kt2n/flatcc-0.4.3 -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flatcc/0.4.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flatbuffers`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flatbuffers/1.8.0: 25 files, 7.4MB, built in 12 seconds
-==> Determining flatbuffers bottle rebuild...
-==> Bottling flatbuffers-1.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if flatbuffers-1.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./flatbuffers-1.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall flatcc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flatcc/0.4.3: 64 files, 1.5MB, built in 3 seconds
+==> Determining flatcc bottle rebuild...
+==> Bottling flatcc-0.4.3.x86_64_linux.bottle.1.tar.gz...
+./flatcc-0.4.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "367396f61ab603762e4e6611359a8b2c8fcc15b2fda11bb1f17259e3fb5196b9" => :x86_64_linux
+    sha256 "07c091368afabb2353fa9d2e9f30c2f5483627760ce3c6e5e804f4cc1fbca5c2" => :x86_64_linux
   end
