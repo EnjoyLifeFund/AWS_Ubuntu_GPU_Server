@@ -1,18 +1,4 @@
-==> Downloading https://github.com/brettlangdon/git-vendor/archive/v1.1.2.tar.gz
-==> Downloading from https://codeload.github.com/brettlangdon/git-vendor/tar.gz/v1.1.2
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-vendor/1.1.2 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-vendor`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-vendor/1.1.2: 7 files, 45.4KB, built in 0 seconds
-==> Determining git-vendor bottle rebuild...
-==> Bottling git-vendor-1.1.2.x86_64_linux.bottle.1.tar.gz...
-./git-vendor-1.1.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "4536c2f9e1bf7381fe0f06bd61761864e56652860b9ce73639b9cb404448935d" => :x86_64_linux
-  end
+==> Downloading https://github.com/mhagger/git-when-merged/archive/v1.2.0.tar.gz
+==> Downloading from https://codeload.github.com/mhagger/git-when-merged/tar.gz/v1.2.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-when-merged/1.2.0: 5 files, 58.8KB, built in 1 second
+This formula doesn't require compiling.
