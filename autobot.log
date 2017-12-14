@@ -1,8 +1,15 @@
-==> Determining ed bottle rebuild...
-==> Bottling ed-1.14.2.x86_64_linux.bottle.1.tar.gz...
-./ed-1.14.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/0.12.1/source/editorconfig-core-c-0.12.1.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/editorconfig/EditorConfig-C-Core/0.12.1/source/editorconfig-core-c-0.12.1.tar.gz
+==> cmake . -DCMAKE_INSTALL_PREFIX:PATH=/home/linuxbrew/.linuxbrew/Cellar/editorconfig/0.12.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall editorconfig`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/editorconfig/0.12.1: 17 files, 175.3KB, built in 5 seconds
+==> Determining editorconfig bottle rebuild...
+==> Bottling editorconfig-0.12.1.x86_64_linux.bottle.1.tar.gz...
+./editorconfig-0.12.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5e1911b3375e6259f5e20e067a476af5530692ce1c799b677e2e0962d034ad3e" => :x86_64_linux
+    sha256 "fadbfea7a12cf90733741ee442138468d5fab963530419b7d15fdc1b2dd5a0be" => :x86_64_linux
   end
