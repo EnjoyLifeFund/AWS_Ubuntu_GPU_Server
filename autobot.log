@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/dopewars/dopewars/1.5.12/dopewars-1.5.12.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/dopewars/dopewars/1.5.12/dopewars-1.5.12.tar.gz
-==> ./configure --disable-gui-client --disable-gui-server --enable-plugins --enable-networking --prefix=/home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12/share/man
-==> make install
+==> Downloading https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.0.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/dos2unix/7.4.0 CC=gcc-5 CPP=gcc-5 CFLAGS= install ENABLE_NLS=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dopewars`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dopewars/1.5.12: 61 files, 1.8MB, built in 6 minutes 10 seconds
-==> Determining dopewars bottle rebuild...
-==> Bottling dopewars-1.5.12.x86_64_linux.bottle.1.tar.gz...
-./dopewars-1.5.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dos2unix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dos2unix/7.4.0: 24 files, 413.0KB, built in 19 seconds
+==> Determining dos2unix bottle rebuild...
+==> Bottling dos2unix-7.4.0.x86_64_linux.bottle.1.tar.gz...
+./dos2unix-7.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bfbf8785b5c8945459ddebeb1e4f9b2bb70380b40aa86b5edfed49981168bcd4" => :x86_64_linux
+    sha256 "87a4c7d4818236186cd17048fd037ffa87d5d6bca7bd94be247bff0134154cf1" => :x86_64_linux
   end
