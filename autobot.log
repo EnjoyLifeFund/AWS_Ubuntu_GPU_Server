@@ -1,4 +1,7 @@
-==> Cloning https://github.com/offensive-security/exploit-database.git
-==> Checking out tag 2017-12-01
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exploitdb/2017-12-01: 38,906 files, 186.8MB, built in 28 seconds
-This formula doesn't require compiling.
+==> Determining ext4fuse bottle rebuild...
+==> Bottling ext4fuse-0.1.3.x86_64_linux.bottle.1.tar.gz...
+./ext4fuse-0.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "c92bfa11472bc77b3830d2f914ebb50dcc5cc97152162a347fee01fd7d3f49ef" => :x86_64_linux
+  end
