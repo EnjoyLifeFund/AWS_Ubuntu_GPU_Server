@@ -1,7 +1,16 @@
-==> Determining geoip bottle rebuild...
-==> Bottling geoip-1.6.11.x86_64_linux.bottle.1.tar.gz...
-./geoip-1.6.11.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/cginternals/globjects/archive/v1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/cginternals/globjects/tar.gz/v1.0.0
+==> cmake . -Dglbinding_DIR=/home/linuxbrew/.linuxbrew/opt/glbinding -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/globjects/1.0.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> cmake --build . --target install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall globjects`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/globjects/1.0.0_1: 110 files, 8.4MB, built in 11 seconds
+==> Determining globjects bottle rebuild...
+==> Bottling globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./globjects-1.0.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c90cf5d2a0b57c265ca108054593177dbfe0866911a571db9c373aef6cd37894" => :x86_64_linux
+    sha256 "201cad1cdfd906c2b2888e9156745861bec0d423b69db47e4263f7165a1a7da4" => :x86_64_linux
   end
