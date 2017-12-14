@@ -1,15 +1,12 @@
-==> Downloading https://github.com/remind101/empire/archive/v0.13.0.tar.gz
-==> Downloading from https://codeload.github.com/remind101/empire/tar.gz/v0.13.0
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/emp/0.13.0/bin/emp ./src/github.com/remind101/empire/cmd/emp
+==> Downloading https://lacklustre.net/projects/ems-flasher/ems-flasher-0.03.tgz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall emp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/emp/0.13.0: 6 files, 9.1MB, built in 4 seconds
-==> Determining emp bottle rebuild...
-==> Bottling emp-0.13.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if emp-0.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./emp-0.13.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ems-flasher`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ems-flasher/0.03: 6 files, 46.3KB, built in 1 second
+==> Determining ems-flasher bottle rebuild...
+==> Bottling ems-flasher-0.03.x86_64_linux.bottle.1.tar.gz...
+./ems-flasher-0.03.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d652364651c37ce909c2c5255aea12301d99cd3b41ac15aa1e99c1623a98a3c9" => :x86_64_linux
+    sha256 "5ca684d9a3b4bf5790d251bbf22a60c407e6459e22a0636844dd86c8c6713f6e" => :x86_64_linux
   end
