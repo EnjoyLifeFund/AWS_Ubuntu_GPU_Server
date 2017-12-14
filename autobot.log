@@ -1,24 +1,22 @@
-==> Downloading https://download.gnome.org/sources/glib-openssl/2.50/glib-openssl-2.50.6.tar.xz
-==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/glib-openssl/2.50/glib-openssl-2.50.6.tar.xz
-==> ./configure --disable-silent-rules --disable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/glib-openssl/2.50.6 --with-ca-certificates=/home/linuxbrew/.linuxbrew/etc/openssl/cert.pem
-==> make install
+==> Downloading https://github.com/orefalo/g2/archive/v1.1.tar.gz
+==> Downloading from https://codeload.github.com/orefalo/g2/tar.gz/v1.1
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/g2/1.1 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall glib-openssl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glib-openssl/2.50.6: 75 files, 1.2MB, built in 10 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-docfx
-erlang@18
-erlang@19
-freediameter
-gpgme
-node-build
+You can run it manually using `brew postinstall g2`
+==> Caveats
+To complete the installation:
+  . /home/linuxbrew/.linuxbrew/opt/g2/g2-install.sh
 
-==> Determining glib-openssl bottle rebuild...
-==> Bottling glib-openssl-2.50.6.x86_64_linux.bottle.1.tar.gz...
-./glib-openssl-2.50.6.x86_64_linux.bottle.1.tar.gz
+NOTE: This will install a new ~/.gitconfig, backing up any existing
+file first. For more information view:
+  /home/linuxbrew/.linuxbrew/opt/g2/README.md
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/g2/1.1: 46 files, 122.8KB, built in 0 seconds
+==> Determining g2 bottle rebuild...
+==> Bottling g2-1.1.x86_64_linux.bottle.1.tar.gz...
+./g2-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ae68a9a5e51adb0d1bf7da8feca448726eafc9e825d63e6b55a45b92ece905e3" => :x86_64_linux
+    sha256 "fdf734933523e602da0a26b98836d5d192fc5ec59c0e0321c8e28c80af18ac0a" => :x86_64_linux
   end
