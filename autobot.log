@@ -1,14 +1,14 @@
-==> Downloading https://github.com/sobolevn/git-secret/archive/v0.2.2.tar.gz
-==> Downloading from https://codeload.github.com/sobolevn/git-secret/tar.gz/v0.2.2
-==> make build
-==> bash utils/install.sh /home/linuxbrew/.linuxbrew/Cellar/git-secret/0.2.2
+==> Downloading https://github.com/awslabs/git-secrets/archive/1.2.1.tar.gz
+==> Downloading from https://codeload.github.com/awslabs/git-secrets/tar.gz/1.2.1
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-secrets/1.2.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-secret`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-secret/0.2.2: 19 files, 68.5KB, built in 0 seconds
-==> Determining git-secret bottle rebuild...
-==> Bottling git-secret-0.2.2.x86_64_linux.bottle.tar.gz...
-./git-secret-0.2.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall git-secrets`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-secrets/1.2.1: 8 files, 84KB, built in 0 seconds
+==> Determining git-secrets bottle rebuild...
+==> Bottling git-secrets-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./git-secrets-1.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "285bd0acedb37e3d30d826b0997e662b5421d4c6248441fa08f0531f0aeaa62f" => :x86_64_linux
+    rebuild 1
+    sha256 "269b4e5503959982f572ab54953b3f48148ba21dd0eedd84842cc9d62e131c36" => :x86_64_linux
   end
