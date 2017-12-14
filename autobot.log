@@ -1,13 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/units/units-2.16.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-units/2.16 --with-installed-readline
+==> Downloading https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-which/2.21
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-units`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-units/2.16: 13 files, 928.3KB, built in 5 seconds
-==> Determining gnu-units bottle rebuild...
-==> Bottling gnu-units-2.16.x86_64_linux.bottle.1.tar.gz...
-./gnu-units-2.16.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnu-which`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-which/2.21: 9 files, 158.4KB, built in 5 seconds
+==> Determining gnu-which bottle rebuild...
+==> Bottling gnu-which-2.21.x86_64_linux.bottle.1.tar.gz...
+./gnu-which-2.21.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "12be84f073741b19e815ae75835a4d06e99fc7158bac32c842905569b85b9760" => :x86_64_linux
+    sha256 "6986ebe36fabc348dd38267226f98295bafd02311df7f5ec5fe044e97da0f075" => :x86_64_linux
   end
