@@ -1,29 +1,13 @@
-==> Installing dependencies for ddar: xmltoman
-==> Installing ddar dependency: xmltoman
-==> Downloading https://linuxbrew.bintray.com/bottles/xmltoman-0.4.x86_64_linux.bottle.tar.gz
-==> Pouring xmltoman-0.4.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xmltoman/0.4: 11 files, 59KB
-==> Installing ddar
-==> Downloading https://github.com/basak/ddar/archive/v1.0.tar.gz
-==> Downloading from https://codeload.github.com/basak/ddar/tar.gz/v1.0
-==> make -f Makefile.prep pydist
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ddar/1.0_5 --single-version-externally-managed --record=installed.txt
+==> Downloading https://github.com/bo0ts/ddate/archive/v0.2.2.tar.gz
+==> Downloading from https://codeload.github.com/bo0ts/ddate/tar.gz/v0.2.2
+==> gcc-5 ddate.c -o ddate
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ddar`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ddar/1.0_5: 21 files, 156KB, built in 23 seconds
-==> Determining ddar bottle rebuild...
-==> Bottling ddar-1.0_5.x86_64_linux.bottle.1.tar.gz...
-./ddar-1.0_5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ddate`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ddate/0.2.2: 5 files, 52.4KB, built in 9 seconds
+==> Determining ddate bottle rebuild...
+==> Bottling ddate-0.2.2.x86_64_linux.bottle.tar.gz...
+./ddate-0.2.2.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e5c0a40a8160319deb3ea59e511e5e016a35974136d5d596e8ce207a001245cd" => :x86_64_linux
+    sha256 "2288f8920e0071f1f1cd35760a821ee54749d748caef87ade6406fce71a83cca" => :x86_64_linux
   end
