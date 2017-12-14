@@ -1,9 +1,4 @@
-==> Determining godep bottle rebuild...
-==> Bottling godep-79_8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if godep-79_8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./godep-79_8.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "8f2ddf52ce48aa0a208c131934c24238fcf11cc6395d3b460531502d785be207" => :x86_64_linux
-  end
+==> Downloading https://github.com/syndbg/goenv/archive/1.7.0.tar.gz
+==> Downloading from https://codeload.github.com/syndbg/goenv/tar.gz/1.7.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goenv/1.7.0: 131 files, 296.9KB, built in 0 seconds
+This formula doesn't require compiling.
