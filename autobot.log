@@ -1,24 +1,7 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/g/grib-api/grib-api_1.24.0.orig.tar.xz
-==> cmake .. -DENABLE_NETCDF=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/grib-api/1.24.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall grib-api`
+==> Downloading https://dl.bintray.com/content/aalmiray/Griffon/griffon-1.5.0-bin.tgz
 ==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+You should set the environment variable GRIFFON_HOME to:
+  /home/linuxbrew/.linuxbrew/opt/griffon/libexec
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grib-api/1.24.0: 3,853 files, 20.7MB, built in 25 seconds
-==> Determining grib-api bottle rebuild...
-==> Bottling grib-api-1.24.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if grib-api-1.24.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./grib-api-1.24.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "581d43b137ec9d874bf288217d4daaea29881e9c08255bd9f291208ac3034bbd" => :x86_64_linux
-  end
+🍺  /home/linuxbrew/.linuxbrew/Cellar/griffon/1.5.0: 1,674 files, 62.9MB, built in 9 seconds
+This formula doesn't require compiling.
