@@ -1,19 +1,14 @@
-==> Installing dependencies for dirt: liblo
-==> Installing dirt dependency: liblo
-==> Downloading https://linuxbrew.bintray.com/bottles/liblo-0.29.x86_64_linux.bottle.tar.gz
-==> Pouring liblo-0.29.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblo/0.29: 25 files, 582.2KB
-==> Installing dirt
-==> Downloading https://github.com/tidalcycles/Dirt/archive/1.1.tar.gz
-==> Downloading from https://codeload.github.com/tidalcycles/Dirt/tar.gz/1.1
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dirt/1.1_1 install
+==> Downloading http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.2.tar.bz2
+==> ./configure.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2/share/man --with-dl=Both --enable-dl-tag --enable-pandoc-header --enable-superscript
+==> make install.everything
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dirt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dirt/1.1_1: 6 files, 182.2KB, built in 19 seconds
-==> Determining dirt bottle rebuild...
-==> Bottling dirt-1.1_1.x86_64_linux.bottle.1.tar.gz...
-./dirt-1.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall discount`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2: 32 files, 646KB, built in 59 seconds
+==> Determining discount bottle rebuild...
+==> Bottling discount-2.2.2.x86_64_linux.bottle.1.tar.gz...
+./discount-2.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fb0270219b04ba5bcb962f2dd4eaf05d46727d3a4ba85e37f5bd30fccd2eb84a" => :x86_64_linux
+    sha256 "72906d3d9638620caf75e4b7655f51c5d2f2dfbb8404d0d7f48fc12a19b942e5" => :x86_64_linux
   end
