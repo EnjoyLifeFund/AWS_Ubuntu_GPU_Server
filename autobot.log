@@ -1,18 +1,16 @@
-==> Downloading https://downloads.gradle.org/distributions/gradle-2.14.1-bin.zip
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/gradle
-Target /home/linuxbrew/.linuxbrew/bin/gradle
-is a symlink belonging to gradle. You can unlink it:
-  brew unlink gradle
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite gradle@2.14
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run gradle@2.14
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/gradle -> /home/linuxbrew/.linuxbrew/Cellar/gradle/4.4/bin/gradle
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gradle@2.14/2.14.1: 172 files, 47.4MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/grafana/grafana/archive/v4.6.2.tar.gz
+==> Downloading from https://codeload.github.com/grafana/grafana/tar.gz/v4.6.2
+==> go run build.go build
+==> yarn install --ignore-engines
+==> node_modules/grunt-cli/bin/grunt build
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grafana`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grafana/4.6.2: 2,873 files, 156.4MB, built in 3 minutes 41 seconds
+==> Determining grafana bottle rebuild...
+==> Bottling grafana-4.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if grafana-4.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./grafana-4.6.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "0b762773549cef55ced5734beaae2dbe470f8dbf755069d9bc8c7790b9eec201" => :x86_64_linux
+  end
