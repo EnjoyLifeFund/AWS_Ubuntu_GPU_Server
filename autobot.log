@@ -1,15 +1,27 @@
-==> Downloading http://www.freetds.org/files/stable/freetds-1.00.79.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79 --with-tdsver=7.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79/share/man --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> Downloading ftp://ftp.freetds.org/pub/freetds/stable/freetds-0.91.112.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetds@0.91/0.91.112 --with-tdsver=7.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/freetds@0.91/0.91.112/share/man --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall freetds`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79: 2,096 files, 20.3MB, built in 36 seconds
-==> Determining freetds bottle rebuild...
-==> Bottling freetds-1.00.79.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if freetds-1.00.79.x86_64_linux.bottle.1.tar.gz is relocatable...
-./freetds-1.00.79.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall freetds@0.91`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/freetds@0.91/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/freetds@0.91/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/freetds@0.91/include
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freetds@0.91/0.91.112: 765 files, 16.8MB, built in 33 seconds
+==> Determining freetds@0.91 bottle rebuild...
+==> Bottling freetds@0.91-0.91.112.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freetds@0.91-0.91.112.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freetds@0.91-0.91.112.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "3875ea9620b6e91d7938c7fa38bddd196c2c8e68555047144bb3ba63f318fa9c" => :x86_64_linux
+    sha256 "3ded9357b383fdda8acd1acafcfa3cec38640bcb65179a510f1095ddc4d90ef9" => :x86_64_linux
   end
