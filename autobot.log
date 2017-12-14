@@ -1,13 +1,15 @@
-==> Downloading https://johnst.org/sw/exiftags/exiftags-1.01.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01 mandir=/home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01/share/man install
+==> Downloading https://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.55.tar.gz
+==> perl Makefile.PL
+==> make all
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exiftags`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01: 10 files, 287KB, built in 1 second
-==> Determining exiftags bottle rebuild...
-==> Bottling exiftags-1.01.x86_64_linux.bottle.1.tar.gz...
-./exiftags-1.01.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exiftool`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exiftool/10.55_1: 537 files, 20MB, built in 5 seconds
+==> Determining exiftool bottle rebuild...
+==> Bottling exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "37b88405a8e2c9eea50bd83801c98675108cb92246941d4a6d4d906780a97755" => :x86_64_linux
+    sha256 "0e5a1ae92caf8803c17c09b855a60b2afa2e94d3c2a3cf14917487db02854851" => :x86_64_linux
   end
