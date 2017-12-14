@@ -1,14 +1,9 @@
-==> Downloading https://github.com/FFMS/ffms2/archive/2.23.tar.gz
-==> Downloading from https://codeload.github.com/FFMS/ffms2/tar.gz/2.23
-==> ./configure --enable-avresample --prefix=/home/linuxbrew/.linuxbrew/Cellar/ffms2/2.23
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ffms2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ffms2/2.23: 13 files, 2.5MB, built in 12 seconds
-==> Determining ffms2 bottle rebuild...
-==> Bottling ffms2-2.23.x86_64_linux.bottle.1.tar.gz...
-./ffms2-2.23.x86_64_linux.bottle.1.tar.gz
+==> Determining fftw bottle rebuild...
+==> Bottling fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "01503c3e72760c3d2108e8fcd5ff8fba1962a3132213db1bb26f03ff5a2fbf11" => :x86_64_linux
+    sha256 "377cf67d7eb2cff525f06549941307be067d868a116a00fa1194b6eac408d321" => :x86_64_linux
   end
