@@ -1,17 +1,16 @@
-==> Downloading https://github.com/google/benchmark/archive/v1.3.0.tar.gz
-==> Downloading from https://codeload.github.com/google/benchmark/tar.gz/v1.3.0
-==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/google-benchmark/1.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make test
+==> Downloading https://github.com/sparsehash/sparsehash/archive/sparsehash-2.0.3.tar.gz
+==> Downloading from https://codeload.github.com/sparsehash/sparsehash/tar.gz/sparsehash-2.0.3
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall google-benchmark`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/google-benchmark/1.3.0: 13 files, 3.6MB, built in 26 seconds
-==> Determining google-benchmark bottle rebuild...
-==> Bottling google-benchmark-1.3.0.x86_64_linux.bottle.1.tar.gz...
-./google-benchmark-1.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall google-sparsehash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3: 49 files, 653.0KB, built in 1 minute 13 seconds
+==> Determining google-sparsehash bottle rebuild...
+==> Bottling google-sparsehash-2.0.3.x86_64_linux.bottle.1.tar.gz...
+./google-sparsehash-2.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9d0e983d68d2a68aaab6d72e7befd87bbfe2e7e66e2f85860d7595778936451f" => :x86_64_linux
+    sha256 "8614beb8374cc142e0a83084a5b3c809268de10a4e516b66190f81f92e241e88" => :x86_64_linux
   end
