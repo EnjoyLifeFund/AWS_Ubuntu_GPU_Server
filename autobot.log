@@ -1,15 +1,15 @@
-==> Downloading https://github.com/ekalinin/github-markdown-toc.go/archive/0.8.0.tar.gz
-==> Downloading from https://codeload.github.com/ekalinin/github-markdown-toc.go/tar.gz/0.8.0
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/github-markdown-toc/0.8.0/bin/gh-md-toc main.go
+==> Downloading https://github.com/aktau/github-release/archive/v0.7.2.tar.gz
+==> Downloading from https://codeload.github.com/aktau/github-release/tar.gz/v0.7.2
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall github-markdown-toc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/github-markdown-toc/0.8.0: 5 files, 8MB, built in 2 seconds
-==> Determining github-markdown-toc bottle rebuild...
-==> Bottling github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall github-release`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/github-release/0.7.2: 5 files, 7.7MB, built in 3 seconds
+==> Determining github-release bottle rebuild...
+==> Bottling github-release-0.7.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if github-release-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./github-release-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "68a699a075aef81a36b422bd86cf36a7b23845946236ac792045163ab5b3b932" => :x86_64_linux
+    sha256 "7009912f7f6255aa2183ab1d7fe1dec68d626554a59cc26b509950fba191b590" => :x86_64_linux
   end
