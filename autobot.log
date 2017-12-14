@@ -1,23 +1,14 @@
-==> Installing dependencies for fq: jlog
-==> Installing fq dependency: jlog
-==> Downloading https://github.com/omniti-labs/jlog/archive/2.3.0.tar.gz
-==> Downloading from https://codeload.github.com/omniti-labs/jlog/tar.gz/2.3.0
-==> autoconf
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jlog/2.3.0
+==> Downloading https://digitalcorpora.org/downloads/frag_find/frag_find-1.0.0.tar.gz
+==> Downloading from http://downloads.digitalcorpora.org/downloads/frag_find/frag_find-1.0.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/frag_find/1.0.0_1
 ==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jlog/2.3.0: 16 files, 1004.6KB, built in 8 seconds
-==> Installing fq
-==> Downloading https://github.com/circonus-labs/fq/archive/v0.10.5.tar.gz
-==> Downloading from https://codeload.github.com/circonus-labs/fq/tar.gz/v0.10.5
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fq/0.10.5: 34 files, 2.1MB, built in 2 seconds
-==> Determining fq bottle rebuild...
-==> Bottling fq-0.10.5.x86_64_linux.bottle.1.tar.gz...
-./fq-0.10.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall frag_find`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/frag_find/1.0.0_1: 10 files, 1.6MB, built in 11 seconds
+==> Determining frag_find bottle rebuild...
+==> Bottling frag_find-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
+./frag_find-1.0.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "93364b1446da4323fe738fee35345bc89eead9cbbc2e74b3a33d48361c83778d" => :x86_64_linux
+    sha256 "b85a9e6b06b6941cb2793bdc3727d032eb33a799b6b1c3d41f3bcd79eb7ddd8c" => :x86_64_linux
   end
