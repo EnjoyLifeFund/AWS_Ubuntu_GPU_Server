@@ -1,15 +1,18 @@
-==> Downloading https://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.55.tar.gz
-==> perl Makefile.PL
-==> make all
+==> Downloading https://ftp.exim.org/pub/exim/exim4/exim-4.89.1.tar.bz2
+==> make
+==> make INSTALL_ARG=-no_chown install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exiftool`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exiftool/10.55_1: 537 files, 20MB, built in 5 seconds
-==> Determining exiftool bottle rebuild...
-==> Bottling exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./exiftool-10.55_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exim`
+==> Caveats
+Start with:
+  exim_ctl start
+Don't forget to run it as root to be able to bind port 25.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exim/4.89.1: 27 files, 1.7MB, built in 21 seconds
+==> Determining exim bottle rebuild...
+==> Bottling exim-4.89.1.x86_64_linux.bottle.1.tar.gz...
+./exim-4.89.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0e5a1ae92caf8803c17c09b855a60b2afa2e94d3c2a3cf14917487db02854851" => :x86_64_linux
+    sha256 "31a60fd775a946cbe2ef9d50b497952ba864a05315e959686d2ef86b1a5edeb6" => :x86_64_linux
   end
