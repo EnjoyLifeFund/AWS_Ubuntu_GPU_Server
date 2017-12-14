@@ -1,15 +1,12 @@
-==> Downloading https://github.com/rordenlab/dcm2niix/archive/v1.0.20171204.tar.gz
-==> Downloading from https://codeload.github.com/rordenlab/dcm2niix/tar.gz/v1.0.20171204
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dcm2niix/1.0.20171204 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://www.cybercom.net/~dcoffin/dcraw/archive/dcraw-9.27.0.tar.gz
+==> gcc-5 -o dcraw -I/home/linuxbrew/.linuxbrew/include -L/home/linuxbrew/.linuxbrew/lib dcraw.c -lm -ljpeg -llcms2 -ljasper
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dcm2niix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dcm2niix/1.0.20171204: 5 files, 371.6KB, built in 2 minutes 49 seconds
-==> Determining dcm2niix bottle rebuild...
-==> Bottling dcm2niix-1.0.20171204.x86_64_linux.bottle.1.tar.gz...
-./dcm2niix-1.0.20171204.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dcraw`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dcraw/9.27.0_2: 4 files, 1.5MB, built in 31 seconds
+==> Determining dcraw bottle rebuild...
+==> Bottling dcraw-9.27.0_2.x86_64_linux.bottle.1.tar.gz...
+./dcraw-9.27.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2fa6027a59fb9fd2a64c85a2f83eb1d7a74c0c3fe7d5e6df71a3da255bad7713" => :x86_64_linux
+    sha256 "da110c64a1e0296d6cfbed597efbc9c063563956dd49d426c9e0d93be8aacb7a" => :x86_64_linux
   end
