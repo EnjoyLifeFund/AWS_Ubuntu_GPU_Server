@@ -1,15 +1,7 @@
-==> Downloading https://github.com/pote/gpm/archive/v1.4.0.tar.gz
-==> Downloading from https://codeload.github.com/pote/gpm/tar.gz/v1.4.0
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpm/1.4.0_1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gpm/1.4.0_1: 5 files, 28KB, built in 0 seconds
-==> Determining gpm bottle rebuild...
-==> Bottling gpm-1.4.0_1.x86_64_linux.bottle.1.tar.gz...
-./gpm-1.4.0_1.x86_64_linux.bottle.1.tar.gz
+==> Determining gpp bottle rebuild...
+==> Bottling gpp-2.25.x86_64_linux.bottle.1.tar.gz...
+./gpp-2.25.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "aaef9cb6c11998167f26a69f33dc7217f2c56ee97ed8b20bd635038f086e95d1" => :x86_64_linux
+    sha256 "517930ab0df4cd2defb6781226200ffe902a79bd3e09b808082ddf3ec38e98b2" => :x86_64_linux
   end
