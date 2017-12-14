@@ -1,13 +1,15 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dnsmap/dnsmap-0.30.tar.gz
-==> make CC=gcc-5 CFLAGS= BINDIR=/home/linuxbrew/.linuxbrew/Cellar/dnsmap/0.30/bin install
+==> Downloading http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.78.tar.gz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dnsmasq/2.78
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnsmap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsmap/0.30: 7 files, 143.6KB, built in 11 seconds
-==> Determining dnsmap bottle rebuild...
-==> Bottling dnsmap-0.30.x86_64_linux.bottle.1.tar.gz...
-./dnsmap-0.30.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dnsmasq`
+==> Caveats
+To configure dnsmasq, take the default example configuration at
+  /home/linuxbrew/.linuxbrew/etc/dnsmasq.conf and edit to taste.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsmasq/2.78: 7 files, 673.4KB, built in 1 minute 52 seconds
+==> Determining dnsmasq bottle rebuild...
+==> Bottling dnsmasq-2.78.x86_64_linux.bottle.tar.gz...
+./dnsmasq-2.78.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c6e80abf84501f47fd25c4cf67084ac301432f9d9f62ccdf50e169342e83aa15" => :x86_64_linux
+    sha256 "bc6d5d9c1fd0bacbd56cfa277352fbf5f1fd7d7fcb1d4b3b29c58806d063caf6" => :x86_64_linux
   end
