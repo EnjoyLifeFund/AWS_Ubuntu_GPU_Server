@@ -1,12 +1,18 @@
-==> Downloading http://www.beautylabs.net/software/dupseek-1.3.tgz
+==> Downloading https://mediaarea.net/download/binary/dvanalyzer/1.4.2/DVAnalyzer_CLI_1.4.2_GNU_FromSource.tar.bz2
+==> ./configure --enable-static --disable-shared
+==> make
+==> ./configure --enable-static --disable-shared
+==> make
+==> ./configure --enable-staticlibs --prefix=/home/linuxbrew/.linuxbrew/Cellar/dvanalyzer/1.4.2
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dupseek`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dupseek/1.3: 7 files, 55.8KB, built in 1 second
-==> Determining dupseek bottle rebuild...
-==> Bottling dupseek-1.3.x86_64_linux.bottle.1.tar.gz...
-./dupseek-1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dvanalyzer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dvanalyzer/1.4.2: 3 files, 8.8MB, built in 1 minute 8 seconds
+==> Determining dvanalyzer bottle rebuild...
+==> Bottling dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dvanalyzer-1.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b3004472936959fb716f51443d612ee9cccfed099730de4082216ad4544bdb1d" => :x86_64_linux
+    sha256 "4323a3096613b8155f8da342584263f8dbe24273eaeee558775a36f036e6d0db" => :x86_64_linux
   end
