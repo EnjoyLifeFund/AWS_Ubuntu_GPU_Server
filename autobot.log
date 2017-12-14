@@ -1,13 +1,22 @@
-==> Downloading https://files.pythonhosted.org/packages/9d/36/f977122502979f3dfb50704979c9ed70e6b620787942b089bf1af15f5aba/gprof2dot-2017.9.19.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/gprof2dot/2017.9.19/libexec --single-version-externally-managed --record=installed.txt
+==> Installing dependencies for gpsim: gputils
+==> Installing gpsim dependency: gputils
+==> Downloading https://linuxbrew.bintray.com/bottles/gputils-1.5.0-1.x86_64_linux.bottle.tar.gz
+==> Pouring gputils-1.5.0-1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gputils/1.5.0-1: 5,332 files, 122.7MB
+==> Installing gpsim
+==> Downloading https://downloads.sourceforge.net/project/gpsim/gpsim/0.30.0/gpsim-0.30.0.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/gpsim/gpsim/0.30.0/gpsim-0.30.0.tar.gz
+==> ./configure --disable-gui --disable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpsim/0.30.0
+==> make all
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gprof2dot`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gprof2dot/2017.9.19: 11 files, 260.8KB, built in 1 second
-==> Determining gprof2dot bottle rebuild...
-==> Bottling gprof2dot-2017.9.19.x86_64_linux.bottle.1.tar.gz...
-./gprof2dot-2017.9.19.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gpsim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gpsim/0.30.0: 111 files, 61.6MB, built in 31 seconds
+==> Determining gpsim bottle rebuild...
+==> Bottling gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "188e6162f05ac5ad1e689f6b44ff4c48f00a98bfedb380aebc6f2726e1a8a309" => :x86_64_linux
+    sha256 "47cc7896d3a0cbfb0d148840a104f1c9532cd0c547db65af124a6ca82c0ce0ff" => :x86_64_linux
   end
