@@ -1,13 +1,17 @@
-==> Downloading https://ftp.gnu.org/gnu/apl/apl-1.7.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-apl/1.7
-==> make install
+==> Downloading https://ftp.gnu.org/gnu/barcode/barcode-0.99.tar.gz
+==> Patching
+patching file barcode.h
+patching file pcl.c
+==> ./configure ac_cv_func_calloc_0_nonnull=yes --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99
+==> make
+==> make MAN1DIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/man/man1 MAN3DIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/man/man3 INFODIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/info install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-apl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-apl/1.7: 84 files, 34.7MB, built in 1 minute
-==> Determining gnu-apl bottle rebuild...
-==> Bottling gnu-apl-1.7.x86_64_linux.bottle.tar.gz...
-==> Detecting if gnu-apl-1.7.x86_64_linux.bottle.tar.gz is relocatable...
-./gnu-apl-1.7.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall gnu-barcode`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99: 11 files, 446.8KB, built in 36 seconds
+==> Determining gnu-barcode bottle rebuild...
+==> Bottling gnu-barcode-0.99.x86_64_linux.bottle.1.tar.gz...
+./gnu-barcode-0.99.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "7850f7c179faaf06e407bd5b7ef536fac57173ad3df2e4278485ba9d10a68597" => :x86_64_linux
+    rebuild 1
+    sha256 "57bffaac1c44a8b69271328b3e3e2038711be98f20d3c0b31364058c6e76f364" => :x86_64_linux
   end
