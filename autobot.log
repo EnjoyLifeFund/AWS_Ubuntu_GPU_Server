@@ -1,9 +1,13 @@
-==> Determining docker-machine bottle rebuild...
-==> Bottling docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/janeczku/docker-machine-vultr/archive/v1.4.0.tar.gz
+==> Downloading from https://codeload.github.com/janeczku/docker-machine-vultr/tar.gz/v1.4.0
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall docker-machine-driver-vultr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-machine-driver-vultr/1.4.0: 5 files, 9.6MB, built in 2 minutes 36 seconds
+==> Determining docker-machine-driver-vultr bottle rebuild...
+==> Bottling docker-machine-driver-vultr-1.4.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if docker-machine-driver-vultr-1.4.0.x86_64_linux.bottle.tar.gz is relocatable...
+./docker-machine-driver-vultr-1.4.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "85a891b4b468fb5af0ec4a4fcea6476c3de2a36a7470620799afb876f3d97350" => :x86_64_linux
+    sha256 "3bf334aff6b66b67a8250a32163a4c3aac01bd92f5fba3d1ff165a1905d35c72" => :x86_64_linux
   end
