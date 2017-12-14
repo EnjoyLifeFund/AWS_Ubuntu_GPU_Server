@@ -1,8 +1,29 @@
-==> Determining gsl bottle rebuild...
-==> Bottling gsl-2.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gsl-2.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gsl-2.4.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/gsl/gsl-1.16.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gsl@1/1.16
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gsl@1`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gsl@1/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/gsl@1/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/gsl@1/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/gsl@1/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gsl@1/1.16: 250 files, 25.8MB, built in 1 minute 13 seconds
+==> Determining gsl@1 bottle rebuild...
+==> Bottling gsl@1-1.16.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gsl@1-1.16.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gsl@1-1.16.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "217d5856e8416575b42fd3ec32518fccf19ebce2189f988d40825be00ae1ab5e" => :x86_64_linux
+    sha256 "15b687a9a758caa0a86f4915ae6299af0e7629becda1e5b18c35c851eaf8a1f1" => :x86_64_linux
   end
