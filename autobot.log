@@ -1,15 +1,13 @@
-==> Downloading https://github.com/fabiolb/fabio/archive/v1.5.4.tar.gz
-==> Downloading from https://codeload.github.com/fabiolb/fabio/tar.gz/v1.5.4
-==> go install github.com/fabiolb/fabio
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fabio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fabio/1.5.4: 6 files, 11.1MB, built in 2 seconds
-==> Determining fabio bottle rebuild...
-==> Bottling fabio-1.5.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fabio-1.5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fabio-1.5.4.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b8d0fce740cf65dd809318c1212eaa49e5c3f0cf3af288c7082a27c31d3e7ac4" => :x86_64_linux
-  end
+==> Cloning https://github.com/kbakulin/fabric-completion.git
+==> Checking out revision 5b5910492046e6335af0e88550176d2583d9a510
+==> Caveats
+All available tasks are cached in special file to speed up the response.
+Therefore, Add .fab_tasks~ to your ".gitignore".
+
+For more details and configuration refer to the home page.
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fabric-completion/1: 4 files, 22.6KB, built in 0 seconds
+This formula doesn't require compiling.
