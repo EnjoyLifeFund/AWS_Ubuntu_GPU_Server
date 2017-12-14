@@ -1,15 +1,30 @@
-==> Downloading https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/0.12.1/source/editorconfig-core-c-0.12.1.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/editorconfig/EditorConfig-C-Core/0.12.1/source/editorconfig-core-c-0.12.1.tar.gz
-==> cmake . -DCMAKE_INSTALL_PREFIX:PATH=/home/linuxbrew/.linuxbrew/Cellar/editorconfig/0.12.1
-==> make install
+==> Downloading https://github.com/davep/eg/archive/v1.02.tar.gz
+==> Downloading from https://codeload.github.com/davep/eg/tar.gz/v1.02
+==> make
+==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/eg/1.02/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/eg/1.02/share/man NGDIR=/home/linuxbrew/.linuxbrew/etc/norton-guides
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/eg
+Target /home/linuxbrew/.linuxbrew/bin/eg
+is a symlink belonging to easy-git. You can unlink it:
+  brew unlink easy-git
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite eg
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run eg
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/eg -> /home/linuxbrew/.linuxbrew/Cellar/easy-git/1.7.5.2/bin/eg
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall editorconfig`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/editorconfig/0.12.1: 17 files, 175.3KB, built in 5 seconds
-==> Determining editorconfig bottle rebuild...
-==> Bottling editorconfig-0.12.1.x86_64_linux.bottle.1.tar.gz...
-./editorconfig-0.12.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall eg`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/eg/1.02: 9 files, 126.8KB, built in 1 second
+==> Determining eg bottle rebuild...
+==> Bottling eg-1.02.x86_64_linux.bottle.1.tar.gz...
+./eg-1.02.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "fadbfea7a12cf90733741ee442138468d5fab963530419b7d15fdc1b2dd5a0be" => :x86_64_linux
+    sha256 "6aa51bf440ccfd0bc3334c2daebc96d5bc80c71e11386eb2af043332d925b04d" => :x86_64_linux
   end
