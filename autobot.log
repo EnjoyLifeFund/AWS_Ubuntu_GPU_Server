@@ -1,4 +1,6 @@
-==> Downloading https://github.com/spotify/git-test/archive/v1.0.4.tar.gz
-==> Downloading from https://codeload.github.com/spotify/git-test/tar.gz/v1.0.4
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-test/1.0.4: 7 files, 74.7KB, built in 0 seconds
+==> Downloading https://download.microsoft.com/download/A/E/2/AE23B059-5727-445B-91CC-15B7A078A7F4/git-tf-2.0.3.20131219.zip
+==> Caveats
+This release removes support for TFS 2005 and 2008. Use a previous version if needed.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-tf/2.0.3.20131219: 18 files, 14.8MB, built in 2 seconds
 This formula doesn't require compiling.
