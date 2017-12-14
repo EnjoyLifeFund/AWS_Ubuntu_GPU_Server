@@ -1,13 +1,29 @@
-==> Downloading https://download.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz
-==> Downloading from https://download-mirror.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz
-==> make posix
+==> Downloading https://fms.komkon.org/fMSX/fMSX46.zip
+==> make
+==> Downloading https://fms.komkon.org/fMSX/src/MSX.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/MSX2.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/MSX2EXT.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/MSX2P.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/MSX2PEXT.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/FMPAC.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/DISK.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/MSXDOS2.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/PAINTER.ROM
+==> Downloading https://fms.komkon.org/fMSX/src/KANJI.ROM
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flvstreamer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flvstreamer/2.1c1: 9 files, 329.5KB, built in 3 seconds
-==> Determining flvstreamer bottle rebuild...
-==> Bottling flvstreamer-2.1c1.x86_64_linux.bottle.tar.gz...
-./flvstreamer-2.1c1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall fmsx`
+==> Caveats
+No sound under OS X due to missing /dev/dsp.
+Bundled ROM files are located the following directory:
+  /home/linuxbrew/.linuxbrew/opt/fmsx/share/fmsx
+You may want to use this directory to set `-home` option.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fmsx/4.6: 14 files, 954.0KB, built in 17 seconds
+==> Determining fmsx bottle rebuild...
+==> Bottling fmsx-4.6.x86_64_linux.bottle.1.tar.gz...
+./fmsx-4.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "b65525d475267515de4c59fb9036d8780f776602d83ca86b36212588d48fa50f" => :x86_64_linux
+    rebuild 1
+    sha256 "42923d8061424febf4059f29df1bf3236570d6c37715c36e08f3efd88b3f7794" => :x86_64_linux
   end
