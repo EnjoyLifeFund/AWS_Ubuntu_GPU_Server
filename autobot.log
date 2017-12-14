@@ -1,15 +1,4 @@
-==> Downloading https://github.com/rtomayko/git-sh/archive/1.3.tar.gz
-==> Downloading from https://codeload.github.com/rtomayko/git-sh/tar.gz/1.3
-==> make
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-sh/1.3
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-sh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-sh/1.3: 7 files, 107.3KB, built in 0 seconds
-==> Determining git-sh bottle rebuild...
-==> Bottling git-sh-1.3.x86_64_linux.bottle.1.tar.gz...
-./git-sh-1.3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b6234db8fb83f30bdbd841b363e355d3578fda9f8a61686f511c228e891d0ae4" => :x86_64_linux
-  end
+==> Downloading https://github.com/lemarsu/git-ssh/archive/v0.2.0.tar.gz
+==> Downloading from https://codeload.github.com/lemarsu/git-ssh/tar.gz/v0.2.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-ssh/0.2.0: 11 files, 48.1KB, built in 0 seconds
+This formula doesn't require compiling.
