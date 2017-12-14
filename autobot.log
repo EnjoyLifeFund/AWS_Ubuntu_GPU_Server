@@ -1,33 +1,13 @@
-==> Cloning https://github.com/golang/go.git
-==> Checking out revision d76c7d5a31ffaba3134f16981abd5f891fa2d805
-==> Building go for -darwin
-==> ./make.bash --no-clean
-==> Cloning https://go.googlesource.com/tools.git
-==> Checking out branch release-branch.go1.4
-==> go build
-==> go build
+==> Downloading https://tar.goaccess.io/goaccess-1.2.tar.gz
+==> autoreconf -vfi
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/goaccess/1.2 --enable-utf8 --enable-tcb=btree
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall go@1.4`
-==> Caveats
-As of go 1.2, a valid GOPATH is required to use the `go get` command:
-  https://golang.org/doc/code.html#GOPATH
-
-You may wish to add the GOROOT-based install location to your PATH:
-  export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go@1.4/libexec/bin
-
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/go@1.4/bin:$PATH"' >> ~/.bash_profile
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/go@1.4/1.4.3-20170922: 4,740 files, 227.7MB, built in 52 seconds
-==> Determining go@1.4 bottle rebuild...
-==> Bottling go@1.4-1.4.3-20170922.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if go@1.4-1.4.3-20170922.x86_64_linux.bottle.1.tar.gz is relocatable...
-./go@1.4-1.4.3-20170922.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall goaccess`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goaccess/1.2: 19 files, 1MB, built in 13 seconds
+==> Determining goaccess bottle rebuild...
+==> Bottling goaccess-1.2.x86_64_linux.bottle.tar.gz...
+./goaccess-1.2.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "15ad1ae2c8556598be2bd1200b801531e29bc2d3cbcfcef1d1826b73f5b2749d" => :x86_64_linux
+    sha256 "68a9675fcdc6d032b197627d11a801a0db0117af1e61929267a67632dd16c9e8" => :x86_64_linux
   end
