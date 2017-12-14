@@ -1,27 +1,14 @@
-==> Installing dependencies for dvdauthor: libdvdcss, libdvdread
-==> Installing dvdauthor dependency: libdvdcss
-==> Downloading https://download.videolan.org/pub/videolan/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvdcss/1.4.0
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvdcss/1.4.0: 19 files, 540.4KB, built in 16 seconds
-==> Installing dvdauthor dependency: libdvdread
-==> Downloading https://download.videolan.org/pub/videolan/libdvdread/5.0.3/libdvdread-5.0.3.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvdread/5.0.3
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvdread/5.0.3: 28 files, 675.2KB, built in 8 seconds
-==> Installing dvdauthor
-==> Downloading https://downloads.sourceforge.net/project/dvdauthor/dvdauthor-0.7.2.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/dvdauthor/dvdauthor-0.7.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2/share/man
-==> make
+==> Downloading https://downloads.sourceforge.net/dvdbackup/dvdbackup-0.4.2.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/dvdbackup/dvdbackup/dvdbackup-0.4.2/dvdbackup-0.4.2.tar.gz
+==> ./configure --mandir=/home/linuxbrew/.linuxbrew/Cellar/dvdbackup/0.4.2/share/man --prefix=/home/linuxbrew/.linuxbrew/Cellar/dvdbackup/0.4.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dvdauthor`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dvdauthor/0.7.2: 24 files, 1.5MB, built in 8 seconds
-==> Determining dvdauthor bottle rebuild...
-==> Bottling dvdauthor-0.7.2.x86_64_linux.bottle.1.tar.gz...
-./dvdauthor-0.7.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dvdbackup`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dvdbackup/0.4.2: 26 files, 464.2KB, built in 8 seconds
+==> Determining dvdbackup bottle rebuild...
+==> Bottling dvdbackup-0.4.2.x86_64_linux.bottle.1.tar.gz...
+./dvdbackup-0.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "12d21a1b180b83b7126248ea08ff9b95433a5b0167f21c6e2672fb42289dfaf3" => :x86_64_linux
+    sha256 "929d34d230f74db8509d70e65cfa72a909dc01bcccb5796f5acba6820d05b654" => :x86_64_linux
   end
