@@ -1,8 +1,13 @@
-==> Determining glew bottle rebuild...
-==> Bottling glew-2.1.0.x86_64_linux.bottle.1.tar.gz...
-./glew-2.1.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dl.farsightsecurity.com/dist/fstrm/fstrm-0.3.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fstrm/0.3.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall fstrm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fstrm/0.3.2: 21 files, 775.2KB, built in 10 seconds
+==> Determining fstrm bottle rebuild...
+==> Bottling fstrm-0.3.2.x86_64_linux.bottle.1.tar.gz...
+./fstrm-0.3.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1f4e81f6ed1049afa45f1267d52c419adf5847193cadb079e10c11fd7a9bfb5c" => :x86_64_linux
+    sha256 "3e4c37a0e1ccebfc3036fa3dfea6f4292dd94ba2e94236d5f8b81401bd4ce77e" => :x86_64_linux
   end

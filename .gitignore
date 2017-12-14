@@ -14,4 +14,6 @@ arangodb*
 bitcoin-*.tar.gz
 bit-*.tar.gz
 cling-*.tar.gz 
-fits-1.2.0.x86_64_linux.bottle.1.tar.gz
+fits-*.tar.gz
+ghc-*.tar.gz
+fstar*.tar.gz 
