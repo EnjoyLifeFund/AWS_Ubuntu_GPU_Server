@@ -1,9 +1,15 @@
-==> Determining govendor bottle rebuild...
-==> Bottling govendor-1.0.9.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if govendor-1.0.9.x86_64_linux.bottle.1.tar.gz is relocatable...
-./govendor-1.0.9.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/hooklift/gowsdl/archive/v0.2.1.tar.gz
+==> Downloading from https://codeload.github.com/hooklift/gowsdl/tar.gz/v0.2.1
+==> make build
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gowsdl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gowsdl/0.2.1: 5 files, 7.8MB, built in 1 second
+==> Determining gowsdl bottle rebuild...
+==> Bottling gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ba86a8c9b82d30a5d68c14476973773698c664b1f6c62545a52beea629e5e3f7" => :x86_64_linux
+    sha256 "42ffd6b6afe14ed3926b994911f075f3cae0463c2b590f5eb52877c12972d993" => :x86_64_linux
   end
