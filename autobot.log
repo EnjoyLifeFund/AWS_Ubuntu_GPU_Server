@@ -1,3 +1,19 @@
-==> Downloading https://dl.google.com/cloudsql/tools/google_sql_tool.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sql-tool/r10: 6 files, 4.2MB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/jarun/googler/archive/v3.4.tar.gz
+==> Downloading from https://codeload.github.com/jarun/googler/tar.gz/v3.4
+==> make disable-self-upgrade
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/googler/3.4
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall googler`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/googler/3.4: 11 files, 239.7KB, built in 1 second
+==> Determining googler bottle rebuild...
+==> Bottling googler-3.4.x86_64_linux.bottle.1.tar.gz...
+./googler-3.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "99bdff32825dee19fbcf5ed4a7ce53ab392e473fb8d196dbcbc767ee8081dcb7" => :x86_64_linux
+  end
