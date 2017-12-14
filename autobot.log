@@ -1,7 +1,28 @@
-==> Determining gnu-time bottle rebuild...
-==> Bottling gnu-time-1.8.x86_64_linux.bottle.1.tar.gz...
-./gnu-time-1.8.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/gtypist/gtypist-2.9.5.tar.xz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/42c4b96/gnu-typist/2.9.5.patch
+==> Patching
+==> Applying 2.9.5.patch
+patching file configure
+Hunk #1 succeeded at 6302 (offset 1 line).
+Hunk #2 succeeded at 6316 (offset 1 line).
+Hunk #3 succeeded at 6351 (offset 1 line).
+Hunk #4 succeeded at 10554 (offset 1 line).
+patching file src/cursmenu.c
+patching file src/error.c
+patching file src/gtypist.c
+Hunk #1 succeeded at 32 (offset 1 line).
+patching file src/script.c
+patching file src/utf8.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1/share/emacs/site-lisp/gnu-typist
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnu-typist`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1: 73 files, 3.2MB, built in 11 seconds
+==> Determining gnu-typist bottle rebuild...
+==> Bottling gnu-typist-2.9.5_1.x86_64_linux.bottle.1.tar.gz...
+./gnu-typist-2.9.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a54501aab415448b3041c88c069860409711594abc6c4528f77467d0d1373589" => :x86_64_linux
+    sha256 "1022b62f9c8a4f03aa98784e99a64c23c83ec4c214db4306d596fa8b0bbc3520" => :x86_64_linux
   end
