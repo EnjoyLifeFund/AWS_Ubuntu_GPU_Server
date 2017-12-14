@@ -1,15 +1,14 @@
-==> Cloning https://github.com/dlang-community/dfix.git
-==> Checking out tag v0.3.2
+==> Cloning https://github.com/dlang-community/dfmt.git
+==> Checking out tag v0.5.0
 ==> make
-==> make test
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dfix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dfix/0.3.2: 6 files, 6.1MB, built in 2 minutes 42 seconds
-==> Determining dfix bottle rebuild...
-==> Bottling dfix-0.3.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dfix-0.3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dfix-0.3.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dfmt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dfmt/0.5.0: 5 files, 4.6MB, built in 13 minutes 1 second
+==> Determining dfmt bottle rebuild...
+==> Bottling dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8a2dc1441e2f7e5aa92f0a176c27043f93b071c7d5baa7999799b9ea9a38ee79" => :x86_64_linux
+    sha256 "dff1dbf4340a2b56f0f0fb61e21f5302eb366c16a16a211f57ccd89f9c3c4320" => :x86_64_linux
   end
