@@ -1,13 +1,4 @@
-==> Cloning http://hgm.nubati.net/git/fairymax.git
-==> Checking out tag 4.8V
-==> make all INI_F=/home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V/share/fairymax/fmax.ini INI_Q=/home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V/share/fairymax/qmax.ini
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fairymax`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V: 11 files, 153KB, built in 7 seconds
-==> Determining fairymax bottle rebuild...
-==> Bottling fairymax-4.8V.x86_64_linux.bottle.1.tar.gz...
-./fairymax-4.8V.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "73c71466323e2b5e62d85a011a4de1932638a17a25980a3b02c2eefdd7d4e6b4" => :x86_64_linux
-  end
+==> Downloading https://bitbucket.org/fantom/fan-1.0/downloads/fantom-1.0.70.zip
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/581330b1-a28e-40d7-b2d3-a1290d627679/downloads/0883485b-edb5-425e-88c9-cf374caf7787/fantom-1.0.70.zip?Signature=B8zQUrVvdMsssUq1Yg43Z98aQ6w%3D&Expires=1513266695&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=8iGhF_7rReRR1bRiEwUI75crgVpmX.um&response-content-disposition=attachment%3B%20filename%3D%22fantom-1.0.70.zip%22
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fantom/1.0.70: 1,916 files, 22.8MB, built in 4 seconds
+This formula doesn't require compiling.
