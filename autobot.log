@@ -1,14 +1,14 @@
-==> Downloading https://github.com/prasmussen/gdrive/archive/2.1.0.tar.gz
-==> Downloading from https://codeload.github.com/prasmussen/gdrive/tar.gz/2.1.0
-==> go build -o gdrive .
+==> Downloading http://www.gecode.org/download/gecode-5.1.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gecode/5.1.0 --disable-examples --disable-qt
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gdrive`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gdrive/2.1.0: 5 files, 7.3MB, built in 3 seconds
-==> Determining gdrive bottle rebuild...
-==> Bottling gdrive-2.1.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if gdrive-2.1.0.x86_64_linux.bottle.tar.gz is relocatable...
-./gdrive-2.1.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall gecode`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gecode/5.1.0: 750 files, 165MB, built in 2 minutes 26 seconds
+==> Determining gecode bottle rebuild...
+==> Bottling gecode-5.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gecode-5.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gecode-5.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "5845b01ac226eb9a53962d330a3523c96bd8b0d5c9ae279cd24d6365d4f36c6e" => :x86_64_linux
+    rebuild 1
+    sha256 "f40620121d9845c95973f8f10c2a6c13949462445e8cc14dd5da9eac9cc0c561" => :x86_64_linux
   end
