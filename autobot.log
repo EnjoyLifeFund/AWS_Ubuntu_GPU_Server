@@ -1,14 +1,4 @@
-==> Downloading https://libopenraw.freedesktop.org/download/exempi-2.4.3.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exempi/2.4.3 --with-boost=/home/linuxbrew/.linuxbrew
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exempi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exempi/2.4.3: 19 files, 49.6MB, built in 1 minute 5 seconds
-==> Determining exempi bottle rebuild...
-==> Bottling exempi-2.4.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if exempi-2.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./exempi-2.4.3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "cf7c1f15bcb4735aca5c15ccd3cc41293f241076a3d727a8f550de4fbdca8e87" => :x86_64_linux
-  end
+==> Downloading https://github.com/mururu/exenv/archive/v0.1.0.tar.gz
+==> Downloading from https://codeload.github.com/mururu/exenv/tar.gz/v0.1.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exenv/0.1.0: 31 files, 52.3KB, built in 0 seconds
+This formula doesn't require compiling.
