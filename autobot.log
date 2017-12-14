@@ -1,19 +1,12 @@
-==> Downloading https://downloads.sourceforge.net/project/dgen/dgen/1.33/dgen-sdl-1.33.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/dgen/dgen/1.33/dgen-sdl-1.33.tar.gz
-==> ./configure --disable-silent-rules --disable-sdltest --prefix=/home/linuxbrew/.linuxbrew/Cellar/dgen/1.33
-==> make install
+==> Downloading http://www.mavetju.org/download/dhcpdump-1.8.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dgen`
-==> Caveats
-If some keyboard inputs do not work, try modifying configuration:
-  ~/.dgen/dgenrc
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dgen/1.33: 12 files, 8.0MB, built in 12 minutes 9 seconds
-==> Determining dgen bottle rebuild...
-==> Bottling dgen-1.33.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dgen-1.33.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dgen-1.33.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dhcpdump`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dhcpdump/1.8: 6 files, 71.6KB, built in 11 seconds
+==> Determining dhcpdump bottle rebuild...
+==> Bottling dhcpdump-1.8.x86_64_linux.bottle.1.tar.gz...
+./dhcpdump-1.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2a06e8fe4c613d208e82e582f79265001254311151c63620b367917226ffa507" => :x86_64_linux
+    sha256 "95faa8d9cf2f39d7767d1b26b6e39ffb0f00e3a6b9dfdc9fcf194e464e0e5c54" => :x86_64_linux
   end
