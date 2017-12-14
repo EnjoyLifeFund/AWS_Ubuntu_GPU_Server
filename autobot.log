@@ -1,9 +1,13 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/elb-tools/1.0.35.0: 94 files, 7.8MB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading http://elinks.or.cz/download/elinks-0.11.7.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/elinks/0.11.7_2 --without-spidermonkey --enable-256-colors
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall elinks`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/elinks/0.11.7_2: 43 files, 6.5MB, built in 1 minute 21 seconds
+==> Determining elinks bottle rebuild...
+==> Bottling elinks-0.11.7_2.x86_64_linux.bottle.tar.gz...
+==> Detecting if elinks-0.11.7_2.x86_64_linux.bottle.tar.gz is relocatable...
+./elinks-0.11.7_2.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "b9774e150d74b15238982121645f1ee53274a1f4fca9cf2586f86d81d3c2a116" => :x86_64_linux
+  end
