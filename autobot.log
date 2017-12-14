@@ -1,15 +1,7 @@
-==> Cloning https://github.com/coreos/fleet.git
-==> Checking out tag v1.0.0
-==> ./build
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fleetctl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fleetctl/1.0.0: 6 files, 18.8MB, built in 25 seconds
-==> Determining fleetctl bottle rebuild...
-==> Bottling fleetctl-1.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fleetctl-1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fleetctl-1.0.0.x86_64_linux.bottle.1.tar.gz
+==> Determining flex bottle rebuild...
+==> Bottling flex-2.6.4.x86_64_linux.bottle.1.tar.gz...
+./flex-2.6.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5c59a196773b424d0db60ebd856d396353f708825d45f9015f6f6aa72e392469" => :x86_64_linux
+    sha256 "32d1733e457c655b926825cff57554ae398ad93687490731b0d4c9ccbf957545" => :x86_64_linux
   end
