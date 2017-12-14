@@ -1,15 +1,14 @@
-==> Downloading https://github.com/hashicorp/envconsul/archive/v0.7.2.tar.gz
-==> Downloading from https://codeload.github.com/hashicorp/envconsul/tar.gz/v0.7.2
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/envconsul/0.7.2/bin/envconsul
+==> Downloading https://github.com/jakewendt/envv/archive/v1.7.tar.gz
+==> Downloading from https://codeload.github.com/jakewendt/envv/tar.gz/v1.7
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall envconsul`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/envconsul/0.7.2: 6 files, 11MB, built in 5 seconds
-==> Determining envconsul bottle rebuild...
-==> Bottling envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall envv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/envv/1.7: 5 files, 54.9KB, built in 0 seconds
+==> Determining envv bottle rebuild...
+==> Bottling envv-1.7.x86_64_linux.bottle.1.tar.gz...
+./envv-1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "433c01a8d8a4e167ac239db831bd037697355a6fa353add5605c31830a8ea16a" => :x86_64_linux
+    sha256 "5af8ea233310e08485c6d4f176460f0c17a3b9efbef417e26246f46d963ba7a8" => :x86_64_linux
   end
