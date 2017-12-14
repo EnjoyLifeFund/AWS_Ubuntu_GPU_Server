@@ -1,22 +1,12 @@
-==> Installing dependencies for engine_pkcs11: libp11
-==> Installing engine_pkcs11 dependency: libp11
-==> Downloading https://downloads.sourceforge.net/project/opensc/libp11/libp11-0.2.8.tar.gz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/opensc/libp11/libp11-0.2.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libp11/0.2.8_1
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libp11/0.2.8_1: 12 files, 522.8KB, built in 11 seconds
-==> Installing engine_pkcs11
-==> Downloading https://downloads.sourceforge.net/project/opensc/engine_pkcs11/engine_pkcs11-0.1.8.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/opensc/engine_pkcs11/engine_pkcs11-0.1.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/engine_pkcs11/0.1.8
+==> Downloading https://ftp.gnu.org/gnu/enscript/enscript-1.6.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/enscript/1.6.6
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall engine_pkcs11`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/engine_pkcs11/0.1.8: 6 files, 97.7KB, built in 10 seconds
-==> Determining engine_pkcs11 bottle rebuild...
-==> Bottling engine_pkcs11-0.1.8.x86_64_linux.bottle.1.tar.gz...
-./engine_pkcs11-0.1.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall enscript`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/enscript/1.6.6: 173 files, 2.6MB, built in 23 seconds
+==> Determining enscript bottle rebuild...
+==> Bottling enscript-1.6.6.x86_64_linux.bottle.tar.gz...
+./enscript-1.6.6.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "13940f8e2cc3e8cebaaacdf156164c31d5d4ca9f457a608535887d7fc6485425" => :x86_64_linux
+    sha256 "c9f215cfe5c7fbf589d9359e1a5f7686e3e6583744e1d47ac4a0cf3b0f6c6ca1" => :x86_64_linux
   end
