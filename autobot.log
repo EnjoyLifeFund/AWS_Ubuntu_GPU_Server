@@ -1,19 +1,8 @@
-==> Downloading https://github.com/foundweekends/giter8/archive/v0.10.0.tar.gz
-==> Downloading from https://codeload.github.com/foundweekends/giter8/tar.gz/v0.10.0
-==> Downloading https://oss.sonatype.org/content/repositories/public/org/scala-sbt/launcher/1.0.1/launcher-1.0.1.jar
-==> Cloning https://github.com/foundweekends/conscript.git
-==> Checking out tag v0.5.1
-==> sh -x setup.sh
-==> /home/linuxbrew/.linuxbrew/Cellar/giter8/0.10.0/libexec/conscript/bin/cs foundweekends/giter8/0.10.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall giter8`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/giter8/0.10.0: 75 files, 70.8MB, built in 53 seconds
-==> Determining giter8 bottle rebuild...
-==> Bottling giter8-0.10.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if giter8-0.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./giter8-0.10.0.x86_64_linux.bottle.1.tar.gz
+==> Determining ghc bottle rebuild...
+==> Bottling ghc-8.2.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ghc-8.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ghc-8.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fd2adb7817a5bc2c560e718debac9063de1a373ae81ae89bf66f56a6c57924ff" => :x86_64_linux
+    sha256 "bd5b2eb1f673f427f6d9eeb45b18402c9152e248915ec5b20c339ce377fb7709" => :x86_64_linux
   end
