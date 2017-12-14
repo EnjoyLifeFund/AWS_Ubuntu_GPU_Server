@@ -1,3 +1,8 @@
-==> Downloading https://opensource.apple.com/tarballs/dyld/dyld-360.18.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dyld-headers/360.18: 9 files, 107.7KB, built in 2 seconds
-This formula doesn't require compiling.
+==> Determining e2fsprogs bottle rebuild...
+==> Bottling e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./e2fsprogs-1.43.7.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "dab2d14caf6d51ec3029ed61e114f4252764c10c05685f9f1faf7b22414797d7" => :x86_64_linux
+  end
