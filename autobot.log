@@ -1,16 +1,3 @@
-==> Downloading https://github.com/sparsehash/sparsehash/archive/sparsehash-2.0.3.tar.gz
-==> Downloading from https://codeload.github.com/sparsehash/sparsehash/tar.gz/sparsehash-2.0.3
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall google-sparsehash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3: 49 files, 653.0KB, built in 1 minute 13 seconds
-==> Determining google-sparsehash bottle rebuild...
-==> Bottling google-sparsehash-2.0.3.x86_64_linux.bottle.1.tar.gz...
-./google-sparsehash-2.0.3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "8614beb8374cc142e0a83084a5b3c809268de10a4e516b66190f81f92e241e88" => :x86_64_linux
-  end
+==> Downloading https://dl.google.com/cloudsql/tools/google_sql_tool.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sql-tool/r10: 6 files, 4.2MB, built in 1 second
+This formula doesn't require compiling.
