@@ -1,22 +1,14 @@
-==> Installing dependencies for gpsim: gputils
-==> Installing gpsim dependency: gputils
-==> Downloading https://linuxbrew.bintray.com/bottles/gputils-1.5.0-1.x86_64_linux.bottle.tar.gz
-==> Pouring gputils-1.5.0-1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gputils/1.5.0-1: 5,332 files, 122.7MB
-==> Installing gpsim
-==> Downloading https://downloads.sourceforge.net/project/gpsim/gpsim/0.30.0/gpsim-0.30.0.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/gpsim/gpsim/0.30.0/gpsim-0.30.0.tar.gz
-==> ./configure --disable-gui --disable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpsim/0.30.0
-==> make all
-==> make install
+==> Downloading https://downloads.sourceforge.net/refit/refit-src-0.14.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/refit/rEFIt/0.14/refit-src-0.14.tar.gz
+==> make -f Makefile.unix CC=gcc-6
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpsim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gpsim/0.30.0: 111 files, 61.6MB, built in 31 seconds
-==> Determining gpsim bottle rebuild...
-==> Bottling gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gpsim-0.30.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gptsync`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gptsync/0.14: 6 files, 88.0KB, built in 1 second
+==> Determining gptsync bottle rebuild...
+==> Bottling gptsync-0.14.x86_64_linux.bottle.1.tar.gz...
+./gptsync-0.14.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "47cc7896d3a0cbfb0d148840a104f1c9532cd0c547db65af124a6ca82c0ce0ff" => :x86_64_linux
+    sha256 "e68f851759aac73d269f87793ab13f1cc504de0360b6de7f15c83e371f3bb42f" => :x86_64_linux
   end
