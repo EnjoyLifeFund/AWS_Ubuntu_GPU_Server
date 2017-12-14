@@ -1,17 +1,9 @@
-==> Downloading https://download.gnome.org/sources/gcab/0.7/gcab-0.7.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gcab/0.7/gcab-0.7.tar.xz
-==> Patching
-patching file Makefile.in
-Hunk #1 succeeded at 539 (offset 65 lines).
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcab/0.7
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gcab`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gcab/0.7: 63 files, 1.1MB, built in 31 seconds
-==> Determining gcab bottle rebuild...
-==> Bottling gcab-0.7.x86_64_linux.bottle.1.tar.gz...
-./gcab-0.7.x86_64_linux.bottle.1.tar.gz
+==> Determining glm bottle rebuild...
+==> Bottling glm-0.9.8.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glm-0.9.8.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glm-0.9.8.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "85b58bc7198d525f022a72c53dd85e9e4617636cc7cbc2f1b5aaf4bc12397116" => :x86_64_linux
+    sha256 "ff7a1645db07c7f8a05e1f8e8b689bd60f284a8225191476f4375ecc645e858e" => :x86_64_linux
   end
