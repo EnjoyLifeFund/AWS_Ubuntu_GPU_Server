@@ -1,4 +1,8 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-bin.tar.gz
-==> Best Mirror http://mirror.metrocast.net/apache/db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-bin.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/derby/10.14.1.0: 1,654 files, 34.2MB, built in 30 seconds
+==> Downloading https://github.com/jamesob/desk/archive/v0.6.0.tar.gz
+==> Downloading from https://codeload.github.com/jamesob/desk/tar.gz/v0.6.0
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/desk/0.6.0: 8 files, 63.3KB, built in 11 seconds
 This formula doesn't require compiling.
