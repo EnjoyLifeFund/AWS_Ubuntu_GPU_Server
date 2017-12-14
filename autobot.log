@@ -1,20 +1,15 @@
-==> Downloading https://github.com/dosfstools/dosfstools/releases/download/v4.1/dosfstools-4.1.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/26462150/069d10e8-e239-11e6-9cf6-5ccbdb066ef7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T125642Z&X-Amz-Expires=300&X-Amz-Signature=2c8b04c2cbdc00225f08a5eddf52862837096865bf9db97db5b8c2a3202ae764&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddosfstools-4.1.tar.gz&response-content-type=application%2Foctet-stream
-==> Downloading https://github.com/dosfstools/dosfstools/commit/1e76e577.patch?full_index=1
-==> Patching
-==> Applying 1e76e577.patch
-patching file src/mkfs.fat.c
-Hunk #1 succeeded at 529 with fuzz 2 (offset 10 lines).
-==> autoreconf -f -i
-==> ./configure --without-udev --prefix=/home/linuxbrew/.linuxbrew/Cellar/dosfstools/4.1
+==> Downloading https://github.com/floitsch/double-conversion/archive/v3.0.0.tar.gz
+==> Downloading from https://github.com/google/double-conversion/archive/v3.0.0.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/double-conversion/3.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dosfstools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dosfstools/4.1: 21 files, 653.3KB, built in 2 minutes 27 seconds
-==> Determining dosfstools bottle rebuild...
-==> Bottling dosfstools-4.1.x86_64_linux.bottle.1.tar.gz...
-./dosfstools-4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall double-conversion`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/double-conversion/3.0.0: 21 files, 283.3KB, built in 54 seconds
+==> Determining double-conversion bottle rebuild...
+==> Bottling double-conversion-3.0.0.x86_64_linux.bottle.1.tar.gz...
+./double-conversion-3.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "de7631fc16c6509fd6fc6941efefe461213b45b47d8f055ac48de40bb3bb369c" => :x86_64_linux
+    sha256 "e0f066c8fc9cb0f198b738243677784723bfe10771c1d4f51d8f818326f0b090" => :x86_64_linux
   end
