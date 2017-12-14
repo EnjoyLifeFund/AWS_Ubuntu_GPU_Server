@@ -1,13 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/dasm-dillon/dasm-dillon/2.20.11/dasm-2.20.11-2014.03.04-source.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/dasm-dillon/dasm-dillon/2.20.11/dasm-2.20.11-2014.03.04-source.tar.gz
-==> make
+==> Downloading https://ftp.gnu.org/gnu/datamash/datamash-1.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/datamash/1.2
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dasm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dasm/2014.03.04: 12 files, 232.5KB, built in 31 seconds
-==> Determining dasm bottle rebuild...
-==> Bottling dasm-2014.03.04.x86_64_linux.bottle.tar.gz...
-./dasm-2014.03.04.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall datamash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/datamash/1.2: 28 files, 3.0MB, built in 14 minutes 22 seconds
+==> Determining datamash bottle rebuild...
+==> Bottling datamash-1.2.x86_64_linux.bottle.1.tar.gz...
+./datamash-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "a901da6acd8e1525784ab25f56290c54af6f1f28b738666f7368d99013f1366d" => :x86_64_linux
+    rebuild 1
+    sha256 "4a11d2f18db2839a49574c02a7a68f97b292608340f5398a4f461ea4fc45a082" => :x86_64_linux
   end
