@@ -1,4 +1,29 @@
-==> Downloading https://github.com/lemarsu/git-ssh/archive/v0.2.0.tar.gz
-==> Downloading from https://codeload.github.com/lemarsu/git-ssh/tar.gz/v0.2.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-ssh/0.2.0: 11 files, 48.1KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/kamranahmedse/git-standup/archive/2.1.8.tar.gz
+==> Downloading from https://codeload.github.com/kamranahmedse/git-standup/tar.gz/2.1.8
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/git-standup/2.1.8
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/git-standup
+Target /home/linuxbrew/.linuxbrew/bin/git-standup
+is a symlink belonging to git-extras. You can unlink it:
+  brew unlink git-extras
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite git-standup
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run git-standup
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/git-standup -> /home/linuxbrew/.linuxbrew/Cellar/git-extras/4.4.0/bin/git-standup
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall git-standup`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-standup/2.1.8: 4 files, 22KB, built in 0 seconds
+==> Determining git-standup bottle rebuild...
+==> Bottling git-standup-2.1.8.x86_64_linux.bottle.1.tar.gz...
+./git-standup-2.1.8.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a704909ba4959b214197d71fd1f92cc302c47039e75aadf3fb3c77e6d1afa83d" => :x86_64_linux
+  end
