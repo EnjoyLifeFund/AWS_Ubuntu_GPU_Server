@@ -1,16 +1,15 @@
-==> Downloading http://ftp.epicsol.org/pub/epic/EPIC5-PRODUCTION/epic5-2.0.1.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/epic5/2.0.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/epic5/2.0.1/share/man --with-ipv6 --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make
-==> make test
+==> Downloading https://wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.0/E.tgz
+==> ./configure --bindir=/home/linuxbrew/.linuxbrew/Cellar/eprover/2.0/bin --man-prefix=/home/linuxbrew/.linuxbrew/Cellar/eprover/2.0/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall epic5`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/epic5/2.0.1: 94 files, 3.4MB, built in 19 seconds
-==> Determining epic5 bottle rebuild...
-==> Bottling epic5-2.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if epic5-2.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./epic5-2.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall eprover`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/eprover/2.0: 29 files, 8.7MB, built in 29 seconds
+==> Determining eprover bottle rebuild...
+==> Bottling eprover-2.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if eprover-2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./eprover-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "21f04dfe3fb40728e16a6471ca88d6918a466686b1dff80b47a9625a5f2557a4" => :x86_64_linux
+    sha256 "75e0c11c95855a6dcd1eb44d50471bb231e46a1017fc9638127ee962af7a1d1f" => :x86_64_linux
   end
