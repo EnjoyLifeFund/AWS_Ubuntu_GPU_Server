@@ -1,14 +1,14 @@
-==> Downloading http://www.tads.org/frobtads/frobtads-1.2.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/frobtads/1.2.3
+==> Downloading https://github.com/DavidGriffith/frotz/archive/2.44.tar.gz
+==> Downloading from https://codeload.github.com/DavidGriffith/frotz/tar.gz/2.44
+==> make frotz
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall frobtads`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/frobtads/1.2.3: 160 files, 33.8MB, built in 21 seconds
-==> Determining frobtads bottle rebuild...
-==> Bottling frobtads-1.2.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if frobtads-1.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./frobtads-1.2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall frotz`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/frotz/2.44: 9 files, 181.6KB, built in 1 second
+==> Determining frotz bottle rebuild...
+==> Bottling frotz-2.44.x86_64_linux.bottle.1.tar.gz...
+./frotz-2.44.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "275f867af024297a353ff66ae3d8e55c33208f40b0f39567da663d0ef0c4ee77" => :x86_64_linux
+    sha256 "203f90d5b8030a3eb7aafe5cf80867cce7dbe9d1990d533f15322ac199ef2a82" => :x86_64_linux
   end
