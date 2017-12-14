@@ -1,13 +1,15 @@
-==> Downloading https://www.lysator.liu.se/fsh/fsh-1.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fsh/1.2 --infodir=/home/linuxbrew/.linuxbrew/Cellar/fsh/1.2/share/info
-==> make install
+==> Downloading https://github.com/kshvmdn/fsql/archive/v0.3.1.tar.gz
+==> Downloading from https://codeload.github.com/kshvmdn/fsql/tar.gz/v0.3.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/fsql/0.3.1/bin/fsql github.com/kshvmdn/fsql/cmd/fsql
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fsh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fsh/1.2: 21 files, 152.4KB, built in 5 seconds
-==> Determining fsh bottle rebuild...
-==> Bottling fsh-1.2.x86_64_linux.bottle.1.tar.gz...
-./fsh-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fsql`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fsql/0.3.1: 5 files, 2.8MB, built in 1 second
+==> Determining fsql bottle rebuild...
+==> Bottling fsql-0.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fsql-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fsql-0.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7387c8d9610b976744ff8f3ecf57fad1ba09e9fd5a0d14455fe91ad6d7f858b5" => :x86_64_linux
+    sha256 "08ec027a2ce3aea2ed10dbce75c8f85953687a0774ddde7b750d18e2b80d1d02" => :x86_64_linux
   end
