@@ -1,15 +1,9 @@
-==> Downloading https://download.gnome.org/sources/gmime/3.0/gmime-3.0.5.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gmime/3.0/gmime-3.0.5.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gmime/3.0.5 --enable-largefile --disable-vala --disable-glibtest --enable-introspection
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gmime`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gmime/3.0.5: 173 files, 7MB, built in 21 seconds
-==> Determining gmime bottle rebuild...
-==> Bottling gmime-3.0.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gmime-3.0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gmime-3.0.5.x86_64_linux.bottle.1.tar.gz
+==> Determining gmp bottle rebuild...
+==> Bottling gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gmp-6.1.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "576b5a1c087e70786fe17f0831f61e463e9bd8936c0eeb519e70790858478a4b" => :x86_64_linux
+    sha256 "4cb392ffa0617c97e4f2aa08f7da866e4d36fa35d3a9525b57b32a9e6d2c6b00" => :x86_64_linux
   end
