@@ -1,8 +1,13 @@
-==> Downloading https://github.com/gruntjs/grunt-cli/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/gruntjs/grunt-cli/tar.gz/v1.2.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grunt-completion/1.2.0: 7 files, 34.5KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading http://tjaberg.com/gsar121.zip
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gsar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gsar/1.21: 4 files, 58KB, built in 1 second
+==> Determining gsar bottle rebuild...
+==> Bottling gsar-1.21.x86_64_linux.bottle.1.tar.gz...
+./gsar-1.21.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9fa868a0bdfa8cdb92e7f0beeead3b0959db50fe7a479c27bc176d449c74a196" => :x86_64_linux
+  end
