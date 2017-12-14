@@ -1,7 +1,14 @@
-==> Determining dash bottle rebuild...
-==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
-./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "9b22481363898cf3841b2c0d80fdf1718ab9166aeac8e0996378968d7cc099f1" => :x86_64_linux
-  end
+==> Installing dependencies for dasht: socat, w3m
+==> Installing dasht dependency: socat
+==> Downloading https://linuxbrew.bintray.com/bottles/socat-1.7.3.2_1.x86_64_linux.bottle.tar.gz
+==> Pouring socat-1.7.3.2_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/socat/1.7.3.2_1: 9 files, 790.6KB
+==> Installing dasht dependency: w3m
+==> Downloading https://linuxbrew.bintray.com/bottles/w3m-0.5.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring w3m-0.5.3_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/w3m/0.5.3_1: 32 files, 3.8MB
+==> Installing dasht
+==> Downloading https://github.com/sunaku/dasht/archive/v2.2.0.tar.gz
+==> Downloading from https://codeload.github.com/sunaku/dasht/tar.gz/v2.2.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dasht/2.2.0: 26 files, 99.2KB, built in 12 seconds
+This formula doesn't require compiling.
