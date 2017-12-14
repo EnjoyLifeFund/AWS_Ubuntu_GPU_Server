@@ -1,14 +1,15 @@
-==> Downloading https://github.com/lesfurets/git-octopus/archive/v1.4.tar.gz
-==> Downloading from https://codeload.github.com/lesfurets/git-octopus/tar.gz/v1.4
-==> make build
+==> Downloading https://github.com/ekalinin/github-markdown-toc.go/archive/0.8.0.tar.gz
+==> Downloading from https://codeload.github.com/ekalinin/github-markdown-toc.go/tar.gz/0.8.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/github-markdown-toc/0.8.0/bin/gh-md-toc main.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-octopus`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-octopus/1.4: 9 files, 62.6KB, built in 0 seconds
-==> Determining git-octopus bottle rebuild...
-==> Bottling git-octopus-1.4.x86_64_linux.bottle.1.tar.gz...
-./git-octopus-1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall github-markdown-toc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/github-markdown-toc/0.8.0: 5 files, 8MB, built in 2 seconds
+==> Determining github-markdown-toc bottle rebuild...
+==> Bottling github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./github-markdown-toc-0.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a89813f7fc3bc97a2dcece2645405189584e18942fee859cb3cabcaee9a0881c" => :x86_64_linux
+    sha256 "68a699a075aef81a36b422bd86cf36a7b23845946236ac792045163ab5b3b932" => :x86_64_linux
   end
