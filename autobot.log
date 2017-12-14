@@ -1,13 +1,20 @@
-==> Downloading https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.0.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/dos2unix/7.4.0 CC=gcc-5 CPP=gcc-5 CFLAGS= install ENABLE_NLS=
+==> Downloading https://github.com/dosfstools/dosfstools/releases/download/v4.1/dosfstools-4.1.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/26462150/069d10e8-e239-11e6-9cf6-5ccbdb066ef7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T125642Z&X-Amz-Expires=300&X-Amz-Signature=2c8b04c2cbdc00225f08a5eddf52862837096865bf9db97db5b8c2a3202ae764&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddosfstools-4.1.tar.gz&response-content-type=application%2Foctet-stream
+==> Downloading https://github.com/dosfstools/dosfstools/commit/1e76e577.patch?full_index=1
+==> Patching
+==> Applying 1e76e577.patch
+patching file src/mkfs.fat.c
+Hunk #1 succeeded at 529 with fuzz 2 (offset 10 lines).
+==> autoreconf -f -i
+==> ./configure --without-udev --prefix=/home/linuxbrew/.linuxbrew/Cellar/dosfstools/4.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dos2unix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dos2unix/7.4.0: 24 files, 413.0KB, built in 19 seconds
-==> Determining dos2unix bottle rebuild...
-==> Bottling dos2unix-7.4.0.x86_64_linux.bottle.1.tar.gz...
-./dos2unix-7.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dosfstools`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dosfstools/4.1: 21 files, 653.3KB, built in 2 minutes 27 seconds
+==> Determining dosfstools bottle rebuild...
+==> Bottling dosfstools-4.1.x86_64_linux.bottle.1.tar.gz...
+./dosfstools-4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "87a4c7d4818236186cd17048fd037ffa87d5d6bca7bd94be247bff0134154cf1" => :x86_64_linux
+    sha256 "de7631fc16c6509fd6fc6941efefe461213b45b47d8f055ac48de40bb3bb369c" => :x86_64_linux
   end
