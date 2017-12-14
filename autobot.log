@@ -1,15 +1,15 @@
-==> Downloading https://github.com/bcl/digitemp/archive/v3.7.1.tar.gz
-==> Downloading from https://codeload.github.com/bcl/digitemp/tar.gz/v3.7.1
-==> make -C build-serial -f ../Makefile SRCDIR=.. ds9097 ds9097u
-==> make -C build-usb -f ../Makefile SRCDIR=.. ds2490
+==> Downloading https://github.com/direnv/direnv/archive/v2.13.3.tar.gz
+==> Downloading from https://codeload.github.com/direnv/direnv/tar.gz/v2.13.3
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/direnv/2.13.3
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall digitemp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/digitemp/3.7.1: 14 files, 294.2KB, built in 30 seconds
-==> Determining digitemp bottle rebuild...
-==> Bottling digitemp-3.7.1.x86_64_linux.bottle.1.tar.gz...
-./digitemp-3.7.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall direnv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/direnv/2.13.3: 8 files, 3.3MB, built in 23 seconds
+==> Determining direnv bottle rebuild...
+==> Bottling direnv-2.13.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if direnv-2.13.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./direnv-2.13.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9e8db95d2dd70362afff5107b03c606b51ab1456453c8af7237b4fed6a057c57" => :x86_64_linux
+    sha256 "da30a138cefc4d48171d22a0b8f1651f6fdf048750323909feb54d380910aa5c" => :x86_64_linux
   end
