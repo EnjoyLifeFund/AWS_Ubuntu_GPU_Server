@@ -1,12 +1,14 @@
-==> Downloading https://www.ibiblio.org/pub/linux/games/amusements/fortune/fortune-mod-9708.tar.gz
-==> make install
+==> Downloading https://www.fossil-scm.org/index.html/uv/fossil-src-2.4.tar.gz
+==> ./configure --with-tcl-private-stubs=1 --json --with-tcl --disable-fusefs
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fortune`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fortune/9708: 118 files, 3.4MB, built in 3 seconds
-==> Determining fortune bottle rebuild...
-==> Bottling fortune-9708.x86_64_linux.bottle.tar.gz...
-==> Detecting if fortune-9708.x86_64_linux.bottle.tar.gz is relocatable...
-./fortune-9708.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall fossil`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fossil/2.4: 3 files, 11.8MB, built in 48 seconds
+==> Determining fossil bottle rebuild...
+==> Bottling fossil-2.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fossil-2.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fossil-2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "3b98fb6dc88efa66424f0c0eef7aa2b89e22fed47052d86a1e5d49e5db2d72cb" => :x86_64_linux
+    rebuild 1
+    sha256 "20eff14b1bc2aec14dc017f5c6cf3ba880aba75823c2b573f8e445cdaa5534e2" => :x86_64_linux
   end
