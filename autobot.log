@@ -1,15 +1,7 @@
-==> Downloading https://github.com/hooklift/gowsdl/archive/v0.2.1.tar.gz
-==> Downloading from https://codeload.github.com/hooklift/gowsdl/tar.gz/v0.2.1
-==> make build
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gowsdl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gowsdl/0.2.1: 5 files, 7.8MB, built in 1 second
-==> Determining gowsdl bottle rebuild...
-==> Bottling gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gowsdl-0.2.1.x86_64_linux.bottle.1.tar.gz
+==> Determining gpatch bottle rebuild...
+==> Bottling gpatch-2.7.5.x86_64_linux.bottle.1.tar.gz...
+./gpatch-2.7.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "42ffd6b6afe14ed3926b994911f075f3cae0463c2b590f5eb52877c12972d993" => :x86_64_linux
+    sha256 "a8b42a43262ad13f6efd0611d26bebde6f5c60e27dc9b4db1e9d75df8129e633" => :x86_64_linux
   end
