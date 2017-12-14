@@ -1,42 +1,8 @@
-==> Installing dependencies for gnupg@2.0: gpg-agent
-==> Installing gnupg@2.0 dependency: gpg-agent
-==> Downloading https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.0.30.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpg-agent/2.0.30_3 --enable-agent-only --with-pinentry-pgm=/home/linuxbrew/.linuxbrew/opt/pinentry/bin/pinentry --with-scdaemon-pgm=/home/linuxbrew/.linuxbrew/opt/gnupg@2.0/libexec/scdaemon
-==> make install
-==> Caveats
-Remember to add "use-standard-socket" to your ~/.gnupg/gpg-agent.conf
-file.
-
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because GPG 2.1.x ships an internal gpg-agent which it must use.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gpg-agent/bin:$PATH"' >> ~/.bash_profile
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gpg-agent/2.0.30_3: 43 files, 19.5MB, built in 31 seconds
-==> Installing gnupg@2.0
-==> Downloading https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.0.30.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30/bin --enable-symcryptrun --disable-agent --with-agent-pgm=/home/linuxbrew/.linuxbrew/opt/gpg-agent/bin/gpg-agent --with-protect-tool-pgm=/home/linuxbrew/.linuxbrew/opt/gpg-agent/libexec/gpg-protect-tool --disable-nls
-==> make
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnupg@2.0`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gnupg@2.0/bin:$PATH"' >> ~/.bash_profile
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnupg@2.0/2.0.30: 94 files, 48MB, built in 1 minute 56 seconds
-==> Determining gnupg@2.0 bottle rebuild...
-==> Bottling gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnupg@2.0-2.0.30.x86_64_linux.bottle.1.tar.gz
+==> Determining gnuplot bottle rebuild...
+==> Bottling gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnuplot-5.2.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "fdb8b4a0c2c51c06bf6e986c92bd9671207d884f4bb3327fc5d2e8dbc61fcc6a" => :x86_64_linux
+    sha256 "4c478013e0ab7a21f4db91ace49f5cbef2a3422a2617e6443169492a85280026" => :x86_64_linux
   end
