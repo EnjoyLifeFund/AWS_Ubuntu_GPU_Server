@@ -1,18 +1,23 @@
-==> Downloading https://github.com/ogham/exa/archive/v0.8.0.tar.gz
-==> Downloading from https://codeload.github.com/ogham/exa/tar.gz/v0.8.0
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/exa/0.8.0
+==> Installing dependencies for exact-image: libagg
+==> Installing exact-image dependency: libagg
+==> Downloading http://www.antigrain.com/agg-2.5.tar.gz
+==> Patching
+patching file include/agg_renderer_outline_aa.h
+==> sh autogen.sh --disable-dependency-tracking --prefix=/home/linuxbrew/.linuxbrew/Cellar/libagg/2.5 --disable-platform --disable-ctrl --disable-examples --disable-sdltest
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libagg/2.5: 154 files, 4.6MB, built in 16 seconds
+==> Installing exact-image
+==> Downloading https://dl.exactcode.de/oss/exact-image/exact-image-1.0.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exact-image/1.0.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exa`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exa/0.8.0: 9 files, 4.3MB, built in 1 minute 19 seconds
-==> Determining exa bottle rebuild...
-==> Bottling exa-0.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if exa-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./exa-0.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exact-image`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exact-image/1.0.1: 12 files, 24.6MB, built in 25 seconds
+==> Determining exact-image bottle rebuild...
+==> Bottling exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "3dddce1ca1718dd1188febbdba50ecbb0cdc9d7d514aef4ffa8e1deab2c43dbc" => :x86_64_linux
+    sha256 "dafddd132c44df0f509e82b50dcb3b513586e5f04b997ae93bb5ef47ebf52fbc" => :x86_64_linux
   end
