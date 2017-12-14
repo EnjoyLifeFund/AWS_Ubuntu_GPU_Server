@@ -1,15 +1,4 @@
-==> Downloading https://github.com/golang/dep/archive/v0.3.2.tar.gz
-==> Downloading from https://codeload.github.com/golang/dep/tar.gz/v0.3.2
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/dep/0.3.2/bin/dep .../cmd/dep
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dep/0.3.2: 7 files, 11.4MB, built in 1 minute 10 seconds
-==> Determining dep bottle rebuild...
-==> Bottling dep-0.3.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dep-0.3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dep-0.3.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c689f83c87237626b3e725c3ee0f386f8c6f8219d841b907f1bfe60414de164e" => :x86_64_linux
-  end
+==> Downloading https://dl.bintray.com/jeremy-long/owasp/dependency-check-3.0.2-release.zip
+==> unzip -o /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2/libexec/repo/org/owasp/dependency-check-core/3.0.2/dependency-check-core-3.0.2.jar dependencycheck.properties -d /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2/libexec/etc
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2: 45 files, 14.0MB, built in 19 seconds
+This formula doesn't require compiling.
