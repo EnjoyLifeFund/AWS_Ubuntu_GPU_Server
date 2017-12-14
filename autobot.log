@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/ftgl/FTGL%20Source/2.1.3~rc5/ftgl-2.1.3-rc5.tar.gz
-==> Downloading from https://cytranet.dl.sourceforge.net/project/ftgl/FTGL%20Source/2.1.3%7Erc5/ftgl-2.1.3-rc5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ftgl/2.1.3-rc5 --disable-freetypetest --with-glut-inc=/dev/null --with-glut-lib=/dev/null --with-gl-inc=/home/linuxbrew/.linuxbrew/opt/glu/include
+==> Downloading https://downloads.sourceforge.net/project/ftimes/ftimes/3.11.0/ftimes-3.11.0.tgz
+==> Downloading from https://ayera.dl.sourceforge.net/project/ftimes/ftimes/3.11.0/ftimes-3.11.0.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ftimes/3.11.0_1 --with-pcre=/home/linuxbrew/.linuxbrew/opt/pcre --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl --sysconfdir=/home/linuxbrew/.linuxbrew/etc --with-server-prefix=/home/linuxbrew/.linuxbrew/var/ftimes
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ftgl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ftgl/2.1.3-rc5: 36 files, 2.7MB, built in 23 seconds
-==> Determining ftgl bottle rebuild...
-==> Bottling ftgl-2.1.3-rc5.x86_64_linux.bottle.1.tar.gz...
-./ftgl-2.1.3-rc5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ftimes`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ftimes/3.11.0_1: 9 files, 426.6KB, built in 21 seconds
+==> Determining ftimes bottle rebuild...
+==> Bottling ftimes-3.11.0_1.x86_64_linux.bottle.1.tar.gz...
+./ftimes-3.11.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "278bb3846f74cf7e1719a137094653100b2289b6b8ee5932978f232729080244" => :x86_64_linux
+    sha256 "37e87ab5eb5514ad044c8a44e1b6e248470fff32cbd0672df8369d716066dbd5" => :x86_64_linux
   end
