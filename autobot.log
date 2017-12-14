@@ -1,13 +1,7 @@
-==> Downloading https://ftp.gnu.org/gnu/complexity/complexity-1.10.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-complexity/1.10
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-complexity`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-complexity/1.10: 11 files, 277.7KB, built in 22 seconds
-==> Determining gnu-complexity bottle rebuild...
-==> Bottling gnu-complexity-1.10.x86_64_linux.bottle.1.tar.gz...
-./gnu-complexity-1.10.x86_64_linux.bottle.1.tar.gz
+==> Determining gnu-getopt bottle rebuild...
+==> Bottling gnu-getopt-1.1.6.x86_64_linux.bottle.1.tar.gz...
+./gnu-getopt-1.1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1675436ac1845c71c2aa01b78e4886072a3131173d52662d27ad4b7d871c8f16" => :x86_64_linux
+    sha256 "b72568096c584f34958a391769b46dcaf963afb11130e23863d863d9806e2fc1" => :x86_64_linux
   end
