@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/libexif/exif/0.6.21/exif-0.6.21.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/libexif/exif/0.6.21/exif-0.6.21.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exif/0.6.21 --disable-silent-rules --disable-nls
-==> make install
+==> Downloading https://johnst.org/sw/exiftags/exiftags-1.01.tar.gz
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01 mandir=/home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01/share/man install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exif`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exif/0.6.21: 9 files, 199.4KB, built in 7 seconds
-==> Determining exif bottle rebuild...
-==> Bottling exif-0.6.21.x86_64_linux.bottle.1.tar.gz...
-./exif-0.6.21.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exiftags`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exiftags/1.01: 10 files, 287KB, built in 1 second
+==> Determining exiftags bottle rebuild...
+==> Bottling exiftags-1.01.x86_64_linux.bottle.1.tar.gz...
+./exiftags-1.01.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3ce474b1283578b8ae9f0da39ee19d38a2dbc1d53fb9745188b36a349e82460a" => :x86_64_linux
+    sha256 "37b88405a8e2c9eea50bd83801c98675108cb92246941d4a6d4d906780a97755" => :x86_64_linux
   end
