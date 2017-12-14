@@ -1,15 +1,8 @@
-==> Downloading https://github.com/elves/elvish/archive/0.10.1.tar.gz
-==> Downloading from https://codeload.github.com/elves/elvish/tar.gz/0.10.1
-==> go build -ldflags -X main.Version=0.10.1 -o /home/linuxbrew/.linuxbrew/Cellar/elvish/0.10.1/bin/elvish
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall elvish`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/elvish/0.10.1: 5 files, 11.6MB, built in 6 seconds
-==> Determining elvish bottle rebuild...
-==> Bottling elvish-0.10.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if elvish-0.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./elvish-0.10.1.x86_64_linux.bottle.1.tar.gz
+==> Determining emacs bottle rebuild...
+==> Bottling emacs-25.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if emacs-25.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./emacs-25.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f354e95e9900cf68b6f4977f5514ca38e3d8956b5696e24d50d024fe1ff2dd8d" => :x86_64_linux
+    sha256 "0662aec1aaefbebd9142d2b33ddcd0a4d4aa0aab6084675058f5d88d9383e673" => :x86_64_linux
   end
