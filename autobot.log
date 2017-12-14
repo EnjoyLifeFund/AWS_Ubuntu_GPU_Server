@@ -1,17 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/barcode/barcode-0.99.tar.gz
-==> Patching
-patching file barcode.h
-patching file pcl.c
-==> ./configure ac_cv_func_calloc_0_nonnull=yes --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99
-==> make
-==> make MAN1DIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/man/man1 MAN3DIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/man/man3 INFODIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99/share/info install
+==> Downloading https://ftp.gnu.org/gnu/chess/gnuchess-6.2.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-chess/6.2.5
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-barcode`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-barcode/0.99: 11 files, 446.8KB, built in 36 seconds
-==> Determining gnu-barcode bottle rebuild...
-==> Bottling gnu-barcode-0.99.x86_64_linux.bottle.1.tar.gz...
-./gnu-barcode-0.99.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnu-chess`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-chess/6.2.5: 31 files, 2.0MB, built in 9 seconds
+==> Determining gnu-chess bottle rebuild...
+==> Bottling gnu-chess-6.2.5.x86_64_linux.bottle.1.tar.gz...
+./gnu-chess-6.2.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "57bffaac1c44a8b69271328b3e3e2038711be98f20d3c0b31364058c6e76f364" => :x86_64_linux
+    sha256 "e41add1267a1a962d49fabc0fa6bb59190b55de61d7d3906110bf4009354a723" => :x86_64_linux
   end
