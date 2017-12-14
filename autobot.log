@@ -1,13 +1,21 @@
-==> Downloading https://dist.eugridpma.info/distribution/util/fetch-crl3/fetch-crl-3.0.19.tar.gz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fetch-crl/3.0.19 ETC=/home/linuxbrew/.linuxbrew/etc CACHE=/home/linuxbrew/.linuxbrew/var/cache
+==> Downloading https://downloads.sourceforge.net/project/fetchmail/branch_6.3/fetchmail-6.3.26.tar.xz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/fetchmail/branch_6.3/fetchmail-6.3.26.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fetchmail/6.3.26 --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fetch-crl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fetch-crl/3.0.19: 19 files, 227.9KB, built in 2 seconds
-==> Determining fetch-crl bottle rebuild...
-==> Bottling fetch-crl-3.0.19.x86_64_linux.bottle.1.tar.gz...
-./fetch-crl-3.0.19.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fetchmail`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fetchmail/6.3.26: 39 files, 3.1MB, built in 18 seconds
+==> Determining fetchmail bottle rebuild...
+==> Bottling fetchmail-6.3.26.x86_64_linux.bottle.tar.gz...
+./fetchmail-6.3.26.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "64d8f9e76290b9b9671eb9ae71ce3980e549356ca32a95c35d8fedd3f155b53b" => :x86_64_linux
+    sha256 "940115ed36762b1929ffb91955c0a89bae80a328cf4f339542299d796fcec17a" => :x86_64_linux
   end
