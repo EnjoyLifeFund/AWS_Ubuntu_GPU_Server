@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/gaul/gaul-devel/0.1850-0/gaul-devel-0.1850-0.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/gaul/gaul-devel/0.1850-0/gaul-devel-0.1850-0.tar.gz
-==> ./configure --disable-g --prefix=/home/linuxbrew/.linuxbrew/Cellar/gaul/0.1850-0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gaul`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gaul/0.1850-0: 50 files, 2.6MB, built in 24 seconds
-==> Determining gaul bottle rebuild...
-==> Bottling gaul-0.1850-0.x86_64_linux.bottle.1.tar.gz...
-./gaul-0.1850-0.x86_64_linux.bottle.1.tar.gz
+==> Determining gawk bottle rebuild...
+==> Bottling gawk-4.2.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gawk-4.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gawk-4.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "fd212e755a103ec9419af3e950fde218e0740fc12045612cd35deca725a0228b" => :x86_64_linux
+    sha256 "964e6b08cb8fcb066f94dc6df7d928de895dd76bf3b330a595bbfe3fbd165c30" => :x86_64_linux
   end
