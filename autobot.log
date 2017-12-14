@@ -1,4 +1,4 @@
-==> Downloading https://github.com/nothingmuch/git-svn-abandon/archive/0.0.1.tar.gz
-==> Downloading from https://codeload.github.com/nothingmuch/git-svn-abandon/tar.gz/0.0.1
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-svn-abandon/0.0.1: 7 files, 19.9KB, built in 0 seconds
+==> Downloading https://github.com/spotify/git-test/archive/v1.0.4.tar.gz
+==> Downloading from https://codeload.github.com/spotify/git-test/tar.gz/v1.0.4
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-test/1.0.4: 7 files, 74.7KB, built in 0 seconds
 This formula doesn't require compiling.
