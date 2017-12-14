@@ -1,9 +1,15 @@
-==> Determining faad2 bottle rebuild...
-==> Bottling faad2-2.8.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if faad2-2.8.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./faad2-2.8.6.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/fabiolb/fabio/archive/v1.5.4.tar.gz
+==> Downloading from https://codeload.github.com/fabiolb/fabio/tar.gz/v1.5.4
+==> go install github.com/fabiolb/fabio
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall fabio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fabio/1.5.4: 6 files, 11.1MB, built in 2 seconds
+==> Determining fabio bottle rebuild...
+==> Bottling fabio-1.5.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fabio-1.5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fabio-1.5.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "b35870b3dd7f5d00b247f2a6dff229d587d72eca15ee3f03fd9d4d267e47d749" => :x86_64_linux
+    sha256 "b8d0fce740cf65dd809318c1212eaa49e5c3f0cf3af288c7082a27c31d3e7ac4" => :x86_64_linux
   end
