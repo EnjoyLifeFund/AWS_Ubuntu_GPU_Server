@@ -1,4 +1,7 @@
-==> Downloading https://github.com/mhagger/git-when-merged/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/mhagger/git-when-merged/tar.gz/v1.2.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-when-merged/1.2.0: 5 files, 58.8KB, built in 1 second
+==> Downloading https://github.com/gitbucket/gitbucket/releases/download/4.19.3/gitbucket.war
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9350746/a6c24514-daf1-11e7-965a-2576268cf1eb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T213143Z&X-Amz-Expires=300&X-Amz-Signature=8df738f0defcbd16fd108560b645a5576c567085a8628f96b50b540786b52c41&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgitbucket.war&response-content-type=application%2Foctet-stream
+==> Caveats
+Note: When using launchctl the port will be 8080.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gitbucket/4.19.3: 3 files, 48.6MB, built in 6 seconds
 This formula doesn't require compiling.
