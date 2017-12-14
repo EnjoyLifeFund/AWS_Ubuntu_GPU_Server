@@ -1,19 +1,12 @@
-==> Downloading https://github.com/cortesi/devd/archive/v0.7.tar.gz
-==> Downloading from https://codeload.github.com/cortesi/devd/tar.gz/v0.7
-==> Cloning https://github.com/cortesi/moddwatch.git
-==> Checking out revision a149019f9ed6f16033de28f66d8c1247593a0104
-==> Cloning https://github.com/cortesi/termlog.git
-==> Checking out revision 2ed14eb6ce62ec5bcc3fd25885a1d13d53f34fd1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/devd/0.7/bin/devd .../cmd/devd
+==> Downloading https://github.com/tihirvon/dex/archive/v1.0.tar.gz
+==> Downloading from https://codeload.github.com/tihirvon/dex/tar.gz/v1.0
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/dex/1.0 CC=gcc-5 HOST_CC=gcc-5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall devd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/devd/0.7: 6 files, 11.3MB, built in 1 minute 3 seconds
-==> Determining devd bottle rebuild...
-==> Bottling devd-0.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if devd-0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./devd-0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dex`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dex/1.0: 37 files, 1.1MB, built in 3 minutes 6 seconds
+==> Determining dex bottle rebuild...
+==> Bottling dex-1.0.x86_64_linux.bottle.tar.gz...
+./dex-1.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "ced2e05514790e655d943d22ecc6accdd322788983720fcca489dcbaf0a26095" => :x86_64_linux
+    sha256 "551fd305821579011ffc82ab6b325fbb3a155450b0d55630babffa70640e3b37" => :x86_64_linux
   end
