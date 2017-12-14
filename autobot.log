@@ -1,34 +1,4 @@
-==> Installing dependencies for docker-compose: docker-machine
-==> Installing docker-compose dependency: docker-machine
-==> Downloading https://linuxbrew.bintray.com/bottles/docker-machine-0.13.0.x86_64_linux.bottle.tar.gz
-==> Pouring docker-machine-0.13.0.x86_64_linux.bottle.tar.gz
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-machine/0.13.0: 10 files, 26.2MB
-==> Installing docker-compose
-==> Downloading https://github.com/docker/compose/archive/1.17.1.tar.gz
-==> Downloading from https://codeload.github.com/docker/compose/tar.gz/1.17.1
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/docker-compose--homebrew-virtualenv-20171214-78057-7wprwa/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/docker-compose--homebrew-virtualenv-20171214-78057-7wprwa/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/docker-compose/1.17.1/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/docker-compose/1.17.1/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/docker-compose-20171214-78057-4s5m0d/compose-1.17.1
-==> /home/linuxbrew/.linuxbrew/Cellar/docker-compose/1.17.1/libexec/bin/pip uninstall -y docker-compose
-==> /home/linuxbrew/.linuxbrew/Cellar/docker-compose/1.17.1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/docker-compose-20171214-78057-4s5m0d/compose-1.17.1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docker-compose`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-compose/1.17.1: 1,381 files, 16.0MB, built in 3 minutes 26 seconds
-==> Determining docker-compose bottle rebuild...
-==> Bottling docker-compose-1.17.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker-compose-1.17.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker-compose-1.17.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c04e4852e2465122c4d2342381c2434a2f1156af6d35483252c8a887f7638ef8" => :x86_64_linux
-  end
+==> Downloading https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-darwin-amd64-0.7.3.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/17762549/a213ad4c-30fb-11e6-954d-9bb418e77f05?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T120357Z&X-Amz-Expires=300&X-Amz-Signature=ebd1bdfd1a781694d3f8c38446ec1751ac042634de16e5bde87bee27f33494d0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddocker-gen-darwin-amd64-0.7.3.tar.gz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-gen/0.7.3: 3 files, 10.5MB, built in 11 seconds
+This formula doesn't require compiling.
