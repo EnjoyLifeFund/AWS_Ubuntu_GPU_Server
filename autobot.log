@@ -1,15 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/flac-tools/flac123/flac123-0.0.12-release.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/flac-tools/flac123/flac123-0.0.12-release.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/flac123/0.0.12
-==> make install CC=gcc-5 ACLOCAL=${SHELL} /tmp/flac123-20171214-7227-1gbc1mq/flac123-0.0.12/missing --run aclocal AUTOMAKE=${SHELL} /tmp/flac123-20171214-7227-1gbc1mq/flac123-0.0.12/missing --run automake
+==> Downloading https://downloads.sourceforge.net/project/flake-enc/flake/0.11/flake-0.11.tar.bz2
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/flake-enc/flake/0.11/flake-0.11.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/flake/0.11
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flac123`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flac123/0.0.12: 8 files, 62.7KB, built in 5 seconds
-==> Determining flac123 bottle rebuild...
-==> Bottling flac123-0.0.12.x86_64_linux.bottle.1.tar.gz...
-./flac123-0.0.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall flake`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flake/0.11: 8 files, 205.8KB, built in 4 seconds
+==> Determining flake bottle rebuild...
+==> Bottling flake-0.11.x86_64_linux.bottle.1.tar.gz...
+./flake-0.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d0306fbacfd21bc4a16077c21cf4884f293a8909465595f288cdeca670a34daf" => :x86_64_linux
+    sha256 "d6db0f2c6bf2a0fbfcf7560b1d1c10a52da8de8bd3ef9c6fd894ced9b59872c1" => :x86_64_linux
   end
