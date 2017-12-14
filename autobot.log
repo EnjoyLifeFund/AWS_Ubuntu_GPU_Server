@@ -1,4 +1,8 @@
-==> Downloading https://github.com/Frege/frege-repl/releases/download/1.4-SNAPSHOT/frege-repl-1.4-SNAPSHOT.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6632628/baa63994-525f-11e6-9a17-bac1bea53775?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T163558Z&X-Amz-Expires=300&X-Amz-Signature=624adc9bcc266209ad5f403429ef009df8d112f2ab3d163bf73350d85c18b18f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfrege-repl-1.4-SNAPSHOT.zip&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/frege-repl/1.4-SNAPSHOT_1: 11 files, 34.6MB, built in 4 seconds
-This formula doesn't require compiling.
+==> Determining fribidi bottle rebuild...
+==> Bottling fribidi-0.19.7_1.x86_64_linux.bottle.1.tar.gz...
+./fribidi-0.19.7_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c339f9d285d8d16f09ef032a688f68fc756bc9a8ce9eda66328538ec445164c4" => :x86_64_linux
+  end
