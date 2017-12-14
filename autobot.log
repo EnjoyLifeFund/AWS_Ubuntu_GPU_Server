@@ -1,92 +1,17 @@
-==> Downloading https://ftp.gnu.org/gnu/gcc/gcc-6.4.0/gcc-6.4.0.tar.xz
-==> ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-6 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl  --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion=Homebrew GCC 6.4.0 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-dwarf2 --disable-nls --disable-multilib
-==> make bootstrap
-==> make install
-==> strip --strip-unneeded --preserve-dates /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libsupc++.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libubsan.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libitm.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libasan.so.3.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libtsan.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtprec64.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/libcaf_single.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbeginT.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/libgcc.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtfastmath.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtprec80.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/libgcov.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbeginS.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtprec32.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/plugin/libcc1plugin.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/plugin/libcc1plugin.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/plugin/libcc1plugin.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/libgcc_eh.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libobjc.so.4 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcc1.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcc1.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libssp.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpx.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libasan.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libitm.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libstdc++.so.6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libstdc++.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libubsan.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgomp.so.1.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libtsan.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcc1.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpxwrappers.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libstdc++fs.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libssp_nonshared.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgomp.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpxwrappers.so.2.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libubsan.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcilkrts.so.5.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libquadmath.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libatomic.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libssp.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libitm.so.1.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libquadmath.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libasan.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgfortran.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libssp.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/liblsan.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcilkrts.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpx.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgfortran.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libatomic.so.1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgfortran.so.3 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcilkrts.so.5 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/liblsan.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/liblsan.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpx.so.2.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libquadmath.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/liblsan.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libssp.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libobjc.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libobjc.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libstdc++.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libtsan.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libstdc++.so.6.0.22 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgomp.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libtsan.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libobjc.so.4.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpxwrappers.so.2 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libquadmath.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libitm.so.1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libatomic.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libasan_preinit.o /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgfortran.so.3.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libasan.so.3 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpxwrappers.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgomp.so.1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libmpx.so.2 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libatomic.so.1.2.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libgcc_s.so.1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libubsan.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/lib/libcilkrts.a /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/cc1plus /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/install-tools/fixincl /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/plugin/gengtype /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/cc1 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/cc1objplus /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/f951 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so.0.0.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/cc1obj /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gcc-nm-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcc-ranlib-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gcc-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gfortran-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gfortran-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/c++-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gcc-ranlib-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/g++-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcov-tool-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-c++-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-g++-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gcc-ar-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcc-ar-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcc-nm-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/x86_64-pc-linux-gnu-gcc-6.4.0 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcc-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcov-dump-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/gcov-6 /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0/bin/cpp-6
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink lib/libasan.a
-Target /home/linuxbrew/.linuxbrew/lib/libasan.a
-is a symlink belonging to gcc. You can unlink it:
-  brew unlink gcc
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite gcc@6
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run gcc@6
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/lib/libasan.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libasan.a
-/home/linuxbrew/.linuxbrew/lib/libasan.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libasan.so
-/home/linuxbrew/.linuxbrew/lib/libasan_preinit.o -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libasan_preinit.o
-/home/linuxbrew/.linuxbrew/lib/libatomic.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libatomic.a
-/home/linuxbrew/.linuxbrew/lib/libatomic.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libatomic.so
-/home/linuxbrew/.linuxbrew/lib/libatomic.so.1 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libatomic.so.1
-/home/linuxbrew/.linuxbrew/lib/libcc1.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcc1.so
-/home/linuxbrew/.linuxbrew/lib/libcc1.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcc1.so.0
-/home/linuxbrew/.linuxbrew/lib/libcc1.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcc1.so.0.0.0
-/home/linuxbrew/.linuxbrew/lib/libcilkrts.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcilkrts.a
-/home/linuxbrew/.linuxbrew/lib/libcilkrts.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcilkrts.so
-/home/linuxbrew/.linuxbrew/lib/libcilkrts.so.5 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcilkrts.so.5
-/home/linuxbrew/.linuxbrew/lib/libcilkrts.so.5.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcilkrts.so.5.0.0
-/home/linuxbrew/.linuxbrew/lib/libcilkrts.spec -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libcilkrts.spec
-/home/linuxbrew/.linuxbrew/lib/libgcc_s.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgcc_s.so
-/home/linuxbrew/.linuxbrew/lib/libgcc_s.so.1 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgcc_s.so.1
-/home/linuxbrew/.linuxbrew/lib/libgfortran.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgfortran.a
-/home/linuxbrew/.linuxbrew/lib/libgfortran.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgfortran.so
-/home/linuxbrew/.linuxbrew/lib/libgfortran.so.3 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgfortran.so.3
-/home/linuxbrew/.linuxbrew/lib/libgfortran.so.3.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgfortran.so.3.0.0
-/home/linuxbrew/.linuxbrew/lib/libgfortran.spec -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgfortran.spec
-/home/linuxbrew/.linuxbrew/lib/libgomp.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgomp.a
-/home/linuxbrew/.linuxbrew/lib/libgomp.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgomp.so
-/home/linuxbrew/.linuxbrew/lib/libgomp.so.1 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgomp.so.1
-/home/linuxbrew/.linuxbrew/lib/libgomp.so.1.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgomp.so.1.0.0
-/home/linuxbrew/.linuxbrew/lib/libgomp.spec -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libgomp.spec
-/home/linuxbrew/.linuxbrew/lib/libitm.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libitm.a
-/home/linuxbrew/.linuxbrew/lib/libitm.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libitm.so
-/home/linuxbrew/.linuxbrew/lib/libitm.so.1 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libitm.so.1
-/home/linuxbrew/.linuxbrew/lib/libitm.so.1.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libitm.so.1.0.0
-/home/linuxbrew/.linuxbrew/lib/libitm.spec -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libitm.spec
-/home/linuxbrew/.linuxbrew/lib/liblsan.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/liblsan.a
-/home/linuxbrew/.linuxbrew/lib/liblsan.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/liblsan.so
-/home/linuxbrew/.linuxbrew/lib/liblsan.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/liblsan.so.0
-/home/linuxbrew/.linuxbrew/lib/liblsan.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/liblsan.so.0.0.0
-/home/linuxbrew/.linuxbrew/lib/libobjc.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libobjc.a
-/home/linuxbrew/.linuxbrew/lib/libobjc.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libobjc.so
-/home/linuxbrew/.linuxbrew/lib/libobjc.so.4 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libobjc.so.4
-/home/linuxbrew/.linuxbrew/lib/libobjc.so.4.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libobjc.so.4.0.0
-/home/linuxbrew/.linuxbrew/lib/libquadmath.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libquadmath.a
-/home/linuxbrew/.linuxbrew/lib/libquadmath.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libquadmath.so
-/home/linuxbrew/.linuxbrew/lib/libquadmath.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libquadmath.so.0
-/home/linuxbrew/.linuxbrew/lib/libquadmath.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libquadmath.so.0.0.0
-/home/linuxbrew/.linuxbrew/lib/libsanitizer.spec -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libsanitizer.spec
-/home/linuxbrew/.linuxbrew/lib/libssp.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libssp.a
-/home/linuxbrew/.linuxbrew/lib/libssp.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libssp.so
-/home/linuxbrew/.linuxbrew/lib/libssp.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libssp.so.0
-/home/linuxbrew/.linuxbrew/lib/libssp.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libssp.so.0.0.0
-/home/linuxbrew/.linuxbrew/lib/libssp_nonshared.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libssp_nonshared.a
-/home/linuxbrew/.linuxbrew/lib/libstdc++.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libstdc++.a
-/home/linuxbrew/.linuxbrew/lib/libstdc++.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libstdc++.so
-/home/linuxbrew/.linuxbrew/lib/libstdc++.so.6 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libstdc++.so.6
-/home/linuxbrew/.linuxbrew/lib/libstdc++fs.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libstdc++fs.a
-/home/linuxbrew/.linuxbrew/lib/libsupc++.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libsupc++.a
-/home/linuxbrew/.linuxbrew/lib/libtsan.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libtsan.a
-/home/linuxbrew/.linuxbrew/lib/libtsan.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libtsan.so
-/home/linuxbrew/.linuxbrew/lib/libtsan.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libtsan.so.0
-/home/linuxbrew/.linuxbrew/lib/libtsan.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libtsan.so.0.0.0
-/home/linuxbrew/.linuxbrew/lib/libubsan.a -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libubsan.a
-/home/linuxbrew/.linuxbrew/lib/libubsan.so -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libubsan.so
-/home/linuxbrew/.linuxbrew/lib/libubsan.so.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libubsan.so.0
-/home/linuxbrew/.linuxbrew/lib/libubsan.so.0.0.0 -> /home/linuxbrew/.linuxbrew/Cellar/gcc/5.4.0/lib/libubsan.so.0.0.0
+==> Downloading https://github.com/sparrc/gdm/archive/1.4.tar.gz
+==> Downloading from https://codeload.github.com/sparrc/gdm/tar.gz/1.4
+==> Cloning https://go.googlesource.com/tools.git
+==> Checking out revision 6f233b96dfbc53e33b302e31b88814cf74697ff6
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gdm/1.4/bin/gdm -ldflags -X main.Version=1.4
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gcc@6`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gcc@6/6.4.0: 1,407 files, 181.9MB, built in 24 minutes 39 seconds
-==> Determining gcc@6 bottle rebuild...
-==> Bottling gcc@6-6.4.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gcc@6-6.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gcc@6-6.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gdm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gdm/1.4: 4 files, 7.9MB, built in 5 seconds
+==> Determining gdm bottle rebuild...
+==> Bottling gdm-1.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gdm-1.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gdm-1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "12a4765782fed5050ce29b50e8c59999cc76831755efa54e9e933f89e5740260" => :x86_64_linux
+    sha256 "45d3c035d1e0c9d4b986628084f16c012a7feac24516b1c991bb395cf75728c3" => :x86_64_linux
   end
