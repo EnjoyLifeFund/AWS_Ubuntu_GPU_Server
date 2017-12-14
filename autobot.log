@@ -1,23 +1,4 @@
-==> Installing dependencies for exact-image: libagg
-==> Installing exact-image dependency: libagg
-==> Downloading http://www.antigrain.com/agg-2.5.tar.gz
-==> Patching
-patching file include/agg_renderer_outline_aa.h
-==> sh autogen.sh --disable-dependency-tracking --prefix=/home/linuxbrew/.linuxbrew/Cellar/libagg/2.5 --disable-platform --disable-ctrl --disable-examples --disable-sdltest
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libagg/2.5: 154 files, 4.6MB, built in 16 seconds
-==> Installing exact-image
-==> Downloading https://dl.exactcode.de/oss/exact-image/exact-image-1.0.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exact-image/1.0.1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exact-image`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exact-image/1.0.1: 12 files, 24.6MB, built in 25 seconds
-==> Determining exact-image bottle rebuild...
-==> Bottling exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./exact-image-1.0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "dafddd132c44df0f509e82b50dcb3b513586e5f04b997ae93bb5ef47ebf52fbc" => :x86_64_linux
-  end
+==> Downloading https://github.com/na-ka-na/ExcelCompare/releases/download/0.6.1/ExcelCompare-0.6.1.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4841359/4b94c738-e5ac-11e6-8fbf-f5019ebf9b5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T150953Z&X-Amz-Expires=300&X-Amz-Signature=6f05aae97752c248db9d470bb4f5789176e85a9b874b45109ac35c18b0ae950e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DExcelCompare-0.6.1.zip&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/excel-compare/0.6.1: 25 files, 18.9MB, built in 3 seconds
+This formula doesn't require compiling.
