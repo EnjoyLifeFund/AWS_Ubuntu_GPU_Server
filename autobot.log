@@ -1,7 +1,15 @@
-==> Determining glog bottle rebuild...
-==> Bottling glog-0.3.5_2.x86_64_linux.bottle.1.tar.gz...
-./glog-0.3.5_2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://gmic.eu/files/source/gmic_2.1.5.tar.gz
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gmic/2.1.5_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DENABLE_X=OFF -DENABLE_OPENCV=OFF -DENABLE_FFMPEG=OFF -DENABLE_TIFF=OFF -DENABLE_OPENEXR=OFF
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gmic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmic/2.1.5_1: 10 files, 17.9MB, built in 4 minutes 18 seconds
+==> Determining gmic bottle rebuild...
+==> Bottling gmic-2.1.5_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gmic-2.1.5_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gmic-2.1.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7e539adc7e7f2024bf700877be0fc97160a04e341db0cefb8dcbf0de6d4f61c6" => :x86_64_linux
+    sha256 "923cf95a69955e9c50940ffa6c9b048f8d990353cfabe0dfee83096c5cea9c2b" => :x86_64_linux
   end
