@@ -1,15 +1,7 @@
-==> Downloading https://github.com/vgough/encfs/archive/v1.9.2.tar.gz
-==> Downloading from https://codeload.github.com/vgough/encfs/tar.gz/v1.9.2
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/encfs/1.9.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall encfs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/encfs/1.9.2: 61 files, 6.1MB, built in 13 seconds
-==> Determining encfs bottle rebuild...
-==> Bottling encfs-1.9.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if encfs-1.9.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./encfs-1.9.2.x86_64_linux.bottle.1.tar.gz
+==> Determining enchant bottle rebuild...
+==> Bottling enchant-1.6.0.x86_64_linux.bottle.1.tar.gz...
+./enchant-1.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e7ec1c742a693235459706ae08ca10b76acc3b325a25318c0b667d04444eef04" => :x86_64_linux
+    sha256 "e877bae43efb3d2d7941765c6e9e48c70a914fa2572b3159a60f7baf567e412e" => :x86_64_linux
   end
