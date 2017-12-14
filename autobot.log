@@ -1,42 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/docutils--homebrew-virtualenv-20171214-113893-1u9953t/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/docutils--homebrew-virtualenv-20171214-113893-1u9953t/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/docutils/0.14/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/docutils/0.14/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/docutils-20171214-113893-mcvwry/docutils-0.14
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/rst2html.py
-Target /home/linuxbrew/.linuxbrew/bin/rst2html.py
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/bin/rst2html.py'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite docutils
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run docutils
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/rst2html.py
-/home/linuxbrew/.linuxbrew/bin/rst2latex.py
-/home/linuxbrew/.linuxbrew/bin/rst2man.py
-/home/linuxbrew/.linuxbrew/bin/rst2odt.py
-/home/linuxbrew/.linuxbrew/bin/rst2odt_prepstyles.py
-/home/linuxbrew/.linuxbrew/bin/rst2pseudoxml.py
-/home/linuxbrew/.linuxbrew/bin/rst2s5.py
-/home/linuxbrew/.linuxbrew/bin/rst2xetex.py
-/home/linuxbrew/.linuxbrew/bin/rst2xml.py
-/home/linuxbrew/.linuxbrew/bin/rstpep2html.py
+==> Downloading https://downloads.sourceforge.net/docx2txt/docx2txt-1.4.tgz
+==> Downloading from https://downloads.sourceforge.net/project/docx2txt/docx2txt/v1.4/docx2txt-1.4.tgz
+==> make install CONFIGDIR=/home/linuxbrew/.linuxbrew/etc BINDIR=/home/linuxbrew/.linuxbrew/Cellar/docx2txt/1.4/bin
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docutils`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docutils/0.14: 1,101 files, 16.7MB, built in 1 minute 24 seconds
-==> Determining docutils bottle rebuild...
-==> Bottling docutils-0.14.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docutils-0.14.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docutils-0.14.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall docx2txt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docx2txt/1.4: 10 files, 95.4KB, built in 8 seconds
+==> Determining docx2txt bottle rebuild...
+==> Bottling docx2txt-1.4.x86_64_linux.bottle.1.tar.gz...
+./docx2txt-1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "189dae8795005230b4de8aa3489c86d6e275a77d706cbe3386ce3454a5915e45" => :x86_64_linux
+    sha256 "702acff4d6f1b236445471acc3f7e61fd4e07aa104283611967baeba8c59d8e5" => :x86_64_linux
   end
