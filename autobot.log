@@ -1,8 +1,18 @@
-==> Downloading https://github.com/gradle/gradle-completion/archive/v1.3.0.tar.gz
-==> Downloading from https://codeload.github.com/gradle/gradle-completion/tar.gz/v1.3.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Downloading https://downloads.gradle.org/distributions/gradle-2.14.1-bin.zip
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/gradle
+Target /home/linuxbrew/.linuxbrew/bin/gradle
+is a symlink belonging to gradle. You can unlink it:
+  brew unlink gradle
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite gradle@2.14
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run gradle@2.14
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/gradle -> /home/linuxbrew/.linuxbrew/Cellar/gradle/4.4/bin/gradle
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gradle-completion/1.3.0: 6 files, 70.4KB, built in 0 seconds
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gradle@2.14/2.14.1: 172 files, 47.4MB, built in 2 seconds
 This formula doesn't require compiling.
