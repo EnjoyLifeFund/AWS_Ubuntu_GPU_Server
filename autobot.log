@@ -1,12 +1,16 @@
-==> Downloading https://github.com/adrianlopezroche/fdupes/archive/v1.6.1.tar.gz
-==> Downloading from https://codeload.github.com/adrianlopezroche/fdupes/tar.gz/v1.6.1
-==> make fdupes
+==> Downloading https://github.com/dkogan/feedgnuplot/archive/v1.45.tar.gz
+==> Downloading from https://codeload.github.com/dkogan/feedgnuplot/tar.gz/v1.45
+==> perl Makefile.PL prefix=/home/linuxbrew/.linuxbrew/Cellar/feedgnuplot/1.45
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fdupes`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fdupes/1.6.1: 7 files, 116.2KB, built in 1 second
-==> Determining fdupes bottle rebuild...
-==> Bottling fdupes-1.6.1.x86_64_linux.bottle.tar.gz...
-./fdupes-1.6.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall feedgnuplot`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/feedgnuplot/1.45: 7 files, 197.8KB, built in 1 second
+==> Determining feedgnuplot bottle rebuild...
+==> Bottling feedgnuplot-1.45.x86_64_linux.bottle.1.tar.gz...
+./feedgnuplot-1.45.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "b50727e87061d110a77f0df687133b4f2c6e2f6c7318a6745e081b4a3d957ec8" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4b1ea7a21735dab40880d97a4b4b2f58b5c2f29e9e0c198a6627ff8fdf1f1abe" => :x86_64_linux
   end
