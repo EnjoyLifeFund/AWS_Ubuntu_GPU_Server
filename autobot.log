@@ -1,13 +1,4 @@
-==> Downloading https://fping.org/dist/fping-4.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fping/4.0 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/fping/4.0/bin
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fping`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fping/4.0: 6 files, 168.9KB, built in 5 seconds
-==> Determining fping bottle rebuild...
-==> Bottling fping-4.0.x86_64_linux.bottle.1.tar.gz...
-./fping-4.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "d2b302d93a40c32d6dba87e6221073a918bc522a1aed55ab20e29c4e0c21a156" => :x86_64_linux
-  end
+==> Downloading https://github.com/facebook/PathPicker/releases/download/0.7.2/fpp.0.7.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/34887588/887a2ee0-d107-11e6-8032-cca141cea8a7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T162124Z&X-Amz-Expires=300&X-Amz-Signature=96698db5ec4c8711ba14af724d74ecfc146bbdc4252cab245b22fc36e37029ac&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfpp.0.7.2.tar.gz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fpp/0.7.2: 38 files, 109.5KB, built in 1 second
+This formula doesn't require compiling.
