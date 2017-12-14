@@ -1,9 +1,13 @@
-==> Determining glide bottle rebuild...
-==> Bottling glide-0.13.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if glide-0.13.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./glide-0.13.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/garmintools/garmintools-0.10.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/garmintools/0.10
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall garmintools`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/garmintools/0.10: 24 files, 1.5MB, built in 17 seconds
+==> Determining garmintools bottle rebuild...
+==> Bottling garmintools-0.10.x86_64_linux.bottle.1.tar.gz...
+./garmintools-0.10.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eb80d7afd2c66338922249018eb9d12de031bead3c6b16b5395d652ec35ef7f2" => :x86_64_linux
+    sha256 "8bebbd59401171f8534698e8a102a5bd29ad972cbf55599bef507d505b9086a2" => :x86_64_linux
   end
