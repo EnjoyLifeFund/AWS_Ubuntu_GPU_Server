@@ -1,17 +1,7 @@
-==> Downloading https://unix4lyfe.org/darkstat/darkstat-3.0.719.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/442ce4a5/darkstat/clock_gettime.patch
-==> Patching
-==> Applying clock_gettime.patch
-patching file now.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/darkstat/3.0.719
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall darkstat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/darkstat/3.0.719: 9 files, 162.1KB, built in 2 minutes 5 seconds
-==> Determining darkstat bottle rebuild...
-==> Bottling darkstat-3.0.719.x86_64_linux.bottle.tar.gz...
-./darkstat-3.0.719.x86_64_linux.bottle.tar.gz
+==> Determining dash bottle rebuild...
+==> Bottling dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz...
+./dash-0.5.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "34285f08a1b4d3db73c76cf60462349e3b2b605a9fd32cd0c6681654fdc57ded" => :x86_64_linux
+    rebuild 1
+    sha256 "9b22481363898cf3841b2c0d80fdf1718ab9166aeac8e0996378968d7cc099f1" => :x86_64_linux
   end
