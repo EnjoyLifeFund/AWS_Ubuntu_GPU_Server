@@ -1,13 +1,4 @@
-==> Downloading https://ftp.gnu.org/gnu/diffutils/diffutils-3.6.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffutils/3.6
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall diffutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/diffutils/3.6: 49 files, 2.7MB, built in 15 minutes 58 seconds
-==> Determining diffutils bottle rebuild...
-==> Bottling diffutils-3.6.x86_64_linux.bottle.1.tar.gz...
-./diffutils-3.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "2871d0c688d0e12f1eaecbe56d06ddbcc80a2c109d55b30f7b92862c501e1e19" => :x86_64_linux
-  end
+==> Downloading https://dl.digdag.io/digdag-0.9.21.jar
+==> Downloading from https://dl.bintray.com/digdag/maven/digdag-0.9.21.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/digdag/0.9.21: 4 files, 30.9MB, built in 26 seconds
+This formula doesn't require compiling.
