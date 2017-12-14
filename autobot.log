@@ -1,15 +1,7 @@
-==> Downloading https://downloads.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz
-==> cmake .. -DCMAKE_OSX_SYSROOT= -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/geographiclib/1.49 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall geographiclib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/geographiclib/1.49: 189 files, 3.4MB, built in 12 seconds
-==> Determining geographiclib bottle rebuild...
-==> Bottling geographiclib-1.49.x86_64_linux.bottle.1.tar.gz...
-./geographiclib-1.49.x86_64_linux.bottle.1.tar.gz
+==> Determining geoip bottle rebuild...
+==> Bottling geoip-1.6.11.x86_64_linux.bottle.1.tar.gz...
+./geoip-1.6.11.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6e44fc964bd3ad029ace60eaf61fb1f01789a20d7086e65139f3a360971ea1bb" => :x86_64_linux
+    sha256 "c90cf5d2a0b57c265ca108054593177dbfe0866911a571db9c373aef6cd37894" => :x86_64_linux
   end
