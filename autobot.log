@@ -1,15 +1,15 @@
-==> Downloading https://github.com/docker/swarm/archive/v1.2.8.tar.gz
-==> Downloading from https://codeload.github.com/docker/swarm/tar.gz/v1.2.8
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-swarm/1.2.8/bin/docker-swarm
+==> Downloading https://github.com/appc/docker2aci/archive/v0.17.1.tar.gz
+==> Downloading from https://codeload.github.com/appc/docker2aci/tar.gz/v0.17.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker2aci/0.17.1/bin/docker2aci -ldflags -X github.com/appc/docker2aci/lib.Version=0.17.1 github.com/appc/docker2aci
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docker-swarm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-swarm/1.2.8: 5 files, 21.7MB, built in 1 minute 51 seconds
-==> Determining docker-swarm bottle rebuild...
-==> Bottling docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall docker2aci`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker2aci/0.17.1: 6 files, 7.8MB, built in 44 seconds
+==> Determining docker2aci bottle rebuild...
+==> Bottling docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker2aci-0.17.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c2647d256f82a896b12f85d068e79f257706938f4f970cc00b7130ab765b9638" => :x86_64_linux
+    sha256 "3a68729b09e8176a1dd381c48bfd22439de0d699fab90a62419d24fb2c77bb80" => :x86_64_linux
   end
