@@ -1,23 +1,14 @@
-==> Downloading https://github.com/junegunn/fzf/archive/0.17.3.tar.gz
-==> Downloading from https://codeload.github.com/junegunn/fzf/tar.gz/0.17.3
-==> glide install
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/fzf/0.17.3/bin/fzf -ldflags -X main.revision=brew
+==> Downloading https://github.com/jhawthorn/fzy/archive/0.9.tar.gz
+==> Downloading from https://codeload.github.com/jhawthorn/fzy/tar.gz/0.9
+==> make
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fzy/0.9 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fzf`
-==> Caveats
-To install useful keybindings and fuzzy completion:
-  /home/linuxbrew/.linuxbrew/opt/fzf/install
-
-To use fzf in Vim, add the following line to your .vimrc:
-  set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fzf/0.17.3: 17 files, 3.3MB, built in 11 seconds
-==> Determining fzf bottle rebuild...
-==> Bottling fzf-0.17.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fzf-0.17.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fzf-0.17.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fzy`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fzy/0.9: 7 files, 136.1KB, built in 1 second
+==> Determining fzy bottle rebuild...
+==> Bottling fzy-0.9.x86_64_linux.bottle.1.tar.gz...
+./fzy-0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "afe442073cf2968aa29dd11c8dd7bd6614075b1fc60c342ba718c3091aa490ae" => :x86_64_linux
+    sha256 "1487d750cee8aabc6bdce5891f7b4d5ace8e7e5eaf07e921734eba39d5faeea0" => :x86_64_linux
   end
