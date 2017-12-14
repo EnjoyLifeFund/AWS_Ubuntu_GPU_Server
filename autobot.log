@@ -1,7 +1,15 @@
-==> Determining erlang@19 bottle rebuild...
-==> Bottling erlang@19-19.3.x86_64_linux.bottle.tar.gz...
-==> Detecting if erlang@19-19.3.x86_64_linux.bottle.tar.gz is relocatable...
-./erlang@19-19.3.x86_64_linux.bottle.tar.gz
+==> Downloading https://github.com/coreos/etcd/archive/v3.2.11.tar.gz
+==> Downloading from https://codeload.github.com/coreos/etcd/tar.gz/v3.2.11
+==> ./build
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall etcd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/etcd/3.2.11: 8 files, 52.2MB, built in 36 seconds
+==> Determining etcd bottle rebuild...
+==> Bottling etcd-3.2.11.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if etcd-3.2.11.x86_64_linux.bottle.1.tar.gz is relocatable...
+./etcd-3.2.11.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "23df695c80e0fd73c688979b8b4019e11e9f5f535e99a369d65afb469dd61e9a" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4731f03837998e51dda60850d0a1815db30fcf6ee9d3f011df3f7880e7d6074d" => :x86_64_linux
   end
