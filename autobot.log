@@ -1,14 +1,9 @@
-==> Downloading https://downloads.sourceforge.net/project/ekhtml/ekhtml/0.3.2/ekhtml-0.3.2.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/ekhtml/ekhtml/0.3.2/ekhtml-0.3.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ekhtml/0.3.2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ekhtml`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ekhtml/0.3.2: 13 files, 252.4KB, built in 8 seconds
-==> Determining ekhtml bottle rebuild...
-==> Bottling ekhtml-0.3.2.x86_64_linux.bottle.1.tar.gz...
-./ekhtml-0.3.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "9f0c9696b4d87e208677910f8c340ddd5e2a52d399d8a4efef3a7d13bf239097" => :x86_64_linux
-  end
+==> Downloading https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.0.1.tar.gz
+==> Caveats
+Data:    /home/linuxbrew/.linuxbrew/var/lib/elasticsearch/elasticsearch_ubuntu/
+Logs:    /home/linuxbrew/.linuxbrew/var/log/elasticsearch/elasticsearch_ubuntu.log
+Plugins: /home/linuxbrew/.linuxbrew/var/elasticsearch/plugins/
+Config:  /home/linuxbrew/.linuxbrew/etc/elasticsearch/
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/elasticsearch/6.0.1: 103 files, 29.8MB, built in 3 seconds
+This formula doesn't require compiling.
