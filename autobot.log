@@ -1,7 +1,4 @@
-==> Downloading https://dl.bintray.com/groovy/maven/apache-groovy-binary-2.4.12.zip
-==> Caveats
-You should set GROOVY_HOME:
-  export GROOVY_HOME=/home/linuxbrew/.linuxbrew/opt/groovy/libexec
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/groovy/2.4.12: 65 files, 27.7MB, built in 5 seconds
+==> Downloading https://github.com/downloads/ryankee/growly/growly-v0.2.0.tar.gz
+==> Downloading from https://github.s3.amazonaws.com/downloads/ryankee/growly/growly-v0.2.0.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T234723Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3e47512d0d976bf759795de289eb9945f5925ccb6b74cbc86acb8d6cdf2fedfe
+🍺  /home/linuxbrew/.linuxbrew/Cellar/growly/0.2.0: 4 files, 15.2KB, built in 1 second
 This formula doesn't require compiling.
