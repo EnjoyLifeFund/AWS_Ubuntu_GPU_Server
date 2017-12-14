@@ -1,14 +1,15 @@
-==> Downloading https://github.com/psm14/ent/archive/1.0.tar.gz
-==> Downloading from https://codeload.github.com/psm14/ent/tar.gz/1.0
-==> make CC=gcc-5 CFLAGS=
+==> Downloading https://github.com/hashicorp/envconsul/archive/v0.7.2.tar.gz
+==> Downloading from https://codeload.github.com/hashicorp/envconsul/tar.gz/v0.7.2
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/envconsul/0.7.2/bin/envconsul
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ent`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ent/1.0: 5 files, 64.2KB, built in 1 second
-==> Determining ent bottle rebuild...
-==> Bottling ent-1.0.x86_64_linux.bottle.1.tar.gz...
-./ent-1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall envconsul`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/envconsul/0.7.2: 6 files, 11MB, built in 5 seconds
+==> Determining envconsul bottle rebuild...
+==> Bottling envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./envconsul-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4d594ffcbb1cd4f3df41b331a96cf2313bee7dee578848f995f2f843e7973ba7" => :x86_64_linux
+    sha256 "433c01a8d8a4e167ac239db831bd037697355a6fa353add5605c31830a8ea16a" => :x86_64_linux
   end
