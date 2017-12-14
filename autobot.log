@@ -1,8 +1,13 @@
-==> Downloading https://github.com/jamesob/desk/archive/v0.6.0.tar.gz
-==> Downloading from https://codeload.github.com/jamesob/desk/tar.gz/v0.6.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/desk/0.6.0: 8 files, 63.3KB, built in 11 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23/share/emacs/site-lisp/desktop-file-utils
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall desktop-file-utils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23: 15 files, 607.6KB, built in 51 seconds
+==> Determining desktop-file-utils bottle rebuild...
+==> Bottling desktop-file-utils-0.23.x86_64_linux.bottle.1.tar.gz...
+./desktop-file-utils-0.23.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "7178614d8621aa266c88399e279e81b171cdb4a343578bf318d8771f8cc3c7a1" => :x86_64_linux
+  end
