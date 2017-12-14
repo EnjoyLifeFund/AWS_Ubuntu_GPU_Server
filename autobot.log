@@ -1,9 +1,13 @@
-==> Determining fftw bottle rebuild...
-==> Bottling fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fftw-3.3.6-pl2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://www.thregr.org/~wavexx/software/fIcy/releases/fIcy-1.0.21.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ficy`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ficy/1.0.21: 9 files, 363.4KB, built in 2 seconds
+==> Determining ficy bottle rebuild...
+==> Bottling ficy-1.0.21.x86_64_linux.bottle.1.tar.gz...
+./ficy-1.0.21.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "377cf67d7eb2cff525f06549941307be067d868a116a00fa1194b6eac408d321" => :x86_64_linux
+    sha256 "d763b872a2d9d1801404951ae29bb1498b7c4de336058d01c01306d0d6005a14" => :x86_64_linux
   end
