@@ -1,13 +1,20 @@
-==> Downloading http://alexeyt.freeshell.org/code/dcal.c
-==> g++-5 dcal.c -o dcal
+==> Installing dependencies for dcd: dmd
+==> Installing dcd dependency: dmd
+==> Downloading https://linuxbrew.bintray.com/bottles/dmd-2.077.1.x86_64_linux.bottle.tar.gz
+==> Pouring dmd-2.077.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dmd/2.077.1: 601 files, 102.6MB
+==> Installing dcd
+==> Cloning https://github.com/dlang-community/DCD.git
+==> Checking out tag v0.9.1
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dcal`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dcal/0.1.0: 3 files, 25.9KB, built in 12 seconds
-==> Determining dcal bottle rebuild...
-==> Bottling dcal-0.1.0.x86_64_linux.bottle.1.tar.gz...
-./dcal-0.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dcd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dcd/0.9.1: 6 files, 7.9MB, built in 13 minutes 14 seconds
+==> Determining dcd bottle rebuild...
+==> Bottling dcd-0.9.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dcd-0.9.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dcd-0.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "82c39c53a035a808d41f19599baaa65cc1a444e53c510819368716f7f0bd396e" => :x86_64_linux
+    sha256 "4108671768ea713d1eefd96d8ef0de62472b5063530e4942f2657cc19269e418" => :x86_64_linux
   end
