@@ -1,13 +1,52 @@
-==> Downloading https://invisible-mirror.net/archives/diffstat/diffstat-1.61.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffstat/1.61
-==> make install
+==> Installing dependencies for diffuse: pygobject, py2cairo, pygtk
+==> Installing diffuse dependency: pygobject
+==> Downloading https://linuxbrew.bintray.com/bottles/pygobject-2.28.7.x86_64_linux.bottle.tar.gz
+==> Pouring pygobject-2.28.7.x86_64_linux.bottle.tar.gz
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pygobject/2.28.7: 139 files, 5.8MB
+==> Installing diffuse dependency: py2cairo
+==> Downloading https://linuxbrew.bintray.com/bottles/py2cairo-1.15.4.x86_64_linux.bottle.tar.gz
+==> Pouring py2cairo-1.15.4.x86_64_linux.bottle.tar.gz
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/py2cairo/1.15.4: 13 files, 338.6KB
+==> Installing diffuse dependency: pygtk
+==> Downloading https://linuxbrew.bintray.com/bottles/pygtk-2.24.0_1.x86_64_linux.bottle.2.tar.gz
+==> Pouring pygtk-2.24.0_1.x86_64_linux.bottle.2.tar.gz
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pygtk/2.24.0_1: 591 files, 21.7MB
+==> Installing diffuse
+==> Downloading https://downloads.sourceforge.net/project/diffuse/diffuse/0.4.8/diffuse-0.4.8.tar.bz2
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/diffuse/diffuse/0.4.8/diffuse-0.4.8.tar.bz2
+==> python ./install.py --sysconfdir=/home/linuxbrew/.linuxbrew/etc --examplesdir=/home/linuxbrew/.linuxbrew/Cellar/diffuse/0.4.8/share --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffuse/0.4.8
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall diffstat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/diffstat/1.61: 8 files, 179.4KB, built in 1 minute 36 seconds
-==> Determining diffstat bottle rebuild...
-==> Bottling diffstat-1.61.x86_64_linux.bottle.1.tar.gz...
-./diffstat-1.61.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall diffuse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/diffuse/0.4.8: 69 files, 1.5MB, built in 28 seconds
+==> Determining diffuse bottle rebuild...
+==> Bottling diffuse-0.4.8.x86_64_linux.bottle.1.tar.gz...
+./diffuse-0.4.8.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c0494726caaaf9b028f91454e10215c179c905a05318abe143c492c90a152554" => :x86_64_linux
+    sha256 "830782721449a2ea4dce1b2558ac88d140da38eb0db0ef107892b2eacf744a34" => :x86_64_linux
   end
