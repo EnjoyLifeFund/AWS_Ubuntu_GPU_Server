@@ -1,14 +1,8 @@
-==> Downloading https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.16.0.tgz
-==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/firebase-cli/3.16.0/libexec /tmp/firebase-cli-20171214-122219-1i607dn/package/firebase-tools-3.16.0.tgz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall firebase-cli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/firebase-cli/3.16.0: 8,975 files, 73.9MB, built in 20 seconds
-==> Determining firebase-cli bottle rebuild...
-==> Bottling firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz
+==> Determining fish bottle rebuild...
+==> Bottling fish-2.7.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fish-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fish-2.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e43586b66020a6cfe749100c58b2b6fce70d1f541f52338402efd15c266e5d69" => :x86_64_linux
+    sha256 "385365a79cdcfd1a0e2f58d40afcf97b8d5fc88eac8599c156e3e6366210c990" => :x86_64_linux
   end
