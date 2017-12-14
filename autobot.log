@@ -1,15 +1,8 @@
-==> Downloading https://web.archive.org/web/20091021035854/www.neillcorlett.com/downloads/ecm100.zip
-==> Downloading from https://web.archive.org/web/20070216014214/http://www.neillcorlett.com:80/downloads/ecm100.zip
-==> gcc-5 -o ecm ecm.c
-==> gcc-5 -o unecm unecm.c
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ecm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ecm/1.0: 5 files, 44.8KB, built in 2 seconds
-==> Determining ecm bottle rebuild...
-==> Bottling ecm-1.0.x86_64_linux.bottle.1.tar.gz...
-./ecm-1.0.x86_64_linux.bottle.1.tar.gz
+==> Determining ed bottle rebuild...
+==> Bottling ed-1.14.2.x86_64_linux.bottle.1.tar.gz...
+./ed-1.14.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c6f3d23903cc3cc04afe5bb0ad784fe4bbb896becb032681ef8c70464a86413f" => :x86_64_linux
+    sha256 "5e1911b3375e6259f5e20e067a476af5530692ce1c799b677e2e0962d034ad3e" => :x86_64_linux
   end
