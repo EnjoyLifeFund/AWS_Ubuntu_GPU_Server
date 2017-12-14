@@ -1,14 +1,15 @@
-==> Downloading https://github.com/markwal/GPX/archive/2.5.2.tar.gz
-==> Downloading from https://codeload.github.com/markwal/GPX/tar.gz/2.5.2
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpx/2.5.2
+==> Downloading https://downloads.sourceforge.net/project/gqlplus/gqlplus/1.16/gqlplus-1.16.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/gqlplus/gqlplus/1.16/gqlplus-1.16.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gqlplus/1.16_1
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpx`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gpx/2.5.2: 8 files, 571.6KB, built in 7 seconds
-==> Determining gpx bottle rebuild...
-==> Bottling gpx-2.5.2.x86_64_linux.bottle.1.tar.gz...
-./gpx-2.5.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gqlplus`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gqlplus/1.16_1: 6 files, 165.8KB, built in 3 seconds
+==> Determining gqlplus bottle rebuild...
+==> Bottling gqlplus-1.16_1.x86_64_linux.bottle.1.tar.gz...
+./gqlplus-1.16_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "53c501bd3d116c0028c552f27705bf132212d37c644a7ebb1ada7a6145eb0bf6" => :x86_64_linux
+    sha256 "17d866dd5b8544b87daa7464f60517d2c99c848824123e0289196c99e6769ad5" => :x86_64_linux
   end
