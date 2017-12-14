@@ -1,21 +1,12 @@
-==> Downloading https://downloads.sourceforge.net/project/fetchmail/branch_6.3/fetchmail-6.3.26.tar.xz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/fetchmail/branch_6.3/fetchmail-6.3.26.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fetchmail/6.3.26 --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make install
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/semicomplete/fex-2.0.0.tar.gz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fex/2.0.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fetchmail`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fetchmail/6.3.26: 39 files, 3.1MB, built in 18 seconds
-==> Determining fetchmail bottle rebuild...
-==> Bottling fetchmail-6.3.26.x86_64_linux.bottle.tar.gz...
-./fetchmail-6.3.26.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall fex`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fex/2.0.0: 6 files, 56.8KB, built in 1 second
+==> Determining fex bottle rebuild...
+==> Bottling fex-2.0.0.x86_64_linux.bottle.1.tar.gz...
+./fex-2.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "940115ed36762b1929ffb91955c0a89bae80a328cf4f339542299d796fcec17a" => :x86_64_linux
+    rebuild 1
+    sha256 "d8bd567ecef92d4d358afdfc736053ff496edcbac4289816d89753ac05540dc1" => :x86_64_linux
   end
