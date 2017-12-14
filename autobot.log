@@ -1,13 +1,19 @@
-==> Downloading https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23/share/emacs/site-lisp/desktop-file-utils
-==> make install
+==> Downloading https://github.com/cortesi/devd/archive/v0.7.tar.gz
+==> Downloading from https://codeload.github.com/cortesi/devd/tar.gz/v0.7
+==> Cloning https://github.com/cortesi/moddwatch.git
+==> Checking out revision a149019f9ed6f16033de28f66d8c1247593a0104
+==> Cloning https://github.com/cortesi/termlog.git
+==> Checking out revision 2ed14eb6ce62ec5bcc3fd25885a1d13d53f34fd1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/devd/0.7/bin/devd .../cmd/devd
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall desktop-file-utils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/desktop-file-utils/0.23: 15 files, 607.6KB, built in 51 seconds
-==> Determining desktop-file-utils bottle rebuild...
-==> Bottling desktop-file-utils-0.23.x86_64_linux.bottle.1.tar.gz...
-./desktop-file-utils-0.23.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall devd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/devd/0.7: 6 files, 11.3MB, built in 1 minute 3 seconds
+==> Determining devd bottle rebuild...
+==> Bottling devd-0.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if devd-0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./devd-0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7178614d8621aa266c88399e279e81b171cdb4a343578bf318d8771f8cc3c7a1" => :x86_64_linux
+    sha256 "ced2e05514790e655d943d22ecc6accdd322788983720fcca489dcbaf0a26095" => :x86_64_linux
   end
