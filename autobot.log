@@ -1,15 +1,25 @@
-==> Downloading https://github.com/aktau/github-release/archive/v0.7.2.tar.gz
-==> Downloading from https://codeload.github.com/aktau/github-release/tar.gz/v0.7.2
-==> make
+==> Cloning https://gitlab.com/gitlab-org/gitlab-runner.git
+==> Checking out tag v10.2.0
+==> Cloning https://github.com/jteeuwen/go-bindata.git
+==> Checking out revision a0ff2567cfb70903282db057e799fd826784d41d
+==> go install
+==> Downloading https://gitlab-runner-downloads.s3.amazonaws.com/v10.2.0/docker/prebuilt-x86_64.tar.xz
+==> Downloading https://gitlab-runner-downloads.s3.amazonaws.com/v10.2.0/docker/prebuilt-arm.tar.xz
+==> go-bindata -pkg docker -nocompress -nomemcopy -nometadata -o /tmp/gitlab-runner-20171214-51308-e8cp19/src/gitlab.com/gitlab-org/gitlab-runner/executors/docker/bindata.go prebuilt-x86_64.tar.xz prebuilt-arm.tar.xz
+==> go build -ldflags -X gitlab.com/gitlab-org/gitlab-runner/common.NAME=gitlab-runner
+-X gitlab.com/gitlab-org/gitlab-runner/common.VERSION=10.2.0
+-X gitlab.com/gitlab-org/gitlab-runner/common.REVISION=0a75cdd1
+-X gitlab.com/gitlab-org/gitlab-runner/common.BRANCH=10-2-stable
+-X gitlab.com/gitlab-org/gitlab-runner/common.BUILT=2017-12-14T21:38:35+00:00
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall github-release`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/github-release/0.7.2: 5 files, 7.7MB, built in 3 seconds
-==> Determining github-release bottle rebuild...
-==> Bottling github-release-0.7.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if github-release-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./github-release-0.7.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gitlab-runner`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gitlab-runner/10.2.0: 6 files, 64.1MB, built in 31 seconds
+==> Determining gitlab-runner bottle rebuild...
+==> Bottling gitlab-runner-10.2.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gitlab-runner-10.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gitlab-runner-10.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7009912f7f6255aa2183ab1d7fe1dec68d626554a59cc26b509950fba191b590" => :x86_64_linux
+    sha256 "fe5e69f14c55b812c587cd006a49a4a4cfc0ca0ee8b92258b94554c604aae9ea" => :x86_64_linux
   end
