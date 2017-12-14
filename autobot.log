@@ -1,13 +1,18 @@
-==> Downloading https://github.com/icefox/git-hooks/archive/1.00.0.tar.gz
-==> Downloading from https://codeload.github.com/icefox/git-hooks/tar.gz/1.00.0
+==> Downloading https://github.com/mhagger/git-imerge/archive/v1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/mhagger/git-imerge/tar.gz/v1.0.0
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/git-imerge/1.0.0 PREFIX=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-hooks`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-hooks/1.00.0: 12 files, 67.4KB, built in 0 seconds
-==> Determining git-hooks bottle rebuild...
-==> Bottling git-hooks-1.00.0.x86_64_linux.bottle.1.tar.gz...
-./git-hooks-1.00.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-imerge`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-imerge/1.0.0: 7 files, 188.2KB, built in 0 seconds
+==> Determining git-imerge bottle rebuild...
+==> Bottling git-imerge-1.0.0.x86_64_linux.bottle.1.tar.gz...
+./git-imerge-1.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4ddb368fb0d26c75628b71ab910b2e163c73c61d53a8979961ab4f802281704e" => :x86_64_linux
+    sha256 "fece1dc51c7db53b5782d126df1802bae4be327cceae59cdf05cd459e2e94489" => :x86_64_linux
   end
