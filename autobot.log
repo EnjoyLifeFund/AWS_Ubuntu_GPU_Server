@@ -1,16 +1,9 @@
-==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
-==> Patching
-patching file src/Makefile.in
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/file-formula/5.32
-==> make install-exec
-==> make -C doc install-man1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall file-formula`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/file-formula/5.32: 10 files, 148.0KB, built in 17 seconds
-==> Determining file-formula bottle rebuild...
-==> Bottling file-formula-5.32.x86_64_linux.bottle.1.tar.gz...
-./file-formula-5.32.x86_64_linux.bottle.1.tar.gz
+==> Determining filebeat bottle rebuild...
+==> Bottling filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8573ce824e2c95d2facd570a8d87e4a93ab21f7f84e72ebf94838f8b34cf20d6" => :x86_64_linux
+    sha256 "7ab31b4b314a6224f79cf0f64473a8b838e2a70385330c5f6600a72174c49c3a" => :x86_64_linux
   end
