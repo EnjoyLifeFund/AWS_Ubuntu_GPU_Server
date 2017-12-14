@@ -1,7 +1,44 @@
-==> Downloading https://dl.bintray.com/content/aalmiray/Griffon/griffon-1.5.0-bin.tgz
-==> Caveats
-You should set the environment variable GRIFFON_HOME to:
-  /home/linuxbrew/.linuxbrew/opt/griffon/libexec
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/griffon/1.5.0: 1,674 files, 62.9MB, built in 9 seconds
-This formula doesn't require compiling.
+==> Downloading https://files.pythonhosted.org/packages/f2/5e/439b9af338a4cd4c8e7853c4635f92b7407e723b35a5bcb63f851b2997fb/grip-4.4.0.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/20/d0/3f7a84b0c5b89e94abbd073a5f00c7176089f526edb056686751d5064cbd/certifi-2017.7.27.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/eb/12/1c7bd06fcbd08ba544f25bf2c6612e305a70ea51ca0eda8007344ec3f123/Flask-0.12.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/90/61/f820ff0076a2599dd39406dcb858ecb239438c02ce706c8e91131ab9c7f1/Jinja2-2.9.6.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/29/82/dfe242bcfd9eec0e7bf93a80a8f8d8515a95b980c44f5c0b45606397a423/Markdown-2.6.9.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/2b/b5/749fab14d9e84257f3b0583eedb54e013422b6c240491a4ae48d9ea5e44f/path-and-address-2.0.1.zip
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/71/2a/2e4e77803a8bd6408a2903340ac498cb0a2181811af7c9ec92cb70b0308a/Pygments-2.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/56/41/c095a77eb2dd69bf278dd664a97d3416af04e9ba1a00b8c138f772741d31/Werkzeug-0.12.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grip`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grip/4.4.0: 1,049 files, 15MB, built in 10 seconds
+==> Determining grip bottle rebuild...
+==> Bottling grip-4.4.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if grip-4.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./grip-4.4.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0a4a241d8a567bf37b91259982cf438068116cb3c065a7cd8bfe24ada1b3a4b1" => :x86_64_linux
+  end
