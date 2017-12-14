@@ -1,15 +1,14 @@
-==> Downloading https://github.com/holygeek/git-number/archive/1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/holygeek/git-number/tar.gz/1.0.1
-==> make test
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/git-number/1.0.1 install
+==> Downloading https://github.com/lesfurets/git-octopus/archive/v1.4.tar.gz
+==> Downloading from https://codeload.github.com/lesfurets/git-octopus/tar.gz/v1.4
+==> make build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-number`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-number/1.0.1: 10 files, 56.7KB, built in 3 seconds
-==> Determining git-number bottle rebuild...
-==> Bottling git-number-1.0.1.x86_64_linux.bottle.1.tar.gz...
-./git-number-1.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-octopus`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-octopus/1.4: 9 files, 62.6KB, built in 0 seconds
+==> Determining git-octopus bottle rebuild...
+==> Bottling git-octopus-1.4.x86_64_linux.bottle.1.tar.gz...
+./git-octopus-1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9ebbe4cfcb4d245e7e043e649fc6869c771704bac9d602a49c39074ef9ef38da" => :x86_64_linux
+    sha256 "a89813f7fc3bc97a2dcece2645405189584e18942fee859cb3cabcaee9a0881c" => :x86_64_linux
   end
