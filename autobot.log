@@ -1,13 +1,7 @@
-==> Downloading http://www.mavetju.org/download/dnstracer-1.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnstracer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9: 7 files, 113.7KB, built in 1 minute 26 seconds
-==> Determining dnstracer bottle rebuild...
-==> Bottling dnstracer-1.9.x86_64_linux.bottle.1.tar.gz...
-./dnstracer-1.9.x86_64_linux.bottle.1.tar.gz
+==> Determining docbook bottle rebuild...
+==> Bottling docbook-5.0.x86_64_linux.bottle.tar.gz...
+./docbook-5.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "9569471872b4dbf0cfa8a898303a93e36cd74167204560052cc473db0b2032be" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "2e3c4324b13ebeaa591fc3d2a436a1c73f016270eb0b20e9abd3e92407ef33ad" => :x86_64_linux
   end
