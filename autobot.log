@@ -1,14 +1,14 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/dvorak7min/dvorak7min_1.6.1+repack.orig.tar.gz
-==> make clean
+==> Downloading https://github.com/elboza/dwarf-ng/archive/dwarf-0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/elboza/dwarf-ng/tar.gz/dwarf-0.4.0
 ==> make
-==> make INSTALL=/home/linuxbrew/.linuxbrew/Cellar/dvorak7min/1.6.1/bin install
+==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/dwarf/0.4.0/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/dwarf/0.4.0/share/man/man1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dvorak7min`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dvorak7min/1.6.1: 6 files, 80KB, built in 1 second
-==> Determining dvorak7min bottle rebuild...
-==> Bottling dvorak7min-1.6.1.x86_64_linux.bottle.tar.gz...
-./dvorak7min-1.6.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall dwarf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dwarf/0.4.0: 8 files, 372KB, built in 1 second
+==> Determining dwarf bottle rebuild...
+==> Bottling dwarf-0.4.0.x86_64_linux.bottle.1.tar.gz...
+./dwarf-0.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "4f5922033d339f004baf5c929f0f1fdd99523f97f27c93884ca82aa54de0bb12" => :x86_64_linux
+    rebuild 1
+    sha256 "55883910c4ce7a1f484971309582237b6db25162dd04db6bb5c7791e98bc6efb" => :x86_64_linux
   end
