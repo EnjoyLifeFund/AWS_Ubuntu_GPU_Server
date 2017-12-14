@@ -1,13 +1,14 @@
-==> Downloading https://www.acme.com/software/globe/globe_14Aug2014.tar.gz
-==> make all install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814/share/man/man1
+==> Downloading https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gengetopt/2.22.6 --mandir=/home/linuxbrew/.linuxbrew/Cellar/gengetopt/2.22.6/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall globe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814: 5 files, 69.3KB, built in 2 seconds
-==> Determining globe bottle rebuild...
-==> Bottling globe-0.0.20140814.x86_64_linux.bottle.1.tar.gz...
-./globe-0.0.20140814.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gengetopt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gengetopt/2.22.6: 37 files, 5.8MB, built in 1 minute 36 seconds
+==> Determining gengetopt bottle rebuild...
+==> Bottling gengetopt-2.22.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gengetopt-2.22.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gengetopt-2.22.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "55ee4a1c6b0e3218df92ddbbde58a84a72fe7db53c7d618e396366165fa1754c" => :x86_64_linux
+    sha256 "293e440a183c02ec6ebe2570dcbd8a9fc7ccf2b965e1e21ca82f68efa544705d" => :x86_64_linux
   end
