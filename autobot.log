@@ -1,8 +1,4 @@
-==> Determining freexl bottle rebuild...
-==> Bottling freexl-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./freexl-1.0.4.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "297c08028331b70e0076923d9038f92a7d880152eeefae032a67f03c4d258f37" => :x86_64_linux
-  end
+==> Downloading https://github.com/Frege/frege/releases/download/3.23.288/frege3.23.888-g4e22ab6.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5987163/9c9e69c8-d8af-11e5-9e9e-9c2afd34ca44?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T163544Z&X-Amz-Expires=300&X-Amz-Signature=f43cc2b0984cc55b68f79a1bd2ea5843c91d61948d1fbbeca3da6305106ca1c0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfrege3.23.888-g4e22ab6.jar&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/frege/3.23.888-g4e22ab6: 4 files, 29MB, built in 6 seconds
+This formula doesn't require compiling.
