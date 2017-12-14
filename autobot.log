@@ -1,6 +1,15 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=/xmlgraphics/fop/binaries/fop-2.2-bin.tar.gz
-==> Best Mirror http://apache.mirrors.tds.net/xmlgraphics/fop/binaries/fop-2.2-bin.tar.gz
-==> Downloading https://downloads.sourceforge.net/project/offo/offo-hyphenation-utf8/0.1/offo-hyphenation-fop-stable-utf8.zip
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/offo/offo-hyphenation-utf8/0.1/offo-hyphenation-fop-stable-utf8.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fop/2.2: 3,981 files, 100.3MB, built in 6 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/ddollar/forego/archive/20170327195458.tar.gz
+==> Downloading from https://codeload.github.com/ddollar/forego/tar.gz/20170327195458
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/forego/20170327195458/bin/forego -ldflags -X main.Version=20170327195458 -X main.allowUpdate=false
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall forego`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/forego/20170327195458: 4 files, 3.5MB, built in 1 second
+==> Determining forego bottle rebuild...
+==> Bottling forego-20170327195458.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if forego-20170327195458.x86_64_linux.bottle.1.tar.gz is relocatable...
+./forego-20170327195458.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f63a77302751a3af67d3aabd458781ee5758b18c62f171ddc633a6fef3c3c2f9" => :x86_64_linux
+  end
