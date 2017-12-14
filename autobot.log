@@ -1,15 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.27/GraphicsMagick-1.3.27.tar.xz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.27/GraphicsMagick-1.3.27.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/graphicsmagick/1.3.27 --enable-shared --disable-static --with-modules --without-lzma --disable-openmp --with-quantum-depth=16 --without-gslib --with-gs-font-dir=/home/linuxbrew/.linuxbrew/share/ghostscript/fonts --without-x --without-lcms2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall graphicsmagick`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/graphicsmagick/1.3.27: 488 files, 20.1MB, built in 50 seconds
-==> Determining graphicsmagick bottle rebuild...
-==> Bottling graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz is relocatable...
-./graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz
+==> Determining graphite2 bottle rebuild...
+==> Bottling graphite2-1.3.10.x86_64_linux.bottle.1.tar.gz...
+./graphite2-1.3.10.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c50317002c8ee768ce5689923bdfdae042fcf40def4a0c5bdfc15bce6555032c" => :x86_64_linux
+    sha256 "7e171e3555d77bf6e2f303f6ad4bee44e7cb1865182308b1a98b9d91e1cd567e" => :x86_64_linux
   end
