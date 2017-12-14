@@ -1,12 +1,13 @@
-==> Downloading http://dns.measurement-factory.com/tools/dnstop/src/dnstop-20140915.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnstop/20140915
-==> make
+==> Downloading http://www.mavetju.org/download/dnstracer-1.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnstop`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnstop/20140915: 6 files, 186KB, built in 2 minutes 19 seconds
-==> Determining dnstop bottle rebuild...
-==> Bottling dnstop-20140915.x86_64_linux.bottle.tar.gz...
-./dnstop-20140915.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall dnstracer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnstracer/1.9: 7 files, 113.7KB, built in 1 minute 26 seconds
+==> Determining dnstracer bottle rebuild...
+==> Bottling dnstracer-1.9.x86_64_linux.bottle.1.tar.gz...
+./dnstracer-1.9.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "05a23ca2f52c89916285f7f36b29ef200a571028fbbbacec3a2bcfbcc08fddf7" => :x86_64_linux
+    rebuild 1
+    sha256 "9569471872b4dbf0cfa8a898303a93e36cd74167204560052cc473db0b2032be" => :x86_64_linux
   end
