@@ -1,4 +1,17 @@
-==> Downloading https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-darwin-amd64-0.7.3.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/17762549/a213ad4c-30fb-11e6-954d-9bb418e77f05?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T120357Z&X-Amz-Expires=300&X-Amz-Signature=ebd1bdfd1a781694d3f8c38446ec1751ac042634de16e5bde87bee27f33494d0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddocker-gen-darwin-amd64-0.7.3.tar.gz&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-gen/0.7.3: 3 files, 10.5MB, built in 11 seconds
-This formula doesn't require compiling.
+==> Cloning https://github.com/mayflower/docker-ls.git
+==> Checking out tag v0.3.1
+==> go generate github.com/mayflower/docker-ls/lib
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1/bin/docker-ls ./cli/docker-ls
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1/bin/docker-rm ./cli/docker-rm
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall docker-ls`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1: 7 files, 20.1MB, built in 1 minute 36 seconds
+==> Determining docker-ls bottle rebuild...
+==> Bottling docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0026389cf1181820ad46a5138e9896b1ea6715279f7d4495ffca38ee478f694e" => :x86_64_linux
+  end
