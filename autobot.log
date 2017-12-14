@@ -1,14 +1,4 @@
-==> Downloading https://github.com/joshb/DromeAudio/archive/v0.3.0.tar.gz
-==> Downloading from https://codeload.github.com/joshb/DromeAudio/tar.gz/v0.3.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dromeaudio/0.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dromeaudio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dromeaudio/0.3.0: 28 files, 494.9KB, built in 55 seconds
-==> Determining dromeaudio bottle rebuild...
-==> Bottling dromeaudio-0.3.0.x86_64_linux.bottle.tar.gz...
-./dromeaudio-0.3.0.x86_64_linux.bottle.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "01b228d586c7ec247c7b2ba6ad7087a6469ca77009b5dbbe7795127dd88f9392" => :x86_64_linux
-  end
+==> Downloading https://github.com/andreafabrizi/Dropbox-Uploader/archive/1.0.tar.gz
+==> Downloading from https://codeload.github.com/andreafabrizi/Dropbox-Uploader/tar.gz/1.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dropbox-uploader/1.0: 7 files, 112.3KB, built in 11 seconds
+This formula doesn't require compiling.
