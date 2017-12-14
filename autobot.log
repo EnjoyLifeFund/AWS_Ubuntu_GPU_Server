@@ -1,3 +1,15 @@
-==> Downloading https://sourceware.org/pub/java/ecj-4.9.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ecj/4.9: 3 files, 1.6MB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.3.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ecl/16.1.3_1 --enable-threads=yes --enable-boehm=system --enable-gmp=system
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ecl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ecl/16.1.3_1: 244 files, 36.3MB, built in 4 minutes 12 seconds
+==> Determining ecl bottle rebuild...
+==> Bottling ecl-16.1.3_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ecl-16.1.3_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ecl-16.1.3_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "a55fb6b85161d85c03293a1f099b6377823d32a159fddc28f249c3fd4bda2916" => :x86_64_linux
+  end
