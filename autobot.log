@@ -1,22 +1,19 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://gmsh.info/src/gmsh-3.0.6-source.tgz
-==> Downloading from http://gmsh.info/src/gmsh-3.0.6-source.tgz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DENABLE_OS_SPECIFIC_INSTALL=0 -DGMSH_BIN=/home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6/bin -DGMSH_LIB=/home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6/lib -DGMSH_DOC=/home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6/share/gmsh/gmsh -DGMSH_MAN=/home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6/share/man -DENABLE_BUILD_LIB=ON -DENABLE_BUILD_SHARED=ON -DENABLE_NATIVE_FILE_CHOOSER=ON -DENABLE_PETSC=OFF -DENABLE_SLEPC=OFF -DENABLE_OCC=OFF -DENABLE_FLTK=OFF
-==> make
-==> make install
+==> Downloading https://downloads.sourceforge.net/project/ggt/Generic%20Math%20Template%20Library/0.6.1/gmtl-0.6.1.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/ggt/Generic%20Math%20Template%20Library/0.6.1/gmtl-0.6.1.tar.gz
+==> Downloading https://gist.githubusercontent.com/anonymous/c16cad998a4903e6b3a8/raw/e4669b3df0e14996c7b7b53937dd6b6c2cbc7c04/gmtl_Sconstruct.diff
+==> Patching
+patching file SConstruct
+==> Applying gmtl_Sconstruct.diff
+patching file SConstruct
+==> /home/linuxbrew/.linuxbrew/opt/scons/bin/scons install prefix=/home/linuxbrew/.linuxbrew/Cellar/gmtl/0.6.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gmsh`
-==> Caveats
-To use onelab.py set your PYTHONDIR to /home/linuxbrew/.linuxbrew/opt/gmsh/libexec
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gmsh/3.0.6: 274 files, 242.2MB, built in 1 minute 48 seconds
-==> Determining gmsh bottle rebuild...
-==> Bottling gmsh-3.0.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gmsh-3.0.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gmsh-3.0.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gmtl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmtl/0.6.1: 60 files, 519.2KB, built in 2 seconds
+==> Determining gmtl bottle rebuild...
+==> Bottling gmtl-0.6.1.x86_64_linux.bottle.1.tar.gz...
+./gmtl-0.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a9e8fed9c0e8bc385793a5ec6eb3ef2d287446145ed83c05ffc78185af4b3620" => :x86_64_linux
+    sha256 "60250f8be41b0cbfbe37a77f26765a7671e9704e393fea930a3befdac1dfc631" => :x86_64_linux
   end
