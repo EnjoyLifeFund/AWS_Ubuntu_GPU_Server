@@ -1,20 +1,5 @@
-==> Installing dependencies for dps8m: libuv
-==> Installing dps8m dependency: libuv
-==> Downloading https://linuxbrew.bintray.com/bottles/libuv-1.18.0.x86_64_linux.bottle.tar.gz
-==> Pouring libuv-1.18.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libuv/1.18.0: 56 files, 4.6MB
-==> Installing dps8m
-==> Downloading https://downloads.sourceforge.net/project/dps8m/Release%201.0/source.tgz
-==> Downloading from https://iweb.dl.sourceforge.net/project/dps8m/Release%201.0/source.tgz
-==> make INSTALL_ROOT=/home/linuxbrew/.linuxbrew/Cellar/dps8m/1.0 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dps8m`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dps8m/1.0: 5 files, 3.9MB, built in 1 minute 40 seconds
-==> Determining dps8m bottle rebuild...
-==> Bottling dps8m-1.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dps8m-1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dps8m-1.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "8f4e5be2c63deb319354f7e728a091f26ab6ef5a258bde9bce957ea08a7e2004" => :x86_64_linux
-  end
+==> Downloading https://raw.githubusercontent.com/Factual/drake/1.0.3/bin/drake-pkg
+==> Downloading https://github.com/Factual/drake/releases/download/1.0.3/drake.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/7800872/6267477a-031b-11e6-894a-27c60f99517b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T132458Z&X-Amz-Expires=300&X-Amz-Signature=841b92f67cd80f3bd795fec8864f28b7622847254dc709d2310dcdf0068b37cf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddrake.jar&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/drake/1.0.3: 4 files, 38MB, built in 16 seconds
+This formula doesn't require compiling.
