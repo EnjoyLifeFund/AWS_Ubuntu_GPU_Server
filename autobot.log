@@ -1,15 +1,16 @@
-==> Downloading https://github.com/fmtlib/fmt/archive/4.0.0.tar.gz
-==> Downloading from https://codeload.github.com/fmtlib/fmt/tar.gz/4.0.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fmt/4.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/fnproject/cli/archive/0.4.28.tar.gz
+==> Downloading from https://codeload.github.com/fnproject/cli/tar.gz/0.4.28
+==> glide install -v --force --skip-test
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/fn/0.4.28/bin/fn
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fmt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fmt/4.0.0: 20 files, 1.2MB, built in 22 seconds
-==> Determining fmt bottle rebuild...
-==> Bottling fmt-4.0.0.x86_64_linux.bottle.1.tar.gz...
-./fmt-4.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fn`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fn/0.4.28: 5 files, 16.2MB, built in 20 seconds
+==> Determining fn bottle rebuild...
+==> Bottling fn-0.4.28.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fn-0.4.28.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fn-0.4.28.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5074f503c153f0bcdb28e1ae58fb00c560f0358145c6808de07e33e27f76dbc6" => :x86_64_linux
+    sha256 "b4bf0e3cf2ab2af6469f225bfa133ebf227050d3927e36bedabace23ac22fd85" => :x86_64_linux
   end
