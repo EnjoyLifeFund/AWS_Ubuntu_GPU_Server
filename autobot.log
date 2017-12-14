@@ -1,15 +1,8 @@
-==> Downloading http://dlib.net/files/dlib-19.7.tar.bz2
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dlib/19.7 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DDLIB_USE_BLAS=ON -DDLIB_USE_LAPACK=ON -DDLIB_NO_GUI_SUPPORT=ON -Dcblas_lib=/usr/lib/libcblas.dylib -Dlapack_lib=/usr/lib/liblapack.dylib
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dlib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dlib/19.7: 965 files, 24.7MB, built in 13 minutes 6 seconds
-==> Determining dlib bottle rebuild...
-==> Bottling dlib-19.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dlib-19.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dlib-19.7.x86_64_linux.bottle.1.tar.gz
+==> Determining dmd bottle rebuild...
+==> Bottling dmd-2.077.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dmd-2.077.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dmd-2.077.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "33c6db392bc480eb3d01ec6234825797e220c2110fa712a5c0bbf75b4f405819" => :x86_64_linux
+    sha256 "36a939b87f9f538172b97f835fbd1b42f3ffdb96116271a5c0cb592b42f83a37" => :x86_64_linux
   end
