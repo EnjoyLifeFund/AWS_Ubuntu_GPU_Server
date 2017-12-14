@@ -1,29 +1,15 @@
-==> Downloading https://fms.komkon.org/fMSX/fMSX46.zip
-==> make
-==> Downloading https://fms.komkon.org/fMSX/src/MSX.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/MSX2.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/MSX2EXT.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/MSX2P.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/MSX2PEXT.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/FMPAC.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/DISK.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/MSXDOS2.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/PAINTER.ROM
-==> Downloading https://fms.komkon.org/fMSX/src/KANJI.ROM
+==> Downloading https://github.com/fmtlib/fmt/archive/4.0.0.tar.gz
+==> Downloading from https://codeload.github.com/fmtlib/fmt/tar.gz/4.0.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fmt/4.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fmsx`
-==> Caveats
-No sound under OS X due to missing /dev/dsp.
-Bundled ROM files are located the following directory:
-  /home/linuxbrew/.linuxbrew/opt/fmsx/share/fmsx
-You may want to use this directory to set `-home` option.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fmsx/4.6: 14 files, 954.0KB, built in 17 seconds
-==> Determining fmsx bottle rebuild...
-==> Bottling fmsx-4.6.x86_64_linux.bottle.1.tar.gz...
-./fmsx-4.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fmt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fmt/4.0.0: 20 files, 1.2MB, built in 22 seconds
+==> Determining fmt bottle rebuild...
+==> Bottling fmt-4.0.0.x86_64_linux.bottle.1.tar.gz...
+./fmt-4.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "42923d8061424febf4059f29df1bf3236570d6c37715c36e08f3efd88b3f7794" => :x86_64_linux
+    sha256 "5074f503c153f0bcdb28e1ae58fb00c560f0358145c6808de07e33e27f76dbc6" => :x86_64_linux
   end
