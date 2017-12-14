@@ -1,35 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/freeimage/Source%20Distribution/3.17.0/FreeImage3170.zip
-==> Downloading from https://ayera.dl.sourceforge.net/project/freeimage/Source%20Distribution/3.17.0/FreeImage3170.zip
-==> Downloading https://gist.githubusercontent.com/davydden/5a4f348108d3c9110299/raw/3396840ff71c639d848ce552de9124462777ab97/freeimage.patch
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/f2b4fb19/freeimage/gcc5.diff
-==> Patching
-==> Applying freeimage.patch
-patching file Makefile.fip
-Hunk #3 succeeded at 73 with fuzz 2.
-patching file Makefile.gnu
-patch unexpectedly ends in middle of line
-Hunk #3 succeeded at 72 with fuzz 1.
-==> Applying gcc5.diff
-patching file Source/LibWebP/src/dsp/dsp.dec_mips_dsp_r2.c
-patching file Source/LibWebP/src/dsp/dsp.enc_mips32.c
-patching file Source/LibWebP/src/dsp/dsp.enc_mips_dsp_r2.c
-patching file Source/LibWebP/src/dsp/dsp.filters_mips_dsp_r2.c
-patching file Source/LibWebP/src/dsp/dsp.lossless_mips_dsp_r2.c
-patching file Source/LibWebP/src/dsp/dsp.upsampling_mips_dsp_r2.c
-patching file Source/LibWebP/src/dsp/dsp.yuv_mips_dsp_r2.c
-==> make -f Makefile.gnu
-==> make -f Makefile.gnu install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1
-==> make -f Makefile.fip
-==> make -f Makefile.fip install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1
+==> Downloading http://www.freetds.org/files/stable/freetds-1.00.79.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79 --with-tdsver=7.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79/share/man --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall freeimage`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/freeimage/3.17.0_1: 12 files, 37.9MB, built in 21 seconds
-==> Determining freeimage bottle rebuild...
-==> Bottling freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./freeimage-3.17.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall freetds`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freetds/1.00.79: 2,096 files, 20.3MB, built in 36 seconds
+==> Determining freetds bottle rebuild...
+==> Bottling freetds-1.00.79.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freetds-1.00.79.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freetds-1.00.79.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7b61157764bd44de71330d9a705ce9fc2979c54da3a75267df3d00c78ef68045" => :x86_64_linux
+    sha256 "3875ea9620b6e91d7938c7fa38bddd196c2c8e68555047144bb3ba63f318fa9c" => :x86_64_linux
   end
