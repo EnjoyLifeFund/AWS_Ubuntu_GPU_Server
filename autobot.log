@@ -1,15 +1,4 @@
-==> Downloading https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1/share/man
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall deja-gnu`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/deja-gnu/1.6.1: 100 files, 841.9KB, built in 1 minute 46 seconds
-==> Determining deja-gnu bottle rebuild...
-==> Bottling deja-gnu-1.6.1.x86_64_linux.bottle.1.tar.gz...
-./deja-gnu-1.6.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "23732384d6943cb5a88f8b39d2811b6f6ed839b534a0392beeb7c6419e604f3a" => :x86_64_linux
-  end
+==> Downloading https://bintray.com/artifact/download/netflixoss/maven/com/netflix/denominator/denominator-cli/4.7.1/denominator-cli-4.7.1-fat.jar
+==> Downloading from https://dl.bintray.com/netflixoss/maven/com/netflix/denominator/denominator-cli/4.7.1/denominator-cli-4.7.1-fat.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/denominator/4.7.1: 3 files, 6.5MB, built in 13 seconds
+This formula doesn't require compiling.
