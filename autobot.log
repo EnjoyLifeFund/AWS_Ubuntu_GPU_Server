@@ -1,7 +1,14 @@
-==> Determining gnu-sed bottle rebuild...
-==> Bottling gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz...
-./gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/gnushogi/gnushogi-1.4.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-shogi/1.4.2
+==> make
+==> make install MANDIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-shogi/1.4.2/share/man/man6 INFODIR=/home/linuxbrew/.linuxbrew/Cellar/gnu-shogi/1.4.2/share/info
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnu-shogi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-shogi/1.4.2: 12 files, 549KB, built in 9 seconds
+==> Determining gnu-shogi bottle rebuild...
+==> Bottling gnu-shogi-1.4.2.x86_64_linux.bottle.1.tar.gz...
+./gnu-shogi-1.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "eb451a16309aa4cc2d37b1cc66b2718b50e86ae18a9d2b350adc5d00696a447e" => :x86_64_linux
+    sha256 "8c331c5e47374dbed0d2fe059079487dab74e2c579f6e6b4846cd730ff7fb2c2" => :x86_64_linux
   end
