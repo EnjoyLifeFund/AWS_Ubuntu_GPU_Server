@@ -1,4 +1,15 @@
-==> Downloading https://github.com/syndbg/goenv/archive/1.7.0.tar.gz
-==> Downloading from https://codeload.github.com/syndbg/goenv/tar.gz/1.7.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/goenv/1.7.0: 131 files, 296.9KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/fabric8io/gofabric8/archive/v0.4.176.tar.gz
+==> Downloading from https://codeload.github.com/fabric8io/gofabric8/tar.gz/v0.4.176
+==> make install REV=homebrew
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gofabric8`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gofabric8/0.4.176: 5 files, 63MB, built in 42 seconds
+==> Determining gofabric8 bottle rebuild...
+==> Bottling gofabric8-0.4.176.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gofabric8-0.4.176.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gofabric8-0.4.176.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3e164fb65508434474f693b748e16275c782fef26affac7f3d4375194de05ee7" => :x86_64_linux
+  end
