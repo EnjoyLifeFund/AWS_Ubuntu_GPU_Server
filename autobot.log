@@ -1,18 +1,23 @@
-==> Downloading https://downloads.sourceforge.net/project/doxymacs/doxymacs/1.8.0/doxymacs-1.8.0.tar.gz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/doxymacs/doxymacs/1.8.0/doxymacs-1.8.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0/share/emacs/site-lisp/doxymacs
+==> Downloading https://dl.bintray.com/homebrew/mirror/dpkg-1.19.0.4.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/dpkg/1.19.0.4/libexec --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-dselect --disable-start-stop-daemon
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall doxymacs`
+You can run it manually using `brew postinstall dpkg`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/doxymacs
+This installation of dpkg is not configured to install software, so
+commands such as `dpkg -i`, `dpkg --configure` will fail.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0: 13 files, 196.8KB, built in 45 seconds
-==> Determining doxymacs bottle rebuild...
-==> Bottling doxymacs-1.8.0.x86_64_linux.bottle.1.tar.gz...
-./doxymacs-1.8.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dpkg/1.19.0.4: 332 files, 14.8MB, built in 9 minutes 47 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/science).
+No changes to formulae.
+
+==> Determining dpkg bottle rebuild...
+==> Bottling dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "55eb3a9d4be91dc3477b02b696adc39aabb477c90207b08429c77c12b44df740" => :x86_64_linux
+    sha256 "eb072c8784ebfdfee748083554f53b9bbf7a34e287a2501cc4c30626220c0f29" => :x86_64_linux
   end
