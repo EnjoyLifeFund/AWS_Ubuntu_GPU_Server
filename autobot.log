@@ -1,17 +1,13 @@
-==> Downloading https://files.pythonhosted.org/packages/e6/c2/69bb309f254c94eab6f4b0effb45b95f2237bdabedfe0a774bb98ed3517a/diffoscope-88.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/1f/4a/7421e8db5c7509cf75e34b92a32b69c506f2b6f6392a909c2f87f3e94ad2/libarchive-c-2.7.tar.gz
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffoscope/88/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/65/0b/c6b31f686420420b5a16b24a722fe980724b28d76f65601c9bc324f08d02/python-magic-0.4.13.tar.gz
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffoscope/88/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffoscope/88/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://invisible-mirror.net/archives/diffstat/diffstat-1.61.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/diffstat/1.61
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall diffoscope`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/diffoscope/88: 230 files, 968.3KB, built in 29 seconds
-==> Determining diffoscope bottle rebuild...
-==> Bottling diffoscope-88.x86_64_linux.bottle.1.tar.gz...
-./diffoscope-88.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall diffstat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/diffstat/1.61: 8 files, 179.4KB, built in 1 minute 36 seconds
+==> Determining diffstat bottle rebuild...
+==> Bottling diffstat-1.61.x86_64_linux.bottle.1.tar.gz...
+./diffstat-1.61.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2802544700a512d9ceaf43ec68358719a569551b13b6b5137e727c3590e946d4" => :x86_64_linux
+    sha256 "c0494726caaaf9b028f91454e10215c179c905a05318abe143c492c90a152554" => :x86_64_linux
   end
