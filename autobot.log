@@ -1,15 +1,4 @@
-==> Downloading https://github.com/floitsch/double-conversion/archive/v3.0.0.tar.gz
-==> Downloading from https://github.com/google/double-conversion/archive/v3.0.0.tar.gz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/double-conversion/3.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall double-conversion`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/double-conversion/3.0.0: 21 files, 283.3KB, built in 54 seconds
-==> Determining double-conversion bottle rebuild...
-==> Bottling double-conversion-3.0.0.x86_64_linux.bottle.1.tar.gz...
-./double-conversion-3.0.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e0f066c8fc9cb0f198b738243677784723bfe10771c1d4f51d8f818326f0b090" => :x86_64_linux
-  end
+==> Downloading https://github.com/devstructure/doubledown/archive/v0.0.2.tar.gz
+==> Downloading from https://codeload.github.com/devstructure/doubledown/tar.gz/v0.0.2
+🍺  /home/linuxbrew/.linuxbrew/Cellar/doubledown/0.0.2: 9 files, 39.3KB, built in 13 seconds
+This formula doesn't require compiling.
