@@ -1,4 +1,15 @@
-==> Downloading https://github.com/mrowa44/emojify/archive/v1.0.2.tar.gz
-==> Downloading from https://codeload.github.com/mrowa44/emojify/tar.gz/v1.0.2
-🍺  /home/linuxbrew/.linuxbrew/Cellar/emojify/1.0.2: 5 files, 56.2KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/remind101/empire/archive/v0.13.0.tar.gz
+==> Downloading from https://codeload.github.com/remind101/empire/tar.gz/v0.13.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/emp/0.13.0/bin/emp ./src/github.com/remind101/empire/cmd/emp
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall emp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/emp/0.13.0: 6 files, 9.1MB, built in 4 seconds
+==> Determining emp bottle rebuild...
+==> Bottling emp-0.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if emp-0.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./emp-0.13.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d652364651c37ce909c2c5255aea12301d99cd3b41ac15aa1e99c1623a98a3c9" => :x86_64_linux
+  end
