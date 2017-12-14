@@ -1,14 +1,13 @@
-==> Installing dependencies for dasht: socat, w3m
-==> Installing dasht dependency: socat
-==> Downloading https://linuxbrew.bintray.com/bottles/socat-1.7.3.2_1.x86_64_linux.bottle.tar.gz
-==> Pouring socat-1.7.3.2_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/socat/1.7.3.2_1: 9 files, 790.6KB
-==> Installing dasht dependency: w3m
-==> Downloading https://linuxbrew.bintray.com/bottles/w3m-0.5.3_1.x86_64_linux.bottle.tar.gz
-==> Pouring w3m-0.5.3_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/w3m/0.5.3_1: 32 files, 3.8MB
-==> Installing dasht
-==> Downloading https://github.com/sunaku/dasht/archive/v2.2.0.tar.gz
-==> Downloading from https://codeload.github.com/sunaku/dasht/tar.gz/v2.2.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dasht/2.2.0: 26 files, 99.2KB, built in 12 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/dasm-dillon/dasm-dillon/2.20.11/dasm-2.20.11-2014.03.04-source.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/dasm-dillon/dasm-dillon/2.20.11/dasm-2.20.11-2014.03.04-source.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dasm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dasm/2014.03.04: 12 files, 232.5KB, built in 31 seconds
+==> Determining dasm bottle rebuild...
+==> Bottling dasm-2014.03.04.x86_64_linux.bottle.tar.gz...
+./dasm-2014.03.04.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "a901da6acd8e1525784ab25f56290c54af6f1f28b738666f7368d99013f1366d" => :x86_64_linux
+  end
