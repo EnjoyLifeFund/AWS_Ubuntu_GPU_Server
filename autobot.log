@@ -1,8 +1,35 @@
-==> Downloading https://bintray.com/artifact/download/golo-lang/downloads/golo-3.2.0.zip
-==> Downloading from https://dl.bintray.com/golo-lang/downloads/golo-3.2.0.zip
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/golo/3.2.0: 75 files, 1.9MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Cloning https://github.com/kahing/goofys.git
+==> Checking out tag v0.0.18
+==> Cloning https://github.com/jacobsa/fuse.git
+==> Checking out revision 1ab97fb2ebca4ac38b4e50291e28533b4b86e0cb
+==> Cloning https://github.com/jinzhu/copier.git
+==> Checking out revision db4671f3a9b8df855e993f7c94ec5ef1ffb0a23b
+==> Cloning https://github.com/kardianos/osext.git
+==> Checking out revision ae77be60afb1dcacde03767a8c37337fad28ac14
+==> Cloning https://github.com/sevlyar/go-daemon.git
+==> Checking out revision 298c54b0e0ae32ec2c6674fee8b60d2fefa4ae7e
+==> Cloning https://github.com/shirou/gopsutil.git
+==> Checking out revision 48fc5612898a1213aa5d6a0fb2d4f7b968e898fb
+==> Cloning https://github.com/sirupsen/logrus.git
+==> Checking out revision 89742aefa4b206dcf400792f3bd35b542998eb3b
+==> Cloning https://github.com/urfave/cli.git
+==> Checking out revision 7bc6a0acffa589f415f88aca16cc1de5ffd66f9c
+==> Cloning https://go.googlesource.com/crypto.git
+==> Checking out revision 2509b142fb2b797aa7587dad548f113b2c0f20ce
+==> Cloning https://go.googlesource.com/net.git
+==> Checking out revision 4b14673ba32bee7f5ac0f990a48f033919fd418b
+==> Cloning https://go.googlesource.com/sys.git
+==> Checking out revision 176de7413414c01569163271c745672ff04a7267
+==> go build -o goofys -ldflags -X main.Version=3de19ca7fb10649e74657965bdd7cacaf6b9f851
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall goofys`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goofys/0.0.18: 5 files, 13.4MB, built in 24 seconds
+==> Determining goofys bottle rebuild...
+==> Bottling goofys-0.0.18.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if goofys-0.0.18.x86_64_linux.bottle.1.tar.gz is relocatable...
+./goofys-0.0.18.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "02c385afc06f655e257ad72f1095716aa14e476360d16afb183a55b66c5a267f" => :x86_64_linux
+  end
