@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/genext2fs/genext2fs/1.4.1/genext2fs-1.4.1.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/genext2fs/genext2fs/1.4.1/genext2fs-1.4.1.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/genext2fs/1.4.1
-==> make install
+==> Downloading https://www.acme.com/software/globe/globe_14Aug2014.tar.gz
+==> make all install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814/share/man/man1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall genext2fs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/genext2fs/1.4.1: 10 files, 170.4KB, built in 9 seconds
-==> Determining genext2fs bottle rebuild...
-==> Bottling genext2fs-1.4.1.x86_64_linux.bottle.1.tar.gz...
-./genext2fs-1.4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall globe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814: 5 files, 69.3KB, built in 2 seconds
+==> Determining globe bottle rebuild...
+==> Bottling globe-0.0.20140814.x86_64_linux.bottle.1.tar.gz...
+./globe-0.0.20140814.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3d34229e51659cd9d9aecf342a0130e021e8cd20a35fad8388acb180e6b97e16" => :x86_64_linux
+    sha256 "55ee4a1c6b0e3218df92ddbbde58a84a72fe7db53c7d618e396366165fa1754c" => :x86_64_linux
   end
