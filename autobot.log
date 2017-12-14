@@ -1,14 +1,7 @@
-==> Downloading https://www.sqlite.org/2017/sqlite-src-3210000.zip
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dbhash/3.21.0
-==> make dbhash
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dbhash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dbhash/3.21.0: 4 files, 3.3MB, built in 18 minutes 46 seconds
-==> Determining dbhash bottle rebuild...
-==> Bottling dbhash-3.21.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dbhash-3.21.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dbhash-3.21.0.x86_64_linux.bottle.1.tar.gz
+==> Determining dbus bottle rebuild...
+==> Bottling dbus-1.12.2.x86_64_linux.bottle.1.tar.gz...
+./dbus-1.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "dbed180953772a175b77f5e6ddf3f21b8da1539bb3e321552ad866d129d49c9b" => :x86_64_linux
+    sha256 "19d6e8bf8f7607b592b46f4a9559bc6d61096b4f2e7ee0f600a082c36d94215a" => :x86_64_linux
   end
