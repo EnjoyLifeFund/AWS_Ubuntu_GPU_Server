@@ -1,13 +1,5 @@
-==> Downloading http://elinks.or.cz/download/elinks-0.11.7.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/elinks/0.11.7_2 --without-spidermonkey --enable-256-colors
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall elinks`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/elinks/0.11.7_2: 43 files, 6.5MB, built in 1 minute 21 seconds
-==> Determining elinks bottle rebuild...
-==> Bottling elinks-0.11.7_2.x86_64_linux.bottle.tar.gz...
-==> Detecting if elinks-0.11.7_2.x86_64_linux.bottle.tar.gz is relocatable...
-./elinks-0.11.7_2.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "b9774e150d74b15238982121645f1ee53274a1f4fca9cf2586f86d81d3c2a116" => :x86_64_linux
-  end
+==> Downloading https://github.com/mururu/elixir-build/archive/v20141001.tar.gz
+==> Downloading from https://codeload.github.com/mururu/elixir-build/tar.gz/v20141001
+==> ./install.sh
+🍺  /home/linuxbrew/.linuxbrew/Cellar/elixir-build/20141001: 10 files, 43.9KB, built in 0 seconds
+This formula doesn't require compiling.
