@@ -1,8 +1,18 @@
-==> Determining glibmm bottle rebuild...
-==> Bottling glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dl.cihar.com/gammu/releases/gammu-1.38.5.tar.xz
+==> cmake .. -DBASH_COMPLETION_COMPLETIONSDIR:PATH=/home/linuxbrew/.linuxbrew/Cellar/gammu/1.38.5/etc/bash_completion.d -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gammu/1.38.5 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gammu`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gammu/1.38.5: 281 files, 5.2MB, built in 31 seconds
+==> Determining gammu bottle rebuild...
+==> Bottling gammu-1.38.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gammu-1.38.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gammu-1.38.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "db3409e6fe856648b0cc62180606bb3a311c8eece7a68c0c5dcdd27418f29e9b" => :x86_64_linux
+    sha256 "682af28dc02e64813e4536cfb4571a7c81266c86e40f041d236163efd76cef12" => :x86_64_linux
   end
