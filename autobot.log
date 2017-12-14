@@ -1,14 +1,27 @@
-==> Downloading http://www.knossos.net.nz/downloads/dterm-0.5.tgz
-==> make
-==> make install BIN=/home/linuxbrew/.linuxbrew/Cellar/dterm/0.5/bin/
+==> Installing dependencies for dtrx: unrar
+==> Installing dtrx dependency: unrar
+==> Downloading https://linuxbrew.bintray.com/bottles/unrar-5.5.8.x86_64_linux.bottle.tar.gz
+==> Pouring unrar-5.5.8.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/unrar/5.5.8: 6 files, 672.3KB
+==> Installing dtrx
+==> Downloading https://brettcsmith.org/2007/dtrx/dtrx-7.1.tar.gz
+==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/dtrx/7.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dterm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dterm/0.5: 5 files, 64KB, built in 2 seconds
-==> Determining dterm bottle rebuild...
-==> Bottling dterm-0.5.x86_64_linux.bottle.1.tar.gz...
-./dterm-0.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dtrx`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dtrx/7.1: 7 files, 123.3KB, built in 2 seconds
+==> Determining dtrx bottle rebuild...
+==> Bottling dtrx-7.1.x86_64_linux.bottle.1.tar.gz...
+./dtrx-7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1bd7674524e855c7b21eebcc48b60448e308dd5683098dc8d1409c639d5f9407" => :x86_64_linux
+    sha256 "016f5b03cdc6db268ebda3b0dcc827dd0d22029deec7d63ea55aa789d1a21ec7" => :x86_64_linux
   end
