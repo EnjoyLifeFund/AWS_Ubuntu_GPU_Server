@@ -1,14 +1,13 @@
-==> Downloading http://fltk.org/pub/fltk/1.3.4/fltk-1.3.4-source.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fltk/1.3.4_1 --enable-threads --enable-shared
-==> make install
+==> Downloading https://download.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz
+==> Downloading from https://download-mirror.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz
+==> make posix
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fltk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fltk/1.3.4_1: 328 files, 7.3MB, built in 21 seconds
-==> Determining fltk bottle rebuild...
-==> Bottling fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall flvstreamer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flvstreamer/2.1c1: 9 files, 329.5KB, built in 3 seconds
+==> Determining flvstreamer bottle rebuild...
+==> Bottling flvstreamer-2.1c1.x86_64_linux.bottle.tar.gz...
+./flvstreamer-2.1c1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "3b2b9084c88bf1aac39c78fc6e50ac11604e9d4a60211810407f1c21d5501a7c" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "b65525d475267515de4c59fb9036d8780f776602d83ca86b36212588d48fa50f" => :x86_64_linux
   end
