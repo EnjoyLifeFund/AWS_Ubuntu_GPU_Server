@@ -1,27 +1,14 @@
-==> Downloading https://github.com/wilhelm-murdoch/gost/archive/1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/wilhelm-murdoch/gost/tar.gz/1.2.0
-==> Cloning https://go.googlesource.com/oauth2.git
-==> Checking out revision 8434495902bd0900797016affe4ca35c55babb3f
-==> Cloning https://go.googlesource.com/net.git
-==> Checking out revision 35ec611a141ee705590b9eb64d673f9e6dfeb1ac
-==> Cloning https://github.com/atotto/clipboard.git
-==> Checking out revision bb272b845f1112e10117e3e45ce39f690c0001ad
-==> Cloning https://github.com/docopt/docopt.go.git
-==> Checking out revision 784ddc588536785e7299f7272f39101f7faccc3f
-==> Cloning https://github.com/google/go-github.git
-==> Checking out revision 842c551fdeae14c97c04ef490f601ae4d849a00c
-==> Cloning https://github.com/google/go-querystring.git
-==> Checking out revision 9235644dd9e52eeae6fa48efd539fdc351a0af53
-==> go build -o gost
+==> Downloading https://github.com/jstemmer/gotags/archive/v1.4.1.tar.gz
+==> Downloading from https://codeload.github.com/jstemmer/gotags/tar.gz/v1.4.1
+==> go build -o gotags
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gost`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gost/1.2.0: 5 files, 6.4MB, built in 4 seconds
-==> Determining gost bottle rebuild...
-==> Bottling gost-1.2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gost-1.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gost-1.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gotags`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gotags/1.4.1: 5 files, 2.8MB, built in 1 second
+==> Determining gotags bottle rebuild...
+==> Bottling gotags-1.4.1.x86_64_linux.bottle.1.tar.gz...
+./gotags-1.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "800524c3b4fcdd5ab81f6c6f072bf08fd0a0e0320aa54dc35536d446e44c40ff" => :x86_64_linux
+    sha256 "a0f7e525f6c61ccd94709dd36db81745c0a20fd2fe52b250d4b8f7c42e4fa1cb" => :x86_64_linux
   end
