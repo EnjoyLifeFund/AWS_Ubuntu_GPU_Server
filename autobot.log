@@ -1,12 +1,14 @@
-==> Downloading https://njw.name/getxbook/getxbook-1.2.tar.xz
-==> make CC=gcc-5 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/getxbook/1.2
+==> Downloading https://www.complang.tuwien.ac.at/forth/gforth/gforth-0.7.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gforth/0.7.3
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall getxbook`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/getxbook/1.2: 7 files, 185.8KB, built in 1 second
-==> Determining getxbook bottle rebuild...
-==> Bottling getxbook-1.2.x86_64_linux.bottle.1.tar.gz...
-./getxbook-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gforth`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gforth/0.7.3: 243 files, 3.8MB, built in 41 seconds
+==> Determining gforth bottle rebuild...
+==> Bottling gforth-0.7.3.x86_64_linux.bottle.1.tar.gz...
+./gforth-0.7.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7ad6a410d66f75eadee6efeb0d18e7afa4238eb61f1fd2528a8bb2dde63771bd" => :x86_64_linux
+    sha256 "70f1976982d4f26cb95632cb98b47c1a2dba130042f86df460ec79f1278e784d" => :x86_64_linux
   end
