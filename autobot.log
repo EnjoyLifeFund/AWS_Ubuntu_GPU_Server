@@ -1,12 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/semicomplete/fex-2.0.0.tar.gz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fex/2.0.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fex/2.0.0: 6 files, 56.8KB, built in 1 second
-==> Determining fex bottle rebuild...
-==> Bottling fex-2.0.0.x86_64_linux.bottle.1.tar.gz...
-./fex-2.0.0.x86_64_linux.bottle.1.tar.gz
+==> Determining ffmpeg bottle rebuild...
+==> Bottling ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d8bd567ecef92d4d358afdfc736053ff496edcbac4289816d89753ac05540dc1" => :x86_64_linux
+    sha256 "c437ebfcc045d6c3d72407c3cdf5269ffeff88ee6b28c00530fa40febd964cae" => :x86_64_linux
   end
