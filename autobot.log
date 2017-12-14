@@ -1,15 +1,19 @@
-==> Downloading https://github.com/Softmotions/ejdb/archive/v1.2.12.tar.gz
-==> Downloading from https://codeload.github.com/Softmotions/ejdb/tar.gz/v1.2.12
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ejdb/1.2.12 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading http://pl.ekg2.org/ekg2-0.3.1.tar.gz
+==> Patching
+patching file compat/strlcat.c
+patching file compat/strlcat.h
+patching file compat/strlcpy.c
+patching file compat/strlcpy.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ekg2/0.3.1_2 --without-python --without-perl --with-readline=/home/linuxbrew/.linuxbrew/opt/readline --without-gtk --enable-unicode --without-libgadu
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ejdb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ejdb/1.2.12: 29 files, 6.8MB, built in 11 seconds
-==> Determining ejdb bottle rebuild...
-==> Bottling ejdb-1.2.12.x86_64_linux.bottle.tar.gz...
-==> Detecting if ejdb-1.2.12.x86_64_linux.bottle.tar.gz is relocatable...
-./ejdb-1.2.12.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall ekg2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ekg2/0.3.1_2: 72 files, 5MB, built in 44 seconds
+==> Determining ekg2 bottle rebuild...
+==> Bottling ekg2-0.3.1_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ekg2-0.3.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ekg2-0.3.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "2095c004d86b25c7f5d72c83e7d61ad387f49e2307ffc6c94a779f937f8c790e" => :x86_64_linux
+    rebuild 1
+    sha256 "2d5f5b1d9ebe74646cb9378d9a957c5dace31180e5bba395374133b13e790afd" => :x86_64_linux
   end
