@@ -1,13 +1,4 @@
-==> Downloading https://ftp.gnu.org/gnu/diction/diction-1.11.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/diction/1.11
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall diction`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/diction/1.11: 17 files, 342.0KB, built in 1 minute 16 seconds
-==> Determining diction bottle rebuild...
-==> Bottling diction-1.11.x86_64_linux.bottle.1.tar.gz...
-./diction-1.11.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "efa97d5c61ce444e234c77e8b1cd51a44b3709241a1f08989a8c665f48a49100" => :x86_64_linux
-  end
+==> Downloading https://github.com/so-fancy/diff-so-fancy/archive/v1.1.1.tar.gz
+==> Downloading from https://codeload.github.com/so-fancy/diff-so-fancy/tar.gz/v1.1.1
+🍺  /home/linuxbrew/.linuxbrew/Cellar/diff-so-fancy/1.1.1: 8 files, 51.6KB, built in 10 seconds
+This formula doesn't require compiling.
