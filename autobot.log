@@ -1,14 +1,21 @@
-==> Downloading https://downloads.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz
+==> Installing dependencies for dislocker: mbedtls
+==> Installing dislocker dependency: mbedtls
+==> Downloading https://linuxbrew.bintray.com/bottles/mbedtls-2.6.0.x86_64_linux.bottle.tar.gz
+==> Pouring mbedtls-2.6.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mbedtls/2.6.0: 128 files, 3.5MB
+==> Installing dislocker
+==> Downloading https://github.com/Aorimn/dislocker/archive/v0.7.1.tar.gz
+==> Downloading from https://codeload.github.com/Aorimn/dislocker/tar.gz/v0.7.1
+==> cmake -DCMAKE_DISABLE_FIND_PACKAGE_Ruby=TRUE -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dislocker/0.7.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall disktype`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/disktype/9: 8 files, 123.4KB, built in 12 seconds
-==> Determining disktype bottle rebuild...
-==> Bottling disktype-9.x86_64_linux.bottle.1.tar.gz...
-./disktype-9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dislocker`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dislocker/0.7.1: 16 files, 210.2KB, built in 44 seconds
+==> Determining dislocker bottle rebuild...
+==> Bottling dislocker-0.7.1.x86_64_linux.bottle.1.tar.gz...
+./dislocker-0.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "df8f9a124928b47b10a17d141d984b4ec71f1eec22687360fd86929766cdda5c" => :x86_64_linux
+    sha256 "f513943b0cf6ebfc2503b09d4a7a62a51da40b3df00f780bfcdda18143f7fda7" => :x86_64_linux
   end
