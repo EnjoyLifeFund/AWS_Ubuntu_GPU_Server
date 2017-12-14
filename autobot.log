@@ -1,14 +1,20 @@
-==> Cloning https://github.com/dlang-community/Dscanner.git
-==> Checking out tag v0.4.1
-==> make dmdbuild
+==> Installing dependencies for dsh: libdshconfig
+==> Installing dsh dependency: libdshconfig
+==> Downloading https://www.netfort.gr.jp/~dancer/software/downloads/libdshconfig-0.20.13.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdshconfig/0.20.13
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdshconfig/0.20.13: 12 files, 77.6KB, built in 13 seconds
+==> Installing dsh
+==> Downloading https://www.netfort.gr.jp/~dancer/software/downloads/dsh-0.25.10.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dsh/0.25.10
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dscanner`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dscanner/0.4.1: 4 files, 8.5MB, built in 1 minute 8 seconds
-==> Determining dscanner bottle rebuild...
-==> Bottling dscanner-0.4.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dscanner-0.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dscanner-0.4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dsh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dsh/0.25.10: 15 files, 196.6KB, built in 16 seconds
+==> Determining dsh bottle rebuild...
+==> Bottling dsh-0.25.10.x86_64_linux.bottle.1.tar.gz...
+./dsh-0.25.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2eb357b52f8f73efe10ca1afd3d59730a38fca04b4e9c826f3900df88c079d29" => :x86_64_linux
+    sha256 "b36eff4b8c0625fbedc5876c6d48c288fbb4108d8521381ec9da20de33bedef1" => :x86_64_linux
   end
