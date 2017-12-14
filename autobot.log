@@ -1,20 +1,13 @@
-==> Installing dependencies for epeg: libexif
-==> Installing epeg dependency: libexif
-==> Downloading https://linuxbrew.bintray.com/bottles/libexif-0.6.21.x86_64_linux.bottle.1.tar.gz
-==> Pouring libexif-0.6.21.x86_64_linux.bottle.1.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libexif/0.6.21: 57 files, 3.8MB
-==> Installing epeg
-==> Downloading https://github.com/mattes/epeg/archive/v0.9.2.tar.gz
-==> Downloading from https://codeload.github.com/mattes/epeg/tar.gz/v0.9.2
-==> ./autogen.sh --disable-debug --disable-dependency-tracking --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/epeg/0.9.2_1
-==> make install
+==> Downloading http://ephemeralpg.org/code/ephemeralpg-2.2.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ephemeralpg/2.2_1 MANPREFIX=/home/linuxbrew/.linuxbrew/Cellar/ephemeralpg/2.2_1/share/man install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall epeg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/epeg/0.9.2_1: 15 files, 201.0KB, built in 13 seconds
-==> Determining epeg bottle rebuild...
-==> Bottling epeg-0.9.2_1.x86_64_linux.bottle.1.tar.gz...
-./epeg-0.9.2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ephemeralpg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ephemeralpg/2.2_1: 9 files, 45.5KB, built in 1 second
+==> Determining ephemeralpg bottle rebuild...
+==> Bottling ephemeralpg-2.2_1.x86_64_linux.bottle.1.tar.gz...
+./ephemeralpg-2.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "66690e0196c2eb8b44561366e3e6280a575b7563326cf6d2d57c222a0731b3e9" => :x86_64_linux
+    sha256 "2488bf471111301e1addc0f706188d8737da968a5a14724cccbd136d869d8945" => :x86_64_linux
   end
