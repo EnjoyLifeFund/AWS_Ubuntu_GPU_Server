@@ -1,22 +1,14 @@
-==> Downloading https://github.com/tj/git-extras/archive/4.4.0.tar.gz
-==> Downloading from https://codeload.github.com/tj/git-extras/tar.gz/4.4.0
-==> Patching
-patching file bin/git-extras
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-extras/4.4.0 install
+==> Downloading https://github.com/keis/git-fixup/archive/v1.1.1.tar.gz
+==> Downloading from https://codeload.github.com/keis/git-fixup/tar.gz/v1.1.1
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-fixup/1.1.1 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-extras`
-==> Caveats
-To load Zsh completions, add the following to your .zschrc:
-  source /home/linuxbrew/.linuxbrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-extras/4.4.0: 141 files, 317.5KB, built in 1 second
-==> Determining git-extras bottle rebuild...
-==> Bottling git-extras-4.4.0.x86_64_linux.bottle.tar.gz...
-./git-extras-4.4.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall git-fixup`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-fixup/1.1.1: 7 files, 33.3KB, built in 0 seconds
+==> Determining git-fixup bottle rebuild...
+==> Bottling git-fixup-1.1.1.x86_64_linux.bottle.1.tar.gz...
+./git-fixup-1.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "e57a32681c53e0ad51815e19c7f726efed6f01448bc27075920709e401385b25" => :x86_64_linux
+    rebuild 1
+    sha256 "0873af634bf9e5ccc90f1bf267955fab9a2a1c7646a08ab89f2793dbab98092a" => :x86_64_linux
   end
