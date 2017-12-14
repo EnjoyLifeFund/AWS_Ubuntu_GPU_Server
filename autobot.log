@@ -1,20 +1,14 @@
-==> Installing dependencies for dcd: dmd
-==> Installing dcd dependency: dmd
-==> Downloading https://linuxbrew.bintray.com/bottles/dmd-2.077.1.x86_64_linux.bottle.tar.gz
-==> Pouring dmd-2.077.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dmd/2.077.1: 601 files, 102.6MB
-==> Installing dcd
-==> Cloning https://github.com/dlang-community/DCD.git
-==> Checking out tag v0.9.1
-==> make
+==> Downloading https://downloads.sourceforge.net/project/dcfldd/dcfldd/1.3.4-1/dcfldd-1.3.4-1.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/dcfldd/dcfldd/1.3.4-1/dcfldd-1.3.4-1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dcd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dcd/0.9.1: 6 files, 7.9MB, built in 13 minutes 14 seconds
-==> Determining dcd bottle rebuild...
-==> Bottling dcd-0.9.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dcd-0.9.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dcd-0.9.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dcfldd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dcfldd/1.3.4-1: 9 files, 325.1KB, built in 1 minute 33 seconds
+==> Determining dcfldd bottle rebuild...
+==> Bottling dcfldd-1.3.4-1.x86_64_linux.bottle.1.tar.gz...
+./dcfldd-1.3.4-1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4108671768ea713d1eefd96d8ef0de62472b5063530e4942f2657cc19269e418" => :x86_64_linux
+    sha256 "cfb0e50dfc2440a5be407d6e17c99463c15500a67fce2ddbb9ee2ede6a0c5335" => :x86_64_linux
   end
