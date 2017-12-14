@@ -1,13 +1,19 @@
-==> Downloading https://www.thregr.org/~wavexx/software/fIcy/releases/fIcy-1.0.21.tar.gz
-==> make
+==> Downloading https://downloads.sourceforge.net/project/mcj/fig2dev-3.2.6a.tar.xz
+==> Downloading from https://iweb.dl.sourceforge.net/project/mcj/fig2dev-3.2.6a.tar.xz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/ace42c9/fig2dev/fig2dev-no-x11.patch
+==> Patching
+==> Applying fig2dev-no-x11.patch
+patching file fig2dev/dev/genps.c
+patching file fig2dev/dev/gensvg.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fig2dev/3.2.6a_1 --disable-silent-rules --enable-transfig --without-xpm --without-x
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ficy`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ficy/1.0.21: 9 files, 363.4KB, built in 2 seconds
-==> Determining ficy bottle rebuild...
-==> Bottling ficy-1.0.21.x86_64_linux.bottle.1.tar.gz...
-./ficy-1.0.21.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fig2dev`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fig2dev/3.2.6a_1: 84 files, 2MB, built in 9 seconds
+==> Determining fig2dev bottle rebuild...
+==> Bottling fig2dev-3.2.6a_1.x86_64_linux.bottle.1.tar.gz...
+./fig2dev-3.2.6a_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d763b872a2d9d1801404951ae29bb1498b7c4de336058d01c01306d0d6005a14" => :x86_64_linux
+    sha256 "887498b02da6ae280fe0878ff920d160816d5086479d7a6521d204507cdf7fb8" => :x86_64_linux
   end
