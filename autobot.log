@@ -1,30 +1,15 @@
-==> Downloading https://github.com/elm-lang/elm-compiler/archive/0.18.0.tar.gz
-==> Downloading from https://codeload.github.com/elm-lang/elm-compiler/tar.gz/0.18.0
-==> Downloading https://github.com/elm-lang/elm-package/archive/0.18.0.tar.gz
-==> Downloading from https://codeload.github.com/elm-lang/elm-package/tar.gz/0.18.0
-==> Downloading https://github.com/elm-lang/elm-make/archive/0.18.0.tar.gz
-==> Downloading from https://codeload.github.com/elm-lang/elm-make/tar.gz/0.18.0
-==> Downloading https://github.com/elm-lang/elm-repl/archive/0.18.0.tar.gz
-==> Downloading from https://codeload.github.com/elm-lang/elm-repl/tar.gz/0.18.0
-==> Downloading https://github.com/elm-lang/elm-reactor/archive/0.18.0.tar.gz
-==> Downloading from https://codeload.github.com/elm-lang/elm-reactor/tar.gz/0.18.0
-==> Downloading https://github.com/elm-lang/elm-package/pull/287.patch?full_index=1
-==> Downloading from https://patch-diff.githubusercontent.com/raw/elm-lang/elm-package/pull/287.patch?full_index=1
-==> patch -p1 -i /tmp/elm--elm-package-patch-20171214-55459-x3sd8a/287.patch -d /tmp/elm-20171214-55459-12qd2vj/elm-compiler-0.18.0/elm-package
-==> cabal sandbox init
-==> cabal update
-==> cabal sandbox add-source elm-compiler elm-package elm-make elm-repl elm-reactor
-==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies elm-compiler elm-package elm-make elm-repl elm-reactor
-==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/elm/0.18.0 elm-compiler elm-package elm-make elm-repl
-==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/elm/0.18.0 elm-reactor
+==> Downloading https://github.com/elves/elvish/archive/0.10.1.tar.gz
+==> Downloading from https://codeload.github.com/elves/elvish/tar.gz/0.10.1
+==> go build -ldflags -X main.Version=0.10.1 -o /home/linuxbrew/.linuxbrew/Cellar/elvish/0.10.1/bin/elvish
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall elm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/elm/0.18.0: 12 files, 106.3MB, built in 11 minutes 24 seconds
-==> Determining elm bottle rebuild...
-==> Bottling elm-0.18.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if elm-0.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./elm-0.18.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall elvish`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/elvish/0.10.1: 5 files, 11.6MB, built in 6 seconds
+==> Determining elvish bottle rebuild...
+==> Bottling elvish-0.10.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if elvish-0.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./elvish-0.10.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "454cd25dfa6fd049b1886818567cc5f9fa0de4ec23a0d1b73dccedc2508d3474" => :x86_64_linux
+    sha256 "f354e95e9900cf68b6f4977f5514ca38e3d8956b5696e24d50d024fe1ff2dd8d" => :x86_64_linux
   end
