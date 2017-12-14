@@ -1,13 +1,7 @@
-==> Downloading http://www.exiv2.org/builds/exiv2-0.26-trunk.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exiv2/0.26
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exiv2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exiv2/0.26: 71 files, 14.1MB, built in 24 seconds
-==> Determining exiv2 bottle rebuild...
-==> Bottling exiv2-0.26.x86_64_linux.bottle.tar.gz...
-==> Detecting if exiv2-0.26.x86_64_linux.bottle.tar.gz is relocatable...
-./exiv2-0.26.x86_64_linux.bottle.tar.gz
+==> Determining expat bottle rebuild...
+==> Bottling expat-2.2.5.x86_64_linux.bottle.1.tar.gz...
+./expat-2.2.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "c2f465b7aa4325923ea88e17ac2ee90733616b8e316a815cada644e48e66d613" => :x86_64_linux
+    rebuild 1
+    sha256 "0102c714493e7f170d8dbb52fa4bfe5d3736c719cc47d5da678385df8cfb4ab0" => :x86_64_linux
   end
