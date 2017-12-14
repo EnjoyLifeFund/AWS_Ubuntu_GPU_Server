@@ -1,19 +1,12 @@
-==> Downloading https://github.com/OJ/gobuster/archive/v1.3.tar.gz
-==> Downloading from https://codeload.github.com/OJ/gobuster/tar.gz/v1.3
-==> Cloning https://github.com/satori/go.uuid.git
-==> Checking out revision b061729afc07e77a8aa4fad0a2fd840958f1942a
-==> Cloning https://go.googlesource.com/crypto.git
-==> Checking out revision 40541ccb1c6e64c947ed6f606b8a6cb4b67d7436
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gobuster/1.3/bin/gobuster
+==> Downloading https://www-e.uni-magdeburg.de/jschulen/ocr/gocr-0.50.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gocr/0.50
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gobuster`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gobuster/1.3: 5 files, 5.9MB, built in 2 seconds
-==> Determining gobuster bottle rebuild...
-==> Bottling gobuster-1.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gobuster-1.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gobuster-1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gocr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gocr/0.50: 9 files, 1.3MB, built in 13 seconds
+==> Determining gocr bottle rebuild...
+==> Bottling gocr-0.50.x86_64_linux.bottle.tar.gz...
+./gocr-0.50.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c9cb755def983fca8f4e1b8816cb7245268ff30e2d2338808f0259bc05f953ab" => :x86_64_linux
+    sha256 "8a3429ebf0fc713db6fcf390d67b88df8ddf1e9791f189034b5a813ae3adf3e5" => :x86_64_linux
   end
