@@ -1,8 +1,17 @@
-==> Determining gawk bottle rebuild...
-==> Bottling gawk-4.2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gawk-4.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gawk-4.2.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/gcab/0.7/gcab-0.7.tar.xz
+==> Downloading from http://mirror.umd.edu/gnome/sources/gcab/0.7/gcab-0.7.tar.xz
+==> Patching
+patching file Makefile.in
+Hunk #1 succeeded at 539 (offset 65 lines).
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcab/0.7
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gcab`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gcab/0.7: 63 files, 1.1MB, built in 31 seconds
+==> Determining gcab bottle rebuild...
+==> Bottling gcab-0.7.x86_64_linux.bottle.1.tar.gz...
+./gcab-0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "964e6b08cb8fcb066f94dc6df7d928de895dd76bf3b330a595bbfe3fbd165c30" => :x86_64_linux
+    sha256 "85b58bc7198d525f022a72c53dd85e9e4617636cc7cbc2f1b5aaf4bc12397116" => :x86_64_linux
   end
