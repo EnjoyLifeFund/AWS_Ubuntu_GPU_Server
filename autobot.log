@@ -1,12 +1,4 @@
-==> Downloading https://foremost.sourceforge.io/pkg/foremost-1.5.7.tar.gz
-==> Downloading from http://foremost.sourceforge.net/pkg/foremost-1.5.7.tar.gz
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall foremost`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/foremost/1.5.7: 7 files, 136.8KB, built in 1 second
-==> Determining foremost bottle rebuild...
-==> Bottling foremost-1.5.7.x86_64_linux.bottle.tar.gz...
-./foremost-1.5.7.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "4884567c5c8745890f01c77b4e0639b45f1397616e7cef7b9ad04fe6fc03cba0" => :x86_64_linux
-  end
+==> Downloading https://github.com/JElchison/format-udf/archive/1.6.0.tar.gz
+==> Downloading from https://codeload.github.com/JElchison/format-udf/tar.gz/1.6.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/format-udf/1.6.0: 5 files, 79.6KB, built in 1 second
+This formula doesn't require compiling.
