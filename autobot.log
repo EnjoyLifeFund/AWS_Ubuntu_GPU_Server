@@ -1,8 +1,23 @@
-==> Determining gnome-common bottle rebuild...
-==> Bottling gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz...
-./gnome-common-3.18.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/gnome-doc-utils/0.20/gnome-doc-utils-0.20.10.tar.xz
+==> Downloading from http://mirror.umd.edu/gnome/sources/gnome-doc-utils/0.20/gnome-doc-utils-0.20.10.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnome-doc-utils/0.20.10_1 --disable-scrollkeeper --enable-build-utils=yes
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnome-doc-utils`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnome-doc-utils/0.20.10_1: 278 files, 4.2MB, built in 10 seconds
+==> Determining gnome-doc-utils bottle rebuild...
+==> Bottling gnome-doc-utils-0.20.10_1.x86_64_linux.bottle.tar.gz...
+./gnome-doc-utils-0.20.10_1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d56695b25a4bb9d476e8d7abe97f5f5b2e870f7856a417aca96f761821a5fcf2" => :x86_64_linux
+    sha256 "226b2c49de67ab103502908db6c978fc61da258c5c91ba20d9e8877e7565201f" => :x86_64_linux
   end
