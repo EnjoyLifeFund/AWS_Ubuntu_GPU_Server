@@ -1,4 +1,8 @@
-==> Downloading https://github.com/devstructure/doubledown/archive/v0.0.2.tar.gz
-==> Downloading from https://codeload.github.com/devstructure/doubledown/tar.gz/v0.0.2
-🍺  /home/linuxbrew/.linuxbrew/Cellar/doubledown/0.0.2: 9 files, 39.3KB, built in 13 seconds
-This formula doesn't require compiling.
+==> Determining doxygen bottle rebuild...
+==> Bottling doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz is relocatable...
+./doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "63dee18b15ddfbee67ddc6316011ff08bc36bc32214ad10b8e4a13959467cc48" => :x86_64_linux
+  end
