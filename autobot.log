@@ -1,14 +1,22 @@
-==> Downloading https://www.complang.tuwien.ac.at/forth/gforth/gforth-0.7.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gforth/0.7.3
-==> make
-==> make install
+==> Downloading https://github.com/tj/git-extras/archive/4.4.0.tar.gz
+==> Downloading from https://codeload.github.com/tj/git-extras/tar.gz/4.4.0
+==> Patching
+patching file bin/git-extras
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/git-extras/4.4.0 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gforth`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gforth/0.7.3: 243 files, 3.8MB, built in 41 seconds
-==> Determining gforth bottle rebuild...
-==> Bottling gforth-0.7.3.x86_64_linux.bottle.1.tar.gz...
-./gforth-0.7.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-extras`
+==> Caveats
+To load Zsh completions, add the following to your .zschrc:
+  source /home/linuxbrew/.linuxbrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-extras/4.4.0: 141 files, 317.5KB, built in 1 second
+==> Determining git-extras bottle rebuild...
+==> Bottling git-extras-4.4.0.x86_64_linux.bottle.tar.gz...
+./git-extras-4.4.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "70f1976982d4f26cb95632cb98b47c1a2dba130042f86df460ec79f1278e784d" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "e57a32681c53e0ad51815e19c7f726efed6f01448bc27075920709e401385b25" => :x86_64_linux
   end
