@@ -1,4 +1,7 @@
-==> Downloading https://github.com/twitter/finatra/archive/1.5.3.tar.gz
-==> Downloading from https://codeload.github.com/twitter/finatra/tar.gz/1.5.3
-🍺  /home/linuxbrew/.linuxbrew/Cellar/finatra/1.5.3: 96 files, 854.9KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining findutils bottle rebuild...
+==> Bottling findutils-4.6.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if findutils-4.6.0.x86_64_linux.bottle.tar.gz is relocatable...
+./findutils-4.6.0.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "f1ee435f7c075cd0a0b8cf6c67d293c92f7f07370c65f0d55719ea2ef0d4ebee" => :x86_64_linux
+  end
