@@ -1,33 +1,13 @@
-==> Downloading https://github.com/fail2ban/fail2ban/archive/0.10.1.tar.gz
-==> Downloading from https://codeload.github.com/fail2ban/fail2ban/tar.gz/0.10.1
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/fail2ban/0.10.1/libexec
-==> make dirhtml SPHINXBUILD=sphinx-build
+==> Cloning http://hgm.nubati.net/git/fairymax.git
+==> Checking out tag 4.8V
+==> make all INI_F=/home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V/share/fairymax/fmax.ini INI_Q=/home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V/share/fairymax/qmax.ini
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fail2ban`
-==> Caveats
-Before using Fail2Ban for the first time you should edit the jail
-configuration and enable the jails that you want to use, for instance
-ssh-ipfw. Also, make sure that they point to the correct configuration
-path. I.e. on Mountain Lion the sshd logfile should point to
-/var/log/system.log.
-
-  * /home/linuxbrew/.linuxbrew/etc/fail2ban/jail.conf
-
-The Fail2Ban wiki has two pages with instructions for macOS Server that
-describes how to set up the Jails for the standard macOS Server
-services for the respective releases.
-
-  10.4: https://www.fail2ban.org/wiki/index.php/HOWTO_Mac_OS_X_Server_(10.4)
-  10.5: https://www.fail2ban.org/wiki/index.php/HOWTO_Mac_OS_X_Server_(10.5)
-
-Please do not forget to update your configuration files.
-They are in /home/linuxbrew/.linuxbrew/etc/fail2ban.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fail2ban/0.10.1: 569 files, 4.5MB, built in 28 seconds
-==> Determining fail2ban bottle rebuild...
-==> Bottling fail2ban-0.10.1.x86_64_linux.bottle.1.tar.gz...
-./fail2ban-0.10.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fairymax`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fairymax/4.8V: 11 files, 153KB, built in 7 seconds
+==> Determining fairymax bottle rebuild...
+==> Bottling fairymax-4.8V.x86_64_linux.bottle.1.tar.gz...
+./fairymax-4.8V.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f89c0759f07511ce575ce1fdd4e24845c48e85f2ef080ee355c258873a34ba24" => :x86_64_linux
+    sha256 "73c71466323e2b5e62d85a011a4de1932638a17a25980a3b02c2eefdd7d4e6b4" => :x86_64_linux
   end
