@@ -1,21 +1,22 @@
-==> Downloading https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz
-==> Patching
-patching file Makefile.in
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/groff/1.22.3 --without-x
+==> Downloading https://ftp.gromacs.org/pub/gromacs/gromacs-2016.4.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gromacs/2016.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DGMX_GSL=ON
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall groff`
+You can run it manually using `brew postinstall gromacs`
 ==> Caveats
-Attempting to use PDF or HTML output support without using --with-gropdf or
---with-grohtml may result in errors.
+GMXRC and other scripts installed to:
+  /home/linuxbrew/.linuxbrew/share/gromacs
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/groff/1.22.3: 671 files, 29.3MB, built in 33 seconds
-==> Determining groff bottle rebuild...
-==> Bottling groff-1.22.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if groff-1.22.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./groff-1.22.3.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gromacs/2016.4: 692 files, 64.6MB, built in 4 minutes 36 seconds
+==> Determining gromacs bottle rebuild...
+==> Bottling gromacs-2016.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gromacs-2016.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gromacs-2016.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "138c61bfb24b03163f5be8327f6720f741f689019082173e0230d5b94d63bc1c" => :x86_64_linux
+    sha256 "cf048a6c30956068c66814d6ae722497b613fd1ad607046b37c6cb6514d019e4" => :x86_64_linux
   end
