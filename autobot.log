@@ -1,18 +1,14 @@
-==> Downloading https://www.justwatch.com/gopass/releases/1.6.3/gopass-1.6.3.tar.gz
-==> make install
+==> Cloning https://github.com/buger/goreplay.git
+==> Checking out tag v0.16.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gor/0.16.1/bin/gor -ldflags -X main.VERSION=0.16.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gopass`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gopass/1.6.3: 7 files, 9.5MB, built in 8 seconds
-==> Determining gopass bottle rebuild...
-==> Bottling gopass-1.6.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gopass-1.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gopass-1.6.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gor/0.16.1: 5 files, 12.6MB, built in 7 seconds
+==> Determining gor bottle rebuild...
+==> Bottling gor-0.16.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gor-0.16.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gor-0.16.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1a770e5f6c0c3aca224bb45bf0b6bb0fe3feca0d4904e537d1bba844b56b4317" => :x86_64_linux
+    sha256 "2322e1c536fb290486ece3e20fd4d429078b2a0ee142c71d866589bad21e64c6" => :x86_64_linux
   end
