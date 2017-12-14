@@ -1,16 +1,15 @@
-==> Downloading https://download.gnome.org/sources/graphene/1.6/graphene-1.6.0.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/graphene/1.6/graphene-1.6.0.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/graphene/1.6.0
-==> make
-==> make check
+==> Downloading https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.27/GraphicsMagick-1.3.27.tar.xz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.27/GraphicsMagick-1.3.27.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/graphicsmagick/1.3.27 --enable-shared --disable-static --with-modules --without-lzma --disable-openmp --with-quantum-depth=16 --without-gslib --with-gs-font-dir=/home/linuxbrew/.linuxbrew/share/ghostscript/fonts --without-x --without-lcms2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall graphene`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/graphene/1.6.0: 77 files, 2.7MB, built in 21 seconds
-==> Determining graphene bottle rebuild...
-==> Bottling graphene-1.6.0.x86_64_linux.bottle.1.tar.gz...
-./graphene-1.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall graphicsmagick`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/graphicsmagick/1.3.27: 488 files, 20.1MB, built in 50 seconds
+==> Determining graphicsmagick bottle rebuild...
+==> Bottling graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz is relocatable...
+./graphicsmagick-1.3.27.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "9c573cc522f7aa5115b579b5188e044bd6f5469021d701f780cba93ab9d1e8e9" => :x86_64_linux
+    sha256 "c50317002c8ee768ce5689923bdfdae042fcf40def4a0c5bdfc15bce6555032c" => :x86_64_linux
   end
