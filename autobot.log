@@ -1,6 +1,15 @@
-==> Downloading https://download.microsoft.com/download/A/E/2/AE23B059-5727-445B-91CC-15B7A078A7F4/git-tf-2.0.3.20131219.zip
-==> Caveats
-This release removes support for TFS 2005 and 2008. Use a previous version if needed.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-tf/2.0.3.20131219: 18 files, 14.8MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/Originate/git-town/archive/v5.1.0.tar.gz
+==> Downloading from https://codeload.github.com/Originate/git-town/tar.gz/v5.1.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/git-town/5.1.0/bin/git-town
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall git-town`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-town/5.1.0: 5 files, 10.7MB, built in 3 seconds
+==> Determining git-town bottle rebuild...
+==> Bottling git-town-5.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if git-town-5.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./git-town-5.1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "254d9d1b351fae89eca9e1076c39be19f8cd4387bfd4b83b3c246ac8304cfb7d" => :x86_64_linux
+  end
