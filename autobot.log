@@ -1,4 +1,12 @@
-==> Downloading https://github.com/JElchison/format-udf/archive/1.6.0.tar.gz
-==> Downloading from https://codeload.github.com/JElchison/format-udf/tar.gz/1.6.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/format-udf/1.6.0: 5 files, 79.6KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://www.ibiblio.org/pub/linux/games/amusements/fortune/fortune-mod-9708.tar.gz
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall fortune`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fortune/9708: 118 files, 3.4MB, built in 3 seconds
+==> Determining fortune bottle rebuild...
+==> Bottling fortune-9708.x86_64_linux.bottle.tar.gz...
+==> Detecting if fortune-9708.x86_64_linux.bottle.tar.gz is relocatable...
+./fortune-9708.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "3b98fb6dc88efa66424f0c0eef7aa2b89e22fed47052d86a1e5d49e5db2d72cb" => :x86_64_linux
+  end
