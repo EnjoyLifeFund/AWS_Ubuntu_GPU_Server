@@ -1,16 +1,13 @@
-==> Downloading https://github.com/Cofyc/dnscrypt-wrapper/releases/download/v0.3/dnscrypt-wrapper-v0.3.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6772864/75349538-4be5-11e7-9048-0c5c7a98ff38?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T082948Z&X-Amz-Expires=300&X-Amz-Signature=d8d22079d8caa4c025172051071d5106f284ffd39017dd318b95986d533f75cc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddnscrypt-wrapper-v0.3.tar.bz2&response-content-type=application%2Foctet-stream
-==> make configure
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnscrypt-wrapper/0.3_1
-==> make
-==> make install
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dnsmap/dnsmap-0.30.tar.gz
+==> make CC=gcc-5 CFLAGS= BINDIR=/home/linuxbrew/.linuxbrew/Cellar/dnsmap/0.30/bin install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnscrypt-wrapper`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnscrypt-wrapper/0.3_1: 5 files, 235.2KB, built in 1 minute 18 seconds
-==> Determining dnscrypt-wrapper bottle rebuild...
-==> Bottling dnscrypt-wrapper-0.3_1.x86_64_linux.bottle.1.tar.gz...
-./dnscrypt-wrapper-0.3_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dnsmap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsmap/0.30: 7 files, 143.6KB, built in 11 seconds
+==> Determining dnsmap bottle rebuild...
+==> Bottling dnsmap-0.30.x86_64_linux.bottle.1.tar.gz...
+./dnsmap-0.30.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b23329947ff6cbae65f6822c22b3d66fcda8b0072681cdd33f4e98808287009b" => :x86_64_linux
+    sha256 "c6e80abf84501f47fd25c4cf67084ac301432f9d9f62ccdf50e169342e83aa15" => :x86_64_linux
   end
