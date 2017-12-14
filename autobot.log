@@ -1,14 +1,12 @@
-==> Downloading ftp://ftp.nominum.com/pub/nominum/dnsperf/2.1.0.0/dnsperf-src-2.1.0.0-1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnsperf/2.1.0.0
-==> make install
+==> Downloading http://dns.measurement-factory.com/tools/dnstop/src/dnstop-20140915.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnstop/20140915
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnsperf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsperf/2.1.0.0: 8 files, 19.5MB, built in 58 seconds
-==> Determining dnsperf bottle rebuild...
-==> Bottling dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dnstop`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnstop/20140915: 6 files, 186KB, built in 2 minutes 19 seconds
+==> Determining dnstop bottle rebuild...
+==> Bottling dnstop-20140915.x86_64_linux.bottle.tar.gz...
+./dnstop-20140915.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "84a8ff70892fba89c030cb8dd02c76e770a3e8511161ab1b1573452b305e544c" => :x86_64_linux
+    sha256 "05a23ca2f52c89916285f7f36b29ef200a571028fbbbacec3a2bcfbcc08fddf7" => :x86_64_linux
   end
