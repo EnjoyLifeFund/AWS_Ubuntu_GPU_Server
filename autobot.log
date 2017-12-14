@@ -1,8 +1,15 @@
-==> Determining flac bottle rebuild...
-==> Bottling flac-1.3.2.x86_64_linux.bottle.1.tar.gz...
-./flac-1.3.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/flac-tools/flac123/flac123-0.0.12-release.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/flac-tools/flac123/flac123-0.0.12-release.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/flac123/0.0.12
+==> make install CC=gcc-5 ACLOCAL=${SHELL} /tmp/flac123-20171214-7227-1gbc1mq/flac123-0.0.12/missing --run aclocal AUTOMAKE=${SHELL} /tmp/flac123-20171214-7227-1gbc1mq/flac123-0.0.12/missing --run automake
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall flac123`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flac123/0.0.12: 8 files, 62.7KB, built in 5 seconds
+==> Determining flac123 bottle rebuild...
+==> Bottling flac123-0.0.12.x86_64_linux.bottle.1.tar.gz...
+./flac123-0.0.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d281fc3d5f8ee8dfa26c1f12de0d08c5626443a472a51903aa2056ff89d99d82" => :x86_64_linux
+    sha256 "d0306fbacfd21bc4a16077c21cf4884f293a8909465595f288cdeca670a34daf" => :x86_64_linux
   end
