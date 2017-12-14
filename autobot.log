@@ -1,18 +1,13 @@
-==> Downloading https://ftp.exim.org/pub/exim/exim4/exim-4.89.1.tar.bz2
-==> make
-==> make INSTALL_ARG=-no_chown install
+==> Downloading http://www.exiv2.org/builds/exiv2-0.26-trunk.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exiv2/0.26
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall exim`
-==> Caveats
-Start with:
-  exim_ctl start
-Don't forget to run it as root to be able to bind port 25.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exim/4.89.1: 27 files, 1.7MB, built in 21 seconds
-==> Determining exim bottle rebuild...
-==> Bottling exim-4.89.1.x86_64_linux.bottle.1.tar.gz...
-./exim-4.89.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall exiv2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exiv2/0.26: 71 files, 14.1MB, built in 24 seconds
+==> Determining exiv2 bottle rebuild...
+==> Bottling exiv2-0.26.x86_64_linux.bottle.tar.gz...
+==> Detecting if exiv2-0.26.x86_64_linux.bottle.tar.gz is relocatable...
+./exiv2-0.26.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "31a60fd775a946cbe2ef9d50b497952ba864a05315e959686d2ef86b1a5edeb6" => :x86_64_linux
+    sha256 "c2f465b7aa4325923ea88e17ac2ee90733616b8e316a815cada644e48e66d613" => :x86_64_linux
   end
