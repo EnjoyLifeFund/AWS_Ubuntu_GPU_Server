@@ -1,17 +1,9 @@
-==> Cloning https://github.com/mayflower/docker-ls.git
-==> Checking out tag v0.3.1
-==> go generate github.com/mayflower/docker-ls/lib
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1/bin/docker-ls ./cli/docker-ls
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1/bin/docker-rm ./cli/docker-rm
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docker-ls`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-ls/0.3.1: 7 files, 20.1MB, built in 1 minute 36 seconds
-==> Determining docker-ls bottle rebuild...
-==> Bottling docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker-ls-0.3.1.x86_64_linux.bottle.1.tar.gz
+==> Determining docker-machine bottle rebuild...
+==> Bottling docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker-machine-0.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0026389cf1181820ad46a5138e9896b1ea6715279f7d4495ffca38ee478f694e" => :x86_64_linux
+    sha256 "85a891b4b468fb5af0ec4a4fcea6476c3de2a36a7470620799afb876f3d97350" => :x86_64_linux
   end
