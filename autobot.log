@@ -1,4 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/davmail/davmail/4.8.0/davmail-4.8.0-2479.zip
-==> Downloading from https://cytranet.dl.sourceforge.net/project/davmail/davmail/4.8.0/davmail-4.8.0-2479.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/davmail/4.8.0-2479_1: 23 files, 5.3MB, built in 15 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/dbacl/dbacl/1.14.1/dbacl-1.14.1.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/dbacl/dbacl/1.14.1/dbacl-1.14.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dbacl/1.14.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dbacl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dbacl/1.14.1: 98 files, 3.4MB, built in 2 minutes 38 seconds
+==> Determining dbacl bottle rebuild...
+==> Bottling dbacl-1.14.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dbacl-1.14.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dbacl-1.14.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "791b88bd633acd36ab114324493772cd75855d2c5dbe84fc7204c193f221a161" => :x86_64_linux
+  end
