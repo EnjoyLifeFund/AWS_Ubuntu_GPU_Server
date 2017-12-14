@@ -1,12 +1,1 @@
-==> Downloading https://github.com/tihirvon/dex/archive/v1.0.tar.gz
-==> Downloading from https://codeload.github.com/tihirvon/dex/tar.gz/v1.0
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/dex/1.0 CC=gcc-5 HOST_CC=gcc-5
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dex/1.0: 37 files, 1.1MB, built in 3 minutes 6 seconds
-==> Determining dex bottle rebuild...
-==> Bottling dex-1.0.x86_64_linux.bottle.tar.gz...
-./dex-1.0.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "551fd305821579011ffc82ab6b325fbb3a155450b0d55630babffa70640e3b37" => :x86_64_linux
-  end
+This formula doesn't require compiling.
