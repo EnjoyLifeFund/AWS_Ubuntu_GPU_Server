@@ -1,19 +1,14 @@
-==> Downloading https://pypi.python.org/packages/source/g/goolabs/goolabs-0.3.0.tar.gz
-==> Downloading https://pypi.python.org/packages/source/s/six/six-1.10.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://pypi.python.org/packages/source/c/click/click-6.3.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://pypi.python.org/packages/source/r/requests/requests-2.9.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://github.com/pressly/goose/archive/v2.1.0.tar.gz
+==> Downloading from https://codeload.github.com/pressly/goose/tar.gz/v2.1.0
+==> dep ensure
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0/bin/goose .../cmd/goose
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall goolabs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/goolabs/0.3.0: 229 files, 2.9MB, built in 2 seconds
-==> Determining goolabs bottle rebuild...
-==> Bottling goolabs-0.3.0.x86_64_linux.bottle.1.tar.gz...
-./goolabs-0.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall goose`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0: 5 files, 11MB, built in 37 seconds
+==> Determining goose bottle rebuild...
+==> Bottling goose-2.1.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if goose-2.1.0.x86_64_linux.bottle.tar.gz is relocatable...
+./goose-2.1.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "af3cbaa7e2bdf310b377cb640967a47112db1320ac06972fb92fda24901944d8" => :x86_64_linux
+    sha256 "bd9287957470fe63b6f7c98780e00c25b99a0ff34181924bc1d99ecc348aec4e" => :x86_64_linux
   end
