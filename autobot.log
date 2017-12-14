@@ -1,14 +1,12 @@
-==> Downloading https://github.com/ethereum/go-ethereum/archive/v1.7.3.tar.gz
-==> Downloading from https://codeload.github.com/ethereum/go-ethereum/tar.gz/v1.7.3
-==> make all
+==> Downloading http://pyropus.ca/software/getmail/old-versions/getmail-5.4.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall geth`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/geth/1.7.3: 16 files, 208.4MB, built in 24 seconds
-==> Determining geth bottle rebuild...
-==> Bottling geth-1.7.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if geth-1.7.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./geth-1.7.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall getmail`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/getmail/5.4: 29 files, 317.7KB, built in 1 second
+==> Determining getmail bottle rebuild...
+==> Bottling getmail-5.4.x86_64_linux.bottle.1.tar.gz...
+./getmail-5.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1caa0ef9d99260b61e57141c7c1c73471a9a4f3cac28d2b6584082add734cb43" => :x86_64_linux
+    sha256 "62c45ae29239b55fa9fc1dd99565f94f131b728f54eb1ff3a67512aa7e79f52c" => :x86_64_linux
   end
