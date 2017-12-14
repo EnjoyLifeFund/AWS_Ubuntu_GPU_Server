@@ -1,4 +1,19 @@
-==> Downloading https://github.com/arzzen/git-quick-stats/archive/1.0.9.tar.gz
-==> Downloading from https://codeload.github.com/arzzen/git-quick-stats/tar.gz/1.0.9
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-quick-stats/1.0.9: 5 files, 31.5KB, built in 0 seconds
+==> Downloading https://github.com/paulirish/git-recent/archive/v1.0.3.tar.gz
+==> Downloading from https://codeload.github.com/paulirish/git-recent/tar.gz/v1.0.3
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/git-recent
+Target /home/linuxbrew/.linuxbrew/bin/git-recent
+is a symlink belonging to git-plus. You can unlink it:
+  brew unlink git-plus
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite git-recent
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run git-recent
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/git-recent -> /home/linuxbrew/.linuxbrew/Cellar/git-plus/0.3.1/bin/git-recent
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-recent/1.0.3: 4 files, 15.7KB, built in 1 second
 This formula doesn't require compiling.
