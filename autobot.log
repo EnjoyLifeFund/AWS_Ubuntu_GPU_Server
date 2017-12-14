@@ -1,15 +1,16 @@
-==> Downloading ftp://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz
-==> Downloading ftp://ftp.figlet.org/pub/figlet/fonts/contributed.tar.gz
-==> Downloading ftp://ftp.figlet.org/pub/figlet/fonts/international.tar.gz
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/figlet/2.2.5 DEFAULTFONTDIR=/home/linuxbrew/.linuxbrew/Cellar/figlet/2.2.5/share/figlet/fonts MANDIR=/home/linuxbrew/.linuxbrew/Cellar/figlet/2.2.5/share/man install
+==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
+==> Patching
+patching file src/Makefile.in
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/file-formula/5.32
+==> make install-exec
+==> make -C doc install-man1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall figlet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/figlet/2.2.5: 677 files, 9.6MB, built in 22 seconds
-==> Determining figlet bottle rebuild...
-==> Bottling figlet-2.2.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if figlet-2.2.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./figlet-2.2.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall file-formula`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/file-formula/5.32: 10 files, 148.0KB, built in 17 seconds
+==> Determining file-formula bottle rebuild...
+==> Bottling file-formula-5.32.x86_64_linux.bottle.1.tar.gz...
+./file-formula-5.32.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a2a39e9608d1188df737f60014f8ca8d7777b2b3661ea10c3c9f3ccdcd8ce048" => :x86_64_linux
+    sha256 "8573ce824e2c95d2facd570a8d87e4a93ab21f7f84e72ebf94838f8b34cf20d6" => :x86_64_linux
   end
