@@ -1,12 +1,15 @@
-==> Downloading https://www.vanheusden.com/genstats/genstats-1.2.tgz
-==> make
+==> Downloading https://downloads.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz
+==> cmake .. -DCMAKE_OSX_SYSROOT= -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/geographiclib/1.49 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall genstats`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/genstats/1.2: 5 files, 174.2KB, built in 4 seconds
-==> Determining genstats bottle rebuild...
-==> Bottling genstats-1.2.x86_64_linux.bottle.1.tar.gz...
-./genstats-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall geographiclib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/geographiclib/1.49: 189 files, 3.4MB, built in 12 seconds
+==> Determining geographiclib bottle rebuild...
+==> Bottling geographiclib-1.49.x86_64_linux.bottle.1.tar.gz...
+./geographiclib-1.49.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "95a76fab1885fe3b12850c383d6e460f558bcd98676db0199921e6e2d6238506" => :x86_64_linux
+    sha256 "6e44fc964bd3ad029ace60eaf61fb1f01789a20d7086e65139f3a360971ea1bb" => :x86_64_linux
   end
