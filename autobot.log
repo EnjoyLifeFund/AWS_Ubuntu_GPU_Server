@@ -1,4 +1,17 @@
-==> Downloading https://dl.bintray.com/jeremy-long/owasp/dependency-check-3.0.2-release.zip
-==> unzip -o /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2/libexec/repo/org/owasp/dependency-check-core/3.0.2/dependency-check-core-3.0.2.jar dependencycheck.properties -d /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2/libexec/etc
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dependency-check/3.0.2: 45 files, 14.0MB, built in 19 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/lonsing/depqbf/archive/version-6.03.tar.gz
+==> Downloading from https://codeload.github.com/lonsing/depqbf/tar.gz/version-6.03
+==> Downloading https://github.com/lonsing/nenofex/archive/version-1.1.tar.gz
+==> Downloading from https://codeload.github.com/lonsing/nenofex/tar.gz/version-1.1
+==> Downloading http://fmv.jku.at/picosat/picosat-960.tar.gz
+==> ./compile.sh
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall depqbf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/depqbf/6.03: 8 files, 1.2MB, built in 3 minutes 9 seconds
+==> Determining depqbf bottle rebuild...
+==> Bottling depqbf-6.03.x86_64_linux.bottle.1.tar.gz...
+./depqbf-6.03.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7562e88a5a3e8fea323ce6598dc5dc6e3fa675ccc984287c20f5a2b8cb836b56" => :x86_64_linux
+  end
