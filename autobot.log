@@ -1,14 +1,19 @@
-==> Downloading https://downloads.sourceforge.net/project/dfu-util/dfu-util-0.9.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/dfu-util/dfu-util-0.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dfu-util/0.9
+==> Downloading https://downloads.sourceforge.net/project/dgen/dgen/1.33/dgen-sdl-1.33.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/dgen/dgen/1.33/dgen-sdl-1.33.tar.gz
+==> ./configure --disable-silent-rules --disable-sdltest --prefix=/home/linuxbrew/.linuxbrew/Cellar/dgen/1.33
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dfu-util`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dfu-util/0.9: 11 files, 272.2KB, built in 1 minute 26 seconds
-==> Determining dfu-util bottle rebuild...
-==> Bottling dfu-util-0.9.x86_64_linux.bottle.1.tar.gz...
-./dfu-util-0.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dgen`
+==> Caveats
+If some keyboard inputs do not work, try modifying configuration:
+  ~/.dgen/dgenrc
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dgen/1.33: 12 files, 8.0MB, built in 12 minutes 9 seconds
+==> Determining dgen bottle rebuild...
+==> Bottling dgen-1.33.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dgen-1.33.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dgen-1.33.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "79b1dcf3e03e524a59268f1e45ad262d07544f281853024ac9933c9818cf03cc" => :x86_64_linux
+    sha256 "2a06e8fe4c613d208e82e582f79265001254311151c63620b367917226ffa507" => :x86_64_linux
   end
