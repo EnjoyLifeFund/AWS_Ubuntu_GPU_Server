@@ -1,14 +1,18 @@
-==> Downloading https://github.com/pressly/goose/archive/v2.1.0.tar.gz
-==> Downloading from https://codeload.github.com/pressly/goose/tar.gz/v2.1.0
-==> dep ensure
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0/bin/goose .../cmd/goose
+==> Downloading https://www.justwatch.com/gopass/releases/1.6.3/gopass-1.6.3.tar.gz
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall goose`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0: 5 files, 11MB, built in 37 seconds
-==> Determining goose bottle rebuild...
-==> Bottling goose-2.1.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if goose-2.1.0.x86_64_linux.bottle.tar.gz is relocatable...
-./goose-2.1.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall gopass`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gopass/1.6.3: 7 files, 9.5MB, built in 8 seconds
+==> Determining gopass bottle rebuild...
+==> Bottling gopass-1.6.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gopass-1.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gopass-1.6.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "bd9287957470fe63b6f7c98780e00c25b99a0ff34181924bc1d99ecc348aec4e" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1a770e5f6c0c3aca224bb45bf0b6bb0fe3feca0d4904e537d1bba844b56b4317" => :x86_64_linux
   end
