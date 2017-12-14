@@ -1,17 +1,25 @@
-==> Downloading https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.108.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dbus-glib/0.108
+==> Installing dependencies for dbxml: xqilla
+==> Installing dbxml dependency: xqilla
+==> Downloading https://linuxbrew.bintray.com/bottles/xqilla-2.3.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring xqilla-2.3.3_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xqilla/2.3.3_1: 404 files, 19.7MB
+==> Installing dbxml
+==> Downloading http://download.oracle.com/berkeley-db/dbxml-6.1.4.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/master/dbxml/c%2B%2B11.patch
+==> Patching
+==> Applying c%2B%2B11.patch
+File dbxml/src/dbxml/nodeStore/NsUpdate.cpp is read-only; trying to patch anyway
+patching file dbxml/src/dbxml/nodeStore/NsUpdate.cpp
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dbxml/6.1.4_1 --with-xqilla=/home/linuxbrew/.linuxbrew/opt/xqilla --with-xerces=/home/linuxbrew/.linuxbrew/opt/xerces-c --with-berkeleydb=/home/linuxbrew/.linuxbrew/opt/berkeley-db
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dbus-glib`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dbus-glib/0.108: 44 files, 2.9MB, built in 3 minutes 44 seconds
-==> Determining dbus-glib bottle rebuild...
-==> Bottling dbus-glib-0.108.x86_64_linux.bottle.1.tar.gz...
-./dbus-glib-0.108.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dbxml`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dbxml/6.1.4_1: 38 files, 11.9MB, built in 9 minutes 56 seconds
+==> Determining dbxml bottle rebuild...
+==> Bottling dbxml-6.1.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dbxml-6.1.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dbxml-6.1.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "81e4c1fefc16a6e6fd58029c59e7d4a6546a6d85fd0d6af444f4900ba750d827" => :x86_64_linux
+    sha256 "46ecb5b326bf12819d356fb8313dcbac38e2370b944dd441523df30a31fdcc3b" => :x86_64_linux
   end
