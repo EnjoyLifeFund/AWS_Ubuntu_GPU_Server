@@ -1,23 +1,20 @@
-==> Downloading https://dl.bintray.com/homebrew/mirror/dpkg-1.19.0.4.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/dpkg/1.19.0.4/libexec --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-dselect --disable-start-stop-daemon
-==> make
-==> make install
+==> Installing dependencies for dps8m: libuv
+==> Installing dps8m dependency: libuv
+==> Downloading https://linuxbrew.bintray.com/bottles/libuv-1.18.0.x86_64_linux.bottle.tar.gz
+==> Pouring libuv-1.18.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libuv/1.18.0: 56 files, 4.6MB
+==> Installing dps8m
+==> Downloading https://downloads.sourceforge.net/project/dps8m/Release%201.0/source.tgz
+==> Downloading from https://iweb.dl.sourceforge.net/project/dps8m/Release%201.0/source.tgz
+==> make INSTALL_ROOT=/home/linuxbrew/.linuxbrew/Cellar/dps8m/1.0 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dpkg`
-==> Caveats
-This installation of dpkg is not configured to install software, so
-commands such as `dpkg -i`, `dpkg --configure` will fail.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dpkg/1.19.0.4: 332 files, 14.8MB, built in 9 minutes 47 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/science).
-No changes to formulae.
-
-==> Determining dpkg bottle rebuild...
-==> Bottling dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dpkg-1.19.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dps8m`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dps8m/1.0: 5 files, 3.9MB, built in 1 minute 40 seconds
+==> Determining dps8m bottle rebuild...
+==> Bottling dps8m-1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dps8m-1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dps8m-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "eb072c8784ebfdfee748083554f53b9bbf7a34e287a2501cc4c30626220c0f29" => :x86_64_linux
+    sha256 "8f4e5be2c63deb319354f7e728a091f26ab6ef5a258bde9bce957ea08a7e2004" => :x86_64_linux
   end
