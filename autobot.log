@@ -1,15 +1,13 @@
-==> Downloading https://bitbucket.org/mhulden/foma/downloads/foma-0.9.18.tar.gz
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/mhulden/foma/downloads/foma-0.9.18.tar.gz?Signature=C24SIcYxeRMBAch3Ok6T%2BpI7GLI%3D&Expires=1513269420&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22foma-0.9.18.tar.gz%22
-==> make
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/foma/0.9.18
+==> Downloading https://fondu.sourceforge.io/fondu_src-060102.tgz
+==> Downloading from http://fondu.sourceforge.net/fondu_src-060102.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fondu/060102 --exec-prefix=/home/linuxbrew/.linuxbrew/Cellar/fondu/060102
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall foma`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/foma/0.9.18: 14 files, 1.8MB, built in 4 seconds
-==> Determining foma bottle rebuild...
-==> Bottling foma-0.9.18.x86_64_linux.bottle.1.tar.gz...
-./foma-0.9.18.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fondu`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fondu/060102: 19 files, 397.9KB, built in 3 seconds
+==> Determining fondu bottle rebuild...
+==> Bottling fondu-060102.x86_64_linux.bottle.tar.gz...
+./fondu-060102.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "96dab58190d5dbb3e8d4dbf015b409c2a6fde50c18d6ff9e55830da24f2532a9" => :x86_64_linux
+    sha256 "6baf5af39fbfe837e67762b0bd9fa529031385b66d66eb5065748e0504ef4fd9" => :x86_64_linux
   end
