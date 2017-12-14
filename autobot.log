@@ -1,8 +1,46 @@
-==> Determining ffmpeg bottle rebuild...
-==> Bottling ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ffmpeg-3.4.1.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for ffmpeg@2.8: libvo-aacenc
+==> Installing ffmpeg@2.8 dependency: libvo-aacenc
+==> Downloading https://linuxbrew.bintray.com/bottles/libvo-aacenc-0.1.3.x86_64_linux.bottle.tar.gz
+==> Pouring libvo-aacenc-0.1.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libvo-aacenc/0.1.3: 18 files, 1.4MB
+==> Installing ffmpeg@2.8
+==> Downloading https://ffmpeg.org/releases/ffmpeg-2.8.13.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ffmpeg@2.8/2.8.13 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=gcc-5 --host-cflags= --host-ldflags= --enable-libx264 --enable-libmp3lame --enable-libvo-aacenc --enable-libxvid --enable-vda
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ffmpeg@2.8`
+==> Caveats
+FFmpeg has been built without libfaac for licensing reasons;
+libvo-aacenc is used by default.
+To install with libfaac, you can:
+  brew reinstall ffmpeg28 --with-faac
+
+You can also use the experimental FFmpeg encoder, libfdk-aac, or
+libvo_aacenc to encode AAC audio:
+  ffmpeg -i input.wav -c:a aac -strict experimental output.m4a
+Or:
+  brew reinstall ffmpeg28 --with-fdk-aac
+  ffmpeg -i input.wav -c:a libfdk_aac output.m4a
+
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/ffmpeg@2.8/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/ffmpeg@2.8/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/ffmpeg@2.8/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/ffmpeg@2.8/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ffmpeg@2.8/2.8.13: 233 files, 187.8MB, built in 2 minutes
+==> Determining ffmpeg@2.8 bottle rebuild...
+==> Bottling ffmpeg@2.8-2.8.13.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ffmpeg@2.8-2.8.13.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ffmpeg@2.8-2.8.13.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c437ebfcc045d6c3d72407c3cdf5269ffeff88ee6b28c00530fa40febd964cae" => :x86_64_linux
+    sha256 "2898c0b6f11441e7d7c892dd6853366cad575ca76f167134087a87ecc048b56c" => :x86_64_linux
   end
