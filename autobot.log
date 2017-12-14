@@ -1,15 +1,21 @@
-==> Downloading https://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz
-==> Downloading from http://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gl2ps/1.4.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gl2ps`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gl2ps/1.4.0: 14 files, 606.3KB, built in 8 seconds
-==> Determining gl2ps bottle rebuild...
-==> Bottling gl2ps-1.4.0.x86_64_linux.bottle.1.tar.gz...
-./gl2ps-1.4.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "765d41d536ff6ef0405471a167b41455f8057a62f081d1224b533b32c0f8baa6" => :x86_64_linux
-  end
+==> Downloading http://download.oracle.com/glassfish/5.0/release/glassfish-5.0.zip
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/asadmin
+Target /home/linuxbrew/.linuxbrew/bin/asadmin
+already exists. You may want to remove it:
+  rm '/home/linuxbrew/.linuxbrew/bin/asadmin'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite glassfish
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run glassfish
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/asadmin
+==> Caveats
+You may want to add the following to your .bash_profile:
+  export GLASSFISH_HOME=/home/linuxbrew/.linuxbrew/opt/glassfish/libexec
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glassfish/5.0: 1,021 files, 137.6MB, built in 19 seconds
+This formula doesn't require compiling.
