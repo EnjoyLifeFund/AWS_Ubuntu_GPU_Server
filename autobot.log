@@ -1,15 +1,14 @@
-==> Downloading https://github.com/FLIF-hub/FLIF/archive/v0.3.tar.gz
-==> Downloading from https://codeload.github.com/FLIF-hub/FLIF/tar.gz/v0.3
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flif/0.3 install install-dev
+==> Downloading http://fltk.org/pub/fltk/1.3.4/fltk-1.3.4-source.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fltk/1.3.4_1 --enable-threads --enable-shared
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flif`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flif/0.3: 15 files, 5.3MB, built in 50 seconds
-==> Determining flif bottle rebuild...
-==> Bottling flif-0.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if flif-0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./flif-0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fltk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fltk/1.3.4_1: 328 files, 7.3MB, built in 21 seconds
+==> Determining fltk bottle rebuild...
+==> Bottling fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fltk-1.3.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bb23db8899c01551067f5616b2ba7a3ac6721299e0ebd8139788ad3d7362b209" => :x86_64_linux
+    sha256 "3b2b9084c88bf1aac39c78fc6e50ac11604e9d4a60211810407f1c21d5501a7c" => :x86_64_linux
   end
