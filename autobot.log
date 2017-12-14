@@ -1,7 +1,17 @@
-==> Determining graphviz bottle rebuild...
-==> Bottling graphviz-2.40.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if graphviz-2.40.1.x86_64_linux.bottle.tar.gz is relocatable...
-./graphviz-2.40.1.x86_64_linux.bottle.tar.gz
+==> Downloading http://www.catb.org/~esr/greed/greed-4.2.tar.gz
+==> make SFILE=/home/linuxbrew/.linuxbrew/var/greed/greed.hs
+==> make install BIN=/home/linuxbrew/.linuxbrew/Cellar/greed/4.2/bin
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall greed`
+==> Caveats
+High scores will be stored in the following location:
+  /home/linuxbrew/.linuxbrew/var/greed/greed.hs
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/greed/4.2: 7 files, 72.5KB, built in 1 second
+==> Determining greed bottle rebuild...
+==> Bottling greed-4.2.x86_64_linux.bottle.1.tar.gz...
+./greed-4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8dbc9aca2d643299e00fe031222cc4dd65f603fff32a14058abaa12d22488794" => :x86_64_linux
+    rebuild 1
+    sha256 "5cbf9759c9b9e5b29d0b9e0a43ed0dc63603b122480ede26fa917544d4071cc9" => :x86_64_linux
   end
