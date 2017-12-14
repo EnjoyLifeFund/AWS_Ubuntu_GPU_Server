@@ -1,25 +1,33 @@
+==> Cloning https://github.com/justone/dockviz.git
+==> Checking out tag v0.5.0
+==> Cloning https://github.com/Sirupsen/logrus.git
+==> Checking out revision f3cfb454f4c209e6668c95216c4744b8fddb2356
 ==> Cloning https://github.com/docker/docker.git
-==> Checking out tag v1.7.1
-==> hack/make.sh dynbinary
+==> Checking out revision 1704914d7cf8318a69ba9712f664cd031b6e61f6
+==> Cloning https://github.com/docker/engine-api.git
+==> Checking out revision de0bc7ec1a2b90b7191e63d3d6f06833188bbd85
+==> Cloning https://github.com/docker/go-units.git
+==> Checking out revision f2d77a61e3c169b43402a0a1e84f06daf29b8190
+==> Cloning https://github.com/fsouza/go-dockerclient.git
+==> Checking out revision 3c8f092cb1e9d1e18a07c1d05d993e69a6676097
+==> Cloning https://github.com/hashicorp/go-cleanhttp.git
+==> Checking out revision ad28ea4487f05916463e2423a55166280e8254b5
+==> Cloning https://github.com/jessevdk/go-flags.git
+==> Checking out revision b9b882a3990882b05e02765f5df2cd3ad02874ee
+==> Cloning https://github.com/opencontainers/runc.git
+==> Checking out revision 42dfd606437b538ffde4f0640d433916bee928e3
+==> Cloning https://go.googlesource.com/net.git
+==> Checking out branch master
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/dockviz/0.5.0/bin/dockviz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docker@1.71`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/docker@1.71/bin:$PATH"' >> ~/.bash_profile
-
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker@1.71/1.7.1: 10 files, 7.3MB, built in 3 minutes 35 seconds
-==> Determining docker@1.71 bottle rebuild...
-==> Bottling docker@1.71-1.7.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if docker@1.71-1.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./docker@1.71-1.7.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dockviz`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dockviz/0.5.0: 5 files, 8.2MB, built in 4 minutes 42 seconds
+==> Determining dockviz bottle rebuild...
+==> Bottling dockviz-0.5.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dockviz-0.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dockviz-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5c972cb9656f8f311e0cae05b674d89f6f2e26332970d4fcec8999c2b1f6b6e3" => :x86_64_linux
+    sha256 "ec1a10530239bfdea114deb0a4971c5edde8c70aabdaf35ed350286637a1069d" => :x86_64_linux
   end
