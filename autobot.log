@@ -1,14 +1,7 @@
-==> Downloading https://ftp.gnu.org/gnu/gnugo/gnugo-3.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-go/3.8_1 --with-readline
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-go`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-go/3.8_1: 14 files, 10.4MB, built in 14 seconds
-==> Determining gnu-go bottle rebuild...
-==> Bottling gnu-go-3.8_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnu-go-3.8_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnu-go-3.8_1.x86_64_linux.bottle.1.tar.gz
+==> Determining gnu-indent bottle rebuild...
+==> Bottling gnu-indent-2.2.10.x86_64_linux.bottle.1.tar.gz...
+./gnu-indent-2.2.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "82d7bdd056b8ec46124d4ba39503ebe32affa624658a5bb31eaff8169bceb3aa" => :x86_64_linux
+    sha256 "8d1d6253c6a43ef37b5aea244c7e3ebc6b752ae4dfe7d2a0526435d0de850986" => :x86_64_linux
   end
