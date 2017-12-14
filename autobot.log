@@ -1,17 +1,4 @@
-==> Downloading https://github.com/lonsing/depqbf/archive/version-6.03.tar.gz
-==> Downloading from https://codeload.github.com/lonsing/depqbf/tar.gz/version-6.03
-==> Downloading https://github.com/lonsing/nenofex/archive/version-1.1.tar.gz
-==> Downloading from https://codeload.github.com/lonsing/nenofex/tar.gz/version-1.1
-==> Downloading http://fmv.jku.at/picosat/picosat-960.tar.gz
-==> ./compile.sh
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall depqbf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/depqbf/6.03: 8 files, 1.2MB, built in 3 minutes 9 seconds
-==> Determining depqbf bottle rebuild...
-==> Bottling depqbf-6.03.x86_64_linux.bottle.1.tar.gz...
-./depqbf-6.03.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "7562e88a5a3e8fea323ce6598dc5dc6e3fa675ccc984287c20f5a2b8cb836b56" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-bin.tar.gz
+==> Best Mirror http://mirror.metrocast.net/apache/db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-bin.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/derby/10.14.1.0: 1,654 files, 34.2MB, built in 30 seconds
+This formula doesn't require compiling.
