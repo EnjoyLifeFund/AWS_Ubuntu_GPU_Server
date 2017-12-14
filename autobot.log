@@ -1,14 +1,11 @@
-==> Downloading https://www.prevanders.net/libdwarf-20170709.tar.gz
-==> ./configure
-==> make
+==> Downloading http://siag.nu/pub/dwatch/dwatch-0.1.1.tar.gz
+==> make install CC=gcc-5 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1/share/man ETCDIR=/home/linuxbrew/.linuxbrew/etc
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dwarfutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dwarfutils/20170709: 10 files, 4.6MB, built in 38 seconds
-==> Determining dwarfutils bottle rebuild...
-==> Bottling dwarfutils-20170709.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dwarfutils-20170709.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dwarfutils-20170709.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dwatch`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dwatch/0.1.1: 8 files, 70.6KB, built in 1 second
+==> Determining dwatch bottle rebuild...
+==> Bottling dwatch-0.1.1.x86_64_linux.bottle.tar.gz...
+./dwatch-0.1.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "00d7636b013c7f1410d86cb7943bc5675e4552812de94cc374329a59891f1592" => :x86_64_linux
+    sha256 "3d88554fd9eed863788c8b2506c9a6d9f5d89682ed7924b124212cfa5dc5dd99" => :x86_64_linux
   end
