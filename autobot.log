@@ -1,15 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/gaffitter/gaffitter/1.0.0/gaffitter-1.0.0.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/gaffitter/gaffitter/1.0.0/gaffitter-1.0.0.tar.gz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gaffitter/1.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gaffitter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gaffitter/1.0.0: 6 files, 601.4KB, built in 6 seconds
-==> Determining gaffitter bottle rebuild...
-==> Bottling gaffitter-1.0.0.x86_64_linux.bottle.1.tar.gz...
-./gaffitter-1.0.0.x86_64_linux.bottle.1.tar.gz
+==> Determining glibmm bottle rebuild...
+==> Bottling glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glibmm-2.54.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "901a363b8315a15d0d7d0f16106aced122c4d1bead8d9041c441c2b7f02bc763" => :x86_64_linux
+    sha256 "db3409e6fe856648b0cc62180606bb3a311c8eece7a68c0c5dcdd27418f29e9b" => :x86_64_linux
   end
