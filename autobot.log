@@ -1,13 +1,20 @@
-==> Downloading https://www.w3.org/Tools/eot-utils/eot-utilities-1.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/eot-utils/1.1
+==> Installing dependencies for epeg: libexif
+==> Installing epeg dependency: libexif
+==> Downloading https://linuxbrew.bintray.com/bottles/libexif-0.6.21.x86_64_linux.bottle.1.tar.gz
+==> Pouring libexif-0.6.21.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libexif/0.6.21: 57 files, 3.8MB
+==> Installing epeg
+==> Downloading https://github.com/mattes/epeg/archive/v0.9.2.tar.gz
+==> Downloading from https://codeload.github.com/mattes/epeg/tar.gz/v0.9.2
+==> ./autogen.sh --disable-debug --disable-dependency-tracking --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/epeg/0.9.2_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eot-utils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/eot-utils/1.1: 11 files, 111.6KB, built in 6 seconds
-==> Determining eot-utils bottle rebuild...
-==> Bottling eot-utils-1.1.x86_64_linux.bottle.1.tar.gz...
-./eot-utils-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall epeg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/epeg/0.9.2_1: 15 files, 201.0KB, built in 13 seconds
+==> Determining epeg bottle rebuild...
+==> Bottling epeg-0.9.2_1.x86_64_linux.bottle.1.tar.gz...
+./epeg-0.9.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a907483dc0d8bfaf17ba0d022605a824915064127689ea7912d0ded5712eded8" => :x86_64_linux
+    sha256 "66690e0196c2eb8b44561366e3e6280a575b7563326cf6d2d57c222a0731b3e9" => :x86_64_linux
   end
