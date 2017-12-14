@@ -1,24 +1,7 @@
-==> Downloading http://gprolog.univ-paris1.fr/gprolog-1.4.4.tar.gz
-==> Downloading https://gist.githubusercontent.com/jacknagel/7549696/raw/3078eef282ca141c95a0bf74396f4248bbe34775/gprolog-clang.patch
-==> Patching
-==> Applying gprolog-clang.patch
-patching file examples/ExamplesFD/langford.pl
-patching file src/BipsPl/arith_inl_c.c
-patching file src/BipsPl/scan_supp.c
-patching file src/BipsPl/stream_c.c
-patching file src/EnginePl/engine1.c
-patching file src/Linedit/terminal.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-prolog/1.4.4 --with-doc-dir=/home/linuxbrew/.linuxbrew/Cellar/gnu-prolog/1.4.4/share/doc/gnu-prolog
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-prolog`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-prolog/1.4.4: 191 files, 13.4MB, built in 32 seconds
-==> Determining gnu-prolog bottle rebuild...
-==> Bottling gnu-prolog-1.4.4.x86_64_linux.bottle.tar.gz...
-==> Detecting if gnu-prolog-1.4.4.x86_64_linux.bottle.tar.gz is relocatable...
-./gnu-prolog-1.4.4.x86_64_linux.bottle.tar.gz
+==> Determining gnu-sed bottle rebuild...
+==> Bottling gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz...
+./gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "da45cd0712009e9878a7a8e3edd0a5a1d9b52473540144cc9788d3c088713b2f" => :x86_64_linux
+    rebuild 1
+    sha256 "eb451a16309aa4cc2d37b1cc66b2718b50e86ae18a9d2b350adc5d00696a447e" => :x86_64_linux
   end
