@@ -1,22 +1,42 @@
-==> Installing dependencies for dmtx-utils: libdmtx
-==> Installing dmtx-utils dependency: libdmtx
-==> Downloading https://linuxbrew.bintray.com/bottles/libdmtx-0.7.4.x86_64_linux.bottle.1.tar.gz
-==> Pouring libdmtx-0.7.4.x86_64_linux.bottle.1.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdmtx/0.7.4: 15 files, 267.4KB
-==> Installing dmtx-utils
-==> Downloading https://github.com/dmtx/dmtx-utils/archive/v0.7.5.tar.gz
-==> Downloading from https://codeload.github.com/dmtx/dmtx-utils/tar.gz/v0.7.5
-==> autoreconf -fiv
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dmtx-utils/0.7.5_3
+==> Installing dependencies for dnscrypt-proxy: libsodium
+==> Installing dnscrypt-proxy dependency: libsodium
+==> Downloading https://linuxbrew.bintray.com/bottles/libsodium-1.0.15.x86_64_linux.bottle.tar.gz
+==> Pouring libsodium-1.0.15.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsodium/1.0.15: 70 files, 5.2MB
+==> Installing dnscrypt-proxy
+==> Downloading https://github.com/jedisct1/dnscrypt-proxy/archive/1.9.5.tar.gz
+==> Downloading from https://codeload.github.com/jedisct1/dnscrypt-proxy/tar.gz/1.9.5
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --enable-plugins --enable-relaxed-plugins-permissions --enable-plugins-root
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dmtx-utils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dmtx-utils/0.7.5_3: 14 files, 30.7MB, built in 4 minutes 16 seconds
-==> Determining dmtx-utils bottle rebuild...
-==> Bottling dmtx-utils-0.7.5_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dmtx-utils-0.7.5_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dmtx-utils-0.7.5_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dnscrypt-proxy`
+==> Caveats
+After starting dnscrypt-proxy, you will need to point your
+local DNS server to 127.0.0.1. You can do this by going to
+System Preferences > "Network" and clicking the "Advanced..."
+button for your interface. You will see a "DNS" tab where you
+can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
+
+By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
+and under the "nobody" user using a random resolver. If you would like to
+change these settings, you will have to edit the configuration file:
+/home/linuxbrew/.linuxbrew/etc/dnscrypt-proxy.conf (e.g., ResolverName, etc.)
+
+To check that dnscrypt-proxy is working correctly, open Terminal and enter the
+following command. Replace en1 with whatever network interface you're using:
+
+    sudo tcpdump -i en1 -vvv 'port 443'
+
+You should see a line in the result that looks like this:
+
+    resolver2.dnscrypt.eu.https
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_1: 33 files, 2.4MB, built in 23 minutes 24 seconds
+==> Determining dnscrypt-proxy bottle rebuild...
+==> Bottling dnscrypt-proxy-1.9.5_1.x86_64_linux.bottle.1.tar.gz...
+./dnscrypt-proxy-1.9.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "cb4c8fed6c435a567d78d006bd61188190b8fa30fce4f8f6a3c0b2b59f5777c7" => :x86_64_linux
+    sha256 "4de93b6c13c49e080c9c7f3a4221254de760a2917bcfd3c4587f0b79534db7e2" => :x86_64_linux
   end
