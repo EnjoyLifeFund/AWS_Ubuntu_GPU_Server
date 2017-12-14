@@ -1,23 +1,14 @@
-==> Downloading https://github.com/howtowhale/dvm/archive/1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/howtowhale/dvm/tar.gz/1.0.0
-==> make VERSION=1.0.0 UPGRADE_DISABLED=true
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/dvorak7min/dvorak7min_1.6.1+repack.orig.tar.gz
+==> make clean
+==> make
+==> make INSTALL=/home/linuxbrew/.linuxbrew/Cellar/dvorak7min/1.6.1/bin install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dvm`
-==> Caveats
-dvm is a shell function, and must be sourced before it can be used.
-Add the following command to your bash profile:
-    [ -f /home/linuxbrew/.linuxbrew/opt/dvm/dvm.sh ] && . /home/linuxbrew/.linuxbrew/opt/dvm/dvm.sh
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dvm/1.0.0: 7 files, 7.9MB, built in 7 seconds
-==> Determining dvm bottle rebuild...
-==> Bottling dvm-1.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dvm-1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dvm-1.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dvorak7min`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dvorak7min/1.6.1: 6 files, 80KB, built in 1 second
+==> Determining dvorak7min bottle rebuild...
+==> Bottling dvorak7min-1.6.1.x86_64_linux.bottle.tar.gz...
+./dvorak7min-1.6.1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "ef793deba3eae80c6473c932fc825ee14a2331be6ca430302151b2b6d969ad3d" => :x86_64_linux
+    sha256 "4f5922033d339f004baf5c929f0f1fdd99523f97f27c93884ca82aa54de0bb12" => :x86_64_linux
   end
