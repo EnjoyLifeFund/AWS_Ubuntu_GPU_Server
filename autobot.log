@@ -1,4 +1,15 @@
-==> Downloading https://github.com/adlogix/docker-machine-nfs/archive/0.4.2.tar.gz
-==> Downloading from https://codeload.github.com/adlogix/docker-machine-nfs/tar.gz/0.4.2
-🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-machine-nfs/0.4.2: 5 files, 29.3KB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/docker/swarm/archive/v1.2.8.tar.gz
+==> Downloading from https://codeload.github.com/docker/swarm/tar.gz/v1.2.8
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/docker-swarm/1.2.8/bin/docker-swarm
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall docker-swarm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/docker-swarm/1.2.8: 5 files, 21.7MB, built in 1 minute 51 seconds
+==> Determining docker-swarm bottle rebuild...
+==> Bottling docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker-swarm-1.2.8.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c2647d256f82a896b12f85d068e79f257706938f4f970cc00b7130ab765b9638" => :x86_64_linux
+  end
