@@ -1,15 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/open-cobol/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/open-cobol/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
-==> aclocal
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-cobol/1.1_5 --infodir=/home/linuxbrew/.linuxbrew/Cellar/gnu-cobol/1.1_5/share/info --with-libiconv-prefix=/usr --with-libintl-prefix=/usr --with-cc=gcc-5
+==> Downloading https://ftp.gnu.org/gnu/complexity/complexity-1.10.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-complexity/1.10
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-cobol`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-cobol/1.1_5: 31 files, 1.3MB, built in 21 seconds
-==> Determining gnu-cobol bottle rebuild...
-==> Bottling gnu-cobol-1.1_5.x86_64_linux.bottle.1.tar.gz...
-./gnu-cobol-1.1_5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnu-complexity`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-complexity/1.10: 11 files, 277.7KB, built in 22 seconds
+==> Determining gnu-complexity bottle rebuild...
+==> Bottling gnu-complexity-1.10.x86_64_linux.bottle.1.tar.gz...
+./gnu-complexity-1.10.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d9eaa89546ccfcfceab40df9245c4a7c8659b6a412442548379bad017a520d69" => :x86_64_linux
+    sha256 "1675436ac1845c71c2aa01b78e4886072a3131173d52662d27ad4b7d871c8f16" => :x86_64_linux
   end
