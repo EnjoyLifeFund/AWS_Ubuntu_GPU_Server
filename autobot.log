@@ -1,14 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/gplcver/gplcver/2.12a/gplcver-2.12a.src.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/gplcver/gplcver/2.12a/gplcver-2.12a.src.tar.bz2
-==> make -C src -f makefile.osx
+==> Downloading https://github.com/pote/gpm/archive/v1.4.0.tar.gz
+==> Downloading from https://codeload.github.com/pote/gpm/tar.gz/v1.4.0
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gpm/1.4.0_1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gplcver`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gplcver/2.12a: 7 files, 2MB, built in 3 seconds
-==> Determining gplcver bottle rebuild...
-==> Bottling gplcver-2.12a.x86_64_linux.bottle.1.tar.gz...
-./gplcver-2.12a.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gpm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gpm/1.4.0_1: 5 files, 28KB, built in 0 seconds
+==> Determining gpm bottle rebuild...
+==> Bottling gpm-1.4.0_1.x86_64_linux.bottle.1.tar.gz...
+./gpm-1.4.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "32089f3a1ff688d0fbce3c852bee34d1681ab0ec1c5974a52a4c390759f5d30e" => :x86_64_linux
+    sha256 "aaef9cb6c11998167f26a69f33dc7217f2c56ee97ed8b20bd635038f086e95d1" => :x86_64_linux
   end
