@@ -1,14 +1,14 @@
-==> Downloading http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.2.tar.bz2
-==> ./configure.sh --prefix=/home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2/share/man --with-dl=Both --enable-dl-tag --enable-pandoc-header --enable-superscript
-==> make install.everything
+==> Downloading https://downloads.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall discount`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/discount/2.2.2: 32 files, 646KB, built in 59 seconds
-==> Determining discount bottle rebuild...
-==> Bottling discount-2.2.2.x86_64_linux.bottle.1.tar.gz...
-./discount-2.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall disktype`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/disktype/9: 8 files, 123.4KB, built in 12 seconds
+==> Determining disktype bottle rebuild...
+==> Bottling disktype-9.x86_64_linux.bottle.1.tar.gz...
+./disktype-9.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "72906d3d9638620caf75e4b7655f51c5d2f2dfbb8404d0d7f48fc12a19b942e5" => :x86_64_linux
+    sha256 "df8f9a124928b47b10a17d141d984b4ec71f1eec22687360fd86929766cdda5c" => :x86_64_linux
   end
