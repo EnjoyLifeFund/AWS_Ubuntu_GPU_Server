@@ -1,15 +1,14 @@
-==> Downloading https://github.com/johnkeeping/git-integration/archive/v0.4.tar.gz
-==> Downloading from https://codeload.github.com/johnkeeping/git-integration/tar.gz/v0.4
-==> make install
-==> make install-completion
+==> Cloning https://github.com/iwata/git-now.git
+==> Checking out tag v0.1.1.0
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/git-now/0.1.1.0/libexec install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-integration`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-integration/0.4: 6 files, 59.5KB, built in 0 seconds
-==> Determining git-integration bottle rebuild...
-==> Bottling git-integration-0.4.x86_64_linux.bottle.1.tar.gz...
-./git-integration-0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-now`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-now/0.1.1.0: 12 files, 78.3KB, built in 1 second
+==> Determining git-now bottle rebuild...
+==> Bottling git-now-0.1.1.0.x86_64_linux.bottle.1.tar.gz...
+./git-now-0.1.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "e368d52f3ea386c5f6001686208978b4a9192323e5676fe7f45d24cceb1b50f9" => :x86_64_linux
+    sha256 "cb153741e0d63a3dea2770ae954888030285bd9a0755e6f532e08fc772b42c78" => :x86_64_linux
   end
