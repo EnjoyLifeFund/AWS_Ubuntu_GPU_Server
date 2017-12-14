@@ -1,16 +1,14 @@
-==> Downloading https://github.com/dirkvdb/ffmpegthumbnailer/releases/download/2.2.0/ffmpegthumbnailer-2.2.0.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/32253375/f72bf4c2-6b9a-11e6-9e16-a74aa9bdad53?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T154216Z&X-Amz-Expires=300&X-Amz-Signature=2d62e64c2a0852df583e53c379e5d55c1d595e1e2a595359815fa25161475f8a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dffmpegthumbnailer-2.2.0.tar.bz2&response-content-type=application%2Foctet-stream
-==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ffmpegthumbnailer/2.2.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DENABLE_GIO=ON -DENABLE_THUMBNAILER=ON
-==> make
+==> Downloading https://github.com/FFMS/ffms2/archive/2.23.tar.gz
+==> Downloading from https://codeload.github.com/FFMS/ffms2/tar.gz/2.23
+==> ./configure --enable-avresample --prefix=/home/linuxbrew/.linuxbrew/Cellar/ffms2/2.23
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ffmpegthumbnailer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ffmpegthumbnailer/2.2.0_1: 23 files, 452KB, built in 12 seconds
-==> Determining ffmpegthumbnailer bottle rebuild...
-==> Bottling ffmpegthumbnailer-2.2.0_1.x86_64_linux.bottle.1.tar.gz...
-./ffmpegthumbnailer-2.2.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ffms2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ffms2/2.23: 13 files, 2.5MB, built in 12 seconds
+==> Determining ffms2 bottle rebuild...
+==> Bottling ffms2-2.23.x86_64_linux.bottle.1.tar.gz...
+./ffms2-2.23.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "61d8bb81240e141f91fac49cc12ab1e872128322fc1e3c30731016dc8a5c8fac" => :x86_64_linux
+    sha256 "01503c3e72760c3d2108e8fcd5ff8fba1962a3132213db1bb26f03ff5a2fbf11" => :x86_64_linux
   end
