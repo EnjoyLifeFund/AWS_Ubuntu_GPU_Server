@@ -1,14 +1,8 @@
-==> Downloading https://github.com/trivago/gollum/archive/v0.4.5.tar.gz
-==> Downloading from https://codeload.github.com/trivago/gollum/tar.gz/v0.4.5
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/gollum/0.4.5/bin/gollum
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gollum`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gollum/0.4.5: 6 files, 20.9MB, built in 6 seconds
-==> Determining gollum bottle rebuild...
-==> Bottling gollum-0.4.5.x86_64_linux.bottle.tar.gz...
-==> Detecting if gollum-0.4.5.x86_64_linux.bottle.tar.gz is relocatable...
-./gollum-0.4.5.x86_64_linux.bottle.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "838487ec12b0cf0c5c1720a987bd6e2b2091b2eede7a80f974c0d9690b0f1fda" => :x86_64_linux
-  end
+==> Downloading https://bintray.com/artifact/download/golo-lang/downloads/golo-3.2.0.zip
+==> Downloading from https://dl.bintray.com/golo-lang/downloads/golo-3.2.0.zip
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/golo/3.2.0: 75 files, 1.9MB, built in 2 seconds
+This formula doesn't require compiling.
