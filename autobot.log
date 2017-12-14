@@ -1,5 +1,14 @@
-==> Downloading https://raw.githubusercontent.com/Factual/drake/1.0.3/bin/drake-pkg
-==> Downloading https://github.com/Factual/drake/releases/download/1.0.3/drake.jar
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/7800872/6267477a-031b-11e6-894a-27c60f99517b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T132458Z&X-Amz-Expires=300&X-Amz-Signature=841b92f67cd80f3bd795fec8864f28b7622847254dc709d2310dcdf0068b37cf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddrake.jar&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/drake/1.0.3: 4 files, 38MB, built in 16 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/joshb/DromeAudio/archive/v0.3.0.tar.gz
+==> Downloading from https://codeload.github.com/joshb/DromeAudio/tar.gz/v0.3.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dromeaudio/0.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dromeaudio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dromeaudio/0.3.0: 28 files, 494.9KB, built in 55 seconds
+==> Determining dromeaudio bottle rebuild...
+==> Bottling dromeaudio-0.3.0.x86_64_linux.bottle.tar.gz...
+./dromeaudio-0.3.0.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "01b228d586c7ec247c7b2ba6ad7087a6469ca77009b5dbbe7795127dd88f9392" => :x86_64_linux
+  end
