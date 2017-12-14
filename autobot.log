@@ -1,21 +1,16 @@
-==> Downloading http://download.oracle.com/glassfish/5.0/release/glassfish-5.0.zip
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/asadmin
-Target /home/linuxbrew/.linuxbrew/bin/asadmin
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/bin/asadmin'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite glassfish
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run glassfish
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/asadmin
-==> Caveats
-You may want to add the following to your .bash_profile:
-  export GLASSFISH_HOME=/home/linuxbrew/.linuxbrew/opt/glassfish/libexec
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glassfish/5.0: 1,021 files, 137.6MB, built in 19 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/cginternals/glbinding/archive/v2.1.3.tar.gz
+==> Downloading from https://codeload.github.com/cginternals/glbinding/tar.gz/v2.1.3
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/glbinding/2.1.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DGLFW_LIBRARY_RELEASE=
+==> cmake --build . --target install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall glbinding`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glbinding/2.1.3: 356 files, 25MB, built in 17 seconds
+==> Determining glbinding bottle rebuild...
+==> Bottling glbinding-2.1.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glbinding-2.1.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glbinding-2.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1bf231214a98248c4b367ee5a6910dda40e1afeeb85a63f7476f135408b72471" => :x86_64_linux
+  end
