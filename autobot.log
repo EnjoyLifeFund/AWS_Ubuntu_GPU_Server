@@ -1,7 +1,13 @@
-==> Determining grep bottle rebuild...
-==> Bottling grep-3.1.x86_64_linux.bottle.1.tar.gz...
-./grep-3.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://www.pc-tools.net/files/unix/grepcidr-2.0.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grepcidr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grepcidr/2.0: 7 files, 72.9KB, built in 1 second
+==> Determining grepcidr bottle rebuild...
+==> Bottling grepcidr-2.0.x86_64_linux.bottle.1.tar.gz...
+./grepcidr-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "594eb6a47aceb42557ea798e74737c0a0efc20701579adb77501dabde552aa18" => :x86_64_linux
+    sha256 "72f32b4f247338edd045557df1f1d206aae8608d22c6e35c85af299f5bb450a7" => :x86_64_linux
   end
