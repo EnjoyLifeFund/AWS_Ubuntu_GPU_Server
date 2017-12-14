@@ -1,13 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-which/2.21
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-which`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-which/2.21: 9 files, 158.4KB, built in 5 seconds
-==> Determining gnu-which bottle rebuild...
-==> Bottling gnu-which-2.21.x86_64_linux.bottle.1.tar.gz...
-./gnu-which-2.21.x86_64_linux.bottle.1.tar.gz
+==> Determining gnupg bottle rebuild...
+==> Bottling gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6986ebe36fabc348dd38267226f98295bafd02311df7f5ec5fe044e97da0f075" => :x86_64_linux
+    sha256 "abf4d736f987688518c4c72e7213c83bbbbdc1e7eda5579894d69ec1ce33d85e" => :x86_64_linux
   end
