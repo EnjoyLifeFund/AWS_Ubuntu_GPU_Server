@@ -1,8 +1,13 @@
-==> Determining dmd bottle rebuild...
-==> Bottling dmd-2.077.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dmd-2.077.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dmd-2.077.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dl.suckless.org/tools/dmenu-4.7.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dmenu/4.7 install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall dmenu`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dmenu/4.7: 10 files, 76.5KB, built in 35 seconds
+==> Determining dmenu bottle rebuild...
+==> Bottling dmenu-4.7.x86_64_linux.bottle.1.tar.gz...
+./dmenu-4.7.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "36a939b87f9f538172b97f835fbd1b42f3ffdb96116271a5c0cb592b42f83a37" => :x86_64_linux
+    sha256 "6ad5e4e6e8daafec4f59f36231d2b0c304898bd662454445334937a6c58104d0" => :x86_64_linux
   end
