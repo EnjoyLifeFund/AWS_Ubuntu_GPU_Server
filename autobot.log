@@ -1,15 +1,14 @@
-==> Downloading http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.78.tar.gz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dnsmasq/2.78
+==> Downloading ftp://ftp.nominum.com/pub/nominum/dnsperf/2.1.0.0/dnsperf-src-2.1.0.0-1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnsperf/2.1.0.0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnsmasq`
-==> Caveats
-To configure dnsmasq, take the default example configuration at
-  /home/linuxbrew/.linuxbrew/etc/dnsmasq.conf and edit to taste.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsmasq/2.78: 7 files, 673.4KB, built in 1 minute 52 seconds
-==> Determining dnsmasq bottle rebuild...
-==> Bottling dnsmasq-2.78.x86_64_linux.bottle.tar.gz...
-./dnsmasq-2.78.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall dnsperf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnsperf/2.1.0.0: 8 files, 19.5MB, built in 58 seconds
+==> Determining dnsperf bottle rebuild...
+==> Bottling dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dnsperf-2.1.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "bc6d5d9c1fd0bacbd56cfa277352fbf5f1fd7d7fcb1d4b3b29c58806d063caf6" => :x86_64_linux
+    rebuild 1
+    sha256 "84a8ff70892fba89c030cb8dd02c76e770a3e8511161ab1b1573452b305e544c" => :x86_64_linux
   end
