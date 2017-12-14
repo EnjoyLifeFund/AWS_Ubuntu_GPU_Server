@@ -1,8 +1,27 @@
-==> Determining gnupg bottle rebuild...
-==> Bottling gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnupg-2.2.3.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for gnupg-pkcs11-scd: pkcs11-helper
+==> Installing gnupg-pkcs11-scd dependency: pkcs11-helper
+==> Downloading https://github.com/OpenSC/pkcs11-helper/releases/download/pkcs11-helper-1.22/pkcs11-helper-1.22.tar.bz2
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6738820/c9d9fb24-f0b8-11e6-8b4c-6ec1e0ba0c2b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T223614Z&X-Amz-Expires=300&X-Amz-Signature=7af58c3a0038c9b23c6848986e72815b6597003e50c154e161e82739ec7a4038&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dpkcs11-helper-1.22.tar.bz2&response-content-type=application%2Foctet-stream
+==> autoreconf --verbose --install --force
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/pkcs11-helper/1.22
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pkcs11-helper/1.22: 26 files, 1.1MB, built in 23 seconds
+==> Installing gnupg-pkcs11-scd
+==> Downloading https://github.com/alonbl/gnupg-pkcs11-scd/releases/download/gnupg-pkcs11-scd-0.9.1/gnupg-pkcs11-scd-0.9.1.tar.bz2
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2983000/62967504-a257-11e7-9e04-9941d166ab9e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T223638Z&X-Amz-Expires=300&X-Amz-Signature=ac69ea997d5752785e9249a6235426991a0683518fb5f2dc540a1f15cb18a8af&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgnupg-pkcs11-scd-0.9.1.tar.bz2&response-content-type=application%2Foctet-stream
+==> autoreconf -fiv
+==> ./configure --with-libgpg-error-prefix=/home/linuxbrew/.linuxbrew/opt/libgpg-error --with-libassuan-prefix=/home/linuxbrew/.linuxbrew/opt/libassuan --with-libgcrypt-prefix=/home/linuxbrew/.linuxbrew/opt/libgcrypt --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnupg-pkcs11-scd/0.9.1
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnupg-pkcs11-scd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnupg-pkcs11-scd/0.9.1: 11 files, 4.7MB, built in 11 seconds
+==> Determining gnupg-pkcs11-scd bottle rebuild...
+==> Bottling gnupg-pkcs11-scd-0.9.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnupg-pkcs11-scd-0.9.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnupg-pkcs11-scd-0.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "abf4d736f987688518c4c72e7213c83bbbbdc1e7eda5579894d69ec1ce33d85e" => :x86_64_linux
+    sha256 "3e58373f7d913137741397bbb3f274f8f6d5d4fc8994398666aa5b5c5ecfd4aa" => :x86_64_linux
   end
