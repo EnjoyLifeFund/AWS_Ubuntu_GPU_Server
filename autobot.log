@@ -1,30 +1,14 @@
-==> Downloading https://github.com/axboe/fio/archive/fio-3.2.tar.gz
-==> Downloading from https://codeload.github.com/axboe/fio/tar.gz/fio-3.2
-==> ./configure
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/fio/3.2 mandir=/home/linuxbrew/.linuxbrew/Cellar/fio/3.2/share/man sharedir=/home/linuxbrew/.linuxbrew/Cellar/fio/3.2/share CC=gcc-5 V=true install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/fio
-Target /home/linuxbrew/.linuxbrew/bin/fio
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/bin/fio'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite fio
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run fio
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/fio
+==> Downloading https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.16.0.tgz
+==> npm install -ddd --global --build-from-source --cache=/home/ubuntu/.cache/Homebrew/npm_cache --prefix=/home/linuxbrew/.linuxbrew/Cellar/firebase-cli/3.16.0/libexec /tmp/firebase-cli-20171214-122219-1i607dn/package/firebase-tools-3.16.0.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fio`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fio/3.2: 22 files, 5.2MB, built in 8 seconds
-==> Determining fio bottle rebuild...
-==> Bottling fio-3.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fio-3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fio-3.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall firebase-cli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/firebase-cli/3.16.0: 8,975 files, 73.9MB, built in 20 seconds
+==> Determining firebase-cli bottle rebuild...
+==> Bottling firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./firebase-cli-3.16.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "31f8723353a214dc865148a69ce84161b6404813ed1bbbc9f675d455a0aeca89" => :x86_64_linux
+    sha256 "e43586b66020a6cfe749100c58b2b6fce70d1f541f52338402efd15c266e5d69" => :x86_64_linux
   end
