@@ -1,42 +1,13 @@
-==> Installing dependencies for fourstore: raptor, rasqal
-==> Installing fourstore dependency: raptor
-==> Downloading https://linuxbrew.bintray.com/bottles/raptor-2.0.15.x86_64_linux.bottle.tar.gz
-==> Pouring raptor-2.0.15.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/raptor/2.0.15: 119 files, 7MB
-==> Installing fourstore dependency: rasqal
-==> Downloading http://download.librdf.org/source/rasqal-0.9.33.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/rasqal/0.9.33 --with-html-dir=/home/linuxbrew/.linuxbrew/Cellar/rasqal/0.9.33/share/doc
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/rasqal/0.9.33: 65 files, 7MB, built in 31 seconds
-==> Installing fourstore
-==> Downloading https://github.com/garlik/4store/archive/v1.1.6.tar.gz
-==> Downloading from https://github.com/4store/4store/archive/v1.1.6.tar.gz
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fourstore/1.1.6 --with-storage-path=/home/linuxbrew/.linuxbrew/var/fourstore --sysconfdir=/home/linuxbrew/.linuxbrew/etc/fourstore
+==> Downloading https://fping.org/dist/fping-4.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fping/4.0 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/fping/4.0/bin
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fourstore`
-==> Caveats
-Databases will be created at /home/linuxbrew/.linuxbrew/var/fourstore.
-
-Create and start up a database:
-    4s-backend-setup mydb
-    4s-backend mydb
-
-Load RDF data:
-    4s-import mydb datafile.rdf
-
-Start up HTTP SPARQL server without daemonizing:
-    4s-httpd -p 8000 -D mydb
-
-See http://4store.org/trac/wiki/Documentation for more information.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fourstore/1.1.6: 53 files, 10.3MB, built in 4 minutes 50 seconds
-==> Determining fourstore bottle rebuild...
-==> Bottling fourstore-1.1.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fourstore-1.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fourstore-1.1.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fping`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fping/4.0: 6 files, 168.9KB, built in 5 seconds
+==> Determining fping bottle rebuild...
+==> Bottling fping-4.0.x86_64_linux.bottle.1.tar.gz...
+./fping-4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "690c88efdf73c29c5911dbfe43ee38a038a15a39fb7dcf18b54fa1df81d95c75" => :x86_64_linux
+    sha256 "d2b302d93a40c32d6dba87e6221073a918bc522a1aed55ab20e29c4e0c21a156" => :x86_64_linux
   end
