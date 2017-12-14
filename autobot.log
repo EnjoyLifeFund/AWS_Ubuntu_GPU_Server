@@ -1,15 +1,35 @@
-==> Downloading https://downloads.sourceforge.net/project/dar/dar/2.5.13/dar-2.5.13.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/dar/dar/2.5.13/dar-2.5.13.tar.gz
-==> ./configure --enable-mode=64 --disable-dar-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/dar/2.5.13 --disable-build-html --disable-upx --disable-libgcrypt-linking --disable-liblzo2-linking --disable-libxz-linking
-==> make install
+==> Installing dependencies for darcs: ghc@8.0
+==> Installing darcs dependency: ghc@8.0
+==> Downloading https://linuxbrew.bintray.com/bottles/ghc@8.0-8.0.2.x86_64_linux.bottle.tar.gz
+==> Pouring ghc@8.0-8.0.2.x86_64_linux.bottle.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ghc@8.0/8.0.2/bin/ghc-pkg recache
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/ghc@8.0/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/ghc@8.0/lib
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ghc@8.0/8.0.2: 5,780 files, 1.1GB
+==> Installing darcs
+==> Downloading https://hackage.haskell.org/package/darcs-2.12.5/darcs-2.12.5.tar.gz
+==> cabal sandbox init
+==> cabal update
+==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
+==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/darcs/2.12.5
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dar/2.5.13: 165 files, 112.3MB, built in 10 minutes 29 seconds
-==> Determining dar bottle rebuild...
-==> Bottling dar-2.5.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dar-2.5.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dar-2.5.13.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall darcs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/darcs/2.12.5: 8 files, 31.3MB, built in 135 minutes 8 seconds
+==> Determining darcs bottle rebuild...
+==> Bottling darcs-2.12.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if darcs-2.12.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./darcs-2.12.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "65114a1b96a6912b8d09b446fe1717c10767dd14c7b9ef11f0191251fda5234b" => :x86_64_linux
+    sha256 "68dededf94b032ba4618fb9b5c6b6ef19862bca0d395ad32101f11c6bfcaa3ed" => :x86_64_linux
   end
