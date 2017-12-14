@@ -1,4 +1,9 @@
-==> Downloading https://github.com/andreafabrizi/Dropbox-Uploader/archive/1.0.tar.gz
-==> Downloading from https://codeload.github.com/andreafabrizi/Dropbox-Uploader/tar.gz/1.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dropbox-uploader/1.0: 7 files, 112.3KB, built in 11 seconds
+==> Installing dependencies for druid: zookeeper
+==> Installing druid dependency: zookeeper
+==> Downloading https://linuxbrew.bintray.com/bottles/zookeeper-3.4.10.x86_64_linux.bottle.1.tar.gz
+==> Pouring zookeeper-3.4.10.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zookeeper/3.4.10: 242 files, 33.9MB
+==> Installing druid
+==> Downloading http://static.druid.io/artifacts/releases/druid-0.11.0-bin.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/druid/0.11.0: 478 files, 243.8MB, built in 19 seconds
 This formula doesn't require compiling.
