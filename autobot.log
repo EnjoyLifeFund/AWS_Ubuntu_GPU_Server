@@ -1,28 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/gtypist/gtypist-2.9.5.tar.xz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/42c4b96/gnu-typist/2.9.5.patch
-==> Patching
-==> Applying 2.9.5.patch
-patching file configure
-Hunk #1 succeeded at 6302 (offset 1 line).
-Hunk #2 succeeded at 6316 (offset 1 line).
-Hunk #3 succeeded at 6351 (offset 1 line).
-Hunk #4 succeeded at 10554 (offset 1 line).
-patching file src/cursmenu.c
-patching file src/error.c
-patching file src/gtypist.c
-Hunk #1 succeeded at 32 (offset 1 line).
-patching file src/script.c
-patching file src/utf8.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1/share/emacs/site-lisp/gnu-typist
-==> make
+==> Downloading https://ftp.gnu.org/gnu/units/units-2.16.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-units/2.16 --with-installed-readline
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-typist`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-typist/2.9.5_1: 73 files, 3.2MB, built in 11 seconds
-==> Determining gnu-typist bottle rebuild...
-==> Bottling gnu-typist-2.9.5_1.x86_64_linux.bottle.1.tar.gz...
-./gnu-typist-2.9.5_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnu-units`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-units/2.16: 13 files, 928.3KB, built in 5 seconds
+==> Determining gnu-units bottle rebuild...
+==> Bottling gnu-units-2.16.x86_64_linux.bottle.1.tar.gz...
+./gnu-units-2.16.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1022b62f9c8a4f03aa98784e99a64c23c83ec4c214db4306d596fa8b0bbc3520" => :x86_64_linux
+    sha256 "12be84f073741b19e815ae75835a4d06e99fc7158bac32c842905569b85b9760" => :x86_64_linux
   end
