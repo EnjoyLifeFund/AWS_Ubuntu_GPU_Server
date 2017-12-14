@@ -1,17 +1,13 @@
-==> Downloading http://eyed3.nicfit.net/releases/eyeD3-0.8.4.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/ac/aa/9b065a76b9af472437a0059f77e8f962fe350438b927cb80184c32f075eb/pathlib-1.0.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/eye-d3/0.8.4/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/65/0b/c6b31f686420420b5a16b24a722fe980724b28d76f65601c9bc324f08d02/python-magic-0.4.13.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/eye-d3/0.8.4/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/eye-d3/0.8.4/libexec
+==> Downloading https://github.com/AltraMayor/f3/archive/v6.0.tar.gz
+==> Downloading from https://codeload.github.com/AltraMayor/f3/tar.gz/v6.0
+==> make all
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eye-d3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/eye-d3/0.8.4: 100 files, 1.3MB, built in 3 seconds
-==> Determining eye-d3 bottle rebuild...
-==> Bottling eye-d3-0.8.4.x86_64_linux.bottle.1.tar.gz...
-./eye-d3-0.8.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall f3`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/f3/6.0: 9 files, 126.5KB, built in 0 seconds
+==> Determining f3 bottle rebuild...
+==> Bottling f3-6.0.x86_64_linux.bottle.1.tar.gz...
+./f3-6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e1afb1e3a83f647ac10e69cf71ce6bde75deae64dbd745b567875bdb7ce5fb84" => :x86_64_linux
+    sha256 "4326bd868111df904d268da759b4504a3a04fb45cc1406dacbc7fe1e9a103f73" => :x86_64_linux
   end
