@@ -1,8 +1,18 @@
-==> Determining doxygen bottle rebuild...
-==> Bottling doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz...
-==> Detecting if doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz is relocatable...
-./doxygen-1.8.13_1.x86_64_linux.bottle.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/doxymacs/doxymacs/1.8.0/doxymacs-1.8.0.tar.gz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/doxymacs/doxymacs/1.8.0/doxymacs-1.8.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0/share/emacs/site-lisp/doxymacs
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall doxymacs`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/doxymacs
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/doxymacs/1.8.0: 13 files, 196.8KB, built in 45 seconds
+==> Determining doxymacs bottle rebuild...
+==> Bottling doxymacs-1.8.0.x86_64_linux.bottle.1.tar.gz...
+./doxymacs-1.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "63dee18b15ddfbee67ddc6316011ff08bc36bc32214ad10b8e4a13959467cc48" => :x86_64_linux
+    rebuild 1
+    sha256 "55eb3a9d4be91dc3477b02b696adc39aabb477c90207b08429c77c12b44df740" => :x86_64_linux
   end
