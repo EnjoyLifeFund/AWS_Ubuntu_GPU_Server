@@ -1,14 +1,8 @@
-==> Downloading http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-make-2.7.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0 --with-config-file=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0/etc/GNUstep.conf --enable-native-objc-exceptions
-==> make install tooldir=/home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0/libexec
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnustep-make`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnustep-make/2.7.0: 155 files, 1.2MB, built in 7 seconds
-==> Determining gnustep-make bottle rebuild...
-==> Bottling gnustep-make-2.7.0.x86_64_linux.bottle.1.tar.gz...
-./gnustep-make-2.7.0.x86_64_linux.bottle.1.tar.gz
+==> Determining gnutls bottle rebuild...
+==> Bottling gnutls-3.5.16.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnutls-3.5.16.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnutls-3.5.16.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "82449d5999b2da3a7fc6cc762cae966e41400f8d389d1f7dc29a8249f923e18d" => :x86_64_linux
+    sha256 "c2950010977bca2527b4a18827a7331af90b2977fc70ee38c01bdb883cf15e56" => :x86_64_linux
   end
