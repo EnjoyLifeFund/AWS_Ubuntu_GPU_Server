@@ -1,19 +1,4 @@
-==> Downloading https://github.com/grails/grails-core/releases/download/v2.5.6/grails-2.5.6.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/512295/72d1578e-0fa6-11e7-97fe-e006a2574d70?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T232919Z&X-Amz-Expires=300&X-Amz-Signature=d0117f73db452ad27aee4e116ee6a0f226106fab15440124e7c8f78521989dcf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgrails-2.5.6.zip&response-content-type=application%2Foctet-stream
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/grails
-Target /home/linuxbrew/.linuxbrew/bin/grails
-is a symlink belonging to grails. You can unlink it:
-  brew unlink grails
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite grails@2.5
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run grails@2.5
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/grails -> /home/linuxbrew/.linuxbrew/Cellar/grails/3.3.2/bin/grails
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grails@2.5/2.5.6: 1,525 files, 145.2MB, built in 11 seconds
+==> Downloading https://github.com/graknlabs/grakn/releases/download/v0.18.0/grakn-dist-0.18.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/63110867/b55fa466-d39b-11e7-9273-d673430dbc14?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171214T232939Z&X-Amz-Expires=300&X-Amz-Signature=f44a2b3bab211f29bb50b9228d1c84838813e96907b79a2c555f26a8ba55ba93&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgrakn-dist-0.18.0.tar.gz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grakn/0.18.0: 592 files, 210.6MB, built in 16 seconds
 This formula doesn't require compiling.
