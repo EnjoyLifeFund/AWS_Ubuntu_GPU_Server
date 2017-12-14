@@ -1,8 +1,32 @@
-==> Downloading https://github.com/django/django/archive/1.11.7.tar.gz
-==> Downloading from https://codeload.github.com/django/django/tar.gz/1.11.7
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/django-completion/1.11.7: 6 files, 53.9KB, built in 24 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for djmount: libupnp
+==> Installing djmount dependency: libupnp
+==> Downloading https://downloads.sourceforge.net/project/pupnp/pupnp/libUPnP%201.6.22/libupnp-1.6.22.tar.bz2
+==> Downloading from https://svwh.dl.sourceforge.net/project/pupnp/pupnp/libUPnP%201.6.22/libupnp-1.6.22.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libupnp/1.6.22 --enable-ipv6
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libupnp/1.6.22: 38 files, 2.4MB, built in 4 minutes 40 seconds
+==> Installing djmount
+==> Downloading https://downloads.sourceforge.net/project/djmount/djmount/0.71/djmount-0.71.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/djmount/djmount/0.71/djmount-0.71.tar.gz
+==> Downloading https://raw.githubusercontent.com/DomT4/scripts/ee974414da/Homebrew_Resources/djmount/djmount.diff
+==> Patching
+==> Applying djmount.diff
+patching file djmount/cache.h
+patching file djmount/fuse_main.c
+patching file djmount/test_device.c
+patching file djmount/test_vfs.c
+patching file configure
+patching file djmount/upnp_util.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/djmount/0.71 --with-external-libupnp --with-libupnp-prefix=/home/linuxbrew/.linuxbrew
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall djmount`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/djmount/0.71: 9 files, 446.2KB, built in 5 minutes 34 seconds
+==> Determining djmount bottle rebuild...
+==> Bottling djmount-0.71.x86_64_linux.bottle.1.tar.gz...
+./djmount-0.71.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "96f6d7d882220bf09f616b844839a7d03ff8a41e64cbe72c7f71c03821c5b838" => :x86_64_linux
+  end
