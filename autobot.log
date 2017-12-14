@@ -1,15 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/dtach/dtach/0.9/dtach-0.9.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/dtach/dtach/0.9/dtach-0.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dtach/0.9
-==> make
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/device-tree-compiler/device-tree-compiler_1.4.5.orig.tar.gz
+==> make NO_PYTHON=1
+==> make NO_PYTHON=1 DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/dtc/1.4.5 PREFIX= install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dtach`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dtach/0.9: 6 files, 80.9KB, built in 8 seconds
-==> Determining dtach bottle rebuild...
-==> Bottling dtach-0.9.x86_64_linux.bottle.1.tar.gz...
-./dtach-0.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dtc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dtc/1.4.5: 17 files, 1.1MB, built in 2 seconds
+==> Determining dtc bottle rebuild...
+==> Bottling dtc-1.4.5.x86_64_linux.bottle.1.tar.gz...
+./dtc-1.4.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0882bbeccbc773b508fc4bf6383d6912ba50313b9fc9a6f550a553028f8d2a5e" => :x86_64_linux
+    sha256 "358208b92572a485a5cb9743d655d987ed2251cde4a0679dcc7bb378df77644a" => :x86_64_linux
   end
