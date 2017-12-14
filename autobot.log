@@ -1,16 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.xz
-==> autoreconf -ivf
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gnu-smalltalk/3.2.5_5 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/gnu-smalltalk/3.2.5_5/share/emacs/site-lisp/gnu-smalltalk --disable-gtk --with-readline=/home/linuxbrew/.linuxbrew/opt/readline/lib --without-tcl --without-tk --without-x
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-smalltalk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gnu-smalltalk/3.2.5_5: 328 files, 22.5MB, built in 2 minutes 6 seconds
-==> Determining gnu-smalltalk bottle rebuild...
-==> Bottling gnu-smalltalk-3.2.5_5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gnu-smalltalk-3.2.5_5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gnu-smalltalk-3.2.5_5.x86_64_linux.bottle.1.tar.gz
+==> Determining gnu-tar bottle rebuild...
+==> Bottling gnu-tar-1.29_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gnu-tar-1.29_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gnu-tar-1.29_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "07397511ad1f31e10106a41bd40b0c1032555e08a4acf259c7dd68bab7cca825" => :x86_64_linux
+    sha256 "a2e3211c38d73c507611e6a276d2c1ab49a0d7cf101d4a2b5b1194362e5e1a6f" => :x86_64_linux
   end
