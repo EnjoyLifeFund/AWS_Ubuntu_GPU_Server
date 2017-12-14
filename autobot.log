@@ -1,8 +1,34 @@
-==> Determining ghc bottle rebuild...
-==> Bottling ghc-8.2.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ghc-8.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ghc-8.2.2.x86_64_linux.bottle.1.tar.gz
+==> Cloning https://github.com/FStarLang/FStar.git
+==> Checking out tag v0.9.5.0
+==> Cloning https://github.com/Z3Prover/z3.git
+==> Checking out revision 1f29cebd4df633a4fea50a29b80aa756ecd0e8e7
+==> python scripts/mk_make.py --prefix=/home/linuxbrew/.linuxbrew/Cellar/fstar/0.9.5.0_1/libexec
+==> make -C build
+==> make -C build install
+==> opam init --no-setup
+==> opam switch 4.05.0
+==> opam config exec opam install batteries=2.7.0 zarith=1.5 yojson=1.4.0 pprint=20140424 stdint=0.4.2 menhir=20170712
+==> opam config exec -- make -C src/ocaml-output
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall fstar`
+==> Caveats
+F* code can be extracted to OCaml code.
+To compile the generated OCaml code, you must install
+some packages from the OPAM package manager:
+- brew install opam
+- opam install batteries zarith yojson pprint stdint menhir
+
+F* code can be extracted to F# code.
+To compile the generated F# (.NET) code, you must install
+the 'mono' package that includes the fsharp compiler:
+- brew install mono
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fstar/0.9.5.0_1: 31,197 files, 396.6MB, built in 27 minutes 39 seconds
+==> Determining fstar bottle rebuild...
+==> Bottling fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fstar-0.9.5.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bd5b2eb1f673f427f6d9eeb45b18402c9152e248915ec5b20c339ce377fb7709" => :x86_64_linux
+    sha256 "65ea001b004b1e982d40c46fefe9604ca2618ea80d01f76607e9728f4f300af8" => :x86_64_linux
   end
