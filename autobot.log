@@ -1,29 +1,18 @@
-==> Downloading http://oldhome.schmorp.de/marc/data/fcrackzip-1.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fcrackzip/1.0
-==> make
-==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/zipinfo
-Target /home/linuxbrew/.linuxbrew/bin/zipinfo
-is a symlink belonging to unzip. You can unlink it:
-  brew unlink unzip
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite fcrackzip
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run fcrackzip
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/zipinfo -> /home/linuxbrew/.linuxbrew/Cellar/unzip/6.0_3/bin/zipinfo
+==> Downloading https://github.com/sharkdp/fd/archive/v6.1.0.tar.gz
+==> Downloading from https://codeload.github.com/sharkdp/fd/tar.gz/v6.1.0
+==> cargo install --root /home/linuxbrew/.linuxbrew/Cellar/fd/6.1.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fcrackzip`
+You can run it manually using `brew postinstall fd`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fcrackzip/1.0: 11 files, 149.1KB, built in 10 seconds
-==> Determining fcrackzip bottle rebuild...
-==> Bottling fcrackzip-1.0.x86_64_linux.bottle.1.tar.gz...
-./fcrackzip-1.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fd/6.1.0: 9 files, 6.2MB, built in 2 minutes 59 seconds
+==> Determining fd bottle rebuild...
+==> Bottling fd-6.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fd-6.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fd-6.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4cb3f5cc87c5b31d20ffda44c704e5ee02130b901c6a0fca910a5e6812416691" => :x86_64_linux
+    sha256 "2ef4d5cf241fe46b642e90548f61069c107d3410d61ec565a4677141403cc65e" => :x86_64_linux
   end
