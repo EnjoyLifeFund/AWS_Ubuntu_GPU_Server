@@ -1,19 +1,4 @@
-==> Downloading https://github.com/Golevka/emacs-clang-complete-async/archive/v0.5.tar.gz
-==> Downloading from https://codeload.github.com/Golevka/emacs-clang-complete-async/tar.gz/v0.5
-==> Downloading https://github.com/yocchi/emacs-clang-complete-async/commit/5ce197b15d7b8c9abfc862596bf8d902116c9efe.diff?full_index=1
-==> Patching
-patching file src/completion.h
-==> Applying 5ce197b15d7b8c9abfc862596bf8d902116c9efe.diff
-patching file Makefile
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall emacs-clang-complete-async`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/emacs-clang-complete-async/0.5_3: 4 files, 36.2KB, built in 2 seconds
-==> Determining emacs-clang-complete-async bottle rebuild...
-==> Bottling emacs-clang-complete-async-0.5_3.x86_64_linux.bottle.1.tar.gz...
-./emacs-clang-complete-async-0.5_3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "5d3210b969516f46b8c2f82ffe45ec790210db10fd6eebdbd12cbb3c18d86fba" => :x86_64_linux
-  end
+==> Downloading https://bintray.com/artifact/download/embulk/maven/embulk-0.8.30.jar
+==> Downloading from https://dl.bintray.com/embulk/maven/embulk-0.8.30.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/embulk/0.8.30: 4 files, 43MB, built in 11 seconds
+This formula doesn't require compiling.
