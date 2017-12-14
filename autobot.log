@@ -1,13 +1,15 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/d/debianutils/debianutils_4.8.3.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/debianutils/4.8.3
+==> Downloading http://www.catb.org/~esr/deheader/deheader-1.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/opt/libarchive/bin/bsdtar -xvqf deheader-1.6.tar.gz deheader-1.6/deheader.1
+==> /home/linuxbrew/.linuxbrew/opt/libarchive/bin/bsdtar -xvf deheader-1.6.tar.gz --exclude deheader-1.6/deheader.1
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall debianutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/debianutils/4.8.3: 8 files, 118.3KB, built in 1 minute 14 seconds
-==> Determining debianutils bottle rebuild...
-==> Bottling debianutils-4.8.3.x86_64_linux.bottle.1.tar.gz...
-./debianutils-4.8.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall deheader`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/deheader/1.6: 4 files, 102.2KB, built in 8 seconds
+==> Determining deheader bottle rebuild...
+==> Bottling deheader-1.6.x86_64_linux.bottle.1.tar.gz...
+./deheader-1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "64a8df271b25d9af095a358bd0b6e272593856892202902587390c32577b3c81" => :x86_64_linux
+    sha256 "5861dff4158cd846a1057067a494d662e931952b0832b59eee6fff237013860e" => :x86_64_linux
   end
