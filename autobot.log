@@ -1,14 +1,14 @@
-==> Downloading http://www.gecode.org/download/gecode-5.1.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gecode/5.1.0 --disable-examples --disable-qt
+==> Downloading https://downloads.sourceforge.net/project/genext2fs/genext2fs/1.4.1/genext2fs-1.4.1.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/genext2fs/genext2fs/1.4.1/genext2fs-1.4.1.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/genext2fs/1.4.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gecode`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gecode/5.1.0: 750 files, 165MB, built in 2 minutes 26 seconds
-==> Determining gecode bottle rebuild...
-==> Bottling gecode-5.1.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gecode-5.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gecode-5.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall genext2fs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/genext2fs/1.4.1: 10 files, 170.4KB, built in 9 seconds
+==> Determining genext2fs bottle rebuild...
+==> Bottling genext2fs-1.4.1.x86_64_linux.bottle.1.tar.gz...
+./genext2fs-1.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f40620121d9845c95973f8f10c2a6c13949462445e8cc14dd5da9eac9cc0c561" => :x86_64_linux
+    sha256 "3d34229e51659cd9d9aecf342a0130e021e8cd20a35fad8388acb180e6b97e16" => :x86_64_linux
   end
