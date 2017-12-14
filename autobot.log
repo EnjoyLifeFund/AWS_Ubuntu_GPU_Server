@@ -1,12 +1,9 @@
-==> Downloading https://www-e.uni-magdeburg.de/jschulen/ocr/gocr-0.50.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gocr/0.50
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gocr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gocr/0.50: 9 files, 1.3MB, built in 13 seconds
-==> Determining gocr bottle rebuild...
-==> Bottling gocr-0.50.x86_64_linux.bottle.tar.gz...
-./gocr-0.50.x86_64_linux.bottle.tar.gz
+==> Determining godep bottle rebuild...
+==> Bottling godep-79_8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if godep-79_8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./godep-79_8.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8a3429ebf0fc713db6fcf390d67b88df8ddf1e9791f189034b5a813ae3adf3e5" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8f2ddf52ce48aa0a208c131934c24238fcf11cc6395d3b460531502d785be207" => :x86_64_linux
   end
