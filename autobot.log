@@ -1,4 +1,15 @@
-==> Downloading https://github.com/mururu/exenv/archive/v0.1.0.tar.gz
-==> Downloading from https://codeload.github.com/mururu/exenv/tar.gz/v0.1.0
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exenv/0.1.0: 31 files, 52.3KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/exercism/cli/archive/v2.4.1.tar.gz
+==> Downloading from https://codeload.github.com/exercism/cli/tar.gz/v2.4.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/exercism/2.4.1/bin/exercism exercism/main.go
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall exercism`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exercism/2.4.1: 6 files, 9.6MB, built in 2 seconds
+==> Determining exercism bottle rebuild...
+==> Bottling exercism-2.4.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if exercism-2.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./exercism-2.4.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "755349eba44febc1e95283ea4ae5aa3531982063b172e869c0668d57df0b4457" => :x86_64_linux
+  end
