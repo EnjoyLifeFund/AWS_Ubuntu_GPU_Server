@@ -1,13 +1,18 @@
-==> Downloading https://ftp.gnu.org/gnu/datamash/datamash-1.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/datamash/1.2
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/milancurcic/datetime-fortran/releases/download/v1.6.0/datetime-fortran-1.6.0.tar.gz
+==> Downloading from https://github.com/wavebitscientific/datetime-fortran/releases/download/v1.6.0/datetime-fortran-1.6.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/datetime-fortran/1.6.0_1 --disable-silent-rules
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall datamash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/datamash/1.2: 28 files, 3.0MB, built in 14 minutes 22 seconds
-==> Determining datamash bottle rebuild...
-==> Bottling datamash-1.2.x86_64_linux.bottle.1.tar.gz...
-./datamash-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall datetime-fortran`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/datetime-fortran/1.6.0_1: 9 files, 214.5KB, built in 1 minute 6 seconds
+==> Determining datetime-fortran bottle rebuild...
+==> Bottling datetime-fortran-1.6.0_1.x86_64_linux.bottle.1.tar.gz...
+./datetime-fortran-1.6.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4a11d2f18db2839a49574c02a7a68f97b292608340f5398a4f461ea4fc45a082" => :x86_64_linux
+    sha256 "5d732e60d22a954b59b33c52158dd7bb501f415a7b690cd8ca7e93d8fb4a04eb" => :x86_64_linux
   end
