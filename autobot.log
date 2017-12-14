@@ -1,15 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fizsh/1.0.9
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fizsh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fizsh/1.0.9: 24 files, 185.2KB, built in 2 seconds
-==> Determining fizsh bottle rebuild...
-==> Bottling fizsh-1.0.9.x86_64_linux.bottle.1.tar.gz...
-./fizsh-1.0.9.x86_64_linux.bottle.1.tar.gz
+==> Determining flac bottle rebuild...
+==> Bottling flac-1.3.2.x86_64_linux.bottle.1.tar.gz...
+./flac-1.3.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ceb4d15f6c42da4f4c54f5bccc13d796bcd62deb68884d9eca0917a602e37231" => :x86_64_linux
+    sha256 "d281fc3d5f8ee8dfa26c1f12de0d08c5626443a472a51903aa2056ff89d99d82" => :x86_64_linux
   end
