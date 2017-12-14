@@ -1,15 +1,12 @@
-==> Downloading http://www.catb.org/~esr/deheader/deheader-1.6.tar.gz
-==> /home/linuxbrew/.linuxbrew/opt/libarchive/bin/bsdtar -xvqf deheader-1.6.tar.gz deheader-1.6/deheader.1
-==> /home/linuxbrew/.linuxbrew/opt/libarchive/bin/bsdtar -xvf deheader-1.6.tar.gz --exclude deheader-1.6/deheader.1
-==> make
+==> Downloading https://github.com/lukas2511/dehydrated/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/lukas2511/dehydrated/tar.gz/v0.4.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall deheader`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/deheader/1.6: 4 files, 102.2KB, built in 8 seconds
-==> Determining deheader bottle rebuild...
-==> Bottling deheader-1.6.x86_64_linux.bottle.1.tar.gz...
-./deheader-1.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dehydrated`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dehydrated/0.4.0: 6 files, 64.8KB, built in 7 seconds
+==> Determining dehydrated bottle rebuild...
+==> Bottling dehydrated-0.4.0.x86_64_linux.bottle.tar.gz...
+./dehydrated-0.4.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "5861dff4158cd846a1057067a494d662e931952b0832b59eee6fff237013860e" => :x86_64_linux
+    sha256 "72ae7a3aef658fb54180d72b9c1ef7cbd5425308c20ef60e85b58d07cdbf47a5" => :x86_64_linux
   end
