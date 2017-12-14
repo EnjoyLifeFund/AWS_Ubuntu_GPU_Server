@@ -1,21 +1,4 @@
-==> Installing dependencies for dislocker: mbedtls
-==> Installing dislocker dependency: mbedtls
-==> Downloading https://linuxbrew.bintray.com/bottles/mbedtls-2.6.0.x86_64_linux.bottle.tar.gz
-==> Pouring mbedtls-2.6.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mbedtls/2.6.0: 128 files, 3.5MB
-==> Installing dislocker
-==> Downloading https://github.com/Aorimn/dislocker/archive/v0.7.1.tar.gz
-==> Downloading from https://codeload.github.com/Aorimn/dislocker/tar.gz/v0.7.1
-==> cmake -DCMAKE_DISABLE_FIND_PACKAGE_Ruby=TRUE -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/dislocker/0.7.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dislocker`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dislocker/0.7.1: 16 files, 210.2KB, built in 44 seconds
-==> Determining dislocker bottle rebuild...
-==> Bottling dislocker-0.7.1.x86_64_linux.bottle.1.tar.gz...
-./dislocker-0.7.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "f513943b0cf6ebfc2503b09d4a7a62a51da40b3df00f780bfcdda18143f7fda7" => :x86_64_linux
-  end
+==> Downloading https://github.com/philovivero/distribution/archive/1.3.tar.gz
+==> Downloading from https://codeload.github.com/philovivero/distribution/tar.gz/1.3
+🍺  /home/linuxbrew/.linuxbrew/Cellar/distribution/1.3: 7 files, 142KB, built in 11 seconds
+This formula doesn't require compiling.
