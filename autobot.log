@@ -1,47 +1,8 @@
-==> Downloading https://hp.vector.co.jp/authors/VA012337/soft/fd/FD-3.01b.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/86107cf/fdclone/3.01b.patch
-==> Patching
-==> Applying 3.01b.patch
-patching file machine.h
-patching file custom.c
-patching file fd.h
-patching file _fdrc
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fdclone/3.01b all
-==> make MANTOP=/home/linuxbrew/.linuxbrew/Cellar/fdclone/3.01b/share/man install
-==> nkf -w --overwrite README
-==> nkf -w --overwrite FAQ
-==> nkf -w --overwrite HISTORY
-==> nkf -w --overwrite LICENSES
-==> nkf -w --overwrite TECHKNOW
-==> nkf -w --overwrite ToAdmin
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/fd
-Target /home/linuxbrew/.linuxbrew/bin/fd
-is a symlink belonging to fd. You can unlink it:
-  brew unlink fd
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite fdclone
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run fdclone
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/fd -> /home/linuxbrew/.linuxbrew/Cellar/fd/6.1.0/bin/fd
-/home/linuxbrew/.linuxbrew/share/man/man1/fd.1 -> /home/linuxbrew/.linuxbrew/Cellar/fd/6.1.0/share/man/man1/fd.1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fdclone`
-==> Caveats
-To install the initial config file:
-    install -c -m 0644 /home/linuxbrew/.linuxbrew/opt/fdclone/share/fd2rc.dist ~/.fd2rc
-To set application messages to Japanese, edit your .fd2rc:
-    MESSAGELANG="ja"
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fdclone/3.01b: 23 files, 1.3MB, built in 26 seconds
-==> Determining fdclone bottle rebuild...
-==> Bottling fdclone-3.01b.x86_64_linux.bottle.1.tar.gz...
-./fdclone-3.01b.x86_64_linux.bottle.1.tar.gz
+==> Determining fdk-aac bottle rebuild...
+==> Bottling fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fdk-aac-0.1.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "56c1641389db8783989623c2b6271c510d96456a7e3961135bc6ee6680d522a0" => :x86_64_linux
+    sha256 "1a7c2a954c3fc8ba1b8daffdbfb44153fe530d8e9df9b187f548e455148acbcd" => :x86_64_linux
   end
