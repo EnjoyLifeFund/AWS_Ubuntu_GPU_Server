@@ -1,15 +1,36 @@
-==> Downloading https://ftp.gnu.org/gnu/direvent/direvent-5.1.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/direvent/5.1
+==> Installing dependencies for dirmngr: pth, openldap
+==> Installing dirmngr dependency: pth
+==> Downloading https://linuxbrew.bintray.com/bottles/pth-2.0.7.x86_64_linux.bottle.2.tar.gz
+==> Pouring pth-2.0.7.x86_64_linux.bottle.2.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pth/2.0.7: 16 files, 565.6KB
+==> Installing dirmngr dependency: openldap
+==> Downloading https://linuxbrew.bintray.com/bottles/openldap-2.4.45.x86_64_linux.bottle.tar.gz
+==> Pouring openldap-2.4.45.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openldap/2.4.45: 328 files, 13.8MB
+==> Installing dirmngr
+==> Downloading https://gnupg.org/ftp/gcrypt/dirmngr/dirmngr-1.1.1.tar.bz2
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/6965aa5/dirmngr/D186.diff
+==> Patching
+==> Applying D186.diff
+patching file src/dirmngr.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dirmngr/1.1.1_3 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var
 ==> make
-==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall direvent`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/direvent/5.1: 22 files, 1MB, built in 3 minutes 16 seconds
-==> Determining direvent bottle rebuild...
-==> Bottling direvent-5.1.x86_64_linux.bottle.1.tar.gz...
-./direvent-5.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dirmngr`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because GPG 2.1.x ships an internal dirmngr which it must use.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/dirmngr/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dirmngr/1.1.1_3: 68 files, 6.3MB, built in 3 minutes 51 seconds
+==> Determining dirmngr bottle rebuild...
+==> Bottling dirmngr-1.1.1_3.x86_64_linux.bottle.tar.gz...
+==> Detecting if dirmngr-1.1.1_3.x86_64_linux.bottle.tar.gz is relocatable...
+./dirmngr-1.1.1_3.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "cecfbdd92e49c9bfc739279981fec6f83e0f38f50388df5b72db1440aeab7021" => :x86_64_linux
+    sha256 "6e2968c83c597560a7f86a7b3056000c35bf8838dec0e57a3046a5d7fc95523a" => :x86_64_linux
   end
