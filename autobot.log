@@ -1,9 +1,4 @@
-==> Determining filebeat bottle rebuild...
-==> Bottling filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./filebeat-6.0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "7ab31b4b314a6224f79cf0f64473a8b838e2a70385330c5f6600a72174c49c3a" => :x86_64_linux
-  end
+==> Downloading https://github.com/twitter/finatra/archive/1.5.3.tar.gz
+==> Downloading from https://codeload.github.com/twitter/finatra/tar.gz/1.5.3
+🍺  /home/linuxbrew/.linuxbrew/Cellar/finatra/1.5.3: 96 files, 854.9KB, built in 1 second
+This formula doesn't require compiling.
