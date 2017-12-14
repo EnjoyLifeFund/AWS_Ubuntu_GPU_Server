@@ -1,15 +1,4 @@
-==> Downloading https://github.com/kshvmdn/fsql/archive/v0.3.1.tar.gz
-==> Downloading from https://codeload.github.com/kshvmdn/fsql/tar.gz/v0.3.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/fsql/0.3.1/bin/fsql github.com/kshvmdn/fsql/cmd/fsql
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fsql`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fsql/0.3.1: 5 files, 2.8MB, built in 1 second
-==> Determining fsql bottle rebuild...
-==> Bottling fsql-0.3.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fsql-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fsql-0.3.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "08ec027a2ce3aea2ed10dbce75c8f85953687a0774ddde7b750d18e2b80d1d02" => :x86_64_linux
-  end
+==> Downloading https://github.com/arzzen/git-quick-stats/archive/1.0.9.tar.gz
+==> Downloading from https://codeload.github.com/arzzen/git-quick-stats/tar.gz/1.0.9
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-quick-stats/1.0.9: 5 files, 31.5KB, built in 0 seconds
+This formula doesn't require compiling.
