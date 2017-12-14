@@ -1,18 +1,15 @@
-==> Downloading https://github.com/mhagger/git-imerge/archive/v1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/mhagger/git-imerge/tar.gz/v1.0.0
-==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/git-imerge/1.0.0 PREFIX=
+==> Downloading https://github.com/johnkeeping/git-integration/archive/v0.4.tar.gz
+==> Downloading from https://codeload.github.com/johnkeeping/git-integration/tar.gz/v0.4
+==> make install
+==> make install-completion
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-imerge`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-imerge/1.0.0: 7 files, 188.2KB, built in 0 seconds
-==> Determining git-imerge bottle rebuild...
-==> Bottling git-imerge-1.0.0.x86_64_linux.bottle.1.tar.gz...
-./git-imerge-1.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-integration`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-integration/0.4: 6 files, 59.5KB, built in 0 seconds
+==> Determining git-integration bottle rebuild...
+==> Bottling git-integration-0.4.x86_64_linux.bottle.1.tar.gz...
+./git-integration-0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "fece1dc51c7db53b5782d126df1802bae4be327cceae59cdf05cd459e2e94489" => :x86_64_linux
+    sha256 "e368d52f3ea386c5f6001686208978b4a9192323e5676fe7f45d24cceb1b50f9" => :x86_64_linux
   end
