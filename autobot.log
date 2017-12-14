@@ -1,14 +1,14 @@
-==> Cloning https://github.com/dlang-community/dfmt.git
-==> Checking out tag v0.5.0
-==> make
+==> Downloading https://downloads.sourceforge.net/project/dfu-programmer/dfu-programmer/0.7.2/dfu-programmer-0.7.2.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/dfu-programmer/dfu-programmer/0.7.2/dfu-programmer-0.7.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dfu-programmer/0.7.2 --disable-libusb_1_0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dfmt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dfmt/0.5.0: 5 files, 4.6MB, built in 13 minutes 1 second
-==> Determining dfmt bottle rebuild...
-==> Bottling dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dfmt-0.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dfu-programmer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dfu-programmer/0.7.2: 9 files, 271.8KB, built in 1 minute 25 seconds
+==> Determining dfu-programmer bottle rebuild...
+==> Bottling dfu-programmer-0.7.2.x86_64_linux.bottle.1.tar.gz...
+./dfu-programmer-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "dff1dbf4340a2b56f0f0fb61e21f5302eb366c16a16a211f57ccd89f9c3c4320" => :x86_64_linux
+    sha256 "1e44cdac13c50964f72dbe413c3a7b48c75bf65f2d8597223efe24c031740570" => :x86_64_linux
   end
