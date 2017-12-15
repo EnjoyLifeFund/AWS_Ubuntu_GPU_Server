@@ -1,7 +1,16 @@
-==> Determining libdmtx bottle rebuild...
-==> Bottling libdmtx-0.7.4.x86_64_linux.bottle.tar.gz...
-./libdmtx-0.7.4.x86_64_linux.bottle.tar.gz
+==> Downloading https://www.seasip.info/Unix/LibDsk/libdsk-1.4.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdsk/1.4.2
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libdsk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdsk/1.4.2: 33 files, 2.9MB, built in 13 seconds
+==> Determining libdsk bottle rebuild...
+==> Bottling libdsk-1.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libdsk-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libdsk-1.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "617daead0c817e209ca59c990d137c108445c6b2b84fd129a752ea9718cfadc7" => :x86_64_linux
+    rebuild 1
+    sha256 "d3b51d4081259ba5ce6b1c12049bdf511b4556846ae613652c4b09d5a3d7bba4" => :x86_64_linux
   end
