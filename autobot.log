@@ -1,3 +1,14 @@
-==> Downloading http://linklint.org/download/linklint-2.3.5.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/linklint/2.3.5: 6 files, 176.8KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading http://links.twibright.com/download/links-2.14.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/links/2.14_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/links/2.14_1/share/man --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl --without-lzma --without-libtiff --without-libjpeg --without-librsvg
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall links`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/links/2.14_1: 19 files, 4.5MB, built in 26 seconds
+==> Determining links bottle rebuild...
+==> Bottling links-2.14_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if links-2.14_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./links-2.14_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "211e2783375268da7a777294d405400f4ab619ef407d7f4dfaeb246e32c2e94b" => :x86_64_linux
+  end
