@@ -1,15 +1,13 @@
-==> Downloading https://github.com/OpenKinect/libfreenect/archive/v0.5.7.tar.gz
-==> Downloading from https://codeload.github.com/OpenKinect/libfreenect/tar.gz/v0.5.7
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libfreenect/0.5.7 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_OPENNI2_DRIVER=ON
+==> Downloading https://www.intra2net.com/en/developer/libftdi/download/libftdi1-1.4.tar.bz2
+==> cmake .. -DPYTHON_BINDINGS=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libftdi/1.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libfreenect`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libfreenect/0.5.7: 41 files, 829.8KB, built in 6 seconds
-==> Determining libfreenect bottle rebuild...
-==> Bottling libfreenect-0.5.7.x86_64_linux.bottle.1.tar.gz...
-./libfreenect-0.5.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libftdi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libftdi/1.4: 26 files, 529KB, built in 7 seconds
+==> Determining libftdi bottle rebuild...
+==> Bottling libftdi-1.4.x86_64_linux.bottle.tar.gz...
+./libftdi-1.4.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6f63ad61c405eae6364a1f3531041531b6a32146f62a8369ff4f75db7185b103" => :x86_64_linux
+    sha256 "74fbad8e4cc830a50d2e286e2a8f7df7aa4ad50e2e53ba8d5605cbbdb420dbd8" => :x86_64_linux
   end
