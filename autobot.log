@@ -1,24 +1,20 @@
-==> Installing fwdpp from homebrew/science
-==> Installing dependencies for homebrew/science/fwdpp: libsequence
-==> Installing homebrew/science/fwdpp dependency: libsequence
-==> Downloading https://linuxbrew.bintray.com/bottles-science/libsequence-1.9.1_2.x86_64_linux.bottle.tar.gz
-==> Pouring libsequence-1.9.1_2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsequence/1.9.1_2: 111 files, 21MB
-==> Installing homebrew/science/fwdpp
-==> Downloading https://github.com/molpopgen/fwdpp/archive/0.5.7.tar.gz
-==> Downloading from https://codeload.github.com/molpopgen/fwdpp/tar.gz/0.5.7
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fwdpp/0.5.7_1
+==> Installing vislcg3 from homebrew/science
+==> Downloading https://visl.sdu.dk/download/vislcg3/cg3-1.1.0~r12312.tar.bz2
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/vislcg3/1.1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make
-==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fwdpp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fwdpp/0.5.7_1: 206 files, 146MB, built in 3 minutes 36 seconds
-==> Determining homebrew/science/fwdpp bottle rebuild...
-==> Bottling fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/vislcg3`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/vislcg3
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/vislcg3/1.1.0: 26 files, 1.3MB, built in 37 seconds
+==> Determining homebrew/science/vislcg3 bottle rebuild...
+==> Bottling vislcg3-1.1.0.x86_64_linux.bottle.1.tar.gz...
+./vislcg3-1.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eb754ba08347fb548cf94621059035a855da20d304e2c85d5176f2f0b913be1e" => :x86_64_linux
+    sha256 "695d6291dca89774e2fc4725565207153d5c9b97c510fff683a7ac07e0e883f7" => :x86_64_linux
   end
