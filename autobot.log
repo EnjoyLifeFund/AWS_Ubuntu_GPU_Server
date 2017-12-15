@@ -1,18 +1,13 @@
-==> Downloading https://github.com/matricks/bam/archive/v0.5.0.tar.gz
-==> Downloading from https://codeload.github.com/matricks/bam/tar.gz/v0.5.0
-==> Downloading https://github.com/matricks/bam/commit/27b28f09.patch?full_index=1
-==> Patching
-==> Applying 27b28f09.patch
-patching file src/tools.lua
-==> ./make_unix.sh
+==> Installing cusp from homebrew/science
+==> Downloading https://github.com/cusplibrary/cusplibrary/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/cusplibrary/cusplibrary/tar.gz/v0.4.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bam`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bam/0.5.0: 5 files, 351.8KB, built in 2 minutes 7 seconds
-==> Determining bam bottle rebuild...
-==> Bottling bam-0.5.0.x86_64_linux.bottle.1.tar.gz...
-./bam-0.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/cusp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cusp/0.4.0: 263 files, 1.8MB, built in 0 seconds
+==> Determining homebrew/science/cusp bottle rebuild...
+==> Bottling cusp-0.4.0.x86_64_linux.bottle.tar.gz...
+./cusp-0.4.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "7d3bd87d301d627cd8038197e409973c0e6f59c984da50097f95017d07e6afe2" => :x86_64_linux
+    sha256 "e3388dcea39bca9f7b81bee682725dec45131ee9d3f4596ffbff47f05a02c7aa" => :x86_64_linux
   end
