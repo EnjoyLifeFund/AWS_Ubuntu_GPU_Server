@@ -1,16 +1,14 @@
-==> Installing pandaseq from homebrew/science
-==> Downloading https://github.com/neufeld/pandaseq/archive/v2.11.tar.gz
-==> Downloading from https://codeload.github.com/neufeld/pandaseq/tar.gz/v2.11
-==> ./autogen.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/pandaseq/2.11
-==> make install
+==> Installing pathd8 from homebrew/science
+==> Downloading https://www2.math.su.se/PATHd8/PATHd8.zip
+==> gcc-6 PATHd8.c -O3 -lm -o PATHd8
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/pandaseq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pandaseq/2.11: 57 files, 2MB, built in 31 seconds
-==> Determining homebrew/science/pandaseq bottle rebuild...
-==> Bottling pandaseq-2.11.x86_64_linux.bottle.1.tar.gz...
-./pandaseq-2.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/pathd8`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pathd8/1.0: 3 files, 96.5KB, built in 5 seconds
+==> Determining homebrew/science/pathd8 bottle rebuild...
+==> Bottling pathd8-1.0.x86_64_linux.bottle.1.tar.gz...
+./pathd8-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "52ba0247a15c896864d6ef0a90a0dd724b8c2acf4d9dd1bb7c0c1e37cbee833d" => :x86_64_linux
+    sha256 "b7ceaa3fc99dc6f8ace9bb3c7ef5845c6f9e8e9ca97df1536dbdfdd37252cdc0" => :x86_64_linux
   end
