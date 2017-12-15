@@ -1,31 +1,38 @@
-==> Downloading https://launchpad.net/juju-core/1.25/1.25.12/+download/juju-core_1.25.12.tar.gz
-==> Downloading from https://launchpadlibrarian.net/321195074/juju-core_1.25.12.tar.gz
-==> go build github.com/juju/juju/cmd/juju
-==> go build github.com/juju/juju/cmd/plugins/juju-metadata
+==> Downloading https://github.com/julius-speech/julius/archive/v4.4.2.1.tar.gz
+==> Downloading from https://codeload.github.com/julius-speech/julius/tar.gz/v4.4.2.1
+==> Downloading https://github.com/julius-speech/julius/pull/73.patch?full_index=1
+==> Downloading from https://patch-diff.githubusercontent.com/raw/julius-speech/julius/pull/73.patch?full_index=1
+==> Patching
+==> Applying 73.patch
+patching file libjulius/Makefile.in
+patching file libsent/Makefile.in
+==> ./configure --disable-silent-rules --mandir=/home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1/share/man --prefix=/home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1
+==> make
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/binlm2arpa
+Target /home/linuxbrew/.linuxbrew/bin/binlm2arpa
+is a symlink belonging to cmuclmtk. You can unlink it:
+  brew unlink cmuclmtk
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite julius
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run julius
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/binlm2arpa -> /home/linuxbrew/.linuxbrew/Cellar/cmuclmtk/0.7/bin/binlm2arpa
+/home/linuxbrew/.linuxbrew/bin/jcontrol -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/bin/jcontrol
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall juju@1.25`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/juju@1.25/bin:$PATH"' >> ~/.bash_profile
-
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+You can run it manually using `brew postinstall julius`
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/juju@1.25/1.25.12: 5 files, 91.1MB, built in 30 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-No changes to formulae.
-
-==> Determining juju@1.25 bottle rebuild...
-==> Bottling juju@1.25-1.25.12.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if juju@1.25-1.25.12.x86_64_linux.bottle.1.tar.gz is relocatable...
-./juju@1.25-1.25.12.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1: 112 files, 5.2MB, built in 51 seconds
+==> Determining julius bottle rebuild...
+==> Bottling julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fd0ab373e75617c1634204a0a7b1518b9fc7a771fd2ededc99f9d21a2ad3bd5d" => :x86_64_linux
+    sha256 "71ed97fd5c37bf1bbf1f0df7b68546043229820a7726d4d5b5551e34d1a45b24" => :x86_64_linux
   end
