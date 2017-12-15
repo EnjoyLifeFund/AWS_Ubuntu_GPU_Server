@@ -1,7 +1,15 @@
-==> Determining libidn bottle rebuild...
-==> Bottling libidn-1.33.x86_64_linux.bottle.1.tar.gz...
-./libidn-1.33.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/TimothyGu/libilbc/releases/download/v2.0.2/libilbc-2.0.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/3520152/c6e65efe-8386-11e4-8d10-32f371c07d15?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T214849Z&X-Amz-Expires=300&X-Amz-Signature=0df96d01b34f70b0989a21c8e6234223debf9603c934b69ac75465a145b038fe&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibilbc-2.0.2.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libilbc/2.0.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libilbc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libilbc/2.0.2: 13 files, 1.3MB, built in 8 seconds
+==> Determining libilbc bottle rebuild...
+==> Bottling libilbc-2.0.2.x86_64_linux.bottle.1.tar.gz...
+./libilbc-2.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "76f1996ccdcbd7b80d191a993f50c9c87af5dd486c3233f72332d141a13ae8f1" => :x86_64_linux
+    sha256 "3e3f15678e8048dfc5227fed899722fb296234589f04c34a0a9d246bcbf5f4ce" => :x86_64_linux
   end
