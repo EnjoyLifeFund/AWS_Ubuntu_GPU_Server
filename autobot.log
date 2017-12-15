@@ -1,21 +1,15 @@
-==> Installing populations from homebrew/science
-==> Downloading https://launchpad.net/~olivier-langella/+archive/ubuntu/ppa/+files/populations_1.2.33-2.tar.gz
-==> Downloading from https://launchpadlibrarian.net/97576466/populations_1.2.33-2.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/3a87627/populations/use-qt5.patch
-==> Patching
-patching file src/vecteurs.h
-==> Applying use-qt5.patch
-patching file src/CMakeLists.txt
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/populations/1.2.33-2_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_PREFIX_PATH=/home/linuxbrew/.linuxbrew/opt/qt
-==> make install
+==> Installing primer3 from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/primer3/primer3/2.3.7/primer3-2.3.7.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/primer3/primer3/2.3.7/primer3-2.3.7.tar.gz
+==> make
+==> make test
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/populations`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/populations/1.2.33-2_1: 6 files, 1MB, built in 15 seconds
-==> Determining homebrew/science/populations bottle rebuild...
-==> Bottling populations-1.2.33-2_1.x86_64_linux.bottle.1.tar.gz...
-./populations-1.2.33-2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/primer3`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/primer3/2.3.7: 42 files, 1.3MB, built in 8 minutes 5 seconds
+==> Determining homebrew/science/primer3 bottle rebuild...
+==> Bottling primer3-2.3.7.x86_64_linux.bottle.1.tar.gz...
+./primer3-2.3.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b1d55015c96ee238ddff67dee554886698a5c34bd1dbfd285d9ddb23cc17cb11" => :x86_64_linux
+    sha256 "7bfb0e8a6d9fd2279c7a893c00cb3155546882ed4617904379a80d9ba3349c10" => :x86_64_linux
   end
