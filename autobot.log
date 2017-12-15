@@ -1,80 +1,32 @@
-==> Cloning https://github.com/kontena/kontena.git
-==> Checking out tag v1.4.2
-==> gem build --norc kontena-cli.gemspec
-==> Downloading https://rubygems.org/gems/addressable-2.5.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--addressable-2.5.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/clamp-1.1.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--clamp-1.1.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/equatable-0.5.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--equatable-0.5.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/excon-0.49.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--excon-0.49.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/hash_validator-0.7.1.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--hash_validator-0.7.1.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/hitimes-1.2.6.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--hitimes-1.2.6.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/kontena-plugin-cloud-1.2.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--kontena-plugin-cloud-1.2.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/kontena-websocket-client-0.1.1.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--kontena-websocket-client-0.1.1.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/launchy-2.4.3.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--launchy-2.4.3.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/liquid-4.0.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--liquid-4.0.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/necromancer-0.4.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--necromancer-0.4.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/opto-1.8.7.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--opto-1.8.7.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/pastel-0.7.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--pastel-0.7.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/public_suffix-3.0.1.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--public_suffix-3.0.1.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/rake-10.5.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--rake-10.5.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/retriable-2.1.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--retriable-2.1.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/ruby_dig-0.0.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--ruby_dig-0.0.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/semantic-1.6.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--semantic-1.6.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/timers-4.1.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--timers-4.1.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/tty-color-0.4.2.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--tty-color-0.4.2.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/tty-cursor-0.5.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--tty-cursor-0.5.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/tty-prompt-0.13.1.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--tty-prompt-0.13.1.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/tty-screen-0.6.3.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--tty-screen-0.6.3.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/tty-table-0.9.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--tty-table-0.9.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/unicode-display_width-1.1.3.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--unicode-display_width-1.1.3.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/unicode_utils-1.4.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--unicode_utils-1.4.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/verse-0.5.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--verse-0.5.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/websocket-driver-0.6.5.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--websocket-driver-0.6.5.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/websocket-extensions-0.1.3.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--websocket-extensions-0.1.3.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> Downloading https://rubygems.org/gems/wisper-2.0.0.gem
-==> gem install /home/ubuntu/.cache/Homebrew/kontena--wisper-2.0.0.gem --ignore-dependencies --no-document --norc --install-dir /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2/libexec
-==> gem install --ignore-dependencies --norc --no-document kontena-cli-1.4.2.gem
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kontena`
+==> Installing dependencies for kops: kubernetes-cli
+==> Installing kops dependency: kubernetes-cli
+==> Cloning https://github.com/kubernetes/kubernetes.git
+==> Checking out tag v1.8.5
+==> make generated_files
+==> make kubectl
+==> hack/generate-docs.sh
 ==> Caveats
 Bash completion has been installed to:
   /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kontena/1.4.2: 1,969 files, 10.7MB, built in 15 seconds
-==> Determining kontena bottle rebuild...
-==> Bottling kontena-1.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kontena-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kontena-1.4.2.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kubernetes-cli/1.8.5: 108 files, 51.2MB, built in 2 minutes 25 seconds
+==> Installing kops
+==> Downloading https://github.com/kubernetes/kops/archive/1.8.0.tar.gz
+==> Downloading from https://codeload.github.com/kubernetes/kops/tar.gz/1.8.0
+==> make -C /tmp/kops-20171215-73956-1x3ecmk/kops-1.8.0/src/k8s.io/kops
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kops`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kops/1.8.0: 5 files, 122.8MB, built in 48 seconds
+==> Determining kops bottle rebuild...
+==> Bottling kops-1.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kops-1.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kops-1.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d2944c1e31a1ae50be524d2f7c7ab92febc88bbd40965fe22d8b1582f9614d99" => :x86_64_linux
+    sha256 "2ae83242f40d97ca9fc64e04744797db32922f84875986cfa173a57884880c10" => :x86_64_linux
   end
