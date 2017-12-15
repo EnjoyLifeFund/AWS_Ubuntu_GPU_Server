@@ -1,14 +1,15 @@
-==> Installing fasta from homebrew/science
-==> Downloading http://faculty.virginia.edu/wrpearson/fasta/fasta36/fasta-36.3.7.tar.gz
-==> make -f ../make/Makefile.linux64_sse2
+==> Installing vcake from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/vcake/vcake%20%28c%29/vcakec_2.0/vcakec_2.0.tar
+==> Downloading from https://ayera.dl.sourceforge.net/project/vcake/vcake%20%28c%29/vcakec_2.0/vcakec_2.0.tar
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fasta`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fasta/36.3.7: 52 files, 16.5MB, built in 7 seconds
-==> Determining homebrew/science/fasta bottle rebuild...
-==> Bottling fasta-36.3.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fasta-36.3.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fasta-36.3.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/vcake`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/vcake/2.0: 4 files, 92.8KB, built in 1 second
+==> Determining homebrew/science/vcake bottle rebuild...
+==> Bottling vcake-2.0.x86_64_linux.bottle.1.tar.gz...
+./vcake-2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "50dbe2e6739e3a20dc20ba1f7c4fb97c5b51fbacd81025571e3e5489808aa89d" => :x86_64_linux
+    sha256 "fed0155f7fd0a78664eaa333110d0040da8a32ac1e6d330f15105e501aa045ae" => :x86_64_linux
   end
