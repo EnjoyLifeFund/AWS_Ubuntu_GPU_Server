@@ -1,5 +1,4 @@
-==> Downloading https://github.com/ajermakovics/jvm-mon/releases/download/0.3/jvm-mon-0.3.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/81111993/bb9e0da4-130c-11e7-9090-4462f6b2d39c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T194203Z&X-Amz-Expires=300&X-Amz-Signature=d381d01e2afc5e77dc79d596b3f34af0f40af890c3f1c1f4ba7d6b3212352448&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djvm-mon-0.3.tar.gz&response-content-type=application%2Foctet-stream
-==> unzip -j /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3/libexec/lib/j2v8_macosx_x86_64-4.6.0.jar libj2v8_macosx_x86_64.dylib -d /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3/libexec
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3: 2,473 files, 44.5MB, built in 5 seconds
+==> Downloading https://github.com/patric-r/jvmtop/releases/download/0.8.0/jvmtop-0.8.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/39074930/b8828664-2afa-11e5-9374-982632e0593e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T194215Z&X-Amz-Expires=300&X-Amz-Signature=b43b1dddb03eefd39d3902308d5758baf2680c50727fbda4bafdc8870a116612&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djvmtop-0.8.0.tar.gz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jvmtop/0.8.0: 6 files, 116.7KB, built in 1 second
 This formula doesn't require compiling.
