@@ -1,14 +1,29 @@
-==> Installing grabix from homebrew/science
-==> Downloading https://github.com/arq5x/grabix/archive/0.1.6.tar.gz
-==> Downloading from https://codeload.github.com/arq5x/grabix/tar.gz/0.1.6
-==> make
+==> Installing harry from homebrew/science
+==> Installing dependencies for homebrew/science/harry: libconfig
+==> Installing homebrew/science/harry dependency: libconfig
+==> Downloading https://linuxbrew.bintray.com/bottles/libconfig-1.7.1.x86_64_linux.bottle.tar.gz
+==> Pouring libconfig-1.7.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libconfig/1.7.1: 24 files, 1.9MB
+==> Installing homebrew/science/harry
+==> Downloading http://www.mlsec.org/harry/files/harry-0.4.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/harry/0.4.2 --with-pthreads --with-libarchive
+==> make all
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/grabix`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/grabix/0.1.6: 5 files, 2.2MB, built in 2 seconds
-==> Determining homebrew/science/grabix bottle rebuild...
-==> Bottling grabix-0.1.6.x86_64_linux.bottle.tar.gz...
-./grabix-0.1.6.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/harry`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/harry/0.4.2: 24 files, 1.2MB, built in 23 seconds
+==> Determining homebrew/science/harry bottle rebuild...
+==> Bottling harry-0.4.2.x86_64_linux.bottle.tar.gz...
+./harry-0.4.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "802c94dd570934cb9cb2b3f69935f760cb25bf97ead3dbdd43200f815b26d26b" => :x86_64_linux
+    sha256 "f5ff75bd5a82be3643c4bab173cf35da81e62f3aac6b364d62c77c802989012c" => :x86_64_linux
   end
