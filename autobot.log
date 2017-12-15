@@ -1,3 +1,13 @@
-==> Downloading http://www.stewart.com.au/ip_relay/ip_relay-0.71.tgz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ip_relay/0.71: 6 files, 68.4KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://www.chiark.greenend.org.uk/~sgtatham/ipbt/ipbt-20170831.3c40fd3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipbt/20170831
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ipbt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipbt/20170831: 7 files, 847KB, built in 5 seconds
+==> Determining ipbt bottle rebuild...
+==> Bottling ipbt-20170831.x86_64_linux.bottle.1.tar.gz...
+./ipbt-20170831.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "291751ed2f9c22bd898028bd0fce9165e67e5d4e82d3342986ba6cde10e6126a" => :x86_64_linux
+  end
