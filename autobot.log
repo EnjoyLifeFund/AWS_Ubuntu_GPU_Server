@@ -1,13 +1,27 @@
-==> Downloading https://github.com/hoedown/hoedown/archive/3.0.7.tar.gz
-==> Downloading from https://codeload.github.com/hoedown/hoedown/tar.gz/3.0.7
-==> make hoedown
+==> Tapping homebrew/portable
+Tapped 6 formulae (53 files, 225.8KB)
+==> Installing portable-libyaml from homebrew/portable
+==> Downloading http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/portable-libyaml/0.1.7 --enable-static --disable-shared
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hoedown`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hoedown/3.0.7: 64 files, 490.4KB, built in 2 seconds
-==> Determining hoedown bottle rebuild...
-==> Bottling hoedown-3.0.7.x86_64_linux.bottle.1.tar.gz...
-./hoedown-3.0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/portable/portable-libyaml`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because portable formulae are keg-only.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/portable-libyaml/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/portable-libyaml/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/portable-libyaml/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/portable-libyaml/0.1.7: 7 files, 564KB, built in 6 seconds
+==> Determining homebrew/portable/portable-libyaml bottle rebuild...
+==> Bottling portable-libyaml-0.1.7.x86_64_linux.bottle.tar.gz...
+./portable-libyaml-0.1.7.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "69f5312e26ec7f0bdca3ad6a4038675be92ed6233cebb67c8a9fa86197426221" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "19aeefcbd2d60f60a670edc645f211678384b7c12614f780c5a39b5bbce2b90e" => :x86_64_linux
   end
