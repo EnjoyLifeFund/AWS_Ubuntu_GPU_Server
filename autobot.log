@@ -1,7 +1,14 @@
-==> Determining libcroco bottle rebuild...
-==> Bottling libcroco-0.6.12.x86_64_linux.bottle.1.tar.gz...
-./libcroco-0.6.12.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/libcsv/libcsv/libcsv-3.0.3/libcsv-3.0.3.tar.gz
+==> Downloading from https://cytranet.dl.sourceforge.net/project/libcsv/libcsv/libcsv-3.0.3/libcsv-3.0.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcsv/3.0.3
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libcsv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcsv/3.0.3: 11 files, 131.3KB, built in 11 seconds
+==> Determining libcsv bottle rebuild...
+==> Bottling libcsv-3.0.3.x86_64_linux.bottle.tar.gz...
+./libcsv-3.0.3.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "76aa0e2780df6585a6a7e8ef2ee2d2048ef8714313c0ae6bd32da88ed7d4a47d" => :x86_64_linux
+    sha256 "b154be18c69af7e0ed3234c0905d1370e64826ccc5e32eeb0c8a0081d930a4fd" => :x86_64_linux
   end
