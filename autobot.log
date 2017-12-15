@@ -1,32 +1,17 @@
-==> Installing openbr from homebrew/science
-==> Cloning https://github.com/biometrics/openbr.git
-==> Checking out tag v1.1.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/openbr/1.1.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Installing opencollada from homebrew/science
+==> Downloading https://github.com/KhronosGroup/OpenCOLLADA/archive/v1.6.59.tar.gz
+==> Downloading from https://codeload.github.com/KhronosGroup/OpenCOLLADA/tar.gz/v1.6.59
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/opencollada/1.6.59 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/br
-Target /home/linuxbrew/.linuxbrew/bin/br
-is a symlink belonging to apache-brooklyn-cli. You can unlink it:
-  brew unlink apache-brooklyn-cli
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite openbr
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run openbr
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/br -> /home/linuxbrew/.linuxbrew/Cellar/apache-brooklyn-cli/0.12.0/bin/br
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/openbr`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openbr/1.1.0_1: 160 files, 265.3MB, built in 2 minutes 27 seconds
-==> Determining homebrew/science/openbr bottle rebuild...
-==> Bottling openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/opencollada`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/opencollada/1.6.59: 354 files, 137.4MB, built in 1 minute 1 second
+==> Determining homebrew/science/opencollada bottle rebuild...
+==> Bottling opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz is relocatable...
+./opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "46344d2d911b1532a603cb7d0c40ff76e7f9a7e0237c8ddd28d06128276e11b6" => :x86_64_linux
+    sha256 "f52b75bb2f0bb7588e0797a7287025b22164eb60b156f6a875591e3f3d31ffc7" => :x86_64_linux
   end
