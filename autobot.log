@@ -1,14 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/lci/lci/0.6/lci-0.6.tar.gz
-==> Downloading from https://master.dl.sourceforge.net/project/lci/lci/0.6/lci-0.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lci/0.6
-==> make install
+==> Downloading https://downloads.sourceforge.net/ltp/lcov-1.13.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/ltp/Coverage%20Analysis/LCOV-1.13/lcov-1.13.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13 BIN_DIR=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13/bin MAN_DIR=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13/share/man install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lci`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lci/0.6: 11 files, 177.9KB, built in 6 seconds
-==> Determining lci bottle rebuild...
-==> Bottling lci-0.6.x86_64_linux.bottle.1.tar.gz...
-./lci-0.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lcov`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lcov/1.13: 17 files, 574KB, built in 1 second
+==> Determining lcov bottle rebuild...
+==> Bottling lcov-1.13.x86_64_linux.bottle.1.tar.gz...
+./lcov-1.13.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "22d55dd5353f8c2d9f82ceb7300998df1a07e7d23eac8d25bfaa78998800a64a" => :x86_64_linux
+    sha256 "7fec6aa1d25d8faf634662ad8de9641587978ae89d435c6f9412d3ec49913def" => :x86_64_linux
   end
