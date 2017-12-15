@@ -1,18 +1,19 @@
-==> Installing kallisto from homebrew/science
+==> Installing kat from homebrew/science
 ==> Using Homebrew-provided fortran compiler.
 This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/pachterlab/kallisto/archive/v0.43.1.tar.gz
-==> Downloading from https://codeload.github.com/pachterlab/kallisto/tar.gz/v0.43.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kallisto/0.43.1_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/TGAC/KAT/releases/download/Release-2.3.4/kat-2.3.4.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/13294309/5c4c06f2-362b-11e7-8f95-e32a05b60380?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T084617Z&X-Amz-Expires=300&X-Amz-Signature=edd925be6ecbba612ff7c76d0ace63081769978aa0b74b2475e59a76cd577b4a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkat-2.3.4.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/kat/2.3.4_1 --with-boost=/home/linuxbrew/.linuxbrew/opt/boost
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kallisto`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kallisto/0.43.1_1: 5 files, 403.2KB, built in 10 seconds
-==> Determining homebrew/science/kallisto bottle rebuild...
-==> Bottling kallisto-0.43.1_1.x86_64_linux.bottle.1.tar.gz...
-./kallisto-0.43.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kat/2.3.4_1: 85 files, 42.3MB, built in 1 minute 1 second
+==> Determining homebrew/science/kat bottle rebuild...
+==> Bottling kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3878328894c87006033dd805ae01f50ad92ab7230570d44602ba4e7f139e3778" => :x86_64_linux
+    sha256 "23e05d45449d6df9c72984b349e38d743c89505d0afa22d9071a72f538a839b9" => :x86_64_linux
   end
