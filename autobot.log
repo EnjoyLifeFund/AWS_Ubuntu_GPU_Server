@@ -1,17 +1,17 @@
-==> Installing ea-utils from homebrew/science
-==> Downloading https://drive.google.com/uc?export=download&id=0B7KhouP0YeRAc2xackxzRnFrUEU
-==> Downloading from https://doc-04-5g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ifm950lqmk59rkmf1q6pdv0dvgmngkbj/1513310400000/05687074833748560484/*/0B7KhouP0YeRAc2xackxzRnFrUEU?e=download
-==> Patching
-patching file sparsehash-2.0.2/src/sparsehash/internal/sparsehashtable.h
-patching file sparsehash-2.0.2/src/hashtable_test.cc
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ea-utils/1.1.2-806_2
+==> Installing edena from homebrew/science
+==> Downloading http://www.genomic.ch/edena/EdenaV3.131028.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ea-utils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ea-utils/1.1.2-806_2: 15 files, 1.9MB, built in 1 minute 59 seconds
-==> Determining homebrew/science/ea-utils bottle rebuild...
-==> Bottling ea-utils-1.1.2-806_2.x86_64_linux.bottle.1.tar.gz...
-./ea-utils-1.1.2-806_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/edena`
+==> Caveats
+The documentation installed into
+    /home/linuxbrew/.linuxbrew/share/doc/edena
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/edena/3.131028: 5 files, 804.8KB, built in 14 seconds
+==> Determining homebrew/science/edena bottle rebuild...
+==> Bottling edena-3.131028.x86_64_linux.bottle.tar.gz...
+./edena-3.131028.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "3230401d8827f46d2be2725a41c04da67e77ea41466ee8951f684fb68b984c80" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "9b046d7278170a4a9f00226b79392d06de400aa242eaf90a5c86a2fc776b4d3b" => :x86_64_linux
   end
