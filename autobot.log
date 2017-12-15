@@ -1,4 +1,13 @@
-==> Downloading https://github.com/cbeust/kobalt/releases/download/1.0.92/kobalt-1.0.92.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/43665276/e1ba2106-cdf8-11e7-8fd0-98476cd15dd1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T195913Z&X-Amz-Expires=300&X-Amz-Signature=a03ead44f1f1409ce3fb7eed0a226ecf1882d9765b908b4c547e18f728451b53&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkobalt-1.0.92.zip&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kobalt/1.0.92: 6 files, 59.4MB, built in 5 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/bilgi-webteam/kommit/archive/v1.1.0.tar.gz
+==> Downloading from https://codeload.github.com/bilgi-webteam/kommit/tar.gz/v1.1.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kommit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kommit/1.1.0: 5 files, 23.7KB, built in 0 seconds
+==> Determining kommit bottle rebuild...
+==> Bottling kommit-1.1.0.x86_64_linux.bottle.1.tar.gz...
+./kommit-1.1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2168eecdb10a96cea2f9b4dfb98f1deeaf7b2aceeadbf30ddc18f2f3faf24951" => :x86_64_linux
+  end
