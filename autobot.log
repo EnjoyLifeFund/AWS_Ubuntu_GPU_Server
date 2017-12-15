@@ -1,9 +1,14 @@
-==> Determining homebrew/science/mafft bottle rebuild...
-==> Bottling mafft-7.305.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mafft-7.305.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mafft-7.305.x86_64_linux.bottle.1.tar.gz
+==> Installing mallet from homebrew/science
+==> Downloading http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/mallet`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mallet/2.0.8: 2,778 files, 22.3MB, built in 3 seconds
+==> Determining homebrew/science/mallet bottle rebuild...
+==> Bottling mallet-2.0.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mallet-2.0.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mallet-2.0.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9ab97def92d8ac8caad95f7de73c29c88d316a6b1be135043a9267ae5037dda9" => :x86_64_linux
+    sha256 "0a61e5fa14484c7cc6371d9399fd3de6b8e1b257c4cbbea31aa7b409ad603992" => :x86_64_linux
   end
