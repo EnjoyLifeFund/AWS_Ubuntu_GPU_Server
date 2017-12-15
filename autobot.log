@@ -1,15 +1,7 @@
-==> Downloading https://github.com/atheme/libmowgli-2/archive/v2.1.3.tar.gz
-==> Downloading from https://codeload.github.com/atheme/libmowgli-2/tar.gz/v2.1.3
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmowgli/2.1.3 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmowgli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmowgli/2.1.3: 60 files, 1.2MB, built in 6 seconds
-==> Determining libmowgli bottle rebuild...
-==> Bottling libmowgli-2.1.3.x86_64_linux.bottle.1.tar.gz...
-./libmowgli-2.1.3.x86_64_linux.bottle.1.tar.gz
+==> Determining libmpc bottle rebuild...
+==> Bottling libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e6b16c95243ba66ac42da63c0c5e9f60a29554c8e60a3465eb79c5d874a575ad" => :x86_64_linux
+    sha256 "ab6c09d5ce9f81f92cadacb0304870aafa140fdf3bef4f7883669e9717890005" => :x86_64_linux
   end
