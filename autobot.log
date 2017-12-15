@@ -1,13 +1,19 @@
-==> Downloading http://kyberdigi.cz/projects/ipinfo/files/ipinfo-1.2.tar.gz
-==> make BINDIR=/home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2/share/man/man1 install
+==> Installing giira from homebrew/science
+==> Installing dependencies for homebrew/science/giira: tophat
+==> Installing homebrew/science/giira dependency: tophat
+==> Downloading https://linuxbrew.bintray.com/bottles-science/tophat-2.1.1_6.x86_64_linux.bottle.tar.gz
+==> Pouring tophat-2.1.1_6.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tophat/2.1.1_6: 49 files, 54.5MB
+==> Installing homebrew/science/giira
+==> Downloading https://downloads.sourceforge.net/project/giira/GIIRA_01_3.zip
+==> Downloading from https://svwh.dl.sourceforge.net/project/giira/GIIRA_01_3.zip
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ipinfo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2: 8 files, 69.6KB, built in 1 second
-==> Determining ipinfo bottle rebuild...
-==> Bottling ipinfo-1.2.x86_64_linux.bottle.1.tar.gz...
-./ipinfo-1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/giira`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/giira/01.3: 16 files, 157KB, built in 1 second
+==> Determining homebrew/science/giira bottle rebuild...
+==> Bottling giira-01.3.x86_64_linux.bottle.tar.gz...
+./giira-01.3.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "1564c90e203e7c3877f4cddc5587033cddab72adaa29217288cbc39138b16981" => :x86_64_linux
+    sha256 "53d28b6280d5f8ee1833c75de6cd573d3a4efad28aee1307cdf4bfd60db2c34e" => :x86_64_linux
   end
