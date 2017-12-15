@@ -1,4 +1,15 @@
-==> Installing vague from homebrew/science
-==> Downloading http://www.vicbioinformatics.com/vague-1.0.5.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/vague/1.0.5: 8 files, 17MB, built in 6 seconds
-This formula doesn't require compiling.
+==> Installing fann from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/fann/fann/2.2.0/FANN-2.2.0-Source.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/fann/fann/2.2.0/FANN-2.2.0-Source.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/fann/2.2.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/fann`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fann/2.2.0: 30 files, 761.5KB, built in 6 seconds
+==> Determining homebrew/science/fann bottle rebuild...
+==> Bottling fann-2.2.0.x86_64_linux.bottle.tar.gz...
+./fann-2.2.0.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "9f94aafebb72e5b27ce7433bd7ffb0415cff2f6b6f60c35a407d9e36b5af2d35" => :x86_64_linux
+  end
