@@ -1,13 +1,20 @@
-==> Installing mapsembler2 from homebrew/science
-==> Downloading https://www.irisa.fr/symbiose/people/ppeterlongo/mapsembler2_2.2.4.zip
-==> ./compile_all_tools.sh
+==> Installing maq from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/maq/maq/0.7.1/maq-0.7.1.tar.bz2
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/maq/maq/0.7.1/maq-0.7.1.tar.bz2
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/2f18f5e22911865e2166d1f16d4758511ea8434c/maq/maq-0.7.1-compilation-fix.patch?full_index=1
+==> Patching
+==> Applying maq-0.7.1-compilation-fix.patch
+patching file get_pos.c
+patching file stdhash.hh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/maq/0.7.1_1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mapsembler2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mapsembler2/2.2.4_1: 7 files, 472.6KB, built in 1 minute 30 seconds
-==> Determining homebrew/science/mapsembler2 bottle rebuild...
-==> Bottling mapsembler2-2.2.4_1.x86_64_linux.bottle.1.tar.gz...
-./mapsembler2-2.2.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/maq`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/maq/0.7.1_1: 14 files, 1.4MB, built in 9 seconds
+==> Determining homebrew/science/maq bottle rebuild...
+==> Bottling maq-0.7.1_1.x86_64_linux.bottle.1.tar.gz...
+./maq-0.7.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c83c3566e4c23b795ae1226ce749500ea2a7a561e5e0a425d9d15c746f4c931e" => :x86_64_linux
+    sha256 "fff29fe4b199f9bdf5cde1e0101031e72daf5e3d917ca38ca0c7cf2f6e76eee8" => :x86_64_linux
   end
