@@ -1,14 +1,8 @@
-==> Downloading https://github.com/hebcal/hebcal/archive/v4.13.tar.gz
-==> Downloading from https://codeload.github.com/hebcal/hebcal/tar.gz/v4.13
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hebcal/4.13 ACLOCAL=aclocal AUTOMAKE=automake
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hebcal`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hebcal/4.13: 8 files, 1MB, built in 5 seconds
-==> Determining hebcal bottle rebuild...
-==> Bottling hebcal-4.13.x86_64_linux.bottle.1.tar.gz...
-./hebcal-4.13.x86_64_linux.bottle.1.tar.gz
+==> Determining help2man bottle rebuild...
+==> Bottling help2man-1.47.5.x86_64_linux.bottle.1.tar.gz...
+./help2man-1.47.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "dbd75b0206740d1fb3cf7fb2e121e9b0a21f2a842a70fb13a6719d5bfc781b3a" => :x86_64_linux
+    sha256 "2e315f29934bfec2ab38c54303132fe19f692264cb70bb0a01ed757c0c73657c" => :x86_64_linux
   end
