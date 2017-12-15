@@ -1,16 +1,14 @@
-==> Downloading http://www.kite-language.org/files/kite-1.0.4.tar.gz
-==> Patching
-patching file backend/common/kite_vm.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kite/1.0.4
+==> Downloading http://www.zeroflux.org/proj/knock/files/knock-0.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/knock/0.7
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kite`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kite/1.0.4: 47 files, 3.8MB, built in 14 seconds
-==> Determining kite bottle rebuild...
-==> Bottling kite-1.0.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kite-1.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kite-1.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall knock`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/knock/0.7: 15 files, 243.5KB, built in 3 seconds
+==> Determining knock bottle rebuild...
+==> Bottling knock-0.7.x86_64_linux.bottle.1.tar.gz...
+./knock-0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a2451eb1229bad07c762b4746f122edef4df0c343a292a3ae1f39f49005a1716" => :x86_64_linux
+    sha256 "a6b668f722695f2524ccc827c3c289db0212cac1ae1186790de0f6755dd2daa2" => :x86_64_linux
   end
