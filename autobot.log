@@ -1,14 +1,9 @@
-==> Installing fermi from homebrew/science
-==> Downloading https://github.com/lh3/fermi/archive/1.1.tar.gz
-==> Downloading from https://codeload.github.com/lh3/fermi/tar.gz/1.1
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fermi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fermi/1.1: 5 files, 927.3KB, built in 3 seconds
-==> Determining homebrew/science/fermi bottle rebuild...
-==> Bottling fermi-1.1.x86_64_linux.bottle.1.tar.gz...
-./fermi-1.1.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/viennarna bottle rebuild...
+==> Bottling viennarna-2.3.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if viennarna-2.3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./viennarna-2.3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a1692ee3a5a8660fcc37f65ed166ad54fdc4d03691ad6004df2ebf27fa3bc231" => :x86_64_linux
+    sha256 "16ab8d04446496c24a2b7b6dcb2d35411b081b2aaf1a14d945ef35942f9fa098" => :x86_64_linux
   end
