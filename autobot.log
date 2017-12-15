@@ -1,8 +1,14 @@
-==> Determining homebrew/science/qsopt bottle rebuild...
-==> Bottling qsopt-1.01_1.x86_64_linux.bottle.1.tar.gz...
-./qsopt-1.01_1.x86_64_linux.bottle.1.tar.gz
+==> Installing ssake from homebrew/science
+==> Downloading http://www.bcgsc.ca/platform/bioinfo/software/ssake/releases/3.8.4/ssake_v3-8-4.tar.gz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/ssake`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ssake/3.8.4: 37 files, 4.6MB, built in 3 seconds
+==> Determining homebrew/science/ssake bottle rebuild...
+==> Bottling ssake-3.8.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ssake-3.8.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ssake-3.8.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "031ce44aedd3d7dc78360bd2991d4ee442d5f224d4050edf9e65a66182577f4d" => :x86_64_linux
+    sha256 "0d771b8923a5bff5cbf53f3eac5a56bccbb80b4e85f2efd6caab53a3ec25fe1f" => :x86_64_linux
   end
