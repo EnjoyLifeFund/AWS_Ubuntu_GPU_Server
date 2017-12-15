@@ -1,29 +1,15 @@
-==> Installing reapr from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/reapr/Reapr_1.0.18.tar.gz
-==> Downloading http://search.cpan.org/CPAN/authors/id/R/RM/RMBARKER/File-Copy-Link-0.140.tar.gz
-==> Downloading from http://www.cpan.org/authors/id/R/RM/RMBARKER/File-Copy-Link-0.140.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/reapr/1.0.18_2/libexec
-==> make
-==> make install
-==> Downloading https://github.com/samtools/samtools/commit/64275b4.patch
-==> patch -p1 -i /tmp/reapr--samtools_patch-20171215-28268-113p41n/64275b4.patch -d /tmp/reapr-20171215-28268-f85ero/Reapr_1.0.18/third_party/samtools-0.1.18
-==> make -C third_party/samtools
-==> make -C third_party/samtools razip
-==> make -C third_party/tabix
-==> make -C third_party/snpomatic
-==> make -C src CFLAGS=-I/home/linuxbrew/.linuxbrew/opt/bamtools/include/bamtools
-==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/reapr/Reapr_1.0.18.manual.pdf
-==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/reapr/Reapr_1.0.18.test_data.tar.gz
+==> Installing recon from homebrew/science
+==> Downloading http://www.repeatmasker.org/RECON-1.07.tar.gz
+==> make -C src
+==> make -C src install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/recon/1.07/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/recon/1.07/share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/reapr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/reapr/1.0.18_2: 77 files, 43.0MB, built in 57 seconds
-==> Determining homebrew/science/reapr bottle rebuild...
-==> Bottling reapr-1.0.18_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if reapr-1.0.18_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./reapr-1.0.18_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/recon`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/recon/1.07: 13 files, 192KB, built in 2 seconds
+==> Determining homebrew/science/recon bottle rebuild...
+==> Bottling recon-1.07.x86_64_linux.bottle.1.tar.gz...
+./recon-1.07.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e025dbba58e7d889360a63772976d76dba8fac0bf91745c715d3134871039fac" => :x86_64_linux
+    sha256 "d8d66ad8e476fbc606f1f723a796542967cd454f31f65545ed6cebf133d720e0" => :x86_64_linux
   end
