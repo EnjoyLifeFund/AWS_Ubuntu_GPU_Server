@@ -1,15 +1,31 @@
-==> Installing psmc from homebrew/science
-==> Downloading https://github.com/lh3/psmc/archive/0.6.5.tar.gz
-==> Downloading from https://codeload.github.com/lh3/psmc/tar.gz/0.6.5
-==> make
-==> make -C utils
+==> Installing qr_mumps from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading http://buttari.perso.enseeiht.fr/qr_mumps/releases/1.2/qr_mumps-1.2.tgz
+==> make sprec dprec cprec zprec TOPDIR=/tmp/qr_mumps-20171215-108576-s89xh3/qr_mumps-1.2 CC=gcc-6 -fPIC FC=/home/linuxbrew/.linuxbrew/bin/gfortran -fPIC LMETIS=-L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis IMETIS=-I/home/linuxbrew/.linuxbrew/opt/metis4/include LBLAS=-L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas LLAPACK=-L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> make stest dtest ctest ztest TOPDIR=/tmp/qr_mumps-20171215-108576-s89xh3/qr_mumps-1.2 CC=gcc-6 -fPIC FC=/home/linuxbrew/.linuxbrew/bin/gfortran -fPIC LMETIS=-L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis IMETIS=-I/home/linuxbrew/.linuxbrew/opt/metis4/include LBLAS=-L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas LLAPACK=-L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> ./sqrm_coverage
+==> ./dqrm_coverage
+==> ./cqrm_coverage
+==> ./zqrm_coverage
+==> /home/linuxbrew/.linuxbrew/bin/gfortran -fPIC -shared -Wl,-whole-archive libqrm_common.a -Wl,-no-whole-archive -o libqrm_common.so -lgomp -L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis -L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> /home/linuxbrew/.linuxbrew/bin/gfortran -fPIC -shared -Wl,-whole-archive libsqrm.a -Wl,-no-whole-archive -o libsqrm.so -lgomp -L. -lqrm_common -L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis -L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> /home/linuxbrew/.linuxbrew/bin/gfortran -fPIC -shared -Wl,-whole-archive libdqrm.a -Wl,-no-whole-archive -o libdqrm.so -lgomp -L. -lqrm_common -L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis -L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> /home/linuxbrew/.linuxbrew/bin/gfortran -fPIC -shared -Wl,-whole-archive libcqrm.a -Wl,-no-whole-archive -o libcqrm.so -lgomp -L. -lqrm_common -L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis -L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
+==> /home/linuxbrew/.linuxbrew/bin/gfortran -fPIC -shared -Wl,-whole-archive libzqrm.a -Wl,-no-whole-archive -o libzqrm.so -lgomp -L. -lqrm_common -L/home/linuxbrew/.linuxbrew/opt/metis4/lib -lmetis -L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/psmc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/psmc/0.6.5: 20 files, 352.1KB, built in 2 seconds
-==> Determining homebrew/science/psmc bottle rebuild...
-==> Bottling psmc-0.6.5.x86_64_linux.bottle.1.tar.gz...
-./psmc-0.6.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/qr_mumps`
+==> Caveats
+Fortran modules were installed to
+  "/home/linuxbrew/.linuxbrew/opt/qr_mumps/libexec/modules"
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/qr_mumps/1.2_2: 139 files, 3.9MB, built in 1 minute 8 seconds
+==> Determining homebrew/science/qr_mumps bottle rebuild...
+==> Bottling qr_mumps-1.2_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if qr_mumps-1.2_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./qr_mumps-1.2_2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0a46ee2c21ac221747c881d8b9ab0024057c1f08c4ed5471129d7331284ffd0a" => :x86_64_linux
+    sha256 "750c0ebb844ba76edd1320d3b874f34d30fd099f432c0cfd4320529e6849494b" => :x86_64_linux
   end
