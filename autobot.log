@@ -1,16 +1,19 @@
-==> Installing art from homebrew/science
-==> Downloading https://www.niehs.nih.gov/research/resources/assets/docs/artsrcmountrainier20160605linuxtgz.tgz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/art/20160605_1
-==> make clean
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/art`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/art/20160605_1: 74 files, 21MB, built in 26 seconds
-==> Determining homebrew/science/art bottle rebuild...
-==> Bottling art-20160605_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if art-20160605_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./art-20160605_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "d5a797b8ccecb2bee72d63a429e850fec718ac1ea5b53f8bb4063ea127f038f8" => :x86_64_linux
-  end
+==> Installing artemis from homebrew/science
+==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/v16/v16.0.17/artemis-v16.0.17.jar
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/art
+Target /home/linuxbrew/.linuxbrew/bin/art
+is a symlink belonging to artifactory-cli-go. You can unlink it:
+  brew unlink artifactory-cli-go
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite artemis
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run artemis
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/art -> /home/linuxbrew/.linuxbrew/Cellar/artifactory-cli-go/1.3.0/bin/art
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/artemis/16.0.17: 6 files, 10.8MB, built in 12 seconds
+This formula doesn't require compiling.
