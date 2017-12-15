@@ -1,8 +1,15 @@
-==> Determining guile bottle rebuild...
-==> Bottling guile-2.2.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if guile-2.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./guile-2.2.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/google/gumbo-parser/archive/v0.10.1.tar.gz
+==> Downloading from https://codeload.github.com/google/gumbo-parser/tar.gz/v0.10.1
+==> ./autogen.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gumbo-parser/0.10.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gumbo-parser`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gumbo-parser/0.10.1: 12 files, 2MB, built in 22 seconds
+==> Determining gumbo-parser bottle rebuild...
+==> Bottling gumbo-parser-0.10.1.x86_64_linux.bottle.1.tar.gz...
+./gumbo-parser-0.10.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a0d95a9004e62dee6c3acd324e0b0da61c05321a45680abb8547e09d151adcbc" => :x86_64_linux
+    sha256 "49cf499bbe0c7607458fa997d47c0961f51f59124c36c329730e4a28881dcece" => :x86_64_linux
   end
