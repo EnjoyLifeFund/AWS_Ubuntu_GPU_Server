@@ -1,21 +1,15 @@
-==> Downloading https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.48.tar.xz
-==> ./autogen.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48/bin --with-openssl --with-ldap --with-zlib --with-bzip2
+==> Downloading https://www.abisource.com/downloads/link-grammar/5.4.2/link-grammar-5.4.2.tar.gz
+==> ./autogen.sh --no-configure
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/link-grammar/5.4.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lighttpd`
-==> Caveats
-Docroot is: /home/linuxbrew/.linuxbrew/var/www
-
-The default port has been set in /home/linuxbrew/.linuxbrew/etc/lighttpd/lighttpd.conf to 8080 so that
-lighttpd can run without sudo.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48: 72 files, 3.6MB, built in 36 seconds
-==> Determining lighttpd bottle rebuild...
-==> Bottling lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall link-grammar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/link-grammar/5.4.2: 470 files, 14.7MB, built in 46 seconds
+==> Determining link-grammar bottle rebuild...
+==> Bottling link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "062f7b10b85a8bc0bc21e038b436d12f16ea6ebc670a4fee8d2ebeaa5bfc3a31" => :x86_64_linux
+    sha256 "f36394fed10fd0a0f617bed04473de925a7640a3ae3c734a9c3d07112a32ec8d" => :x86_64_linux
   end
