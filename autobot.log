@@ -1,32 +1,7 @@
-==> Downloading https://ftp.postgresql.org/pub/source/v9.6.6/postgresql-9.6.6.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpq/9.6.6 --with-openssl
-==> make
-==> make -C src/bin install
-==> make -C src/include install
-==> make -C src/interfaces install
-==> make -C doc install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libpq`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because conflicts with postgres formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/libpq/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/libpq/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/libpq/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/libpq/lib/pkgconfig
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpq/9.6.6: 2,322 files, 24.9MB, built in 57 seconds
-==> Determining libpq bottle rebuild...
-==> Bottling libpq-9.6.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libpq-9.6.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libpq-9.6.6.x86_64_linux.bottle.1.tar.gz
+==> Determining libproxy bottle rebuild...
+==> Bottling libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz...
+./libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "ce618df737d17cb7ff928d2b0ae69dfe2eff85e737cbd9f7eb43a971a2bee507" => :x86_64_linux
+    sha256 "a04a337411178eaf97b963849b9d47d34753709dc23bb93dbe51dbf52fa5bf79" => :x86_64_linux
   end
