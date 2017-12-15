@@ -1,18 +1,15 @@
-==> Installing scrm from homebrew/science
-==> Downloading https://github.com/scrm/scrm/releases/download/v1.7.2/scrm-src.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/8410558/0005eb58-ff4d-11e5-9c12-e301b75eec5b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T142113Z&X-Amz-Expires=300&X-Amz-Signature=347adba432f8938cc31b5dfb1e6b033d86620e24afd9ebdccc0dff0ce3ebbb60&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dscrm-src.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/scrm/1.7.2
-==> make
-==> make test
+==> Downloading https://github.com/royhills/ike-scan/releases/download/1.9/ike-scan-1.9.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/12139441/20dc4328-560c-11e3-80e4-b338429e97cf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T181838Z&X-Amz-Expires=300&X-Amz-Signature=92482f799ba007ec3ff7b8aa2c5bb807142103092a01f63a9bc4080d4af04c30&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dike-scan-1.9.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1/share/man --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/scrm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/scrm/1.7.2: 8 files, 320.6KB, built in 22 seconds
-==> Determining homebrew/science/scrm bottle rebuild...
-==> Bottling scrm-1.7.2.x86_64_linux.bottle.1.tar.gz...
-./scrm-1.7.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ike-scan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1: 15 files, 4.5MB, built in 9 seconds
+==> Determining ike-scan bottle rebuild...
+==> Bottling ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c1bd599858e3da8bd50bdb8f88c0d578a2c71a0ca82d5a03f3030543989fe637" => :x86_64_linux
+    sha256 "7a9a5e35566d63f186429febe2ffe6062dc35bd190acc3760568e9a7a678ac6e" => :x86_64_linux
   end
