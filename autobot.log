@@ -1,13 +1,14 @@
-==> Downloading https://downloads.xiph.org/releases/libfishsound/libfishsound-1.0.0.tar.gz
-==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/libfishsound/libfishsound-1.0.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libfishsound/1.0.0
+==> Downloading https://tools.netsa.cert.org/releases/libfixbuf-1.8.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libfixbuf/1.8.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libfixbuf/1.8.0/share/man
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libfishsound`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libfishsound/1.0.0: 82 files, 801.5KB, built in 8 seconds
-==> Determining libfishsound bottle rebuild...
-==> Bottling libfishsound-1.0.0.x86_64_linux.bottle.tar.gz...
-./libfishsound-1.0.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libfixbuf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libfixbuf/1.8.0: 15 files, 1.3MB, built in 11 seconds
+==> Determining libfixbuf bottle rebuild...
+==> Bottling libfixbuf-1.8.0.x86_64_linux.bottle.1.tar.gz...
+./libfixbuf-1.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "57aac821d4e6eba1dc2b1a70f2fbaed27ec76ac8cc6399b7a58eff2897fb2ba1" => :x86_64_linux
+    rebuild 1
+    sha256 "f3f5a7763ee69939306761122c4661d526bc852417f82db19897d0722fd3ba9b" => :x86_64_linux
   end
