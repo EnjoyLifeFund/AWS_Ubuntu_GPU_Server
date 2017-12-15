@@ -1,15 +1,15 @@
-==> Installing proteinortho from homebrew/science
-==> Downloading http://www.bioinf.uni-leipzig.de/Software/proteinortho/proteinortho_v5.15_src.tar.gz
+==> Installing psmc from homebrew/science
+==> Downloading https://github.com/lh3/psmc/archive/0.6.5.tar.gz
+==> Downloading from https://codeload.github.com/lh3/psmc/tar.gz/0.6.5
 ==> make
-==> make INSTALLDIR=/home/linuxbrew/.linuxbrew/Cellar/proteinortho/5.15/bin install
+==> make -C utils
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/proteinortho`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/proteinortho/5.15: 20 files, 771.6KB, built in 7 seconds
-==> Determining homebrew/science/proteinortho bottle rebuild...
-==> Bottling proteinortho-5.15.x86_64_linux.bottle.1.tar.gz...
-./proteinortho-5.15.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/psmc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/psmc/0.6.5: 20 files, 352.1KB, built in 2 seconds
+==> Determining homebrew/science/psmc bottle rebuild...
+==> Bottling psmc-0.6.5.x86_64_linux.bottle.1.tar.gz...
+./psmc-0.6.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b318418cdd077843201e01aee8d037af50570001b0d13a9391be452624c36f6b" => :x86_64_linux
+    sha256 "0a46ee2c21ac221747c881d8b9ab0024057c1f08c4ed5471129d7331284ffd0a" => :x86_64_linux
   end
