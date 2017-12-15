@@ -1,13 +1,8 @@
-==> Downloading http://libmodbus.org/releases/libmodbus-3.1.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmodbus/3.1.4
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmodbus`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmodbus/3.1.4: 16 files, 230.2KB, built in 14 seconds
-==> Determining libmodbus bottle rebuild...
-==> Bottling libmodbus-3.1.4.x86_64_linux.bottle.1.tar.gz...
-./libmodbus-3.1.4.x86_64_linux.bottle.1.tar.gz
+==> Determining libmodplug bottle rebuild...
+==> Bottling libmodplug-0.8.9.0.x86_64_linux.bottle.1.tar.gz...
+./libmodplug-0.8.9.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "996b064d944c9b2d41ed464258be9b035f0a3f5006e686ee78bb912477ff10e3" => :x86_64_linux
+    sha256 "f608f6fdd2c14ed7143c58391646bf976eb04f485316924ed2a1db94e2d25dd6" => :x86_64_linux
   end
