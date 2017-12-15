@@ -1,21 +1,8 @@
-==> Downloading https://github.com/selkhateeb/hardlink/archive/v0.1.1.tar.gz
-==> Downloading from https://codeload.github.com/selkhateeb/hardlink/tar.gz/v0.1.1
-==> make
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hardlink-osx/0.1.1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hardlink-osx`
-==> Caveats
-Hardlinks can not be created under the same directory root. If you try to
-`hln source directory` to target directory under the same root you will get an error!
-
-Also, remember the binary is named `hln` due to a naming conflict.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hardlink-osx/0.1.1: 4 files, 23.3KB, built in 1 second
-==> Determining hardlink-osx bottle rebuild...
-==> Bottling hardlink-osx-0.1.1.x86_64_linux.bottle.1.tar.gz...
-./hardlink-osx-0.1.1.x86_64_linux.bottle.1.tar.gz
+==> Determining harfbuzz bottle rebuild...
+==> Bottling harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a4dcd8e934de4e243118daf7a46794d9992d778f1fcd169989aa6cd7a616e70b" => :x86_64_linux
+    sha256 "498963f8d37270bc767bcce0c5121e3209b414fd8ed326ac3c7c627116deb2b7" => :x86_64_linux
   end
