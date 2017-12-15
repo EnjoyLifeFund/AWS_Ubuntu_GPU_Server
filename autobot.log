@@ -1,15 +1,16 @@
-==> Installing libbuddy from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/buddy/buddy/BuDDy%202.4/buddy-2.4.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/buddy/buddy/BuDDy%202.4/buddy-2.4.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbuddy/2.4
+==> Installing libccd from homebrew/science
+==> Downloading https://github.com/danfis/libccd/archive/v2.0.tar.gz
+==> Downloading from https://codeload.github.com/danfis/libccd/tar.gz/v2.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libccd/2.0_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCCD_DOUBLE=True
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libbuddy`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbuddy/2.4: 14 files, 954.0KB, built in 9 seconds
-==> Determining homebrew/science/libbuddy bottle rebuild...
-==> Bottling libbuddy-2.4.x86_64_linux.bottle.1.tar.gz...
-./libbuddy-2.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libccd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libccd/2.0_2: 13 files, 266.3KB, built in 1 second
+==> Determining homebrew/science/libccd bottle rebuild...
+==> Bottling libccd-2.0_2.x86_64_linux.bottle.1.tar.gz...
+./libccd-2.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "76561592b90204b549422ed7a5ecbb62dd7dbb793d2fa9445c3419043da67c98" => :x86_64_linux
+    sha256 "b79bc476f38198ea2117ba80feb2579a773b2fe372893c780250029fc92dfd7a" => :x86_64_linux
   end
