@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/ltp/lcov-1.13.tar.gz
-==> Downloading from https://downloads.sourceforge.net/project/ltp/Coverage%20Analysis/LCOV-1.13/lcov-1.13.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13 BIN_DIR=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13/bin MAN_DIR=/home/linuxbrew/.linuxbrew/Cellar/lcov/1.13/share/man install
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/lcrack/lcrack_20040914.orig.tar.gz
+==> ./configure
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lcov`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lcov/1.13: 17 files, 574KB, built in 1 second
-==> Determining lcov bottle rebuild...
-==> Bottling lcov-1.13.x86_64_linux.bottle.1.tar.gz...
-./lcov-1.13.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lcrack`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lcrack/20040914: 10 files, 140.1KB, built in 1 second
+==> Determining lcrack bottle rebuild...
+==> Bottling lcrack-20040914.x86_64_linux.bottle.tar.gz...
+./lcrack-20040914.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "7fec6aa1d25d8faf634662ad8de9641587978ae89d435c6f9412d3ec49913def" => :x86_64_linux
+    sha256 "b80a2f7b2109ce32e0d73d506ffa6811d7b9152edad9c49eafb231b459a82558" => :x86_64_linux
   end
