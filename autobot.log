@@ -1,24 +1,15 @@
-==> Installing adol-c from homebrew/science
-==> Installing dependencies for homebrew/science/adol-c: colpack
-==> Installing homebrew/science/adol-c dependency: colpack
-==> Downloading https://github.com/CSCsw/ColPack/archive/v1.0.10.tar.gz
-==> Downloading from https://codeload.github.com/CSCsw/ColPack/tar.gz/v1.0.10
-==> autoreconf -vif
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/colpack/1.0.10
+==> Installing afra from homebrew/science
+==> Downloading https://github.com/EvolBioInf/afra/releases/download/v2.1/afra-v2.1.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/43051636/5fe0544a-734d-11e6-8b04-8f3760e66f11?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T022728Z&X-Amz-Expires=300&X-Amz-Signature=6ec11071619b27843d916564e576aca31c39c3a9d8caa678f2edfe646b672dd0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dafra-v2.1.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/afra/2.1
 ==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/colpack/1.0.10: 71 files, 22.9MB, built in 31 seconds
-==> Installing homebrew/science/adol-c
-==> Downloading https://www.coin-or.org/download/source/ADOL-C/ADOL-C-2.6.2.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/adol-c/2.6.2 --enable-sparse --with-colpack=/home/linuxbrew/.linuxbrew/opt/colpack --enable-ulong
-==> make install
-==> make test
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/adol-c`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/adol-c/2.6.2: 47 files, 2.5MB, built in 17 seconds
-==> Determining homebrew/science/adol-c bottle rebuild...
-==> Bottling adol-c-2.6.2.x86_64_linux.bottle.1.tar.gz...
-./adol-c-2.6.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/afra`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/afra/2.1: 4 files, 73.7KB, built in 4 seconds
+==> Determining homebrew/science/afra bottle rebuild...
+==> Bottling afra-2.1.x86_64_linux.bottle.1.tar.gz...
+./afra-2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "eec4dcb91fac036d2bae921def6148891af3dc4b84562bd61e02621e4204d1ff" => :x86_64_linux
+    sha256 "ea6e527dad036d7cd46c75a1e256ffe1f63e7a55d4a339a4f46f798ac5132990" => :x86_64_linux
   end
