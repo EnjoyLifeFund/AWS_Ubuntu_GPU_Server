@@ -1,16 +1,8 @@
-==> Downloading https://github.com/warmcat/libwebsockets/archive/v2.4.1.tar.gz
-==> Downloading from https://codeload.github.com/warmcat/libwebsockets/tar.gz/v2.4.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libwebsockets/2.4.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libwebsockets`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libwebsockets/2.4.1: 34 files, 5.2MB, built in 9 seconds
-==> Determining libwebsockets bottle rebuild...
-==> Bottling libwebsockets-2.4.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libwebsockets-2.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libwebsockets-2.4.1.x86_64_linux.bottle.1.tar.gz
+==> Determining libwpd bottle rebuild...
+==> Bottling libwpd-0.10.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libwpd-0.10.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libwpd-0.10.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "17902eebf1c7c9a09500ea5cc5f6fb679da4f2674565ca6d662d4975dc441773" => :x86_64_linux
+    sha256 "59e78b2a027c901714841b562ae8736a561c1f19f67b3c8e4f4041ca5ebdd98b" => :x86_64_linux
   end
