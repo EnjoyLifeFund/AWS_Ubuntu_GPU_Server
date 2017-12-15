@@ -1,33 +1,15 @@
-==> Downloading https://github.com/leancloud/lean-cli/archive/v0.17.1.tar.gz
-==> Downloading from https://codeload.github.com/leancloud/lean-cli/tar.gz/v0.17.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/lean-cli/0.17.1/bin/lean -ldflags -X main.pkgType=homebrew github.com/leancloud/lean-cli/lean
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/lean
-Target /home/linuxbrew/.linuxbrew/bin/lean
-is a symlink belonging to lean. You can unlink it:
-  brew unlink lean
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite lean-cli
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run lean-cli
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/lean -> /home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0/bin/lean
+==> Cloning https://github.com/Jeffail/leaps.git
+==> Checking out tag v0.8.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/leaps/0.8.0/bin/leaps github.com/jeffail/leaps/cmd/leaps
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lean-cli`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lean-cli/0.17.1: 7 files, 12.6MB, built in 2 seconds
-==> Determining lean-cli bottle rebuild...
-==> Bottling lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall leaps`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/leaps/0.8.0: 5 files, 11.3MB, built in 21 seconds
+==> Determining leaps bottle rebuild...
+==> Bottling leaps-0.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if leaps-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./leaps-0.8.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "943be65f376edea1d30cc5e637e4d608014b4a61c81a667908f1b089af5bea29" => :x86_64_linux
+    sha256 "f464ca2251b74c44fef3949d6a802b4a6536fa58d95ee6e25876f219889ead9a" => :x86_64_linux
   end
