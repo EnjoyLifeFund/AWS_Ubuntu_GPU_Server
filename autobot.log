@@ -1,26 +1,38 @@
-==> Installing nexusformat from homebrew/science
-==> Installing dependencies for homebrew/science/nexusformat: libmxml
-==> Installing homebrew/science/nexusformat dependency: libmxml
-==> Downloading https://linuxbrew.bintray.com/bottles/libmxml-2.11.x86_64_linux.bottle.tar.gz
-==> Pouring libmxml-2.11.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmxml/2.11: 19 files, 956.3KB
-==> Installing homebrew/science/nexusformat
+==> Installing nfft from homebrew/science
 ==> Using Homebrew-provided fortran compiler.
 This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/nexusformat/code/archive/v4.4.3.tar.gz
-==> Downloading from https://codeload.github.com/nexusformat/code/tar.gz/v4.4.3
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/nexusformat/4.4.3_6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DENABLE_APPS=TRUE -DENABLE_CXX=TRUE -DENABLE_MXML=TRUE -DENABLE_HDF4=TRUE
-==> make
+==> Downloading https://www-user.tu-chemnitz.de/~potts/nfft/download/nfft-3.2.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nfft/3.2.3
 ==> make install
+==> make check
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nexusformat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nexusformat/4.4.3_6: 42 files, 5MB, built in 11 seconds
-==> Determining homebrew/science/nexusformat bottle rebuild...
-==> Bottling nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nfft`
+==> Caveats
+NFFT is built as serial (not multi-threaded) library by default
+when being built with clang, as this compiler doesn't support
+OpenMP.
+
+A multi-threaded version of the NFFT library can be build with
+Homebrew's GNU C compiler, using
+
+  brew install nfft --with-openmp
+
+which will create both serial and multi-threaded NFFT libraries.
+
+Linking against the serial libraries:
+
+   ... -L/home/linuxbrew/.linuxbrew/opt/nfft/lib -lnfft -lfftw3 ...
+
+Linking against the multi-threaded libraries (if built):
+
+   ... -L/home/linuxbrew/.linuxbrew/opt/nfft/lib -lnfft_threads -lfftw3_threads ...
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nfft/3.2.3: 15 files, 620.9KB, built in 46 seconds
+==> Determining homebrew/science/nfft bottle rebuild...
+==> Bottling nfft-3.2.3.x86_64_linux.bottle.tar.gz...
+./nfft-3.2.3.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "94aee5fada9c71d09285461e87e06103ff412abfdacc1157fafb4831e0fcc596" => :x86_64_linux
+    sha256 "4723bf100c4835823850e57ee99d4c59855ebb1b18ba2cac72fffa8a9e182f83" => :x86_64_linux
   end
