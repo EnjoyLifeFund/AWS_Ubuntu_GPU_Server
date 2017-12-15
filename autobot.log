@@ -1,1 +1,13 @@
-This formula doesn't require compiling.
+==> Downloading http://pkgs.fedoraproject.org/repo/pkgs/hamlib/hamlib-1.2.15.3.tar.gz/3cad8987e995a00e5e9d360e2be0eb43/hamlib-1.2.15.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hamlib/1.2.15.3
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hamlib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hamlib/1.2.15.3: 122 files, 21.9MB, built in 1 minute 19 seconds
+==> Determining hamlib bottle rebuild...
+==> Bottling hamlib-1.2.15.3.x86_64_linux.bottle.tar.gz...
+==> Detecting if hamlib-1.2.15.3.x86_64_linux.bottle.tar.gz is relocatable...
+./hamlib-1.2.15.3.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "a3a2eed215c74a30bf3caca7c9cd06353b52e455e12b70220cfc91b56c1fcc8d" => :x86_64_linux
+  end
