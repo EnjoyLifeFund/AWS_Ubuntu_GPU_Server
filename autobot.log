@@ -1,14 +1,7 @@
-==> Downloading https://ftp.gnu.org/gnu/httptunnel/httptunnel-3.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall httptunnel`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3: 12 files, 184KB, built in 7 seconds
-==> Determining httptunnel bottle rebuild...
-==> Bottling httptunnel-3.3.x86_64_linux.bottle.1.tar.gz...
-./httptunnel-3.3.x86_64_linux.bottle.1.tar.gz
+==> Determining jack bottle rebuild...
+==> Bottling jack-0.125.0_2.x86_64_linux.bottle.1.tar.gz...
+./jack-0.125.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f5e6ab53f1398ac4f16e032cc0ef647ca572205a0a4b125f9ba1518de8a83a03" => :x86_64_linux
+    sha256 "a4f61747037a9971e4a5ffd1173f48676637a9e8c66ce2e6fff40fa45e36714b" => :x86_64_linux
   end
