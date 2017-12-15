@@ -1,15 +1,50 @@
-==> Installing pilon from homebrew/science
-==> Downloading https://github.com/broadinstitute/pilon/releases/download/v1.22/pilon-1.22.jar
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9117031/68d30092-099e-11e7-80d3-d2ac0fce3bf4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T112920Z&X-Amz-Expires=300&X-Amz-Signature=af70ed26610581b7aca787984bb5db74070f01fef2a2c26708ad41b9d800acc2&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dpilon-1.22.jar&response-content-type=application%2Foctet-stream
+==> Installing plasma from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading http://icl.cs.utk.edu/projectsfiles/plasma/pubs/plasma_2.8.0.tar.gz
+==> Patching
+patching file timing/Makefile
+==> Downloading http://www.netlib.org/lapack/lapack-3.6.0.tgz
+==> make lapacke CC=gcc-6 FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true
+==> make tmglib CC=gcc-6 FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2 CC=gcc-6 FC=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true FFLAGS= LIBBLAS=-lblas LIBLAPACK=-llapack LIBCBLAS=-lcblas INCCLAPACK=-I/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2/include LIBCLAPACK=-L/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2/lib -llapacke -ltmglib PLASMA_F90=1
+==> make test
+==> make example
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink include/cblas.h
+Target /home/linuxbrew/.linuxbrew/include/cblas.h
+is a symlink belonging to openblas. You can unlink it:
+  brew unlink openblas
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite plasma
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run plasma
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/include/cblas.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/cblas.h
+/home/linuxbrew/.linuxbrew/include/lapacke.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke.h
+/home/linuxbrew/.linuxbrew/include/lapacke_config.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_config.h
+/home/linuxbrew/.linuxbrew/include/lapacke_mangling.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_mangling.h
+/home/linuxbrew/.linuxbrew/include/lapacke_utils.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_utils.h
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/pilon`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pilon/1.22: 4 files, 6.5MB, built in 3 seconds
-==> Determining homebrew/science/pilon bottle rebuild...
-==> Bottling pilon-1.22.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if pilon-1.22.x86_64_linux.bottle.1.tar.gz is relocatable...
-./pilon-1.22.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/plasma`
+==> Caveats
+PLASMA should not be used in conjunction with a multithreaded BLAS to avoid
+creating more threads than actual cores. Please set
+
+  export VECLIB_MAXIMUM_THREADS=1
+
+when using PLASMA.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2: 585 files, 79.7MB, built in 1 minute 27 seconds
+==> Determining homebrew/science/plasma bottle rebuild...
+==> Bottling plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4405431f7261b704b5e8834b41a8e1afcb1c5c28a7f2ec915555a48d412ff3e2" => :x86_64_linux
+    sha256 "0028cc9664ac1233de63b0791ab910490a61bd38beafd976c0239419e5223d97" => :x86_64_linux
   end
