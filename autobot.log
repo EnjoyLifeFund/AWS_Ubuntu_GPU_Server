@@ -1,13 +1,16 @@
-==> Downloading https://github.com/jbittel/httpry/archive/httpry-0.1.8.tar.gz
-==> Downloading from https://codeload.github.com/jbittel/httpry/tar.gz/httpry-0.1.8
-==> make
+==> Downloading https://github.com/shyiko/jabba/archive/0.9.2.tar.gz
+==> Downloading from https://codeload.github.com/shyiko/jabba/tar.gz/0.9.2
+==> glide install
+==> go build -ldflags -X main.version=0.9.2 -o /home/linuxbrew/.linuxbrew/Cellar/jabba/0.9.2/bin/jabba
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall httpry`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/httpry/0.1.8: 11 files, 126.8KB, built in 1 second
-==> Determining httpry bottle rebuild...
-==> Bottling httpry-0.1.8.x86_64_linux.bottle.tar.gz...
-./httpry-0.1.8.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall jabba`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jabba/0.9.2: 5 files, 8.8MB, built in 4 seconds
+==> Determining jabba bottle rebuild...
+==> Bottling jabba-0.9.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jabba-0.9.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jabba-0.9.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "f0272dd00cdaaea3b7e4b4bbe1bc0d3ee26ea13bed7d89e4191ece1d3fe58f20" => :x86_64_linux
+    rebuild 1
+    sha256 "2c5b91f5998ed866354d3e3f5404670185301b9b92e834501f1da54c73e15d0f" => :x86_64_linux
   end
