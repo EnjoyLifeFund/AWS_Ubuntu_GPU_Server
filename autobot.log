@@ -1,16 +1,32 @@
-==> Downloading https://github.com/irssi/irssi/releases/download/1.0.5/irssi-1.0.5.tar.xz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/20344030/a01119c6-b5bb-11e7-8807-ff1f59590c3f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T185056Z&X-Amz-Expires=300&X-Amz-Signature=1307ba74f527b0ce33a9f28f907cb9da424fef54fc85b5ff864420e073cf68e2&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dirssi-1.0.5.tar.xz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/irssi/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --with-bot --with-proxy --enable-true-color --with-socks=no --with-ncurses=/home/linuxbrew/.linuxbrew/opt/ncurses --with-perl=yes --with-perl-lib=/home/linuxbrew/.linuxbrew/Cellar/irssi/1.0.5/lib/perl5/site_perl
+==> Downloading https://ftp.isc.org/isc/dhcp/4.3.6/dhcp-4.3.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/isc-dhcp/4.3.6 --localstatedir=/home/linuxbrew/.linuxbrew/var/dhcpd
+==> make -C bind
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall irssi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/irssi/1.0.5: 278 files, 12.4MB, built in 19 seconds
-==> Determining irssi bottle rebuild...
-==> Bottling irssi-1.0.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if irssi-1.0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./irssi-1.0.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall isc-dhcp`
+==> Caveats
+This install of dhcpd expects config files to be in /home/linuxbrew/.linuxbrew/etc.
+All state files (leases and pids) are stored in /home/linuxbrew/.linuxbrew/var/dhcpd.
+
+Dhcpd needs to run as root since it listens on privileged ports.
+
+There are two plists because a single dhcpd process may do either
+DHCPv4 or DHCPv6 but not both. Use one or both as needed.
+
+Note that you must create the appropriate config files before starting
+the services or dhcpd will refuse to run.
+  DHCPv4: /home/linuxbrew/.linuxbrew/etc/dhcpd.conf
+  DHCPv6: /home/linuxbrew/.linuxbrew/etc/dhcpd6.conf
+
+Sample config files may be found in /home/linuxbrew/.linuxbrew/etc.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/isc-dhcp/4.3.6: 41 files, 10.8MB, built in 47 seconds
+==> Determining isc-dhcp bottle rebuild...
+==> Bottling isc-dhcp-4.3.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if isc-dhcp-4.3.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./isc-dhcp-4.3.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d51044828256db18fe24b79dfe61fd5c38cd48a7f482e1a91ed78cd462a8c982" => :x86_64_linux
+    sha256 "6a87fb66f58baefe9296cbcfe0e9c03dc46bba86e8106f729142205f4ce481bf" => :x86_64_linux
   end
