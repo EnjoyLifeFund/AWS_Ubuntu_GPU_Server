@@ -1,16 +1,16 @@
-==> Installing xkill from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xkill-1.0.4.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xkill-1.0.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkill/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xlsatoms from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xlsatoms-1.1.2.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xlsatoms-1.1.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xlsatoms/1.1.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xkill`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xkill/1.0.4: 7 files, 96KB, built in 8 seconds
-==> Determining linuxbrew/xorg/xkill bottle rebuild...
-==> Bottling xkill-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./xkill-1.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xlsatoms`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xlsatoms/1.1.2: 7 files, 80.5KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xlsatoms bottle rebuild...
+==> Bottling xlsatoms-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./xlsatoms-1.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "759cff41693d41a54d8b09acbbb0d907294b01c3327c84f1e58d4efe4b8847eb" => :x86_64_linux
+    sha256 "f9bd84e80b2ad80b4909bfdf79504427d5c1188317e6e17fe77326107de6917e" => :x86_64_linux
   end
