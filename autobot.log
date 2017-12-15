@@ -1,14 +1,14 @@
-==> Downloading https://download.gnome.org/sources/libgtop/2.36/libgtop-2.36.0.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/libgtop/2.36/libgtop-2.36.0.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgtop/2.36.0 --without-x
+==> Downloading http://rabbit.dereferenced.org/~nenolod/distfiles/libguess-1.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libguess/1.2
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libgtop`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libgtop/2.36.0: 191 files, 3.5MB, built in 25 seconds
-==> Determining libgtop bottle rebuild...
-==> Bottling libgtop-2.36.0.x86_64_linux.bottle.1.tar.gz...
-./libgtop-2.36.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libguess`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libguess/1.2: 9 files, 97.7KB, built in 6 seconds
+==> Determining libguess bottle rebuild...
+==> Bottling libguess-1.2.x86_64_linux.bottle.1.tar.gz...
+./libguess-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "695f176322b67f2e4ad7f808decf3f12984b798ba68dc28e05681581bd0814f1" => :x86_64_linux
+    sha256 "ee576834ea3628b98376ea2f9c1c7bc931b7b25c2244724b9cb361f78cc913b6" => :x86_64_linux
   end
