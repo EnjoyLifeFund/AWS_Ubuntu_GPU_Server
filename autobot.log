@@ -1,8 +1,16 @@
-==> Determining libinfinity bottle rebuild...
-==> Bottling libinfinity-0.6.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libinfinity-0.6.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libinfinity-0.6.8.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/iodbc/iodbc/3.52.12/libiodbc-3.52.12.tar.gz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/iodbc/iodbc/3.52.12/libiodbc-3.52.12.tar.gz
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libiodbc/3.52.12
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libiodbc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libiodbc/3.52.12: 39 files, 7.7MB, built in 20 seconds
+==> Determining libiodbc bottle rebuild...
+==> Bottling libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c0ebf692fecb3893c62efc4f142cc8c80b9d4987ab6e6b9c0ddf5ad933a1abaa" => :x86_64_linux
+    sha256 "c96fc57ec3a5f0087a6f3658b49cbb62cd62211195b1d65b24e6010c3fb69dbc" => :x86_64_linux
   end
