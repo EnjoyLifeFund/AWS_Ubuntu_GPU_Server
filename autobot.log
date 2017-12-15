@@ -1,16 +1,15 @@
-==> Downloading https://github.com/ibex-team/ibex-lib/archive/ibex-2.6.3.tar.gz
-==> Downloading from https://codeload.github.com/ibex-team/ibex-lib/tar.gz/ibex-2.6.3
-==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ibex/2.6.3 --enable-shared --with-optim --lp-lib=soplex
-==> ./waf install
+==> Downloading https://downloads.xiph.org/releases/icecast/icecast-2.4.3.tar.gz
+==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/icecast/icecast-2.4.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/icecast/2.4.3
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ibex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ibex/2.6.3: 595 files, 16.4MB, built in 41 seconds
-==> Determining ibex bottle rebuild...
-==> Bottling ibex-2.6.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ibex-2.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ibex-2.6.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall icecast`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/icecast/2.4.3: 71 files, 3.7MB, built in 13 seconds
+==> Determining icecast bottle rebuild...
+==> Bottling icecast-2.4.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if icecast-2.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./icecast-2.4.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e5b10353c6338fbba22e020bffef431eda687cc184a16be844fd5a05c4b8fbf9" => :x86_64_linux
+    sha256 "b01f41b40984326a4e64e8c0f449c1810413d9f454aa1ba176409ad7837a426d" => :x86_64_linux
   end
