@@ -1,19 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/lesspipe/lesspipe/1.83/lesspipe-1.83.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/lesspipe/lesspipe/1.83/lesspipe-1.83.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lesspipe/1.83 --yes
+==> Downloading https://downloads.sourceforge.net/project/lesstif/lesstif/0.95.2/lesstif-0.95.2.tar.bz2
+==> Downloading from https://gigenet.dl.sourceforge.net/project/lesstif/lesstif/0.95.2/lesstif-0.95.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lesstif/0.95.2 --enable-production --enable-shared --enable-static
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lesspipe`
-==> Caveats
-      Append the following to your ~/.bash_profile:
-      export LESSOPEN="|/home/linuxbrew/.linuxbrew/bin/lesspipe.sh %s" LESS_ADVANCED_PREPROCESSOR=1
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lesspipe/1.83: 11 files, 321.2KB, built in 1 second
-==> Determining lesspipe bottle rebuild...
-==> Bottling lesspipe-1.83.x86_64_linux.bottle.1.tar.gz...
-./lesspipe-1.83.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lesstif`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lesstif/0.95.2: 428 files, 23.2MB, built in 42 seconds
+==> Determining lesstif bottle rebuild...
+==> Bottling lesstif-0.95.2.x86_64_linux.bottle.tar.gz...
+==> Detecting if lesstif-0.95.2.x86_64_linux.bottle.tar.gz is relocatable...
+./lesstif-0.95.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a9ea29f5ad58d370a1527fa9624bb0378be993a95ed2943bef149e3576c97b9b" => :x86_64_linux
+    sha256 "57e91c73398d2ab5c552a4dd60489ca6601102d21db341a83c1fc1161b9bc753" => :x86_64_linux
   end
