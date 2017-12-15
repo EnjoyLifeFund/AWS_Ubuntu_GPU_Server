@@ -1,35 +1,16 @@
-<<<<<<< HEAD
-==> Installing sfscode from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/sfscode/sfscode/sfscode_20140719/sfscode_20140719.tgz
-==> Downloading from https://ayera.dl.sourceforge.net/project/sfscode/sfscode/sfscode_20140719/sfscode_20140719.tgz
-==> make CC=gcc-6 EXEDIR=/home/linuxbrew/.linuxbrew/Cellar/sfscode/20140719/bin
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/sfscode`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sfscode/20140719: 5 files, 1.6MB, built in 23 seconds
-==> Determining homebrew/science/sfscode bottle rebuild...
-==> Bottling sfscode-20140719.x86_64_linux.bottle.tar.gz...
-==> Detecting if sfscode-20140719.x86_64_linux.bottle.tar.gz is relocatable...
-./sfscode-20140719.x86_64_linux.bottle.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "d810e2ad3dd7c34ae02341bffb8290a1d86473ee986abdf1bf6804a50bcc4ee1" => :x86_64_linux
-=======
-==> Installing seqdb from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://bitbucket.org/mhowison/seqdb/downloads/seqdb-0.2.1.tar.gz
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/mhowison/seqdb/downloads/seqdb-0.2.1.tar.gz?Signature=vu5W8VpTyMWBjoVsJRKSFtWiRvc%3D&Expires=1513349748&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22seqdb-0.2.1.tar.gz%22
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/seqdb/0.2.1
+==> Installing shark from homebrew/science
+==> Downloading https://github.com/Shark-ML/Shark/archive/v3.1.4.tar.gz
+==> Downloading from https://codeload.github.com/Shark-ML/Shark/tar.gz/v3.1.4
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/shark/3.1.4_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/seqdb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/seqdb/0.2.1: 23 files, 3.2MB, built in 12 seconds
-==> Determining homebrew/science/seqdb bottle rebuild...
-==> Bottling seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/shark`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/shark/3.1.4_2: 595 files, 289.3MB, built in 2 minutes 39 seconds
+==> Determining homebrew/science/shark bottle rebuild...
+==> Bottling shark-3.1.4_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if shark-3.1.4_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./shark-3.1.4_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e8863ba45604240d8b5d6c17737f385663463a2fc9046a2e05a0afe43b7ed910" => :x86_64_linux
->>>>>>> 3df97dd... [Succeed]homebrew/science/seqdb: stable 0.2.1 (bottled)
+    sha256 "5d04ce2e23fad90f1bc91d8e45128b62b627db4ce93100dd449882b764ab1ee6" => :x86_64_linux
   end
