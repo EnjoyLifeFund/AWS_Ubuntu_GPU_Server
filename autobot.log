@@ -1,8 +1,15 @@
-==> Determining gstreamer bottle rebuild...
-==> Bottling gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/gstreamermm/1.10/gstreamermm-1.10.0.tar.xz
+==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/gstreamermm/1.10/gstreamermm-1.10.0.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gstreamermm/1.10.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gstreamermm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gstreamermm/1.10.0: 968 files, 39.7MB, built in 54 seconds
+==> Determining gstreamermm bottle rebuild...
+==> Bottling gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "727354c5a6d966f1df5f94bbeb2e517123a145d390bdb0397f880e7894b1d6d8" => :x86_64_linux
+    sha256 "bbfb42eb2aa8c53337ca5f0520c37550ca819304cb4d4ed920bc673e2ab84bb5" => :x86_64_linux
   end
