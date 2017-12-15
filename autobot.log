@@ -1,8 +1,13 @@
-==> Determining leptonica bottle rebuild...
-==> Bottling leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/less/less-487.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/less/487
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall less`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/less/487: 12 files, 767.3KB, built in 9 seconds
+==> Determining less bottle rebuild...
+==> Bottling less-487.x86_64_linux.bottle.1.tar.gz...
+./less-487.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1e0aa345c66d97db9bace683a8ac4daf91237257fad8ec7e4ff443e3bceba625" => :x86_64_linux
+    sha256 "bde3251224f4cebdba4a0002a36b774693bf4719dfb048d8abe65da2c662100f" => :x86_64_linux
   end
