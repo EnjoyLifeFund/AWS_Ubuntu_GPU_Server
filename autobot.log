@@ -1,19 +1,8 @@
-==> Installing hotspot from homebrew/science
-==> Downloading https://github.com/rthurman/hotspot/archive/v4.1.0.tar.gz
-==> Downloading from https://codeload.github.com/rthurman/hotspot/tar.gz/v4.1.0
-==> make -C hotspot-distr/hotspot-deploy
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/hotspot`
-==> Caveats
-Run the test suite (~1 hr):
-  /home/linuxbrew/.linuxbrew/opt/hotspot/share/hotspot/pipeline-scripts/test/runhotspot
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hotspot/4.1.0_2: 31 files, 16.0MB, built in 5 seconds
-==> Determining homebrew/science/hotspot bottle rebuild...
-==> Bottling hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/htsbox bottle rebuild...
+==> Bottling htsbox-r312.x86_64_linux.bottle.1.tar.gz...
+./htsbox-r312.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e6d15b0eecd353f060ca8abc240bbfa22341e1446c5033461dc3423dfb6dbf73" => :x86_64_linux
+    sha256 "ff993697daccc9290f6d53d80d15bd3fd773322138349c880a32bb7d17d09640" => :x86_64_linux
   end
