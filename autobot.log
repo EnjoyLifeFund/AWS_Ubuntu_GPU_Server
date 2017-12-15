@@ -1,14 +1,4 @@
-==> Downloading https://github.com/tjko/jpegoptim/archive/RELEASE.1.4.4.tar.gz
-==> Downloading from https://codeload.github.com/tjko/jpegoptim/tar.gz/RELEASE.1.4.4
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jpegoptim/1.4.4_1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jpegoptim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jpegoptim/1.4.4_1: 7 files, 145.0KB, built in 4 seconds
-==> Determining jpegoptim bottle rebuild...
-==> Bottling jpegoptim-1.4.4_1.x86_64_linux.bottle.1.tar.gz...
-./jpegoptim-1.4.4_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "a6e5ebb37a297fbc2a928a71de7d0082b0357d6c610a1bc999ded9bc9b0fd939" => :x86_64_linux
-  end
+==> Downloading https://github.com/jmhodges/jsonpp/releases/download/1.3.0/jsonpp-1.3.0-osx-x86_64.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2246446/9f51eb84-914d-11e6-8cc0-0cf6887f5533?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T192010Z&X-Amz-Expires=300&X-Amz-Signature=3592d0f6ddc96d082b5e2c3e8092a81d8c8b190a60bd376831b45d9382c475f0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djsonpp-1.3.0-osx-x86_64.zip&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jsonpp/1.3.0: 5 files, 2MB, built in 2 seconds
+This formula doesn't require compiling.
