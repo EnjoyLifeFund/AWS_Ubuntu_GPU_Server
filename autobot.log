@@ -1,14 +1,9 @@
-==> Downloading http://rabbit.dereferenced.org/~nenolod/distfiles/libguess-1.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libguess/1.2
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libguess`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libguess/1.2: 9 files, 97.7KB, built in 6 seconds
-==> Determining libguess bottle rebuild...
-==> Bottling libguess-1.2.x86_64_linux.bottle.1.tar.gz...
-./libguess-1.2.x86_64_linux.bottle.1.tar.gz
+==> Determining libharu bottle rebuild...
+==> Bottling libharu-2.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libharu-2.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libharu-2.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ee576834ea3628b98376ea2f9c1c7bc931b7b25c2244724b9cb361f78cc913b6" => :x86_64_linux
+    sha256 "a82078b2c45d873a8178a01a20164bb15e971187b5fb73f08352ea40910799d1" => :x86_64_linux
   end
