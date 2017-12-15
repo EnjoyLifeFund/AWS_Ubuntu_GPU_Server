@@ -1,15 +1,32 @@
-==> Downloading https://github.com/chewing/libchewing/releases/download/v0.5.1/libchewing-0.5.1.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1418153/2f1e3710-1d2f-11e6-81ae-8f8218dce6f2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T210938Z&X-Amz-Expires=300&X-Amz-Signature=7174bb481444ceac3184eae96f54af9d6458898cea810ef909ea7d464c7157cb&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibchewing-0.5.1.tar.bz2&response-content-type=application%2Foctet-stream
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libchewing/0.5.1
+==> Downloading https://downloads.sourceforge.net/project/cmph/cmph/cmph-2.0.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/cmph/cmph/cmph-2.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcmph/2.0
 ==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink include/chd_ph.h
+Target /home/linuxbrew/.linuxbrew/include/chd_ph.h
+is a symlink belonging to sortmerna. You can unlink it:
+  brew unlink sortmerna
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite libcmph
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run libcmph
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/include/chd_ph.h -> /home/linuxbrew/.linuxbrew/Cellar/sortmerna/2.1/include/chd_ph.h
+/home/linuxbrew/.linuxbrew/include/cmph.h -> /home/linuxbrew/.linuxbrew/Cellar/sortmerna/2.1/include/cmph.h
+/home/linuxbrew/.linuxbrew/include/cmph_time.h -> /home/linuxbrew/.linuxbrew/Cellar/sortmerna/2.1/include/cmph_time.h
+/home/linuxbrew/.linuxbrew/include/cmph_types.h -> /home/linuxbrew/.linuxbrew/Cellar/sortmerna/2.1/include/cmph_types.h
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libchewing`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libchewing/0.5.1: 24 files, 5MB, built in 13 seconds
-==> Determining libchewing bottle rebuild...
-==> Bottling libchewing-0.5.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libchewing-0.5.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libchewing-0.5.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libcmph`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcmph/2.0: 18 files, 544.4KB, built in 8 seconds
+==> Determining libcmph bottle rebuild...
+==> Bottling libcmph-2.0.x86_64_linux.bottle.tar.gz...
+./libcmph-2.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "bede94a13e7ec20327531b951a4db19e7f58a52bb315bce2baa6a7d33c8d212d" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "b3662895cc8148c22664b7589ff9a3b0655357a63f141e767fb123b1907ba3f2" => :x86_64_linux
   end
