@@ -1,14 +1,8 @@
-==> Downloading https://github.com/fontforge/libuninameslist/releases/download/20170807/libuninameslist-dist-20170807.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5518696/5f307daa-7bb1-11e7-9732-de7806fefc7c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T225333Z&X-Amz-Expires=300&X-Amz-Signature=03a9eb9d689c4bf63ffb54f90158af8893901ccae91f43ea609d0494470f8f1e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibuninameslist-dist-20170807.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libuninameslist/20170807
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libuninameslist`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libuninameslist/20170807: 15 files, 5.8MB, built in 9 seconds
-==> Determining libuninameslist bottle rebuild...
-==> Bottling libuninameslist-20170807.x86_64_linux.bottle.1.tar.gz...
-./libuninameslist-20170807.x86_64_linux.bottle.1.tar.gz
+==> Determining libunistring bottle rebuild...
+==> Bottling libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libunistring-0.9.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b966c6e9d629b7a7d0d9284bf6728b030928d9b0a163e690581cd1da6376919d" => :x86_64_linux
+    sha256 "91f727f26f64e0d58c90ec257bf7898745b922ecaabd5b69559e16ccd392b5a8" => :x86_64_linux
   end
