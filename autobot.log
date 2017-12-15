@@ -1,48 +1,7 @@
-==> Installing stacks from homebrew/science
-==> Installing dependencies for homebrew/science/stacks: google-sparsehash
-==> Installing homebrew/science/stacks dependency: google-sparsehash
-==> Downloading https://github.com/sparsehash/sparsehash/archive/sparsehash-2.0.3.tar.gz
-==> Downloading from https://codeload.github.com/sparsehash/sparsehash/tar.gz/sparsehash-2.0.3
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3
-==> make check
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3: 49 files, 653.0KB, built in 1 minute 26 seconds
-==> Installing homebrew/science/stacks
-==> Downloading http://catchenlab.life.illinois.edu/stacks/source/stacks-1.46.tar.gz
-==> Patching
-patching file src/DNANSeq.h
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/stacks/1.46 --enable-sparsehash  --disable-openmp
-==> make
-==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/populations
-Target /home/linuxbrew/.linuxbrew/bin/populations
-is a symlink belonging to populations. You can unlink it:
-  brew unlink populations
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite stacks
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run stacks
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/populations -> /home/linuxbrew/.linuxbrew/Cellar/populations/1.2.33-2_1/bin/populations
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/stacks`
-==> Caveats
-For instructions on setting up the web interface:
-    /home/linuxbrew/.linuxbrew/opt/stacks/README
-
-The PHP and MySQL scripts have been installed to:
-    /home/linuxbrew/.linuxbrew/opt/stacks/share
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/stacks/1.46: 76 files, 102.4MB, built in 1 minute
-==> Determining homebrew/science/stacks bottle rebuild...
-==> Bottling stacks-1.46.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if stacks-1.46.x86_64_linux.bottle.1.tar.gz is relocatable...
-./stacks-1.46.x86_64_linux.bottle.1.tar.gz
+==> Determining ilmbase bottle rebuild...
+==> Bottling ilmbase-2.2.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if ilmbase-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
+./ilmbase-2.2.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "c25a777ede1d12d56ec00f029ade3543cc235cf75de9e3d22d6cf810a95d2b91" => :x86_64_linux
+    sha256 "5ecf57182c624bca5b39e3587199bbca204ebd803c35c1b00318d1be0bb99298" => :x86_64_linux
   end
