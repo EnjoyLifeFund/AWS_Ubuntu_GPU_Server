@@ -1,15 +1,15 @@
-==> Downloading https://github.com/monome/libmonome/releases/download/v1.4.0/libmonome-1.4.0.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/127948/1ffdb776-4a6a-11e5-9827-57516ec037c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T220255Z&X-Amz-Expires=300&X-Amz-Signature=5ee5a5de220d879028bbf3df9718a2fc4d937dcf81252641ad414a7edd0a25a0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibmonome-1.4.0.tar.bz2&response-content-type=application%2Foctet-stream
-==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmonome/1.4.0
-==> ./waf build
-==> ./waf install
+==> Downloading https://github.com/atheme/libmowgli-2/archive/v2.1.3.tar.gz
+==> Downloading from https://codeload.github.com/atheme/libmowgli-2/tar.gz/v2.1.3
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmowgli/2.1.3 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmonome`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmonome/1.4.0: 14 files, 168.5KB, built in 2 seconds
-==> Determining libmonome bottle rebuild...
-==> Bottling libmonome-1.4.0.x86_64_linux.bottle.1.tar.gz...
-./libmonome-1.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmowgli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmowgli/2.1.3: 60 files, 1.2MB, built in 6 seconds
+==> Determining libmowgli bottle rebuild...
+==> Bottling libmowgli-2.1.3.x86_64_linux.bottle.1.tar.gz...
+./libmowgli-2.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6c63ef17273979b36e05229bb1b52dd7fef9639a5a4589b405da707e01241998" => :x86_64_linux
+    sha256 "e6b16c95243ba66ac42da63c0c5e9f60a29554c8e60a3465eb79c5d874a575ad" => :x86_64_linux
   end
