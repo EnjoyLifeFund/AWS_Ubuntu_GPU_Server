@@ -1,62 +1,24 @@
-==> Downloading https://github.com/xenolf/lego/archive/v0.4.1.tar.gz
-==> Downloading from https://codeload.github.com/xenolf/lego/tar.gz/v0.4.1
-==> Cloning https://code.googlesource.com/gocloud.git
-==> Checking out revision 3e1507a0d90d17e4fdd8ef75e8f037ebecc854ba
-==> Cloning https://github.com/Azure/azure-sdk-for-go.git
-==> Checking out revision 7d2af13b1fbbe2e48bc4d2d5d3c580a54274fb15
-==> Cloning https://github.com/Azure/go-autorest.git
-==> Checking out revision 5b4b9cc27e8f7150d75a133d74b176a067b7e7b6
-==> Cloning https://github.com/JamesClonk/vultr.git
-==> Checking out revision 743eb4ae7f548cb4da4e55b9e5a2c9077125bd82
-==> Cloning https://github.com/aws/aws-sdk-go.git
-==> Checking out revision 8db8ca6fe5d53b066a9a519275dcbd0819345188
-==> Cloning https://github.com/decker502/dnspod-go.git
-==> Checking out revision f33a2c6040fc2550a631de7b3a53bddccdcd73fb
-==> Cloning https://github.com/dgrijalva/jwt-go.git
-==> Checking out revision a539ee1a749a2b895533f979515ac7e6e0f5b650
-==> Cloning https://github.com/dnsimple/dnsimple-go.git
-==> Checking out revision 5a5b427618a76f9eed5ede0f3e6306fbd9311d2e
-==> Cloning https://github.com/edeckers/auroradnsclient.git
-==> Checking out revision 8b777c170cfd377aa16bb4368f093017dddef3f9
-==> Cloning https://github.com/exoscale/egoscale.git
-==> Checking out revision 325740036187ddae3a5b74be00fbbc70011c4d96
-==> Cloning https://github.com/google/go-querystring.git
-==> Checking out revision 53e6ce116135b80d037921a7fdd5138cf32d7a8a
-==> Cloning https://github.com/miekg/dns.git
-==> Checking out revision 0559e6d230af0a3a7273853cb6994ebea21bfbe5
-==> Cloning https://github.com/ovh/go-ovh.git
-==> Checking out revision d95f6f91b1fb339a53fc438df7289cd85756193b
-==> Cloning https://github.com/rainycape/memcache.git
-==> Checking out revision 1031fa0ce2f20c1c0e1e1b51951d8ea02c84fa05
-==> Cloning https://github.com/stretchr/testify.git
-==> Checking out revision 890a5c3458b43e6104ff5da8dfa139d013d77544
-==> Cloning https://github.com/timewasted/linode.git
-==> Checking out revision 37e84520dcf74488f67654f9c775b9752c232dc1
-==> Cloning https://github.com/urfave/cli.git
-==> Checking out revision 4b90d79a682b4bf685762c7452db20f2a676ecb2
-==> Cloning https://go.googlesource.com/crypto.git
-==> Checking out revision dd85ac7e6a88fc6ca420478e934de5f1a42dd3c6
-==> Cloning https://go.googlesource.com/net.git
-==> Checking out revision f01ecb60fe3835d80d9a0b7b2bf24b228c89260e
-==> Cloning https://go.googlesource.com/oauth2.git
-==> Checking out revision cce311a261e6fcf29de72ca96827bdb0b7d9c9e6
-==> Cloning https://code.googlesource.com/google-api-go-client.git
-==> Checking out revision e665075b5ff79143ba49c58fab02df9dc122afd5
-==> Cloning https://gopkg.in/ini.v1.git
-==> Checking out revision d3de07a94d22b4a0972deb4b96d790c2c0ce8333
-==> Cloning https://gopkg.in/ns1/ns1-go.v2.git
-==> Checking out revision c563826f4cbef9c11bebeb9f20a3f7afe9c1e2f4
-==> Cloning https://gopkg.in/square/go-jose.v1.git
-==> Checking out revision aa2e30fdd1fe9dd3394119af66451ae790d50e0d
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/lego/0.4.1/bin/lego ./src/github.com/xenolf/lego
+==> Downloading https://github.com/technomancy/leiningen/archive/2.8.1.tar.gz
+==> Downloading from https://codeload.github.com/technomancy/leiningen/tar.gz/2.8.1
+==> Downloading https://github.com/technomancy/leiningen/releases/download/2.8.1/leiningen-2.8.1-standalone.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/356756/57d8593a-bb24-11e7-9275-4464ed55c850?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T203308Z&X-Amz-Expires=300&X-Amz-Signature=622858411f5d305a37e593d19951958841c53b3a986eca781fbcfd623f8abeba&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dleiningen-2.8.1-standalone.zip&response-content-type=application%2Foctet-stream
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lego`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lego/0.4.1: 6 files, 16.7MB, built in 50 seconds
-==> Determining lego bottle rebuild...
-==> Bottling lego-0.4.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if lego-0.4.1.x86_64_linux.bottle.tar.gz is relocatable...
-./lego-0.4.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall leiningen`
+==> Caveats
+Dependencies will be installed to:
+  $HOME/.m2/repository
+To play around with Clojure run `lein repl` or `lein help`.
+
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/leiningen/2.8.1: 9 files, 13MB, built in 3 seconds
+==> Determining leiningen bottle rebuild...
+==> Bottling leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "6db171cb6a7a133a3070898c12b7a49ae21b6dbe7414e11ffd7b9cf5c3a8c5a3" => :x86_64_linux
+    rebuild 1
+    sha256 "5609a19a26dfb1dbe46d47b18ff873fa3ab54f2c5a2ce9aa626eaf3f5c62c679" => :x86_64_linux
   end
