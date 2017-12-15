@@ -1,1 +1,23 @@
-This formula doesn't require compiling.
+==> Installing hmmer2 from homebrew/science
+==> Downloading http://eddylab.org/software/hmmer/2.3.2/hmmer-2.3.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2/share/man --enable-threads
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/hmmer2`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because hmmer2 conflicts with hmmer version 3.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/hmmer2/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2: 24 files, 8.6MB, built in 15 seconds
+==> Determining homebrew/science/hmmer2 bottle rebuild...
+==> Bottling hmmer2-2.3.2.x86_64_linux.bottle.tar.gz...
+==> Detecting if hmmer2-2.3.2.x86_64_linux.bottle.tar.gz is relocatable...
+./hmmer2-2.3.2.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "392bc8a2eb6157ce55ed641330f48d5d3f90fd3bb527b1e7be7d15cd21ea8ae3" => :x86_64_linux
+  end
