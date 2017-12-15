@@ -1,15 +1,33 @@
-==> Installing xbitmaps from linuxbrew/xorg
-==> Downloading https://xorg.freedesktop.org/archive/individual/data/xbitmaps-1.1.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xbitmaps/1.1.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xcb-proto from linuxbrew/xorg
+==> Downloading https://xcb.freedesktop.org/dist/xcb-proto-1.12.tar.bz2
+==> Downloading http://www.linuxfromscratch.org/patches/blfs/svn/xcb-proto-1.12-python3-1.patch
+==> Downloading http://www.linuxfromscratch.org/patches/blfs/svn/xcb-proto-1.12-schema-1.patch
+==> Patching
+==> Applying xcb-proto-1.12-python3-1.patch
+patching file xcbgen/align.py
+patching file xcbgen/xtypes.py
+==> Applying xcb-proto-1.12-schema-1.patch
+patching file src/xcb.xsd
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xcb-proto/1.12 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xbitmaps`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xbitmaps/1.1.1: 76 files, 217KB, built in 5 seconds
-==> Determining linuxbrew/xorg/xbitmaps bottle rebuild...
-==> Bottling xbitmaps-1.1.1.x86_64_linux.bottle.1.tar.gz...
-./xbitmaps-1.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xcb-proto`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-proto/1.12: 60 files, 914.1KB, built in 3 seconds
+==> Determining linuxbrew/xorg/xcb-proto bottle rebuild...
+==> Bottling xcb-proto-1.12.x86_64_linux.bottle.1.tar.gz...
+./xcb-proto-1.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "914ddc674f3e822da9f31ccd7ac1ffe36438113ce0c0954d95cc1ecb1de2d193" => :x86_64_linux
+    sha256 "b00ec49b76bf2c91552a463109e14cddeed5f8a2e1448d11b8a34b210e2ce619" => :x86_64_linux
   end
