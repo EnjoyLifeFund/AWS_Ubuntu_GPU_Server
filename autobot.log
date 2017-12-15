@@ -1,18 +1,11 @@
-==> Downloading https://archive.apache.org/dist/jena/binaries/apache-jena-3.5.0.tar.gz
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/schemagen
-Target /home/linuxbrew/.linuxbrew/bin/schemagen
-is a symlink belonging to jdk. You can unlink it:
-  brew unlink jdk
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite jena
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run jena
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/schemagen -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/bin/schemagen
+==> Upgrading 1 outdated package, with result:
+jenkins 2.94
+==> Upgrading jenkins 
+==> Downloading http://mirrors.jenkins.io/war/2.94/jenkins.war
+==> Downloading from http://ftp-nyc.osuosl.org/pub/jenkins/war/2.94/jenkins.war
+==> jar xvf jenkins.war
+==> Caveats
+Note: When using launchctl the port will be 8080.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jena/3.5.0: 203 files, 19.8MB, built in 5 seconds
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jenkins/2.94: 6 files, 74.0MB, built in 7 seconds
 This formula doesn't require compiling.
