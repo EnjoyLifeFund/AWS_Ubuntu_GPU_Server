@@ -1,8 +1,19 @@
-==> Determining libatomic_ops bottle rebuild...
-==> Bottling libatomic_ops-7.4.8.x86_64_linux.bottle.1.tar.gz...
-./libatomic_ops-7.4.8.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://libav.org/releases/libav-12.2.tar.xz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/b6e917c/libav/Check-for--no_weak_imports-in-ldflags-on-macOS.patch
+==> Patching
+==> Applying Check-for--no_weak_imports-in-ldflags-on-macOS.patch
+patching file configure
+Hunk #1 succeeded at 3825 with fuzz 2 (offset 8 lines).
+==> ./configure --disable-shared --disable-indev=jack --prefix=/home/linuxbrew/.linuxbrew/Cellar/libav/12.2 --enable-gpl --enable-nonfree --enable-version3 --enable-vda --cc=gcc-6 --host-cflags= --host-ldflags= --enable-libfaac --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libav`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libav/12.2: 9 files, 37.6MB, built in 45 seconds
+==> Determining libav bottle rebuild...
+==> Bottling libav-12.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libav-12.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libav-12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6de98bb212198e6ee574beec5c2cf76e6ae223bb45d0bb14b3503d5547687557" => :x86_64_linux
+    sha256 "5a08e427f49f32942bb705ca398666a04ac01b16c334dd92b08155b114a3e817" => :x86_64_linux
   end
