@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/isync/isync/1.3.0/isync-1.3.0.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/isync/isync/1.3.0/isync-1.3.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/isync/1.3.0 --disable-silent-rules ac_cv_berkdb4=no
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall isync`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/isync/1.3.0: 17 files, 1MB, built in 6 seconds
-==> Determining isync bottle rebuild...
-==> Bottling isync-1.3.0.x86_64_linux.bottle.1.tar.gz...
-./isync-1.3.0.x86_64_linux.bottle.1.tar.gz
+==> Determining itstool bottle rebuild...
+==> Bottling itstool-2.0.4_1.x86_64_linux.bottle.1.tar.gz...
+./itstool-2.0.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "20c18c02b7d5886cf7447a4fe3516804d80c6d51bbd9e8d0052d7ee6ec593144" => :x86_64_linux
+    sha256 "70b400bf787314345dc664b8279f8b2d91484ad3b870cdd053f91058ae45c7d5" => :x86_64_linux
   end
