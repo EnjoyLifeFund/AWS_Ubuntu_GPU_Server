@@ -1,14 +1,14 @@
-==> Installing hisat from homebrew/science
-==> Downloading https://ccb.jhu.edu/software/hisat/downloads/hisat-0.1.6-beta-source.zip
+==> Installing hisat2 from homebrew/science
+==> Downloading ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.5-source.zip
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/hisat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hisat/0.1.6b: 18 files, 31MB, built in 1 minute 23 seconds
-==> Determining homebrew/science/hisat bottle rebuild...
-==> Bottling hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/hisat2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hisat2/2.0.5: 18 files, 37.9MB, built in 1 minute 35 seconds
+==> Determining homebrew/science/hisat2 bottle rebuild...
+==> Bottling hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c2869d3672ecf8da4d271f9b6624bc47ffa11816d26053281415a320d26b0b2f" => :x86_64_linux
+    sha256 "a9a18cfda64df8a185ea5587ffb77f9cf98364790ce358fe4402bc57c69be6a3" => :x86_64_linux
   end
