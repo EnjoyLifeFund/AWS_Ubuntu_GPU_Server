@@ -1,8 +1,4 @@
-==> Determining jansson bottle rebuild...
-==> Bottling jansson-2.10.x86_64_linux.bottle.1.tar.gz...
-./jansson-2.10.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "420140ac42560d0f72087700aa7c1406b773da2eb4ae3bb4de2b401035ddef1b" => :x86_64_linux
-  end
+==> Downloading https://downloads.sourceforge.net/project/jasmin/jasmin/jasmin-2.4/jasmin-2.4.zip
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/jasmin/jasmin/jasmin-2.4/jasmin-2.4.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jasmin/2.4: 8 files, 164.7KB, built in 1 second
+This formula doesn't require compiling.
