@@ -1,7 +1,15 @@
-==> Determining libexif bottle rebuild...
-==> Bottling libexif-0.6.21.x86_64_linux.bottle.tar.gz...
-==> Detecting if libexif-0.6.21.x86_64_linux.bottle.tar.gz is relocatable...
-./libexif-0.6.21.x86_64_linux.bottle.tar.gz
+==> Downloading https://github.com/ofiwg/libfabric/releases/download/v1.5.2/libfabric-1.5.2.tar.bz2
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/22996097/57879dc0-c4c9-11e7-8f8e-eb061ae9c9bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T212134Z&X-Amz-Expires=300&X-Amz-Signature=89496666ed47f3d886954b8d52940a4bcfa92b0ece60006118abcb0aa2c524a6&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibfabric-1.5.2.tar.bz2&response-content-type=application%2Foctet-stream
+==> autoreconf -fiv
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libfabric/1.5.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libfabric`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libfabric/1.5.2: 160 files, 1.8MB, built in 29 seconds
+==> Determining libfabric bottle rebuild...
+==> Bottling libfabric-1.5.2.x86_64_linux.bottle.1.tar.gz...
+./libfabric-1.5.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "16601af3d4cc15cf5e67d85cb4db37113a92afb048b8f6c46621cc0b881b7e3a" => :x86_64_linux
+    rebuild 1
+    sha256 "6e07b48efe4b461fbda7e7775c2bd78d80400b27f9da72dbfff0d86b5eb11ddf" => :x86_64_linux
   end
