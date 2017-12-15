@@ -1,14 +1,13 @@
-==> Downloading https://savannah.nongnu.org/download/icoutils/icoutils-0.32.2.tar.bz2
-==> Downloading from http://download.savannah.gnu.org/releases/icoutils/icoutils-0.32.2.tar.bz2
-==> ./configure --disable-rpath --prefix=/home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2
+==> Downloading https://olivier.sessink.nl/jailkit/jailkit-2.19.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jailkit/2.19
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall icoutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2: 18 files, 570.2KB, built in 40 seconds
-==> Determining icoutils bottle rebuild...
-==> Bottling icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz...
-./icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jailkit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jailkit/2.19: 38 files, 527.4KB, built in 10 seconds
+==> Determining jailkit bottle rebuild...
+==> Bottling jailkit-2.19.x86_64_linux.bottle.1.tar.gz...
+./jailkit-2.19.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "1e0b606f5e136455ed1d494d8307eb81944a3426838bf670fafb9bb05ec5edaa" => :x86_64_linux
+    sha256 "08a49a5986970e1b97609f35acdf6357c081ab9e6080b8a4f6521b43adf15582" => :x86_64_linux
   end
