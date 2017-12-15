@@ -1,8 +1,14 @@
-==> Determining gst-plugins-good bottle rebuild...
-==> Bottling gst-plugins-good-1.12.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gst-plugins-good-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gst-plugins-good-1.12.4.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.12.4.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4/share/man --disable-amrnb --disable-amrwb
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gst-plugins-ugly`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4: 99 files, 3.4MB, built in 30 seconds
+==> Determining gst-plugins-ugly bottle rebuild...
+==> Bottling gst-plugins-ugly-1.12.4.x86_64_linux.bottle.1.tar.gz...
+./gst-plugins-ugly-1.12.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4eec01d47f9953660f918ef3159ef39781267ac183f7f6f7eae07f4fe4f37516" => :x86_64_linux
+    sha256 "416ab54c9e692419d46474b9ab848163e7b807ba56afd430ba403da681384f6b" => :x86_64_linux
   end
