@@ -1,15 +1,8 @@
-==> Downloading https://github.com/dvorka/hstr/archive/1.23.tar.gz
-==> Downloading from https://codeload.github.com/dvorka/hstr/tar.gz/1.23
-==> autoreconf -fvi
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hh/1.23
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hh`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hh/1.23: 9 files, 205.8KB, built in 8 seconds
-==> Determining hh bottle rebuild...
-==> Bottling hh-1.23.x86_64_linux.bottle.1.tar.gz...
-./hh-1.23.x86_64_linux.bottle.1.tar.gz
+==> Determining hicolor-icon-theme bottle rebuild...
+==> Bottling hicolor-icon-theme-0.17.x86_64_linux.bottle.1.tar.gz...
+./hicolor-icon-theme-0.17.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eaa0f79dbd86471ca68a4f4f7218cccc37de126c438d4564bfafbc39f937287e" => :x86_64_linux
+    sha256 "965fa3e74fc44133bc2d813e3e19db3f4237dd02b59cd9d06d16011725f29cc9" => :x86_64_linux
   end
