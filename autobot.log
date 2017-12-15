@@ -1,19 +1,15 @@
-==> Installing giira from homebrew/science
-==> Installing dependencies for homebrew/science/giira: tophat
-==> Installing homebrew/science/giira dependency: tophat
-==> Downloading https://linuxbrew.bintray.com/bottles-science/tophat-2.1.1_6.x86_64_linux.bottle.tar.gz
-==> Pouring tophat-2.1.1_6.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tophat/2.1.1_6: 49 files, 54.5MB
-==> Installing homebrew/science/giira
-==> Downloading https://downloads.sourceforge.net/project/giira/GIIRA_01_3.zip
-==> Downloading from https://svwh.dl.sourceforge.net/project/giira/GIIRA_01_3.zip
+==> Installing gingr from homebrew/science
+==> Downloading https://github.com/marbl/gingr/releases/download/v1.2/gingr-Linux64-v1.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/16219980/136db136-ad59-11e4-91dd-9b1498cd3238?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T063552Z&X-Amz-Expires=300&X-Amz-Signature=713cb1e1c2fb158776377197c77caf004fcfc4a5b277c5c9b71f55ede8e85310&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgingr-Linux64-v1.2.tar.gz&response-content-type=application%2Foctet-stream
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/giira`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/giira/01.3: 16 files, 157KB, built in 1 second
-==> Determining homebrew/science/giira bottle rebuild...
-==> Bottling giira-01.3.x86_64_linux.bottle.tar.gz...
-./giira-01.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/gingr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gingr/1.2: 3 files, 22.9MB, built in 3 seconds
+==> Determining homebrew/science/gingr bottle rebuild...
+==> Bottling gingr-1.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gingr-1.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gingr-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "53d28b6280d5f8ee1833c75de6cd573d3a4efad28aee1307cdf4bfd60db2c34e" => :x86_64_linux
+    rebuild 1
+    sha256 "2b925b00f0279ac095a7d4c2bbec0faec4dea144929fc32a0803cfc1d8245ab0" => :x86_64_linux
   end
