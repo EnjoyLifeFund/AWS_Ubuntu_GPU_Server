@@ -1,9 +1,15 @@
-==> Determining lapack bottle rebuild...
-==> Bottling lapack-3.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lapack-3.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lapack-3.8.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/lasi/lasi/1.1.2%20Source/libLASi-1.1.2.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/lasi/lasi/1.1.2%20Source/libLASi-1.1.2.tar.gz
+==> cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lasi/1.1.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall lasi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lasi/1.1.2: 183 files, 1.1MB, built in 7 seconds
+==> Determining lasi bottle rebuild...
+==> Bottling lasi-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./lasi-1.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0c29073eef48ba5ed31c1f998e1f58ac32612554a8b8cae41d87041a69cbeb54" => :x86_64_linux
+    sha256 "151da4fe6edf7362289916d36c1c0bcca5f67276f912c94e3ee6ab3746a0576c" => :x86_64_linux
   end
