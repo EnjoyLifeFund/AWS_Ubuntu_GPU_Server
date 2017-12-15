@@ -1,16 +1,31 @@
-==> Downloading https://github.com/fbiville/liquigraph/archive/liquigraph-3.0.1.tar.gz
-==> Downloading from https://codeload.github.com/fbiville/liquigraph/tar.gz/liquigraph-3.0.1
-==> mvn -q clean package -DskipTests
-==> tar xzf liquigraph-cli/target/liquigraph-cli-bin.tar.gz -C binaries
+==> Downloading https://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/little-cms/1.19_1
+==> make
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink lib/liblcms.so
+Target /home/linuxbrew/.linuxbrew/lib/liblcms.so
+is a symlink belonging to jdk. You can unlink it:
+  brew unlink jdk
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite little-cms
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run little-cms
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/lib/liblcms.so -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/lib/liblcms.so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liquigraph`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liquigraph/3.0.1: 7 files, 6.2MB, built in 51 seconds
-==> Determining liquigraph bottle rebuild...
-==> Bottling liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall little-cms`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/little-cms/1.19_1: 25 files, 4.9MB, built in 15 seconds
+==> Determining little-cms bottle rebuild...
+==> Bottling little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3b5032bf207c664499f22f99360c191350dd2eb1b1d65bb26af8bfd7224c2568" => :x86_64_linux
+    sha256 "819cff7b2c65bed93b8731de0c0cae4007e4bf71b893eea30bf8156b84781591" => :x86_64_linux
   end
