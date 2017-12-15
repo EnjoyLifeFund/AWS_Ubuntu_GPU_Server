@@ -1,14 +1,15 @@
-==> Downloading https://dl.matroska.org/downloads/libmatroska/libmatroska-1.4.8.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmatroska/1.4.8
+==> Downloading https://github.com/maxmind/libmaxminddb/releases/download/1.3.1/libmaxminddb-1.3.1.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/8882852/04c24c1a-d109-11e7-820c-587a48fc48b3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T215610Z&X-Amz-Expires=300&X-Amz-Signature=2ff93196e0389ced545e9c2ff0ed0d0e7094b9d9f207bbe9215f8c0843e12d92&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibmaxminddb-1.3.1.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmaxminddb/1.3.1
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmatroska`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmatroska/1.4.8: 38 files, 9.2MB, built in 18 seconds
-==> Determining libmatroska bottle rebuild...
-==> Bottling libmatroska-1.4.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libmatroska-1.4.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libmatroska-1.4.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmaxminddb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmaxminddb/1.3.1: 32 files, 386.3KB, built in 12 seconds
+==> Determining libmaxminddb bottle rebuild...
+==> Bottling libmaxminddb-1.3.1.x86_64_linux.bottle.1.tar.gz...
+./libmaxminddb-1.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0b5a30d16b66e6f8d5005370c46caae7bcb134e6eacc3d5e6b0c975a484a71ca" => :x86_64_linux
+    sha256 "97931b2857e23e1574c0831b5cb26c5c520a68b16e6f2917777aae6983458b67" => :x86_64_linux
   end
