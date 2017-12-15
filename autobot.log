@@ -1,15 +1,23 @@
-==> Downloading https://downloads.sourceforge.net/project/libivykis/0.42.2/ivykis-0.42.2.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/libivykis/0.42.2/ivykis-0.42.2.tar.gz
-==> autoreconf -i
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ivykis/0.42.2
-==> make install
+==> Downloading https://files.pythonhosted.org/packages/28/93/4ebf2de4bc74bd517a27a600b2b23a5254a20f28e6e36fc876fd98f7a51b/httpie-0.9.9.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/httpie--homebrew-virtualenv-20171215-23953-glgjcq/target --single-version-externally-managed --record=installed.txt
+==> python3 -s /tmp/httpie--homebrew-virtualenv-20171215-23953-glgjcq/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9/libexec
+==> Downloading https://files.pythonhosted.org/packages/b8/67/ab177979be1c81bc99c8d0592ef22d547e70bb4c6815c383286ed5dec504/Pygments-2.1.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/httpie--Pygments-20171215-23953-1va97v7/Pygments-2.1.3
+==> Downloading https://files.pythonhosted.org/packages/d9/03/155b3e67fe35fe5b6f4227a8d9e96a14fda828b18199800d161bcefc1359/requests-2.12.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/httpie--requests-20171215-23953-1hz2jb6/requests-2.12.3
+==> Downloading https://files.pythonhosted.org/packages/fd/70/ba9982cedc9b3ed3c06934f1f46a609e0f23c7bfdf567c52a09f1296b8cb/PySocks-1.6.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/httpie--PySocks-20171215-23953-19owg0k/PySocks-1.6.6
+==> /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/httpie-20171215-23953-swnz6x/httpie-0.9.9
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ivykis`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ivykis/0.42.2: 98 files, 948KB, built in 29 seconds
-==> Determining ivykis bottle rebuild...
-==> Bottling ivykis-0.42.2.x86_64_linux.bottle.1.tar.gz...
-./ivykis-0.42.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall httpie`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/httpie/0.9.9: 1,444 files, 17.5MB, built in 12 seconds
+==> Determining httpie bottle rebuild...
+==> Bottling httpie-0.9.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if httpie-0.9.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./httpie-0.9.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "887f23543894b04da13b97ffa265de4cc70953be7f904442a028b2f97e14ffa3" => :x86_64_linux
+    sha256 "1dd35a8926a56cfae2fc16f0822355d03874f9a78aa3873ccaa96892d69d9729" => :x86_64_linux
   end
