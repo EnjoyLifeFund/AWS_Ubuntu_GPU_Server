@@ -1,8 +1,15 @@
-==> Determining linuxbrew/xorg/mkfontscale bottle rebuild...
-==> Bottling mkfontscale-1.1.2.x86_64_linux.bottle.1.tar.gz...
-./mkfontscale-1.1.2.x86_64_linux.bottle.1.tar.gz
+==> Installing mtdev from linuxbrew/xorg
+==> Downloading http://bitmath.org/code/mtdev/mtdev-1.1.5.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mtdev/1.1.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/mtdev`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mtdev/1.1.5: 13 files, 175.3KB, built in 7 seconds
+==> Determining linuxbrew/xorg/mtdev bottle rebuild...
+==> Bottling mtdev-1.1.5.x86_64_linux.bottle.1.tar.gz...
+./mtdev-1.1.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a1d7d5e589a4953c48a12d9edd3036d886fa2b17c22229ec1c463f057d6edb2f" => :x86_64_linux
+    sha256 "67ecefff25a747288631a77070ccbd56d69b8e5a2892f4f7b9e4120c36ff4514" => :x86_64_linux
   end
