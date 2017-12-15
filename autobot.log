@@ -1,14 +1,16 @@
-==> Downloading https://github.com/nojhan/liquidprompt/archive/v_1.11.tar.gz
-==> Downloading from https://codeload.github.com/nojhan/liquidprompt/tar.gz/v_1.11
-==> Caveats
-Add the following lines to your bash or zsh config (e.g. ~/.bash_profile):
-  if [ -f /home/linuxbrew/.linuxbrew/share/liquidprompt ]; then
-    . /home/linuxbrew/.linuxbrew/share/liquidprompt
-  fi
-
-If you'd like to reconfigure options, you may do so in ~/.liquidpromptrc.
-A sample file you may copy and modify has been installed to
-  /home/linuxbrew/.linuxbrew/share/liquidpromptrc-dist
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liquidprompt/1.11: 7 files, 137.2KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/fbiville/liquigraph/archive/liquigraph-3.0.1.tar.gz
+==> Downloading from https://codeload.github.com/fbiville/liquigraph/tar.gz/liquigraph-3.0.1
+==> mvn -q clean package -DskipTests
+==> tar xzf liquigraph-cli/target/liquigraph-cli-bin.tar.gz -C binaries
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liquigraph`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liquigraph/3.0.1: 7 files, 6.2MB, built in 51 seconds
+==> Determining liquigraph bottle rebuild...
+==> Bottling liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./liquigraph-3.0.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3b5032bf207c664499f22f99360c191350dd2eb1b1d65bb26af8bfd7224c2568" => :x86_64_linux
+  end
