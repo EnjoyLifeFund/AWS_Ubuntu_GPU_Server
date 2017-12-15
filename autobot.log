@@ -1,14 +1,15 @@
-==> Installing fqzcomp from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/fqzcomp/fqzcomp-4.6.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/fqzcomp/fqzcomp-4.6.tar.gz
+==> Installing freec from homebrew/science
+==> Downloading https://github.com/BoevaLab/FREEC/archive/v11.0.tar.gz
+==> Downloading from https://codeload.github.com/BoevaLab/FREEC/tar.gz/v11.0
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fqzcomp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fqzcomp/4.6: 4 files, 312.6KB, built in 6 seconds
-==> Determining homebrew/science/fqzcomp bottle rebuild...
-==> Bottling fqzcomp-4.6.x86_64_linux.bottle.1.tar.gz...
-./fqzcomp-4.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/freec`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freec/11.0: 15 files, 8.2MB, built in 12 seconds
+==> Determining homebrew/science/freec bottle rebuild...
+==> Bottling freec-11.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freec-11.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freec-11.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "49558aa2db7a321f2d5a62327cad56b5c37917c034265e163006b0181e091ceb" => :x86_64_linux
+    sha256 "59b106aa9b596493b6ce260cdfbd3c3bf9124c88165e3c1c2c70f9cc809e2d1c" => :x86_64_linux
   end
