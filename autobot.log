@@ -1,28 +1,20 @@
-==> Installing metis4 from homebrew/science
-==> Downloading http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/OLD/metis-4.0.3.tar.gz
-==> make CC=gcc-6 COPTIONS=-fPIC
-==> make CC=gcc-6 COPTIONS=-fPIC
-==> gcc-6 -fPIC -shared -Wl,-whole-archive libmetis.a -Wl,-no-whole-archive -o libmetis.so
+==> Installing mfem from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://goo.gl/Vrpsns
+==> Downloading from http://mfem.github.io/releases/mfem-3.3.tgz
+==> make config PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mfem/3.3 MFEM_USE_LAPACK=YES LAPACK_LIB=-llapack -lblas
+==> make all
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/metis4`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because Conflicts with metis (5.x)..
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/metis4/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/metis4/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/metis4/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/metis4/4.0.3_1: 25 files, 2MB, built in 4 seconds
-==> Determining homebrew/science/metis4 bottle rebuild...
-==> Bottling metis4-4.0.3_1.x86_64_linux.bottle.1.tar.gz...
-./metis4-4.0.3_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/mfem`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mfem/3.3: 222 files, 6.2MB, built in 28 seconds
+==> Determining homebrew/science/mfem bottle rebuild...
+==> Bottling mfem-3.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mfem-3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mfem-3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "389ba972d83d3ddc8cd712473ef6ce7fef0135e653ee26797dfa86600fbca6c1" => :x86_64_linux
+    sha256 "55b4afe118c3d5a05db31a915a6dd8e52954d2840de2505003c65c1ab16db1d4" => :x86_64_linux
   end
