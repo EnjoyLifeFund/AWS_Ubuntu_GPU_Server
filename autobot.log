@@ -1,8 +1,16 @@
-==> Determining libgeotiff bottle rebuild...
-==> Bottling libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libgeotiff-1.4.2_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/getdata/getdata/0.10.0/getdata-0.10.0.tar.xz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/getdata/getdata/0.10.0/getdata-0.10.0.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgetdata/0.10.0 --disable-python --disable-php --disable-perl --without-liblzma --without-libzzip --disable-fortran --disable-fortran95
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libgetdata`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgetdata/0.10.0: 240 files, 6.5MB, built in 38 seconds
+==> Determining libgetdata bottle rebuild...
+==> Bottling libgetdata-0.10.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libgetdata-0.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libgetdata-0.10.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8c544995dcd1471931675eb93f6256d5ffe2e21a36f384e9d13e73321503dd04" => :x86_64_linux
+    sha256 "e02eb9c7cf2963f2eadbf5365c49eea5527768d4a6ce32b548163138663b6858" => :x86_64_linux
   end
