@@ -1,14 +1,8 @@
-==> Installing pciutils from linuxbrew/xorg
-==> Downloading https://www.kernel.org/pub/software/utils/pciutils/pciutils-3.5.1.tar.xz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1 SHAREDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share MANDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share/man SHARED=yes ZLIB=no
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1 SHAREDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share MANDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share/man SHARED=yes ZLIB=no install install-lib
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/pciutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1: 22 files, 1.4MB, built in 1 second
-==> Determining linuxbrew/xorg/pciutils bottle rebuild...
-==> Bottling pciutils-3.5.1.x86_64_linux.bottle.1.tar.gz...
-./pciutils-3.5.1.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/presentproto bottle rebuild...
+==> Bottling presentproto-1.0.x86_64_linux.bottle.1.tar.gz...
+./presentproto-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d28927891ce6455b5e6355c7d5efda625f323acd1a853041d7c65cb336974ae6" => :x86_64_linux
+    sha256 "d50c2e6a7e0fc5d8345b1ea93ec90251e46d5ea5d19f72b1fdd7b3ccbf163a71" => :x86_64_linux
   end
