@@ -1,14 +1,12 @@
-==> Downloading https://github.com/x42/libltc/releases/download/v1.3.0/libltc-1.3.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5425807/3c932412-c8cb-11e6-8525-f1cea7ffdd71?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T215422Z&X-Amz-Expires=300&X-Amz-Signature=353cb3009cc582e83399c18b204a8634a78dc3243f1e5e1a2d563cf97912b0bf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibltc-1.3.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libltc/1.3.0
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/liblunar/liblunar-2.2.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblunar/2.2.5 --disable-python
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libltc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libltc/1.3.0: 13 files, 247.5KB, built in 6 seconds
-==> Determining libltc bottle rebuild...
-==> Bottling libltc-1.3.0.x86_64_linux.bottle.1.tar.gz...
-./libltc-1.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall liblunar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liblunar/2.2.5: 36 files, 430.6KB, built in 9 seconds
+==> Determining liblunar bottle rebuild...
+==> Bottling liblunar-2.2.5.x86_64_linux.bottle.tar.gz...
+./liblunar-2.2.5.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "fd3811c6ec65ac8fba7e93acef98d415bd96ee8d53bbadee852c61f85eb68488" => :x86_64_linux
+    sha256 "6104c1b30be8c48b64d6d77c5b6dc300d1af550801c02a94e13fc778c75db70f" => :x86_64_linux
   end
