@@ -1,3 +1,19 @@
-==> Downloading https://ftp.gnu.org/gnu/kawa/kawa-3.0.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kawa/3.0: 11 files, 4.9MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/raymontag/keepassc/archive/1.7.0.tar.gz
+==> Downloading from https://codeload.github.com/raymontag/keepassc/tar.gz/1.7.0
+==> Downloading https://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.1.tar.gz
+==> python3 setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/keepassc/1.7.0_2/libexec
+==> Downloading https://github.com/raymontag/kppy/archive/1.4.0.tar.gz
+==> Downloading from https://codeload.github.com/raymontag/kppy/tar.gz/1.4.0
+==> python3 setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/keepassc/1.7.0_2/libexec
+==> python3 setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/keepassc/1.7.0_2/libexec
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall keepassc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/keepassc/1.7.0_2: 313 files, 2.8MB, built in 22 seconds
+==> Determining keepassc bottle rebuild...
+==> Bottling keepassc-1.7.0_2.x86_64_linux.bottle.1.tar.gz...
+./keepassc-1.7.0_2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "40ac986bc87a2114abab28f1e4723c33a8c6eb5b7e746011dd2b5d9856c90062" => :x86_64_linux
+  end
