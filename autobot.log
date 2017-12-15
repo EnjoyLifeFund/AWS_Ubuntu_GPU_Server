@@ -1,9 +1,13 @@
-==> Determining libmikmod bottle rebuild...
-==> Bottling libmikmod-3.3.11.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libmikmod-3.3.11.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libmikmod-3.3.11.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://libmill.org/libmill-1.18.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmill/1.18
+==> make all check install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libmill`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmill/1.18: 11 files, 1.7MB, built in 11 seconds
+==> Determining libmill bottle rebuild...
+==> Bottling libmill-1.18.x86_64_linux.bottle.1.tar.gz...
+./libmill-1.18.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4e04ae8d2b994015bfcef1b146a432329cb97675c69bc37f2b4e5ebe736be1a9" => :x86_64_linux
+    sha256 "3ddb678e34f4ec7d7a24d17740999b1ffe7e0593fd8eda4b5c1d0b485f81cc30" => :x86_64_linux
   end
