@@ -1,18 +1,3 @@
-==> Downloading http://www.iozone.org/src/current/iozone3_471.tar
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/7e8a57a/iozone/bzero.patch
-==> Patching
-==> Applying bzero.patch
-File src/current/fileop.c is read-only; trying to patch anyway
-patching file src/current/fileop.c
-==> make linux CC=gcc-6
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iozone`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iozone/3.471: 12 files, 399.5KB, built in 9 seconds
-==> Determining iozone bottle rebuild...
-==> Bottling iozone-3.471.x86_64_linux.bottle.1.tar.gz...
-./iozone-3.471.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "48ce281ffa2af56af280561e6cd2e5d18cf5e0e4fb8b15b833615ec3accd96f2" => :x86_64_linux
-  end
+==> Downloading http://www.stewart.com.au/ip_relay/ip_relay-0.71.tgz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ip_relay/0.71: 6 files, 68.4KB, built in 1 second
+This formula doesn't require compiling.
