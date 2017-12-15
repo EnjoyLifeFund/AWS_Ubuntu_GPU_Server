@@ -1,12 +1,8 @@
-==> Downloading http://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libntlm/1.4
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libntlm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libntlm/1.4: 13 files, 344.7KB, built in 23 seconds
-==> Determining libntlm bottle rebuild...
-==> Bottling libntlm-1.4.x86_64_linux.bottle.tar.gz...
-./libntlm-1.4.x86_64_linux.bottle.tar.gz
+==> Determining libogg bottle rebuild...
+==> Bottling libogg-1.3.3.x86_64_linux.bottle.1.tar.gz...
+./libogg-1.3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "1c52f504db86d237cbb7c1ca3f3e69a16f89987bb6e8472d65dd9c202ebe35b8" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "abc22afd3ce3d27fbdc7637e49b0bfcf297f1ad84474f1c0a86d6bdd41f3b588" => :x86_64_linux
   end
