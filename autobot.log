@@ -1,15 +1,14 @@
-==> Downloading https://download.gnome.org/sources/gupnp/1.0/gupnp-1.0.2.tar.xz
-==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/gupnp/1.0/gupnp-1.0.2.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gupnp/1.0.2
+==> Downloading https://download.gnome.org/sources/gupnp-av/0.12/gupnp-av-0.12.10.tar.xz
+==> Downloading from http://mirror.umd.edu/gnome/sources/gupnp-av/0.12/gupnp-av-0.12.10.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gupnp-av/0.12.10
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gupnp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gupnp/1.0.2: 97 files, 2.0MB, built in 25 seconds
-==> Determining gupnp bottle rebuild...
-==> Bottling gupnp-1.0.2.x86_64_linux.bottle.1.tar.gz...
-./gupnp-1.0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gupnp-av`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gupnp-av/0.12.10: 71 files, 1.8MB, built in 21 seconds
+==> Determining gupnp-av bottle rebuild...
+==> Bottling gupnp-av-0.12.10.x86_64_linux.bottle.1.tar.gz...
+./gupnp-av-0.12.10.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "505591fcbd006fffdfe14dc699852c3379e79e088d7b0d9d6739a594b24194ec" => :x86_64_linux
+    sha256 "8ef847e4603e81083095f73625114cb636f2fd7f49de591999f1ea17986b58b0" => :x86_64_linux
   end
