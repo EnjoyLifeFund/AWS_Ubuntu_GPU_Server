@@ -1,14 +1,18 @@
-==> Installing scarpa from homebrew/science
-==> Downloading http://compbio.cs.toronto.edu/hapsembler/scarpa-0.241.tar.gz
+==> Installing scrm from homebrew/science
+==> Downloading https://github.com/scrm/scrm/releases/download/v1.7.2/scrm-src.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/8410558/0005eb58-ff4d-11e5-9c12-e301b75eec5b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T142113Z&X-Amz-Expires=300&X-Amz-Signature=347adba432f8938cc31b5dfb1e6b033d86620e24afd9ebdccc0dff0ce3ebbb60&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dscrm-src.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/scrm/1.7.2
 ==> make
+==> make test
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/scarpa`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/scarpa/0.241: 5 files, 186.7KB, built in 8 seconds
-==> Determining homebrew/science/scarpa bottle rebuild...
-==> Bottling scarpa-0.241.x86_64_linux.bottle.1.tar.gz...
-./scarpa-0.241.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/scrm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/scrm/1.7.2: 8 files, 320.6KB, built in 22 seconds
+==> Determining homebrew/science/scrm bottle rebuild...
+==> Bottling scrm-1.7.2.x86_64_linux.bottle.1.tar.gz...
+./scrm-1.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "810d8a8a27f07f6cbd2ae353a2433a3d99b8530203ce9e9c8debcf89d3e5c0b0" => :x86_64_linux
+    sha256 "c1bd599858e3da8bd50bdb8f88c0d578a2c71a0ca82d5a03f3030543989fe637" => :x86_64_linux
   end
