@@ -1,14 +1,14 @@
-==> Downloading https://pwhois.org/dl/index.who?file=lft-3.79.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lft/3.79
+==> Downloading https://ja.osdn.net/frs/redir.php?f=%2Flha%2F22231%2Flha-1.14i-ac20050924p1.tar.gz
+==> Downloading from http://jaist.dl.osdn.jp/lha/22231/lha-1.14i-ac20050924p1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lha/1.14i-ac20050924p1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/lha/1.14i-ac20050924p1/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lft`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lft/3.79: 10 files, 208.5KB, built in 8 seconds
-==> Determining lft bottle rebuild...
-==> Bottling lft-3.79.x86_64_linux.bottle.1.tar.gz...
-./lft-3.79.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lha`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lha/1.14i-ac20050924p1: 5 files, 407.3KB, built in 13 seconds
+==> Determining lha bottle rebuild...
+==> Bottling lha-1.14i-ac20050924p1.x86_64_linux.bottle.1.tar.gz...
+./lha-1.14i-ac20050924p1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "11e4277959bd263167db78b0546f47f46de9c26001a467fa1858025f1fa15f3c" => :x86_64_linux
+    sha256 "b1091d901d6874c684b1b30a4d1a897bc8862668cb8bcc6c554e915c6773de4e" => :x86_64_linux
   end
