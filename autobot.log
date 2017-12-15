@@ -1,8 +1,29 @@
-==> Determining libxml2 bottle rebuild...
-==> Bottling libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://xmlsoft.org/sources/libxml2-2.7.8.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml2@2.7/2.7.8 --without-python
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libxml2@2.7`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/libxml2@2.7/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/libxml2@2.7/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/libxml2@2.7/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/libxml2@2.7/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxml2@2.7/2.7.8: 275 files, 18.2MB, built in 30 seconds
+==> Determining libxml2@2.7 bottle rebuild...
+==> Bottling libxml2@2.7-2.7.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml2@2.7-2.7.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml2@2.7-2.7.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "42cb8dba7f81802dda2a96798515561f5ce3a2fa58cd75baf326969dd3df2dc3" => :x86_64_linux
+    sha256 "36366bd75b9634ef43d581e4dbe1ea1f775a2517bfacfaf64188efc260fc5df9" => :x86_64_linux
   end
