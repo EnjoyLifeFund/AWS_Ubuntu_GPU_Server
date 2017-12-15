@@ -1,14 +1,13 @@
-==> Downloading https://github.com/google/jsonnet/archive/v0.9.5.tar.gz
-==> Downloading from https://codeload.github.com/google/jsonnet/tar.gz/v0.9.5
-==> make
+==> Downloading https://www.kokkonen.net/tjko/src/jpeginfo-1.6.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jpeginfo/1.6.1_1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jsonnet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jsonnet/0.9.5: 5 files, 9.9MB, built in 12 seconds
-==> Determining jsonnet bottle rebuild...
-==> Bottling jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jpeginfo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jpeginfo/1.6.1_1: 7 files, 98.7KB, built in 3 seconds
+==> Determining jpeginfo bottle rebuild...
+==> Bottling jpeginfo-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
+./jpeginfo-1.6.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5820c9413939e4290918fe5cde14b92253f8f9383baa19c762510bd87835cb44" => :x86_64_linux
+    sha256 "2968de64becfbea1afa1bd9f7b18c61d856bc74a354d8df8279155a7d4f4ad79" => :x86_64_linux
   end
