@@ -1,15 +1,17 @@
-==> Downloading https://github.com/udp/lacewing/archive/0.5.4.tar.gz
-==> Downloading from https://codeload.github.com/udp/lacewing/tar.gz/0.5.4
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblacewing/0.5.4_1
-==> make
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/lastfm/liblastfm/archive/1.0.9.tar.gz
+==> Downloading from https://codeload.github.com/lastfm/liblastfm/tar.gz/1.0.9
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/liblastfm/1.0.9_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liblacewing`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblacewing/0.5.4_1: 11 files, 2.9MB, built in 6 seconds
-==> Determining liblacewing bottle rebuild...
-==> Bottling liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz...
-==> Detecting if liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz is relocatable...
-./liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall liblastfm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liblastfm/1.0.9_2: 95 files, 1.4MB, built in 12 seconds
+==> Determining liblastfm bottle rebuild...
+==> Bottling liblastfm-1.0.9_2.x86_64_linux.bottle.1.tar.gz...
+./liblastfm-1.0.9_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "24784053981caae3151a06c62c660d912c8a552871ffe8d835fe9e09c80a11d6" => :x86_64_linux
+    rebuild 1
+    sha256 "d770a932469ef1bd852e079dc83eccf5d3df9c198a9c2f21de2e7110dc1f4fb3" => :x86_64_linux
   end
