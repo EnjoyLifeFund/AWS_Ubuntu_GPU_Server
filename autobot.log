@@ -1,14 +1,7 @@
-==> Downloading http://www.antlr3.org/download/C/libantlr3c-3.4.tar.gz
-==> ./configure --disable-antlrdebug --prefix=/home/linuxbrew/.linuxbrew/Cellar/libantlr3c/3.4_1 --enable-64bit
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libantlr3c`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libantlr3c/3.4_1: 40 files, 656.2KB, built in 8 seconds
-==> Determining libantlr3c bottle rebuild...
-==> Bottling libantlr3c-3.4_1.x86_64_linux.bottle.1.tar.gz...
-./libantlr3c-3.4_1.x86_64_linux.bottle.1.tar.gz
+==> Determining libao bottle rebuild...
+==> Bottling libao-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./libao-1.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9382b0c0ba94cc57275fe2e9e5400d2c374e776b58dd3fbdcf7ee19c8f426f8f" => :x86_64_linux
+    sha256 "a651276e9f8782bc25582c03b5b20cdf4a0acc61bd3deb21e23bde4d1ff6f0b0" => :x86_64_linux
   end
