@@ -1,14 +1,15 @@
-==> Installing mcl from homebrew/science
-==> Downloading https://micans.org/mcl/src/mcl-14-137.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcl/14-137 --enable-blast
-==> make install
+==> Installing megahit from homebrew/science
+==> Downloading https://github.com/voutcn/megahit/archive/v1.1.2.tar.gz
+==> Downloading from https://codeload.github.com/voutcn/megahit/tar.gz/v1.1.2
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mcl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mcl/14-137: 197 files, 17.6MB, built in 16 seconds
-==> Determining homebrew/science/mcl bottle rebuild...
-==> Bottling mcl-14-137.x86_64_linux.bottle.tar.gz...
-==> Detecting if mcl-14-137.x86_64_linux.bottle.tar.gz is relocatable...
-./mcl-14-137.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/megahit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/megahit/1.1.2: 13 files, 24.4MB, built in 1 minute 7 seconds
+==> Determining homebrew/science/megahit bottle rebuild...
+==> Bottling megahit-1.1.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if megahit-1.1.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./megahit-1.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "e1c69ec0677b3653ae3e6445fcd5571930a16311fc66375272e397c0907151e6" => :x86_64_linux
+    rebuild 1
+    sha256 "d5b7e47ee21ff9485b35e19ab5f47ba872dc27ee36977c6f2d4d418ea4d62ce0" => :x86_64_linux
   end
