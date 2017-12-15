@@ -1,15 +1,8 @@
-==> Downloading https://download.savannah.gnu.org/releases/kimwitu-pp/kimwitu++-2.3.13.tar.gz
-==> Downloading from https://download-mirror.savannah.gnu.org/releases/kimwitu-pp/kimwitu++-2.3.13.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/kimwitu++/2.3.13
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kimwitu++`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kimwitu++/2.3.13: 9 files, 812.6KB, built in 12 seconds
-==> Determining kimwitu++ bottle rebuild...
-==> Bottling kimwitu++-2.3.13.x86_64_linux.bottle.1.tar.gz...
-./kimwitu++-2.3.13.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "45464cb6165f77dd837e31d9e9ef906c720e513712bf385eecf1915a11d2e0ac" => :x86_64_linux
-  end
+==> Downloading https://github.com/MarkBorcherding/test-kitchen-bash-completion/archive/v1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/MarkBorcherding/test-kitchen-bash-completion/tar.gz/v1.0.0
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kitchen-completion/1.0.0: 4 files, 19.3KB, built in 0 seconds
+This formula doesn't require compiling.
