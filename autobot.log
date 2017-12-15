@@ -1,14 +1,29 @@
-==> Downloading https://downloads.sourceforge.net/project/libdbi/libdbi/libdbi-0.9.0/libdbi-0.9.0.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/libdbi/libdbi/libdbi-0.9.0/libdbi-0.9.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdbi/0.9.0
+==> Downloading https://download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdca/0.0.5
+==> make
 ==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/dcadec
+Target /home/linuxbrew/.linuxbrew/bin/dcadec
+is a symlink belonging to dcadec. You can unlink it:
+  brew unlink dcadec
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite libdca
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run libdca
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/dcadec -> /home/linuxbrew/.linuxbrew/Cellar/dcadec/0.2.0/bin/dcadec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdbi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdbi/0.9.0: 68 files, 2.4MB, built in 8 seconds
-==> Determining libdbi bottle rebuild...
-==> Bottling libdbi-0.9.0.x86_64_linux.bottle.1.tar.gz...
-./libdbi-0.9.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libdca`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdca/0.0.5: 25 files, 516.9KB, built in 17 seconds
+==> Determining libdca bottle rebuild...
+==> Bottling libdca-0.0.5.x86_64_linux.bottle.tar.gz...
+./libdca-0.0.5.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "6ec73ee88522bff973c7bfeed13d45ddccdac29511e993c06736f6799e81ee9c" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "f13ce9eab425d1d67bbe3ea8c2d0b76c89e84ea38bd7c195528ccd929c1d27fd" => :x86_64_linux
   end
