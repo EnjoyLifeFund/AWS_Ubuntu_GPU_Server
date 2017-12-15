@@ -1,8 +1,19 @@
-==> Determining libxmlsec1 bottle rebuild...
-==> Bottling libxmlsec1-1.2.25.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxmlsec1-1.2.25.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxmlsec1-1.2.25.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/xmp/libxmp/4.4.1/libxmp-lite-4.4.1.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/xmp/libxmp/4.4.1/libxmp-lite-4.4.1.tar.gz
+==> Downloading https://github.com/cmatsuoka/libxmp/commit/a028835.patch?full_index=1
+==> Patching
+==> Applying a028835.patch
+patching file src/format.c
+patching file src/loaders/mod_load.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxmp-lite/4.4.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libxmp-lite`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxmp-lite/4.4.1: 9 files, 629KB, built in 7 seconds
+==> Determining libxmp-lite bottle rebuild...
+==> Bottling libxmp-lite-4.4.1.x86_64_linux.bottle.1.tar.gz...
+./libxmp-lite-4.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5b6b5c64d39bec1d68bd272dc54e687163122aff5dcde94c82dbd0a8393b4af0" => :x86_64_linux
+    sha256 "021570c7cf3d280cc203834a7ccc89d2811d9b275679a508b6827574ea523b4d" => :x86_64_linux
   end
