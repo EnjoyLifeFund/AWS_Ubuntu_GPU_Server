@@ -1,15 +1,13 @@
-==> Installing andi from homebrew/science
-==> Downloading https://github.com/EvolBioInf/andi/releases/download/v0.11/andi-0.11.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/20397277/efbbe9a2-66ff-11e7-9425-3871251f5963?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T023238Z&X-Amz-Expires=300&X-Amz-Signature=4901e062bb87cc5ee48027a387549dcab6ac458db78bd5fbabac3ed243d1e994&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dandi-0.11.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/andi/0.11 --without-libdivsufsort
-==> make install
+==> Installing aragorn from homebrew/science
+==> Downloading http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz
+==> make aragorn
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/andi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/andi/0.11: 8 files, 1.2MB, built in 8 seconds
-==> Determining homebrew/science/andi bottle rebuild...
-==> Bottling andi-0.11.x86_64_linux.bottle.1.tar.gz...
-./andi-0.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/aragorn`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aragorn/1.2.36: 4 files, 391.9KB, built in 2 seconds
+==> Determining homebrew/science/aragorn bottle rebuild...
+==> Bottling aragorn-1.2.36.x86_64_linux.bottle.tar.gz...
+./aragorn-1.2.36.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "8fd0945532ea9bb9079aae7a0c7113d31687919c33824a036c27607769769255" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "6041e7d1aecfe2049852293bafcb57a0542df567608852b50b48bb22a47d6ebe" => :x86_64_linux
   end
