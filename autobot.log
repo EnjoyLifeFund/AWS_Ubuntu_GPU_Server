@@ -1,16 +1,4 @@
-==> Downloading https://github.com/markmcconachie/known_hosts/archive/1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/markmcconachie/known_hosts/tar.gz/1.0.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/known_hosts/1.0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall known_hosts`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/known_hosts/1.0.0: 4 files, 26.4KB, built in 2 seconds
-==> Determining known_hosts bottle rebuild...
-==> Bottling known_hosts-1.0.0.x86_64_linux.bottle.1.tar.gz...
-./known_hosts-1.0.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "f8e6b29a04c53cef1799f267748943258c8c31b11c964661d6af4dd56c491201" => :x86_64_linux
-  end
+==> Downloading https://github.com/cbeust/kobalt/releases/download/1.0.92/kobalt-1.0.92.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/43665276/e1ba2106-cdf8-11e7-8fd0-98476cd15dd1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T195913Z&X-Amz-Expires=300&X-Amz-Signature=a03ead44f1f1409ce3fb7eed0a226ecf1882d9765b908b4c547e18f728451b53&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkobalt-1.0.92.zip&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kobalt/1.0.92: 6 files, 59.4MB, built in 5 seconds
+This formula doesn't require compiling.
