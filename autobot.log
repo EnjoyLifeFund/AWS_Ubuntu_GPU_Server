@@ -1,16 +1,16 @@
-==> Installing xlsatoms from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xlsatoms-1.1.2.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xlsatoms-1.1.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xlsatoms/1.1.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xlsclients from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xlsclients-1.1.3.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xlsclients-1.1.3.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xlsclients/1.1.3 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xlsatoms`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xlsatoms/1.1.2: 7 files, 80.5KB, built in 6 seconds
-==> Determining linuxbrew/xorg/xlsatoms bottle rebuild...
-==> Bottling xlsatoms-1.1.2.x86_64_linux.bottle.1.tar.gz...
-./xlsatoms-1.1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xlsclients`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xlsclients/1.1.3: 7 files, 100.5KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xlsclients bottle rebuild...
+==> Bottling xlsclients-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./xlsclients-1.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f9bd84e80b2ad80b4909bfdf79504427d5c1188317e6e17fe77326107de6917e" => :x86_64_linux
+    sha256 "12956c4486a9bfe2720704e404b40a96e7d045a5c5c7039b4444938229158427" => :x86_64_linux
   end
