@@ -1,17 +1,8 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/lastfm/liblastfm/archive/1.0.9.tar.gz
-==> Downloading from https://codeload.github.com/lastfm/liblastfm/tar.gz/1.0.9
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/liblastfm/1.0.9_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liblastfm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblastfm/1.0.9_2: 95 files, 1.4MB, built in 12 seconds
-==> Determining liblastfm bottle rebuild...
-==> Bottling liblastfm-1.0.9_2.x86_64_linux.bottle.1.tar.gz...
-./liblastfm-1.0.9_2.x86_64_linux.bottle.1.tar.gz
+==> Determining liblcf bottle rebuild...
+==> Bottling liblcf-0.5.3_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if liblcf-0.5.3_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./liblcf-0.5.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d770a932469ef1bd852e079dc83eccf5d3df9c198a9c2f21de2e7110dc1f4fb3" => :x86_64_linux
+    sha256 "11d4c3e4dbb6fda4d6023c6a19932e5ea15de4955561eebb38b9f8d8f3e23357" => :x86_64_linux
   end
