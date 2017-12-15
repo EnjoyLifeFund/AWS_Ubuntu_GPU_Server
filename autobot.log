@@ -1,13 +1,9 @@
-==> Installing macse from homebrew/science
-==> Downloading https://bioweb.supagro.inra.fr/macse/releases/macse_v1.2.jar
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/macse`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/macse/1.2: 4 files, 242.3KB, built in 4 seconds
-==> Determining homebrew/science/macse bottle rebuild...
-==> Bottling macse-1.2.x86_64_linux.bottle.1.tar.gz...
-./macse-1.2.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/mafft bottle rebuild...
+==> Bottling mafft-7.305.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mafft-7.305.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mafft-7.305.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "918f2d8a3616f2f11a84f757b3591e1f9db848217f459e24472e6a1eb1f94aee" => :x86_64_linux
+    sha256 "9ab97def92d8ac8caad95f7de73c29c88d316a6b1be135043a9267ae5037dda9" => :x86_64_linux
   end
