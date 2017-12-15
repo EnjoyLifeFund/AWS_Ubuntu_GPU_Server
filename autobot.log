@@ -1,18 +1,15 @@
-==> Downloading https://github.com/matricks/bam/archive/v0.5.0.tar.gz
-==> Downloading from https://codeload.github.com/matricks/bam/tar.gz/v0.5.0
-==> Downloading https://github.com/matricks/bam/commit/27b28f09.patch?full_index=1
-==> Patching
-==> Applying 27b28f09.patch
-patching file src/tools.lua
-==> ./make_unix.sh
+==> Installing dazz_db from homebrew/science
+==> Downloading https://github.com/thegenemyers/DAZZ_DB/archive/V1.0.tar.gz
+==> Downloading from https://codeload.github.com/thegenemyers/DAZZ_DB/tar.gz/V1.0
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bam`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bam/0.5.0: 5 files, 351.8KB, built in 2 minutes 7 seconds
-==> Determining bam bottle rebuild...
-==> Bottling bam-0.5.0.x86_64_linux.bottle.1.tar.gz...
-./bam-0.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/dazz_db`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dazz_db/1.0: 16 files, 847.3KB, built in 2 seconds
+==> Determining homebrew/science/dazz_db bottle rebuild...
+==> Bottling dazz_db-1.0.x86_64_linux.bottle.1.tar.gz...
+./dazz_db-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7d3bd87d301d627cd8038197e409973c0e6f59c984da50097f95017d07e6afe2" => :x86_64_linux
+    sha256 "827698893ff09b4c05a947ce32b9ceb4abed772a398bfa31fd0bbef6f506e915" => :x86_64_linux
   end
