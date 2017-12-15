@@ -1,15 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/libsquish/libsquish-1.15.tgz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/libsquish/libsquish-1.15.tgz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libsquish/1.15 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://red.libssh.org/attachments/download/218/libssh-0.7.5.tar.xz
+==> cmake .. -DWITH_STATIC_LIB=ON -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libssh/0.7.5 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libsquish`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsquish/1.15: 7 files, 160.7KB, built in 4 seconds
-==> Determining libsquish bottle rebuild...
-==> Bottling libsquish-1.15.x86_64_linux.bottle.1.tar.gz...
-./libsquish-1.15.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libssh`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libssh/0.7.5: 25 files, 1.7MB, built in 13 seconds
+==> Determining libssh bottle rebuild...
+==> Bottling libssh-0.7.5.x86_64_linux.bottle.1.tar.gz...
+./libssh-0.7.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7220b9b3f83d9aeb9fe639429baaec75ebeb95e5fab7a07b1edf6541e5231ca2" => :x86_64_linux
+    sha256 "56deaa46a3f70316f35cd56ec71d1cb6cd9c3bfd0a030bdcdbc26fc1a6512d83" => :x86_64_linux
   end
