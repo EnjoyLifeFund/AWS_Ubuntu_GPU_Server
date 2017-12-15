@@ -1,16 +1,14 @@
-==> Installing acado from homebrew/science
-==> Downloading https://github.com/acado/acado/archive/v1.2.2beta.tar.gz
-==> Downloading from https://codeload.github.com/acado/acado/tar.gz/v1.2.2beta
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/acado/1.2.2beta -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Installing adam from homebrew/science
+==> Downloading https://search.maven.org/remotecontent?filepath=org/bdgenomics/adam/adam-distribution-spark2_2.11/0.22.0/adam-distribution-spark2_2.11-0.22.0-bin.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/acado`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/acado/1.2.2beta: 846 files, 24.9MB, built in 45 seconds
-==> Determining homebrew/science/acado bottle rebuild...
-==> Bottling acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz is relocatable...
-./acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/adam`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/adam/0.22.0: 383 files, 51.9MB, built in 4 seconds
+==> Determining homebrew/science/adam bottle rebuild...
+==> Bottling adam-0.22.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if adam-0.22.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./adam-0.22.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "373adf6243cc39445d058da68f39e6a80e450a6656cf6b5b6b7d79a5d72f2f79" => :x86_64_linux
+    sha256 "403267b462302974da88ee907011793a4c7883f37579e026ef913bd40a673884" => :x86_64_linux
   end
