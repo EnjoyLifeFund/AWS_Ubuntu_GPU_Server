@@ -1,26 +1,8 @@
-==> Installing ome-common from homebrew/science
-==> Installing dependencies for homebrew/science/ome-common: xalan-c
-==> Installing homebrew/science/ome-common dependency: xalan-c
-==> Downloading https://linuxbrew.bintray.com/bottles/xalan-c-1.11_1.x86_64_linux.bottle.tar.gz
-==> Pouring xalan-c-1.11_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xalan-c/1.11_1: 454 files, 56.8MB
-==> Installing homebrew/science/ome-common
-==> Downloading https://downloads.openmicroscopy.org/ome-common-cpp/5.5.0/source/ome-common-cpp-5.5.0.tar.xz
-==> Downloading https://github.com/google/googletest/archive/release-1.8.0.tar.gz
-==> Downloading from https://codeload.github.com/google/googletest/tar.gz/release-1.8.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ome-common/5.5.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_INSTALL_PREFIX=/tmp/ome-common-20171215-102461-1u2hepn/ome-common-cpp-5.5.0/gtest
-==> make install
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ome-common/5.5.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DGTEST_ROOT=/tmp/ome-common-20171215-102461-1u2hepn/ome-common-cpp-5.5.0/gtest -Wno-dev -Ddoxygen:BOOL=OFF
-==> make
-==> ctest -V
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ome-common`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ome-common/5.5.0: 60 files, 1.3MB, built in 1 minute 25 seconds
-==> Determining homebrew/science/ome-common bottle rebuild...
-==> Bottling ome-common-5.5.0.x86_64_linux.bottle.1.tar.gz...
-./ome-common-5.5.0.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/ome-xml bottle rebuild...
+==> Bottling ome-xml-5.6.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ome-xml-5.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ome-xml-5.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c1bc5692e13bd86c1fb6ae1a1499035a0eadf4ab59ec4c9855f61659fd5c4108" => :x86_64_linux
+    sha256 "a370c5a1a8706b4aebd4170cefab14a31c012b683b443a1708cd38ee50ca2892" => :x86_64_linux
   end
