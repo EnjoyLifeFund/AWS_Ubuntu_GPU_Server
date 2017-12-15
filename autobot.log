@@ -1,13 +1,13 @@
-==> Installing edirect from homebrew/science
-==> Downloading https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/6.00.20170109/edirect.tar.gz
+==> Installing elph from homebrew/science
+==> Downloading ftp://ftp.cbcb.umd.edu/pub/software/elph/ELPH-1.0.1.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/edirect`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/edirect/6.00.20170109: 35 files, 221KB, built in 2 seconds
-==> Determining homebrew/science/edirect bottle rebuild...
-==> Bottling edirect-6.00.20170109.x86_64_linux.bottle.1.tar.gz...
-./edirect-6.00.20170109.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/elph`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/elph/1.0.1: 6 files, 235.4KB, built in 24 seconds
+==> Determining homebrew/science/elph bottle rebuild...
+==> Bottling elph-1.0.1.x86_64_linux.bottle.1.tar.gz...
+./elph-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2e81424f963c1376f10e5a48c6be8c3b06d507343c323cb9f32adf923db14f57" => :x86_64_linux
+    sha256 "0f747a36bfba09588fd578f063edeaff244399488a2d04f00c53df4872355ba5" => :x86_64_linux
   end
