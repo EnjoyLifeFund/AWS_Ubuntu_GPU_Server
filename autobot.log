@@ -1,8 +1,17 @@
-==> Determining linuxbrew/xorg/fixesproto bottle rebuild...
-==> Bottling fixesproto-5.0.x86_64_linux.bottle.1.tar.gz...
-./fixesproto-5.0.x86_64_linux.bottle.1.tar.gz
+==> Installing font-alias from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/font/font-alias-1.0.3.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/font/font-alias-1.0.3.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/font-alias/1.0.3 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --with-fontrootdir=/home/linuxbrew/.linuxbrew/Cellar/font-alias/1.0.3/share/fonts/X11
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/font-alias`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-alias/1.0.3: 9 files, 60.4KB, built in 5 seconds
+==> Determining linuxbrew/xorg/font-alias bottle rebuild...
+==> Bottling font-alias-1.0.3.x86_64_linux.bottle.1.tar.gz...
+./font-alias-1.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "45c11f525ff0e97beb910e75b0c81184f3cc99e7f3d5c1a95a38c435e124fd6c" => :x86_64_linux
+    sha256 "3e9a30df19931c09f9db7fb059fa8bcf7d866b48e129ebab75de23cbaa28e7fe" => :x86_64_linux
   end
