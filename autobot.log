@@ -1,15 +1,17 @@
-==> Installing minced from homebrew/science
-==> Downloading https://github.com/ctSkennerton/minced/archive/0.2.0.tar.gz
-==> Downloading from https://codeload.github.com/ctSkennerton/minced/tar.gz/0.2.0
+==> Installing minia from homebrew/science
+==> Downloading https://github.com/GATB/minia/releases/download/v2.0.7/minia-v2.0.7-Source.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/55681808/9bbda2c0-06d7-11e6-9ad4-a304a49cd15e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T095253Z&X-Amz-Expires=300&X-Amz-Signature=f559b1a84fe9b230609349117f049e60d659d4e98eebc9a7e6308933c1439388&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dminia-v2.0.7-Source.tar.gz&response-content-type=application%2Foctet-stream
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/minia/2.0.7 -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DSKIP_DOC=1
 ==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/minced`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minced/0.2.0: 9 files, 1.6MB, built in 3 seconds
-==> Determining homebrew/science/minced bottle rebuild...
-==> Bottling minced-0.2.0.x86_64_linux.bottle.1.tar.gz...
-./minced-0.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/minia`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minia/2.0.7: 6 files, 13.4MB, built in 1 minute 31 seconds
+==> Determining homebrew/science/minia bottle rebuild...
+==> Bottling minia-2.0.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if minia-2.0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./minia-2.0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7d54048f87fe7f097422a5d9652aebfd4df1273e633e7d991fa28ae3ba4b1d08" => :x86_64_linux
+    sha256 "d6c98848db65a413f1f1cb4dfdd2b912d92d66b437c783d993597904391be3b3" => :x86_64_linux
   end
