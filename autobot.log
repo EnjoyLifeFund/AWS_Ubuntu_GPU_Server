@@ -1,14 +1,8 @@
-==> Cloning http://repo.or.cz/libtar.git
-==> Checking out tag v1.2.20
-==> autoreconf --force --install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libtar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20: 87 files, 432.7KB, built in 22 seconds
-==> Determining libtar bottle rebuild...
-==> Bottling libtar-1.2.20.x86_64_linux.bottle.tar.gz...
-./libtar-1.2.20.x86_64_linux.bottle.tar.gz
+==> Determining libtasn1 bottle rebuild...
+==> Bottling libtasn1-4.12.x86_64_linux.bottle.1.tar.gz...
+./libtasn1-4.12.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "e195137c642afd15c97e006013d5553b54a6de3f8fd9e90d7ab162fefa89f86e" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3f2ce2cc38c6ad831038b5b71f0c6995adc2009f56a5a103afce9ecf49853c65" => :x86_64_linux
   end
