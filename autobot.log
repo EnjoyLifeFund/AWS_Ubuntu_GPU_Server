@@ -1,16 +1,15 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading http://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/igraph/0.7.1_6 --with-external-blas --with-external-lapack --with-external-glpk
-==> make install
+==> Installing samblaster from homebrew/science
+==> Downloading https://github.com/GregoryFaust/samblaster/archive/v.0.1.24.tar.gz
+==> Downloading from https://codeload.github.com/GregoryFaust/samblaster/tar.gz/v.0.1.24
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall igraph`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/igraph/0.7.1_6: 86 files, 27.8MB, built in 23 seconds
-==> Determining igraph bottle rebuild...
-==> Bottling igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/samblaster`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/samblaster/0.1.24: 5 files, 65.8KB, built in 2 seconds
+==> Determining homebrew/science/samblaster bottle rebuild...
+==> Bottling samblaster-0.1.24.x86_64_linux.bottle.1.tar.gz...
+./samblaster-0.1.24.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "16daa7732c678f7768220d37bb3dc13b9f8e29b13893d34e99240e0ab40c33c4" => :x86_64_linux
+    sha256 "df32fb1107a369e0ae1d041da9be40f9628a4db9178a97cbc78898a7acf87df9" => :x86_64_linux
   end
