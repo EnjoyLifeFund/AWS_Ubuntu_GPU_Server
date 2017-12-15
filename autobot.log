@@ -1,3 +1,13 @@
-==> Downloading https://downloads.jboss.org/forge/releases/3.8.1.Final/forge-distribution-3.8.1.Final-offline.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jboss-forge/3.8.1.Final: 296 files, 53.4MB, built in 33 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.verisignlabs.com/dnssec-tools/packages/jdnssec-tools-0.13.tar.gz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jdnssec-tools`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jdnssec-tools/0.13: 14 files, 3.8MB, built in 3 seconds
+==> Determining jdnssec-tools bottle rebuild...
+==> Bottling jdnssec-tools-0.13.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jdnssec-tools-0.13.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jdnssec-tools-0.13.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2f87889a16d5df24ae78d0ae76068e551271f752017a9f6240c56f0ef0870ddc" => :x86_64_linux
+  end
