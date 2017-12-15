@@ -1,13 +1,8 @@
-==> Downloading https://github.com/jmcnamara/libxlsxwriter/archive/RELEASE_0.7.5.tar.gz
-==> Downloading from https://codeload.github.com/jmcnamara/libxlsxwriter/tar.gz/RELEASE_0.7.5
-==> make install INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/libxlsxwriter/0.7.5 V=1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxlsxwriter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxlsxwriter/0.7.5: 31 files, 2.5MB, built in 4 seconds
-==> Determining libxlsxwriter bottle rebuild...
-==> Bottling libxlsxwriter-0.7.5.x86_64_linux.bottle.1.tar.gz...
-./libxlsxwriter-0.7.5.x86_64_linux.bottle.1.tar.gz
+==> Determining libxml++ bottle rebuild...
+==> Bottling libxml++-2.40.1_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml++-2.40.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml++-2.40.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8b22df1489112d69e584f65c17726e8c413a76ebdd8a5281d164c0c52b3888b0" => :x86_64_linux
+    sha256 "6c43a0dea3393591eaf9ab55eb61651d5e6a74ffeaaae541b3f3902ba2fedb1f" => :x86_64_linux
   end
