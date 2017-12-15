@@ -1,15 +1,8 @@
-==> Installing recon from homebrew/science
-==> Downloading http://www.repeatmasker.org/RECON-1.07.tar.gz
-==> make -C src
-==> make -C src install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/recon/1.07/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/recon/1.07/share/man
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/recon`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/recon/1.07: 13 files, 192KB, built in 2 seconds
-==> Determining homebrew/science/recon bottle rebuild...
-==> Bottling recon-1.07.x86_64_linux.bottle.1.tar.gz...
-./recon-1.07.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/trimmomatic bottle rebuild...
+==> Bottling trimmomatic-0.36.x86_64_linux.bottle.1.tar.gz...
+./trimmomatic-0.36.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d8d66ad8e476fbc606f1f723a796542967cd454f31f65545ed6cebf133d720e0" => :x86_64_linux
+    sha256 "6515b8c1f281361450e0389ea359bd35b4be9dc75c10badb9a801588a0b2408a" => :x86_64_linux
   end
