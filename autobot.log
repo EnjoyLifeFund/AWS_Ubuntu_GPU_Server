@@ -1,15 +1,8 @@
-==> Installing quest from homebrew/science
-==> Downloading http://www-hsc.usc.edu/~valouev/QuEST/QuEST_2.4.tar.gz
-==> ./configure.pl
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/quest`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/quest/2.4: 29 files, 1.9MB, built in 26 seconds
-==> Determining homebrew/science/quest bottle rebuild...
-==> Bottling quest-2.4.x86_64_linux.bottle.1.tar.gz...
-./quest-2.4.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/quicktree bottle rebuild...
+==> Bottling quicktree-2.2.x86_64_linux.bottle.1.tar.gz...
+./quicktree-2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "998844ae8c9a8812073ebbe71124d09674453b46729721699f761b7411d7ccb6" => :x86_64_linux
+    sha256 "8e2431c2875ec7bd0bcb9876928dea7fb86e8295af7e3ebfe038ce607141273f" => :x86_64_linux
   end
