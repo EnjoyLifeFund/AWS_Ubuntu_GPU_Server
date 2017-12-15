@@ -1,15 +1,20 @@
-==> Cloning https://github.com/kubeless/kubeless.git
-==> Checking out tag v0.3.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/kubeless/0.3.1/bin/kubeless -ldflags -w -X github.com/kubeless/kubeless/version.VERSION=v0.3.1 -X github.com/kubeless/kubeless/version.GITCOMMIT=cc6e694 ./cmd/kubeless
+==> Cloning https://github.com/kubernetes/helm.git
+==> Checking out tag v2.7.2
+==> make bootstrap
+==> make build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kubeless`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kubeless/0.3.1: 5 files, 30.2MB, built in 22 seconds
-==> Determining kubeless bottle rebuild...
-==> Bottling kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall kubernetes-helm`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kubernetes-helm/2.7.2: 50 files, 94.4MB, built in 1 minute 38 seconds
+==> Determining kubernetes-helm bottle rebuild...
+==> Bottling kubernetes-helm-2.7.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kubernetes-helm-2.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kubernetes-helm-2.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "026da3c73b20dd889b0361d18b9e360b0cbeb3bf6684fde4c67fdd31ae8e351e" => :x86_64_linux
+    sha256 "b2410e900575460e4f817fad3693dc58730f1ff66a3dc23d1628dea230df36d8" => :x86_64_linux
   end
