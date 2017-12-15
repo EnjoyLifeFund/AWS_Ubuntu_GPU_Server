@@ -1,4 +1,26 @@
-==> Installing nextflow from homebrew/science
-==> Downloading https://www.nextflow.io/releases/v0.26.2/nextflow
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nextflow/0.26.2: 3 files, 26.8KB, built in 1 second
-This formula doesn't require compiling.
+==> Installing nexusformat from homebrew/science
+==> Installing dependencies for homebrew/science/nexusformat: libmxml
+==> Installing homebrew/science/nexusformat dependency: libmxml
+==> Downloading https://linuxbrew.bintray.com/bottles/libmxml-2.11.x86_64_linux.bottle.tar.gz
+==> Pouring libmxml-2.11.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmxml/2.11: 19 files, 956.3KB
+==> Installing homebrew/science/nexusformat
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/nexusformat/code/archive/v4.4.3.tar.gz
+==> Downloading from https://codeload.github.com/nexusformat/code/tar.gz/v4.4.3
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/nexusformat/4.4.3_6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DENABLE_APPS=TRUE -DENABLE_CXX=TRUE -DENABLE_MXML=TRUE -DENABLE_HDF4=TRUE
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/nexusformat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nexusformat/4.4.3_6: 42 files, 5MB, built in 11 seconds
+==> Determining homebrew/science/nexusformat bottle rebuild...
+==> Bottling nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nexusformat-4.4.3_6.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "94aee5fada9c71d09285461e87e06103ff412abfdacc1157fafb4831e0fcc596" => :x86_64_linux
+  end
