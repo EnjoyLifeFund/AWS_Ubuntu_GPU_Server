@@ -1,29 +1,8 @@
-==> Downloading https://github.com/micha/json-table/archive/4.3.3.tar.gz
-==> Downloading from https://codeload.github.com/micha/json-table/tar.gz/4.3.3
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/json-table/4.3.3
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/jt
-Target /home/linuxbrew/.linuxbrew/bin/jt
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/bin/jt'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite json-table
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run json-table
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/jt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall json-table`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/json-table/4.3.3: 6 files, 989.7KB, built in 1 second
-==> Determining json-table bottle rebuild...
-==> Bottling json-table-4.3.3.x86_64_linux.bottle.1.tar.gz...
-./json-table-4.3.3.x86_64_linux.bottle.1.tar.gz
+==> Determining jsoncpp bottle rebuild...
+==> Bottling jsoncpp-1.8.3.x86_64_linux.bottle.1.tar.gz...
+./jsoncpp-1.8.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "82662b06efc9db788af4bf00e6f9a9be66f61806079e4b44eb87f3d4a1cf874d" => :x86_64_linux
+    sha256 "a9fbf155828a2d17ec75bbf5797ac8d2c1d80eeaa35b2cff534c201f9ba82574" => :x86_64_linux
   end
