@@ -1,8 +1,16 @@
-==> Determining homebrew/science/htsbox bottle rebuild...
-==> Bottling htsbox-r312.x86_64_linux.bottle.1.tar.gz...
-./htsbox-r312.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/pbiering/ipv6calc/archive/1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/pbiering/ipv6calc/tar.gz/1.0.0
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0/share/man
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ipv6calc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0: 25 files, 10.7MB, built in 8 seconds
+==> Determining ipv6calc bottle rebuild...
+==> Bottling ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ff993697daccc9290f6d53d80d15bd3fd773322138349c880a32bb7d17d09640" => :x86_64_linux
+    sha256 "73d87f5198e5a7e665bec8c123d9939144748ea0c82a8236e5cc12c206fff13e" => :x86_64_linux
   end
