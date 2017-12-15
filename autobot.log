@@ -1,12 +1,14 @@
-==> Installing pcap from homebrew/science
-==> Downloading http://seq.cs.iastate.edu/PCAP/pcap.rep.linux.xeon64.tar
+==> Installing perf from homebrew/science
+==> Downloading http://osmot.cs.cornell.edu/kddcup/perf/perf.src.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/pcap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pcap/2005-06-07: 28 files, 751.6KB, built in 1 second
-==> Determining homebrew/science/pcap bottle rebuild...
-==> Bottling pcap-2005-06-07.x86_64_linux.bottle.tar.gz...
-./pcap-2005-06-07.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/perf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/perf/5.11: 4 files, 70KB, built in 2 seconds
+==> Determining homebrew/science/perf bottle rebuild...
+==> Bottling perf-5.11.x86_64_linux.bottle.1.tar.gz...
+./perf-5.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "04ddac76cebe70aace21f36243891aa19ed51879e43a83090b76003746f6d7c3" => :x86_64_linux
+    rebuild 1
+    sha256 "0e391487d3d35fd749de826612e3e062c41389906fa525bd1e17896c741c78b0" => :x86_64_linux
   end
