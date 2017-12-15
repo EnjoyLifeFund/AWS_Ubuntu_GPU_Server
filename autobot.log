@@ -1,13 +1,15 @@
-==> Installing readseq from homebrew/science
-==> Downloading http://iubio.bio.indiana.edu/soft/molbio/readseq/java/readseq.jar
+==> Installing readsim from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/readsim/readsim-1.6.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/readsim/readsim-1.6.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/readseq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/readseq/2.1.30: 4 files, 767.2KB, built in 1 second
-==> Determining homebrew/science/readseq bottle rebuild...
-==> Bottling readseq-2.1.30.x86_64_linux.bottle.1.tar.gz...
-./readseq-2.1.30.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/readsim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/readsim/1.6: 18 files, 10.5MB, built in 2 seconds
+==> Determining homebrew/science/readsim bottle rebuild...
+==> Bottling readsim-1.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if readsim-1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./readsim-1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f76e2318a1fe0340d2556b1bdf8518f5181d80d061553a99525f7e570986c1e6" => :x86_64_linux
+    sha256 "8b26447afb61d144eee3ca3b97b0895d5ebe5405462af1ace42a273d57a33936" => :x86_64_linux
   end
