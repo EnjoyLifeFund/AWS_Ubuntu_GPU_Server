@@ -1,15 +1,18 @@
-==> Downloading https://github.com/google/ios-webkit-debug-proxy/archive/v1.8.tar.gz
-==> Downloading from https://codeload.github.com/google/ios-webkit-debug-proxy/tar.gz/v1.8
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ios-webkit-debug-proxy/1.8
-==> make install
+==> Downloading http://www.iozone.org/src/current/iozone3_471.tar
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/7e8a57a/iozone/bzero.patch
+==> Patching
+==> Applying bzero.patch
+File src/current/fileop.c is read-only; trying to patch anyway
+patching file src/current/fileop.c
+==> make linux CC=gcc-6
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ios-webkit-debug-proxy`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ios-webkit-debug-proxy/1.8: 14 files, 1.3MB, built in 20 seconds
-==> Determining ios-webkit-debug-proxy bottle rebuild...
-==> Bottling ios-webkit-debug-proxy-1.8.x86_64_linux.bottle.1.tar.gz...
-./ios-webkit-debug-proxy-1.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall iozone`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iozone/3.471: 12 files, 399.5KB, built in 9 seconds
+==> Determining iozone bottle rebuild...
+==> Bottling iozone-3.471.x86_64_linux.bottle.1.tar.gz...
+./iozone-3.471.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3e38022fdb60f35b95aabbdc6cf100952e98df6ee02057c6c06a6b25dfa18d4a" => :x86_64_linux
+    sha256 "48ce281ffa2af56af280561e6cd2e5d18cf5e0e4fb8b15b833615ec3accd96f2" => :x86_64_linux
   end
