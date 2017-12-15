@@ -1,8 +1,15 @@
-==> Determining libreadline-java bottle rebuild...
-==> Bottling libreadline-java-0.8.0_1.x86_64_linux.bottle.1.tar.gz...
-./libreadline-java-0.8.0_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/IntelRealSense/librealsense/archive/v2.8.2.tar.gz
+==> Downloading from https://codeload.github.com/IntelRealSense/librealsense/tar.gz/v2.8.2
+==> cmake . -DBUILD_WITH_OPENMP=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/librealsense/2.8.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_EXAMPLES=OFF
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall librealsense`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/librealsense/2.8.2: 40 files, 76.0MB, built in 39 seconds
+==> Determining librealsense bottle rebuild...
+==> Bottling librealsense-2.8.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if librealsense-2.8.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./librealsense-2.8.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e24a1357147955987b2b28d6e0dfcfb015111b15f7038f2e7f94dd85c3bebe46" => :x86_64_linux
+    sha256 "06c0f4bef8ffc8f36a8a6de42de3dd6b7d966dd6a534ac28f205daea504b5e3d" => :x86_64_linux
   end
