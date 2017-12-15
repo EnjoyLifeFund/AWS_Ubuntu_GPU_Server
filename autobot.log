@@ -1,15 +1,16 @@
-==> Installing xdriinfo from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xdriinfo-1.0.5.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xdriinfo-1.0.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xdriinfo/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xev from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xev-1.2.2.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xev-1.2.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xev/1.2.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xdriinfo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xdriinfo/1.0.5: 8 files, 73.6KB, built in 11 seconds
-==> Determining linuxbrew/xorg/xdriinfo bottle rebuild...
-==> Bottling xdriinfo-1.0.5.x86_64_linux.bottle.tar.gz...
-./xdriinfo-1.0.5.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xev`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xev/1.2.2: 7 files, 141.2KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xev bottle rebuild...
+==> Bottling xev-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./xev-1.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "15f6dfaec739ad66f7b73ecca913c36508b8ac7cb17e62268f635af5ae2de387" => :x86_64_linux
+    rebuild 1
+    sha256 "8e03bd2198af7380e733c1d45ee0f5554db66aaa9642d1aeed52e31ab811d164" => :x86_64_linux
   end
