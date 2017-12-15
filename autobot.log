@@ -1,18 +1,21 @@
-==> Installing dependencies for hardlink: attr
-==> Installing hardlink dependency: attr
-==> Downloading https://linuxbrew.bintray.com/bottles/attr-2.4.47.x86_64_linux.bottle.tar.gz
-==> Pouring attr-2.4.47.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/attr/2.4.47: 52 files, 623.2KB
-==> Installing hardlink
-==> Downloading https://jak-linux.org/projects/hardlink/hardlink_0.3.0.tar.xz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hardlink/0.3.0 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/hardlink/0.3.0/share/man BINDIR=/home/linuxbrew/.linuxbrew/Cellar/hardlink/0.3.0/bin install
+==> Downloading https://github.com/selkhateeb/hardlink/archive/v0.1.1.tar.gz
+==> Downloading from https://codeload.github.com/selkhateeb/hardlink/tar.gz/v0.1.1
+==> make
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hardlink-osx/0.1.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hardlink`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hardlink/0.3.0: 5 files, 88.9KB, built in 3 seconds
-==> Determining hardlink bottle rebuild...
-==> Bottling hardlink-0.3.0.x86_64_linux.bottle.1.tar.gz...
-./hardlink-0.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hardlink-osx`
+==> Caveats
+Hardlinks can not be created under the same directory root. If you try to
+`hln source directory` to target directory under the same root you will get an error!
+
+Also, remember the binary is named `hln` due to a naming conflict.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hardlink-osx/0.1.1: 4 files, 23.3KB, built in 1 second
+==> Determining hardlink-osx bottle rebuild...
+==> Bottling hardlink-osx-0.1.1.x86_64_linux.bottle.1.tar.gz...
+./hardlink-osx-0.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "da1b0d78fbf357aaec846709a0afb1a981ffc7e359ceba3553a6d0d443dbad95" => :x86_64_linux
+    sha256 "a4dcd8e934de4e243118daf7a46794d9992d778f1fcd169989aa6cd7a616e70b" => :x86_64_linux
   end
