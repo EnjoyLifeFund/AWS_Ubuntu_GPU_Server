@@ -1,15 +1,16 @@
-==> Installing sigrok-cli from homebrew/science
-==> Downloading https://sigrok.org/download/source/sigrok-cli/sigrok-cli-0.7.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sigrok-cli/0.7.0
+==> Installing sisl from homebrew/science
+==> Downloading https://github.com/SINTEF-Geometry/SISL/archive/SISL-4.6.0.tar.gz
+==> Downloading from https://codeload.github.com/SINTEF-Geometry/SISL/tar.gz/SISL-4.6.0
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/sisl/4.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_OSX_ARCHITECTURES=x86_64
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/sigrok-cli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sigrok-cli/0.7.0: 9 files, 284.6KB, built in 5 seconds
-==> Determining homebrew/science/sigrok-cli bottle rebuild...
-==> Bottling sigrok-cli-0.7.0.x86_64_linux.bottle.1.tar.gz...
-./sigrok-cli-0.7.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/sisl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sisl/4.6.0: 9 files, 2.9MB, built in 10 seconds
+==> Determining homebrew/science/sisl bottle rebuild...
+==> Bottling sisl-4.6.0.x86_64_linux.bottle.tar.gz...
+./sisl-4.6.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "4d6ab98e1c66ab0e522539c089eb220c6241d10bd8ebbd45b2589f0919578ae9" => :x86_64_linux
+    sha256 "f37d04d0d1105b213f49ef6e699e8f0791316f4868b170c4402aacecf141e23d" => :x86_64_linux
   end
