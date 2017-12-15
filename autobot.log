@@ -1,32 +1,14 @@
-==> Installing dependencies for kops: kubernetes-cli
-==> Installing kops dependency: kubernetes-cli
-==> Cloning https://github.com/kubernetes/kubernetes.git
-==> Checking out tag v1.8.5
-==> make generated_files
-==> make kubectl
-==> hack/generate-docs.sh
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kubernetes-cli/1.8.5: 108 files, 51.2MB, built in 2 minutes 25 seconds
-==> Installing kops
-==> Downloading https://github.com/kubernetes/kops/archive/1.8.0.tar.gz
-==> Downloading from https://codeload.github.com/kubernetes/kops/tar.gz/1.8.0
-==> make -C /tmp/kops-20171215-73956-1x3ecmk/kops-1.8.0/src/k8s.io/kops
+==> Downloading https://github.com/jorisvink/kore/releases/download/2.0.0-release/kore-2.0.0-release.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/10504702/472f2ad6-57d0-11e6-987f-0df4ff4906ea?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T200429Z&X-Amz-Expires=300&X-Amz-Signature=8f6d91b72c34b01350e08fd3bc93f7fad6716b81e094c22e25e947c0c200c6c5&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkore-2.0.0-release.tar.gz&response-content-type=application%2Foctet-stream
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0 TASKS=1
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kops`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kops/1.8.0: 5 files, 122.8MB, built in 48 seconds
-==> Determining kops bottle rebuild...
-==> Bottling kops-1.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kops-1.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kops-1.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall kore`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0: 10 files, 219.0KB, built in 2 seconds
+==> Determining kore bottle rebuild...
+==> Bottling kore-2.0.0.x86_64_linux.bottle.1.tar.gz...
+./kore-2.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2ae83242f40d97ca9fc64e04744797db32922f84875986cfa173a57884880c10" => :x86_64_linux
+    sha256 "702a50bd3b901090875da6d63b0e4420ffea138ed60a58a0d96e1e524d040c1a" => :x86_64_linux
   end
