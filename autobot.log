@@ -1,34 +1,21 @@
-==> Installing astral from homebrew/science
-==> Downloading https://github.com/smirarab/ASTRAL/archive/v4.10.7.tar.gz
-==> Downloading from https://codeload.github.com/smirarab/ASTRAL/tar.gz/v4.10.7
-Archive:  Astral.4.10.7.zip
-   creating: Astral/
-  inflating: Astral/astral.4.10.7.jar  
-   creating: Astral/lib/
-  inflating: Astral/lib/.DS_Store    
-  inflating: Astral/lib/colt.jar     
-  inflating: Astral/lib/JSAP-2.1.jar  
-  inflating: Astral/lib/main.jar     
-  inflating: Astral/README.md        
-   creating: Astral/test_data/
-  inflating: Astral/test_data/100-simulated-boot  
-  inflating: Astral/test_data/1KP-genetrees.tre  
-  inflating: Astral/test_data/1kp-output.tre  
-  inflating: Astral/test_data/bs-files  
-  inflating: Astral/test_data/README  
-  inflating: Astral/test_data/simulated_14taxon.default.tre  
-  inflating: Astral/test_data/simulated_14taxon.exact.tre  
-  inflating: Astral/test_data/simulated_14taxon.gene.tre  
-  inflating: Astral/test_data/simulated_primates_5X.10.bootstrap.gene.tre  
-  inflating: Astral/test_data/simulated_primates_5X.10.gene.tre  
-  inflating: Astral/test_data/simulated_primates_5X.10.species.tre  
-  inflating: Astral/test_data/song_mammals.424.gene.tre  
- extracting: Astral/test_data/song_mammals.424genes.bs-trees.zip  
-  inflating: Astral/test_data/song_mammals.tre  
-  inflating: Astral/test_data/song_primates.424.default.tre  
-  inflating: Astral/test_data/song_primates.424.exact.tre  
-  inflating: Astral/test_data/song_primates.424.gene.tre  
-  inflating: Astral/test_data/trivial.tre  
-  inflating: Astral/thesis-astral.pdf  
-🍺  /home/linuxbrew/.linuxbrew/Cellar/astral/4.10.7: 54 files, 9.6MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Installing ate-pairing from homebrew/science
+==> Installing dependencies for homebrew/science/ate-pairing: xbyak
+==> Installing homebrew/science/ate-pairing dependency: xbyak
+==> Downloading https://linuxbrew.bintray.com/bottles-science/xbyak-5.53.x86_64_linux.bottle.tar.gz
+==> Pouring xbyak-5.53.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xbyak/5.53: 9 files, 366.4KB
+==> Installing homebrew/science/ate-pairing
+==> Downloading https://github.com/herumi/ate-pairing/archive/v1.2.tar.gz
+==> Downloading from https://codeload.github.com/herumi/ate-pairing/tar.gz/v1.2
+==> make -C src
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/ate-pairing`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ate-pairing/1.2: 7 files, 774KB, built in 7 seconds
+==> Determining homebrew/science/ate-pairing bottle rebuild...
+==> Bottling ate-pairing-1.2.x86_64_linux.bottle.1.tar.gz...
+./ate-pairing-1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6c310b097ef3a28139a577682057b8f20f2742f2fe17c003f7538c0c73874bcf" => :x86_64_linux
+  end
