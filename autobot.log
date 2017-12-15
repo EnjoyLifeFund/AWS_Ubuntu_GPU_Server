@@ -1,7 +1,21 @@
-==> Determining little-cms2 bottle rebuild...
-==> Bottling little-cms2-2.9.x86_64_linux.bottle.tar.gz...
-==> Detecting if little-cms2-2.9.x86_64_linux.bottle.tar.gz is relocatable...
-./little-cms2-2.9.x86_64_linux.bottle.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/ee/d6/efbe3456160a2c62e3dd841c5d9504d071c94449a819148bb038b50d862a/livestreamer-1.12.2.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/c0/12/927b89a24dcb336e5af18a8fbf581581c36e9620ae963a693a2522b2d340/futures-2.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/49/6f/183063f01aae1e025cf0130772b55848750a2f3a89bfa11b385b35d7329d/requests-2.10.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/d9/e9/513ad8dc17210db12cb14f2d4d190d618fb87dd38814203ea71c87ba5b68/singledispatch-3.4.0.3.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/11/3f/2b3c217c5427cdd12619024b1ee1b04d49e27fde5c29df2a0b92c26677c2/six-1.8.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall livestreamer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/livestreamer/1.12.2: 485 files, 3.8MB, built in 3 seconds
+==> Determining livestreamer bottle rebuild...
+==> Bottling livestreamer-1.12.2.x86_64_linux.bottle.1.tar.gz...
+./livestreamer-1.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "c0d863de302e8f5013f389953db12cfec15186bd1bda1e6a7387267865f1fc8b" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "fa71ec12f554b0139c0c1af890fc5253da04427ae332cbee4157d7f360882fbc" => :x86_64_linux
   end
