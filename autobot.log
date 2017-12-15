@@ -1,25 +1,15 @@
-==> Installing repeatmodeler from homebrew/science
-==> Installing dependencies for homebrew/science/repeatmodeler: repeatscout
-==> Installing homebrew/science/repeatmodeler dependency: repeatscout
-==> Downloading https://linuxbrew.bintray.com/bottles-science/repeatscout-1.0.5.x86_64_linux.bottle.1.tar.gz
-==> Pouring repeatscout-1.0.5.x86_64_linux.bottle.1.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/repeatscout/1.0.5: 9 files, 108KB
-==> Installing homebrew/science/repeatmodeler
-==> Downloading http://www.repeatmasker.org/RepeatModeler-open-1-0-8.tar.gz
+==> Downloading https://github.com/libimobiledevice/ifuse/archive/1.1.3.tar.gz
+==> Downloading from https://codeload.github.com/libimobiledevice/ifuse/tar.gz/1.1.3
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ifuse/1.1.3
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/repeatmodeler`
-==> Caveats
-To reconfigure RepeatModeler, run
-  brew postinstall repeatmodeler
-or
-  cd /home/linuxbrew/.linuxbrew/opt/repeatmodeler && perl ./configure <config.txt
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/repeatmodeler/1.0.8_1: 56 files, 601KB, built in 1 second
-==> Determining homebrew/science/repeatmodeler bottle rebuild...
-==> Bottling repeatmodeler-1.0.8_1.x86_64_linux.bottle.1.tar.gz...
-./repeatmodeler-1.0.8_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ifuse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ifuse/1.1.3: 8 files, 122KB, built in 9 seconds
+==> Determining ifuse bottle rebuild...
+==> Bottling ifuse-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./ifuse-1.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b48c042c16da1f776690bb9a59909c7be1b73c048094ccff089d5fe5360bca7c" => :x86_64_linux
+    sha256 "b5eeef6b585f10dd918b92e3cc0ebb8e3fd2b57177c7f43e57ccab6e474ed7d6" => :x86_64_linux
   end
