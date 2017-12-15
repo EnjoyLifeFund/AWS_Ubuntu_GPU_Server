@@ -1,15 +1,7 @@
-==> Downloading https://downloads.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.12/libmwaw-0.3.12.tar.xz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.12/libmwaw-0.3.12.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmwaw/0.3.12
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmwaw`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmwaw/0.3.12: 18 files, 119.8MB, built in 55 seconds
-==> Determining libmwaw bottle rebuild...
-==> Bottling libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz
+==> Determining libmxml bottle rebuild...
+==> Bottling libmxml-2.11.x86_64_linux.bottle.1.tar.gz...
+./libmxml-2.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aa6d4d1c6386778ee542383a5448b3da4f93413f899c7da4fbf0abc071044281" => :x86_64_linux
+    sha256 "702b6c2ab6aa648ea0bd3adc76d7e445ea6eb6c9017b5c366a007cef36bd2162" => :x86_64_linux
   end
