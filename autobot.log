@@ -1,16 +1,15 @@
-==> Installing sisl from homebrew/science
-==> Downloading https://github.com/SINTEF-Geometry/SISL/archive/SISL-4.6.0.tar.gz
-==> Downloading from https://codeload.github.com/SINTEF-Geometry/SISL/tar.gz/SISL-4.6.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/sisl/4.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_OSX_ARCHITECTURES=x86_64
-==> make
-==> make install
+==> Installing skewer from homebrew/science
+==> Downloading https://github.com/relipmoc/skewer/archive/0.2.2.tar.gz
+==> Downloading from https://codeload.github.com/relipmoc/skewer/tar.gz/0.2.2
+==> make CXX=g++-6 CXXFLAGS=-c
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/sisl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sisl/4.6.0: 9 files, 2.9MB, built in 10 seconds
-==> Determining homebrew/science/sisl bottle rebuild...
-==> Bottling sisl-4.6.0.x86_64_linux.bottle.tar.gz...
-./sisl-4.6.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/skewer`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/skewer/0.2.2: 5 files, 355.1KB, built in 2 seconds
+==> Determining homebrew/science/skewer bottle rebuild...
+==> Bottling skewer-0.2.2.x86_64_linux.bottle.1.tar.gz...
+./skewer-0.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "f37d04d0d1105b213f49ef6e699e8f0791316f4868b170c4402aacecf141e23d" => :x86_64_linux
+    rebuild 1
+    sha256 "4112f711286ba05fb8aa5e65c0c073273686ea73796f2830c2db80bdb0b74e2f" => :x86_64_linux
   end
