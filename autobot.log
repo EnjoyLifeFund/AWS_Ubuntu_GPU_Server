@@ -1,14 +1,8 @@
-==> Downloading https://www.ibr.cs.tu-bs.de/projects/libsmi/download/libsmi-0.5.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libsmi/0.5.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libsmi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsmi/0.5.0: 477 files, 23.3MB, built in 19 seconds
-==> Determining libsmi bottle rebuild...
-==> Bottling libsmi-0.5.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libsmi-0.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libsmi-0.5.0.x86_64_linux.bottle.1.tar.gz
+==> Determining libsndfile bottle rebuild...
+==> Bottling libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "656f6f077dedde0e3e6b8389a9a28427a5fcafacdff4177d4cc11ccd92b50513" => :x86_64_linux
+    sha256 "fc7e6c83e2eba83b96bb4f513720840f051067024e30510a15173f13f91c5f9d" => :x86_64_linux
   end
