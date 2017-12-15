@@ -1,8 +1,16 @@
-==> Determining librsync bottle rebuild...
-==> Bottling librsync-2.0.1.x86_64_linux.bottle.1.tar.gz...
-./librsync-2.0.1.x86_64_linux.bottle.1.tar.gz
+==> Cloning https://github.com/sass/libsass.git
+==> Checking out tag 3.4.7
+==> autoreconf -fvi
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libsass/3.4.7 --disable-silent-rules
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libsass`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsass/3.4.7: 17 files, 67.3MB, built in 51 seconds
+==> Determining libsass bottle rebuild...
+==> Bottling libsass-3.4.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libsass-3.4.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libsass-3.4.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c34066e61816d2c0f6c6c435f4e15a182a9b0e0ae23bdb379faa30a9a58f2b3b" => :x86_64_linux
+    sha256 "e84626f691417f6545f14891069c938a5c1e5e47fc5bfc8c197d936ebf4f73ee" => :x86_64_linux
   end
