@@ -1,15 +1,15 @@
-==> Installing lighter from homebrew/science
-==> Downloading https://github.com/mourisl/Lighter/archive/v1.1.1.tar.gz
-==> Downloading from https://codeload.github.com/mourisl/Lighter/tar.gz/v1.1.1
-==> make
+==> Installing lightstringgraph from homebrew/science
+==> Downloading https://github.com/AlgoLab/LightStringGraph/archive/v0.4.0.tar.gz
+==> Downloading from https://codeload.github.com/AlgoLab/LightStringGraph/tar.gz/v0.4.0
+==> make all
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/lighter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lighter/1.1.1_1: 5 files, 147.5KB, built in 3 seconds
-==> Determining homebrew/science/lighter bottle rebuild...
-==> Bottling lighter-1.1.1_1.x86_64_linux.bottle.1.tar.gz...
-./lighter-1.1.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/lightstringgraph`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lightstringgraph/0.4.0_3: 7 files, 4.2MB, built in 8 seconds
+==> Determining homebrew/science/lightstringgraph bottle rebuild...
+==> Bottling lightstringgraph-0.4.0_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lightstringgraph-0.4.0_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lightstringgraph-0.4.0_3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d05f48f877e35af3a051454cc6098fc90772f8332dedc0edff2104acc28c29fc" => :x86_64_linux
+    sha256 "0ffb132ca9fe56bb9ddee9692873ddef6a9545aeb74405da4b2b8c53007c0578" => :x86_64_linux
   end
