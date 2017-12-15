@@ -1,1 +1,15 @@
+==> Downloading https://bitbucket.org/yujiewu/hgflow/downloads/hgflow-v0.9.8.2.tar.bz2
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/296c83df-42f9-4767-be59-51a60d079cce/downloads/7d76ac06-fcb4-46c6-b350-380f59869021/hgflow-v0.9.8.2.tar.bz2?Signature=RX60wRvcMMt2rWRbeYxvs0orbic%3D&Expires=1513305023&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=njAWZcIAD_LBZhGDaOhAcgBNd59.KyK.&response-content-disposition=attachment%3B%20filename%3D%22hgflow-v0.9.8.2.tar.bz2%22
+==> Caveats
+1. Put following lines into your ~/.hgrc
+2. Restart your shell and try "hg flow".
+3. For more information go to https://bitbucket.org/yinwm/hgflow
+
+    [extensions]
+    flow = /home/linuxbrew/.linuxbrew/opt/hg-flow/libexec/hgflow.py
+    [flow]
+    autoshelve = true
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hg-flow/0.9.8.2: 3 files, 140.8KB, built in 1 second
 This formula doesn't require compiling.
