@@ -1,7 +1,15 @@
-==> Determining ilmbase bottle rebuild...
-==> Bottling ilmbase-2.2.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if ilmbase-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
-./ilmbase-2.2.0.x86_64_linux.bottle.tar.gz
+==> Installing stiff from homebrew/science
+==> Downloading https://www.astromatic.net/download/stiff/stiff-2.4.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/stiff/2.4.0
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/stiff`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/stiff/2.4.0: 12 files, 1.8MB, built in 12 seconds
+==> Determining homebrew/science/stiff bottle rebuild...
+==> Bottling stiff-2.4.0.x86_64_linux.bottle.1.tar.gz...
+./stiff-2.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "5ecf57182c624bca5b39e3587199bbca204ebd803c35c1b00318d1be0bb99298" => :x86_64_linux
+    rebuild 1
+    sha256 "bc1bc1ce29fc26f6ea365f448ca5ea1a0329f0a745f45537b684983ed4ffec43" => :x86_64_linux
   end
