@@ -1,14 +1,4 @@
-==> Downloading https://github.com/jorisvink/kore/releases/download/2.0.0-release/kore-2.0.0-release.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/10504702/472f2ad6-57d0-11e6-987f-0df4ff4906ea?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T200429Z&X-Amz-Expires=300&X-Amz-Signature=8f6d91b72c34b01350e08fd3bc93f7fad6716b81e094c22e25e947c0c200c6c5&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkore-2.0.0-release.tar.gz&response-content-type=application%2Foctet-stream
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0 TASKS=1
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kore`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kore/2.0.0: 10 files, 219.0KB, built in 2 seconds
-==> Determining kore bottle rebuild...
-==> Bottling kore-2.0.0.x86_64_linux.bottle.1.tar.gz...
-./kore-2.0.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "702a50bd3b901090875da6d63b0e4420ffea138ed60a58a0d96e1e524d040c1a" => :x86_64_linux
-  end
+==> Downloading https://github.com/JetBrains/kotlin/releases/download/v1.2.0/kotlin-compiler-1.2.0.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/3432266/be7895b0-d4a6-11e7-9aac-7c3f5bf4e575?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T200439Z&X-Amz-Expires=300&X-Amz-Signature=1022aef5aa5b207933ee62961784baec1d6e3c1bfafae6cc8c6f390ae1a5b817&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkotlin-compiler-1.2.0.zip&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kotlin/1.2.0: 55 files, 34.7MB, built in 4 seconds
+This formula doesn't require compiling.
