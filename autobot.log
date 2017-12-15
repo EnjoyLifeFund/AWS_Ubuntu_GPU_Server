@@ -1,14 +1,16 @@
-==> Downloading http://links.twibright.com/download/links-2.14.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/links/2.14_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/links/2.14_1/share/man --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl --without-lzma --without-libtiff --without-libjpeg --without-librsvg
+==> Installing bdftopcf from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/bdftopcf-1.0.5.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/bdftopcf-1.0.5.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bdftopcf/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall links`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/links/2.14_1: 19 files, 4.5MB, built in 26 seconds
-==> Determining links bottle rebuild...
-==> Bottling links-2.14_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if links-2.14_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./links-2.14_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/bdftopcf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bdftopcf/1.0.5: 8 files, 71.5KB, built in 8 seconds
+==> Determining linuxbrew/xorg/bdftopcf bottle rebuild...
+==> Bottling bdftopcf-1.0.5.x86_64_linux.bottle.1.tar.gz...
+./bdftopcf-1.0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "211e2783375268da7a777294d405400f4ab619ef407d7f4dfaeb246e32c2e94b" => :x86_64_linux
+    sha256 "dccdcb6e730229a08d637e44166d638e61337b3b80e689dfa5e36002de2b6626" => :x86_64_linux
   end
