@@ -1,32 +1,14 @@
-==> Installing glpk448 from homebrew/science
-==> Downloading https://ftp.gnu.org/gnu/glpk/glpk-4.48.tar.gz
-==> Patching
-patching file src/Makefile.am
-patching file src/Makefile.in
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/glpk448/4.48_1 --with-gmp
-==> make
-==> make check
-==> make install
+==> Installing gmcloser from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/gmcloser/GMcloser-1.5.1.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/gmcloser/GMcloser-1.5.1.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/glpk448`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this formula installs an older version of the GLPK libraries.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/glpk448/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/glpk448/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/glpk448/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glpk448/4.48_1: 15 files, 8.0MB, built in 13 seconds
-==> Determining homebrew/science/glpk448 bottle rebuild...
-==> Bottling glpk448-4.48_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if glpk448-4.48_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./glpk448-4.48_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/gmcloser`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmcloser/1.5.1: 20 files, 891.8KB, built in 1 second
+==> Determining homebrew/science/gmcloser bottle rebuild...
+==> Bottling gmcloser-1.5.1.x86_64_linux.bottle.1.tar.gz...
+./gmcloser-1.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "57fcd508865fc33f83e0f3fdcd863bc45c183971b981a5dc6583539ece7224bb" => :x86_64_linux
+    sha256 "6c8f759d8312711b5ea9c27985a4f79457532cdfa67e47947e0b1aaad256460c" => :x86_64_linux
   end
