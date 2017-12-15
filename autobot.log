@@ -1,7 +1,15 @@
-==> Determining libproxy bottle rebuild...
-==> Bottling libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz...
-./libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://www.five-ten-sg.com/libpst/packages/libpst-0.6.71.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpst/0.6.71 --disable-python
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libpst`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libpst/0.6.71: 199 files, 3.6MB, built in 24 seconds
+==> Determining libpst bottle rebuild...
+==> Bottling libpst-0.6.71.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libpst-0.6.71.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libpst-0.6.71.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a04a337411178eaf97b963849b9d47d34753709dc23bb93dbe51dbf52fa5bf79" => :x86_64_linux
+    sha256 "06a5c864dc9ef5edcacafd24383dff6a21a9583268791cfc8bfdb09e6b0625be" => :x86_64_linux
   end
