@@ -1,7 +1,13 @@
-==> Determining librem bottle rebuild...
-==> Bottling librem-0.5.2.x86_64_linux.bottle.1.tar.gz...
-./librem-0.5.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://files.musepack.net/source/libreplaygain_r475.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libreplaygain/r475 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libreplaygain`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libreplaygain/r475: 7 files, 56.2KB, built in 2 seconds
+==> Determining libreplaygain bottle rebuild...
+==> Bottling libreplaygain-r475.x86_64_linux.bottle.tar.gz...
+./libreplaygain-r475.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "8025ae76e2b57760584f7e1857ed4e06f705607ee95fb599923878f410b40695" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "b856af3ac5a13ba53af82dd0c6cfdd9337b137a2be6796af0d206b89473464db" => :x86_64_linux
   end
