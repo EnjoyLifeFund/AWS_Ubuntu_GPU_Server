@@ -1,9 +1,14 @@
-==> Determining homebrew/science/matplotlib bottle rebuild...
-==> Bottling matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz
+==> Installing mcl from homebrew/science
+==> Downloading https://micans.org/mcl/src/mcl-14-137.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcl/14-137 --enable-blast
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/mcl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mcl/14-137: 197 files, 17.6MB, built in 16 seconds
+==> Determining homebrew/science/mcl bottle rebuild...
+==> Bottling mcl-14-137.x86_64_linux.bottle.tar.gz...
+==> Detecting if mcl-14-137.x86_64_linux.bottle.tar.gz is relocatable...
+./mcl-14-137.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "acfe1ea9fb036268c65594b8d35c83ef270e8aa53d90951d2e58df5c871476b2" => :x86_64_linux
+    sha256 "e1c69ec0677b3653ae3e6445fcd5571930a16311fc66375272e397c0907151e6" => :x86_64_linux
   end
