@@ -1,8 +1,19 @@
-==> Determining homebrew/science/tasr bottle rebuild...
-==> Bottling tasr-1.6.2.x86_64_linux.bottle.1.tar.gz...
-./tasr-1.6.2.x86_64_linux.bottle.1.tar.gz
+==> Installing tetgen from homebrew/science
+==> Downloading http://www.tetgen.org/1.5/src/tetgen1.5.0.tar.gz
+==> Downloading from http://wias-berlin.de/software/tetgen/1.5/src/tetgen1.5.0.tar.gz
+==> make
+==> make tetlib
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/tetgen`
+==> Caveats
+Please register as a TetGen user at
+http://wias-berlin.de/software/tetgen/download2.jsp.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tetgen/1.5.0: 8 files, 2.1MB, built in 34 seconds
+==> Determining homebrew/science/tetgen bottle rebuild...
+==> Bottling tetgen-1.5.0.x86_64_linux.bottle.tar.gz...
+./tetgen-1.5.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "1d1238df87cb608dba5c0c79db8e3933d0dac8e9f1aa017d9e70d3a0980ce452" => :x86_64_linux
+    sha256 "54e3bb4151fdb93605220ae7546efe9b4addd1d01199550cf94349cc9f1f52ed" => :x86_64_linux
   end
