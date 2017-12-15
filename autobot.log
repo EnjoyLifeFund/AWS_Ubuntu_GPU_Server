@@ -1,16 +1,8 @@
-==> Installing uproc from homebrew/science
-==> Downloading https://github.com/gobics/uproc/archive/1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/gobics/uproc/tar.gz/1.2.0
-==> autoreconf -fvi
-==> ./configure --disable-silent-rules --with-sysroot=/home/linuxbrew/.linuxbrew --prefix=/home/linuxbrew/.linuxbrew/Cellar/uproc/1.2.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/uproc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/uproc/1.2.0: 312 files, 3.1MB, built in 22 seconds
-==> Determining homebrew/science/uproc bottle rebuild...
-==> Bottling uproc-1.2.0.x86_64_linux.bottle.1.tar.gz...
-./uproc-1.2.0.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/emboss bottle rebuild...
+==> Bottling emboss-6.6.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if emboss-6.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./emboss-6.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "586b7e8824936ed88da682475a1d5223a02fb98f6dee36092434910496f444c5" => :x86_64_linux
+    sha256 "dea5e29456fffaedf8d848dde602f7fb478ee38dc5fa0c8d31bb88558dda1048" => :x86_64_linux
   end
