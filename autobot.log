@@ -1,23 +1,5 @@
-==> Downloading https://github.com/mattn/jvgrep/archive/v5.4.tar.gz
-==> Downloading from https://codeload.github.com/mattn/jvgrep/tar.gz/v5.4
-==> Cloning https://github.com/mattn/go-colorable.git
-==> Checking out revision ad5389df28cdac544c99bd7b9161a0b5b6ca9d1b
-==> Cloning https://github.com/mattn/go-isatty.git
-==> Checking out revision fc9e8d8ef48496124e79ae0df75490096eccf6fe
-==> Cloning https://go.googlesource.com/net.git
-==> Checking out revision 8351a756f30f1297fe94bbf4b767ec589c6ea6d0
-==> Cloning https://go.googlesource.com/text.git
-==> Checking out revision 1cbadb444a806fd9430d14ad08967ed91da4fa0a
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jvgrep/5.4/bin/jvgrep
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jvgrep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jvgrep/5.4: 3 files, 3.5MB, built in 6 seconds
-==> Determining jvgrep bottle rebuild...
-==> Bottling jvgrep-5.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jvgrep-5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jvgrep-5.4.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "015089dab3dc5ee91e052e5d0ba9f266d1ffb236cb1f60d561d8d8ccad100adf" => :x86_64_linux
-  end
+==> Downloading https://github.com/ajermakovics/jvm-mon/releases/download/0.3/jvm-mon-0.3.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/81111993/bb9e0da4-130c-11e7-9090-4462f6b2d39c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T194203Z&X-Amz-Expires=300&X-Amz-Signature=d381d01e2afc5e77dc79d596b3f34af0f40af890c3f1c1f4ba7d6b3212352448&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djvm-mon-0.3.tar.gz&response-content-type=application%2Foctet-stream
+==> unzip -j /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3/libexec/lib/j2v8_macosx_x86_64-4.6.0.jar libj2v8_macosx_x86_64.dylib -d /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3/libexec
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jvm-mon/0.3: 2,473 files, 44.5MB, built in 5 seconds
+This formula doesn't require compiling.
