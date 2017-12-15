@@ -1,8 +1,13 @@
-==> Determining krb5 bottle rebuild...
-==> Bottling krb5-1.16.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if krb5-1.16.x86_64_linux.bottle.1.tar.gz is relocatable...
-./krb5-1.16.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://archives.eyrie.org/software/kerberos/kstart-4.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/kstart/4.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kstart`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kstart/4.2: 10 files, 331.7KB, built in 9 seconds
+==> Determining kstart bottle rebuild...
+==> Bottling kstart-4.2.x86_64_linux.bottle.1.tar.gz...
+./kstart-4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0452b21a850aebcc3b596ea4cf8c423b8c97f42879061397a4ad3c27c1a4e54e" => :x86_64_linux
+    sha256 "8019b91af5cb19ff6a00d21fca1b682c9c12bf041c68b92c4b22f1510af4b11c" => :x86_64_linux
   end
