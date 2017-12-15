@@ -1,7 +1,16 @@
-==> Determining libusb-compat bottle rebuild...
-==> Bottling libusb-compat-0.1.5_1.x86_64_linux.bottle.1.tar.gz...
-./libusb-compat-0.1.5_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/sctplab/usrsctp/archive/0.9.3.0.tar.gz
+==> Downloading from https://codeload.github.com/sctplab/usrsctp/tar.gz/0.9.3.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libusrsctp/0.9.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libusrsctp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libusrsctp/0.9.3.0: 9 files, 1.9MB, built in 6 seconds
+==> Determining libusrsctp bottle rebuild...
+==> Bottling libusrsctp-0.9.3.0.x86_64_linux.bottle.1.tar.gz...
+./libusrsctp-0.9.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1948a572ed54fc9725eaaab184762a997248dcde772157176572d35022e2e66d" => :x86_64_linux
+    sha256 "fd80d91296b4a7239237e4b4d08c5d5c545427463a48dd6f110d42e844017fad" => :x86_64_linux
   end
