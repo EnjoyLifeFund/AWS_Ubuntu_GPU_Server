@@ -1,14 +1,16 @@
-==> Installing abyss-explorer from homebrew/science
-==> Downloading http://www.bcgsc.ca/downloads/abyss-explorer/abyss-explorer-1.3.4/abyss-explorer-1.3.4.zip
+==> Installing acado from homebrew/science
+==> Downloading https://github.com/acado/acado/archive/v1.2.2beta.tar.gz
+==> Downloading from https://codeload.github.com/acado/acado/tar.gz/v1.2.2beta
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/acado/1.2.2beta -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/abyss-explorer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/abyss-explorer/1.3.4_1: 28 files, 7MB, built in 0 seconds
-==> Determining homebrew/science/abyss-explorer bottle rebuild...
-==> Bottling abyss-explorer-1.3.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if abyss-explorer-1.3.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./abyss-explorer-1.3.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/acado`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/acado/1.2.2beta: 846 files, 24.9MB, built in 45 seconds
+==> Determining homebrew/science/acado bottle rebuild...
+==> Bottling acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz is relocatable...
+./acado-1.2.2beta.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "07c472e8e84b1ab7ecf435c09b3db55ff2e239e93fa9064bdedab67457206c18" => :x86_64_linux
+    sha256 "373adf6243cc39445d058da68f39e6a80e450a6656cf6b5b6b7d79a5d72f2f79" => :x86_64_linux
   end
