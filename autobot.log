@@ -1,15 +1,18 @@
-==> Installing kalign from homebrew/science
-==> Downloading http://msa.sbc.su.se/downloads/kalign/kalign-2.04.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kalign/2.04
-==> make
+==> Installing kallisto from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/pachterlab/kallisto/archive/v0.43.1.tar.gz
+==> Downloading from https://codeload.github.com/pachterlab/kallisto/tar.gz/v0.43.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kallisto/0.43.1_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kalign`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kalign/2.04: 5 files, 288.8KB, built in 10 seconds
-==> Determining homebrew/science/kalign bottle rebuild...
-==> Bottling kalign-2.04.x86_64_linux.bottle.tar.gz...
-./kalign-2.04.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kallisto`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kallisto/0.43.1_1: 5 files, 403.2KB, built in 10 seconds
+==> Determining homebrew/science/kallisto bottle rebuild...
+==> Bottling kallisto-0.43.1_1.x86_64_linux.bottle.1.tar.gz...
+./kallisto-0.43.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "04a98a099eb218e044af087d153bebd476b6ad1a4c89b794a57658781d2aa22c" => :x86_64_linux
+    rebuild 1
+    sha256 "3878328894c87006033dd805ae01f50ad92ab7230570d44602ba4e7f139e3778" => :x86_64_linux
   end
