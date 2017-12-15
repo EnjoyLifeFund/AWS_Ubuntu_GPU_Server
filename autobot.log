@@ -1,8 +1,14 @@
-==> Determining homebrew/science/samtools@0.1 bottle rebuild...
-==> Bottling samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz is relocatable...
-./samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz
+==> Installing scarpa from homebrew/science
+==> Downloading http://compbio.cs.toronto.edu/hapsembler/scarpa-0.241.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/scarpa`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/scarpa/0.241: 5 files, 186.7KB, built in 8 seconds
+==> Determining homebrew/science/scarpa bottle rebuild...
+==> Bottling scarpa-0.241.x86_64_linux.bottle.1.tar.gz...
+./scarpa-0.241.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4c78a238aba8c19afc3cb62f34bbeb339f244c4c13d2c3c3cdc2ec52b70a3c2b" => :x86_64_linux
+    sha256 "810d8a8a27f07f6cbd2ae353a2433a3d99b8530203ce9e9c8debcf89d3e5c0b0" => :x86_64_linux
   end
