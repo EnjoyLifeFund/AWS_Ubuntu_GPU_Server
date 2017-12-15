@@ -1,8 +1,14 @@
-==> Determining libraw bottle rebuild...
-==> Bottling libraw-0.18.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libraw-0.18.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libraw-0.18.6.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ja.osdn.net/frs/redir.php?f=%2Frctools%2F51941%2Flibrcsc-4.1.0.tar.gz
+==> Downloading from http://jaist.dl.osdn.jp/rctools/51941/librcsc-4.1.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/librcsc/4.1.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall librcsc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/librcsc/4.1.0: 232 files, 37.8MB, built in 1 minute 5 seconds
+==> Determining librcsc bottle rebuild...
+==> Bottling librcsc-4.1.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if librcsc-4.1.0.x86_64_linux.bottle.tar.gz is relocatable...
+./librcsc-4.1.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "4b57b5eecae0e8504640cc180a1f0c721408a2460de7450e995d236a35b5dcda" => :x86_64_linux
+    sha256 "8d29ad38ad14b2153b19d596e6a350f458dcd0761c47ceabd1fbc2dae03b4f93" => :x86_64_linux
   end
