@@ -1,9 +1,13 @@
-==> Determining homebrew/science/genewise bottle rebuild...
-==> Bottling genewise-2.4.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if genewise-2.4.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./genewise-2.4.1_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://kyberdigi.cz/projects/ipinfo/files/ipinfo-1.2.tar.gz
+==> make BINDIR=/home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2/share/man/man1 install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ipinfo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipinfo/1.2: 8 files, 69.6KB, built in 1 second
+==> Determining ipinfo bottle rebuild...
+==> Bottling ipinfo-1.2.x86_64_linux.bottle.1.tar.gz...
+./ipinfo-1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "aa1aa2f3455d24bbd9e0c7d62bb91c1f44f613dc55c0c9cde2c3a3c85faddebf" => :x86_64_linux
+    sha256 "1564c90e203e7c3877f4cddc5587033cddab72adaa29217288cbc39138b16981" => :x86_64_linux
   end
