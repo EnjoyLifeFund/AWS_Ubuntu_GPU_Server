@@ -1,18 +1,16 @@
-==> Installing libctl from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading http://ab-initio.mit.edu/libctl/libctl-3.2.2.tar.gz
-==> Downloading from https://github.com/stevengj/libctl/files/1323238/libctl-3.2.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libctl/3.2.2 LIBS=-lm
+==> Installing libdivsufsort from homebrew/science
+==> Downloading https://github.com/y-256/libdivsufsort/archive/2.0.1.tar.gz
+==> Downloading from https://codeload.github.com/y-256/libdivsufsort/tar.gz/2.0.1
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libdivsufsort/2.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libctl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libctl/3.2.2: 33 files, 868.2KB, built in 12 seconds
-==> Determining homebrew/science/libctl bottle rebuild...
-==> Bottling libctl-3.2.2.x86_64_linux.bottle.1.tar.gz...
-./libctl-3.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libdivsufsort`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdivsufsort/2.0.1: 12 files, 110KB, built in 4 seconds
+==> Determining homebrew/science/libdivsufsort bottle rebuild...
+==> Bottling libdivsufsort-2.0.1.x86_64_linux.bottle.1.tar.gz...
+./libdivsufsort-2.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "3b553c74c64d31359ca3d8bad2f8df9ed40caceae6c6bbb75ff42e95025d7219" => :x86_64_linux
+    sha256 "06ac64b31b7a8290f79fe1438dbff937df73b9bc1d13bf2be2ad17f0833b32c0" => :x86_64_linux
   end
