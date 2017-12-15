@@ -1,8 +1,15 @@
-==> Determining libogg bottle rebuild...
-==> Bottling libogg-1.3.3.x86_64_linux.bottle.1.tar.gz...
-./libogg-1.3.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz
+==> autoreconf -fvi
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/liboil/0.3.17
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liboil`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liboil/0.3.17: 61 files, 6.4MB, built in 40 seconds
+==> Determining liboil bottle rebuild...
+==> Bottling liboil-0.3.17.x86_64_linux.bottle.tar.gz...
+==> Detecting if liboil-0.3.17.x86_64_linux.bottle.tar.gz is relocatable...
+./liboil-0.3.17.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "abc22afd3ce3d27fbdc7637e49b0bfcf297f1ad84474f1c0a86d6bdd41f3b588" => :x86_64_linux
+    sha256 "6acde6f8c05e0ae25af1cff4e9fffa718e6a5c2bf62f348c70d067a56394d996" => :x86_64_linux
   end
