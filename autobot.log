@@ -1,15 +1,18 @@
-==> Installing squeezambler from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/hyda/squeezambler-2.0.3-hyda-1.3.1.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/hyda/squeezambler-2.0.3-hyda-1.3.1.tar.gz
+==> Installing openmeeg from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/openmeeg/openmeeg/archive/2.4-rc.tar.gz
+==> Downloading from https://codeload.github.com/openmeeg/openmeeg/tar.gz/2.4-rc
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/openmeeg/2.4-rc -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=ON -DENABLE_PYTHON=OFF -DBUILD_DOCUMENTATION=OFF -DUSE_PROGRESSBAR=ON -DUSE_OMP=ON ../OpenMEEG
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/squeezambler`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/squeezambler/2.0.3: 172 files, 3.7MB, built in 1 second
-==> Determining homebrew/science/squeezambler bottle rebuild...
-==> Bottling squeezambler-2.0.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if squeezambler-2.0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./squeezambler-2.0.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/openmeeg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openmeeg/2.4-rc: 94 files, 4.9MB, built in 29 seconds
+==> Determining homebrew/science/openmeeg bottle rebuild...
+==> Bottling openmeeg-2.4-rc.x86_64_linux.bottle.1.tar.gz...
+./openmeeg-2.4-rc.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "b9a20dc309570f183f85b81ff70d5bd0d1374427d8983edb456f760ee461d373" => :x86_64_linux
+    sha256 "d448b4e23badf66e2559159470675712a6127c68aba5fc0d31c0c9855c4bd16f" => :x86_64_linux
   end
