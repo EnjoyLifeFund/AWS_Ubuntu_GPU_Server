@@ -1,29 +1,34 @@
-==> Installing ascii_plots from homebrew/science
-==> Downloading https://github.com/dzerbino/ascii_plots/archive/1.0.tar.gz
-==> Downloading from https://codeload.github.com/dzerbino/ascii_plots/tar.gz/1.0
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/hist
-Target /home/linuxbrew/.linuxbrew/bin/hist
-is a symlink belonging to historian. You can unlink it:
-  brew unlink historian
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite ascii_plots
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run ascii_plots
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/hist -> /home/linuxbrew/.linuxbrew/Cellar/historian/0.0.2/bin/hist
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ascii_plots`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ascii_plots/1.0: 10 files, 44.0KB, built in 0 seconds
-==> Determining homebrew/science/ascii_plots bottle rebuild...
-==> Bottling ascii_plots-1.0.x86_64_linux.bottle.1.tar.gz...
-./ascii_plots-1.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "5e5a0f53374bfc17b48ae97c98f5dbe9c9eb4b2af163865fd3714b08c59d9de3" => :x86_64_linux
-  end
+==> Installing astral from homebrew/science
+==> Downloading https://github.com/smirarab/ASTRAL/archive/v4.10.7.tar.gz
+==> Downloading from https://codeload.github.com/smirarab/ASTRAL/tar.gz/v4.10.7
+Archive:  Astral.4.10.7.zip
+   creating: Astral/
+  inflating: Astral/astral.4.10.7.jar  
+   creating: Astral/lib/
+  inflating: Astral/lib/.DS_Store    
+  inflating: Astral/lib/colt.jar     
+  inflating: Astral/lib/JSAP-2.1.jar  
+  inflating: Astral/lib/main.jar     
+  inflating: Astral/README.md        
+   creating: Astral/test_data/
+  inflating: Astral/test_data/100-simulated-boot  
+  inflating: Astral/test_data/1KP-genetrees.tre  
+  inflating: Astral/test_data/1kp-output.tre  
+  inflating: Astral/test_data/bs-files  
+  inflating: Astral/test_data/README  
+  inflating: Astral/test_data/simulated_14taxon.default.tre  
+  inflating: Astral/test_data/simulated_14taxon.exact.tre  
+  inflating: Astral/test_data/simulated_14taxon.gene.tre  
+  inflating: Astral/test_data/simulated_primates_5X.10.bootstrap.gene.tre  
+  inflating: Astral/test_data/simulated_primates_5X.10.gene.tre  
+  inflating: Astral/test_data/simulated_primates_5X.10.species.tre  
+  inflating: Astral/test_data/song_mammals.424.gene.tre  
+ extracting: Astral/test_data/song_mammals.424genes.bs-trees.zip  
+  inflating: Astral/test_data/song_mammals.tre  
+  inflating: Astral/test_data/song_primates.424.default.tre  
+  inflating: Astral/test_data/song_primates.424.exact.tre  
+  inflating: Astral/test_data/song_primates.424.gene.tre  
+  inflating: Astral/test_data/trivial.tre  
+  inflating: Astral/thesis-astral.pdf  
+🍺  /home/linuxbrew/.linuxbrew/Cellar/astral/4.10.7: 54 files, 9.6MB, built in 2 seconds
+This formula doesn't require compiling.
