@@ -1,38 +1,15 @@
-==> Downloading https://github.com/julius-speech/julius/archive/v4.4.2.1.tar.gz
-==> Downloading from https://codeload.github.com/julius-speech/julius/tar.gz/v4.4.2.1
-==> Downloading https://github.com/julius-speech/julius/pull/73.patch?full_index=1
-==> Downloading from https://patch-diff.githubusercontent.com/raw/julius-speech/julius/pull/73.patch?full_index=1
-==> Patching
-==> Applying 73.patch
-patching file libjulius/Makefile.in
-patching file libsent/Makefile.in
-==> ./configure --disable-silent-rules --mandir=/home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1/share/man --prefix=/home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1
+==> Downloading http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/juman/juman-7.01.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/juman/7.01
 ==> make
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/binlm2arpa
-Target /home/linuxbrew/.linuxbrew/bin/binlm2arpa
-is a symlink belonging to cmuclmtk. You can unlink it:
-  brew unlink cmuclmtk
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite julius
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run julius
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/binlm2arpa -> /home/linuxbrew/.linuxbrew/Cellar/cmuclmtk/0.7/bin/binlm2arpa
-/home/linuxbrew/.linuxbrew/bin/jcontrol -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/bin/jcontrol
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall julius`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/julius/4.4.2.1: 112 files, 5.2MB, built in 51 seconds
-==> Determining julius bottle rebuild...
-==> Bottling julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./julius-4.4.2.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall juman`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/juman/7.01: 32 files, 31.8MB, built in 28 seconds
+==> Determining juman bottle rebuild...
+==> Bottling juman-7.01.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if juman-7.01.x86_64_linux.bottle.1.tar.gz is relocatable...
+./juman-7.01.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "71ed97fd5c37bf1bbf1f0df7b68546043229820a7726d4d5b5551e34d1a45b24" => :x86_64_linux
+    sha256 "a670c8ac1b35c7ad46ae68ace5cfb45960b2d5910566634dda54ec4a31dd481d" => :x86_64_linux
   end
