@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/libcsv/libcsv/libcsv-3.0.3/libcsv-3.0.3.tar.gz
-==> Downloading from https://cytranet.dl.sourceforge.net/project/libcsv/libcsv/libcsv-3.0.3/libcsv-3.0.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcsv/3.0.3
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcsv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcsv/3.0.3: 11 files, 131.3KB, built in 11 seconds
-==> Determining libcsv bottle rebuild...
-==> Bottling libcsv-3.0.3.x86_64_linux.bottle.tar.gz...
-./libcsv-3.0.3.x86_64_linux.bottle.tar.gz
+==> Determining libcue bottle rebuild...
+==> Bottling libcue-2.2.0.x86_64_linux.bottle.1.tar.gz...
+./libcue-2.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "b154be18c69af7e0ed3234c0905d1370e64826ccc5e32eeb0c8a0081d930a4fd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8f856b175dbea5bcc14d5010f9ee26112b2d55e8f3be8482e99ded68133ca902" => :x86_64_linux
   end
