@@ -1,18 +1,9 @@
-==> Installing mathomatic from homebrew/science
-==> Downloading https://github.com/mfillpot/mathomatic/archive/mathomatic-16.0.5.tar.gz
-==> Downloading from https://codeload.github.com/mfillpot/mathomatic/tar.gz/mathomatic-16.0.5
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
-==> make m4install prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mathomatic`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5: 114 files, 1MB, built in 3 seconds
-==> Determining homebrew/science/mathomatic bottle rebuild...
-==> Bottling mathomatic-16.0.5.x86_64_linux.bottle.1.tar.gz...
-./mathomatic-16.0.5.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/matplotlib bottle rebuild...
+==> Bottling matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./matplotlib-2.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "157f37c2f4182b01e6e1fa2db1d126178a5438713cf4a0c89f3b2603e69817ee" => :x86_64_linux
+    sha256 "acfe1ea9fb036268c65594b8d35c83ef270e8aa53d90951d2e58df5c871476b2" => :x86_64_linux
   end
