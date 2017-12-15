@@ -1,14 +1,14 @@
-==> Installing gmcloser from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/gmcloser/GMcloser-1.5.1.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/gmcloser/GMcloser-1.5.1.tar.gz
+==> Installing grabix from homebrew/science
+==> Downloading https://github.com/arq5x/grabix/archive/0.1.6.tar.gz
+==> Downloading from https://codeload.github.com/arq5x/grabix/tar.gz/0.1.6
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/gmcloser`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gmcloser/1.5.1: 20 files, 891.8KB, built in 1 second
-==> Determining homebrew/science/gmcloser bottle rebuild...
-==> Bottling gmcloser-1.5.1.x86_64_linux.bottle.1.tar.gz...
-./gmcloser-1.5.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/grabix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grabix/0.1.6: 5 files, 2.2MB, built in 2 seconds
+==> Determining homebrew/science/grabix bottle rebuild...
+==> Bottling grabix-0.1.6.x86_64_linux.bottle.tar.gz...
+./grabix-0.1.6.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6c8f759d8312711b5ea9c27985a4f79457532cdfa67e47947e0b1aaad256460c" => :x86_64_linux
+    sha256 "802c94dd570934cb9cb2b3f69935f760cb25bf97ead3dbdd43200f815b26d26b" => :x86_64_linux
   end
