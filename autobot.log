@@ -1,14 +1,29 @@
-==> Installing phipack from homebrew/science
-==> Downloading https://www.maths.otago.ac.nz/~dbryant/software/PhiPack.tar
-==> make -C src
+==> Installing phyml from homebrew/science
+==> Downloading https://github.com/stephaneguindon/phyml/archive/v3.3.20170530.tar.gz
+==> Downloading from https://codeload.github.com/stephaneguindon/phyml/tar.gz/v3.3.20170530
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/phyml/3.3.20170530
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/phipack`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/phipack/2013-03-05: 10 files, 273.2KB, built in 5 seconds
-==> Determining homebrew/science/phipack bottle rebuild...
-==> Bottling phipack-2013-03-05.x86_64_linux.bottle.1.tar.gz...
-./phipack-2013-03-05.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/phyml`
+==> Caveats
+Examples have been installed here:
+  /home/linuxbrew/.linuxbrew/opt/phyml/share/phyml
+
+See options for phyml by running:
+  phmyl --help
+
+PhyML must be run with the "-i" option to specify an input or it will
+segfault. Example:
+  phyml -i /home/linuxbrew/.linuxbrew/opt/phyml/share/phyml/nucleic
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/phyml/3.3.20170530: 23 files, 2.6MB, built in 18 seconds
+==> Determining homebrew/science/phyml bottle rebuild...
+==> Bottling phyml-3.3.20170530.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if phyml-3.3.20170530.x86_64_linux.bottle.1.tar.gz is relocatable...
+./phyml-3.3.20170530.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "efb09aa1adcfc317670b75e0a8c0319cbfaddbb8c14772fcf567ae8f7aba852d" => :x86_64_linux
+    sha256 "491e8180a1bd58c0292eef9c70563ee590366d5c04600da3a569c079d309143f" => :x86_64_linux
   end
