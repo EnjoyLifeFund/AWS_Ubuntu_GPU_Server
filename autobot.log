@@ -1,8 +1,13 @@
-==> Determining liblwgeom bottle rebuild...
-==> Bottling liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz...
-./liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://dist.schmorp.de/liblzf/liblzf-3.6.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblzf/3.6
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liblzf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liblzf/3.6: 8 files, 105.9KB, built in 6 seconds
+==> Determining liblzf bottle rebuild...
+==> Bottling liblzf-3.6.x86_64_linux.bottle.1.tar.gz...
+./liblzf-3.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "340aa0b1d731e827c08c3c78ecbec550bd4cbb2a2e1b53e1f2901c33f25463e0" => :x86_64_linux
+    sha256 "a9aeeaa4f2fbcc93609e2ad2d565582fea437c8b49b0c435c0e7c8310c11f6af" => :x86_64_linux
   end
