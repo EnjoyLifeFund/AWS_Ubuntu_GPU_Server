@@ -1,15 +1,24 @@
-==> Installing adapterremoval from homebrew/science
-==> Downloading https://github.com/MikkelSchubert/adapterremoval/archive/v2.2.2.tar.gz
-==> Downloading from https://codeload.github.com/MikkelSchubert/adapterremoval/tar.gz/v2.2.2
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/adapterremoval/2.2.2
+==> Installing adol-c from homebrew/science
+==> Installing dependencies for homebrew/science/adol-c: colpack
+==> Installing homebrew/science/adol-c dependency: colpack
+==> Downloading https://github.com/CSCsw/ColPack/archive/v1.0.10.tar.gz
+==> Downloading from https://codeload.github.com/CSCsw/ColPack/tar.gz/v1.0.10
+==> autoreconf -vif
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/colpack/1.0.10
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/colpack/1.0.10: 71 files, 22.9MB, built in 31 seconds
+==> Installing homebrew/science/adol-c
+==> Downloading https://www.coin-or.org/download/source/ADOL-C/ADOL-C-2.6.2.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/adol-c/2.6.2 --enable-sparse --with-colpack=/home/linuxbrew/.linuxbrew/opt/colpack --enable-ulong
+==> make install
+==> make test
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/adapterremoval`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/adapterremoval/2.2.2: 18 files, 1.6MB, built in 4 seconds
-==> Determining homebrew/science/adapterremoval bottle rebuild...
-==> Bottling adapterremoval-2.2.2.x86_64_linux.bottle.1.tar.gz...
-./adapterremoval-2.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/adol-c`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/adol-c/2.6.2: 47 files, 2.5MB, built in 17 seconds
+==> Determining homebrew/science/adol-c bottle rebuild...
+==> Bottling adol-c-2.6.2.x86_64_linux.bottle.1.tar.gz...
+./adol-c-2.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e1459cc851ba15a3a3a361e2eae06617990bbc6805c0b26defec061956c49176" => :x86_64_linux
+    sha256 "eec4dcb91fac036d2bae921def6148891af3dc4b84562bd61e02621e4204d1ff" => :x86_64_linux
   end
