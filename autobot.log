@@ -1,13 +1,14 @@
-==> Downloading https://www.kokkonen.net/tjko/src/jpeginfo-1.6.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jpeginfo/1.6.1_1
+==> Downloading https://github.com/tjko/jpegoptim/archive/RELEASE.1.4.4.tar.gz
+==> Downloading from https://codeload.github.com/tjko/jpegoptim/tar.gz/RELEASE.1.4.4
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jpegoptim/1.4.4_1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jpeginfo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jpeginfo/1.6.1_1: 7 files, 98.7KB, built in 3 seconds
-==> Determining jpeginfo bottle rebuild...
-==> Bottling jpeginfo-1.6.1_1.x86_64_linux.bottle.1.tar.gz...
-./jpeginfo-1.6.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jpegoptim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jpegoptim/1.4.4_1: 7 files, 145.0KB, built in 4 seconds
+==> Determining jpegoptim bottle rebuild...
+==> Bottling jpegoptim-1.4.4_1.x86_64_linux.bottle.1.tar.gz...
+./jpegoptim-1.4.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2968de64becfbea1afa1bd9f7b18c61d856bc74a354d8df8279155a7d4f4ad79" => :x86_64_linux
+    sha256 "a6e5ebb37a297fbc2a928a71de7d0082b0357d6c610a1bc999ded9bc9b0fd939" => :x86_64_linux
   end
