@@ -1,16 +1,16 @@
-==> Installing oswitch from homebrew/science
-==> Downloading https://github.com/yeban/oswitch/archive/v0.2.7.tar.gz
-==> Downloading from https://github.com/wurmlab/oswitch/archive/v0.2.7.tar.gz
-==> gem build oswitch.gemspec
-==> gem install -i /home/linuxbrew/.linuxbrew/Cellar/oswitch/0.2.7 oswitch-0.2.7.gem
+==> Installing pandaseq from homebrew/science
+==> Downloading https://github.com/neufeld/pandaseq/archive/v2.11.tar.gz
+==> Downloading from https://codeload.github.com/neufeld/pandaseq/tar.gz/v2.11
+==> ./autogen.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/pandaseq/2.11
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/oswitch`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/oswitch/0.2.7: 29 files, 156.5KB, built in 2 seconds
-==> Determining homebrew/science/oswitch bottle rebuild...
-==> Bottling oswitch-0.2.7.x86_64_linux.bottle.1.tar.gz...
-./oswitch-0.2.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/pandaseq`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pandaseq/2.11: 57 files, 2MB, built in 31 seconds
+==> Determining homebrew/science/pandaseq bottle rebuild...
+==> Bottling pandaseq-2.11.x86_64_linux.bottle.1.tar.gz...
+./pandaseq-2.11.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "589486204d1131f5251a9636fd91e2f1d3a64526d822ee971fbd1394044080b5" => :x86_64_linux
+    sha256 "52ba0247a15c896864d6ef0a90a0dd724b8c2acf4d9dd1bb7c0c1e37cbee833d" => :x86_64_linux
   end
