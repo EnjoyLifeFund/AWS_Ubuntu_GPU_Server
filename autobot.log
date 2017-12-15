@@ -1,7 +1,19 @@
-==> Determining libmpeg2 bottle rebuild...
-==> Bottling libmpeg2-0.5.1.x86_64_linux.bottle.tar.gz...
-./libmpeg2-0.5.1.x86_64_linux.bottle.tar.gz
+==> Installing dependencies for libmrss: libnxml
+==> Installing libmrss dependency: libnxml
+==> Downloading https://www.autistici.org/bakunin/libnxml/libnxml-0.18.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libnxml/0.18.3
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libnxml/0.18.3: 13 files, 523.3KB, built in 12 seconds
+==> Installing libmrss
+==> Downloading https://www.autistici.org/bakunin/libmrss/libmrss-0.19.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmrss/0.19.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libmrss`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmrss/0.19.2: 13 files, 564KB, built in 11 seconds
+==> Determining libmrss bottle rebuild...
+==> Bottling libmrss-0.19.2.x86_64_linux.bottle.tar.gz...
+./libmrss-0.19.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "599d3f83b6cca3929b6aea111c8c528db078586b82e06916f6beaa55f7427f69" => :x86_64_linux
+    sha256 "dff4e8e36c9730d4f777307d3f324b144b0273cb1826e895e17a26155941a3de" => :x86_64_linux
   end
