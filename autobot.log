@@ -1,15 +1,15 @@
-==> Downloading https://github.com/esnet/iperf/archive/3.3.tar.gz
-==> Downloading from https://codeload.github.com/esnet/iperf/tar.gz/3.3
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iperf3/3.3 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make clean
+==> Installing gatb from homebrew/science
+==> Downloading http://gatb-core.gforge.inria.fr/versions/src/gatb-core-1.1.0-Source.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/gatb/1.1.0 -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iperf3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iperf3/3.3: 12 files, 1.2MB, built in 8 seconds
-==> Determining iperf3 bottle rebuild...
-==> Bottling iperf3-3.3.x86_64_linux.bottle.1.tar.gz...
-./iperf3-3.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/gatb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gatb/1.1.0: 240 files, 41.2MB, built in 1 minute 12 seconds
+==> Determining homebrew/science/gatb bottle rebuild...
+==> Bottling gatb-1.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gatb-1.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gatb-1.1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "ac4723ce5c088e1b5db3ae367540719fbc415c00b33300650e99ac8f34bbc95b" => :x86_64_linux
+    sha256 "d0eccf66a00d2ca95e4b355cde3d0e4802eb1170a0947d8613f366df7de27738" => :x86_64_linux
   end
