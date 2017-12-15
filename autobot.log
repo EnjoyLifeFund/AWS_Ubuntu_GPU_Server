@@ -1,15 +1,7 @@
-==> Downloading https://github.com/jiixyj/libebur128/archive/v1.2.3.tar.gz
-==> Downloading from https://codeload.github.com/jiixyj/libebur128/tar.gz/v1.2.3
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libebur128/1.2.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libebur128`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libebur128/1.2.3: 10 files, 129.2KB, built in 2 seconds
-==> Determining libebur128 bottle rebuild...
-==> Bottling libebur128-1.2.3.x86_64_linux.bottle.1.tar.gz...
-./libebur128-1.2.3.x86_64_linux.bottle.1.tar.gz
+==> Determining libedit bottle rebuild...
+==> Bottling libedit-20170329-3.1.x86_64_linux.bottle.1.tar.gz...
+./libedit-20170329-3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e51487a9b2d7cb2fe3944d10d0040cd0e6a94877a6b0279a54bf6234f9219c31" => :x86_64_linux
+    sha256 "a3c4b5c6991c80022d3f762d0a4519beec3f1064ba19624d799141591df9470f" => :x86_64_linux
   end
