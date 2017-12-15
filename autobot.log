@@ -1,23 +1,19 @@
-==> Installing hdf4 from homebrew/science
-==> Downloading https://www.hdfgroup.org/ftp/HDF/releases/HDF4.2.11/src/hdf-4.2.11.tar.bz2
-==> Downloading from https://support.hdfgroup.org/ftp/HDF/releases/HDF4.2.11/src/hdf-4.2.11.tar.bz2
+==> Downloading https://downloads.sourceforge.net/project/ipmiutil/ipmiutil-2.9.5.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/ipmiutil/ipmiutil-2.9.5.tar.gz
 ==> Patching
-patching file CMakeLists.txt
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hdf4/4.2.11_3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DHDF4_BUILD_TOOLS=ON -DHDF4_BUILD_UTILS=ON -DHDF4_BUILD_WITH_INSTALL_NAME=ON -DHDF4_ENABLE_JPEG_LIB_SUPPORT=ON -DHDF4_ENABLE_NETCDF=OFF -DHDF4_ENABLE_SZIP_ENCODING=ON -DHDF4_ENABLE_SZIP_SUPPORT=ON -DHDF4_ENABLE_Z_LIB_SUPPORT=ON -DHDF4_BUILD_FORTRAN=OFF
-==> make install
+patching file configure
+Hunk #2 succeeded at 20748 with fuzz 2.
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5 --enable-sha256 --enable-gpl
+==> make TMPDIR=/tmp
+==> make prefix=/ DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5 varto=/home/linuxbrew/.linuxbrew/var/lib/ipmiutil initto=/home/linuxbrew/.linuxbrew/etc/init.d sysdto=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5/ipmiutil install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/hdf4`
-==> Caveats
-HDF4 has been superseeded by HDF5.  However, the API changed
-substantially and some programs still require the HDF4 libraries in order
-to function.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hdf4/4.2.11_3: 93 files, 2.4MB, built in 47 seconds
-==> Determining homebrew/science/hdf4 bottle rebuild...
-==> Bottling hdf4-4.2.11_3.x86_64_linux.bottle.1.tar.gz...
-./hdf4-4.2.11_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ipmiutil`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5: 74 files, 4.1MB, built in 16 seconds
+==> Determining ipmiutil bottle rebuild...
+==> Bottling ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "885b97e22ca6b6ead8282fec7077359c4ed665c1958056721260f2a47ed79428" => :x86_64_linux
+    sha256 "c3a4c5abe632b3c7c48f5da9e167b00e41f0b10f4518370616a805d9d4a3de03" => :x86_64_linux
   end
