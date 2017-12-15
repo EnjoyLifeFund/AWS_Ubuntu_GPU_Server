@@ -1,14 +1,12 @@
-==> Downloading https://downloads.sourceforge.net/project/icns/libicns-0.8.1.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/icns/libicns-0.8.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libicns/0.8.1_3
+==> Downloading https://www.remlab.net/files/libident/libident-0.32.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libident/0.32 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libident/0.32/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libicns`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libicns/0.8.1_3: 20 files, 339.5KB, built in 9 seconds
-==> Determining libicns bottle rebuild...
-==> Bottling libicns-0.8.1_3.x86_64_linux.bottle.1.tar.gz...
-./libicns-0.8.1_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libident`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libident/0.32: 13 files, 144KB, built in 12 seconds
+==> Determining libident bottle rebuild...
+==> Bottling libident-0.32.x86_64_linux.bottle.tar.gz...
+./libident-0.32.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "9fcd5b3348c49dd132ce981edb8a7a789a9fced54c55a2380d671e69230528f2" => :x86_64_linux
+    sha256 "ab89eeb61034526b8fd4aa729cf6896ead0e60176b8ed49b06e84e05a31e9422" => :x86_64_linux
   end
