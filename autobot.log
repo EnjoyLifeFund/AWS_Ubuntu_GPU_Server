@@ -1,15 +1,15 @@
-==> Installing racon from homebrew/science
-==> Downloading https://github.com/isovic/racon/files/741519/racon-v0.5.0.tar.gz
-==> Downloading from https://github-production-repository-file-5c1aeb.s3.amazonaws.com/52370070/741519?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T123556Z&X-Amz-Expires=300&X-Amz-Signature=d1b9e821e35c7591cc58c22e5270780ea6f48227854e22e07bec97cf53d2aad8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3Bfilename%3Dracon-v0.5.0.tar.gz&response-content-type=application%2Fgzip
+==> Installing rainbow from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/bio-rainbow/rainbow_2.0.4.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/bio-rainbow/rainbow_2.0.4.tar.gz
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/racon`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/racon/0.5.0: 5 files, 2.0MB, built in 11 seconds
-==> Determining homebrew/science/racon bottle rebuild...
-==> Bottling racon-0.5.0.x86_64_linux.bottle.1.tar.gz...
-./racon-0.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/rainbow`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/rainbow/2.0.4: 6 files, 166.2KB, built in 2 seconds
+==> Determining homebrew/science/rainbow bottle rebuild...
+==> Bottling rainbow-2.0.4.x86_64_linux.bottle.1.tar.gz...
+./rainbow-2.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "523cc90c3fcbc25421b0dc064b1adb642e44bccf5413967b71313ce551d6bccc" => :x86_64_linux
+    sha256 "2170c37f44de333a01e56da0e95bc20600cd1dc9edbeb52d7ef8794953a62867" => :x86_64_linux
   end
