@@ -1,20 +1,14 @@
-==> Installing phyx from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/FePhyFoFum/phyx/archive/v0.99.tar.gz
-==> Downloading from https://codeload.github.com/FePhyFoFum/phyx/tar.gz/v0.99
-==> autoreconf -fvi
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/phyx/0.99_1
-==> make
+==> Installing piler from homebrew/science
+==> Downloading https://drive5.com/piler/piler_source.tar.gz
+==> make CC=gcc-6 -c GPP=g++-6 LDLIBS=-lm
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/phyx`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/phyx/0.99_1: 105 files, 14.4MB, built in 26 seconds
-==> Determining homebrew/science/phyx bottle rebuild...
-==> Bottling phyx-0.99_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if phyx-0.99_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./phyx-0.99_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/piler`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/piler/1.0_1: 3 files, 113.9KB, built in 2 seconds
+==> Determining homebrew/science/piler bottle rebuild...
+==> Bottling piler-1.0_1.x86_64_linux.bottle.1.tar.gz...
+./piler-1.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cb7836db881773fb6b8595c3665faa16fc7283bc895b7c183c02c4cd32659d99" => :x86_64_linux
+    sha256 "f67184fde45c005d0cfa6faf752246cbabb1945e8508da3ae2617c1ea2fe61b8" => :x86_64_linux
   end
