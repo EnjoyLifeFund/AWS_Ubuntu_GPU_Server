@@ -1,16 +1,8 @@
-==> Cloning https://github.com/sass/libsass.git
-==> Checking out tag 3.4.7
-==> autoreconf -fvi
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libsass/3.4.7 --disable-silent-rules
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libsass`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsass/3.4.7: 17 files, 67.3MB, built in 51 seconds
-==> Determining libsass bottle rebuild...
-==> Bottling libsass-3.4.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libsass-3.4.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libsass-3.4.7.x86_64_linux.bottle.1.tar.gz
+==> Determining libsecret bottle rebuild...
+==> Bottling libsecret-0.18.5_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libsecret-0.18.5_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libsecret-0.18.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e84626f691417f6545f14891069c938a5c1e5e47fc5bfc8c197d936ebf4f73ee" => :x86_64_linux
+    sha256 "6b3ef34aaac1216fdd5b46a84bd2bca1ed0b95db6ac2176d012e0cda6632379a" => :x86_64_linux
   end
