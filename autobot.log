@@ -1,13 +1,12 @@
-==> Downloading https://files.musepack.net/source/libcuefile_r475.tar.gz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcuefile/r475 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdaemon/0.14
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcuefile`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcuefile/r475: 12 files, 283.9KB, built in 2 seconds
-==> Determining libcuefile bottle rebuild...
-==> Bottling libcuefile-r475.x86_64_linux.bottle.tar.gz...
-./libcuefile-r475.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libdaemon`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdaemon/0.14: 18 files, 288KB, built in 12 seconds
+==> Determining libdaemon bottle rebuild...
+==> Bottling libdaemon-0.14.x86_64_linux.bottle.tar.gz...
+./libdaemon-0.14.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "0dce36cc5497ac9f806818d009be264f50555679f9a830a49a42f567ade7dee2" => :x86_64_linux
+    sha256 "eccf09ca602aed4ebe2508d2305977a1e1090a18edb1ff3edd7ade1b6f97c9fc" => :x86_64_linux
   end
