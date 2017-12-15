@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/scrnsaverproto bottle rebuild...
-==> Bottling scrnsaverproto-1.2.2.x86_64_linux.bottle.1.tar.gz...
-./scrnsaverproto-1.2.2.x86_64_linux.bottle.1.tar.gz
+==> Installing sessreg from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/sessreg-1.1.1.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/sessreg-1.1.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sessreg/1.1.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/sessreg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sessreg/1.1.1: 8 files, 96.3KB, built in 8 seconds
+==> Determining linuxbrew/xorg/sessreg bottle rebuild...
+==> Bottling sessreg-1.1.1.x86_64_linux.bottle.1.tar.gz...
+./sessreg-1.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e7610bfe687a17163220869c0c8a4e1c52d0e8248fb144916ad3e052116af105" => :x86_64_linux
+    sha256 "dccb72efca5e1cdb774a76ed308e87e94209768336b355700c793cba7519bfe5" => :x86_64_linux
   end
