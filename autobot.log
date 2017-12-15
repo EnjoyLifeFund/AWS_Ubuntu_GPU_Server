@@ -1,8 +1,17 @@
-==> Determining homebrew/science/seqtk bottle rebuild...
-==> Bottling seqtk-1.2.x86_64_linux.bottle.1.tar.gz...
-./seqtk-1.2.x86_64_linux.bottle.1.tar.gz
+==> Installing sequel from homebrew/science
+==> Downloading https://bix.ucsd.edu/SEQuel/download/SEQuel.v102.tar.gz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/sequel`
+==> Caveats
+The helper script prep.pl has been installed as sequel-prep.pl
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sequel/1.0.2: 8 files, 1.2MB, built in 1 second
+==> Determining homebrew/science/sequel bottle rebuild...
+==> Bottling sequel-1.0.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if sequel-1.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./sequel-1.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "733bd1f6ff1f7b37cfc3b10e0d9987eff3415464b057f6c926e00d65aee8536a" => :x86_64_linux
+    sha256 "f7552a5b23e1a2f2e46e96ab9b0734403c5bbd6c39f85e471d6bb38b84a1a770" => :x86_64_linux
   end
