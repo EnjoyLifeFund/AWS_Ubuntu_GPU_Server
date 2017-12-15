@@ -1,8 +1,13 @@
-==> Determining libcue bottle rebuild...
-==> Bottling libcue-2.2.0.x86_64_linux.bottle.1.tar.gz...
-./libcue-2.2.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://files.musepack.net/source/libcuefile_r475.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcuefile/r475 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libcuefile`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcuefile/r475: 12 files, 283.9KB, built in 2 seconds
+==> Determining libcuefile bottle rebuild...
+==> Bottling libcuefile-r475.x86_64_linux.bottle.tar.gz...
+./libcuefile-r475.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "8f856b175dbea5bcc14d5010f9ee26112b2d55e8f3be8482e99ded68133ca902" => :x86_64_linux
+    sha256 "0dce36cc5497ac9f806818d009be264f50555679f9a830a49a42f567ade7dee2" => :x86_64_linux
   end
