@@ -1,3 +1,15 @@
-==> Downloading http://jflex.de/release/jflex-1.6.1.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jflex/1.6.1: 77 files, 1.3MB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/JFrogDev/jfrog-cli-go/archive/1.12.1.tar.gz
+==> Downloading from https://codeload.github.com/JFrogDev/jfrog-cli-go/tar.gz/1.12.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jfrog-cli-go/1.12.1/bin/jfrog jfrog-cli/jfrog/main.go
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jfrog-cli-go`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jfrog-cli-go/1.12.1: 5 files, 16.1MB, built in 5 seconds
+==> Determining jfrog-cli-go bottle rebuild...
+==> Bottling jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f0953c1ce20431e5103ab660f9fe1f463a250477bc633bb17daa605b511a9205" => :x86_64_linux
+  end
