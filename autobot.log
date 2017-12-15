@@ -1,31 +1,7 @@
-==> Downloading https://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/little-cms/1.19_1
-==> make
-==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink lib/liblcms.so
-Target /home/linuxbrew/.linuxbrew/lib/liblcms.so
-is a symlink belonging to jdk. You can unlink it:
-  brew unlink jdk
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite little-cms
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run little-cms
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/lib/liblcms.so -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/lib/liblcms.so
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall little-cms`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/little-cms/1.19_1: 25 files, 4.9MB, built in 15 seconds
-==> Determining little-cms bottle rebuild...
-==> Bottling little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./little-cms-1.19_1.x86_64_linux.bottle.1.tar.gz
+==> Determining little-cms2 bottle rebuild...
+==> Bottling little-cms2-2.9.x86_64_linux.bottle.tar.gz...
+==> Detecting if little-cms2-2.9.x86_64_linux.bottle.tar.gz is relocatable...
+./little-cms2-2.9.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "819cff7b2c65bed93b8731de0c0cae4007e4bf71b893eea30bf8156b84781591" => :x86_64_linux
+    sha256 "c0d863de302e8f5013f389953db12cfec15186bd1bda1e6a7387267865f1fc8b" => :x86_64_linux
   end
