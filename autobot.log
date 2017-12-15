@@ -1,13 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libopendkim/2.10.3 --disable-filter --with-unbound=/home/linuxbrew/.linuxbrew/opt/unbound --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> Downloading https://www.rkeene.org/files/oss/libopennet/libopennet-0.9.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9/share/man
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libopendkim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libopendkim/2.10.3: 159 files, 2MB, built in 20 seconds
-==> Determining libopendkim bottle rebuild...
-==> Bottling libopendkim-2.10.3.x86_64_linux.bottle.tar.gz...
-./libopendkim-2.10.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libopennet`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9: 16 files, 145KB, built in 8 seconds
+==> Determining libopennet bottle rebuild...
+==> Bottling libopennet-0.9.9.x86_64_linux.bottle.1.tar.gz...
+./libopennet-0.9.9.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "cc224f1ebe074624827ccd0c0b9d136ff7317da54c4675ba3df8c30742187f06" => :x86_64_linux
+    rebuild 1
+    sha256 "1e057b7789bd709bf27acada3c8c24c6a4cf2c1a47166088478bda5402cc4e96" => :x86_64_linux
   end
