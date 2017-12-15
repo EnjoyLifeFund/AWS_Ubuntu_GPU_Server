@@ -1,15 +1,20 @@
-==> Downloading https://github.com/JFrogDev/jfrog-cli-go/archive/1.12.1.tar.gz
-==> Downloading from https://codeload.github.com/JFrogDev/jfrog-cli-go/tar.gz/1.12.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jfrog-cli-go/1.12.1/bin/jfrog jfrog-cli/jfrog/main.go
+==> Downloading http://www.sentex.net/~mwandel/jhead/jhead-3.00.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jhead/jhead_3.00-4.debian.tar.xz
+==> Patching
+File makefile is read-only; trying to patch anyway
+patching file makefile
+Hunk #1 succeeded at 1 with fuzz 2.
+==> Applying patches/31_CVE-2016-3822
+File exif.c is read-only; trying to patch anyway
+patching file exif.c
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/jhead/3.00_1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jfrog-cli-go`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jfrog-cli-go/1.12.1: 5 files, 16.1MB, built in 5 seconds
-==> Determining jfrog-cli-go bottle rebuild...
-==> Bottling jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jfrog-cli-go-1.12.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jhead`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jhead/3.00_1: 7 files, 164.4KB, built in 1 second
+==> Determining jhead bottle rebuild...
+==> Bottling jhead-3.00_1.x86_64_linux.bottle.tar.gz...
+./jhead-3.00_1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "f0953c1ce20431e5103ab660f9fe1f463a250477bc633bb17daa605b511a9205" => :x86_64_linux
+    sha256 "9eb354fcf98f1a26c5f44eeddfe85fc15736c429984760847d68e4191b7a004d" => :x86_64_linux
   end
