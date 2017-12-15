@@ -1,7 +1,18 @@
-==> Determining ktoblzcheck bottle rebuild...
-==> Bottling ktoblzcheck-1.49.x86_64_linux.bottle.1.tar.gz...
-./ktoblzcheck-1.49.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/kubernetes-incubator/kube-aws/archive/v0.9.9.tar.gz
+==> Downloading from https://codeload.github.com/kubernetes-incubator/kube-aws/tar.gz/v0.9.9
+==> go generate ./core/controlplane/config
+==> go generate ./core/nodepool/config
+==> go generate ./core/root/config
+==> go build -ldflags -X github.com/kubernetes-incubator/kube-aws/core/controlplane/cluster.VERSION=0.9.9 -a -tags netgo -installsuffix netgo -o /home/linuxbrew/.linuxbrew/Cellar/kube-aws/0.9.9/bin/kube-aws ./
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kube-aws`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kube-aws/0.9.9: 5 files, 29.2MB, built in 16 seconds
+==> Determining kube-aws bottle rebuild...
+==> Bottling kube-aws-0.9.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kube-aws-0.9.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kube-aws-0.9.9.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4fe2a6df4b7283df89ef78940a0193c22fd574d1759bca4cd315708a24d0349b" => :x86_64_linux
+    sha256 "9a256bccd1b37ead7c0812af2c3a9c5d617dbdaf54f5abc327328e68c9c42f41" => :x86_64_linux
   end
