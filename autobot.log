@@ -1,13 +1,15 @@
-==> Downloading https://freddie.witherden.org/tools/libforensic1394/releases/libforensic1394-0.2.tar.gz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libforensic1394/0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/OpenKinect/libfreenect/archive/v0.5.7.tar.gz
+==> Downloading from https://codeload.github.com/OpenKinect/libfreenect/tar.gz/v0.5.7
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libfreenect/0.5.7 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_OPENNI2_DRIVER=ON
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libforensic1394`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libforensic1394/0.2: 10 files, 146.5KB, built in 4 seconds
-==> Determining libforensic1394 bottle rebuild...
-==> Bottling libforensic1394-0.2.x86_64_linux.bottle.1.tar.gz...
-./libforensic1394-0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libfreenect`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libfreenect/0.5.7: 41 files, 829.8KB, built in 6 seconds
+==> Determining libfreenect bottle rebuild...
+==> Bottling libfreenect-0.5.7.x86_64_linux.bottle.1.tar.gz...
+./libfreenect-0.5.7.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3e52544ea688b40f5b3c2096156a72bb2652954dccbfc0fa00d1adcd4e806168" => :x86_64_linux
+    sha256 "6f63ad61c405eae6364a1f3531041531b6a32146f62a8369ff4f75db7185b103" => :x86_64_linux
   end
