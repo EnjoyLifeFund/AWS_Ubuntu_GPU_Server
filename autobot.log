@@ -1,3 +1,14 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jslint4java/jslint4java-2.0.5-dist.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jslint4java/2.0.5: 129 files, 2.6MB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/douglascrockford/JSMin/archive/1bf6ce5f74a9f8752ac7f5d115b8d7ccb31cfe1b.tar.gz
+==> Downloading from https://codeload.github.com/douglascrockford/JSMin/tar.gz/1bf6ce5f74a9f8752ac7f5d115b8d7ccb31cfe1b
+==> gcc-6 jsmin.c -o jsmin
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jsmin`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jsmin/2013-03-29: 4 files, 29.7KB, built in 0 seconds
+==> Determining jsmin bottle rebuild...
+==> Bottling jsmin-2013-03-29.x86_64_linux.bottle.1.tar.gz...
+./jsmin-2013-03-29.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "cabdcb6c92148c0b056dc5b1bb9f5cab012b197c221c79b887178646e3eb7280" => :x86_64_linux
+  end
