@@ -1,16 +1,19 @@
-==> Downloading https://github.com/pbiering/ipv6calc/archive/1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/pbiering/ipv6calc/tar.gz/1.0.0
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0/share/man
-==> make
+==> Downloading https://downloads.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-8.2.22/ircd-hybrid-8.2.22.tgz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-8.2.22/ircd-hybrid-8.2.22.tgz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ircd-hybrid/8.2.22 --localstatedir=/home/linuxbrew/.linuxbrew/var --sysconfdir=/home/linuxbrew/.linuxbrew/etc --enable-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ipv6calc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipv6calc/1.0.0: 25 files, 10.7MB, built in 8 seconds
-==> Determining ipv6calc bottle rebuild...
-==> Bottling ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ipv6calc-1.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ircd-hybrid`
+==> Caveats
+You'll more than likely need to edit the default settings in the config file:
+  /home/linuxbrew/.linuxbrew/etc/ircd.conf
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ircd-hybrid/8.2.22: 232 files, 8MB, built in 54 seconds
+==> Determining ircd-hybrid bottle rebuild...
+==> Bottling ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "73d87f5198e5a7e665bec8c123d9939144748ea0c82a8236e5cc12c206fff13e" => :x86_64_linux
+    sha256 "db51a0a6fe73f7a47d7023b22a8a0964f9ac7b93267dfa95f9c5b0914a7928e6" => :x86_64_linux
   end
