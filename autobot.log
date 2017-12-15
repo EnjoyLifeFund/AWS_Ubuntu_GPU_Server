@@ -1,19 +1,8 @@
-==> Downloading https://github.com/pote/gvp/archive/v0.3.0.tar.gz
-==> Downloading from https://codeload.github.com/pote/gvp/tar.gz/v0.3.0
-==> Downloading https://github.com/pote/gvp/commit/11c4cefd.patch?full_index=1
-==> Patching
-==> Applying 11c4cefd.patch
-patching file bin/gvp
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gvp/0.3.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gvp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gvp/0.3.0: 5 files, 22KB, built in 1 second
-==> Determining gvp bottle rebuild...
-==> Bottling gvp-0.3.0.x86_64_linux.bottle.1.tar.gz...
-./gvp-0.3.0.x86_64_linux.bottle.1.tar.gz
+==> Determining gwenhywfar bottle rebuild...
+==> Bottling gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cf2e6cafa8c6a0ca7f2ff55dcfeb5a0b3eabe3063330a640d7ee347dc954f0c1" => :x86_64_linux
+    sha256 "2672e7a4f05810900aaf82e22056409e6700ca1578ba9cb33489f4107ca00065" => :x86_64_linux
   end
