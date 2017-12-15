@@ -1,17 +1,20 @@
-==> Installing kmerstream from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/pmelsted/KmerStream/archive/v1.1.tar.gz
-==> Downloading from https://codeload.github.com/pmelsted/KmerStream/tar.gz/v1.1
-==> make
+==> Installing kollector from homebrew/science
+==> Installing dependencies for homebrew/science/kollector: biobloomtools
+==> Installing homebrew/science/kollector dependency: biobloomtools
+==> Downloading https://linuxbrew.bintray.com/bottles-science/biobloomtools-2.0.13_1.x86_64_linux.bottle.tar.gz
+==> Pouring biobloomtools-2.0.13_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/biobloomtools/2.0.13_1: 11 files, 633.6KB
+==> Installing homebrew/science/kollector
+==> Downloading https://github.com/bcgsc/kollector/archive/V1.0.tar.gz
+==> Downloading from https://codeload.github.com/bcgsc/kollector/tar.gz/V1.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kmerstream`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kmerstream/1.1_1: 6 files, 263.8KB, built in 7 seconds
-==> Determining homebrew/science/kmerstream bottle rebuild...
-==> Bottling kmerstream-1.1_1.x86_64_linux.bottle.1.tar.gz...
-./kmerstream-1.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kollector`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kollector/1.0: 11 files, 72.4KB, built in 0 seconds
+==> Determining homebrew/science/kollector bottle rebuild...
+==> Bottling kollector-1.0.x86_64_linux.bottle.1.tar.gz...
+./kollector-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "13db87fa9a4e123ad468c00b16e1b0dfc9c6ce37981d162912072ee6e5c0b06b" => :x86_64_linux
+    sha256 "eb81c8751c37dbdcba49f97e01f5081fe4809dd575dfad02924ae5098c273c42" => :x86_64_linux
   end
