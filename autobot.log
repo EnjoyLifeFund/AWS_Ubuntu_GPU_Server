@@ -1,15 +1,8 @@
-==> Downloading https://download.gnome.org/sources/libxml++/3.0/libxml++-3.0.1.tar.xz
-==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/libxml++/3.0/libxml++-3.0.1.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxml++3/3.0.1_1
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxml++3`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxml++3/3.0.1_1: 274 files, 6.6MB, built in 13 seconds
-==> Determining libxml++3 bottle rebuild...
-==> Bottling libxml++3-3.0.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxml++3-3.0.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxml++3-3.0.1_1.x86_64_linux.bottle.1.tar.gz
+==> Determining libxml2 bottle rebuild...
+==> Bottling libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml2-2.9.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "201e0638378d75abe0f522e779203e8ca2904fdca13fb5421183174c41469f5a" => :x86_64_linux
+    sha256 "42cb8dba7f81802dda2a96798515561f5ce3a2fa58cd75baf326969dd3df2dc3" => :x86_64_linux
   end
