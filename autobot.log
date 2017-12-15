@@ -1,27 +1,18 @@
-==> Installing gaemr from homebrew/science
-==> Downloading https://www.broadinstitute.org/software/gaemr/wp-content/uploads/2012/12/GAEMR-1.0.1.tar.gz
-==> Downloading from http://software.broadinstitute.org/software/gaemr/wp-content/uploads/2012/12/GAEMR-1.0.1.tar.gz
+==> Installing galfit from homebrew/science
+==> Downloading https://users.obs.carnegiescience.edu/peng/work/galfit/galfit3-leopard+.tar.gz
+==> Downloading https://users.obs.carnegiescience.edu/peng/work/galfit/galfit-ex.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/gaemr`
+You can run it manually using `brew postinstall homebrew/science/galfit`
 ==> Caveats
-After install GAEMR, you must do these 3 things:
-
-1. Amend your UNIX PATH environmental variable to point to your
-   installation of the GAEMR/bin directory:
-   export PATH=/home/linuxbrew/.linuxbrew/opt/gaemr/libexec/bin:$PATH
-2. Amend your UNIX PYTHONPATH environmental variable to point to
-   your installation of the GAEMR directory:
-   export PYTHONPATH=/home/linuxbrew/.linuxbrew/opt/gaemr/libexec:$PYTHONPATH
-3. Change the path variables in
-   /home/linuxbrew/.linuxbrew/opt/gaemr/libexec/gaemr/PlatformConstant.py
-   to reflect your installation for the various bioinformatics tools.
+The documentation and examples are installed to
+/home/linuxbrew/.linuxbrew/share/galfit
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gaemr/1.0.1: 98 files, 588.7KB, built in 1 second
-==> Determining homebrew/science/gaemr bottle rebuild...
-==> Bottling gaemr-1.0.1.x86_64_linux.bottle.1.tar.gz...
-./gaemr-1.0.1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/galfit/3.0.5: 14 files, 3.7MB, built in 3 seconds
+==> Determining homebrew/science/galfit bottle rebuild...
+==> Bottling galfit-3.0.5.x86_64_linux.bottle.tar.gz...
+==> Detecting if galfit-3.0.5.x86_64_linux.bottle.tar.gz is relocatable...
+./galfit-3.0.5.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "871b1be499348089c5f2d3f44e30563c4c5bb3a7ef8628424e365e750e60e730" => :x86_64_linux
+    sha256 "061eac173d5cd9ee42271c8e5b58f40fe1c52241549ae3cfa4f2db075ea85b36" => :x86_64_linux
   end
