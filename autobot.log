@@ -1,15 +1,4 @@
-==> Downloading https://www.abisource.com/downloads/link-grammar/5.4.2/link-grammar-5.4.2.tar.gz
-==> ./autogen.sh --no-configure
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/link-grammar/5.4.2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall link-grammar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/link-grammar/5.4.2: 470 files, 14.7MB, built in 46 seconds
-==> Determining link-grammar bottle rebuild...
-==> Bottling link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./link-grammar-5.4.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "f36394fed10fd0a0f617bed04473de925a7640a3ae3c734a9c3d07112a32ec8d" => :x86_64_linux
-  end
+==> Downloading https://github.com/linkerd/linkerd/releases/download/1.3.3/linkerd-1.3.3.tgz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/49605596/8ced70be-d6c3-11e7-874d-d7c2fc79c74f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T230955Z&X-Amz-Expires=300&X-Amz-Signature=7b2fab5bab95525339722ced91c59b8011ed7f6b30c78d4bb7d111fcefbcd564&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlinkerd-1.3.3.tgz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/linkerd/1.3.3: 7 files, 46.5MB, built in 6 seconds
+This formula doesn't require compiling.
