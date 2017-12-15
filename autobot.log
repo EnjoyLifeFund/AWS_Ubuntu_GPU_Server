@@ -1,20 +1,28 @@
-==> Cloning https://github.com/pimutils/khal.git
-==> Checking out tag v0.9.8
+==> Downloading https://files.pythonhosted.org/packages/58/fd/778ab7340d9fcc1c4853cc19fb12fc4b9c28fe9f48ebc0bb19d42aa4b7bd/khard-0.11.4.tar.gz
 ==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/khal--homebrew-virtualenv-20171215-10209-1iowt9x/target --single-version-externally-managed --record=installed.txt
-==> python3 -s /tmp/khal--homebrew-virtualenv-20171215-10209-1iowt9x/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec
-==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/khal-20171215-10209-tp8jq1
-==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip uninstall -y khal
-==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khal-20171215-10209-tp8jq1
+==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/khard--homebrew-virtualenv-20171215-12671-1umtunn/target --single-version-externally-managed --record=installed.txt
+==> python3 -s /tmp/khard--homebrew-virtualenv-20171215-12671-1umtunn/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec
+==> Downloading https://files.pythonhosted.org/packages/a1/e1/2d9bc76838e6e6667fde5814aa25d7feb93d6fa471bf6816daac2596e8b2/atomicwrites-1.1.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--atomicwrites-20171215-12671-cheejw/atomicwrites-1.1.5
+==> Downloading https://files.pythonhosted.org/packages/64/61/079eb60459c44929e684fa7d9e2fdca403f67d64dd9dbac27296be2e0fab/configobj-5.0.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--configobj-20171215-12671-1kr0dv5/configobj-5.0.6
+==> Downloading https://files.pythonhosted.org/packages/51/fc/39a3fbde6864942e8bb24c93663734b74e281b984d1b8c4f95d64b0c21f6/python-dateutil-2.6.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--python-dateutil-20171215-12671-z3hzpx/python-dateutil-2.6.0
+==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--PyYAML-20171215-12671-yjay4n/PyYAML-3.12
+==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--six-20171215-12671-1u1azhk/six-1.10.0
+==> Downloading https://files.pythonhosted.org/packages/19/8e/6b84b80b14e98b2dcc73c53823850ce3c87899b5992e66a98fddabfd9cc1/vobject-0.9.4.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard--vobject-20171215-12671-1tqvi0s/vobject-0.9.4.1
+==> /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khard-20171215-12671-gb09po/khard-0.11.4
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall khal`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8: 1,823 files, 14.9MB, built in 25 seconds
-==> Determining khal bottle rebuild...
-==> Bottling khal-0.9.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if khal-0.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./khal-0.9.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall khard`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/khard/0.11.4: 988 files, 21MB, built in 17 seconds
+==> Determining khard bottle rebuild...
+==> Bottling khard-0.11.4.x86_64_linux.bottle.tar.gz...
+==> Detecting if khard-0.11.4.x86_64_linux.bottle.tar.gz is relocatable...
+./khard-0.11.4.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "0e752de9a3663080be46c4c78205fa9d83f78ca9d92c3dc407a53a7b3f7cd88a" => :x86_64_linux
+    sha256 "01b01ed03186527c420bc6b3984d2b10b6a6fe25e7201fdd102651048e968fe6" => :x86_64_linux
   end
