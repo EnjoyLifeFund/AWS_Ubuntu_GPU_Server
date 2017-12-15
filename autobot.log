@@ -1,16 +1,14 @@
-==> Installing fcgene from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/fcgene/fcgene-1.0.7.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/fcgene/fcgene-1.0.7.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fcgene/1.0.7
+==> Installing fermi from homebrew/science
+==> Downloading https://github.com/lh3/fermi/archive/1.1.tar.gz
+==> Downloading from https://codeload.github.com/lh3/fermi/tar.gz/1.1
 ==> make
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fcgene`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fcgene/1.0.7: 4 files, 14.8MB, built in 36 seconds
-==> Determining homebrew/science/fcgene bottle rebuild...
-==> Bottling fcgene-1.0.7.x86_64_linux.bottle.tar.gz...
-==> Detecting if fcgene-1.0.7.x86_64_linux.bottle.tar.gz is relocatable...
-./fcgene-1.0.7.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fermi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fermi/1.1: 5 files, 927.3KB, built in 3 seconds
+==> Determining homebrew/science/fermi bottle rebuild...
+==> Bottling fermi-1.1.x86_64_linux.bottle.1.tar.gz...
+./fermi-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "d01ed60b9ed7562af08421222846b82eccf71f92bfcfa9a2fdf9b96ca35528b7" => :x86_64_linux
+    rebuild 1
+    sha256 "a1692ee3a5a8660fcc37f65ed166ad54fdc4d03691ad6004df2ebf27fa3bc231" => :x86_64_linux
   end
