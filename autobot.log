@@ -1,4 +1,3 @@
-==> Downloading https://github.com/linkerd/linkerd/releases/download/1.3.3/linkerd-1.3.3.tgz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/49605596/8ced70be-d6c3-11e7-874d-d7c2fc79c74f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T230955Z&X-Amz-Expires=300&X-Amz-Signature=7b2fab5bab95525339722ced91c59b8011ed7f6b30c78d4bb7d111fcefbcd564&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlinkerd-1.3.3.tgz&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/linkerd/1.3.3: 7 files, 46.5MB, built in 6 seconds
+==> Downloading http://linklint.org/download/linklint-2.3.5.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/linklint/2.3.5: 6 files, 176.8KB, built in 0 seconds
 This formula doesn't require compiling.
