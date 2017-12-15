@@ -1,14 +1,12 @@
-==> Downloading http://www.leonerd.org.uk/code/libtermkey/libtermkey-0.20.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20
+==> Downloading http://pkgs.fedoraproject.org/repo/pkgs/libtextcat/libtextcat-2.2.tar.gz/128cfc86ed5953e57fe0f5ae98b62c2e/libtextcat-2.2.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtextcat/2.2
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libtermkey`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20: 34 files, 176.2KB, built in 3 seconds
-==> Determining libtermkey bottle rebuild...
-==> Bottling libtermkey-0.20.x86_64_linux.bottle.1.tar.gz...
-./libtermkey-0.20.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libtextcat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtextcat/2.2: 177 files, 893.2KB, built in 7 seconds
+==> Determining libtextcat bottle rebuild...
+==> Bottling libtextcat-2.2.x86_64_linux.bottle.tar.gz...
+./libtextcat-2.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "80f5dc0de574c3d229b992a964a01bee5c75f3f08929fbb08efedd338cf141d0" => :x86_64_linux
+    sha256 "e6f25dd60eb0547a0b67d63ca93222197c3be82a295039aed9b207985044d656" => :x86_64_linux
   end
