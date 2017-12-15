@@ -1,13 +1,4 @@
-==> Downloading https://downloads.sourceforge.net/project/latex2rtf/latex2rtf-unix/2.3.16/latex2rtf-2.3.16.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/latex2rtf/latex2rtf-unix/2.3.16/latex2rtf-2.3.16.tar.gz
-==> make DESTDIR= BINDIR=/home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16/bin MANDIR=/home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16/share/man/man1 INFODIR=/home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16/share/info SUPPORTDIR=/home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16/share/latex2rtf CFGDIR=/home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16/share/latex2rtf/cfg install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall latex2rtf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/latex2rtf/2.3.16: 65 files, 1.2MB, built in 1 second
-==> Determining latex2rtf bottle rebuild...
-==> Bottling latex2rtf-2.3.16.x86_64_linux.bottle.1.tar.gz...
-./latex2rtf-2.3.16.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "71cd0c2242bb3089dbbe5dd6314510330bad5fb5dbce008bb5dbe0b39ccd1903" => :x86_64_linux
-  end
+==> Downloading https://downloads.sourceforge.net/project/launch4j/launch4j-3/3.11/launch4j-3.11-macosx-x86.tgz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/launch4j/launch4j-3/3.11/launch4j-3.11-macosx-x86.tgz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/launch4j/3.11: 117 files, 14.8MB, built in 2 seconds
+This formula doesn't require compiling.
