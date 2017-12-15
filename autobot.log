@@ -1,8 +1,8 @@
-==> Determining linuxbrew/xorg/xwud bottle rebuild...
-==> Bottling xwud-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./xwud-1.0.4.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "93e92c87644b1608f9ecf07617867381fc99bb2c1da5bf6633730e0d08fb9920" => :x86_64_linux
-  end
+==> Downloading https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2019791/95c29130-9153-11e6-8ba7-34144968de9f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T234926Z&X-Amz-Expires=300&X-Amz-Signature=f530ada14a5321a5f7b9bf0be5618732de41aa1b6bed976564f8918a7068d3ba&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dliquibase-3.5.3-bin.tar.gz&response-content-type=application%2Foctet-stream
+==> Caveats
+You should set the environment variable LIQUIBASE_HOME to
+  /home/linuxbrew/.linuxbrew/opt/liquibase/libexec
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liquibase/3.5.3: 1,948 files, 39MB, built in 3 seconds
+This formula doesn't require compiling.
