@@ -1,23 +1,19 @@
-==> Installing hmmer2 from homebrew/science
-==> Downloading http://eddylab.org/software/hmmer/2.3.2/hmmer-2.3.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2/share/man --enable-threads
-==> make
-==> make install
+==> Installing hotspot from homebrew/science
+==> Downloading https://github.com/rthurman/hotspot/archive/v4.1.0.tar.gz
+==> Downloading from https://codeload.github.com/rthurman/hotspot/tar.gz/v4.1.0
+==> make -C hotspot-distr/hotspot-deploy
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/hmmer2`
+You can run it manually using `brew postinstall homebrew/science/hotspot`
 ==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because hmmer2 conflicts with hmmer version 3.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/hmmer2/bin:$PATH"' >> ~/.bash_profile
-
+Run the test suite (~1 hr):
+  /home/linuxbrew/.linuxbrew/opt/hotspot/share/hotspot/pipeline-scripts/test/runhotspot
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hmmer2/2.3.2: 24 files, 8.6MB, built in 15 seconds
-==> Determining homebrew/science/hmmer2 bottle rebuild...
-==> Bottling hmmer2-2.3.2.x86_64_linux.bottle.tar.gz...
-==> Detecting if hmmer2-2.3.2.x86_64_linux.bottle.tar.gz is relocatable...
-./hmmer2-2.3.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hotspot/4.1.0_2: 31 files, 16.0MB, built in 5 seconds
+==> Determining homebrew/science/hotspot bottle rebuild...
+==> Bottling hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hotspot-4.1.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "392bc8a2eb6157ce55ed641330f48d5d3f90fd3bb527b1e7be7d15cd21ea8ae3" => :x86_64_linux
+    rebuild 1
+    sha256 "e6d15b0eecd353f060ca8abc240bbfa22341e1446c5033461dc3423dfb6dbf73" => :x86_64_linux
   end
