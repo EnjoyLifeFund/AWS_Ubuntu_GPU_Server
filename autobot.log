@@ -1,14 +1,15 @@
-==> Installing mhap from homebrew/science
-==> Downloading https://github.com/marbl/MHAP/releases/download/v2.1.1/mhap-2.1.1.jar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/21794748/8208ba34-8a5a-11e6-990d-b8b529dc5042?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T095224Z&X-Amz-Expires=300&X-Amz-Signature=d239392cb50cfe005f330ef9927c23243160aa54e6a04470bb6e877158d02f41&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dmhap-2.1.1.jar.gz&response-content-type=application%2Foctet-stream
+==> Installing minced from homebrew/science
+==> Downloading https://github.com/ctSkennerton/minced/archive/0.2.0.tar.gz
+==> Downloading from https://codeload.github.com/ctSkennerton/minced/tar.gz/0.2.0
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mhap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mhap/2.1.1: 4 files, 825.1KB, built in 2 seconds
-==> Determining homebrew/science/mhap bottle rebuild...
-==> Bottling mhap-2.1.1.x86_64_linux.bottle.1.tar.gz...
-./mhap-2.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/minced`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minced/0.2.0: 9 files, 1.6MB, built in 3 seconds
+==> Determining homebrew/science/minced bottle rebuild...
+==> Bottling minced-0.2.0.x86_64_linux.bottle.1.tar.gz...
+./minced-0.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cdbf4ca9994a586393b3c45d062a947a1031cf809d2d8eda28237aee2781bc69" => :x86_64_linux
+    sha256 "7d54048f87fe7f097422a5d9652aebfd4df1273e633e7d991fa28ae3ba4b1d08" => :x86_64_linux
   end
