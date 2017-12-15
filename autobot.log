@@ -1,50 +1,14 @@
-==> Installing plasma from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading http://icl.cs.utk.edu/projectsfiles/plasma/pubs/plasma_2.8.0.tar.gz
-==> Patching
-patching file timing/Makefile
-==> Downloading http://www.netlib.org/lapack/lapack-3.6.0.tgz
-==> make lapacke CC=gcc-6 FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true
-==> make tmglib CC=gcc-6 FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2 CC=gcc-6 FC=/home/linuxbrew/.linuxbrew/bin/gfortran RANLIB=true FFLAGS= LIBBLAS=-lblas LIBLAPACK=-llapack LIBCBLAS=-lcblas INCCLAPACK=-I/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2/include LIBCLAPACK=-L/home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2/lib -llapacke -ltmglib PLASMA_F90=1
-==> make test
-==> make example
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink include/cblas.h
-Target /home/linuxbrew/.linuxbrew/include/cblas.h
-is a symlink belonging to openblas. You can unlink it:
-  brew unlink openblas
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite plasma
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run plasma
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/include/cblas.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/cblas.h
-/home/linuxbrew/.linuxbrew/include/lapacke.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke.h
-/home/linuxbrew/.linuxbrew/include/lapacke_config.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_config.h
-/home/linuxbrew/.linuxbrew/include/lapacke_mangling.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_mangling.h
-/home/linuxbrew/.linuxbrew/include/lapacke_utils.h -> /home/linuxbrew/.linuxbrew/Cellar/openblas/0.2.20/include/lapacke_utils.h
+==> Installing platypusvar from homebrew/science
+==> Downloading http://www.well.ox.ac.uk/bioinformatics/Software/Platypus-latest.tgz
+==> python setup.py build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/plasma`
-==> Caveats
-PLASMA should not be used in conjunction with a multithreaded BLAS to avoid
-creating more threads than actual cores. Please set
-
-  export VECLIB_MAXIMUM_THREADS=1
-
-when using PLASMA.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/plasma/2.8.0_2: 585 files, 79.7MB, built in 1 minute 27 seconds
-==> Determining homebrew/science/plasma bottle rebuild...
-==> Bottling plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./plasma-2.8.0_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/platypusvar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/platypusvar/0.8.1: 31 files, 2.1MB, built in 56 seconds
+==> Determining homebrew/science/platypusvar bottle rebuild...
+==> Bottling platypusvar-0.8.1.x86_64_linux.bottle.1.tar.gz...
+./platypusvar-0.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0028cc9664ac1233de63b0791ab910490a61bd38beafd976c0239419e5223d97" => :x86_64_linux
+    sha256 "7b394a03eac97258cdb0caa220da904e1d1d0fb4392c7628549e248c356b818b" => :x86_64_linux
   end
