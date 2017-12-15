@@ -1,18 +1,16 @@
-==> Installing openmeeg from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/openmeeg/openmeeg/archive/2.4-rc.tar.gz
-==> Downloading from https://codeload.github.com/openmeeg/openmeeg/tar.gz/2.4-rc
-==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/openmeeg/2.4-rc -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=ON -DENABLE_PYTHON=OFF -DBUILD_DOCUMENTATION=OFF -DUSE_PROGRESSBAR=ON -DUSE_OMP=ON ../OpenMEEG
-==> make install
+==> Installing oswitch from homebrew/science
+==> Downloading https://github.com/yeban/oswitch/archive/v0.2.7.tar.gz
+==> Downloading from https://github.com/wurmlab/oswitch/archive/v0.2.7.tar.gz
+==> gem build oswitch.gemspec
+==> gem install -i /home/linuxbrew/.linuxbrew/Cellar/oswitch/0.2.7 oswitch-0.2.7.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/openmeeg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openmeeg/2.4-rc: 94 files, 4.9MB, built in 29 seconds
-==> Determining homebrew/science/openmeeg bottle rebuild...
-==> Bottling openmeeg-2.4-rc.x86_64_linux.bottle.1.tar.gz...
-./openmeeg-2.4-rc.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/oswitch`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/oswitch/0.2.7: 29 files, 156.5KB, built in 2 seconds
+==> Determining homebrew/science/oswitch bottle rebuild...
+==> Bottling oswitch-0.2.7.x86_64_linux.bottle.1.tar.gz...
+./oswitch-0.2.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "d448b4e23badf66e2559159470675712a6127c68aba5fc0d31c0c9855c4bd16f" => :x86_64_linux
+    sha256 "589486204d1131f5251a9636fd91e2f1d3a64526d822ee971fbd1394044080b5" => :x86_64_linux
   end
