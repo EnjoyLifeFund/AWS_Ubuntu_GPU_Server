@@ -1,15 +1,4 @@
-==> Installing exonerate from homebrew/science
-==> Downloading http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.2.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exonerate/2.2.0
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/exonerate`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/exonerate/2.2.0: 39 files, 18.1MB, built in 8 minutes 26 seconds
-==> Determining homebrew/science/exonerate bottle rebuild...
-==> Bottling exonerate-2.2.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if exonerate-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
-./exonerate-2.2.0.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "957f7fa18476d38418b2dcb5e56006ac75d4a58d773d9232b6bb7af85afa48c5" => :x86_64_linux
-  end
+==> Installing vague from homebrew/science
+==> Downloading http://www.vicbioinformatics.com/vague-1.0.5.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/vague/1.0.5: 8 files, 17MB, built in 6 seconds
+This formula doesn't require compiling.
