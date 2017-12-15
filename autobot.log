@@ -1,13 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/gzip/gzip-1.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gzip/1.8
-==> make install
+==> Downloading http://www.urbanophile.com/arenn/coding/gzrt/gzrt-0.8.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gzip`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gzip/1.8: 34 files, 565.6KB, built in 34 seconds
-==> Determining gzip bottle rebuild...
-==> Bottling gzip-1.8.x86_64_linux.bottle.1.tar.gz...
-./gzip-1.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gzrt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gzrt/0.8: 6 files, 44.2KB, built in 1 second
+==> Determining gzrt bottle rebuild...
+==> Bottling gzrt-0.8.x86_64_linux.bottle.1.tar.gz...
+./gzrt-0.8.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f9e31d508628fc7651d6233d2d3275951c9485182974faa24477037f2ae06ce1" => :x86_64_linux
+    sha256 "2a60f80f7f369be74088bd4427bdb5f15765121b9b3b0726b53260ba6671ce68" => :x86_64_linux
   end
