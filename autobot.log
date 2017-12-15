@@ -1,24 +1,15 @@
-==> Downloading http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/jove4.16.0.73.tgz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/3cada68f/jove/patch-getline.diff
-==> Patching
-==> Applying patch-getline.diff
-patching file insert.c
-patching file io.c
-Hunk #1 succeeded at 1356 (offset 9 lines).
-patching file io.h
-patching file recover.c
-Hunk #1 succeeded at 166 (offset 1 line).
-Hunk #2 succeeded at 597 (offset 17 lines).
-patching file util.c
-patching file util.h
-==> make install JOVEHOME=/home/linuxbrew/.linuxbrew/Cellar/jove/4.16.0.73 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/jove/4.16.0.73/share/man/man1
+==> Downloading https://downloads.sourceforge.net/project/jp2a/jp2a/1.0.6/jp2a-1.0.6.tar.gz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/jp2a/jp2a/1.0.6/jp2a-1.0.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jp2a/1.0.6_1
+==> make test
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jove`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jove/4.16.0.73: 29 files, 559.6KB, built in 2 seconds
-==> Determining jove bottle rebuild...
-==> Bottling jove-4.16.0.73.x86_64_linux.bottle.1.tar.gz...
-./jove-4.16.0.73.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jp2a`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jp2a/1.0.6_1: 9 files, 155.5KB, built in 7 seconds
+==> Determining jp2a bottle rebuild...
+==> Bottling jp2a-1.0.6_1.x86_64_linux.bottle.1.tar.gz...
+./jp2a-1.0.6_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "959ad9b19877c94092292b97f192a40fd2307558066905fe607e5a1639e176f1" => :x86_64_linux
+    sha256 "f7ea627b53fa17ab66417f56d29fe4cd32bc5a3878148bccf656239a7a21860f" => :x86_64_linux
   end
