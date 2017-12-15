@@ -1,16 +1,15 @@
-==> Installing xkbevd from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xkbevd-1.1.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkbevd/1.1.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xkbutils from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xkbutils-1.0.4.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xkbutils-1.0.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkbutils/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xkbevd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xkbevd/1.1.4: 7 files, 223.8KB, built in 6 seconds
-==> Determining linuxbrew/xorg/xkbevd bottle rebuild...
-==> Bottling xkbevd-1.1.4.x86_64_linux.bottle.1.tar.gz...
-./xkbevd-1.1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xkbutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xkbutils/1.0.4: 11 files, 243.3KB, built in 8 seconds
+==> Determining linuxbrew/xorg/xkbutils bottle rebuild...
+==> Bottling xkbutils-1.0.4.x86_64_linux.bottle.tar.gz...
+./xkbutils-1.0.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "738d2e688d4d4150ab17423c29eaf2ce01fa8851467d688fa2bebafec5a37eed" => :x86_64_linux
+    sha256 "6fecd786bca59b279d1b3fc95f59d642bd9cb120aae28678f211c8d385929be6" => :x86_64_linux
   end
