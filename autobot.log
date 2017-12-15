@@ -1,7 +1,14 @@
-==> Determining jack bottle rebuild...
-==> Bottling jack-0.125.0_2.x86_64_linux.bottle.1.tar.gz...
-./jack-0.125.0_2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://mirror.httrack.com/historical/httrack-3.49.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httrack/3.49.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall httrack`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/httrack/3.49.2: 247 files, 11.8MB, built in 1 minute 3 seconds
+==> Determining httrack bottle rebuild...
+==> Bottling httrack-3.49.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if httrack-3.49.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./httrack-3.49.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a4f61747037a9971e4a5ffd1173f48676637a9e8c66ce2e6fff40fa45e36714b" => :x86_64_linux
+    sha256 "a428c79e5b021803c0b7e59dbae1041b3ef8bd2fe0780c8f4e9d0523306951f7" => :x86_64_linux
   end
