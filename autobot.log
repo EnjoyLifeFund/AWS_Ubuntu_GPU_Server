@@ -1,15 +1,15 @@
-==> Downloading http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/juman/juman-7.01.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/juman/7.01
-==> make
-==> make install
+==> Downloading https://github.com/gsamokovarov/jump/archive/v0.13.0.tar.gz
+==> Downloading from https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.13.0
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jump/0.13.0/bin/jump
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall juman`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/juman/7.01: 32 files, 31.8MB, built in 28 seconds
-==> Determining juman bottle rebuild...
-==> Bottling juman-7.01.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if juman-7.01.x86_64_linux.bottle.1.tar.gz is relocatable...
-./juman-7.01.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jump`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jump/0.13.0: 6 files, 3.3MB, built in 1 second
+==> Determining jump bottle rebuild...
+==> Bottling jump-0.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jump-0.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jump-0.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a670c8ac1b35c7ad46ae68ace5cfb45960b2d5910566634dda54ec4a31dd481d" => :x86_64_linux
+    sha256 "ecb0194ee7a19ba73ad02eaf656caa78e03d2fd20394bc5e82e3b36784d05493" => :x86_64_linux
   end
