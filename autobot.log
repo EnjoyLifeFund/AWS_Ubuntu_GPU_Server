@@ -1,14 +1,12 @@
-==> Downloading https://github.com/devnev/libxdg-basedir/archive/libxdg-basedir-1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/devnev/libxdg-basedir/tar.gz/libxdg-basedir-1.2.0
-==> ./autogen.sh --disable-dependency-tracking --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxdg-basedir/1.2.0
+==> Downloading http://www.xmailserver.org/libxdiff-0.23.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxdg-basedir`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxdg-basedir/1.2.0: 10 files, 103KB, built in 18 seconds
-==> Determining libxdg-basedir bottle rebuild...
-==> Bottling libxdg-basedir-1.2.0.x86_64_linux.bottle.1.tar.gz...
-./libxdg-basedir-1.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libxdiff`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23: 13 files, 457.8KB, built in 9 seconds
+==> Determining libxdiff bottle rebuild...
+==> Bottling libxdiff-0.23.x86_64_linux.bottle.tar.gz...
+./libxdiff-0.23.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "996ccdff0aa8e4138b62b118fa045eb06fac797585f6a22932c005652bcdad1f" => :x86_64_linux
+    sha256 "a330daaa2239800bc9c26a6295c4f00ba0ffeb383367f04bd085f8121f8dda35" => :x86_64_linux
   end
