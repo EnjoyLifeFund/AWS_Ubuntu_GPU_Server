@@ -1,11 +1,32 @@
-==> Upgrading 1 outdated package, with result:
-jenkins 2.94
-==> Upgrading jenkins 
-==> Downloading http://mirrors.jenkins.io/war/2.94/jenkins.war
-==> Downloading from http://ftp-nyc.osuosl.org/pub/jenkins/war/2.94/jenkins.war
-==> jar xvf jenkins.war
-==> Caveats
-Note: When using launchctl the port will be 8080.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jenkins/2.94: 6 files, 74.0MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://files.pythonhosted.org/packages/c9/2f/1b4ccfbea99b4abada5a852f7704a83cc0f93c707d8b12da6de78366aa68/jenkins-job-builder-1.6.2.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/c3/2c/63275fab26a0fd8cadafca71a3623e4d0f0ee8ed7124a5bb128853d178a7/pbr-1.10.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/o/ordereddict/ordereddict-1.1.tar.gz
+==> Downloading from https://pypi.python.org/packages/53/25/ef88e8e45db141faa9598fbf7ad0062df8f50f881a36ed6a0073e1572126/ordereddict-1.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/09/1c/72bc7d3e1964633b29c9013813e3c0da0f6ae15c901ddc3863e2c54e87f7/python-jenkins-0.4.15.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/s/six/six-1.10.0.tar.gz
+==> Downloading from https://pypi.python.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/p/pip/pip-7.1.2.tar.gz
+==> Downloading from https://pypi.python.org/packages/d0/92/1e8406c15d9372084a5bf79d96da3a0acc4e7fcf0b80020a4820897d2a5c/pip-7.1.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/m/multi_key_dict/multi_key_dict-2.0.3.tar.gz
+==> Downloading from https://pypi.python.org/packages/6d/97/2e9c47ca1bbde6f09cb18feb887d5102e8eacd82fbc397c77b221f27a2ab/multi_key_dict-2.0.3.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jenkins-job-builder`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jenkins-job-builder/1.6.2: 731 files, 9.3MB, built in 9 seconds
+==> Determining jenkins-job-builder bottle rebuild...
+==> Bottling jenkins-job-builder-1.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jenkins-job-builder-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jenkins-job-builder-1.6.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "388b23dc51c8509a4bcb97dc360e9ad6d22b06433b0f65bd51b74515cd1bba92" => :x86_64_linux
+  end
