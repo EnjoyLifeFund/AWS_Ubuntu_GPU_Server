@@ -1,13 +1,14 @@
-==> Downloading https://www.intra2net.com/en/developer/libftdi/download/libftdi1-1.4.tar.bz2
-==> cmake .. -DPYTHON_BINDINGS=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libftdi/1.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/wojtekka/libgadu/releases/download/1.12.2/libgadu-1.12.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/3800702/f3575d56-dfc0-11e6-95fc-bf1224618746?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T212501Z&X-Amz-Expires=300&X-Amz-Signature=4ad1a3de8a9c563e0bb808dafb5a9badd3d4ad3f8ebe9921f3287527b33e362a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibgadu-1.12.2.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgadu/1.12.2 --without-pthread
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libftdi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libftdi/1.4: 26 files, 529KB, built in 7 seconds
-==> Determining libftdi bottle rebuild...
-==> Bottling libftdi-1.4.x86_64_linux.bottle.tar.gz...
-./libftdi-1.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libgadu`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgadu/1.12.2: 13 files, 2.6MB, built in 11 seconds
+==> Determining libgadu bottle rebuild...
+==> Bottling libgadu-1.12.2.x86_64_linux.bottle.1.tar.gz...
+./libgadu-1.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "74fbad8e4cc830a50d2e286e2a8f7df7aa4ad50e2e53ba8d5605cbbdb420dbd8" => :x86_64_linux
+    rebuild 1
+    sha256 "32715bf02b268538386520a5c2579394714c75f5f7856aea35351e4a01caec57" => :x86_64_linux
   end
