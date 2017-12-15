@@ -1,17 +1,14 @@
-==> Installing opencollada from homebrew/science
-==> Downloading https://github.com/KhronosGroup/OpenCOLLADA/archive/v1.6.59.tar.gz
-==> Downloading from https://codeload.github.com/KhronosGroup/OpenCOLLADA/tar.gz/v1.6.59
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/opencollada/1.6.59 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Installing spici from homebrew/science
+==> Downloading http://compbio.cs.princeton.edu/spici/files/SPICi.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/spici/20130427
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/opencollada`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/opencollada/1.6.59: 354 files, 137.4MB, built in 1 minute 1 second
-==> Determining homebrew/science/opencollada bottle rebuild...
-==> Bottling opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz is relocatable...
-./opencollada-1.6.59.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/spici`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/spici/20130427: 9 files, 576.6KB, built in 11 seconds
+==> Determining homebrew/science/spici bottle rebuild...
+==> Bottling spici-20130427.x86_64_linux.bottle.1.tar.gz...
+./spici-20130427.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f52b75bb2f0bb7588e0797a7287025b22164eb60b156f6a875591e3f3d31ffc7" => :x86_64_linux
+    sha256 "9089d28af57d41641f69b93f776f10d3e4f7eea3ae4ca9c1b90cf245d91f9f90" => :x86_64_linux
   end
