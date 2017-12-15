@@ -1,8 +1,38 @@
-==> Determining libepoxy bottle rebuild...
-==> Bottling libepoxy-1.4.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libepoxy-1.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libepoxy-1.4.3.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for liberasurecode: jerasure
+==> Installing liberasurecode dependency: jerasure
+==> Downloading http://lab.jerasure.org/jerasure/jerasure/repository/archive.tar.gz?ref=v2.0
+==> autoreconf --force --install
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/jerasure/2.0
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/decoder
+Target /home/linuxbrew/.linuxbrew/bin/decoder
+is a symlink belonging to joshua. You can unlink it:
+  brew unlink joshua
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite jerasure
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run jerasure
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/decoder -> /home/linuxbrew/.linuxbrew/Cellar/joshua/6.0.5/bin/decoder
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jerasure/2.0: 35 files, 861.4KB, built in 35 seconds
+==> Installing liberasurecode
+==> Downloading https://github.com/openstack/liberasurecode/archive/1.5.0.tar.gz
+==> Downloading from https://codeload.github.com/openstack/liberasurecode/tar.gz/1.5.0
+==> ./autogen.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/liberasurecode/1.5.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liberasurecode`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liberasurecode/1.5.0: 45 files, 1005.7KB, built in 22 seconds
+==> Determining liberasurecode bottle rebuild...
+==> Bottling liberasurecode-1.5.0.x86_64_linux.bottle.1.tar.gz...
+./liberasurecode-1.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "40752b125c7f9377b4df422c8f7ebf5e7bb8862254fc0d55d9b6e2ad197e2b1d" => :x86_64_linux
+    sha256 "06b76b45d41e977d8a2edbac260d18fb49e242cee8018291770bb73006cd986c" => :x86_64_linux
   end
