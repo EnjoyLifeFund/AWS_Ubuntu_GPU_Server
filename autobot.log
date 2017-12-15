@@ -1,7 +1,17 @@
-==> Determining linuxbrew/xorg/libxfont bottle rebuild...
-==> Bottling libxfont-1.5.2.x86_64_linux.bottle.tar.gz...
-./libxfont-1.5.2.x86_64_linux.bottle.tar.gz
+==> Installing libxfont2 from linuxbrew/xorg
+==> Downloading https://ftp.x.org/pub/individual/lib/libXfont2-2.0.1.tar.bz2
+==> Downloading from https://ftp.x.org/archive//individual/lib/libXfont2-2.0.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxfont2/2.0.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no --enable-devel-docs=no --with-freetype-config=/home/linuxbrew/.linuxbrew/opt/freetype/bin/freetype-config
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/libxfont2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxfont2/2.0.1: 11 files, 1.2MB, built in 13 seconds
+==> Determining linuxbrew/xorg/libxfont2 bottle rebuild...
+==> Bottling libxfont2-2.0.1.x86_64_linux.bottle.1.tar.gz...
+./libxfont2-2.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "16f0340e8ee4cd552620e757f29fc1db4d4e352b9370248454638f5cd25b79cb" => :x86_64_linux
+    rebuild 1
+    sha256 "35ba9df5d8b631adcf76d51ade5fe061dff08ca0a73ae03154e004907e5abd0d" => :x86_64_linux
   end
