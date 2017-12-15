@@ -1,15 +1,14 @@
-==> Installing lastz from homebrew/science
-==> Downloading https://github.com/lastz/lastz/archive/1.04.00.tar.gz
-==> Downloading from https://codeload.github.com/lastz/lastz/tar.gz/1.04.00
-==> make definedForAll=-Wall
+==> Installing libbigwig from homebrew/science
+==> Downloading https://github.com/dpryan79/libBigWig/archive/0.4.1.tar.gz
+==> Downloading from https://codeload.github.com/dpryan79/libBigWig/tar.gz/0.4.1
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/libbigwig/0.4.1 INCLUDES=-I/home/linuxbrew/.linuxbrew/opt/curl/include LDLIBS=-L/home/linuxbrew/.linuxbrew/opt/curl/lib
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/lastz`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lastz/1.04.00: 27 files, 1.5MB, built in 3 seconds
-==> Determining homebrew/science/lastz bottle rebuild...
-==> Bottling lastz-1.04.00.x86_64_linux.bottle.1.tar.gz...
-./lastz-1.04.00.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libbigwig`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libbigwig/0.4.1: 10 files, 561.6KB, built in 1 second
+==> Determining homebrew/science/libbigwig bottle rebuild...
+==> Bottling libbigwig-0.4.1.x86_64_linux.bottle.1.tar.gz...
+./libbigwig-0.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "903f5a2eaa48ccfdd20cec678a0c3be42a8ad8fc40dd0a699e7847cbecfa7829" => :x86_64_linux
+    sha256 "89eb9b7b57b5a4ad8d2820b1177fcf61c4fd4a9f1fc027746ebb6ccd343e4639" => :x86_64_linux
   end
