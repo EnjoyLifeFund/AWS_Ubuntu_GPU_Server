@@ -1,15 +1,15 @@
-==> Installing sais from homebrew/science
-==> Downloading https://sites.google.com/site/yuta256/sais-2.4.1.zip
-==> Downloading from https://sites.google.com/site/yuta256/sais-2.4.1.zip?attredirects=0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/sais/2.4.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Installing sally from homebrew/science
+==> Downloading http://www.mlsec.org/sally/files/sally-1.0.0.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/sally/1.0.0
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/sais`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sais/2.4.1: 8 files, 82.8KB, built in 9 seconds
-==> Determining homebrew/science/sais bottle rebuild...
-==> Bottling sais-2.4.1.x86_64_linux.bottle.tar.gz...
-./sais-2.4.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/sally`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sally/1.0.0: 8 files, 430.4KB, built in 15 seconds
+==> Determining homebrew/science/sally bottle rebuild...
+==> Bottling sally-1.0.0.x86_64_linux.bottle.1.tar.gz...
+./sally-1.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "51d15df2e026ab7037ae2e697bd40bb61f1d867385e63f0fdda096550ec02d9e" => :x86_64_linux
+    rebuild 1
+    sha256 "6a3b9ab2c2fb9374c697e0d83d447302ea32a6cbb319a8b6bb9bcb6f4300a4c5" => :x86_64_linux
   end
