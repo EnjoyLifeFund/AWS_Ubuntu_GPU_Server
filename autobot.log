@@ -1,15 +1,15 @@
-==> Downloading https://github.com/strophe/libstrophe/archive/0.9.1.tar.gz
-==> Downloading from https://codeload.github.com/strophe/libstrophe/tar.gz/0.9.1
-==> ./bootstrap.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libstrophe/0.9.1
+==> Downloading https://downloads.sourceforge.net/project/stxxl/stxxl/1.4.1/stxxl-1.4.1.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/stxxl/stxxl/1.4.1/stxxl-1.4.1.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libstxxl/1.4.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_BUILD_TYPE=Release
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libstrophe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libstrophe/0.9.1: 15 files, 1MB, built in 18 seconds
-==> Determining libstrophe bottle rebuild...
-==> Bottling libstrophe-0.9.1.x86_64_linux.bottle.1.tar.gz...
-./libstrophe-0.9.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libstxxl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libstxxl/1.4.1: 181 files, 12.7MB, built in 20 seconds
+==> Determining libstxxl bottle rebuild...
+==> Bottling libstxxl-1.4.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libstxxl-1.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libstxxl-1.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5ed46d4dffc3d960def96d5acd49c62ed37ac9971cef591845734970743c6c89" => :x86_64_linux
+    sha256 "3b82405c8583909f04d11a44cbfe7f2a32df8c3419015f0aa368af4dae152413" => :x86_64_linux
   end
