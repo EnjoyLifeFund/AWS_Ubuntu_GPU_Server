@@ -1,14 +1,20 @@
-==> Installing fermi from homebrew/science
-==> Downloading https://github.com/lh3/fermi/archive/1.1.tar.gz
-==> Downloading from https://codeload.github.com/lh3/fermi/tar.gz/1.1
+==> Installing fermi2 from homebrew/science
+==> Installing dependencies for homebrew/science/fermi2: ropebwt2
+==> Installing homebrew/science/fermi2 dependency: ropebwt2
+==> Downloading https://linuxbrew.bintray.com/bottles-science/ropebwt2-r181.x86_64_linux.bottle.tar.gz
+==> Pouring ropebwt2-r181.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ropebwt2/r181: 4 files, 262.7KB
+==> Installing homebrew/science/fermi2
+==> Downloading https://github.com/lh3/fermi2/archive/0.1.tar.gz
+==> Downloading from https://codeload.github.com/lh3/fermi2/tar.gz/0.1
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fermi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fermi/1.1: 5 files, 927.3KB, built in 3 seconds
-==> Determining homebrew/science/fermi bottle rebuild...
-==> Bottling fermi-1.1.x86_64_linux.bottle.1.tar.gz...
-./fermi-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fermi2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fermi2/0.1: 6 files, 715.2KB, built in 3 seconds
+==> Determining homebrew/science/fermi2 bottle rebuild...
+==> Bottling fermi2-0.1.x86_64_linux.bottle.1.tar.gz...
+./fermi2-0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a1692ee3a5a8660fcc37f65ed166ad54fdc4d03691ad6004df2ebf27fa3bc231" => :x86_64_linux
+    sha256 "0fe4745d4f194972a3c78e80bef1281377988a94a3133cfa0196472c02ba55f4" => :x86_64_linux
   end
