@@ -1,30 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/libpng/libpng12/older-releases/1.2.54/libpng-1.2.54.tar.xz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/libpng/libpng12/older-releases/1.2.54/libpng-1.2.54.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpng@1.2/1.2.54
-==> make
-==> make test
+==> Downloading http://download.gna.org/pokersource/sources/poker-eval-138.0.tar.gz
+Trying a mirror...
+==> Downloading http://ftp.nchc.org.tw/BSD/FreeBSD/ports/distfiles/poker-eval-138.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpoker-eval/138.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libpng@1.2`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/libpng@1.2/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/libpng@1.2/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/libpng@1.2/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/libpng@1.2/lib/pkgconfig
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpng@1.2/1.2.54: 25 files, 2.5MB, built in 9 seconds
-==> Determining libpng@1.2 bottle rebuild...
-==> Bottling libpng@1.2-1.2.54.x86_64_linux.bottle.1.tar.gz...
-./libpng@1.2-1.2.54.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libpoker-eval`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libpoker-eval/138.0: 50 files, 2MB, built in 2 minutes 29 seconds
+==> Determining libpoker-eval bottle rebuild...
+==> Bottling libpoker-eval-138.0.x86_64_linux.bottle.tar.gz...
+./libpoker-eval-138.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "446abd45fd8a4f02d8b51bec827de9a99eaa1ec991ffa647a067436b6dc93f24" => :x86_64_linux
+    sha256 "17b3a6a93914e315d1757d84de43607feb719a340b86e7cdff12eb948ec78208" => :x86_64_linux
   end
