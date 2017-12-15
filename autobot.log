@@ -1,14 +1,8 @@
-==> Downloading https://www.jedsoft.org/releases/jed/jed-0.99-19.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jed/0.99-19 --with-slang=/home/linuxbrew/.linuxbrew/opt/s-lang
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jed`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jed/0.99-19: 213 files, 2.9MB, built in 10 seconds
-==> Determining jed bottle rebuild...
-==> Bottling jed-0.99-19.x86_64_linux.bottle.1.tar.gz...
-./jed-0.99-19.x86_64_linux.bottle.1.tar.gz
+==> Determining jemalloc bottle rebuild...
+==> Bottling jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b55131e78327d7a8b140a9f9181ddeb123efaf3be7d3f4a4081d71ac1a07d891" => :x86_64_linux
+    sha256 "0047ef61f385d455d0399bd66ee45967ec624eef26ca6aa02333ae350f0de334" => :x86_64_linux
   end
