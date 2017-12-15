@@ -1,152 +1,29 @@
-==> Installing xorg-cf-files from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/util/xorg-cf-files-1.0.6.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/util/xorg-cf-files-1.0.6.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xorg-cf-files/1.0.6 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xorg-docs from linuxbrew/xorg
+==> Installing dependencies for linuxbrew/xorg/xorg-docs: linuxbrew/xorg/xorg-sgml-doctools
+==> Installing linuxbrew/xorg/xorg-docs dependency: linuxbrew/xorg/xorg-sgml-doctools
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xorg-sgml-doctools-1.11.x86_64_linux.bottle.tar.gz
+==> Pouring xorg-sgml-doctools-1.11.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-sgml-doctools/1.11: 13 files, 128.9KB
+==> Installing linuxbrew/xorg/xorg-docs
+==> Downloading https://www.x.org/archive/individual/doc/xorg-docs-1.7.tar.bz2
+==> Downloading https://raw.githubusercontent.com/Linuxbrew/homebrew-xorg/master/patch_configure.diff
+==> Patching
+==> Applying patch_configure.diff
+patching file configure
+Hunk #1 succeeded at 10645 (offset -8002 lines).
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/xorg-docs/1.7 --enable-docs=yes --enable-specs=yes
 ==> make
+==> make check
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink lib/X11/config/Amoeba.cf
-Target /home/linuxbrew/.linuxbrew/lib/X11/config/Amoeba.cf
-is a symlink belonging to imake. You can unlink it:
-  brew unlink imake
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite xorg-cf-files
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run xorg-cf-files
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/lib/X11/config/Amoeba.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Amoeba.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/DGUX.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/DGUX.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/DragonFly.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/DragonFly.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/FreeBSD.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/FreeBSD.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/Imake.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Imake.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/Imake.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Imake.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/Imake.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Imake.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/Library.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Library.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/Mips.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Mips.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/Motif.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Motif.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/Motif.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Motif.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/NetBSD.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/NetBSD.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/Oki.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Oki.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/OpenBSD.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/OpenBSD.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/OpenBSDLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/OpenBSDLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/OpenBSDLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/OpenBSDLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/QNX4.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/QNX4.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/QNX4.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/QNX4.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/Server.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Server.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/ServerLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ServerLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/Threads.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Threads.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/Win32.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Win32.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/Win32.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/Win32.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/WinLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/WinLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/X11.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/X11.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/X11.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/X11.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/apollo.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/apollo.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsd.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsd.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsdLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsdLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsdLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsdLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsdi.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsdi.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsdiLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsdiLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/bsdiLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/bsdiLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/cde.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cde.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/cde.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cde.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/convex.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/convex.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/cray.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cray.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/cross.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cross.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/cross.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cross.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/cygwin.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cygwin.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/cygwin.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cygwin.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/cygwin.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/cygwin.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/darwin.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/darwin.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/darwinLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/darwinLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/darwinLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/darwinLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/date.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/date.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/dmx.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/dmx.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/fujitsu.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/fujitsu.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/generic.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/generic.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/gnu.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/gnu.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/gnuLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/gnuLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/gnuLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/gnuLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/host.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/host.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/hp.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/hp.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/hpLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/hpLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/hpLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/hpLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/ibm.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ibm.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/ibmLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ibmLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/ibmLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ibmLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/isc.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/isc.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/linux.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/linux.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/lnxLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/lnxLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/lnxLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/lnxLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/lnxdoc.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/lnxdoc.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/lnxdoc.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/lnxdoc.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/luna.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/luna.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/lynx.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/lynx.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/macII.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/macII.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/mach.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/mach.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/mingw.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/mingw.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/mingw.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/mingw.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/mingw.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/mingw.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/minix.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/minix.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/moto.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/moto.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/ncr.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ncr.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/nec.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/nec.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/necLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/necLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/necLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/necLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/noop.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/noop.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/nto.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/nto.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/nto.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/nto.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/oldlib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/oldlib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/os2.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/os2.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/os2.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/os2.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/os2Lib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/os2Lib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/os2Lib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/os2Lib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/osf1.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/osf1.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/osfLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/osfLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/osfLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/osfLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/pegasus.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/pegasus.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sco.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sco.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sco5.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sco5.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/scoLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/scoLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sequent.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sequent.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sequentLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sequentLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sgi.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sgi.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sgiLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sgiLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sgiLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sgiLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/site.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/site.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/sony.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sony.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sun.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sun.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/sunLib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sunLib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sunLib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sunLib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/sv3Lib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sv3Lib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sv3Lib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sv3Lib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/sv4Lib.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sv4Lib.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/sv4Lib.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/sv4Lib.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/svr3.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/svr3.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/svr4.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/svr4.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/ultrix.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/ultrix.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/usl.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/usl.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/version.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/version.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/x386.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/x386.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/xf86.rules -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xf86.rules
-/home/linuxbrew/.linuxbrew/lib/X11/config/xf86.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xf86.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/xf86site.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xf86site.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/xfree86.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xfree86.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/xorg.cf -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xorg.cf
-/home/linuxbrew/.linuxbrew/lib/X11/config/xorg.tmpl -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xorg.tmpl
-/home/linuxbrew/.linuxbrew/lib/X11/config/xorgsite.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xorgsite.def
-/home/linuxbrew/.linuxbrew/lib/X11/config/xorgversion.def -> /home/linuxbrew/.linuxbrew/Cellar/imake/1.0.7_3/lib/X11/config/xorgversion.def
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xorg-cf-files`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-cf-files/1.0.6: 126 files, 1.3MB, built in 9 seconds
-==> Determining linuxbrew/xorg/xorg-cf-files bottle rebuild...
-==> Bottling xorg-cf-files-1.0.6.x86_64_linux.bottle.1.tar.gz...
-./xorg-cf-files-1.0.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xorg-docs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-docs/1.7: 119 files, 7.0MB, built in 34 seconds
+==> Determining linuxbrew/xorg/xorg-docs bottle rebuild...
+==> Bottling xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "27c80a1c807f1727e79cdc8c9f526414dcb9a357fe71ccdcfd4632ac8be03b6e" => :x86_64_linux
+    sha256 "130bd4bd1d1d7f6c433aee055babc3d8fd4033e20b854c53d7a8dd0c44c2b2db" => :x86_64_linux
   end
