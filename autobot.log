@@ -1,13 +1,15 @@
-==> Downloading https://ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libstatgrab/0.91
+==> Downloading https://github.com/strophe/libstrophe/archive/0.9.1.tar.gz
+==> Downloading from https://codeload.github.com/strophe/libstrophe/tar.gz/0.9.1
+==> ./bootstrap.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libstrophe/0.9.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libstatgrab`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libstatgrab/0.91: 130 files, 2.0MB, built in 29 seconds
-==> Determining libstatgrab bottle rebuild...
-==> Bottling libstatgrab-0.91.x86_64_linux.bottle.1.tar.gz...
-./libstatgrab-0.91.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libstrophe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libstrophe/0.9.1: 15 files, 1MB, built in 18 seconds
+==> Determining libstrophe bottle rebuild...
+==> Bottling libstrophe-0.9.1.x86_64_linux.bottle.1.tar.gz...
+./libstrophe-0.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a9158fcb768d3aef128ccc2d3af0aebaf82acad6b920833ae824f3d70f8eae77" => :x86_64_linux
+    sha256 "5ed46d4dffc3d960def96d5acd49c62ed37ac9971cef591845734970743c6c89" => :x86_64_linux
   end
