@@ -1,14 +1,18 @@
-==> Downloading https://download.gnome.org/sources/gupnp-av/0.12/gupnp-av-0.12.10.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gupnp-av/0.12/gupnp-av-0.12.10.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gupnp-av/0.12.10
-==> make install
+==> Downloading https://github.com/Keats/gutenberg/archive/v0.2.2.tar.gz
+==> Downloading from https://codeload.github.com/Keats/gutenberg/tar.gz/v0.2.2
+==> cargo build --release
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gupnp-av`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gupnp-av/0.12.10: 71 files, 1.8MB, built in 21 seconds
-==> Determining gupnp-av bottle rebuild...
-==> Bottling gupnp-av-0.12.10.x86_64_linux.bottle.1.tar.gz...
-./gupnp-av-0.12.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gutenberg`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gutenberg/0.2.2: 9 files, 16.9MB, built in 6 minutes 30 seconds
+==> Determining gutenberg bottle rebuild...
+==> Bottling gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8ef847e4603e81083095f73625114cb636f2fd7f49de591999f1ea17986b58b0" => :x86_64_linux
+    sha256 "943c7c8ddbe696ee30201f25d206e187377c7c64ae0899fdabaf7a92f14cfb8a" => :x86_64_linux
   end
