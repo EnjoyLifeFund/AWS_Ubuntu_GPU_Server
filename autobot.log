@@ -1,13 +1,13 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jxrlib/jxrlib_1.1.orig.tar.gz
-==> make
+==> Downloading https://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.1/jython-installer-2.7.1.jar
+==> java -jar /home/ubuntu/.cache/Homebrew/jython-2.7.1.jar -s -d /home/linuxbrew/.linuxbrew/Cellar/jython/2.7.1/libexec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jxrlib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jxrlib/1.1: 62 files, 2.7MB, built in 2 seconds
-==> Determining jxrlib bottle rebuild...
-==> Bottling jxrlib-1.1.x86_64_linux.bottle.1.tar.gz...
-./jxrlib-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jython`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jython/2.7.1: 3,800 files, 149.6MB, built in 25 seconds
+==> Determining jython bottle rebuild...
+==> Bottling jython-2.7.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jython-2.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jython-2.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "109772f698c72eac81142a1ae537b31bdb29aaf35eb58ee5da43faadebb376ab" => :x86_64_linux
+    sha256 "35c967539dfd4e6a74681ab751715dad278e465b06d4a1d47d3f1b47c17725e9" => :x86_64_linux
   end
