@@ -1,17 +1,41 @@
-==> Downloading http://www.ex-parrot.com/pdw/iftop/download/iftop-1.0pre4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4/share/man
-==> make install
+==> Installing repeatmasker from homebrew/science
+==> Installing dependencies for homebrew/science/repeatmasker: rmblast, trf
+==> Installing homebrew/science/repeatmasker dependency: rmblast
+==> Downloading https://linuxbrew.bintray.com/bottles-science/rmblast-2.2.28_1.x86_64_linux.bottle.tar.gz
+==> Pouring rmblast-2.2.28_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/rmblast/2.2.28_1: 6 files, 25.2MB
+==> Installing homebrew/science/repeatmasker dependency: trf
+==> Downloading https://tandem.bu.edu/trf/downloads/trf409.linux64
+==> patchelf --set-rpath /home/linuxbrew/.linuxbrew --set-interpreter /home/linuxbrew/.linuxbrew/lib/ld.so /home/linuxbrew/.linuxbrew/Cellar/trf/4.09/bin/trf
+🍺  /home/linuxbrew/.linuxbrew/Cellar/trf/4.09: 3 files, 131.7KB, built in 2 seconds
+==> Installing homebrew/science/repeatmasker
+==> Downloading http://repeatmasker.org/RepeatMasker-open-4-0-7.tar.gz
+==> ./configure <config.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iftop`
+You can run it manually using `brew postinstall homebrew/science/repeatmasker`
 ==> Caveats
-iftop requires root privileges so you will need to run `sudo iftop`.
-You should be certain that you trust any software you grant root privileges.
+Congratulations!  RepeatMasker is now ready to use.
+The program is installed with a minimal repeat library
+by default.  This library only contains simple, low-complexity,
+and common artefact ( contaminate ) sequences.  These are
+adequate for use with your own custom repeat library.  If you
+plan to search using common species specific repeats you will
+need to obtain the complete RepeatMasker repeat library from
+GIRI ( www.girinst.org ) and install it:
+  cd /home/linuxbrew/.linuxbrew/opt/repeatmasker/libexec
+  tar zxvf repeatmaskerlibraries-20140131.tar.gz
+  ./configure <config.txt
+
+The default aligner is RMBlast. You may reconfigure RepeatMasker
+by running
+  cd /home/linuxbrew/.linuxbrew/opt/repeatmasker/libexec && ./configure
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4: 10 files, 295.6KB, built in 8 seconds
-==> Determining iftop bottle rebuild...
-==> Bottling iftop-1.0pre4.x86_64_linux.bottle.1.tar.gz...
-./iftop-1.0pre4.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/repeatmasker/4.0.7_1: 223 files, 1.5GB, built in 18 seconds
+==> Determining homebrew/science/repeatmasker bottle rebuild...
+==> Bottling repeatmasker-4.0.7_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if repeatmasker-4.0.7_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./repeatmasker-4.0.7_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "56af85c66f527bbb42c0ad359297e790831ed81267e2a59823b4fee7a0417756" => :x86_64_linux
+    sha256 "7fd444022a9555efc7f4782d2bf9e720e491bb8767f3b29e29f972049c25405b" => :x86_64_linux
   end
