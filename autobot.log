@@ -1,16 +1,14 @@
-==> Downloading https://github.com/shyiko/jabba/archive/0.9.2.tar.gz
-==> Downloading from https://codeload.github.com/shyiko/jabba/tar.gz/0.9.2
-==> glide install
-==> go build -ldflags -X main.version=0.9.2 -o /home/linuxbrew/.linuxbrew/Cellar/jabba/0.9.2/bin/jabba
+==> Downloading https://ftp.gnu.org/gnu/httptunnel/httptunnel-3.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jabba`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jabba/0.9.2: 5 files, 8.8MB, built in 4 seconds
-==> Determining jabba bottle rebuild...
-==> Bottling jabba-0.9.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jabba-0.9.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jabba-0.9.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall httptunnel`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/httptunnel/3.3: 12 files, 184KB, built in 7 seconds
+==> Determining httptunnel bottle rebuild...
+==> Bottling httptunnel-3.3.x86_64_linux.bottle.1.tar.gz...
+./httptunnel-3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2c5b91f5998ed866354d3e3f5404670185301b9b92e834501f1da54c73e15d0f" => :x86_64_linux
+    sha256 "f5e6ab53f1398ac4f16e032cc0ef647ca572205a0a4b125f9ba1518de8a83a03" => :x86_64_linux
   end
