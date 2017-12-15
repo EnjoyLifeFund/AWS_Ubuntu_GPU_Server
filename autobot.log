@@ -1,16 +1,16 @@
-==> Installing xkbcomp from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xkbcomp-1.4.0.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xkbcomp-1.4.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkbcomp/1.4.0 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --with-xkb-config-root=/home/linuxbrew/.linuxbrew/opt/libx11/share/X11/xkb
+==> Installing xkbevd from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xkbevd-1.1.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkbevd/1.1.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xkbcomp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xkbcomp/1.4.0: 8 files, 848.5KB, built in 7 seconds
-==> Determining linuxbrew/xorg/xkbcomp bottle rebuild...
-==> Bottling xkbcomp-1.4.0.x86_64_linux.bottle.1.tar.gz...
-./xkbcomp-1.4.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xkbevd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xkbevd/1.1.4: 7 files, 223.8KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xkbevd bottle rebuild...
+==> Bottling xkbevd-1.1.4.x86_64_linux.bottle.1.tar.gz...
+./xkbevd-1.1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "999502bd751b9b2f6f4e61d26e0bd95c63909b2661f376219c2396cc36a9923c" => :x86_64_linux
+    sha256 "738d2e688d4d4150ab17423c29eaf2ce01fa8851467d688fa2bebafec5a37eed" => :x86_64_linux
   end
