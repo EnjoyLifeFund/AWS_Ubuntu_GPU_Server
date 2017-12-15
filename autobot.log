@@ -1,17 +1,13 @@
-==> Installing edena from homebrew/science
-==> Downloading http://www.genomic.ch/edena/EdenaV3.131028.tar.gz
-==> make
+==> Installing edirect from homebrew/science
+==> Downloading https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/6.00.20170109/edirect.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/edena`
-==> Caveats
-The documentation installed into
-    /home/linuxbrew/.linuxbrew/share/doc/edena
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/edena/3.131028: 5 files, 804.8KB, built in 14 seconds
-==> Determining homebrew/science/edena bottle rebuild...
-==> Bottling edena-3.131028.x86_64_linux.bottle.tar.gz...
-./edena-3.131028.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/edirect`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/edirect/6.00.20170109: 35 files, 221KB, built in 2 seconds
+==> Determining homebrew/science/edirect bottle rebuild...
+==> Bottling edirect-6.00.20170109.x86_64_linux.bottle.1.tar.gz...
+./edirect-6.00.20170109.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "9b046d7278170a4a9f00226b79392d06de400aa242eaf90a5c86a2fc776b4d3b" => :x86_64_linux
+    rebuild 1
+    sha256 "2e81424f963c1376f10e5a48c6be8c3b06d507343c323cb9f32adf923db14f57" => :x86_64_linux
   end
