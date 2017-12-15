@@ -1,20 +1,18 @@
-==> Installing maq from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/maq/maq/0.7.1/maq-0.7.1.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/maq/maq/0.7.1/maq-0.7.1.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/2f18f5e22911865e2166d1f16d4758511ea8434c/maq/maq-0.7.1-compilation-fix.patch?full_index=1
-==> Patching
-==> Applying maq-0.7.1-compilation-fix.patch
-patching file get_pos.c
-patching file stdhash.hh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/maq/0.7.1_1
-==> make install
+==> Installing mathomatic from homebrew/science
+==> Downloading https://github.com/mfillpot/mathomatic/archive/mathomatic-16.0.5.tar.gz
+==> Downloading from https://codeload.github.com/mfillpot/mathomatic/tar.gz/mathomatic-16.0.5
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
+==> make m4install prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5 datadir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/mathomatic mandir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/man mathdocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic datadocdir=/home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5/share/doc/mathomatic READLINE=1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/maq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/maq/0.7.1_1: 14 files, 1.4MB, built in 9 seconds
-==> Determining homebrew/science/maq bottle rebuild...
-==> Bottling maq-0.7.1_1.x86_64_linux.bottle.1.tar.gz...
-./maq-0.7.1_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/mathomatic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mathomatic/16.0.5: 114 files, 1MB, built in 3 seconds
+==> Determining homebrew/science/mathomatic bottle rebuild...
+==> Bottling mathomatic-16.0.5.x86_64_linux.bottle.1.tar.gz...
+./mathomatic-16.0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fff29fe4b199f9bdf5cde1e0101031e72daf5e3d917ca38ca0c7cf2f6e76eee8" => :x86_64_linux
+    sha256 "157f37c2f4182b01e6e1fa2db1d126178a5438713cf4a0c89f3b2603e69817ee" => :x86_64_linux
   end
