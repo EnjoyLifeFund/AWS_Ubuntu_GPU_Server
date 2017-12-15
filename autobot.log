@@ -1,8 +1,12 @@
-==> Determining liblo bottle rebuild...
-==> Bottling liblo-0.29.x86_64_linux.bottle.1.tar.gz...
-./liblo-0.29.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://liblqr.wdfiles.com/local--files/en:download-page/liblqr-1-0.4.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblqr/0.4.2
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liblqr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liblqr/0.4.2: 25 files, 374.3KB, built in 9 seconds
+==> Determining liblqr bottle rebuild...
+==> Bottling liblqr-0.4.2.x86_64_linux.bottle.tar.gz...
+./liblqr-0.4.2.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d0b78bf10ba261e90c460bb2897c033ff99997475408d7306f638a2c3a560be4" => :x86_64_linux
+    sha256 "d9b045baa91a34c68896d46018a89b6c3fa103b7b2a1f81b77749bdba1b32b1c" => :x86_64_linux
   end
