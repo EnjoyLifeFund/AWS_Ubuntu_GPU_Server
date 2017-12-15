@@ -1,8 +1,34 @@
-==> Determining jsoncpp bottle rebuild...
-==> Bottling jsoncpp-1.8.3.x86_64_linux.bottle.1.tar.gz...
-./jsoncpp-1.8.3.x86_64_linux.bottle.1.tar.gz
+==> Installing dependencies for joshua: md5sha1sum
+==> Installing joshua dependency: md5sha1sum
+==> Downloading https://linuxbrew.bintray.com/bottles/md5sha1sum-0.9.5.x86_64_linux.bottle.2.tar.gz
+==> Pouring md5sha1sum-0.9.5.x86_64_linux.bottle.2.tar.gz
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/md5sum
+Target /home/linuxbrew/.linuxbrew/bin/md5sum
+is a symlink belonging to coreutils. You can unlink it:
+  brew unlink coreutils
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite md5sha1sum
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run md5sha1sum
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/md5sum -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/bin/md5sum
+/home/linuxbrew/.linuxbrew/bin/sha1sum -> /home/linuxbrew/.linuxbrew/Cellar/coreutils/8.28_1/bin/sha1sum
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/md5sha1sum/0.9.5: 8 files, 83KB
+==> Installing joshua
+==> Downloading https://cs.jhu.edu/~post/files/joshua-6.0.5.tgz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall joshua`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/joshua/6.0.5: 1,865 files, 168.6MB, built in 18 seconds
+==> Determining joshua bottle rebuild...
+==> Bottling joshua-6.0.5.x86_64_linux.bottle.tar.gz...
+==> Detecting if joshua-6.0.5.x86_64_linux.bottle.tar.gz is relocatable...
+./joshua-6.0.5.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a9fbf155828a2d17ec75bbf5797ac8d2c1d80eeaa35b2cff534c201f9ba82574" => :x86_64_linux
+    sha256 "307b8122b1275cd60c333abc3acc76c4aa5f84b807c5fa5d2c3b0c3e35601ab0" => :x86_64_linux
   end
