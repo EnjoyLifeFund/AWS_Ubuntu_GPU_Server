@@ -1,16 +1,24 @@
-==> Installing fsa from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/fsa/fsa-1.15.9.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/fsa/fsa-1.15.9.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fsa/1.15.9
+==> Installing fwdpp from homebrew/science
+==> Installing dependencies for homebrew/science/fwdpp: libsequence
+==> Installing homebrew/science/fwdpp dependency: libsequence
+==> Downloading https://linuxbrew.bintray.com/bottles-science/libsequence-1.9.1_2.x86_64_linux.bottle.tar.gz
+==> Pouring libsequence-1.9.1_2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsequence/1.9.1_2: 111 files, 21MB
+==> Installing homebrew/science/fwdpp
+==> Downloading https://github.com/molpopgen/fwdpp/archive/0.5.7.tar.gz
+==> Downloading from https://codeload.github.com/molpopgen/fwdpp/tar.gz/0.5.7
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fwdpp/0.5.7_1
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fsa`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fsa/1.15.9: 16 files, 50.8MB, built in 53 seconds
-==> Determining homebrew/science/fsa bottle rebuild...
-==> Bottling fsa-1.15.9.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fsa-1.15.9.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fsa-1.15.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fwdpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fwdpp/0.5.7_1: 206 files, 146MB, built in 3 minutes 36 seconds
+==> Determining homebrew/science/fwdpp bottle rebuild...
+==> Bottling fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fwdpp-0.5.7_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4aa7a4e53d28b590b40d3f06225f71adf40938507811f12f41f22c8f07c6ed75" => :x86_64_linux
+    sha256 "eb754ba08347fb548cf94621059035a855da20d304e2c85d5176f2f0b913be1e" => :x86_64_linux
   end
