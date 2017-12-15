@@ -1,8 +1,13 @@
-==> Determining harfbuzz bottle rebuild...
-==> Bottling harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./harfbuzz-1.7.2_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://hashcash.org/source/hashcash-1.22.tgz
+==> make install PACKAGER=HOMEBREW INSTALL_PATH=/home/linuxbrew/.linuxbrew/Cellar/hashcash/1.22/bin MAN_INSTALL_PATH=/home/linuxbrew/.linuxbrew/Cellar/hashcash/1.22/share/man/man1 DOC_INSTALL_PATH=/home/linuxbrew/.linuxbrew/Cellar/hashcash/1.22/share/doc/hashcash
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hashcash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hashcash/1.22: 12 files, 292.9KB, built in 1 second
+==> Determining hashcash bottle rebuild...
+==> Bottling hashcash-1.22.x86_64_linux.bottle.1.tar.gz...
+./hashcash-1.22.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "498963f8d37270bc767bcce0c5121e3209b414fd8ed326ac3c7c627116deb2b7" => :x86_64_linux
+    sha256 "075e9f038de9bfbfacdaa68a460ade2dc5c99cb31cc18e49582a44a53d4dcd9a" => :x86_64_linux
   end
