@@ -1,9 +1,30 @@
-==> Determining icu4c bottle rebuild...
-==> Bottling icu4c-60.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if icu4c-60.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./icu4c-60.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://code.fluffytapeworm.com/projects/id3ed/id3ed-1.10.4.tar.gz
+==> Downloading from http://code.fluffytapeworm.com/projects/id3ed/id3ed-1.10.4.tar.gz?attredirects=0
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/id3ed/1.10.4 --bindir=/home/linuxbrew/.linuxbrew/Cellar/id3ed/1.10.4/bin/ --mandir=/home/linuxbrew/.linuxbrew/Cellar/id3ed/1.10.4/share/man/man1
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink share/man/man1/man1
+Target /home/linuxbrew/.linuxbrew/share/man/man1/man1
+is a symlink belonging to globe. You can unlink it:
+  brew unlink globe
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite id3ed
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run id3ed
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/share/man/man1/man1 -> /home/linuxbrew/.linuxbrew/Cellar/globe/0.0.20140814/share/man/man1/man1
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall id3ed`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/id3ed/1.10.4: 7 files, 68KB, built in 3 seconds
+==> Determining id3ed bottle rebuild...
+==> Bottling id3ed-1.10.4.x86_64_linux.bottle.1.tar.gz...
+./id3ed-1.10.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9a2773ae3d1f1baf67f3278175cb25f117826b8e9b3ed67824c77a50df8c0af1" => :x86_64_linux
+    sha256 "7e3b35883f63ff8d9518e208fc189d4f51478567618fa4eac37248c4b63c5550" => :x86_64_linux
   end
