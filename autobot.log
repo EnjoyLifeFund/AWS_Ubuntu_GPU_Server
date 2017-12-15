@@ -1,8 +1,15 @@
-==> Determining libksba bottle rebuild...
-==> Bottling libksba-1.3.5.x86_64_linux.bottle.1.tar.gz...
-./libksba-1.3.5.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/udp/lacewing/archive/0.5.4.tar.gz
+==> Downloading from https://codeload.github.com/udp/lacewing/tar.gz/0.5.4
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblacewing/0.5.4_1
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall liblacewing`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/liblacewing/0.5.4_1: 11 files, 2.9MB, built in 6 seconds
+==> Determining liblacewing bottle rebuild...
+==> Bottling liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz is relocatable...
+./liblacewing-0.5.4_1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "44035af23d179253b68b3335cb9cf62436e9f9f6d8f59fb395568002dc62ddc4" => :x86_64_linux
+    sha256 "24784053981caae3151a06c62c660d912c8a552871ffe8d835fe9e09c80a11d6" => :x86_64_linux
   end
