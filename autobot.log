@@ -1,22 +1,9 @@
-==> Cloning https://github.com/jpcsp/jpcsp.git
-==> Checking out revision 9bf0cb72568e4c7170c6c5b0a975e0ff2f5205d1
-==> ant -f build-auto.xml dist-macosx
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jpcsp`
-==> Caveats
-ISO/CSO images are to be placed in the following directory:
-  /home/linuxbrew/.linuxbrew/opt/jpcsp/Jpcsp.app/Contents/Resources/Java/umdimages
-
-To avoid any incidental wipeout upon future updates, change it to
-a safe location (under Options > Settings > General > UMD path folders).
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jpcsp/0.7+20160322: 166 files, 45.4MB, built in 31 seconds
-==> Determining jpcsp bottle rebuild...
-==> Bottling jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz
+==> Determining jpeg bottle rebuild...
+==> Bottling jpeg-9b.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jpeg-9b.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jpeg-9b.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "8ca03fd807cffc61995c1dc8463975641b4e64e25bea4f3165a259f92e0c04f3" => :x86_64_linux
+    sha256 "de45f25ac58e457ed23e006cef9a1eab1666ff6bf31c1ca67359b4812c02f0ba" => :x86_64_linux
   end
