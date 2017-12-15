@@ -1,28 +1,23 @@
-==> Downloading https://github.com/bwall/HashPump/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/bwall/HashPump/tar.gz/v1.2.0
-==> Downloading https://github.com/bwall/HashPump/pull/14.patch?full_index=1
-==> Downloading from https://patch-diff.githubusercontent.com/raw/bwall/HashPump/pull/14.patch?full_index=1
+==> Downloading https://github.com/seejohnrun/haste-client/archive/v0.2.3.tar.gz
+==> Downloading from https://codeload.github.com/seejohnrun/haste-client/tar.gz/v0.2.3
+==> Downloading https://github.com/seejohnrun/haste-client/commit/1037d89.patch?full_index=1
 ==> Patching
-==> Applying 14.patch
-patching file MANIFEST.in
-patching file setup.py
-==> make INSTALLLOCATION=/home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0/bin CXX=g++-6 install
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0 --single-version-externally-managed --record=installed.txt
+==> Applying 1037d89.patch
+patching file lib/haste/version.rb
+==> Downloading https://rubygems.org/gems/faraday-0.12.2.gem
+==> gem install /home/ubuntu/.cache/Homebrew/haste-client--faraday-0.12.2.gem --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/haste-client/0.2.3/libexec
+==> Downloading https://rubygems.org/gems/multipart-post-2.0.0.gem
+==> gem install /home/ubuntu/.cache/Homebrew/haste-client--multipart-post-2.0.0.gem --no-document --install-dir /home/linuxbrew/.linuxbrew/Cellar/haste-client/0.2.3/libexec
+==> gem build haste.gemspec
+==> gem install --ignore-dependencies haste-0.2.3.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hashpump`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0: 10 files, 152.6KB, built in 7 seconds
-==> Determining hashpump bottle rebuild...
-==> Bottling hashpump-1.2.0.x86_64_linux.bottle.tar.gz...
-./hashpump-1.2.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall haste-client`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/haste-client/0.2.3: 87 files, 373.8KB, built in 2 seconds
+==> Determining haste-client bottle rebuild...
+==> Bottling haste-client-0.2.3.x86_64_linux.bottle.1.tar.gz...
+./haste-client-0.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "f2212f449d11d1307048acc97b62b09cb861693ab34192e937fceff860a7dee4" => :x86_64_linux
+    rebuild 1
+    sha256 "e21f0942f7a4576b27d4fd1608d3433f73bd921c7ab24eece857bc490a02eb82" => :x86_64_linux
   end
