@@ -1,8 +1,15 @@
-==> Determining libcdio bottle rebuild...
-==> Bottling libcdio-1.1.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libcdio-1.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libcdio-1.1.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/khizmax/libcds/archive/v2.3.1.tar.gz
+==> Downloading from https://codeload.github.com/khizmax/libcds/tar.gz/v2.3.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcds/2.3.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libcds`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcds/2.3.1: 367 files, 5.6MB, built in 4 seconds
+==> Determining libcds bottle rebuild...
+==> Bottling libcds-2.3.1.x86_64_linux.bottle.1.tar.gz...
+./libcds-2.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "843eef95bf9492cc80681eb6e823e81ec3138a88065e4c22730b8b0c970e7c95" => :x86_64_linux
+    sha256 "43e8d82487fbf8a307ac23579dadc3a94a73e1244b927b9c213d5498fe0d2072" => :x86_64_linux
   end
