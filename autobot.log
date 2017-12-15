@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/wayland-protocols bottle rebuild...
-==> Bottling wayland-protocols-1.11.x86_64_linux.bottle.1.tar.gz...
-./wayland-protocols-1.11.x86_64_linux.bottle.1.tar.gz
+==> Installing x11perf from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/x11perf-1.6.0.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/x11perf-1.6.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/x11perf/1.6.0 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/x11perf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/x11perf/1.6.0: 14 files, 514.5KB, built in 8 seconds
+==> Determining linuxbrew/xorg/x11perf bottle rebuild...
+==> Bottling x11perf-1.6.0.x86_64_linux.bottle.1.tar.gz...
+./x11perf-1.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2e825e3bd1741b2a6d5248eeb73b8751b805c48e4bdd04df0ffb1b408d6a1090" => :x86_64_linux
+    sha256 "daac17c820807bbda2b53c518939aaef0900f283c8d9b520622cb6393e9677ef" => :x86_64_linux
   end
