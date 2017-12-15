@@ -1,40 +1,15 @@
-==> Installing portable-readline from homebrew/portable
-==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0.tar.gz
-==> Downloading from https://mirrors.peers.community/mirrors/gnu/readline/readline-7.0.tar.gz
-==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-001
-==> Downloading from https://mirrors.kernel.org/gnu/readline/readline-7.0-patches/readline70-001
-==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-002
-==> Downloading from https://mirrors.ocf.berkeley.edu/gnu/readline/readline-7.0-patches/readline70-002
-==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-003
-==> Downloading from https://ftp.wayne.edu/gnu/readline/readline-7.0-patches/readline70-003
-==> Patching
-==> Applying readline70-001
-patching file history.c
-patching file patchlevel
-==> Applying readline70-002
-patching file history.c
-patching file patchlevel
-==> Applying readline70-003
-patching file input.c
-patching file patchlevel
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/portable-readline/7.0.3 --enable-multibyte --enable-static --disable-shared --with-curses
-==> make install SHLIB_LIBS=-lcurses
+==> Installing a5 from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/ngopt/a5_miseq_linux_20160825.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/ngopt/a5_miseq_linux_20160825.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/portable/portable-readline`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because portable formulae are keg-only.
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/portable-readline/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/portable-readline/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/portable-readline/7.0.3: 40 files, 2.3MB, built in 19 seconds
-==> Determining homebrew/portable/portable-readline bottle rebuild...
-==> Bottling portable-readline-7.0.3.x86_64_linux.bottle.tar.gz...
-./portable-readline-7.0.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/a5`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/a5/20160825: 32 files, 17MB, built in 1 second
+==> Determining homebrew/science/a5 bottle rebuild...
+==> Bottling a5-20160825.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if a5-20160825.x86_64_linux.bottle.1.tar.gz is relocatable...
+./a5-20160825.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "e5c3b2068911c46e6b6fef672b2057038406a97c8413bc375a1d78931fe14111" => :x86_64_linux
+    rebuild 1
+    sha256 "6e2fdee71027f7cdb04be6e4e540d0672160d2d5a27ce38cdbb03682019510be" => :x86_64_linux
   end
