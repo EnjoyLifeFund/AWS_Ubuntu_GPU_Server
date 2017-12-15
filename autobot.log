@@ -1,15 +1,24 @@
-==> Installing nxtrim from homebrew/science
-==> Downloading https://github.com/sequencing/NxTrim/archive/v0.4.2.tar.gz
-==> Downloading from https://codeload.github.com/sequencing/NxTrim/tar.gz/v0.4.2
-==> make BOOST_ROOT=/home/linuxbrew/.linuxbrew/opt/boost
+==> Installing oases from homebrew/science
+==> Installing dependencies for homebrew/science/oases: velvet
+==> Installing homebrew/science/oases dependency: velvet
+==> Downloading https://linuxbrew.bintray.com/bottles-science/velvet-1.2.10.x86_64_linux.bottle.1.tar.gz
+==> Pouring velvet-1.2.10.x86_64_linux.bottle.1.tar.gz
+==> Caveats
+Some additional user contributed scripts are installed here:
+/home/linuxbrew/.linuxbrew/opt/velvet/share/velvet/contrib
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/velvet/1.2.10: 11 files, 443.0KB
+==> Installing homebrew/science/oases
+==> Downloading https://www.ebi.ac.uk/~zerbino/oases/oases_0.2.08.tgz
+==> Downloading https://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.10.tgz
+==> make LONGSEQUENCES=1 MAXKMERLENGTH=127 CATEGORIES=2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nxtrim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nxtrim/0.4.2: 7 files, 195.5KB, built in 3 seconds
-==> Determining homebrew/science/nxtrim bottle rebuild...
-==> Bottling nxtrim-0.4.2.x86_64_linux.bottle.1.tar.gz...
-./nxtrim-0.4.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/oases`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/oases/0.2.08: 13 files, 357.5KB, built in 35 seconds
+==> Determining homebrew/science/oases bottle rebuild...
+==> Bottling oases-0.2.08.x86_64_linux.bottle.tar.gz...
+./oases-0.2.08.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a70cece96950a66c67757164a2b5e4d63319af18e8ce33ab27f3e8afab96d7ee" => :x86_64_linux
+    sha256 "2762112c58b3b4d7aac0b629310014c58f9977174de4a6fe797b8c2f5d36948d" => :x86_64_linux
   end
