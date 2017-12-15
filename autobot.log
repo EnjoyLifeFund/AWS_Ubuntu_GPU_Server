@@ -1,3 +1,4 @@
-==> Downloading https://twitter-archive.github.io/kestrel/download/kestrel-2.4.1.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kestrel/2.4.1: 81 files, 33.9MB, built in 2 seconds
+==> Downloading https://downloads.sourceforge.net/project/pentaho/Data%20Integration/6.1/pdi-ce-6.1.0.1-196.zip
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/pentaho/Data%20Integration/6.1/pdi-ce-6.1.0.1-196.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kettle/6.1.0.1-196: 1,664 files, 874.7MB, built in 57 seconds
 This formula doesn't require compiling.
