@@ -1,15 +1,14 @@
-==> Downloading https://github.com/ultravideo/kvazaar/releases/download/v1.2.0/kvazaar-1.2.0.tar.xz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/16339396/d62efbc8-cbae-11e7-8f60-b4a4abd3d0bf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T201114Z&X-Amz-Expires=300&X-Amz-Signature=23f563390b407d3dc6e0d76e09b05ee847291fa34707209d421873ceb49c3576&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkvazaar-1.2.0.tar.xz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kvazaar/1.2.0
+==> Downloading http://www.phontron.com/kytea/download/kytea-0.4.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kytea/0.4.7
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kvazaar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kvazaar/1.2.0: 15 files, 5.3MB, built in 13 seconds
-==> Determining kvazaar bottle rebuild...
-==> Bottling kvazaar-1.2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kvazaar-1.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kvazaar-1.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall kytea`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kytea/0.4.7: 42 files, 147.4MB, built in 37 seconds
+==> Determining kytea bottle rebuild...
+==> Bottling kytea-0.4.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kytea-0.4.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kytea-0.4.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d3a241638899191f826ca70f3e53c2767e27ed58a50a2c2432b4cde2e56207a8" => :x86_64_linux
+    sha256 "5ef1b99eef670313a1a43a25d155f3e63dbfc18d8da56b9879555599d0991aee" => :x86_64_linux
   end
