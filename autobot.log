@@ -1,14 +1,15 @@
-==> Installing last from homebrew/science
-==> Downloading http://last.cbrc.jp/last-752.zip
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/last/752
+==> Installing lastz from homebrew/science
+==> Downloading https://github.com/lastz/lastz/archive/1.04.00.tar.gz
+==> Downloading from https://codeload.github.com/lastz/lastz/tar.gz/1.04.00
+==> make definedForAll=-Wall
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/last`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/last/752: 77 files, 2.5MB, built in 11 seconds
-==> Determining homebrew/science/last bottle rebuild...
-==> Bottling last-752.x86_64_linux.bottle.1.tar.gz...
-./last-752.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/lastz`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lastz/1.04.00: 27 files, 1.5MB, built in 3 seconds
+==> Determining homebrew/science/lastz bottle rebuild...
+==> Bottling lastz-1.04.00.x86_64_linux.bottle.1.tar.gz...
+./lastz-1.04.00.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cfc203ade24546cc21d4676e9ab66a78a50127259cbb0b46f64c6d906ace96a9" => :x86_64_linux
+    sha256 "903f5a2eaa48ccfdd20cec678a0c3be42a8ad8fc40dd0a699e7847cbecfa7829" => :x86_64_linux
   end
