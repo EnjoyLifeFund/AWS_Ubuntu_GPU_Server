@@ -1,14 +1,22 @@
-==> Installing trnascan from homebrew/science
-==> Downloading http://eddylab.org/software/tRNAscan-SE/tRNAscan-SE.tar.Z
-==> make all CFLAGS=-D_POSIX_C_SOURCE=1 LIBDIR=/home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23/libexec BINDIR=/home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23/bin
+==> Installing unicycler from homebrew/science
+==> Installing dependencies for homebrew/science/unicycler: spades
+==> Installing homebrew/science/unicycler dependency: spades
+==> Downloading https://linuxbrew.bintray.com/bottles-science/spades-3.11.0.x86_64_linux.bottle.tar.gz
+==> Pouring spades-3.11.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/spades/3.11.0: 144 files, 22.0MB
+==> Installing homebrew/science/unicycler
+==> Downloading https://github.com/rrwick/Unicycler/archive/v0.4.3.tar.gz
+==> Downloading from https://codeload.github.com/rrwick/Unicycler/tar.gz/v0.4.3
+==> python3 setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/unicycler/0.4.3
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/trnascan`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23: 34 files, 1.5MB, built in 1 second
-==> Determining homebrew/science/trnascan bottle rebuild...
-==> Bottling trnascan-1.23.x86_64_linux.bottle.1.tar.gz...
-./trnascan-1.23.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/unicycler`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/unicycler/0.4.3: 78 files, 4MB, built in 25 seconds
+==> Determining homebrew/science/unicycler bottle rebuild...
+==> Bottling unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "18c48afcf1deb5c11a73f7713c7d8b4379f3b34db9b4c235885445fc3d8afbf5" => :x86_64_linux
+    sha256 "c8e06fa37b008077e7fc19b7680c65e921f16df95bcd226f5f3c400c67010026" => :x86_64_linux
   end
