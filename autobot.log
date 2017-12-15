@@ -1,22 +1,8 @@
-==> Installing libsbol from homebrew/science
-==> Installing dependencies for homebrew/science/libsbol: jsoncpp
-==> Installing homebrew/science/libsbol dependency: jsoncpp
-==> Downloading https://linuxbrew.bintray.com/bottles/jsoncpp-1.8.3.x86_64_linux.bottle.tar.gz
-==> Pouring jsoncpp-1.8.3.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jsoncpp/1.8.3: 23 files, 2MB
-==> Installing homebrew/science/libsbol
-==> Downloading https://github.com/SynBioDex/libSBOL/archive/v2.2.0.2.tar.gz
-==> Downloading from https://codeload.github.com/SynBioDex/libSBOL/tar.gz/v2.2.0.2
-==> cmake . -DCMAKE_CXX_FLAGS=-I/System/Library/Frameworks/Python.framework/Headers -DSBOL_BUILD_SHARED=TRUE -DSBOL_BUILD_STATIC=FALSE -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libsbol/2.2.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libsbol`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsbol/2.2.0.2: 54 files, 3.3MB, built in 17 seconds
-==> Determining homebrew/science/libsbol bottle rebuild...
-==> Bottling libsbol-2.2.0.2.x86_64_linux.bottle.1.tar.gz...
-./libsbol-2.2.0.2.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/libsequence bottle rebuild...
+==> Bottling libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3dbc004c896a00dc9fe127316e55b050eebfa3858e55187a3ed0cc81238a3e15" => :x86_64_linux
+    sha256 "79a9a6e6f8e313c70b3c2f2a0129091b302b037493f7c708af4bdc0198abd872" => :x86_64_linux
   end
