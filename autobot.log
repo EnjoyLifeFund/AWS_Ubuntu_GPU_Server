@@ -1,15 +1,7 @@
-==> Installing samblaster from homebrew/science
-==> Downloading https://github.com/GregoryFaust/samblaster/archive/v.0.1.24.tar.gz
-==> Downloading from https://codeload.github.com/GregoryFaust/samblaster/tar.gz/v.0.1.24
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/samblaster`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/samblaster/0.1.24: 5 files, 65.8KB, built in 2 seconds
-==> Determining homebrew/science/samblaster bottle rebuild...
-==> Bottling samblaster-0.1.24.x86_64_linux.bottle.1.tar.gz...
-./samblaster-0.1.24.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/samtools bottle rebuild...
+==> Bottling samtools-1.5.x86_64_linux.bottle.1.tar.gz...
+./samtools-1.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "df32fb1107a369e0ae1d041da9be40f9628a4db9178a97cbc78898a7acf87df9" => :x86_64_linux
+    sha256 "6414d502c1a7496b3fc3c304d0ad316fba170157345a553de6369e9ce5d1823d" => :x86_64_linux
   end
