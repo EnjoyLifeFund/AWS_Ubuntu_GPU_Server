@@ -1,7 +1,16 @@
-==> Determining lame bottle rebuild...
-==> Bottling lame-3.99.5.x86_64_linux.bottle.tar.gz...
-./lame-3.99.5.x86_64_linux.bottle.tar.gz
+==> Cloning https://github.com/Eneco/landscaper.git
+==> Checking out tag 1.0.11
+==> make bootstrap
+==> make build
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall landscaper`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/landscaper/1.0.11: 5 files, 60.4MB, built in 1 minute 36 seconds
+==> Determining landscaper bottle rebuild...
+==> Bottling landscaper-1.0.11.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if landscaper-1.0.11.x86_64_linux.bottle.1.tar.gz is relocatable...
+./landscaper-1.0.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "5a78d03156f9a44fa108d3e6653e8cec361af8ddfd6de282ee90fe9d4a973a88" => :x86_64_linux
+    rebuild 1
+    sha256 "783a45350b9389f6486958b0552065db60cebb23539c6947d7887ac5af5d0f74" => :x86_64_linux
   end
