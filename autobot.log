@@ -1,14 +1,14 @@
-==> Installing kraken from homebrew/science
-==> Downloading https://ccb.jhu.edu/software/kraken/dl/kraken-0.10.5-beta.tgz
-==> ./install_kraken.sh /home/linuxbrew/.linuxbrew/Cellar/kraken/0.10.5-beta/libexec
+==> Installing last from homebrew/science
+==> Downloading http://last.cbrc.jp/last-752.zip
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/last/752
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kraken`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kraken/0.10.5-beta: 36 files, 373.9KB, built in 3 seconds
-==> Determining homebrew/science/kraken bottle rebuild...
-==> Bottling kraken-0.10.5-beta.x86_64_linux.bottle.1.tar.gz...
-./kraken-0.10.5-beta.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/last`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/last/752: 77 files, 2.5MB, built in 11 seconds
+==> Determining homebrew/science/last bottle rebuild...
+==> Bottling last-752.x86_64_linux.bottle.1.tar.gz...
+./last-752.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ea62cf8bf826f568589d5e11cb870b6aefdf9bc7b44f323332cb0d768789c238" => :x86_64_linux
+    sha256 "cfc203ade24546cc21d4676e9ab66a78a50127259cbb0b46f64c6d906ace96a9" => :x86_64_linux
   end
