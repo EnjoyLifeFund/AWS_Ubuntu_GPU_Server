@@ -1,15 +1,18 @@
-==> Installing cvblob from homebrew/science
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cvblob/cvblob-0.10.4-src.tgz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/cvblob/0.10.4_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/matricks/bam/archive/v0.5.0.tar.gz
+==> Downloading from https://codeload.github.com/matricks/bam/tar.gz/v0.5.0
+==> Downloading https://github.com/matricks/bam/commit/27b28f09.patch?full_index=1
+==> Patching
+==> Applying 27b28f09.patch
+patching file src/tools.lua
+==> ./make_unix.sh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/cvblob`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cvblob/0.10.4_1: 9 files, 407.6KB, built in 6 seconds
-==> Determining homebrew/science/cvblob bottle rebuild...
-==> Bottling cvblob-0.10.4_1.x86_64_linux.bottle.1.tar.gz...
-./cvblob-0.10.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bam`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bam/0.5.0: 5 files, 351.8KB, built in 2 minutes 7 seconds
+==> Determining bam bottle rebuild...
+==> Bottling bam-0.5.0.x86_64_linux.bottle.1.tar.gz...
+./bam-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "fc16e89f7f70e989c3b09376e63470cad76cf468c583272748c9dccf8835ce2a" => :x86_64_linux
+    sha256 "7d3bd87d301d627cd8038197e409973c0e6f59c984da50097f95017d07e6afe2" => :x86_64_linux
   end
