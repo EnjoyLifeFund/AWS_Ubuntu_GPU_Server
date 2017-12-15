@@ -1,31 +1,16 @@
-==> Installing mir-prefer from homebrew/science
-==> Installing dependencies for homebrew/science/mir-prefer: viennarna
-==> Installing homebrew/science/mir-prefer dependency: viennarna
-==> Downloading https://linuxbrew.bintray.com/bottles-science/viennarna-2.3.3.x86_64_linux.bottle.tar.gz
-==> Pouring viennarna-2.3.3.x86_64_linux.bottle.tar.gz
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/viennarna/2.3.3: 1,647 files, 47.9MB
-==> Installing homebrew/science/mir-prefer
-==> Downloading https://github.com/hangelwen/miR-PREFeR/archive/v0.24.tar.gz
-==> Downloading from https://codeload.github.com/hangelwen/miR-PREFeR/tar.gz/v0.24
-==> patchelf --set-rpath /home/linuxbrew/.linuxbrew:/home/linuxbrew/.linuxbrew/opt/ncurses/lib:/home/linuxbrew/.linuxbrew/opt/zlib/lib --set-interpreter /home/linuxbrew/.linuxbrew/lib/ld.so /home/linuxbrew/.linuxbrew/Cellar/mir-prefer/0.24_1/dependency/Linux/x64/samtools
-==> patchelf --replace-needed libncurses.so.5 libncurses.so.6 --remove-needed libtinfo.so.5 /home/linuxbrew/.linuxbrew/Cellar/mir-prefer/0.24_1/dependency/Linux/x64/samtools
+==> Installing nanoflann from homebrew/science
+==> Downloading https://github.com/jlblancoc/nanoflann/archive/v1.2.3.tar.gz
+==> Downloading from https://codeload.github.com/jlblancoc/nanoflann/tar.gz/v1.2.3
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/nanoflann/1.2.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mir-prefer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mir-prefer/0.24_1: 23 files, 14.1MB, built in 5 seconds
-==> Determining homebrew/science/mir-prefer bottle rebuild...
-==> Bottling mir-prefer-0.24_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mir-prefer-0.24_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mir-prefer-0.24_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nanoflann`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nanoflann/1.2.3: 7 files, 86.5KB, built in 7 seconds
+==> Determining homebrew/science/nanoflann bottle rebuild...
+==> Bottling nanoflann-1.2.3.x86_64_linux.bottle.1.tar.gz...
+./nanoflann-1.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "59dcf640fe856c62924242c06861a332e7481addd6aab584ac273c69d2e4b9cb" => :x86_64_linux
+    sha256 "1dbfbe15b8f9bd35fc7234cf0a374cc9c3b72e60c75b46219c27a765f10020bd" => :x86_64_linux
   end
