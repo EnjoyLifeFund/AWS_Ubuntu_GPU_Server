@@ -1,15 +1,9 @@
-==> Downloading https://swtch.com/plan9port/unix/libutf-20110530.tgz
-==> Downloading from https://9fans.github.io/plan9port/unix/libutf-20110530.tgz
-Trying a mirror...
-==> Downloading http://distfiles.exherbo.org/distfiles/libutf-20110530.tgz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libutf/20110530 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libutf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libutf/20110530: 10 files, 136.9KB, built in 2 seconds
-==> Determining libutf bottle rebuild...
-==> Bottling libutf-20110530.x86_64_linux.bottle.tar.gz...
-./libutf-20110530.x86_64_linux.bottle.tar.gz
+==> Determining libuv bottle rebuild...
+==> Bottling libuv-1.18.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libuv-1.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libuv-1.18.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "7eb19cb69fea52d15d703dbfae1c101032299cd2e779fea27c1960ee19924a02" => :x86_64_linux
+    rebuild 1
+    sha256 "c1ec6a9ef67eb7206ee8fa0f6d298db824c1c35327296ae4e4c96c9a02f6b9b2" => :x86_64_linux
   end
