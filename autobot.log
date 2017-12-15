@@ -1,23 +1,8 @@
-==> Installing xcb-util-cursor from linuxbrew/xorg
-==> Installing dependencies for linuxbrew/xorg/xcb-util-cursor: linuxbrew/xorg/xcb-util-renderutil
-==> Installing linuxbrew/xorg/xcb-util-cursor dependency: linuxbrew/xorg/xcb-util-renderutil
-==> Downloading https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xcb-util-renderutil/0.3.9 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no --enable-devel-docs=no --with-doxygen=no
-==> make
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util-renderutil/0.3.9: 11 files, 102.9KB, built in 8 seconds
-==> Installing linuxbrew/xorg/xcb-util-cursor
-==> Downloading https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.3.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xcb-util-cursor/0.1.3 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no --enable-devel-docs=no --with-doxygen=no
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xcb-util-cursor`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util-cursor/0.1.3: 11 files, 117.9KB, built in 9 seconds
-==> Determining linuxbrew/xorg/xcb-util-cursor bottle rebuild...
-==> Bottling xcb-util-cursor-0.1.3.x86_64_linux.bottle.1.tar.gz...
-./xcb-util-cursor-0.1.3.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/xcb-util-image bottle rebuild...
+==> Bottling xcb-util-image-0.4.0.x86_64_linux.bottle.1.tar.gz...
+./xcb-util-image-0.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "27e8f73746dcd3a3e6c6e57752b8c87eb25dee5aa7c10b07f9aff20a5a97b2ba" => :x86_64_linux
+    sha256 "67d653a03fb78e2953b03ec026a3a817edbb6b0352a07f1dacaed344534fc175" => :x86_64_linux
   end
