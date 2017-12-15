@@ -1,20 +1,27 @@
-==> Installing vislcg3 from homebrew/science
-==> Downloading https://visl.sdu.dk/download/vislcg3/cg3-1.1.0~r12312.tar.bz2
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/vislcg3/1.1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
+==> Installing gaemr from homebrew/science
+==> Downloading https://www.broadinstitute.org/software/gaemr/wp-content/uploads/2012/12/GAEMR-1.0.1.tar.gz
+==> Downloading from http://software.broadinstitute.org/software/gaemr/wp-content/uploads/2012/12/GAEMR-1.0.1.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/vislcg3`
+You can run it manually using `brew postinstall homebrew/science/gaemr`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/vislcg3
+After install GAEMR, you must do these 3 things:
+
+1. Amend your UNIX PATH environmental variable to point to your
+   installation of the GAEMR/bin directory:
+   export PATH=/home/linuxbrew/.linuxbrew/opt/gaemr/libexec/bin:$PATH
+2. Amend your UNIX PYTHONPATH environmental variable to point to
+   your installation of the GAEMR directory:
+   export PYTHONPATH=/home/linuxbrew/.linuxbrew/opt/gaemr/libexec:$PYTHONPATH
+3. Change the path variables in
+   /home/linuxbrew/.linuxbrew/opt/gaemr/libexec/gaemr/PlatformConstant.py
+   to reflect your installation for the various bioinformatics tools.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/vislcg3/1.1.0: 26 files, 1.3MB, built in 37 seconds
-==> Determining homebrew/science/vislcg3 bottle rebuild...
-==> Bottling vislcg3-1.1.0.x86_64_linux.bottle.1.tar.gz...
-./vislcg3-1.1.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gaemr/1.0.1: 98 files, 588.7KB, built in 1 second
+==> Determining homebrew/science/gaemr bottle rebuild...
+==> Bottling gaemr-1.0.1.x86_64_linux.bottle.1.tar.gz...
+./gaemr-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "695d6291dca89774e2fc4725565207153d5c9b97c510fff683a7ac07e0e883f7" => :x86_64_linux
+    sha256 "871b1be499348089c5f2d3f44e30563c4c5bb3a7ef8628424e365e750e60e730" => :x86_64_linux
   end
