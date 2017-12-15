@@ -1,14 +1,16 @@
-==> Installing spici from homebrew/science
-==> Downloading http://compbio.cs.princeton.edu/spici/files/SPICi.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/spici/20130427
+==> Installing openfst from homebrew/science
+==> Downloading http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/openfst/1.6.3 --enable-compact-fsts --enable-compress --enable-const-fsts --enable-far --enable-linear-fsts --enable-lookahead-fsts --enable-mpdt --enable-ngram-fsts --enable-pdt --enable-special
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/spici`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/spici/20130427: 9 files, 576.6KB, built in 11 seconds
-==> Determining homebrew/science/spici bottle rebuild...
-==> Bottling spici-20130427.x86_64_linux.bottle.1.tar.gz...
-./spici-20130427.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/openfst`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/openfst/1.6.3: 396 files, 199.0MB, built in 4 minutes 22 seconds
+==> Determining homebrew/science/openfst bottle rebuild...
+==> Bottling openfst-1.6.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if openfst-1.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./openfst-1.6.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9089d28af57d41641f69b93f776f10d3e4f7eea3ae4ca9c1b90cf245d91f9f90" => :x86_64_linux
+    sha256 "ef120ac4907a2be956f338d2a32a3bf1d62e7d05a18506db32de8808b8b4ceba" => :x86_64_linux
   end
