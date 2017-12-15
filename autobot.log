@@ -1,14 +1,23 @@
-==> Downloading https://github.com/casey/just/archive/v0.3.5.tar.gz
-==> Downloading from https://codeload.github.com/casey/just/tar.gz/v0.3.5
-==> cargo build --release
+==> Downloading https://github.com/mattn/jvgrep/archive/v5.4.tar.gz
+==> Downloading from https://codeload.github.com/mattn/jvgrep/tar.gz/v5.4
+==> Cloning https://github.com/mattn/go-colorable.git
+==> Checking out revision ad5389df28cdac544c99bd7b9161a0b5b6ca9d1b
+==> Cloning https://github.com/mattn/go-isatty.git
+==> Checking out revision fc9e8d8ef48496124e79ae0df75490096eccf6fe
+==> Cloning https://go.googlesource.com/net.git
+==> Checking out revision 8351a756f30f1297fe94bbf4b767ec589c6ea6d0
+==> Cloning https://go.googlesource.com/text.git
+==> Checking out revision 1cbadb444a806fd9430d14ad08967ed91da4fa0a
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jvgrep/5.4/bin/jvgrep
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall just`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/just/0.3.5: 6 files, 5.9MB, built in 2 minutes 9 seconds
-==> Determining just bottle rebuild...
-==> Bottling just-0.3.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if just-0.3.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./just-0.3.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jvgrep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jvgrep/5.4: 3 files, 3.5MB, built in 6 seconds
+==> Determining jvgrep bottle rebuild...
+==> Bottling jvgrep-5.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jvgrep-5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jvgrep-5.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "01a86574351a48a1df08fb355aee0d32059c7d9fefab4ec4b380c519bf812536" => :x86_64_linux
+    sha256 "015089dab3dc5ee91e052e5d0ba9f266d1ffb236cb1f60d561d8d8ccad100adf" => :x86_64_linux
   end
