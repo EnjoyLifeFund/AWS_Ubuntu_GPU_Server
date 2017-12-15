@@ -1,4 +1,22 @@
-==> Downloading https://github.com/skylot/jadx/releases/download/v0.6.1/jadx-0.6.1.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/8859474/6517d2d0-badd-11e6-91e0-2f962d819dcf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T185528Z&X-Amz-Expires=300&X-Amz-Signature=d22825797b3f57a87d26f96493275901f7efd9f951d38194482d87dbf7039945&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djadx-0.6.1.zip&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jadx/0.6.1: 29 files, 4.3MB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/gohugoio/hugo/archive/v0.31.1.tar.gz
+==> Downloading from https://codeload.github.com/gohugoio/hugo/tar.gz/v0.31.1
+==> dep ensure
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo main.go
+==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen autocomplete --completionfile=hugo.sh
+==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen man
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hugo`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1: 31 files, 36MB, built in 15 seconds
+==> Determining hugo bottle rebuild...
+==> Bottling hugo-0.31.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hugo-0.31.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hugo-0.31.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6a93a6c71ee8530f11eaf9f383cd802371829ddb6be9a7b72b58d31a8b214c09" => :x86_64_linux
+  end
