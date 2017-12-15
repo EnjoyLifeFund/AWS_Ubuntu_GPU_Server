@@ -1,30 +1,9 @@
-==> Installing fermikit from homebrew/science
-==> Installing dependencies for homebrew/science/fermikit: htsbox, seqtk, trimadap
-==> Installing homebrew/science/fermikit dependency: htsbox
-==> Downloading https://linuxbrew.bintray.com/bottles-science/htsbox-r312.x86_64_linux.bottle.tar.gz
-==> Pouring htsbox-r312.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/htsbox/r312: 3 files, 1.2MB
-==> Installing homebrew/science/fermikit dependency: seqtk
-==> Downloading https://linuxbrew.bintray.com/bottles-science/seqtk-1.2.x86_64_linux.bottle.tar.gz
-==> Pouring seqtk-1.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/seqtk/1.2: 4 files, 238KB
-==> Installing homebrew/science/fermikit dependency: trimadap
-==> Downloading https://linuxbrew.bintray.com/bottles-science/trimadap-0.1.x86_64_linux.bottle.tar.gz
-==> Pouring trimadap-0.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/trimadap/0.1: 5 files, 113.6KB
-==> Installing homebrew/science/fermikit
-==> Downloading https://github.com/lh3/fermikit/releases/download/v0.13/fermikit-0.13.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/33761973/fe5282fa-313c-11e5-9d19-3bda77b411c7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T053657Z&X-Amz-Expires=300&X-Amz-Signature=137c142ea9785ff48f52e1827c8cacaaaa97a72ac8154a3ee2904a5878f15044&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfermikit-0.13.tar.bz2&response-content-type=application%2Foctet-stream
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fermikit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fermikit/0.13: 17 files, 5.8MB, built in 22 seconds
-==> Determining homebrew/science/fermikit bottle rebuild...
-==> Bottling fermikit-0.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fermikit-0.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fermikit-0.13.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/vigra bottle rebuild...
+==> Bottling vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1c05190d2ed9b510bef0e6e97fb9b5b157f3a085726191f0366cdb6319f52a68" => :x86_64_linux
+    sha256 "ec97bdbc7fbfc0aefa18e234772d58254bce429c60bda990c470e67c13c1bf27" => :x86_64_linux
   end
