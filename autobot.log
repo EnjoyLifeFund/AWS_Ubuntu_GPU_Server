@@ -1,13 +1,7 @@
-==> Downloading http://dist.schmorp.de/liblzf/liblzf-3.6.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblzf/3.6
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liblzf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblzf/3.6: 8 files, 105.9KB, built in 6 seconds
-==> Determining liblzf bottle rebuild...
-==> Bottling liblzf-3.6.x86_64_linux.bottle.1.tar.gz...
-./liblzf-3.6.x86_64_linux.bottle.1.tar.gz
+==> Determining libmaa bottle rebuild...
+==> Bottling libmaa-1.3.2.x86_64_linux.bottle.tar.gz...
+./libmaa-1.3.2.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "a9aeeaa4f2fbcc93609e2ad2d565582fea437c8b49b0c435c0e7c8310c11f6af" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "32255e21a7b5153bc2ee5517afb728220780187200fcd506fd52fb4bfdaeb032" => :x86_64_linux
   end
