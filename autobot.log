@@ -1,15 +1,15 @@
-==> Downloading https://github.com/fontforge/libspiro/releases/download/0.5.20150702/libspiro-0.5.20150702.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9570173/550e7876-7668-11e6-8e64-a159254279aa?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T224302Z&X-Amz-Expires=300&X-Amz-Signature=a70e73604faf06dd52598f5f219de91dc9eaf03767810e68aa687f21ce52e57b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibspiro-0.5.20150702.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libspiro/0.5.20150702
+==> Downloading https://downloads.sourceforge.net/project/spacenav/spacenav%20library%20%28SDK%29/libspnav%200.2.3/libspnav-0.2.3.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/spacenav/spacenav%20library%20%28SDK%29/libspnav%200.2.3/libspnav-0.2.3.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libspnav/0.2.3 --disable-x11
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libspiro`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libspiro/0.5.20150702: 17 files, 230.2KB, built in 8 seconds
-==> Determining libspiro bottle rebuild...
-==> Bottling libspiro-0.5.20150702.x86_64_linux.bottle.1.tar.gz...
-./libspiro-0.5.20150702.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libspnav`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libspnav/0.2.3: 10 files, 47.1KB, built in 1 second
+==> Determining libspnav bottle rebuild...
+==> Bottling libspnav-0.2.3.x86_64_linux.bottle.1.tar.gz...
+./libspnav-0.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "5ea5ba538d0d7aa50461493f933e1dcfe528e12fbabd7014582fa1708b4f26e2" => :x86_64_linux
+    sha256 "6477296bd8163c23f9f7e3a59c0405bc7410fab336899bb3b2d594297e5dae6f" => :x86_64_linux
   end
