@@ -1,8 +1,13 @@
-==> Determining libffi bottle rebuild...
-==> Bottling libffi-3.2.1.x86_64_linux.bottle.1.tar.gz...
-./libffi-3.2.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.xiph.org/releases/libfishsound/libfishsound-1.0.0.tar.gz
+==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/libfishsound/libfishsound-1.0.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libfishsound/1.0.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libfishsound`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libfishsound/1.0.0: 82 files, 801.5KB, built in 8 seconds
+==> Determining libfishsound bottle rebuild...
+==> Bottling libfishsound-1.0.0.x86_64_linux.bottle.tar.gz...
+./libfishsound-1.0.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d2c4dd76a5cc198c97307fd063fcb4494e2f36abda5358f30fd5b869826a1af1" => :x86_64_linux
+    sha256 "57aac821d4e6eba1dc2b1a70f2fbaed27ec76ac8cc6399b7a58eff2897fb2ba1" => :x86_64_linux
   end
