@@ -1,31 +1,40 @@
-==> Installing portable-ncurses from homebrew/portable
-==> Downloading https://ftpmirror.gnu.org/ncurses/ncurses-6.0.tar.gz
-==> Downloading from https://mirrors.syringanetworks.net/gnu/ncurses/ncurses-6.0.tar.gz
-==> Downloading http://invisible-mirror.net/archives/ncurses/6.0/ncurses-6.0-20160910-patch.sh.bz2
-==> sh ncurses-6.0-20160910-patch.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/portable-ncurses/6.0_1 --enable-static --disable-shared --enable-pc-files --with-pkg-config-libdir=/home/linuxbrew/.linuxbrew/Cellar/portable-ncurses/6.0_1/lib/pkgconfig --enable-sigwinch --enable-symlinks --enable-widec --with-gpm=no
-==> make install
+==> Installing portable-readline from homebrew/portable
+==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0.tar.gz
+==> Downloading from https://mirrors.peers.community/mirrors/gnu/readline/readline-7.0.tar.gz
+==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-001
+==> Downloading from https://mirrors.kernel.org/gnu/readline/readline-7.0-patches/readline70-001
+==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-002
+==> Downloading from https://mirrors.ocf.berkeley.edu/gnu/readline/readline-7.0-patches/readline70-002
+==> Downloading https://ftpmirror.gnu.org/readline/readline-7.0-patches/readline70-003
+==> Downloading from https://ftp.wayne.edu/gnu/readline/readline-7.0-patches/readline70-003
+==> Patching
+==> Applying readline70-001
+patching file history.c
+patching file patchlevel
+==> Applying readline70-002
+patching file history.c
+patching file patchlevel
+==> Applying readline70-003
+patching file input.c
+patching file patchlevel
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/portable-readline/7.0.3 --enable-multibyte --enable-static --disable-shared --with-curses
+==> make install SHLIB_LIBS=-lcurses
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/portable/portable-ncurses`
+You can run it manually using `brew postinstall homebrew/portable/portable-readline`
 ==> Caveats
 This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
 because portable formulae are keg-only.
 
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/portable-ncurses/bin:$PATH"' >> ~/.bash_profile
-
 For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/portable-ncurses/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/portable-ncurses/include
-For pkg-config to find this software you may need to set:
-    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/portable-ncurses/lib/pkgconfig
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/portable-readline/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/portable-readline/include
 
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/portable-ncurses/6.0_1: 3,313 files, 13.3MB, built in 38 seconds
-==> Determining homebrew/portable/portable-ncurses bottle rebuild...
-==> Bottling portable-ncurses-6.0_1.x86_64_linux.bottle.tar.gz...
-==> Detecting if portable-ncurses-6.0_1.x86_64_linux.bottle.tar.gz is relocatable...
-./portable-ncurses-6.0_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/portable-readline/7.0.3: 40 files, 2.3MB, built in 19 seconds
+==> Determining homebrew/portable/portable-readline bottle rebuild...
+==> Bottling portable-readline-7.0.3.x86_64_linux.bottle.tar.gz...
+./portable-readline-7.0.3.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "47c4c67bbb2ea8945b069eba6b06fe2655778c21e1c9db1ff08f86aa77d5552b" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "e5c3b2068911c46e6b6fef672b2057038406a97c8413bc375a1d78931fe14111" => :x86_64_linux
   end
