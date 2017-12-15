@@ -1,4 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/jasmin/jasmin/jasmin-2.4/jasmin-2.4.zip
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/jasmin/jasmin/jasmin-2.4/jasmin-2.4.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jasmin/2.4: 8 files, 164.7KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining jasper bottle rebuild...
+==> Bottling jasper-2.0.14.x86_64_linux.bottle.1.tar.gz...
+./jasper-2.0.14.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "403c602fadf0dd96c9d3503edf330d384f080e9e1a2e949c309ae5de42f532a8" => :x86_64_linux
+  end
