@@ -1,14 +1,13 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=jmeter/binaries/apache-jmeter-3.3.tgz
-==> Best Mirror http://apache.osuosl.org/jmeter/binaries/apache-jmeter-3.3.tgz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jnettop/jnettop_0.13.0.orig.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0 --man=/home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jmeter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jmeter/3.3: 2,855 files, 102.9MB, built in 4 seconds
-==> Determining jmeter bottle rebuild...
-==> Bottling jmeter-3.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jmeter-3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jmeter-3.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jnettop`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0: 10 files, 335KB, built in 8 seconds
+==> Determining jnettop bottle rebuild...
+==> Bottling jnettop-0.13.0.x86_64_linux.bottle.1.tar.gz...
+./jnettop-0.13.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cbfecae06f6c91b472ea944f6dc2e40be477d34a2b2d37cc1089de0c86db636c" => :x86_64_linux
+    sha256 "2d259e0d031d7285cc31963182d8442b5f0504a481a3d350005a8dfc2eac816f" => :x86_64_linux
   end
