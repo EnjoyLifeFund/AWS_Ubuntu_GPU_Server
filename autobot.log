@@ -1,14 +1,7 @@
-==> Downloading https://download.gnome.org/sources/libart_lgpl/2.3/libart_lgpl-2.3.21.tar.bz2
-==> Downloading from http://mirror.umd.edu/gnome/sources/libart_lgpl/2.3/libart_lgpl-2.3.21.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libart/2.3.21
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libart`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libart/2.3.21: 57 files, 1MB, built in 9 seconds
-==> Determining libart bottle rebuild...
-==> Bottling libart-2.3.21.x86_64_linux.bottle.1.tar.gz...
-./libart-2.3.21.x86_64_linux.bottle.1.tar.gz
+==> Determining libassuan bottle rebuild...
+==> Bottling libassuan-2.5.1.x86_64_linux.bottle.1.tar.gz...
+./libassuan-2.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e6cea8cec96b8e64454b6c27a5c482a0809835fa2c5b7532aee931ba33b07377" => :x86_64_linux
+    sha256 "c2ec3f2ca0ca84ff26ec017f9d51198b790227e4115941dc8e057547fe4ee6e8" => :x86_64_linux
   end
