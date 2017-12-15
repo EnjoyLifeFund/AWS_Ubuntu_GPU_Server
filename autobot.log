@@ -1,22 +1,8 @@
-==> Installing dependencies for kanif: taktuk
-==> Installing kanif dependency: taktuk
-==> Downloading https://gforge.inria.fr/frs/download.php/30903/taktuk-3.7.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/taktuk/3.7.5
-==> make
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/taktuk/3.7.5: 31 files, 710.1KB, built in 10 seconds
-==> Installing kanif
-==> Downloading https://gforge.inria.fr/frs/download.php/26773/kanif-1.2.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/kanif/1.2.2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kanif`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kanif/1.2.2: 25 files, 158.2KB, built in 5 seconds
-==> Determining kanif bottle rebuild...
-==> Bottling kanif-1.2.2.x86_64_linux.bottle.1.tar.gz...
-./kanif-1.2.2.x86_64_linux.bottle.1.tar.gz
+==> Determining kapacitor bottle rebuild...
+==> Bottling kapacitor-1.3.3.x86_64_linux.bottle.tar.gz...
+==> Detecting if kapacitor-1.3.3.x86_64_linux.bottle.tar.gz is relocatable...
+./kapacitor-1.3.3.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "2e65a365056ee9ea909122127b627b9e43fc624f1a375fef40190984da56c256" => :x86_64_linux
+    sha256 "2d994badf15106f988e91c43728a6c268a8bb4119e248996771a06de8bbd589b" => :x86_64_linux
   end
