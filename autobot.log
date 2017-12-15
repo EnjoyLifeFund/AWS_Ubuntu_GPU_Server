@@ -1,15 +1,38 @@
-==> Installing xauth from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xauth-1.0.9.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xauth-1.0.9.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xauth/1.0.9 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-unix-transport --enable-tcp-transport --enable-ipv6 --enable-local-transport
+==> Installing xbacklight from linuxbrew/xorg
+==> Installing dependencies for linuxbrew/xorg/xbacklight: linuxbrew/xorg/xcb-util, linuxbrew/xorg/xcb-util-image
+==> Installing linuxbrew/xorg/xbacklight dependency: linuxbrew/xorg/xcb-util
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xcb-util-0.4.0.x86_64_linux.bottle.tar.gz
+==> Pouring xcb-util-0.4.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util/0.4.0: 16 files, 100.0KB
+==> Installing linuxbrew/xorg/xbacklight dependency: linuxbrew/xorg/xcb-util-image
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xcb-util-image-0.4.0.x86_64_linux.bottle.tar.gz
+==> Pouring xcb-util-image-0.4.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util-image/0.4.0: 12 files, 110.8KB
+==> Installing linuxbrew/xorg/xbacklight
+==> Downloading https://www.x.org/pub/individual/app/xbacklight-1.2.1.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xbacklight-1.2.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xbacklight/1.2.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xauth`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xauth/1.0.9: 7 files, 210.7KB, built in 7 seconds
-==> Determining linuxbrew/xorg/xauth bottle rebuild...
-==> Bottling xauth-1.0.9.x86_64_linux.bottle.tar.gz...
-./xauth-1.0.9.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xbacklight`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xbacklight/1.2.1: 7 files, 84.4KB, built in 6 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+angular-cli
+dnscrypt-proxy
+gegl
+gopass
+heroku
+libgcrypt
+libsodium
+zeromq
+
+==> Determining linuxbrew/xorg/xbacklight bottle rebuild...
+==> Bottling xbacklight-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./xbacklight-1.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "d74edeec94d3a30fb1325b266c3251ae14972b3608228206885f30246ce5ad1c" => :x86_64_linux
+    rebuild 1
+    sha256 "cfd45334690d3bfebed781351f0045704f11d387ae7c4e8b363951725523b804" => :x86_64_linux
   end
