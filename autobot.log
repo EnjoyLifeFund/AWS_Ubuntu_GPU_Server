@@ -1,8 +1,21 @@
-==> Determining hdf5 bottle rebuild...
-==> Bottling hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/rembo10/headphones/archive/v0.5.18.tar.gz
+==> Downloading from https://codeload.github.com/rembo10/headphones/tar.gz/v0.5.18
+==> Downloading https://files.pythonhosted.org/packages/d4/32/642bd580c577af37b00a1eb59b0eaa996f2d11dfe394f3dd0c7a8a2de81a/Markdown-2.6.7.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/headphones/0.5.18/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/cd/b0/c2d700252fc251e91c08639ff41a8a5203b627f4e0a2ae18a6b662ab32ea/Cheetah-2.4.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/headphones/0.5.18/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall headphones`
+==> Caveats
+Headphones defaults to port 8181.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/headphones/0.5.18: 1,568 files, 12.0MB, built in 3 seconds
+==> Determining headphones bottle rebuild...
+==> Bottling headphones-0.5.18.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if headphones-0.5.18.x86_64_linux.bottle.1.tar.gz is relocatable...
+./headphones-0.5.18.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "aa5770de212b8c7d72d93e37c72768732dd7dfe1e2892fee675dab413945e457" => :x86_64_linux
+    sha256 "7016b6910b2ed197775f1d3e25197123f6c2edb6a266f28cd09573c2943b9fcb" => :x86_64_linux
   end
