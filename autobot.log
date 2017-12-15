@@ -1,15 +1,8 @@
-==> Downloading https://www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz
-==> Downloading from http://www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz
-==> autoreconf -ivf
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libghthash/0.6.2
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libghthash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libghthash/0.6.2: 22 files, 158KB, built in 14 seconds
-==> Determining libghthash bottle rebuild...
-==> Bottling libghthash-0.6.2.x86_64_linux.bottle.1.tar.gz...
-./libghthash-0.6.2.x86_64_linux.bottle.1.tar.gz
+==> Determining libgit2 bottle rebuild...
+==> Bottling libgit2-0.26.0.x86_64_linux.bottle.1.tar.gz...
+./libgit2-0.26.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f43041304ba926bff9a884b5e7100b443c4bdfc5544006e358e3da7f54deb07e" => :x86_64_linux
+    sha256 "e79924c57e203dbf03cfa65ccd98d85d2a30bc4637ecd308858a228416ac01ac" => :x86_64_linux
   end
