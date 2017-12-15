@@ -1,15 +1,21 @@
-==> Downloading https://github.com/khizmax/libcds/archive/v2.3.1.tar.gz
-==> Downloading from https://codeload.github.com/khizmax/libcds/tar.gz/v2.3.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcds/2.3.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/Pulse-Eight/libcec/archive/libcec-4.0.2.tar.gz
+==> Downloading from https://codeload.github.com/Pulse-Eight/libcec/tar.gz/libcec-4.0.2
+==> Downloading https://github.com/Pulse-Eight/platform/archive/p8-platform-2.1.0.1.tar.gz
+==> Downloading from https://codeload.github.com/Pulse-Eight/platform/tar.gz/p8-platform-2.1.0.1
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcec/4.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
+==> make install
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcec/4.0.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcds`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcds/2.3.1: 367 files, 5.6MB, built in 4 seconds
-==> Determining libcds bottle rebuild...
-==> Bottling libcds-2.3.1.x86_64_linux.bottle.1.tar.gz...
-./libcds-2.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libcec`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcec/4.0.2: 41 files, 2.7MB, built in 13 seconds
+==> Determining libcec bottle rebuild...
+==> Bottling libcec-4.0.2.x86_64_linux.bottle.1.tar.gz...
+./libcec-4.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "43e8d82487fbf8a307ac23579dadc3a94a73e1244b927b9c213d5498fe0d2072" => :x86_64_linux
+    sha256 "c7d7d1fcbf66872a9d645dc6ca6f69fed229233da21567a97b07dc3fbc9ccbf3" => :x86_64_linux
   end
