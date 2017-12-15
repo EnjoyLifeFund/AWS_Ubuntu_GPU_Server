@@ -1,19 +1,29 @@
-==> Installing artemis from homebrew/science
-==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/artemis/v16/v16.0.17/artemis-v16.0.17.jar
+==> Installing ascii_plots from homebrew/science
+==> Downloading https://github.com/dzerbino/ascii_plots/archive/1.0.tar.gz
+==> Downloading from https://codeload.github.com/dzerbino/ascii_plots/tar.gz/1.0
 The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/art
-Target /home/linuxbrew/.linuxbrew/bin/art
-is a symlink belonging to artifactory-cli-go. You can unlink it:
-  brew unlink artifactory-cli-go
+Could not symlink bin/hist
+Target /home/linuxbrew/.linuxbrew/bin/hist
+is a symlink belonging to historian. You can unlink it:
+  brew unlink historian
 
 To force the link and overwrite all conflicting files:
-  brew link --overwrite artemis
+  brew link --overwrite ascii_plots
 
 To list all files that would be deleted:
-  brew link --overwrite --dry-run artemis
+  brew link --overwrite --dry-run ascii_plots
 
 Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/art -> /home/linuxbrew/.linuxbrew/Cellar/artifactory-cli-go/1.3.0/bin/art
+/home/linuxbrew/.linuxbrew/bin/hist -> /home/linuxbrew/.linuxbrew/Cellar/historian/0.0.2/bin/hist
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/ascii_plots`
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/artemis/16.0.17: 6 files, 10.8MB, built in 12 seconds
-This formula doesn't require compiling.
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ascii_plots/1.0: 10 files, 44.0KB, built in 0 seconds
+==> Determining homebrew/science/ascii_plots bottle rebuild...
+==> Bottling ascii_plots-1.0.x86_64_linux.bottle.1.tar.gz...
+./ascii_plots-1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "5e5a0f53374bfc17b48ae97c98f5dbe9c9eb4b2af163865fd3714b08c59d9de3" => :x86_64_linux
+  end
