@@ -1,24 +1,15 @@
-==> Installing dependencies for libmspub: libwpd, libwpg
-==> Installing libmspub dependency: libwpd
-==> Downloading https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.x86_64_linux.bottle.tar.gz
-==> Pouring libwpd-0.10.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libwpd/0.10.2: 15 files, 8.6MB
-==> Installing libmspub dependency: libwpg
-==> Downloading https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.x86_64_linux.bottle.tar.gz
-==> Pouring libwpg-0.3.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libwpg/0.3.2: 15 files, 1.2MB
-==> Installing libmspub
-==> Downloading https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.2.tar.xz
-==> ./configure --without-docs --enable-static=no --disable-werror --disable-tests --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmspub/0.1.2_6
+==> Downloading https://downloads.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.12/libmwaw-0.3.12.tar.xz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.12/libmwaw-0.3.12.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmwaw/0.3.12
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmspub`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmspub/0.1.2_6: 14 files, 6.4MB, built in 24 seconds
-==> Determining libmspub bottle rebuild...
-==> Bottling libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmwaw`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmwaw/0.3.12: 18 files, 119.8MB, built in 55 seconds
+==> Determining libmwaw bottle rebuild...
+==> Bottling libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libmwaw-0.3.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "75a872531cd068c1e656978029ec5827ed9599c90589e7b185818a1bdb6f7798" => :x86_64_linux
+    sha256 "aa6d4d1c6386778ee542383a5448b3da4f93413f899c7da4fbf0abc071044281" => :x86_64_linux
   end
