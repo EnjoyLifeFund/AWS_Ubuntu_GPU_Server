@@ -1,18 +1,15 @@
-==> Installing glimmer3 from homebrew/science
-==> Downloading https://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz
-==> make
+==> Installing glimmerhmm from homebrew/science
+==> Downloading ftp://ccb.jhu.edu/pub/software/glimmerhmm/GlimmerHMM-3.0.2.tar.gz
+==> make -C sources
+==> make -C train
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/glimmer3`
-==> Caveats
-Glimmer3 is mostly used by calling the .csh scripts but if you need the
-supporting binaries, they are in
-    /home/linuxbrew/.linuxbrew/opt/glimmer3/libexec
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glimmer3/3.02b: 30 files, 6.2MB, built in 14 seconds
-==> Determining homebrew/science/glimmer3 bottle rebuild...
-==> Bottling glimmer3-3.02b.x86_64_linux.bottle.tar.gz...
-==> Detecting if glimmer3-3.02b.x86_64_linux.bottle.tar.gz is relocatable...
-./glimmer3-3.02b.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/glimmerhmm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glimmerhmm/3.0.2: 542 files, 135.5MB, built in 8 seconds
+==> Determining homebrew/science/glimmerhmm bottle rebuild...
+==> Bottling glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "db1b926de8a30c9b5ef8cd2ba00f391052dc5f1d9cc78db782267cc713fd9d73" => :x86_64_linux
+    rebuild 1
+    sha256 "7a4a169cf2a9dee228e99b12d3ac5f0f1692146dd628a895d1b2be143e1b3488" => :x86_64_linux
   end
