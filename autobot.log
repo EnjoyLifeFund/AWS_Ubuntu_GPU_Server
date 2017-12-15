@@ -1,17 +1,14 @@
-==> Installing alglib from homebrew/science
-==> Downloading http://www.alglib.net/translator/re/alglib-3.10.0.cpp.gpl.tgz
-==> qmake alglib.pro PREFIX=/home/linuxbrew/.linuxbrew/Cellar/alglib/3.10.0
-==> make
-==> make install
+==> Installing alien-hunter from homebrew/science
+==> Downloading ftp://ftp.sanger.ac.uk/pub/resources/software/alien_hunter/alien_hunter.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/alglib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/alglib/3.10.0: 21 files, 4.3MB, built in 13 seconds
-==> Determining homebrew/science/alglib bottle rebuild...
-==> Bottling alglib-3.10.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if alglib-3.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./alglib-3.10.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/alien-hunter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/alien-hunter/1.7: 32 files, 3.2MB, built in 9 seconds
+==> Determining homebrew/science/alien-hunter bottle rebuild...
+==> Bottling alien-hunter-1.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if alien-hunter-1.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./alien-hunter-1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "afb0b9a765b2ed528e520b0f3304f0717a4c0cf5c78831b09eb027848b08de31" => :x86_64_linux
+    sha256 "68fbe551cc618c5760128a3474f06cca652e31069cca19b7e8fd9f55c39279d1" => :x86_64_linux
   end
