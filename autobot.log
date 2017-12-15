@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/xineramaproto bottle rebuild...
-==> Bottling xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz...
-./xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz
+==> Installing xinput from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xinput-1.6.2.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xinput-1.6.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xinput/1.6.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/xinput`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xinput/1.6.2: 9 files, 353.4KB, built in 7 seconds
+==> Determining linuxbrew/xorg/xinput bottle rebuild...
+==> Bottling xinput-1.6.2.x86_64_linux.bottle.1.tar.gz...
+./xinput-1.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "41134ec9c162ba36f40cdd7424a1e84bc254c63adc619d88eac68ffa4dbfe97f" => :x86_64_linux
+    sha256 "f3ea538d87fec53e9234b0d4338e998503ea6332397c4d2e5401b87bac787ae8" => :x86_64_linux
   end
