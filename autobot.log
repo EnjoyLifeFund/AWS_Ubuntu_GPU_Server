@@ -1,15 +1,16 @@
-==> Installing sally from homebrew/science
-==> Downloading http://www.mlsec.org/sally/files/sally-1.0.0.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/sally/1.0.0
-==> make check
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading http://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/igraph/0.7.1_6 --with-external-blas --with-external-lapack --with-external-glpk
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/sally`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sally/1.0.0: 8 files, 430.4KB, built in 15 seconds
-==> Determining homebrew/science/sally bottle rebuild...
-==> Bottling sally-1.0.0.x86_64_linux.bottle.1.tar.gz...
-./sally-1.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall igraph`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/igraph/0.7.1_6: 86 files, 27.8MB, built in 23 seconds
+==> Determining igraph bottle rebuild...
+==> Bottling igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./igraph-0.7.1_6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6a3b9ab2c2fb9374c697e0d83d447302ea32a6cbb319a8b6bb9bcb6f4300a4c5" => :x86_64_linux
+    sha256 "16daa7732c678f7768220d37bb3dc13b9f8e29b13893d34e99240e0ab40c33c4" => :x86_64_linux
   end
