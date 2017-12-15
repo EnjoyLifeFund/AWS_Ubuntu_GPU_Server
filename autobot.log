@@ -1,17 +1,15 @@
-==> Installing libxfont2 from linuxbrew/xorg
-==> Downloading https://ftp.x.org/pub/individual/lib/libXfont2-2.0.1.tar.bz2
-==> Downloading from https://ftp.x.org/archive//individual/lib/libXfont2-2.0.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxfont2/2.0.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no --enable-devel-docs=no --with-freetype-config=/home/linuxbrew/.linuxbrew/opt/freetype/bin/freetype-config
+==> Installing libxfontcache from linuxbrew/xorg
+==> Downloading https://www.x.org/archive//individual/lib/libXfontcache-1.0.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxfontcache/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no
 ==> make
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/libxfont2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxfont2/2.0.1: 11 files, 1.2MB, built in 13 seconds
-==> Determining linuxbrew/xorg/libxfont2 bottle rebuild...
-==> Bottling libxfont2-2.0.1.x86_64_linux.bottle.1.tar.gz...
-./libxfont2-2.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/libxfontcache`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxfontcache/1.0.5: 17 files, 96.5KB, built in 10 seconds
+==> Determining linuxbrew/xorg/libxfontcache bottle rebuild...
+==> Bottling libxfontcache-1.0.5.x86_64_linux.bottle.tar.gz...
+./libxfontcache-1.0.5.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "35ba9df5d8b631adcf76d51ade5fe061dff08ca0a73ae03154e004907e5abd0d" => :x86_64_linux
+    sha256 "56dad04cc8aa960fb3565d7886ab5cb39cfe1053c36f851f8feb8da426440de4" => :x86_64_linux
   end
