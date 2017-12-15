@@ -1,3 +1,14 @@
-==> Downloading https://www.h2database.com/h2-2017-06-10.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/h2/1.4.196: 1,512 files, 20.2MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/h264bitstream/h264bitstream/0.1.9/h264bitstream-0.1.9.tar.gz
+==> Downloading from https://cytranet.dl.sourceforge.net/project/h264bitstream/h264bitstream/0.1.9/h264bitstream-0.1.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/h264bitstream/0.1.9
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall h264bitstream`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/h264bitstream/0.1.9: 15 files, 837.4KB, built in 14 seconds
+==> Determining h264bitstream bottle rebuild...
+==> Bottling h264bitstream-0.1.9.x86_64_linux.bottle.1.tar.gz...
+./h264bitstream-0.1.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d020d662d00bf05459449356cb23511dda3e0a5b92e696d1a19e4ebbb6a4fb88" => :x86_64_linux
+  end
