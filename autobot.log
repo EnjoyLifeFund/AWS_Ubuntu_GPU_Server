@@ -1,16 +1,15 @@
-==> Installing jsbsim from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/jsbsim/JSBSim_Source/JSBSim%20v1.0%20Release%20Candidate%202/JSBSim-1.0.rc2.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/jsbsim/JSBSim_Source/JSBSim%20v1.0%20Release%20Candidate%202/JSBSim-1.0.rc2.tar.gz
-==> ./autogen.sh --disable-debug --disable-dependency-tracking --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/jsbsim/1.0.rc2_1 --enable-libraries
-==> make install
+==> Installing kaiju from homebrew/science
+==> Downloading https://github.com/bioinformatics-centre/kaiju/archive/v1.5.0.tar.gz
+==> Downloading from https://codeload.github.com/bioinformatics-centre/kaiju/tar.gz/v1.5.0
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/jsbsim`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jsbsim/1.0.rc2_1: 97 files, 53.2MB, built in 51 seconds
-==> Determining homebrew/science/jsbsim bottle rebuild...
-==> Bottling jsbsim-1.0.rc2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jsbsim-1.0.rc2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jsbsim-1.0.rc2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kaiju`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kaiju/1.5.0: 16 files, 14.7MB, built in 6 seconds
+==> Determining homebrew/science/kaiju bottle rebuild...
+==> Bottling kaiju-1.5.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kaiju-1.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kaiju-1.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "41ede1fa4f7fa9b6b0b4052b0857cab60585b2d8606b993a21aef2233470c09c" => :x86_64_linux
+    sha256 "a004658272b2447f5b331062d41348677beb8647a229426527bffef602fb88d7" => :x86_64_linux
   end
