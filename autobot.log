@@ -1,9 +1,1 @@
-==> Determining homebrew/science/hmmer bottle rebuild...
-==> Bottling hmmer-3.1b2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hmmer-3.1b2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hmmer-3.1b2_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "aec8ef83c55b63fa7298485a0e17a5b472add5e1c148b08e6627024de08e1dc1" => :x86_64_linux
-  end
+This formula doesn't require compiling.
