@@ -1,15 +1,22 @@
-==> Downloading https://downloads.sourceforge.net/project/jp2a/jp2a/1.0.6/jp2a-1.0.6.tar.gz
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/jp2a/jp2a/1.0.6/jp2a-1.0.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jp2a/1.0.6_1
-==> make test
-==> make install
+==> Cloning https://github.com/jpcsp/jpcsp.git
+==> Checking out revision 9bf0cb72568e4c7170c6c5b0a975e0ff2f5205d1
+==> ant -f build-auto.xml dist-macosx
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jp2a`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jp2a/1.0.6_1: 9 files, 155.5KB, built in 7 seconds
-==> Determining jp2a bottle rebuild...
-==> Bottling jp2a-1.0.6_1.x86_64_linux.bottle.1.tar.gz...
-./jp2a-1.0.6_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jpcsp`
+==> Caveats
+ISO/CSO images are to be placed in the following directory:
+  /home/linuxbrew/.linuxbrew/opt/jpcsp/Jpcsp.app/Contents/Resources/Java/umdimages
+
+To avoid any incidental wipeout upon future updates, change it to
+a safe location (under Options > Settings > General > UMD path folders).
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jpcsp/0.7+20160322: 166 files, 45.4MB, built in 31 seconds
+==> Determining jpcsp bottle rebuild...
+==> Bottling jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jpcsp-0.7+20160322.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f7ea627b53fa17ab66417f56d29fe4cd32bc5a3878148bccf656239a7a21860f" => :x86_64_linux
+    sha256 "8ca03fd807cffc61995c1dc8463975641b4e64e25bea4f3165a259f92e0c04f3" => :x86_64_linux
   end
