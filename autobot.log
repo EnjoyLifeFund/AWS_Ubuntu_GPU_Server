@@ -1,12 +1,15 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/lib3ds/lib3ds-1.3.0.zip
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lib3ds/1.3.0
-==> make install
+==> Downloading http://stable.hypertriton.com/agar/agar-1.5.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libagar/1.5.0_1
+==> make
+==> make install MANDIR=/home/linuxbrew/.linuxbrew/Cellar/libagar/1.5.0_1/share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lib3ds`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lib3ds/1.3.0: 36 files, 1.1MB, built in 11 seconds
-==> Determining lib3ds bottle rebuild...
-==> Bottling lib3ds-1.3.0.x86_64_linux.bottle.tar.gz...
-./lib3ds-1.3.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libagar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libagar/1.5.0_1: 557 files, 8.6MB, built in 1 minute 30 seconds
+==> Determining libagar bottle rebuild...
+==> Bottling libagar-1.5.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libagar-1.5.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libagar-1.5.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "57ab866eebc0a47d63f6c13c121a75a1972cdd2711b54c50ebfdf0d67e767b15" => :x86_64_linux
+    rebuild 1
+    sha256 "316317cc965fbd62a2d5050e011162aae3d46a383c9fc78c3249e031cb9f28a4" => :x86_64_linux
   end
