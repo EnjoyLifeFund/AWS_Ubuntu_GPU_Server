@@ -1,3 +1,13 @@
-==> Downloading http://jbake.org/files/jbake-2.5.1-bin.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jbake/2.5.1: 59 files, 45MB, built in 8 seconds
-This formula doesn't require compiling.
+==> Downloading http://downloads.ghostscript.com/public/jbig2dec/jbig2dec-0.14.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jbig2dec/0.14 --disable-silent-rules --without-libpng
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jbig2dec`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jbig2dec/0.14: 13 files, 911.2KB, built in 8 seconds
+==> Determining jbig2dec bottle rebuild...
+==> Bottling jbig2dec-0.14.x86_64_linux.bottle.1.tar.gz...
+./jbig2dec-0.14.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "86d40de3395b66e30e3cdc94d6c83a5bf44811e192aa3a756a6b7c5319f0320e" => :x86_64_linux
+  end
