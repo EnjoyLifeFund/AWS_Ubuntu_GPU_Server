@@ -1,29 +1,23 @@
-==> Installing harry from homebrew/science
-==> Installing dependencies for homebrew/science/harry: libconfig
-==> Installing homebrew/science/harry dependency: libconfig
-==> Downloading https://linuxbrew.bintray.com/bottles/libconfig-1.7.1.x86_64_linux.bottle.tar.gz
-==> Pouring libconfig-1.7.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libconfig/1.7.1: 24 files, 1.9MB
-==> Installing homebrew/science/harry
-==> Downloading http://www.mlsec.org/harry/files/harry-0.4.2.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/harry/0.4.2 --with-pthreads --with-libarchive
-==> make all
-==> make check
+==> Installing hdf4 from homebrew/science
+==> Downloading https://www.hdfgroup.org/ftp/HDF/releases/HDF4.2.11/src/hdf-4.2.11.tar.bz2
+==> Downloading from https://support.hdfgroup.org/ftp/HDF/releases/HDF4.2.11/src/hdf-4.2.11.tar.bz2
+==> Patching
+patching file CMakeLists.txt
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hdf4/4.2.11_3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DHDF4_BUILD_TOOLS=ON -DHDF4_BUILD_UTILS=ON -DHDF4_BUILD_WITH_INSTALL_NAME=ON -DHDF4_ENABLE_JPEG_LIB_SUPPORT=ON -DHDF4_ENABLE_NETCDF=OFF -DHDF4_ENABLE_SZIP_ENCODING=ON -DHDF4_ENABLE_SZIP_SUPPORT=ON -DHDF4_ENABLE_Z_LIB_SUPPORT=ON -DHDF4_BUILD_FORTRAN=OFF
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/harry`
+You can run it manually using `brew postinstall homebrew/science/hdf4`
 ==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+HDF4 has been superseeded by HDF5.  However, the API changed
+substantially and some programs still require the HDF4 libraries in order
+to function.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/harry/0.4.2: 24 files, 1.2MB, built in 23 seconds
-==> Determining homebrew/science/harry bottle rebuild...
-==> Bottling harry-0.4.2.x86_64_linux.bottle.tar.gz...
-./harry-0.4.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hdf4/4.2.11_3: 93 files, 2.4MB, built in 47 seconds
+==> Determining homebrew/science/hdf4 bottle rebuild...
+==> Bottling hdf4-4.2.11_3.x86_64_linux.bottle.1.tar.gz...
+./hdf4-4.2.11_3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "f5ff75bd5a82be3643c4bab173cf35da81e62f3aac6b364d62c77c802989012c" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "885b97e22ca6b6ead8282fec7077359c4ed665c1958056721260f2a47ed79428" => :x86_64_linux
   end
