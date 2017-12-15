@@ -1,15 +1,9 @@
-==> Installing xkbutils from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xkbutils-1.0.4.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xkbutils-1.0.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xkbutils/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xkbutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xkbutils/1.0.4: 11 files, 243.3KB, built in 8 seconds
-==> Determining linuxbrew/xorg/xkbutils bottle rebuild...
-==> Bottling xkbutils-1.0.4.x86_64_linux.bottle.tar.gz...
-./xkbutils-1.0.4.x86_64_linux.bottle.tar.gz
+==> Determining linuxbrew/xorg/xkeyboardconfig bottle rebuild...
+==> Bottling xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz is relocatable...
+./xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "6fecd786bca59b279d1b3fc95f59d642bd9cb120aae28678f211c8d385929be6" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4aa2a874239ee972719ced3a280bc0aa68b167cae3bb5d49d8fe5009d33cbe6a" => :x86_64_linux
   end
