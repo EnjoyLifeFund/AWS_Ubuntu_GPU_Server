@@ -1,15 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/27/ngspice-27.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/ngspice/ng-spice-rework/27/ngspice-27.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libngspice/27 --with-ngshared --enable-cider --enable-xspice
+==> Downloading https://nice.freedesktop.org/releases/libnice-0.1.14.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libnice/0.1.14
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libngspice`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libngspice/27: 154 files, 8.6MB, built in 1 minute 23 seconds
-==> Determining libngspice bottle rebuild...
-==> Bottling libngspice-27.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libngspice-27.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libngspice-27.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libnice`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libnice/0.1.14: 83 files, 7MB, built in 21 seconds
+==> Determining libnice bottle rebuild...
+==> Bottling libnice-0.1.14.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libnice-0.1.14.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libnice-0.1.14.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "60ecd7047a42cc076eb6ea0bad7ef255f50a35a403c980200c15353a7026e63c" => :x86_64_linux
+    sha256 "22fec392b17a077ff842b11e2bd6a745c8a05713f73f81308c777e23e58171d2" => :x86_64_linux
   end
