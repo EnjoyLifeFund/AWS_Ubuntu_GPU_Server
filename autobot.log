@@ -1,16 +1,23 @@
-==> Installing libdivsufsort from homebrew/science
-==> Downloading https://github.com/y-256/libdivsufsort/archive/2.0.1.tar.gz
-==> Downloading from https://codeload.github.com/y-256/libdivsufsort/tar.gz/2.0.1
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libdivsufsort/2.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Installing libgpkg from homebrew/science
+==> Downloading https://bitbucket.org/luciad/libgpkg/get/0.9.16.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libgpkg/0.9.16 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DGPKG_GEOS=ON
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libdivsufsort`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdivsufsort/2.0.1: 12 files, 110KB, built in 4 seconds
-==> Determining homebrew/science/libdivsufsort bottle rebuild...
-==> Bottling libdivsufsort-2.0.1.x86_64_linux.bottle.1.tar.gz...
-./libdivsufsort-2.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libgpkg`
+==> Caveats
+Custom SQLite command-line shell that autoloads static GeoPackage extension:
+/home/linuxbrew/.linuxbrew/opt/libgpkg/bin/gpkg
+
+Make sure to review Usage (extension loading) and Function Reference docs:
+https://bitbucket.org/luciad/libgpkg/wiki/Home
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libgpkg/0.9.16: 11 files, 905KB, built in 4 minutes 17 seconds
+==> Determining homebrew/science/libgpkg bottle rebuild...
+==> Bottling libgpkg-0.9.16.x86_64_linux.bottle.tar.gz...
+./libgpkg-0.9.16.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "06ac64b31b7a8290f79fe1438dbff937df73b9bc1d13bf2be2ad17f0833b32c0" => :x86_64_linux
+    sha256 "23b1ec00c7e251a0ab853d53744b7c5bcd2e9dbb48324531855cff1f73554c5d" => :x86_64_linux
   end
