@@ -1,14 +1,17 @@
-==> Installing platypusvar from homebrew/science
-==> Downloading http://www.well.ox.ac.uk/bioinformatics/Software/Platypus-latest.tgz
-==> python setup.py build
+==> Installing plink2 from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/chrchang/plink-ng/archive/v1.90b3.tar.gz
+==> Downloading from https://codeload.github.com/chrchang/plink-ng/tar.gz/v1.90b3
+==> make plink CFLAGS=-Wall -O2 -flax-vector-conversions -I/home/linuxbrew/.linuxbrew/opt/openblas/include ZLIB=-L/home/linuxbrew/.linuxbrew/opt/zlib/lib -lz BLASFLAGS=-L/home/linuxbrew/.linuxbrew/opt/openblas/lib -lopenblas
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/platypusvar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/platypusvar/0.8.1: 31 files, 2.1MB, built in 56 seconds
-==> Determining homebrew/science/platypusvar bottle rebuild...
-==> Bottling platypusvar-0.8.1.x86_64_linux.bottle.1.tar.gz...
-./platypusvar-0.8.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/plink2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/plink2/1.90b3_2: 5 files, 1.9MB, built in 1 minute 5 seconds
+==> Determining homebrew/science/plink2 bottle rebuild...
+==> Bottling plink2-1.90b3_2.x86_64_linux.bottle.1.tar.gz...
+./plink2-1.90b3_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7b394a03eac97258cdb0caa220da904e1d1d0fb4392c7628549e248c356b818b" => :x86_64_linux
+    sha256 "4bcc23e7784cd64f85866ca04c61508aec78e37e80b4aa4f5649b083224a901b" => :x86_64_linux
   end
