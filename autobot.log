@@ -1,8 +1,3 @@
-==> Downloading https://github.com/StreakyCobra/gws/archive/0.1.16.tar.gz
-==> Downloading from https://codeload.github.com/StreakyCobra/gws/tar.gz/0.1.16
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gws/0.1.16: 8 files, 85.5KB, built in 1 second
+==> Downloading https://storage.googleapis.com/gwt-releases/gwt-2.8.1.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gwt/2.8.1: 6,926 files, 241.4MB, built in 16 seconds
 This formula doesn't require compiling.
