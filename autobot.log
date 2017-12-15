@@ -1,15 +1,14 @@
-==> Downloading https://github.com/99designs/iamy/archive/v2.1.1.tar.gz
-==> Downloading from https://codeload.github.com/99designs/iamy/tar.gz/v2.1.1
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/iamy/2.1.1/bin/iamy -ldflags -X main.Version=v2.1.1
+==> Downloading https://downloads.sourceforge.net/project/iat.berlios/iat-0.1.7.tar.bz2
+==> Downloading from https://iweb.dl.sourceforge.net/project/iat.berlios/iat-0.1.7.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7 --includedir=/home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7/include/iat
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iamy`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iamy/2.1.1: 5 files, 23.9MB, built in 7 seconds
-==> Determining iamy bottle rebuild...
-==> Bottling iamy-2.1.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if iamy-2.1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./iamy-2.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall iat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7: 21 files, 286.9KB, built in 6 seconds
+==> Determining iat bottle rebuild...
+==> Bottling iat-0.1.7.x86_64_linux.bottle.1.tar.gz...
+./iat-0.1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6d5acb206d881c422bdad621db815d68c6b83f34654384f7c8cb01cc8e39c9d3" => :x86_64_linux
+    sha256 "474a83fa858a56a1c519ebe7ef062a2a21bbcdb8f447c2a731161274c7592047" => :x86_64_linux
   end
