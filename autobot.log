@@ -1,7 +1,15 @@
-==> Determining libnet bottle rebuild...
-==> Bottling libnet-1.1.6.x86_64_linux.bottle.tar.gz...
-./libnet-1.1.6.x86_64_linux.bottle.tar.gz
+==> Downloading https://github.com/sahlberg/libnfs/archive/libnfs-2.0.0.tar.gz
+==> Downloading from https://codeload.github.com/sahlberg/libnfs/tar.gz/libnfs-2.0.0
+==> ./bootstrap
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libnfs/2.0.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libnfs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libnfs/2.0.0: 26 files, 2.7MB, built in 26 seconds
+==> Determining libnfs bottle rebuild...
+==> Bottling libnfs-2.0.0.x86_64_linux.bottle.1.tar.gz...
+./libnfs-2.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "c97a30a9197ddc051a4bb0e445eae4f16a4a4326e718d6d6886f0efa89b4c153" => :x86_64_linux
+    rebuild 1
+    sha256 "6b3ff799a8941f5078c624209d22242e028e3673f711f740ac8cfffc602a3a2f" => :x86_64_linux
   end
