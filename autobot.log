@@ -1,24 +1,14 @@
-==> Installing oases from homebrew/science
-==> Installing dependencies for homebrew/science/oases: velvet
-==> Installing homebrew/science/oases dependency: velvet
-==> Downloading https://linuxbrew.bintray.com/bottles-science/velvet-1.2.10.x86_64_linux.bottle.1.tar.gz
-==> Pouring velvet-1.2.10.x86_64_linux.bottle.1.tar.gz
-==> Caveats
-Some additional user contributed scripts are installed here:
-/home/linuxbrew/.linuxbrew/opt/velvet/share/velvet/contrib
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/velvet/1.2.10: 11 files, 443.0KB
-==> Installing homebrew/science/oases
-==> Downloading https://www.ebi.ac.uk/~zerbino/oases/oases_0.2.08.tgz
-==> Downloading https://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.10.tgz
-==> make LONGSEQUENCES=1 MAXKMERLENGTH=127 CATEGORIES=2
+==> Installing ococo from homebrew/science
+==> Downloading https://github.com/karel-brinda/ococo/archive/0.1.2.4.tar.gz
+==> Downloading from https://codeload.github.com/karel-brinda/ococo/tar.gz/0.1.2.4
+==> make HTSLIBINCLUDE=/home/linuxbrew/.linuxbrew/opt/htslib/include HTSLIB=/home/linuxbrew/.linuxbrew/opt/htslib/lib/libhts.so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/oases`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/oases/0.2.08: 13 files, 357.5KB, built in 35 seconds
-==> Determining homebrew/science/oases bottle rebuild...
-==> Bottling oases-0.2.08.x86_64_linux.bottle.tar.gz...
-./oases-0.2.08.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/ococo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ococo/0.1.2.4: 6 files, 471.8KB, built in 3 seconds
+==> Determining homebrew/science/ococo bottle rebuild...
+==> Bottling ococo-0.1.2.4.x86_64_linux.bottle.1.tar.gz...
+./ococo-0.1.2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "2762112c58b3b4d7aac0b629310014c58f9977174de4a6fe797b8c2f5d36948d" => :x86_64_linux
+    rebuild 1
+    sha256 "7397c5bf8d96aa0006492cdac2bfcf15dc585a52c9d867fe7f91ab626e001006" => :x86_64_linux
   end
