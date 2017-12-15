@@ -1,17 +1,20 @@
-==> Installing minia from homebrew/science
-==> Downloading https://github.com/GATB/minia/releases/download/v2.0.7/minia-v2.0.7-Source.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/55681808/9bbda2c0-06d7-11e6-9ad4-a304a49cd15e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T095253Z&X-Amz-Expires=300&X-Amz-Signature=f559b1a84fe9b230609349117f049e60d659d4e98eebc9a7e6308933c1439388&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dminia-v2.0.7-Source.tar.gz&response-content-type=application%2Foctet-stream
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/minia/2.0.7 -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DSKIP_DOC=1
+==> Installing miniasm from homebrew/science
+==> Installing dependencies for homebrew/science/miniasm: minimap
+==> Installing homebrew/science/miniasm dependency: minimap
+==> Downloading https://linuxbrew.bintray.com/bottles-science/minimap-0.2.x86_64_linux.bottle.tar.gz
+==> Pouring minimap-0.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minimap/0.2: 4 files, 209.9KB
+==> Installing homebrew/science/miniasm
+==> Downloading https://github.com/lh3/miniasm/archive/v0.2.tar.gz
+==> Downloading from https://codeload.github.com/lh3/miniasm/tar.gz/v0.2
 ==> make
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/minia`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minia/2.0.7: 6 files, 13.4MB, built in 1 minute 31 seconds
-==> Determining homebrew/science/minia bottle rebuild...
-==> Bottling minia-2.0.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if minia-2.0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./minia-2.0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/miniasm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/miniasm/0.2: 12 files, 332KB, built in 1 second
+==> Determining homebrew/science/miniasm bottle rebuild...
+==> Bottling miniasm-0.2.x86_64_linux.bottle.1.tar.gz...
+./miniasm-0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d6c98848db65a413f1f1cb4dfdd2b912d92d66b437c783d993597904391be3b3" => :x86_64_linux
+    sha256 "c3b31cb5963e23678ba9106e349e6fe92ec513a4073487efca54d275b0db054c" => :x86_64_linux
   end
