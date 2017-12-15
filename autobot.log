@@ -1,16 +1,16 @@
-==> Installing xmessage from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xmessage-1.0.4.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xmessage-1.0.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xmessage/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xmodmap from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xmodmap-1.0.9.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xmodmap-1.0.9.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xmodmap/1.0.9 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xmessage`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xmessage/1.0.4: 9 files, 141.0KB, built in 7 seconds
-==> Determining linuxbrew/xorg/xmessage bottle rebuild...
-==> Bottling xmessage-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./xmessage-1.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xmodmap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xmodmap/1.0.9: 8 files, 175KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xmodmap bottle rebuild...
+==> Bottling xmodmap-1.0.9.x86_64_linux.bottle.1.tar.gz...
+./xmodmap-1.0.9.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "554bc3bf48992a096cbadcac0504a3692bb3830c7f38bd82a5021dd98b49e825" => :x86_64_linux
+    sha256 "8fda05a3e9954e5c63ed74cf62d2b2483ece825f1ae2a4248ee0713e5052e224" => :x86_64_linux
   end
