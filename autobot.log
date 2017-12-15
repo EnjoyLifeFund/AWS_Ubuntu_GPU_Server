@@ -1,13 +1,19 @@
-==> Downloading https://github.com/bilgi-webteam/kommit/archive/v1.1.0.tar.gz
-==> Downloading from https://codeload.github.com/bilgi-webteam/kommit/tar.gz/v1.1.0
+==> Downloading https://github.com/kubernetes/kompose/archive/v1.6.0.tar.gz
+==> Downloading from https://codeload.github.com/kubernetes/kompose/tar.gz/v1.6.0
+==> make bin
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kommit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kommit/1.1.0: 5 files, 23.7KB, built in 0 seconds
-==> Determining kommit bottle rebuild...
-==> Bottling kommit-1.1.0.x86_64_linux.bottle.1.tar.gz...
-./kommit-1.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall kompose`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kompose/1.6.0: 8 files, 45.9MB, built in 25 seconds
+==> Determining kompose bottle rebuild...
+==> Bottling kompose-1.6.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kompose-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kompose-1.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2168eecdb10a96cea2f9b4dfb98f1deeaf7b2aceeadbf30ddc18f2f3faf24951" => :x86_64_linux
+    sha256 "adadc3582758a7ef422516e9d22b1e55cc4240921bccb0372058db2e1d147a2f" => :x86_64_linux
   end
