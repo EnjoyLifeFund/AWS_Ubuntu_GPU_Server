@@ -1,15 +1,17 @@
-==> Installing lsd from homebrew/science
-==> Downloading https://github.com/tothuhien/lsd-0.3beta/archive/v0.3-beta.tar.gz
-==> Downloading from https://codeload.github.com/tothuhien/lsd-0.3beta/tar.gz/v0.3-beta
-==> make -C src
+==> Installing lumpy-sv from homebrew/science
+==> Downloading https://github.com/arq5x/lumpy-sv/archive/0.2.13.tar.gz
+==> Downloading from https://codeload.github.com/arq5x/lumpy-sv/tar.gz/0.2.13
+==> make
+==> Cloning https://github.com/cc2qe/bamkit.git
+==> Checking out revision 148ef1d3ac05ef7a033ed5ef42749c21956718d6
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/lsd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lsd/0.3b: 13 files, 621KB, built in 2 seconds
-==> Determining homebrew/science/lsd bottle rebuild...
-==> Bottling lsd-0.3b.x86_64_linux.bottle.1.tar.gz...
-./lsd-0.3b.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/lumpy-sv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lumpy-sv/0.2.13: 118 files, 13.3MB, built in 1 minute 9 seconds
+==> Determining homebrew/science/lumpy-sv bottle rebuild...
+==> Bottling lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fc87230dc2ee15ed376330ecfd6f3a5d3de4c4bbff8b52b9a5b4234e97a8ce09" => :x86_64_linux
+    sha256 "707026a4b49c8b8edf2b933079dc1c1cc7fe192c45d580265f156742c529a09e" => :x86_64_linux
   end
