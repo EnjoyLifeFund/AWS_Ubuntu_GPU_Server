@@ -1,8 +1,14 @@
-==> Determining libtool bottle rebuild...
-==> Bottling libtool-2.4.6_2.x86_64_linux.bottle.1.tar.gz...
-./libtool-2.4.6_2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://www.numbercrunch.de/trng/trng-4.19.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtrng/4.19
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libtrng`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtrng/4.19: 77 files, 1.5MB, built in 28 seconds
+==> Determining libtrng bottle rebuild...
+==> Bottling libtrng-4.19.x86_64_linux.bottle.1.tar.gz...
+./libtrng-4.19.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d0c1bb3cf583c1f1f3dfd675483a773ca20730f2abd37c5f345ec020588bac89" => :x86_64_linux
+    sha256 "3d23b71aa83887e2cf4f97cdc6134553a4e0b909405752a01fb248cb8ee2eb30" => :x86_64_linux
   end
