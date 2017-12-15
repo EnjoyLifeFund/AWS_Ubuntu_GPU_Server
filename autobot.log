@@ -1,32 +1,18 @@
-==> Installing openbr from homebrew/science
-==> Cloning https://github.com/biometrics/openbr.git
-==> Checking out tag v1.1.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/openbr/1.1.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/br
-Target /home/linuxbrew/.linuxbrew/bin/br
-is a symlink belonging to apache-brooklyn-cli. You can unlink it:
-  brew unlink apache-brooklyn-cli
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite openbr
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run openbr
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/br -> /home/linuxbrew/.linuxbrew/Cellar/apache-brooklyn-cli/0.12.0/bin/br
+==> Installing seq-gen from homebrew/science
+==> Downloading https://github.com/rambaut/Seq-Gen/archive/1.3.4.tar.gz
+==> Downloading from https://codeload.github.com/rambaut/Seq-Gen/tar.gz/1.3.4
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/openbr`
+You can run it manually using `brew postinstall homebrew/science/seq-gen`
+==> Caveats
+The manual and examples are installed to /home/linuxbrew/.linuxbrew/share/seq-gen.
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/openbr/1.1.0_1: 160 files, 265.3MB, built in 2 minutes 27 seconds
-==> Determining homebrew/science/openbr bottle rebuild...
-==> Bottling openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./openbr-1.1.0_1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/seq-gen/1.3.4: 12 files, 203.7KB, built in 1 second
+==> Determining homebrew/science/seq-gen bottle rebuild...
+==> Bottling seq-gen-1.3.4.x86_64_linux.bottle.1.tar.gz...
+./seq-gen-1.3.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "46344d2d911b1532a603cb7d0c40ff76e7f9a7e0237c8ddd28d06128276e11b6" => :x86_64_linux
+    sha256 "7bd96b3f8ad1240ca04fef9aa0c615834bd97c918cd03c1aec1ad398a60e2365" => :x86_64_linux
   end
