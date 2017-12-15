@@ -1,8 +1,13 @@
-==> Determining ldns bottle rebuild...
-==> Bottling ldns-1.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ldns-1.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ldns-1.7.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://lav.yar.ru/download/le/le-1.16.5.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/le/1.16.5
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall le`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/le/1.16.5: 63 files, 553.9KB, built in 48 seconds
+==> Determining le bottle rebuild...
+==> Bottling le-1.16.5.x86_64_linux.bottle.1.tar.gz...
+./le-1.16.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c8fefdc6252991bf27e4912c07a432f98d45e6f9091cc0ed368aff93dab5e639" => :x86_64_linux
+    sha256 "12254c364b8240d5531a38485c09c9079090c5f5e716d799a53c091c11038fc9" => :x86_64_linux
   end
