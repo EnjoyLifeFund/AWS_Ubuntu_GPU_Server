@@ -1,4 +1,12 @@
-==> Downloading https://github.com/jcsalterego/historian/archive/0.0.2.tar.gz
-==> Downloading from https://codeload.github.com/jcsalterego/historian/tar.gz/0.0.2
-🍺  /home/linuxbrew/.linuxbrew/Cellar/historian/0.0.2: 6 files, 20.7KB, built in 0 seconds
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
+==> Best Mirror http://mirror.reverse.net/pub/apache/hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
+Trying a mirror...
+==> Downloading https://archive.apache.org/dist/hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
+==> Caveats
+Hadoop must be in your path for hive executable to work.
+
+If you want to use HCatalog with Pig, set $HCAT_HOME in your profile:
+  export HCAT_HOME=/home/linuxbrew/.linuxbrew/opt/hive/libexec/hcatalog
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hive/2.3.1: 1,071 files, 182.7MB, built in 31 seconds
 This formula doesn't require compiling.
