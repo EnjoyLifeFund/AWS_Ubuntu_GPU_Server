@@ -1,19 +1,14 @@
-==> Installing symengine from homebrew/science
-==> Downloading https://github.com/symengine/symengine/archive/v0.3.0.tar.gz
-==> Downloading from https://codeload.github.com/symengine/symengine/tar.gz/v0.3.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_PREFIX_PATH=/home/linuxbrew/.linuxbrew/opt/gmp;/home/linuxbrew/.linuxbrew/opt/mpfr;/home/linuxbrew/.linuxbrew/opt/libmpc -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0 -DBUILD_BENCHMARKS=no -DINTEGER_CLASS=gmp -DWITH_SYMENGINE_THREAD_SAFE=yes -DWITH_MPC=yes -DBUILD_FOR_DISTRIBUTION=yes -DBUILD_SHARED_LIBS=yes
+==> Installing tabtk from homebrew/science
+==> Downloading https://github.com/lh3/tabtk/archive/v0.1.tar.gz
+==> Downloading from https://codeload.github.com/lh3/tabtk/tar.gz/v0.1
 ==> make
-==> ctest
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/symengine`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0: 80 files, 6.6MB, built in 27 seconds
-==> Determining homebrew/science/symengine bottle rebuild...
-==> Bottling symengine-0.3.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if symengine-0.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./symengine-0.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/tabtk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tabtk/0.1: 4 files, 199.5KB, built in 1 second
+==> Determining homebrew/science/tabtk bottle rebuild...
+==> Bottling tabtk-0.1.x86_64_linux.bottle.1.tar.gz...
+./tabtk-0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3f7939de083595c4af3278ab701d0efb43cbd61bfe7a08db9bbd91bc22704c55" => :x86_64_linux
+    sha256 "0da09a2c0d2a02063bb78f04d39a0a7167f097ad1d429844faf3fec39f48cb73" => :x86_64_linux
   end
