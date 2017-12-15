@@ -1,15 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/spacenav/spacenav%20library%20%28SDK%29/libspnav%200.2.3/libspnav-0.2.3.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/spacenav/spacenav%20library%20%28SDK%29/libspnav%200.2.3/libspnav-0.2.3.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libspnav/0.2.3 --disable-x11
+==> Downloading https://downloads.sourceforge.net/project/libsquish/libsquish-1.15.tgz
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/libsquish/libsquish-1.15.tgz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libsquish/1.15 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libspnav`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libspnav/0.2.3: 10 files, 47.1KB, built in 1 second
-==> Determining libspnav bottle rebuild...
-==> Bottling libspnav-0.2.3.x86_64_linux.bottle.1.tar.gz...
-./libspnav-0.2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libsquish`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsquish/1.15: 7 files, 160.7KB, built in 4 seconds
+==> Determining libsquish bottle rebuild...
+==> Bottling libsquish-1.15.x86_64_linux.bottle.1.tar.gz...
+./libsquish-1.15.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "6477296bd8163c23f9f7e3a59c0405bc7410fab336899bb3b2d594297e5dae6f" => :x86_64_linux
+    sha256 "7220b9b3f83d9aeb9fe639429baaec75ebeb95e5fab7a07b1edf6541e5231ca2" => :x86_64_linux
   end
