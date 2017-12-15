@@ -1,12 +1,14 @@
-==> Downloading http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdaemon/0.14
+==> Downloading https://downloads.sourceforge.net/project/libdbi/libdbi/libdbi-0.9.0/libdbi-0.9.0.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/libdbi/libdbi/libdbi-0.9.0/libdbi-0.9.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdbi/0.9.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdaemon`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdaemon/0.14: 18 files, 288KB, built in 12 seconds
-==> Determining libdaemon bottle rebuild...
-==> Bottling libdaemon-0.14.x86_64_linux.bottle.tar.gz...
-./libdaemon-0.14.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libdbi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdbi/0.9.0: 68 files, 2.4MB, built in 8 seconds
+==> Determining libdbi bottle rebuild...
+==> Bottling libdbi-0.9.0.x86_64_linux.bottle.1.tar.gz...
+./libdbi-0.9.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "eccf09ca602aed4ebe2508d2305977a1e1090a18edb1ff3edd7ade1b6f97c9fc" => :x86_64_linux
+    rebuild 1
+    sha256 "6ec73ee88522bff973c7bfeed13d45ddccdac29511e993c06736f6799e81ee9c" => :x86_64_linux
   end
