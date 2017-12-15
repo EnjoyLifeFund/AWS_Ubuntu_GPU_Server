@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ==> Installing sfscode from homebrew/science
 ==> Downloading https://downloads.sourceforge.net/project/sfscode/sfscode/sfscode_20140719/sfscode_20140719.tgz
 ==> Downloading from https://ayera.dl.sourceforge.net/project/sfscode/sfscode/sfscode_20140719/sfscode_20140719.tgz
@@ -12,4 +13,23 @@ You can run it manually using `brew postinstall homebrew/science/sfscode`
   bottle do
     cellar :any_skip_relocation
     sha256 "d810e2ad3dd7c34ae02341bffb8290a1d86473ee986abdf1bf6804a50bcc4ee1" => :x86_64_linux
+=======
+==> Installing seqdb from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://bitbucket.org/mhowison/seqdb/downloads/seqdb-0.2.1.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/mhowison/seqdb/downloads/seqdb-0.2.1.tar.gz?Signature=vu5W8VpTyMWBjoVsJRKSFtWiRvc%3D&Expires=1513349748&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22seqdb-0.2.1.tar.gz%22
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/seqdb/0.2.1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/seqdb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/seqdb/0.2.1: 23 files, 3.2MB, built in 12 seconds
+==> Determining homebrew/science/seqdb bottle rebuild...
+==> Bottling seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "e8863ba45604240d8b5d6c17737f385663463a2fc9046a2e05a0afe43b7ed910" => :x86_64_linux
+>>>>>>> 3df97dd... [Succeed]homebrew/science/seqdb: stable 0.2.1 (bottled)
   end
