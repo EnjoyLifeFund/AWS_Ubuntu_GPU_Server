@@ -1,8 +1,3 @@
-==> Downloading https://github.com/kerl/kerl/archive/1.8.1.tar.gz
-==> Downloading from https://codeload.github.com/kerl/kerl/tar.gz/1.8.1
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kerl/1.8.1: 6 files, 126.8KB, built in 0 seconds
+==> Downloading https://twitter-archive.github.io/kestrel/download/kestrel-2.4.1.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kestrel/2.4.1: 81 files, 33.9MB, built in 2 seconds
 This formula doesn't require compiling.
