@@ -1,7 +1,13 @@
-==> Determining libssh2 bottle rebuild...
-==> Bottling libssh2-1.8.0.x86_64_linux.bottle.tar.gz...
-./libssh2-1.8.0.x86_64_linux.bottle.tar.gz
+==> Downloading https://ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libstatgrab/0.91
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libstatgrab`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libstatgrab/0.91: 130 files, 2.0MB, built in 29 seconds
+==> Determining libstatgrab bottle rebuild...
+==> Bottling libstatgrab-0.91.x86_64_linux.bottle.1.tar.gz...
+./libstatgrab-0.91.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "8bfafca9c5434a90481347e7f74f4d447330e80fe4210f9d1c8155809653ff82" => :x86_64_linux
+    rebuild 1
+    sha256 "a9158fcb768d3aef128ccc2d3af0aebaf82acad6b920833ae824f3d70f8eae77" => :x86_64_linux
   end
