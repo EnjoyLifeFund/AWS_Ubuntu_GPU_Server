@@ -1,14 +1,15 @@
-==> Downloading http://libcello.org/static/libCello-2.1.0.tar.gz
-==> make check
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcello/2.1.0
+==> Downloading https://github.com/maciejczyzewski/libchaos/releases/download/v1.0/libchaos-1.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/16251363/57cf85cc-cd71-11e6-97c3-9bfd6aac434b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T210923Z&X-Amz-Expires=300&X-Amz-Signature=da76ba94dda7d76f52f0a59b84281cded6bea68d20577f6bbf95fd877ddc8399&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibchaos-1.0.tar.gz&response-content-type=application%2Foctet-stream
+==> cmake .. -DLIBCHAOS_ENABLE_TESTING=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libchaos/1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcello`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcello/2.1.0: 6 files, 817.1KB, built in 2 seconds
-==> Determining libcello bottle rebuild...
-==> Bottling libcello-2.1.0.x86_64_linux.bottle.1.tar.gz...
-./libcello-2.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libchaos`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libchaos/1.0: 23 files, 223.8KB, built in 7 seconds
+==> Determining libchaos bottle rebuild...
+==> Bottling libchaos-1.0.x86_64_linux.bottle.1.tar.gz...
+./libchaos-1.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "a20f67629c67720754d04852a39804e26b28e4e8a13b6278b6a4588f825075ad" => :x86_64_linux
+    sha256 "fefc1ab9ec60495b8b18e2580418d2b03ee37fac89e7b34f4c5f53dce12669f1" => :x86_64_linux
   end
