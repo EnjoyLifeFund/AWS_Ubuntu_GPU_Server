@@ -1,19 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/ipmiutil/ipmiutil-2.9.5.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/ipmiutil/ipmiutil-2.9.5.tar.gz
-==> Patching
-patching file configure
-Hunk #2 succeeded at 20748 with fuzz 2.
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5 --enable-sha256 --enable-gpl
-==> make TMPDIR=/tmp
-==> make prefix=/ DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5 varto=/home/linuxbrew/.linuxbrew/var/lib/ipmiutil initto=/home/linuxbrew/.linuxbrew/etc/init.d sysdto=/home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5/ipmiutil install
+==> Installing hisat from homebrew/science
+==> Downloading https://ccb.jhu.edu/software/hisat/downloads/hisat-0.1.6-beta-source.zip
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ipmiutil`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipmiutil/2.9.5: 74 files, 4.1MB, built in 16 seconds
-==> Determining ipmiutil bottle rebuild...
-==> Bottling ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ipmiutil-2.9.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/hisat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hisat/0.1.6b: 18 files, 31MB, built in 1 minute 23 seconds
+==> Determining homebrew/science/hisat bottle rebuild...
+==> Bottling hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hisat-0.1.6b.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c3a4c5abe632b3c7c48f5da9e167b00e41f0b10f4518370616a805d9d4a3de03" => :x86_64_linux
+    sha256 "c2869d3672ecf8da4d271f9b6624bc47ffa11816d26053281415a320d26b0b2f" => :x86_64_linux
   end
