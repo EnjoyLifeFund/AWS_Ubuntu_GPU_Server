@@ -1,15 +1,17 @@
-==> Installing rainbow from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/bio-rainbow/rainbow_2.0.4.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/bio-rainbow/rainbow_2.0.4.tar.gz
-==> make
+==> Installing rampart from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/TGAC/RAMPART/releases/download/Release-0.12.2/rampart-0.12.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9453289/af15fd6a-774c-11e5-9dfe-3d1326dc8f0a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T124134Z&X-Amz-Expires=300&X-Amz-Signature=bd4db8ed521a967519c271bd79a674148c786fd25e2e3e4727d3c218db480de9&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Drampart-0.12.2.tar.gz&response-content-type=application%2Foctet-stream
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/rainbow`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/rainbow/2.0.4: 6 files, 166.2KB, built in 2 seconds
-==> Determining homebrew/science/rainbow bottle rebuild...
-==> Bottling rainbow-2.0.4.x86_64_linux.bottle.1.tar.gz...
-./rainbow-2.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/rampart`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/rampart/0.12.2: 116 files, 11.7MB, built in 7 seconds
+==> Determining homebrew/science/rampart bottle rebuild...
+==> Bottling rampart-0.12.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if rampart-0.12.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./rampart-0.12.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2170c37f44de333a01e56da0e95bc20600cd1dc9edbeb52d7ef8794953a62867" => :x86_64_linux
+    sha256 "c96cb8a29db6ae0b3cb5536f7432da7bc62077ab16977005c910bdef9eee3ae6" => :x86_64_linux
   end
