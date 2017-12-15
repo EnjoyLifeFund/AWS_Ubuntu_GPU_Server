@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/iat.berlios/iat-0.1.7.tar.bz2
-==> Downloading from https://iweb.dl.sourceforge.net/project/iat.berlios/iat-0.1.7.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7 --includedir=/home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7/include/iat
-==> make install
+==> Downloading https://github.com/JasonL9000/ib/archive/0.7.1.tar.gz
+==> Downloading from https://codeload.github.com/JasonL9000/ib/tar.gz/0.7.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iat/0.1.7: 21 files, 286.9KB, built in 6 seconds
-==> Determining iat bottle rebuild...
-==> Bottling iat-0.1.7.x86_64_linux.bottle.1.tar.gz...
-./iat-0.1.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ib/0.7.1: 9 files, 44.7KB, built in 0 seconds
+==> Determining ib bottle rebuild...
+==> Bottling ib-0.7.1.x86_64_linux.bottle.1.tar.gz...
+./ib-0.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "474a83fa858a56a1c519ebe7ef062a2a21bbcdb8f447c2a731161274c7592047" => :x86_64_linux
+    sha256 "e0af41ad0ab107b3a1a443a8fd8107549f57ad3f6a0863f955c490a837335bf9" => :x86_64_linux
   end
