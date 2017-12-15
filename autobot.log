@@ -1,13 +1,19 @@
-==> Installing utgb from homebrew/science
-==> Downloading http://maven.utgenome.org/repository/artifact/org/utgenome/utgb-shell/1.5.9/utgb-shell-1.5.9-bin.tar.gz
+==> Installing ess from homebrew/science
+==> Downloading https://ess.r-project.org/downloads/ess/ess-15.09-2.tgz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ess/15.09-2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/utgb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/utgb/1.5.9: 92 files, 36.2MB, built in 6 seconds
-==> Determining homebrew/science/utgb bottle rebuild...
-==> Bottling utgb-1.5.9.x86_64_linux.bottle.tar.gz...
-==> Detecting if utgb-1.5.9.x86_64_linux.bottle.tar.gz is relocatable...
-./utgb-1.5.9.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/ess`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/ess
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ess/15.09-2: 163 files, 4.9MB, built in 15 seconds
+==> Determining homebrew/science/ess bottle rebuild...
+==> Bottling ess-15.09-2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ess-15.09-2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ess-15.09-2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "bd751a7451d8540ac0922351f1657d84775276750cd3369b881ac2647936fc10" => :x86_64_linux
+    rebuild 1
+    sha256 "e92874562827735635b417b1a401c1274c40542725d893889b965eb6596f61ce" => :x86_64_linux
   end
