@@ -1,14 +1,8 @@
-==> Downloading https://github.com/douglascrockford/JSMin/archive/1bf6ce5f74a9f8752ac7f5d115b8d7ccb31cfe1b.tar.gz
-==> Downloading from https://codeload.github.com/douglascrockford/JSMin/tar.gz/1bf6ce5f74a9f8752ac7f5d115b8d7ccb31cfe1b
-==> gcc-6 jsmin.c -o jsmin
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jsmin`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jsmin/2013-03-29: 4 files, 29.7KB, built in 0 seconds
-==> Determining jsmin bottle rebuild...
-==> Bottling jsmin-2013-03-29.x86_64_linux.bottle.1.tar.gz...
-./jsmin-2013-03-29.x86_64_linux.bottle.1.tar.gz
+==> Determining json-c bottle rebuild...
+==> Bottling json-c-0.12.1.x86_64_linux.bottle.1.tar.gz...
+./json-c-0.12.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "cabdcb6c92148c0b056dc5b1bb9f5cab012b197c221c79b887178646e3eb7280" => :x86_64_linux
+    sha256 "906a0404fe3ec77c4c3584de193712246de56ecf56ae70fdc1947a6a0048bf66" => :x86_64_linux
   end
