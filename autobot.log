@@ -1,18 +1,15 @@
-==> Installing galfit from homebrew/science
-==> Downloading https://users.obs.carnegiescience.edu/peng/work/galfit/galfit3-leopard+.tar.gz
-==> Downloading https://users.obs.carnegiescience.edu/peng/work/galfit/galfit-ex.tar.gz
+==> Installing galib from homebrew/science
+==> Downloading http://lancet.mit.edu/ga/dist/galib247.tgz
+==> make
+==> make test
+==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/galib/247 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/galfit`
-==> Caveats
-The documentation and examples are installed to
-/home/linuxbrew/.linuxbrew/share/galfit
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/galfit/3.0.5: 14 files, 3.7MB, built in 3 seconds
-==> Determining homebrew/science/galfit bottle rebuild...
-==> Bottling galfit-3.0.5.x86_64_linux.bottle.tar.gz...
-==> Detecting if galfit-3.0.5.x86_64_linux.bottle.tar.gz is relocatable...
-./galfit-3.0.5.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/galib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/galib/247: 61 files, 2.1MB, built in 1 minute 2 seconds
+==> Determining homebrew/science/galib bottle rebuild...
+==> Bottling galib-247.x86_64_linux.bottle.tar.gz...
+./galib-247.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "061eac173d5cd9ee42271c8e5b58f40fe1c52241549ae3cfa4f2db075ea85b36" => :x86_64_linux
+    sha256 "54ffa5642c1c590cc886cb143e5c3be1e44b264647061e6808f0e323c202b294" => :x86_64_linux
   end
