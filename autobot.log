@@ -1,13 +1,16 @@
-==> Downloading http://downloads.ghostscript.com/public/jbig2dec/jbig2dec-0.14.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jbig2dec/0.14 --disable-silent-rules --without-libpng
+==> Downloading https://github.com/agl/jbig2enc/archive/0.28-dist.tar.gz
+==> Downloading from https://codeload.github.com/agl/jbig2enc/tar.gz/0.28-dist
+==> Patching
+patching file configure.ac
+patching file src/jbig2.cc
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jbig2enc/0.28_3
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jbig2dec`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jbig2dec/0.14: 13 files, 911.2KB, built in 8 seconds
-==> Determining jbig2dec bottle rebuild...
-==> Bottling jbig2dec-0.14.x86_64_linux.bottle.1.tar.gz...
-./jbig2dec-0.14.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jbig2enc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jbig2enc/0.28_3: 26 files, 2.4MB, built in 18 seconds
+==> Determining jbig2enc bottle rebuild...
+==> Bottling jbig2enc-0.28_3.x86_64_linux.bottle.tar.gz...
+./jbig2enc-0.28_3.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "86d40de3395b66e30e3cdc94d6c83a5bf44811e192aa3a756a6b7c5319f0320e" => :x86_64_linux
+    sha256 "f816de6510d7ffda0dcf152ddb4bc7abfdf0d7d38623f56ab74bf305f79284d3" => :x86_64_linux
   end
