@@ -1,15 +1,20 @@
-==> Installing glimmerhmm from homebrew/science
-==> Downloading ftp://ccb.jhu.edu/pub/software/glimmerhmm/GlimmerHMM-3.0.2.tar.gz
-==> make -C sources
-==> make -C train
+==> Downloading https://downloads.sourceforge.net/project/ipmitool/ipmitool/1.8.18/ipmitool-1.8.18.tar.bz2
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/ipmitool/ipmitool/1.8.18/ipmitool-1.8.18.tar.bz2
+==> Downloading https://gist.githubusercontent.com/adaugherity/87f1466b3c93d5aed205a636169d1c58/raw/29880afac214c1821e34479dad50dca58a0951ef/ipmitool-getpass-segfault.patch
+==> Patching
+==> Applying ipmitool-getpass-segfault.patch
+patching file lib/ipmi_main.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipmitool/1.8.18_2 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ipmitool/1.8.18_2/share/man --disable-intf-usb
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/glimmerhmm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/glimmerhmm/3.0.2: 542 files, 135.5MB, built in 8 seconds
-==> Determining homebrew/science/glimmerhmm bottle rebuild...
-==> Bottling glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./glimmerhmm-3.0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ipmitool`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipmitool/1.8.18_2: 16 files, 4.1MB, built in 18 seconds
+==> Determining ipmitool bottle rebuild...
+==> Bottling ipmitool-1.8.18_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ipmitool-1.8.18_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ipmitool-1.8.18_2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7a4a169cf2a9dee228e99b12d3ac5f0f1692146dd628a895d1b2be143e1b3488" => :x86_64_linux
+    sha256 "3829332f7c0cfb30eac79442925fc47026a218e6ba4bc5e623b572ec919eb6ab" => :x86_64_linux
   end
