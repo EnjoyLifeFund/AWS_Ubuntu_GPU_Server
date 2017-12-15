@@ -1,8 +1,14 @@
-==> Determining libtecla bottle rebuild...
-==> Bottling libtecla-1.6.3.x86_64_linux.bottle.1.tar.gz...
-./libtecla-1.6.3.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://www.leonerd.org.uk/code/libtermkey/libtermkey-0.20.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libtermkey`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtermkey/0.20: 34 files, 176.2KB, built in 3 seconds
+==> Determining libtermkey bottle rebuild...
+==> Bottling libtermkey-0.20.x86_64_linux.bottle.1.tar.gz...
+./libtermkey-0.20.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "78edbf2815592ee7237405e63a9af8f9483469a9b9d25af4a19f597800a36619" => :x86_64_linux
+    sha256 "80f5dc0de574c3d229b992a964a01bee5c75f3f08929fbb08efedd338cf141d0" => :x86_64_linux
   end
