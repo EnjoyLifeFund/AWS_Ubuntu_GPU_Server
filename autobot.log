@@ -1,13 +1,7 @@
-==> Downloading http://miniupnp.free.fr/files/download.php?file=libnatpmp-20150609.tar.gz
-==> Downloading from http://miniupnp.free.fr/files/libnatpmp-20150609.tar.gz
-==> make INSTALLPREFIX=/home/linuxbrew/.linuxbrew/Cellar/libnatpmp/20150609 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libnatpmp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libnatpmp/20150609: 10 files, 72.3KB, built in 3 seconds
-==> Determining libnatpmp bottle rebuild...
-==> Bottling libnatpmp-20150609.x86_64_linux.bottle.1.tar.gz...
-./libnatpmp-20150609.x86_64_linux.bottle.1.tar.gz
+==> Determining libnet bottle rebuild...
+==> Bottling libnet-1.1.6.x86_64_linux.bottle.tar.gz...
+./libnet-1.1.6.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "25e24d9aa1e0413767d69cc2a8609d881223d35d0893404c26b7e4ae056d2145" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "c97a30a9197ddc051a4bb0e445eae4f16a4a4326e718d6d6886f0efa89b4c153" => :x86_64_linux
   end
