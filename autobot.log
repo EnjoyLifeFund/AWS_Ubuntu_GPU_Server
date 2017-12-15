@@ -1,16 +1,15 @@
-==> Installing libccd from homebrew/science
-==> Downloading https://github.com/danfis/libccd/archive/v2.0.tar.gz
-==> Downloading from https://codeload.github.com/danfis/libccd/tar.gz/v2.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libccd/2.0_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCCD_DOUBLE=True
+==> Installing libcerf from homebrew/science
+==> Downloading http://apps.jcns.fz-juelich.de/src/libcerf/libcerf-1.5.tgz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcerf/1.5
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libccd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libccd/2.0_2: 13 files, 266.3KB, built in 1 second
-==> Determining homebrew/science/libccd bottle rebuild...
-==> Bottling libccd-2.0_2.x86_64_linux.bottle.1.tar.gz...
-./libccd-2.0_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libcerf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcerf/1.5: 27 files, 235.9KB, built in 8 seconds
+==> Determining homebrew/science/libcerf bottle rebuild...
+==> Bottling libcerf-1.5.x86_64_linux.bottle.1.tar.gz...
+./libcerf-1.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b79bc476f38198ea2117ba80feb2579a773b2fe372893c780250029fc92dfd7a" => :x86_64_linux
+    sha256 "6a04e4efcaeca60b727464560d86c43c2cc405614c50c4ee917e473d487efa76" => :x86_64_linux
   end
