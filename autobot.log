@@ -1,8 +1,14 @@
-==> Determining homebrew/science/trimmomatic bottle rebuild...
-==> Bottling trimmomatic-0.36.x86_64_linux.bottle.1.tar.gz...
-./trimmomatic-0.36.x86_64_linux.bottle.1.tar.gz
+==> Installing trnascan from homebrew/science
+==> Downloading http://eddylab.org/software/tRNAscan-SE/tRNAscan-SE.tar.Z
+==> make all CFLAGS=-D_POSIX_C_SOURCE=1 LIBDIR=/home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23/libexec BINDIR=/home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23/bin
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/trnascan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/trnascan/1.23: 34 files, 1.5MB, built in 1 second
+==> Determining homebrew/science/trnascan bottle rebuild...
+==> Bottling trnascan-1.23.x86_64_linux.bottle.1.tar.gz...
+./trnascan-1.23.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "6515b8c1f281361450e0389ea359bd35b4be9dc75c10badb9a801588a0b2408a" => :x86_64_linux
+    sha256 "18c48afcf1deb5c11a73f7713c7d8b4379f3b34db9b4c235885445fc3d8afbf5" => :x86_64_linux
   end
