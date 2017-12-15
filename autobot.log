@@ -1,16 +1,12 @@
-==> Downloading https://github.com/ktossell/libuvc/archive/v0.0.6.tar.gz
-==> Downloading from https://codeload.github.com/ktossell/libuvc/tar.gz/v0.0.6
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libuvc/0.0.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
+==> Downloading https://s3.amazonaws.com/packages.couchbase.com/clients/c/libvbucket-1.8.0.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libvbucket/1.8.0.4 --without-docs
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libuvc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libuvc/0.0.6: 14 files, 282.5KB, built in 3 seconds
-==> Determining libuvc bottle rebuild...
-==> Bottling libuvc-0.0.6.x86_64_linux.bottle.1.tar.gz...
-./libuvc-0.0.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libvbucket`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libvbucket/1.8.0.4: 12 files, 207.0KB, built in 8 seconds
+==> Determining libvbucket bottle rebuild...
+==> Bottling libvbucket-1.8.0.4.x86_64_linux.bottle.tar.gz...
+./libvbucket-1.8.0.4.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e296042aa81010c3760354c8da09014a220b67f277850d813c4bbc0220b3f291" => :x86_64_linux
+    sha256 "3dd6f6906b8720662586a13d3518d57fc491c192f44688bd6569c490ab2088fa" => :x86_64_linux
   end
