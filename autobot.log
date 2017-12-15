@@ -1,20 +1,8 @@
-==> Installing miniasm from homebrew/science
-==> Installing dependencies for homebrew/science/miniasm: minimap
-==> Installing homebrew/science/miniasm dependency: minimap
-==> Downloading https://linuxbrew.bintray.com/bottles-science/minimap-0.2.x86_64_linux.bottle.tar.gz
-==> Pouring minimap-0.2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minimap/0.2: 4 files, 209.9KB
-==> Installing homebrew/science/miniasm
-==> Downloading https://github.com/lh3/miniasm/archive/v0.2.tar.gz
-==> Downloading from https://codeload.github.com/lh3/miniasm/tar.gz/v0.2
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/miniasm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/miniasm/0.2: 12 files, 332KB, built in 1 second
-==> Determining homebrew/science/miniasm bottle rebuild...
-==> Bottling miniasm-0.2.x86_64_linux.bottle.1.tar.gz...
-./miniasm-0.2.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/minimap bottle rebuild...
+==> Bottling minimap-0.2.x86_64_linux.bottle.1.tar.gz...
+./minimap-0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c3b31cb5963e23678ba9106e349e6fe92ec513a4073487efca54d275b0db054c" => :x86_64_linux
+    sha256 "a4601afdba4a91f86b3795b75fd2e96b9f01031572e8f9b18e2a36b27642c601" => :x86_64_linux
   end
