@@ -1,13 +1,8 @@
-==> Downloading https://olivier.sessink.nl/jailkit/jailkit-2.19.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jailkit/2.19
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jailkit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jailkit/2.19: 38 files, 527.4KB, built in 10 seconds
-==> Determining jailkit bottle rebuild...
-==> Bottling jailkit-2.19.x86_64_linux.bottle.1.tar.gz...
-./jailkit-2.19.x86_64_linux.bottle.1.tar.gz
+==> Determining jam bottle rebuild...
+==> Bottling jam-2.6.x86_64_linux.bottle.1.tar.gz...
+./jam-2.6.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "08a49a5986970e1b97609f35acdf6357c081ab9e6080b8a4f6521b43adf15582" => :x86_64_linux
+    sha256 "ea51bfb43260310c4e74c4938ec255607a23d5d0c883784abd440e4ffc0c6883" => :x86_64_linux
   end
