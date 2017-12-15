@@ -1,38 +1,8 @@
-==> Installing vcfanno from homebrew/science
-==> Downloading https://github.com/brentp/vcfanno/archive/v0.2.8.tar.gz
-==> Downloading from https://codeload.github.com/brentp/vcfanno/tar.gz/v0.2.8
-==> Cloning https://github.com/BurntSushi/toml.git
-==> Checking out revision a368813c5e648fee92e5f6c30e3944ff9d5e8895
-==> Cloning https://github.com/biogo/hts.git
-==> Checking out revision 8bf89f2e2bfa34e19ccb510d0b5ce3f5e8413ba6
-==> Cloning https://github.com/brentp/bix.git
-==> Checking out revision 630987373507c5d03349e90da1fba4789e495f03
-==> Cloning https://github.com/brentp/goluaez.git
-==> Checking out revision dd35d08e32e72e29b900868e058312e63d44c208
-==> Cloning https://github.com/brentp/irelate.git
-==> Checking out revision 51840b4b6bb33bb4c9e413e76c402a9fb2d90bd7
-==> Cloning https://github.com/brentp/vcfgo.git
-==> Checking out revision 17ed276c3d6d1fd24dbbc4b8d467a207d35663f1
-==> Cloning https://github.com/brentp/xopen.git
-==> Checking out revision 83f195adad83cdc80142215b0d73b557b49b585c
-==> Cloning https://github.com/pkg/errors.git
-==> Checking out revision c605e284fe17294bda444b34710735b29d1a9d90
-==> Cloning https://github.com/yuin/gluare.git
-==> Checking out revision d7c94f1a80ede93a621ed100866e6d4745ca8c22
-==> Cloning https://github.com/yuin/gopher-lua.git
-==> Checking out revision 2243d714d6c94951d8ccca8c851836ff47d401c9
-==> Cloning https://go.googlesource.com/net.git
-==> Checking out revision 054b33e6527139ad5b1ec2f6232c3b175bd9a30c
-==> go build -o vcfanno
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/vcfanno`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/vcfanno/0.2.8: 18 files, 11.2MB, built in 7 seconds
-==> Determining homebrew/science/vcfanno bottle rebuild...
-==> Bottling vcfanno-0.2.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if vcfanno-0.2.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./vcfanno-0.2.8.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/vcflib bottle rebuild...
+==> Bottling vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ba46e9f27f22529393d1360a4406c1e951c215e8fce57b9185f7eea4b2116bc8" => :x86_64_linux
+    sha256 "a04a26f6f1ab8d0388bfb8eefc7319b1d3f7b0fdbc420ee7660ac3fa23f6abd5" => :x86_64_linux
   end
