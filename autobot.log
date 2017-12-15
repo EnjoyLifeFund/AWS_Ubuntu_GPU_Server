@@ -1,8 +1,14 @@
-==> Determining libarchive bottle rebuild...
-==> Bottling libarchive-3.3.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libarchive-3.3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libarchive-3.3.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/libart_lgpl/2.3/libart_lgpl-2.3.21.tar.bz2
+==> Downloading from http://mirror.umd.edu/gnome/sources/libart_lgpl/2.3/libart_lgpl-2.3.21.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libart/2.3.21
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libart`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libart/2.3.21: 57 files, 1MB, built in 9 seconds
+==> Determining libart bottle rebuild...
+==> Bottling libart-2.3.21.x86_64_linux.bottle.1.tar.gz...
+./libart-2.3.21.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "373f46c61cc351d29810bb7870fd916fd61cbd18801600bf36e8019095b04288" => :x86_64_linux
+    sha256 "e6cea8cec96b8e64454b6c27a5c482a0809835fa2c5b7532aee931ba33b07377" => :x86_64_linux
   end
