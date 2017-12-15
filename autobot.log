@@ -1,13 +1,14 @@
-==> Downloading http://archive.lbzip2.org/lbzip2-2.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lbzip2/2.5
+==> Downloading https://downloads.sourceforge.net/project/lci/lci/0.6/lci-0.6.tar.gz
+==> Downloading from https://master.dl.sourceforge.net/project/lci/lci/0.6/lci-0.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lci/0.6
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lbzip2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lbzip2/2.5: 13 files, 552.0KB, built in 18 seconds
-==> Determining lbzip2 bottle rebuild...
-==> Bottling lbzip2-2.5.x86_64_linux.bottle.1.tar.gz...
-./lbzip2-2.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lci`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lci/0.6: 11 files, 177.9KB, built in 6 seconds
+==> Determining lci bottle rebuild...
+==> Bottling lci-0.6.x86_64_linux.bottle.1.tar.gz...
+./lci-0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aca4ea4c9aede99d3073f7d46d7fe8396921050bec19c895e03e0ca3291c33c9" => :x86_64_linux
+    sha256 "22d55dd5353f8c2d9f82ceb7300998df1a07e7d23eac8d25bfaa78998800a64a" => :x86_64_linux
   end
