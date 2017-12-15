@@ -1,16 +1,16 @@
-==> Installing sessreg from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/sessreg-1.1.1.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/sessreg-1.1.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/sessreg/1.1.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing setxkbmap from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/setxkbmap-1.3.1.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/setxkbmap-1.3.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/setxkbmap/1.3.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --with-xkb-config-root=/home/linuxbrew/.linuxbrew/opt/libx11/share/X11/xkb
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/sessreg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/sessreg/1.1.1: 8 files, 96.3KB, built in 8 seconds
-==> Determining linuxbrew/xorg/sessreg bottle rebuild...
-==> Bottling sessreg-1.1.1.x86_64_linux.bottle.1.tar.gz...
-./sessreg-1.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/setxkbmap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/setxkbmap/1.3.1: 7 files, 133.7KB, built in 6 seconds
+==> Determining linuxbrew/xorg/setxkbmap bottle rebuild...
+==> Bottling setxkbmap-1.3.1.x86_64_linux.bottle.1.tar.gz...
+./setxkbmap-1.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "dccb72efca5e1cdb774a76ed308e87e94209768336b355700c793cba7519bfe5" => :x86_64_linux
+    sha256 "7284ee91d7e609904f1ef4aca843cc4b083f76330ca079c8030a7425ac4487c2" => :x86_64_linux
   end
