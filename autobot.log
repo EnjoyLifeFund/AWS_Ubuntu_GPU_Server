@@ -1,13 +1,4 @@
-==> Downloading https://github.com/redis/hiredis/archive/v0.13.3.tar.gz
-==> Downloading from https://codeload.github.com/redis/hiredis/tar.gz/v0.13.3
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hiredis/0.13.3
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hiredis`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hiredis/0.13.3: 31 files, 625.2KB, built in 1 second
-==> Determining hiredis bottle rebuild...
-==> Bottling hiredis-0.13.3.x86_64_linux.bottle.1.tar.gz...
-./hiredis-0.13.3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "f48ae07c745a6f013fef655e548bef5fa467391ff7706ccb6553c665fc9940ea" => :x86_64_linux
-  end
+==> Downloading https://github.com/jcsalterego/historian/archive/0.0.2.tar.gz
+==> Downloading from https://codeload.github.com/jcsalterego/historian/tar.gz/0.0.2
+🍺  /home/linuxbrew/.linuxbrew/Cellar/historian/0.0.2: 6 files, 20.7KB, built in 0 seconds
+This formula doesn't require compiling.
