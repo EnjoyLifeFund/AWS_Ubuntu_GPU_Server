@@ -1,17 +1,17 @@
-==> Installing lumpy-sv from homebrew/science
-==> Downloading https://github.com/arq5x/lumpy-sv/archive/0.2.13.tar.gz
-==> Downloading from https://codeload.github.com/arq5x/lumpy-sv/tar.gz/0.2.13
+==> Installing m4ri from homebrew/science
+==> Downloading https://bitbucket.org/malb/m4ri/downloads/m4ri-20140914.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/malb/m4ri/downloads/m4ri-20140914.tar.gz?Signature=%2Ful1kVbOyTRxQHwg6blRCn9l0Jg%3D&Expires=1513331970&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22m4ri-20140914.tar.gz%22
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/m4ri/20140914
 ==> make
-==> Cloning https://github.com/cc2qe/bamkit.git
-==> Checking out revision 148ef1d3ac05ef7a033ed5ef42749c21956718d6
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/lumpy-sv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lumpy-sv/0.2.13: 118 files, 13.3MB, built in 1 minute 9 seconds
-==> Determining homebrew/science/lumpy-sv bottle rebuild...
-==> Bottling lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lumpy-sv-0.2.13.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/m4ri`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/m4ri/20140914: 33 files, 1.8MB, built in 12 seconds
+==> Determining homebrew/science/m4ri bottle rebuild...
+==> Bottling m4ri-20140914.x86_64_linux.bottle.1.tar.gz...
+./m4ri-20140914.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "707026a4b49c8b8edf2b933079dc1c1cc7fe192c45d580265f156742c529a09e" => :x86_64_linux
+    sha256 "a6c956b936efefc2c969d989419072917c10203005843620f72b763fda3f0c74" => :x86_64_linux
   end
