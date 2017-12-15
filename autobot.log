@@ -1,12 +1,8 @@
-==> Downloading http://www.xmailserver.org/libxdiff-0.23.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxdiff`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxdiff/0.23: 13 files, 457.8KB, built in 9 seconds
-==> Determining libxdiff bottle rebuild...
-==> Bottling libxdiff-0.23.x86_64_linux.bottle.tar.gz...
-./libxdiff-0.23.x86_64_linux.bottle.tar.gz
+==> Determining libxkbcommon bottle rebuild...
+==> Bottling libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "a330daaa2239800bc9c26a6295c4f00ba0ffeb383367f04bd085f8121f8dda35" => :x86_64_linux
+    rebuild 1
+    sha256 "545b69adb7ae19e995acf8b5a231ec6a39ab0c41bfc21a8739587b80c1c050d8" => :x86_64_linux
   end
