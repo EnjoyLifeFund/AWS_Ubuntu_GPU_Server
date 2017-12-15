@@ -1,14 +1,14 @@
-==> Installing piler from homebrew/science
-==> Downloading https://drive5.com/piler/piler_source.tar.gz
+==> Installing pilercr from homebrew/science
+==> Downloading https://www.drive5.com/pilercr/pilercr1.06.tar.gz
 ==> make CC=gcc-6 -c GPP=g++-6 LDLIBS=-lm
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/piler`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/piler/1.0_1: 3 files, 113.9KB, built in 2 seconds
-==> Determining homebrew/science/piler bottle rebuild...
-==> Bottling piler-1.0_1.x86_64_linux.bottle.1.tar.gz...
-./piler-1.0_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/pilercr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pilercr/1.06: 3 files, 297KB, built in 6 seconds
+==> Determining homebrew/science/pilercr bottle rebuild...
+==> Bottling pilercr-1.06.x86_64_linux.bottle.1.tar.gz...
+./pilercr-1.06.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f67184fde45c005d0cfa6faf752246cbabb1945e8508da3ae2617c1ea2fe61b8" => :x86_64_linux
+    sha256 "1be4178a24e3adcce772e706dcd5ad9b66d9f4e5c89b5c90c03f300038062c12" => :x86_64_linux
   end
