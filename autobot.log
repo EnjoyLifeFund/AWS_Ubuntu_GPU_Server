@@ -1,13 +1,23 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/lcrack/lcrack_20040914.orig.tar.gz
-==> ./configure
-==> make
+==> Downloading http://www.lichteblau.com/download/ldapvi-1.7.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/ldapvi/ldapvi_1.7-10.debian.tar.xz
+==> Patching
+==> Applying patches/05_getline-conflict
+patching file common.h
+patching file misc.c
+Hunk #1 succeeded at 315 (offset -4 lines).
+patching file ldapvi.c
+==> Applying patches/06_fix-vim-modeline
+patching file ldapvi.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ldapvi/1.7_3
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lcrack`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lcrack/20040914: 10 files, 140.1KB, built in 1 second
-==> Determining lcrack bottle rebuild...
-==> Bottling lcrack-20040914.x86_64_linux.bottle.tar.gz...
-./lcrack-20040914.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall ldapvi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ldapvi/1.7_3: 10 files, 261.2KB, built in 7 seconds
+==> Determining ldapvi bottle rebuild...
+==> Bottling ldapvi-1.7_3.x86_64_linux.bottle.1.tar.gz...
+./ldapvi-1.7_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "b80a2f7b2109ce32e0d73d506ffa6811d7b9152edad9c49eafb231b459a82558" => :x86_64_linux
+    rebuild 1
+    sha256 "260e38e0f3db0c1f5d492ef6a1e5faa5eac391c557ea25a5261921529855a208" => :x86_64_linux
   end
