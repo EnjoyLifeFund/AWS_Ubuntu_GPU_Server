@@ -1,38 +1,18 @@
-==> Installing nfft from homebrew/science
+==> Installing nonpareil from homebrew/science
 ==> Using Homebrew-provided fortran compiler.
 This may be changed by setting the FC environment variable.
-==> Downloading https://www-user.tu-chemnitz.de/~potts/nfft/download/nfft-3.2.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nfft/3.2.3
-==> make install
-==> make check
+==> Downloading https://github.com/lmrodriguezr/nonpareil/archive/v3.1.1.tar.gz
+==> Downloading from https://codeload.github.com/lmrodriguezr/nonpareil/tar.gz/v3.1.1
+==> make nonpareil
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1 mandir=/home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1/share/man/man1 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nfft`
-==> Caveats
-NFFT is built as serial (not multi-threaded) library by default
-when being built with clang, as this compiler doesn't support
-OpenMP.
-
-A multi-threaded version of the NFFT library can be build with
-Homebrew's GNU C compiler, using
-
-  brew install nfft --with-openmp
-
-which will create both serial and multi-threaded NFFT libraries.
-
-Linking against the serial libraries:
-
-   ... -L/home/linuxbrew/.linuxbrew/opt/nfft/lib -lnfft -lfftw3 ...
-
-Linking against the multi-threaded libraries (if built):
-
-   ... -L/home/linuxbrew/.linuxbrew/opt/nfft/lib -lnfft_threads -lfftw3_threads ...
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nfft/3.2.3: 15 files, 620.9KB, built in 46 seconds
-==> Determining homebrew/science/nfft bottle rebuild...
-==> Bottling nfft-3.2.3.x86_64_linux.bottle.tar.gz...
-./nfft-3.2.3.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nonpareil`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1: 26 files, 392.9KB, built in 13 seconds
+==> Determining homebrew/science/nonpareil bottle rebuild...
+==> Bottling nonpareil-3.1.1.x86_64_linux.bottle.1.tar.gz...
+./nonpareil-3.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "4723bf100c4835823850e57ee99d4c59855ebb1b18ba2cac72fffa8a9e182f83" => :x86_64_linux
+    rebuild 1
+    sha256 "b8a82c96debddfa586190b943a60c0533bf8f585381a0dc436823614c46a5cd7" => :x86_64_linux
   end
