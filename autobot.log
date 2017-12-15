@@ -1,14 +1,7 @@
-==> Downloading http://www.libdivecomputer.org/releases/libdivecomputer-0.6.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdivecomputer/0.6.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdivecomputer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdivecomputer/0.6.0: 67 files, 3.9MB, built in 10 seconds
-==> Determining libdivecomputer bottle rebuild...
-==> Bottling libdivecomputer-0.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libdivecomputer-0.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libdivecomputer-0.6.0.x86_64_linux.bottle.1.tar.gz
+==> Determining libdmtx bottle rebuild...
+==> Bottling libdmtx-0.7.4.x86_64_linux.bottle.tar.gz...
+./libdmtx-0.7.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "ec342c2e26a82f39e24e39506e41d7068649936a5c01d6b238833ddee8e55e20" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "617daead0c817e209ca59c990d137c108445c6b2b84fd129a752ea9718cfadc7" => :x86_64_linux
   end
