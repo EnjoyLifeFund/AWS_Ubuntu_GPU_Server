@@ -1,8 +1,15 @@
-==> Determining homebrew/science/htsbox bottle rebuild...
-==> Bottling htsbox-r312.x86_64_linux.bottle.1.tar.gz...
-./htsbox-r312.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://www.read.seas.harvard.edu/~kohler/ipsumdump/ipsumdump-1.86.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipsumdump/1.86
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ipsumdump`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipsumdump/1.86: 10 files, 23.7MB, built in 23 seconds
+==> Determining ipsumdump bottle rebuild...
+==> Bottling ipsumdump-1.86.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ipsumdump-1.86.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ipsumdump-1.86.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ff993697daccc9290f6d53d80d15bd3fd773322138349c880a32bb7d17d09640" => :x86_64_linux
+    sha256 "5e0c9dd992321b17800a79b8e6659a4d78ba6c891536b236e8a8da78b892a293" => :x86_64_linux
   end
