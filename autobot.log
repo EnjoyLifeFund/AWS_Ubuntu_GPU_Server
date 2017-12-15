@@ -1,15 +1,28 @@
-==> Installing methpipe from homebrew/science
-==> Downloading http://smithlabresearch.org/downloads/methpipe-3.4.3.tar.bz2
-==> make all
-==> make install
+==> Installing metis4 from homebrew/science
+==> Downloading http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/OLD/metis-4.0.3.tar.gz
+==> make CC=gcc-6 COPTIONS=-fPIC
+==> make CC=gcc-6 COPTIONS=-fPIC
+==> gcc-6 -fPIC -shared -Wl,-whole-archive libmetis.a -Wl,-no-whole-archive -o libmetis.so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/methpipe`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/methpipe/3.4.3: 28 files, 12MB, built in 1 minute 17 seconds
-==> Determining homebrew/science/methpipe bottle rebuild...
-==> Bottling methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/metis4`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because Conflicts with metis (5.x)..
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/metis4/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/metis4/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/metis4/include
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/metis4/4.0.3_1: 25 files, 2MB, built in 4 seconds
+==> Determining homebrew/science/metis4 bottle rebuild...
+==> Bottling metis4-4.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./metis4-4.0.3_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "654cc953c9e289f15bb44f5bf47a6958cc7ce9bcc961e0b3c30ed62928e2974c" => :x86_64_linux
+    sha256 "389ba972d83d3ddc8cd712473ef6ce7fef0135e653ee26797dfa86600fbca6c1" => :x86_64_linux
   end
