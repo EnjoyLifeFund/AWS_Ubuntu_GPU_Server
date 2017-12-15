@@ -1,16 +1,16 @@
-==> Installing fastuniq from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/fastuniq/FastUniq-1.1.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/fastuniq/FastUniq-1.1.tar.gz
-==> make -C source
+==> Installing fcgene from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/fcgene/fcgene-1.0.7.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/fcgene/fcgene-1.0.7.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/fcgene/1.0.7
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fastuniq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fastuniq/1.1: 10 files, 11.5MB, built in 2 seconds
-==> Determining homebrew/science/fastuniq bottle rebuild...
-==> Bottling fastuniq-1.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fastuniq-1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fastuniq-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fcgene`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fcgene/1.0.7: 4 files, 14.8MB, built in 36 seconds
+==> Determining homebrew/science/fcgene bottle rebuild...
+==> Bottling fcgene-1.0.7.x86_64_linux.bottle.tar.gz...
+==> Detecting if fcgene-1.0.7.x86_64_linux.bottle.tar.gz is relocatable...
+./fcgene-1.0.7.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "044910e63f8b68473e8ad56b124993c335450697463045698fdea82107911bc5" => :x86_64_linux
+    sha256 "d01ed60b9ed7562af08421222846b82eccf71f92bfcfa9a2fdf9b96ca35528b7" => :x86_64_linux
   end
