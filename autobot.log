@@ -1,16 +1,17 @@
-==> Downloading http://gael.roualland.free.fr/ifstat/ifstat-1.1.tar.gz
-==> Patching
-patching file drivers.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1/share/man
+==> Downloading http://www.ex-parrot.com/pdw/iftop/download/iftop-1.0pre4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ifstat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1: 8 files, 87.5KB, built in 5 seconds
-==> Determining ifstat bottle rebuild...
-==> Bottling ifstat-1.1.x86_64_linux.bottle.1.tar.gz...
-./ifstat-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall iftop`
+==> Caveats
+iftop requires root privileges so you will need to run `sudo iftop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iftop/1.0pre4: 10 files, 295.6KB, built in 8 seconds
+==> Determining iftop bottle rebuild...
+==> Bottling iftop-1.0pre4.x86_64_linux.bottle.1.tar.gz...
+./iftop-1.0pre4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "724c009d94f97aa4f53675125071a46f133a15a4c5a03e89e6b7fc7b6ed45342" => :x86_64_linux
+    sha256 "56af85c66f527bbb42c0ad359297e790831ed81267e2a59823b4fee7a0417756" => :x86_64_linux
   end
