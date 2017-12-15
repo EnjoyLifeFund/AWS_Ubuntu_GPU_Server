@@ -1,14 +1,15 @@
-==> Installing pilercr from homebrew/science
-==> Downloading https://www.drive5.com/pilercr/pilercr1.06.tar.gz
-==> make CC=gcc-6 -c GPP=g++-6 LDLIBS=-lm
+==> Installing pilon from homebrew/science
+==> Downloading https://github.com/broadinstitute/pilon/releases/download/v1.22/pilon-1.22.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9117031/68d30092-099e-11e7-80d3-d2ac0fce3bf4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T112920Z&X-Amz-Expires=300&X-Amz-Signature=af70ed26610581b7aca787984bb5db74070f01fef2a2c26708ad41b9d800acc2&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dpilon-1.22.jar&response-content-type=application%2Foctet-stream
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/pilercr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/pilercr/1.06: 3 files, 297KB, built in 6 seconds
-==> Determining homebrew/science/pilercr bottle rebuild...
-==> Bottling pilercr-1.06.x86_64_linux.bottle.1.tar.gz...
-./pilercr-1.06.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/pilon`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pilon/1.22: 4 files, 6.5MB, built in 3 seconds
+==> Determining homebrew/science/pilon bottle rebuild...
+==> Bottling pilon-1.22.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if pilon-1.22.x86_64_linux.bottle.1.tar.gz is relocatable...
+./pilon-1.22.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1be4178a24e3adcce772e706dcd5ad9b66d9f4e5c89b5c90c03f300038062c12" => :x86_64_linux
+    sha256 "4405431f7261b704b5e8834b41a8e1afcb1c5c28a7f2ec915555a48d412ff3e2" => :x86_64_linux
   end
