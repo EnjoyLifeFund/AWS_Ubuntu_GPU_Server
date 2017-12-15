@@ -1,8 +1,12 @@
-==> Determining libpcap bottle rebuild...
-==> Bottling libpcap-1.8.1.x86_64_linux.bottle.1.tar.gz...
-./libpcap-1.8.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading http://xmailserver.org/pcl-1.12.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpcl/1.12
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libpcl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libpcl/1.12: 13 files, 114.2KB, built in 6 seconds
+==> Determining libpcl bottle rebuild...
+==> Bottling libpcl-1.12.x86_64_linux.bottle.tar.gz...
+./libpcl-1.12.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "875e1c18455990a2e68262dffbfaa5b94ae8b1271dafef8c1e9e7bf6fd8665d1" => :x86_64_linux
+    sha256 "0349826d9b8ecd2a515a9d7de4837e5da288d01ac91ae5410d39ecf6196e4ba0" => :x86_64_linux
   end
