@@ -1,3 +1,15 @@
-==> Downloading http://jodies.de/ipcalc-archive/ipcalc-0.41.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipcalc/0.41: 5 files, 44.5KB, built in 2 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/esnet/iperf/archive/3.3.tar.gz
+==> Downloading from https://codeload.github.com/esnet/iperf/tar.gz/3.3
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iperf3/3.3 --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> make clean
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall iperf3`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iperf3/3.3: 12 files, 1.2MB, built in 8 seconds
+==> Determining iperf3 bottle rebuild...
+==> Bottling iperf3-3.3.x86_64_linux.bottle.1.tar.gz...
+./iperf3-3.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "ac4723ce5c088e1b5db3ae367540719fbc415c00b33300650e99ac8f34bbc95b" => :x86_64_linux
+  end
