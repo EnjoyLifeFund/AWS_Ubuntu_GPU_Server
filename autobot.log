@@ -1,14 +1,25 @@
-==> Installing hisat2 from homebrew/science
-==> Downloading ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.5-source.zip
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/i/iprint/iprint_1.3.orig.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/i/iprint/iprint_1.3-9.diff.gz
+==> Patching
+==> Applying iprint_1.3-9.diff
+patching file i.1
+File i.c is read-only; trying to patch anyway
+patching file i.c
+patching file Makefile
+patching file debian/changelog
+patching file debian/control
+patching file debian/rules
+patching file debian/copyright
+patching file debian/compat
+patching file debian/dirs
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/hisat2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hisat2/2.0.5: 18 files, 37.9MB, built in 1 minute 35 seconds
-==> Determining homebrew/science/hisat2 bottle rebuild...
-==> Bottling hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hisat2-2.0.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall iprint`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iprint/1.3-9: 5 files, 52KB, built in 1 second
+==> Determining iprint bottle rebuild...
+==> Bottling iprint-1.3-9.x86_64_linux.bottle.tar.gz...
+./iprint-1.3-9.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "a9a18cfda64df8a185ea5587ffb77f9cf98364790ce358fe4402bc57c69be6a3" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "c871fbc484b78210b76cdd90b0238986fc80ec24f7e8d2962d0ed7b76a66e840" => :x86_64_linux
   end
