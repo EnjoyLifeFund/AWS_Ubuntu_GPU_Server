@@ -1,8 +1,14 @@
-==> Determining hevea bottle rebuild...
-==> Bottling hevea-2.31.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hevea-2.31.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hevea-2.31.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/LonnyGomes/hexcurse/archive/v1.60.0.tar.gz
+==> Downloading from https://codeload.github.com/LonnyGomes/hexcurse/tar.gz/v1.60.0
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hexcurse/1.60.0 --mandir=/home/linuxbrew/.linuxbrew/Cellar/hexcurse/1.60.0/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hexcurse`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hexcurse/1.60.0: 11 files, 213.3KB, built in 3 seconds
+==> Determining hexcurse bottle rebuild...
+==> Bottling hexcurse-1.60.0.x86_64_linux.bottle.1.tar.gz...
+./hexcurse-1.60.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "166e1d5771b303050dcfd0bc913578a80a99b1928b9dec9d8b7e7aa421327258" => :x86_64_linux
+    sha256 "edd9744a7e23e9aa911c826bd6d64935814bbbd2862e1d91b00f9e9904500ad5" => :x86_64_linux
   end
