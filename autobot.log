@@ -1,15 +1,13 @@
-==> Downloading https://github.com/hfst/hfst-ospell/releases/download/v0.4.5/hfstospell-0.4.5.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/53049269/59037d2e-e97b-11e6-95d6-209aa7bfd2aa?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T015936Z&X-Amz-Expires=300&X-Amz-Signature=5d39008b92515f23a0ce3f0f10995c115a12e216d718cae5fbc912935044cb3f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dhfstospell-0.4.5.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/hfstospell/0.4.5_1
+==> Downloading ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6 --mandir=/home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hfstospell`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hfstospell/0.4.5_1: 22 files, 8.5MB, built in 15 seconds
-==> Determining hfstospell bottle rebuild...
-==> Bottling hfstospell-0.4.5_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hfstospell-0.4.5_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hfstospell-0.4.5_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hfsutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6: 36 files, 561.4KB, built in 4 seconds
+==> Determining hfsutils bottle rebuild...
+==> Bottling hfsutils-3.2.6.x86_64_linux.bottle.1.tar.gz...
+./hfsutils-3.2.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8e8c3ff72ece65067576b4e4b09e872e58557fbf0ab598247e4c920a11af6cc8" => :x86_64_linux
+    sha256 "ac97177e8633502e0b71f7c27425cf2a2c4c46fe2336474240681d97eb21dd43" => :x86_64_linux
   end
