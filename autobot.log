@@ -1,8 +1,18 @@
-==> Determining jemalloc bottle rebuild...
-==> Bottling jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jemalloc-5.0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "0047ef61f385d455d0399bd66ee45967ec624eef26ca6aa02333ae350f0de334" => :x86_64_linux
-  end
+==> Downloading https://archive.apache.org/dist/jena/binaries/apache-jena-3.5.0.tar.gz
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/schemagen
+Target /home/linuxbrew/.linuxbrew/bin/schemagen
+is a symlink belonging to jdk. You can unlink it:
+  brew unlink jdk
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite jena
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run jena
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/schemagen -> /home/linuxbrew/.linuxbrew/Cellar/jdk/9.0.1+11/bin/schemagen
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jena/3.5.0: 203 files, 19.8MB, built in 5 seconds
+This formula doesn't require compiling.
