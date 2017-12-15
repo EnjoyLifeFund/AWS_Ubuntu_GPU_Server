@@ -1,14 +1,15 @@
-==> Installing quip from homebrew/science
-==> Downloading https://homes.cs.washington.edu/~dcjones/quip/quip-1.1.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/quip/1.1.8
-==> make install
+==> Installing racon from homebrew/science
+==> Downloading https://github.com/isovic/racon/files/741519/racon-v0.5.0.tar.gz
+==> Downloading from https://github-production-repository-file-5c1aeb.s3.amazonaws.com/52370070/741519?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T123556Z&X-Amz-Expires=300&X-Amz-Signature=d1b9e821e35c7591cc58c22e5270780ea6f48227854e22e07bec97cf53d2aad8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3Bfilename%3Dracon-v0.5.0.tar.gz&response-content-type=application%2Fgzip
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/quip`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/quip/1.1.8: 12 files, 3.6MB, built in 12 seconds
-==> Determining homebrew/science/quip bottle rebuild...
-==> Bottling quip-1.1.8.x86_64_linux.bottle.tar.gz...
-==> Detecting if quip-1.1.8.x86_64_linux.bottle.tar.gz is relocatable...
-./quip-1.1.8.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/racon`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/racon/0.5.0: 5 files, 2.0MB, built in 11 seconds
+==> Determining homebrew/science/racon bottle rebuild...
+==> Bottling racon-0.5.0.x86_64_linux.bottle.1.tar.gz...
+./racon-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "402562f7a1f5cd8fe041fc44b14266295d23d06728cc409c231485481c982b7f" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "523cc90c3fcbc25421b0dc064b1adb642e44bccf5413967b71313ce551d6bccc" => :x86_64_linux
   end
