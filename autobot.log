@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/libbinio/libbinio/1.4/libbinio-1.4.tar.bz2
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/libbinio/libbinio/1.4/libbinio-1.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbinio/1.4
+==> Downloading https://downloads.sourceforge.net/project/bs2b/libbs2b/3.1.0/libbs2b-3.1.0.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/bs2b/libbs2b/3.1.0/libbs2b-3.1.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbs2b/3.1.0 --disable-static --enable-shared
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libbinio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbinio/1.4: 21 files, 758.9KB, built in 10 seconds
-==> Determining libbinio bottle rebuild...
-==> Bottling libbinio-1.4.x86_64_linux.bottle.1.tar.gz...
-./libbinio-1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libbs2b`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libbs2b/3.1.0: 16 files, 151.3KB, built in 9 seconds
+==> Determining libbs2b bottle rebuild...
+==> Bottling libbs2b-3.1.0.x86_64_linux.bottle.tar.gz...
+./libbs2b-3.1.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "f0539f485c76dda065194402a66e811f8f23308bcadc2387ca52689bb79f1c58" => :x86_64_linux
+    sha256 "a90635ee8b146bc76d05eec56b0034a7995c80a5ccf19c6f2086d47137f17a57" => :x86_64_linux
   end
