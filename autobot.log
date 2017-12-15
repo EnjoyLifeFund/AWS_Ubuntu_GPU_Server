@@ -1,8 +1,13 @@
-==> Determining libxkbcommon bottle rebuild...
-==> Bottling libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libxkbcommon-0.7.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/jmcnamara/libxlsxwriter/archive/RELEASE_0.7.5.tar.gz
+==> Downloading from https://codeload.github.com/jmcnamara/libxlsxwriter/tar.gz/RELEASE_0.7.5
+==> make install INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/libxlsxwriter/0.7.5 V=1
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libxlsxwriter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libxlsxwriter/0.7.5: 31 files, 2.5MB, built in 4 seconds
+==> Determining libxlsxwriter bottle rebuild...
+==> Bottling libxlsxwriter-0.7.5.x86_64_linux.bottle.1.tar.gz...
+./libxlsxwriter-0.7.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "545b69adb7ae19e995acf8b5a231ec6a39ab0c41bfc21a8739587b80c1c050d8" => :x86_64_linux
+    sha256 "8b22df1489112d69e584f65c17726e8c413a76ebdd8a5281d164c0c52b3888b0" => :x86_64_linux
   end
