@@ -1,8 +1,15 @@
-==> Determining homebrew/science/ropebwt2 bottle rebuild...
-==> Bottling ropebwt2-r181.x86_64_linux.bottle.1.tar.gz...
-./ropebwt2-r181.x86_64_linux.bottle.1.tar.gz
+==> Installing sais from homebrew/science
+==> Downloading https://sites.google.com/site/yuta256/sais-2.4.1.zip
+==> Downloading from https://sites.google.com/site/yuta256/sais-2.4.1.zip?attredirects=0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/sais/2.4.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/sais`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sais/2.4.1: 8 files, 82.8KB, built in 9 seconds
+==> Determining homebrew/science/sais bottle rebuild...
+==> Bottling sais-2.4.1.x86_64_linux.bottle.tar.gz...
+./sais-2.4.1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "79c2b164aebd34c8dcef39e3ee51408d6333d521be9d78f9b857ed5bd1a1aa5a" => :x86_64_linux
+    sha256 "51d15df2e026ab7037ae2e697bd40bb61f1d867385e63f0fdda096550ec02d9e" => :x86_64_linux
   end
