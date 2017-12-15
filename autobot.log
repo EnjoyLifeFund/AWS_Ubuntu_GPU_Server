@@ -1,3 +1,16 @@
-==> Downloading https://build.funtoo.org/distfiles/keychain/keychain-2.8.4.tar.bz2
-🍺  /home/linuxbrew/.linuxbrew/Cellar/keychain/2.8.4: 7 files, 130.5KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz
+==> Downloading from https://codeload.github.com/keystone-engine/keystone/tar.gz/0.9.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/keystone/0.9.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall keystone`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/keystone/0.9.1: 18 files, 32.5MB, built in 28 seconds
+==> Determining keystone bottle rebuild...
+==> Bottling keystone-0.9.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if keystone-0.9.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./keystone-0.9.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "76b9c7894e2b4f0a342c26c3eccd998819a15159ccf73e008dab0e2d147decd5" => :x86_64_linux
+  end
