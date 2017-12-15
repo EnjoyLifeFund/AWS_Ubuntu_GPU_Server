@@ -1,19 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-8.2.22/ircd-hybrid-8.2.22.tgz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-8.2.22/ircd-hybrid-8.2.22.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ircd-hybrid/8.2.22 --localstatedir=/home/linuxbrew/.linuxbrew/var --sysconfdir=/home/linuxbrew/.linuxbrew/etc --enable-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make install
+==> Downloading https://github.com/radare/ired/archive/0.6.tar.gz
+==> Downloading from https://codeload.github.com/radare/ired/tar.gz/0.6
+==> make
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ired/0.6
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ircd-hybrid`
-==> Caveats
-You'll more than likely need to edit the default settings in the config file:
-  /home/linuxbrew/.linuxbrew/etc/ircd.conf
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ircd-hybrid/8.2.22: 232 files, 8MB, built in 54 seconds
-==> Determining ircd-hybrid bottle rebuild...
-==> Bottling ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ircd-hybrid-8.2.22.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ired`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ired/0.6: 10 files, 80.8KB, built in 1 second
+==> Determining ired bottle rebuild...
+==> Bottling ired-0.6.x86_64_linux.bottle.1.tar.gz...
+./ired-0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "db51a0a6fe73f7a47d7023b22a8a0964f9ac7b93267dfa95f9c5b0914a7928e6" => :x86_64_linux
+    sha256 "6321d7cde483e42a01b64bf4144bbd4cb5e3c0874881a4f39f8efd8d8811fadb" => :x86_64_linux
   end
