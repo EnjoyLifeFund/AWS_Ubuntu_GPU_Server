@@ -1,17 +1,8 @@
-==> Downloading https://www.puimula.org/voikko-sources/libvoikko/libvoikko-4.1.1.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libvoikko/4.1.1_1 --with-dictionary-path=/home/linuxbrew/.linuxbrew/lib/voikko
-==> make install
-==> Downloading https://www.puimula.org/voikko-sources/voikko-fi/voikko-fi-2.1.tar.gz
-==> make vvfst
-==> make vvfst-install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/libvoikko/4.1.1_1/lib/voikko
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libvoikko`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libvoikko/4.1.1_1: 26 files, 20MB, built in 48 seconds
-==> Determining libvoikko bottle rebuild...
-==> Bottling libvoikko-4.1.1_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libvoikko-4.1.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libvoikko-4.1.1_1.x86_64_linux.bottle.1.tar.gz
+==> Determining libvorbis bottle rebuild...
+==> Bottling libvorbis-1.3.5_1.x86_64_linux.bottle.1.tar.gz...
+./libvorbis-1.3.5_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "85a977423cc454133b10cf7af07c3abddcdebd915c5e0ce8afa67fdeec341b2c" => :x86_64_linux
+    sha256 "4414ec9fde62c332060fc93a7a4f4e487ec2c4ae32f49ede12bfc6bbc9104176" => :x86_64_linux
   end
