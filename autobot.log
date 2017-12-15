@@ -1,14 +1,7 @@
-==> Installing fasttree from homebrew/science
-==> Downloading http://microbesonline.org/fasttree/FastTree-2.1.10.c
-==> gcc-6 -o FastTree FastTree-2.1.10.c -lm -O3 -finline-functions -funroll-loops -DOPENMP -fopenmp -DUSE_DOUBLE
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fasttree`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fasttree/2.1.10: 3 files, 387.0KB, built in 7 seconds
-==> Determining homebrew/science/fasttree bottle rebuild...
-==> Bottling fasttree-2.1.10.x86_64_linux.bottle.1.tar.gz...
-./fasttree-2.1.10.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/velvet bottle rebuild...
+==> Bottling velvet-1.2.10.x86_64_linux.bottle.tar.gz...
+./velvet-1.2.10.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "2ab7aaa745c0ccfdcd420d64420d6b95fa72e9af920b755f487123fda761dc6e" => :x86_64_linux
+    sha256 "ba8624d1956d056b3084473e0421a45c1a417f5821be10d805f8f0fdefde1a46" => :x86_64_linux
   end
