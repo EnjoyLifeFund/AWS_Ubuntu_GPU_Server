@@ -1,20 +1,33 @@
-==> Downloading https://github.com/leanprover/lean/archive/v3.3.0.tar.gz
-==> Downloading from https://codeload.github.com/leanprover/lean/tar.gz/v3.3.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/leancloud/lean-cli/archive/v0.17.1.tar.gz
+==> Downloading from https://codeload.github.com/leancloud/lean-cli/tar.gz/v0.17.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/lean-cli/0.17.1/bin/lean -ldflags -X main.pkgType=homebrew github.com/leancloud/lean-cli/lean
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/lean
+Target /home/linuxbrew/.linuxbrew/bin/lean
+is a symlink belonging to lean. You can unlink it:
+  brew unlink lean
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite lean-cli
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run lean-cli
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/lean -> /home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0/bin/lean
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lean`
+You can run it manually using `brew postinstall lean-cli`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/lean
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0: 878 files, 62.4MB, built in 1 minute 26 seconds
-==> Determining lean bottle rebuild...
-==> Bottling lean-3.3.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lean-3.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lean-3.3.0.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lean-cli/0.17.1: 7 files, 12.6MB, built in 2 seconds
+==> Determining lean-cli bottle rebuild...
+==> Bottling lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lean-cli-0.17.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0d505c08eecd2f6d57e3451a7a28f5b99b27c53315813369113246356372c46a" => :x86_64_linux
+    sha256 "943be65f376edea1d30cc5e637e4d608014b4a61c81a667908f1b089af5bea29" => :x86_64_linux
   end
