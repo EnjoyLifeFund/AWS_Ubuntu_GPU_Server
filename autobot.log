@@ -1,13 +1,15 @@
-==> Downloading https://www.digital-scurf.org/files/libgfshare/libgfshare-2.0.0.tar.bz2
-==> ./configure --disable-silent-rules --disable-linker-optimisations --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgfshare/2.0.0
+==> Downloading https://www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz
+==> Downloading from http://www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz
+==> autoreconf -ivf
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libghthash/0.6.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libgfshare`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libgfshare/2.0.0: 17 files, 146.2KB, built in 14 seconds
-==> Determining libgfshare bottle rebuild...
-==> Bottling libgfshare-2.0.0.x86_64_linux.bottle.1.tar.gz...
-./libgfshare-2.0.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libghthash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libghthash/0.6.2: 22 files, 158KB, built in 14 seconds
+==> Determining libghthash bottle rebuild...
+==> Bottling libghthash-0.6.2.x86_64_linux.bottle.1.tar.gz...
+./libghthash-0.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "38c821e7fda2e6f3f5f28f374fd01d0701e1b07d63325df5a1d64aa03d24bdb4" => :x86_64_linux
+    sha256 "f43041304ba926bff9a884b5e7100b443c4bdfc5544006e358e3da7f54deb07e" => :x86_64_linux
   end
