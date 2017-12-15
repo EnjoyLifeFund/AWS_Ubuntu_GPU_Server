@@ -1,16 +1,20 @@
-==> Downloading https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz
-==> Downloading from https://codeload.github.com/keystone-engine/keystone/tar.gz/0.9.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/keystone/0.9.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Cloning https://github.com/pimutils/khal.git
+==> Checking out tag v0.9.8
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python3 -c import setuptools... --no-user-cfg install --prefix=/tmp/khal--homebrew-virtualenv-20171215-10209-1iowt9x/target --single-version-externally-managed --record=installed.txt
+==> python3 -s /tmp/khal--homebrew-virtualenv-20171215-10209-1iowt9x/target/bin/virtualenv -p python3 /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec
+==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/khal-20171215-10209-tp8jq1
+==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip uninstall -y khal
+==> /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/khal-20171215-10209-tp8jq1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall keystone`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/keystone/0.9.1: 18 files, 32.5MB, built in 28 seconds
-==> Determining keystone bottle rebuild...
-==> Bottling keystone-0.9.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if keystone-0.9.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./keystone-0.9.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall khal`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/khal/0.9.8: 1,823 files, 14.9MB, built in 25 seconds
+==> Determining khal bottle rebuild...
+==> Bottling khal-0.9.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if khal-0.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./khal-0.9.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "76b9c7894e2b4f0a342c26c3eccd998819a15159ccf73e008dab0e2d147decd5" => :x86_64_linux
+    sha256 "0e752de9a3663080be46c4c78205fa9d83f78ca9d92c3dc407a53a7b3f7cd88a" => :x86_64_linux
   end
