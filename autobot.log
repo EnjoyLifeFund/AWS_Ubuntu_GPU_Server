@@ -1,39 +1,4 @@
-==> Installing neuron from homebrew/science
-==> Downloading https://github.com/nrnhines/nrn/archive/e0950a19a722b661882d1609fe7748ec67b68ba8.tar.gz
-==> Downloading from https://codeload.github.com/nrnhines/nrn/tar.gz/e0950a19a722b661882d1609fe7748ec67b68ba8
-==> Patching
-patching file src/mac/Makefile.am
-==> ./build.sh
-==> ./configure --disable-silent-rules --enable-pysetup=no --without-mpi --prefix=/home/linuxbrew/.linuxbrew/Cellar/neuron/7.5 --exec-prefix=/home/linuxbrew/.linuxbrew/Cellar/neuron/7.5/libexec --with-nrnpython --without-x --disable-rx3d
-==> make
-==> make check
-==> make install
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/neuron/7.5 --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/neuron`
-==> Caveats
-NEURON recommends that you set an X11 option that raises the window
-under the mouse cursor on mouseover. If you don't set this option,
-NEURON's GUI will still work, but you will have to click in each window
-before you can interact with the widgets in that window.
-
-To raise the window on mouse hover, execute:
-    defaults write org.macosforge.xquartz.X11 wm_ffm -bool true
-To revert this behavior, execute:
-    defaults write org.macosforge.xquartz.X11 wm_ffm -bool false
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/neuron/7.5: 545 files, 18.2MB, built in 56 seconds
-==> Determining homebrew/science/neuron bottle rebuild...
-==> Bottling neuron-7.5.x86_64_linux.bottle.tar.gz...
-==> Detecting if neuron-7.5.x86_64_linux.bottle.tar.gz is relocatable...
-./neuron-7.5.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "e20961cdfded2aa55991b5c0e5d631c2b487a2a24e253283b8f95cb4231a3706" => :x86_64_linux
-  end
+==> Installing nextflow from homebrew/science
+==> Downloading https://www.nextflow.io/releases/v0.26.2/nextflow
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nextflow/0.26.2: 3 files, 26.8KB, built in 1 second
+This formula doesn't require compiling.
