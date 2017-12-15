@@ -1,8 +1,15 @@
-==> Determining homebrew/science/libsequence bottle rebuild...
-==> Bottling libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libsequence-1.9.1_2.x86_64_linux.bottle.1.tar.gz
+==> Installing lighter from homebrew/science
+==> Downloading https://github.com/mourisl/Lighter/archive/v1.1.1.tar.gz
+==> Downloading from https://codeload.github.com/mourisl/Lighter/tar.gz/v1.1.1
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/lighter`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lighter/1.1.1_1: 5 files, 147.5KB, built in 3 seconds
+==> Determining homebrew/science/lighter bottle rebuild...
+==> Bottling lighter-1.1.1_1.x86_64_linux.bottle.1.tar.gz...
+./lighter-1.1.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "79a9a6e6f8e313c70b3c2f2a0129091b302b037493f7c708af4bdc0198abd872" => :x86_64_linux
+    sha256 "d05f48f877e35af3a051454cc6098fc90772f8332dedc0edff2104acc28c29fc" => :x86_64_linux
   end
