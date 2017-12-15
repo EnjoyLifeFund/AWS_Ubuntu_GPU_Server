@@ -1,8 +1,4 @@
-==> Downloading http://mirrors.jenkins.io/war-stable/2.89.1/jenkins.war
-==> Downloading from http://ftp-chi.osuosl.org/pub/jenkins/war-stable/2.89.1/jenkins.war
-==> jar xvf jenkins.war
-==> Caveats
-Note: When using launchctl the port will be 8080.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jenkins-lts/2.89.1: 6 files, 73.9MB, built in 6 seconds
+==> Downloading https://github.com/gcuisinier/jenv/archive/0.4.4.tar.gz
+==> Downloading from https://codeload.github.com/gcuisinier/jenv/tar.gz/0.4.4
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jenv/0.4.4: 78 files, 336.6KB, built in 0 seconds
 This formula doesn't require compiling.
