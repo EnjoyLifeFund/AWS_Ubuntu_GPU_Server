@@ -1,22 +1,25 @@
-==> Downloading https://github.com/gohugoio/hugo/archive/v0.31.1.tar.gz
-==> Downloading from https://codeload.github.com/gohugoio/hugo/tar.gz/v0.31.1
-==> dep ensure
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo main.go
-==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen autocomplete --completionfile=hugo.sh
-==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen man
+==> Downloading https://github.com/hunspell/hunspell/archive/v1.6.2.tar.gz
+==> Downloading from https://codeload.github.com/hunspell/hunspell/tar.gz/v1.6.2
+==> autoreconf -fiv
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hunspell/1.6.2 --with-ui --with-readline
+==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hugo`
+You can run it manually using `brew postinstall hunspell`
 ==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+Dictionary files (*.aff and *.dic) should be placed in
+~/Library/Spelling/ or /Library/Spelling/.  Homebrew itself
+provides no dictionaries for Hunspell, but you can download
+compatible dictionaries from other sources, such as
+https://wiki.openoffice.org/wiki/Dictionaries .
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1: 31 files, 36MB, built in 15 seconds
-==> Determining hugo bottle rebuild...
-==> Bottling hugo-0.31.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hugo-0.31.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hugo-0.31.1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hunspell/1.6.2: 853 files, 12MB, built in 43 seconds
+==> Determining hunspell bottle rebuild...
+==> Bottling hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6a93a6c71ee8530f11eaf9f383cd802371829ddb6be9a7b72b58d31a8b214c09" => :x86_64_linux
+    sha256 "96517c68daf883af551ba0376f93802459b1ec2a491e97aa170a63f8fa1c2d4d" => :x86_64_linux
   end
