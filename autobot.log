@@ -1,3 +1,9 @@
-==> Downloading https://languagetool.org/download/LanguageTool-3.9.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/languagetool/3.9: 996 files, 188.1MB, built in 17 seconds
-This formula doesn't require compiling.
+==> Determining lapack bottle rebuild...
+==> Bottling lapack-3.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lapack-3.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lapack-3.8.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0c29073eef48ba5ed31c1f998e1f58ac32612554a8b8cae41d87041a69cbeb54" => :x86_64_linux
+  end
