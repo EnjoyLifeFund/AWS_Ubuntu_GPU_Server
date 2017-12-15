@@ -1,8 +1,19 @@
-==> Downloading https://github.com/CamJN/launchctl-completion/archive/v1.0.tar.gz
-==> Downloading from https://codeload.github.com/CamJN/launchctl-completion/tar.gz/v1.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/launchctl-completion/1.0: 3 files, 23.4KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for lbdb: abook
+==> Installing lbdb dependency: abook
+==> Downloading https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.x86_64_linux.bottle.tar.gz
+==> Pouring abook-0.5.6_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/abook/0.5.6_1: 15 files, 474.9KB
+==> Installing lbdb
+==> Downloading https://www.spinnaker.de/debian/lbdb_0.45.3.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lbdb/0.45.3 --libdir=/home/linuxbrew/.linuxbrew/Cellar/lbdb/0.45.3/lib/lbdb
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall lbdb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lbdb/0.45.3: 38 files, 317.1KB, built in 6 seconds
+==> Determining lbdb bottle rebuild...
+==> Bottling lbdb-0.45.3.x86_64_linux.bottle.1.tar.gz...
+./lbdb-0.45.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "57824d87df982fb1c28397f350b7dfccc85e6cbc4ede29594c8b9af935143270" => :x86_64_linux
+  end
