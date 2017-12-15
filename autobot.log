@@ -1,14 +1,8 @@
-==> Downloading https://github.com/vstakhov/libucl/archive/0.8.0.tar.gz
-==> Downloading from https://codeload.github.com/vstakhov/libucl/tar.gz/0.8.0
-==> ./autogen.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libucl/0.8.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libucl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libucl/0.8.0: 13 files, 1.4MB, built in 21 seconds
-==> Determining libucl bottle rebuild...
-==> Bottling libucl-0.8.0.x86_64_linux.bottle.tar.gz...
-./libucl-0.8.0.x86_64_linux.bottle.tar.gz
+==> Determining libuecc bottle rebuild...
+==> Bottling libuecc-7.x86_64_linux.bottle.1.tar.gz...
+./libuecc-7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "4dfe1ff7a8dae8170807b36fcc83133303000a2861c2c943c5654b0a2f954faf" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3e6d61a172e82dff6dc6f8ddf191ceb34a95da7ae3637df82c0349a8e77c88d3" => :x86_64_linux
   end
