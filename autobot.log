@@ -1,13 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/libdv/libdv-1.0.0.tar.gz
-==> Downloading from https://downloads.sourceforge.net/project/libdv/libdv/1.0.0/libdv-1.0.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdv/1.0.0 --disable-gtktest --disable-gtk --disable-asm --disable-sdltest
+==> Downloading https://download.videolan.org/pub/libdvbpsi/1.3.1/libdvbpsi-1.3.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvbpsi/1.3.1 --enable-release
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdv/1.0.0: 22 files, 1.2MB, built in 12 seconds
-==> Determining libdv bottle rebuild...
-==> Bottling libdv-1.0.0.x86_64_linux.bottle.tar.gz...
-./libdv-1.0.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libdvbpsi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvbpsi/1.3.1: 90 files, 2.1MB, built in 12 seconds
+==> Determining libdvbpsi bottle rebuild...
+==> Bottling libdvbpsi-1.3.1.x86_64_linux.bottle.1.tar.gz...
+./libdvbpsi-1.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "39723c43e1d5dca377103f899291c7d2281dfe1e60902a06235d150a88276ed6" => :x86_64_linux
+    rebuild 1
+    sha256 "9f2a45559ca6f107ca33f824f08640014ac3625f314ef27777262a4733c615ca" => :x86_64_linux
   end
