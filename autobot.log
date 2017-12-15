@@ -1,9 +1,13 @@
-==> Determining juju bottle rebuild...
-==> Bottling juju-2.2.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if juju-2.2.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./juju-2.2.6.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://pypi.python.org/packages/source/j/juju-quickstart/juju-quickstart-2.2.4.tar.gz
+==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/juju-quickstart/2.2.4/libexec
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall juju-quickstart`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/juju-quickstart/2.2.4: 311 files, 4.4MB, built in 7 seconds
+==> Determining juju-quickstart bottle rebuild...
+==> Bottling juju-quickstart-2.2.4.x86_64_linux.bottle.1.tar.gz...
+./juju-quickstart-2.2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "8eb8b0ee481a1f83d39d3c00fdc6db5b6be6d19f3f97fedf5656a35089cdcb46" => :x86_64_linux
+    sha256 "bc35cfb3c28f331b7108482e9fe8cf419f19cafc399b0305ae378c26934ebc5d" => :x86_64_linux
   end
