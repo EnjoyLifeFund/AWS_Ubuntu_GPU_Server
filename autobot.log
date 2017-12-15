@@ -1,13 +1,16 @@
-==> Installing aragorn from homebrew/science
-==> Downloading http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz
-==> make aragorn
+==> Installing art from homebrew/science
+==> Downloading https://www.niehs.nih.gov/research/resources/assets/docs/artsrcmountrainier20160605linuxtgz.tgz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/art/20160605_1
+==> make clean
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/aragorn`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aragorn/1.2.36: 4 files, 391.9KB, built in 2 seconds
-==> Determining homebrew/science/aragorn bottle rebuild...
-==> Bottling aragorn-1.2.36.x86_64_linux.bottle.tar.gz...
-./aragorn-1.2.36.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/art`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/art/20160605_1: 74 files, 21MB, built in 26 seconds
+==> Determining homebrew/science/art bottle rebuild...
+==> Bottling art-20160605_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if art-20160605_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./art-20160605_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "6041e7d1aecfe2049852293bafcb57a0542df567608852b50b48bb22a47d6ebe" => :x86_64_linux
+    rebuild 1
+    sha256 "d5a797b8ccecb2bee72d63a429e850fec718ac1ea5b53f8bb4063ea127f038f8" => :x86_64_linux
   end
