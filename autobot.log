@@ -1,9 +1,14 @@
-==> Determining libharu bottle rebuild...
-==> Bottling libharu-2.3.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libharu-2.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libharu-2.3.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/icns/libicns-0.8.1.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/icns/libicns-0.8.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libicns/0.8.1_3
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libicns`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libicns/0.8.1_3: 20 files, 339.5KB, built in 9 seconds
+==> Determining libicns bottle rebuild...
+==> Bottling libicns-0.8.1_3.x86_64_linux.bottle.1.tar.gz...
+./libicns-0.8.1_3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a82078b2c45d873a8178a01a20164bb15e971187b5fb73f08352ea40910799d1" => :x86_64_linux
+    sha256 "9fcd5b3348c49dd132ce981edb8a7a789a9fced54c55a2380d671e69230528f2" => :x86_64_linux
   end
