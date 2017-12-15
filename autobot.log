@@ -1,9 +1,16 @@
-==> Determining ipfs bottle rebuild...
-==> Bottling ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ipfs-0.4.13.x86_64_linux.bottle.1.tar.gz
+==> Installing geant4 from homebrew/science
+==> Downloading http://geant4.cern.ch/support/source/geant4.10.03.p03.tar.gz
+==> cmake ../ -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_RAYTRACER_X11=ON -DGEANT4_BUILD_EXAMPLE=ON -DGEANT4_BUILD_MULTITHREADED=ON -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/geant4/10.3.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/geant4`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/geant4/10.3.3: 10,995 files, 188.5MB, built in 3 minutes 26 seconds
+==> Determining homebrew/science/geant4 bottle rebuild...
+==> Bottling geant4-10.3.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if geant4-10.3.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./geant4-10.3.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f3d20250decd9e50006728802e9dd158a93b5096063242ae586ab56dad5fc820" => :x86_64_linux
+    sha256 "bb1427ec35bf9b39f5c3d0526d56684c23220bd5ef3c4f06490eace7efb0c379" => :x86_64_linux
   end
