@@ -1,14 +1,29 @@
-==> Downloading https://github.com/jklmnn/imagejs/archive/0.7.2.tar.gz
-==> Downloading from https://codeload.github.com/jklmnn/imagejs/tar.gz/0.7.2
-==> make
+==> Installing swarm from homebrew/science
+==> Downloading https://github.com/torognes/swarm/archive/v2.2.2.tar.gz
+==> Downloading from https://codeload.github.com/torognes/swarm/tar.gz/v2.2.2
+==> make -C src
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/swarm
+Target /home/linuxbrew/.linuxbrew/bin/swarm
+is a symlink belonging to geth. You can unlink it:
+  brew unlink geth
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite swarm
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run swarm
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/swarm -> /home/linuxbrew/.linuxbrew/Cellar/geth/1.7.3/bin/swarm
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall imagejs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/imagejs/0.7.2: 6 files, 66.2KB, built in 0 seconds
-==> Determining imagejs bottle rebuild...
-==> Bottling imagejs-0.7.2.x86_64_linux.bottle.1.tar.gz...
-./imagejs-0.7.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/swarm`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/swarm/2.2.2: 8 files, 629.3KB, built in 1 second
+==> Determining homebrew/science/swarm bottle rebuild...
+==> Bottling swarm-2.2.2.x86_64_linux.bottle.1.tar.gz...
+./swarm-2.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "eff23920e9ac69122c61066470dcf49354ee1ce9a26a4f2d7869af7fad6f46be" => :x86_64_linux
+    sha256 "b4f5bb09578efd7d18cbb0ac299a84d1d7f677550a4f9aff94613ff585e20c05" => :x86_64_linux
   end
