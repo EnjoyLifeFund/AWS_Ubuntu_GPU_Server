@@ -1,8 +1,13 @@
-==> Determining libsigsegv bottle rebuild...
-==> Bottling libsigsegv-2.11.x86_64_linux.bottle.1.tar.gz...
-./libsigsegv-2.11.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/libsmf/libsmf/1.3/libsmf-1.3.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/libsmf/libsmf/1.3/libsmf-1.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libsmf/1.3
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libsmf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsmf/1.3: 13 files, 556.0KB, built in 8 seconds
+==> Determining libsmf bottle rebuild...
+==> Bottling libsmf-1.3.x86_64_linux.bottle.tar.gz...
+./libsmf-1.3.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c0bd2d711f37ed8d2a61fde2b723a67640e0e245b99e6b20f758a96e54f0405b" => :x86_64_linux
+    sha256 "999fb1da5bf79561ca2481ecd3c771b033e3fe8d073da82d23b35fcf24a19086" => :x86_64_linux
   end
