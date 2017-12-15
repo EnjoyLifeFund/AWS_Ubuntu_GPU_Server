@@ -1,6 +1,13 @@
-==> Determining libsvg bottle rebuild...
-==> Bottling libsvg-0.1.4_1.x86_64_linux.bottle.tar.gz...
-./libsvg-0.1.4_1.x86_64_linux.bottle.tar.gz
+==> Downloading https://www.csie.ntu.edu.tw/~cjlin/libsvm/libsvm-3.22.tar.gz
+==> make CFLAGS= -fPIC
+==> make lib
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libsvm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libsvm/3.22: 10 files, 355.7KB, built in 4 seconds
+==> Determining libsvm bottle rebuild...
+==> Bottling libsvm-3.22.x86_64_linux.bottle.1.tar.gz...
+./libsvm-3.22.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "bd31f00432581ccec18898e5e5aa04d7d7e7d0f03cdeccfadd3a2b7e74afaa93" => :x86_64_linux
+    rebuild 1
+    sha256 "eaf263bca2904108eff839a584412aa5f747d467c620c02fe59fee213eb7bca3" => :x86_64_linux
   end
