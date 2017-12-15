@@ -1,29 +1,303 @@
-==> Installing xorg-docs from linuxbrew/xorg
-==> Installing dependencies for linuxbrew/xorg/xorg-docs: linuxbrew/xorg/xorg-sgml-doctools
-==> Installing linuxbrew/xorg/xorg-docs dependency: linuxbrew/xorg/xorg-sgml-doctools
-==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xorg-sgml-doctools-1.11.x86_64_linux.bottle.tar.gz
-==> Pouring xorg-sgml-doctools-1.11.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-sgml-doctools/1.11: 13 files, 128.9KB
-==> Installing linuxbrew/xorg/xorg-docs
-==> Downloading https://www.x.org/archive/individual/doc/xorg-docs-1.7.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Linuxbrew/homebrew-xorg/master/patch_configure.diff
-==> Patching
-==> Applying patch_configure.diff
-patching file configure
-Hunk #1 succeeded at 10645 (offset -8002 lines).
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/xorg-docs/1.7 --enable-docs=yes --enable-specs=yes
-==> make
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xorg-docs`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-docs/1.7: 119 files, 7.0MB, built in 34 seconds
-==> Determining linuxbrew/xorg/xorg-docs bottle rebuild...
-==> Bottling xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "130bd4bd1d1d7f6c433aee055babc3d8fd4033e20b854c53d7a8dd0c44c2b2db" => :x86_64_linux
-  end
+==> Installing xorg-fonts from linuxbrew/xorg
+==> Installing dependencies for linuxbrew/xorg/xorg-fonts: linuxbrew/xorg/font-adobe-100dpi, linuxbrew/xorg/font-adobe-75dpi, linuxbrew/xorg/font-adobe-utopia-100dpi, linuxbrew/xorg/font-adobe-utopia-75dpi, linuxbrew/xorg/font-adobe-utopia-type1, linuxbrew/xorg/font-arabic-misc, linuxbrew/xorg/font-bh-100dpi, linuxbrew/xorg/font-bh-75dpi, linuxbrew/xorg/font-bh-lucidatypewriter-100dpi, linuxbrew/xorg/font-bh-lucidatypewriter-75dpi, linuxbrew/xorg/font-bh-ttf, linuxbrew/xorg/font-bh-type1, linuxbrew/xorg/font-bitstream-100dpi, linuxbrew/xorg/font-bitstream-75dpi, linuxbrew/xorg/font-bitstream-type1, linuxbrew/xorg/font-cronyx-cyrillic, linuxbrew/xorg/font-cursor-misc, linuxbrew/xorg/font-daewoo-misc, linuxbrew/xorg/font-dec-misc, linuxbrew/xorg/font-ibm-type1, linuxbrew/xorg/font-isas-misc, linuxbrew/xorg/font-jis-misc, linuxbrew/xorg/font-micro-misc, linuxbrew/xorg/font-misc-cyrillic, linuxbrew/xorg/font-misc-ethiopic, linuxbrew/xorg/font-misc-meltho, linuxbrew/xorg/font-misc-misc, linuxbrew/xorg/font-mutt-misc, linuxbrew/xorg/font-schumacher-misc, linuxbrew/xorg/font-screen-cyrillic, linuxbrew/xorg/font-sony-misc, linuxbrew/xorg/font-sun-misc, linuxbrew/xorg/font-winitzki-cyrillic, linuxbrew/xorg/font-xfree86-type1
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-adobe-100dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-adobe-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-adobe-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-adobe-100dpi/1.0.3_1: 972 files, 6.5MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-adobe-75dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-adobe-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-adobe-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-adobe-75dpi/1.0.3_1: 972 files, 5.7MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-adobe-utopia-100dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-adobe-utopia-100dpi-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-adobe-utopia-100dpi-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-adobe-utopia-100dpi/1.0.4_1: 206 files, 1.5MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-adobe-utopia-75dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-adobe-utopia-75dpi-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-adobe-utopia-75dpi-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-adobe-utopia-75dpi/1.0.4_1: 206 files, 1.3MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-adobe-utopia-type1
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-adobe-utopia-type1-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-adobe-utopia-type1-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-adobe-utopia-type1/1.0.4_1: 15 files, 426.4KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-arabic-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-arabic-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-arabic-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-arabic-misc/1.0.3_1: 7 files, 60.5KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-100dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-100dpi/1.0.3_1: 566 files, 4.0MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-75dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-75dpi/1.0.3_1: 566 files, 3.4MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-lucidatypewriter-100dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-lucidatypewriter-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-lucidatypewriter-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-lucidatypewriter-100dpi/1.0.3_1: 146 files, 939.6KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-lucidatypewriter-75dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-lucidatypewriter-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-lucidatypewriter-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-lucidatypewriter-75dpi/1.0.3_1: 146 files, 826.0KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-ttf
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-ttf-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-ttf-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-ttf/1.0.3_1: 21 files, 974.6KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bh-type1
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bh-type1-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bh-type1-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bh-type1/1.0.3_1: 31 files, 1.3MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bitstream-100dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bitstream-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bitstream-100dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bitstream-100dpi/1.0.3_1: 34 files, 237.8KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bitstream-75dpi
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bitstream-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-bitstream-75dpi-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bitstream-75dpi/1.0.3_1: 34 files, 215.8KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-bitstream-type1
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-bitstream-type1-1.0.3_2.x86_64_linux.bottle.tar.gz
+==> Pouring font-bitstream-type1-1.0.3_2.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-bitstream-type1/1.0.3_2: 24 files, 491KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-cronyx-cyrillic
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-cronyx-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-cronyx-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-cronyx-cyrillic/1.0.3_1: 71 files, 345.4KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-cursor-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-cursor-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-cursor-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-cursor-misc/1.0.3_1: 7 files, 50.6KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-daewoo-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-daewoo-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-daewoo-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-daewoo-misc/1.0.3_1: 9 files, 697.7KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-dec-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-dec-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-dec-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-dec-misc/1.0.3_1: 8 files, 51.3KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-ibm-type1
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-ibm-type1-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-ibm-type1-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-ibm-type1/1.0.3_1: 15 files, 657.0KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-isas-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-isas-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-isas-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-isas-misc/1.0.3_1: 9 files, 793.8KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-jis-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-jis-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-jis-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-jis-misc/1.0.3_1: 8 files, 563.4KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-micro-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-micro-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-micro-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-micro-misc/1.0.3_1: 7 files, 48.2KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-misc-cyrillic
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-misc-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-misc-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-misc-cyrillic/1.0.3_1: 21 files, 110KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-misc-ethiopic
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-misc-ethiopic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-misc-ethiopic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-misc-ethiopic/1.0.3_1: 13 files, 473.0KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-misc-meltho
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-misc-meltho-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-misc-meltho-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-misc-meltho/1.0.3_1: 30 files, 5.6MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-misc-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-misc-misc-1.1.2_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-misc-misc-1.1.2_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-misc-misc/1.1.2_1: 341 files, 3.6MB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-mutt-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-mutt-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-mutt-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-mutt-misc/1.0.3_1: 14 files, 270.1KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-schumacher-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-schumacher-misc-1.1.2_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-schumacher-misc-1.1.2_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-schumacher-misc/1.1.2_1: 51 files, 205.2KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-screen-cyrillic
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-screen-cyrillic-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-screen-cyrillic-1.0.4_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-screen-cyrillic/1.0.4_1: 8 files, 54.5KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-sony-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-sony-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-sony-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-sony-misc/1.0.3_1: 10 files, 66.2KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-sun-misc
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-sun-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-sun-misc-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-sun-misc/1.0.3_1: 11 files, 72.7KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-winitzki-cyrillic
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-winitzki-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+==> Pouring font-winitzki-cyrillic-1.0.3_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-winitzki-cyrillic/1.0.3_1: 7 files, 49.6KB
+==> Installing linuxbrew/xorg/xorg-fonts dependency: linuxbrew/xorg/font-xfree86-type1
+==> Downloading https://linuxbrew.bintray.com/bottles-xorg/font-xfree86-type1-1.0.4_1.x86_64_linux.bottle.1.tar.gz
+==> Pouring font-xfree86-type1-1.0.4_1.x86_64_linux.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because part of Xorg-fonts package.
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/font-xfree86-type1/1.0.4_1: 8 files, 101.6KB
+==> Installing linuxbrew/xorg/xorg-fonts
+==> Downloading https://gist.githubusercontent.com/maxim-belkin/6fd6422cbe4da6ea0555d7a8d9911bc2/raw/c38d109967382d35f9f8a89542c18abbfb27cf88/README.md
+==> Xorg Fonts have been installed!
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xorg-fonts/20160522: 3 files, 14.1KB, built in 1 second
+This formula doesn't require compiling.
