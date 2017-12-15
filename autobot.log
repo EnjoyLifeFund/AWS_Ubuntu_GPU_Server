@@ -1,36 +1,9 @@
-==> Downloading https://github.com/maebert/jrnl/archive/1.9.8.tar.gz
-==> Downloading from https://codeload.github.com/maebert/jrnl/tar.gz/1.9.8
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/jrnl--homebrew-virtualenv-20171215-103882-1k8sqzc/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/jrnl--homebrew-virtualenv-20171215-103882-1k8sqzc/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec
-==> Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--future-20171215-103882-es9am3/future-0.16.0
-==> Downloading https://files.pythonhosted.org/packages/d2/2f/b70bf3068b5964e4c45507e03652da0743c72460ff929e70aef201ed5ffb/keyring-10.3.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--keyring-20171215-103882-1j3znhd/keyring-10.3
-==> Downloading https://files.pythonhosted.org/packages/de/e7/b9ea280aa9a42234c0e08e2faa738542f08aff9e57036d68493460202d09/keyrings.alt-2.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--keyrings.alt-20171215-103882-mvv7yj/keyrings.alt-2.0
-==> Downloading https://files.pythonhosted.org/packages/62/a3/0c546deec0c1ea5e20320daf7719df9419c2bee97f1a11b9feaf0143b0fc/parsedatetime-2.2.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--parsedatetime-20171215-103882-kfcus6/parsedatetime-2.2
-==> Downloading https://files.pythonhosted.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--pycrypto-20171215-103882-8gebhn/pycrypto-2.6.1
-==> Downloading https://files.pythonhosted.org/packages/b4/7c/df59c89a753eb33c7c44e1dd42de0e9bc2ccdd5a4d576e0bfad97cc280cb/python-dateutil-1.5.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--python-dateutil-20171215-103882-11x6ksu/python-dateutil-1.5
-==> Downloading https://files.pythonhosted.org/packages/d0/e1/aca6ef73a7bd322a7fc73fd99631ee3454d4fc67dc2bee463e2adf6bb3d3/pytz-2016.10.tar.bz2
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--pytz-20171215-103882-1k8whn3/pytz-2016.10
-==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--six-20171215-103882-9en12i/six-1.10.0
-==> Downloading https://files.pythonhosted.org/packages/d3/64/e4b18738496213f82b88b31c431a0e4ece143801fb6771dddd1c2bf0101b/tzlocal-1.3.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl--tzlocal-20171215-103882-132afk5/tzlocal-1.3
-==> /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/jrnl-20171215-103882-vsmsgn/jrnl-1.9.8
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jrnl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jrnl/1.9.8: 2,350 files, 17.2MB, built in 26 seconds
-==> Determining jrnl bottle rebuild...
-==> Bottling jrnl-1.9.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jrnl-1.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jrnl-1.9.8.x86_64_linux.bottle.1.tar.gz
+==> Determining jpeg bottle rebuild...
+==> Bottling jpeg-9b.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jpeg-9b.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jpeg-9b.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "df349628e093c7650cbe6014be3326559a4f63bc85007fbea6295e6fb2cc009f" => :x86_64_linux
+    sha256 "de45f25ac58e457ed23e006cef9a1eab1666ff6bf31c1ca67359b4812c02f0ba" => :x86_64_linux
   end
