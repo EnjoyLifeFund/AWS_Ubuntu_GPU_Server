@@ -1,8 +1,13 @@
-==> Determining libyaml bottle rebuild...
-==> Bottling libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz...
-./libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://developers.yubico.com/yubico-c/Releases/libyubikey-1.13.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libyubikey/1.13
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libyubikey`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libyubikey/1.13: 18 files, 186.8KB, built in 7 seconds
+==> Determining libyubikey bottle rebuild...
+==> Bottling libyubikey-1.13.x86_64_linux.bottle.1.tar.gz...
+./libyubikey-1.13.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d87fd928f77a59bfcb29b9aa2ae2d04c35d0ac744ae929cba042e3a6eb774098" => :x86_64_linux
+    sha256 "d3eeb0b48d19578861c98f26003c61fca38b9562c1c64652eae9f76dce4bc623" => :x86_64_linux
   end
