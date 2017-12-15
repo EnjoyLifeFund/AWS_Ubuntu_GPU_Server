@@ -1,9 +1,25 @@
-==> Determining isl bottle rebuild...
-==> Bottling isl-0.18.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if isl-0.18.x86_64_linux.bottle.1.tar.gz is relocatable...
-./isl-0.18.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.11.1.tar.bz2
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/isl@0.11/0.11.1 --with-gmp=system --with-gmp-prefix=/home/linuxbrew/.linuxbrew/opt/gmp@4
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall isl@0.11`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/isl@0.11/lib
+    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/isl@0.11/include
+For pkg-config to find this software you may need to set:
+    PKG_CONFIG_PATH: /home/linuxbrew/.linuxbrew/opt/isl@0.11/lib/pkgconfig
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/isl@0.11/0.11.1: 55 files, 4.2MB, built in 17 seconds
+==> Determining isl@0.11 bottle rebuild...
+==> Bottling isl@0.11-0.11.1.x86_64_linux.bottle.tar.gz...
+==> Detecting if isl@0.11-0.11.1.x86_64_linux.bottle.tar.gz is relocatable...
+./isl@0.11-0.11.1.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b5f43d5fa494f612d56d076621199ade27bcb5c8ab7365f3cbf4a0b988ba35df" => :x86_64_linux
+    sha256 "7dbfe87e756eb3ae82732ebbd1c72d47a8da2ac9cc092f96bf3a58d67a73ea52" => :x86_64_linux
   end
