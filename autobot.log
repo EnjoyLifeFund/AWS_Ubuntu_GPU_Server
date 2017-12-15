@@ -1,13 +1,8 @@
-==> Downloading https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.12.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-rtsp-server/1.12.4 --disable-silent-rules --disable-examples --disable-tests --enable-introspection=yes
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gst-rtsp-server`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-rtsp-server/1.12.4: 34 files, 2.7MB, built in 26 seconds
-==> Determining gst-rtsp-server bottle rebuild...
-==> Bottling gst-rtsp-server-1.12.4.x86_64_linux.bottle.1.tar.gz...
-./gst-rtsp-server-1.12.4.x86_64_linux.bottle.1.tar.gz
+==> Determining gstreamer bottle rebuild...
+==> Bottling gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gstreamer-1.12.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a9adf7f89fff66db72dc426defbe089a3fe7580922b91099417e81d4a70406b3" => :x86_64_linux
+    sha256 "727354c5a6d966f1df5f94bbeb2e517123a145d390bdb0397f880e7894b1d6d8" => :x86_64_linux
   end
