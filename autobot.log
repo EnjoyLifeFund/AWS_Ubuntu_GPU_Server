@@ -1,8 +1,8 @@
-==> Determining gwenhywfar bottle rebuild...
-==> Bottling gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gwenhywfar-4.18.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "2672e7a4f05810900aaf82e22056409e6700ca1578ba9cb33489f4107ca00065" => :x86_64_linux
-  end
+==> Downloading https://github.com/StreakyCobra/gws/archive/0.1.16.tar.gz
+==> Downloading from https://codeload.github.com/StreakyCobra/gws/tar.gz/0.1.16
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gws/0.1.16: 8 files, 85.5KB, built in 1 second
+This formula doesn't require compiling.
