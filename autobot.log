@@ -1,14 +1,4 @@
-==> Downloading http://www.openwall.com/john/j/john-1.8.0.tar.xz
-==> make -C src clean CC=gcc-6 generic
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall john`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/john/1.8.0: 29 files, 7.5MB, built in 1 minute 42 seconds
-==> Determining john bottle rebuild...
-==> Bottling john-1.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if john-1.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./john-1.8.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c41f23f40ac90f03edab4e6538fbe86bc6e4436ebed11cbdadca3dcefec241a5" => :x86_64_linux
-  end
+==> Downloading https://github.com/jooby-project/jooby-bootstrap/archive/0.2.2.tar.gz
+==> Downloading from https://codeload.github.com/jooby-project/jooby-bootstrap/tar.gz/0.2.2
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jooby-bootstrap/0.2.2: 5 files, 27.0KB, built in 1 second
+This formula doesn't require compiling.
