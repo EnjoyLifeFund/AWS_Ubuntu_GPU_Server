@@ -1,22 +1,8 @@
-==> Installing xcursor-themes from linuxbrew/xorg
-==> Installing dependencies for linuxbrew/xorg/xcursor-themes: linuxbrew/xorg/xcursorgen
-==> Installing linuxbrew/xorg/xcursor-themes dependency: linuxbrew/xorg/xcursorgen
-==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xcursorgen-1.0.6.x86_64_linux.bottle.tar.gz
-==> Pouring xcursorgen-1.0.6.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcursorgen/1.0.6: 7 files, 64.6KB
-==> Installing linuxbrew/xorg/xcursor-themes
-==> Downloading https://www.x.org/archive/individual/data/xcursor-themes-1.0.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xcursor-themes/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xcursor-themes`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcursor-themes/1.0.4: 5 files, 25.2KB, built in 9 seconds
-==> Determining linuxbrew/xorg/xcursor-themes bottle rebuild...
-==> Bottling xcursor-themes-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./xcursor-themes-1.0.4.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/xcursorgen bottle rebuild...
+==> Bottling xcursorgen-1.0.6.x86_64_linux.bottle.1.tar.gz...
+./xcursorgen-1.0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "9673a90da06c6cf43b63459c2d469e91bcfbf8373a873c1e18c3a5cb33717964" => :x86_64_linux
+    sha256 "3cdc53d060942dd0690358281d10c5afc9c124903a11f9a7cef6d1c206430ce2" => :x86_64_linux
   end
