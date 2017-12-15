@@ -1,8 +1,15 @@
-==> Determining linuxbrew/xorg/xcb-util-image bottle rebuild...
-==> Bottling xcb-util-image-0.4.0.x86_64_linux.bottle.1.tar.gz...
-./xcb-util-image-0.4.0.x86_64_linux.bottle.1.tar.gz
+==> Installing xcb-util-keysyms from linuxbrew/xorg
+==> Downloading https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xcb-util-keysyms/0.4.0 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no --enable-devel-docs=no --with-doxygen=no
+==> make
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/xcb-util-keysyms`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util-keysyms/0.4.0: 10 files, 75.2KB, built in 8 seconds
+==> Determining linuxbrew/xorg/xcb-util-keysyms bottle rebuild...
+==> Bottling xcb-util-keysyms-0.4.0.x86_64_linux.bottle.tar.gz...
+./xcb-util-keysyms-0.4.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "67d653a03fb78e2953b03ec026a3a817edbb6b0352a07f1dacaed344534fc175" => :x86_64_linux
+    sha256 "d0a76ec568dcd44b659f0520b1911304e671d33231f36599d65440dd93def09b" => :x86_64_linux
   end
