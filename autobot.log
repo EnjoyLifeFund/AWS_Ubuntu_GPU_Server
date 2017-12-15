@@ -1,12 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/liblunar/liblunar-2.2.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblunar/2.2.5 --disable-python
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liblunar`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblunar/2.2.5: 36 files, 430.6KB, built in 9 seconds
-==> Determining liblunar bottle rebuild...
-==> Bottling liblunar-2.2.5.x86_64_linux.bottle.tar.gz...
-./liblunar-2.2.5.x86_64_linux.bottle.tar.gz
+==> Determining liblwgeom bottle rebuild...
+==> Bottling liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz...
+./liblwgeom-2.1.5_3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "6104c1b30be8c48b64d6d77c5b6dc300d1af550801c02a94e13fc778c75db70f" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "340aa0b1d731e827c08c3c78ecbec550bd4cbb2a2e1b53e1f2901c33f25463e0" => :x86_64_linux
   end
