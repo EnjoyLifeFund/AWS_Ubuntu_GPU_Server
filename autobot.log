@@ -1,8 +1,15 @@
-==> Downloading https://github.com/ahmetb/kubectx/archive/v0.4.0.tar.gz
-==> Downloading from https://codeload.github.com/ahmetb/kubectx/tar.gz/v0.4.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kubectx/0.4.0: 11 files, 59.4KB, built in 1 second
-This formula doesn't require compiling.
+==> Cloning https://github.com/kubeless/kubeless.git
+==> Checking out tag v0.3.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/kubeless/0.3.1/bin/kubeless -ldflags -w -X github.com/kubeless/kubeless/version.VERSION=v0.3.1 -X github.com/kubeless/kubeless/version.GITCOMMIT=cc6e694 ./cmd/kubeless
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kubeless`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kubeless/0.3.1: 5 files, 30.2MB, built in 22 seconds
+==> Determining kubeless bottle rebuild...
+==> Bottling kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./kubeless-0.3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "026da3c73b20dd889b0361d18b9e360b0cbeb3bf6684fde4c67fdd31ae8e351e" => :x86_64_linux
+  end
