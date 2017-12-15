@@ -1,15 +1,9 @@
-==> Installing galib from homebrew/science
-==> Downloading http://lancet.mit.edu/ga/dist/galib247.tgz
-==> make
-==> make test
-==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/galib/247 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/galib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/galib/247: 61 files, 2.1MB, built in 1 minute 2 seconds
-==> Determining homebrew/science/galib bottle rebuild...
-==> Bottling galib-247.x86_64_linux.bottle.tar.gz...
-./galib-247.x86_64_linux.bottle.tar.gz
+==> Determining icu4c bottle rebuild...
+==> Bottling icu4c-60.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if icu4c-60.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./icu4c-60.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "54ffa5642c1c590cc886cb143e5c3be1e44b264647061e6808f0e323c202b294" => :x86_64_linux
+    rebuild 1
+    sha256 "9a2773ae3d1f1baf67f3278175cb25f117826b8e9b3ed67824c77a50df8c0af1" => :x86_64_linux
   end
