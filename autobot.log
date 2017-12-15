@@ -1,3 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/iphotoexport/iphotoexport-1.6.4.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iphotoexport/1.6.4: 13 files, 92.9KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining homebrew/science/geneid bottle rebuild...
+==> Bottling geneid-1.4.4.x86_64_linux.bottle.tar.gz...
+==> Detecting if geneid-1.4.4.x86_64_linux.bottle.tar.gz is relocatable...
+./geneid-1.4.4.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "f3f23745ce9c7acc3c22b024f92fbe0e7722c51b51b28b8cb069e8e283c71628" => :x86_64_linux
+  end
