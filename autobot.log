@@ -1,13 +1,8 @@
-==> Installing ropebwt from homebrew/science
-==> Downloading https://github.com/lh3/ropebwt/archive/216c9f7.tar.gz
-==> Downloading from https://codeload.github.com/lh3/ropebwt/tar.gz/216c9f7460681dc156a3c676ff7b373cf72a1801
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ropebwt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ropebwt/20130801: 5 files, 364.7KB, built in 1 second
-==> Determining homebrew/science/ropebwt bottle rebuild...
-==> Bottling ropebwt-20130801.x86_64_linux.bottle.tar.gz...
-./ropebwt-20130801.x86_64_linux.bottle.tar.gz
+==> Determining homebrew/science/ropebwt2 bottle rebuild...
+==> Bottling ropebwt2-r181.x86_64_linux.bottle.1.tar.gz...
+./ropebwt2-r181.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "262432334601e6946f4c5b58c4e0aed6ca9a526a92fe07adcee4352d900d19ab" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "79c2b164aebd34c8dcef39e3ee51408d6333d521be9d78f9b857ed5bd1a1aa5a" => :x86_64_linux
   end
