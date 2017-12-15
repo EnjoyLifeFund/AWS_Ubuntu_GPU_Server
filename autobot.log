@@ -1,14 +1,28 @@
-==> Downloading https://hashcat.net/files/hashcat-4.0.1.tar.gz
-==> make CC=gcc-6 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hashcat/4.0.1
-==> make install CC=gcc-6 PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hashcat/4.0.1
+==> Downloading https://github.com/bwall/HashPump/archive/v1.2.0.tar.gz
+==> Downloading from https://codeload.github.com/bwall/HashPump/tar.gz/v1.2.0
+==> Downloading https://github.com/bwall/HashPump/pull/14.patch?full_index=1
+==> Downloading from https://patch-diff.githubusercontent.com/raw/bwall/HashPump/pull/14.patch?full_index=1
+==> Patching
+==> Applying 14.patch
+patching file MANIFEST.in
+patching file setup.py
+==> make INSTALLLOCATION=/home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0/bin CXX=g++-6 install
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0 --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hashcat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hashcat/4.0.1: 873 files, 21.8MB, built in 11 seconds
-==> Determining hashcat bottle rebuild...
-==> Bottling hashcat-4.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hashcat-4.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hashcat-4.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hashpump`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hashpump/1.2.0: 10 files, 152.6KB, built in 7 seconds
+==> Determining hashpump bottle rebuild...
+==> Bottling hashpump-1.2.0.x86_64_linux.bottle.tar.gz...
+./hashpump-1.2.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "e4f73f639b98d4e620df8226a45def69091a9fd1c613e78b1c65817bc4f7d889" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "f2212f449d11d1307048acc97b62b09cb861693ab34192e937fceff860a7dee4" => :x86_64_linux
   end
