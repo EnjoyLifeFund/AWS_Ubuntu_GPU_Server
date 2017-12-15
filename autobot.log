@@ -1,23 +1,16 @@
-==> Installing gap from homebrew/science
-==> Downloading https://www.gap-system.org/pub/gap/gap48/tar.bz2/gap4r8p8_2017_08_20-15_12.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gap/4.8.8/libexec --with-gmp=system --with-readline
-==> make
+==> Downloading http://gael.roualland.free.fr/ifstat/ifstat-1.1.tar.gz
+==> Patching
+patching file drivers.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/gap`
-==> Caveats
-If the formula is installed without the `--with-packages' option,
-some packages in:
-  /home/linuxbrew/.linuxbrew/opt/gap/libexec/pkg
-will need to be built manually with the following script:
-  /home/linuxbrew/.linuxbrew/opt/gap/libexec/bin/BuildPackages.sh
-See the Section 7 of /home/linuxbrew/.linuxbrew/opt/gap/libexec/INSTALL for more info.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gap/4.8.8: 39,111 files, 1.3GB, built in 1 minute 48 seconds
-==> Determining homebrew/science/gap bottle rebuild...
-==> Bottling gap-4.8.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gap-4.8.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gap-4.8.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ifstat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ifstat/1.1: 8 files, 87.5KB, built in 5 seconds
+==> Determining ifstat bottle rebuild...
+==> Bottling ifstat-1.1.x86_64_linux.bottle.1.tar.gz...
+./ifstat-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9ffd61b913186225ad224afa12301c91a802f84373c1b1817609560b957e8e0b" => :x86_64_linux
+    sha256 "724c009d94f97aa4f53675125071a46f133a15a4c5a03e89e6b7fc7b6ed45342" => :x86_64_linux
   end
