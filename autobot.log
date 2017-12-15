@@ -1,16 +1,8 @@
-==> Installing xev from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xev-1.2.2.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xev-1.2.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xev/1.2.2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xev`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xev/1.2.2: 7 files, 141.2KB, built in 6 seconds
-==> Determining linuxbrew/xorg/xev bottle rebuild...
-==> Bottling xev-1.2.2.x86_64_linux.bottle.1.tar.gz...
-./xev-1.2.2.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/xextproto bottle rebuild...
+==> Bottling xextproto-7.3.0.x86_64_linux.bottle.1.tar.gz...
+./xextproto-7.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8e03bd2198af7380e733c1d45ee0f5554db66aaa9642d1aeed52e31ab811d164" => :x86_64_linux
+    sha256 "e2e37a9c96c2375b032d61c6d1b22b7f4d51ada77e14703ffc891c0e43dc0e22" => :x86_64_linux
   end
