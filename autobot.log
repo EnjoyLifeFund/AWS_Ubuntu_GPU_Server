@@ -1,16 +1,8 @@
-==> Downloading https://github.com/obgm/libcoap/archive/v4.1.2.tar.gz
-==> Downloading from https://codeload.github.com/obgm/libcoap/tar.gz/v4.1.2
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcoap/4.1.2 --disable-examples
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcoap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcoap/4.1.2: 35 files, 820.9KB, built in 20 seconds
-==> Determining libcoap bottle rebuild...
-==> Bottling libcoap-4.1.2.x86_64_linux.bottle.1.tar.gz...
-./libcoap-4.1.2.x86_64_linux.bottle.1.tar.gz
+==> Determining libconfig bottle rebuild...
+==> Bottling libconfig-1.7.1.x86_64_linux.bottle.1.tar.gz...
+./libconfig-1.7.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5642b1ca1f3334aa40a49c4f0cb5821e9ac1ff5970984da899f9bb99dd3b9aa0" => :x86_64_linux
+    sha256 "558aa2e0c8d1aef4b5bb7aff27cea3117da1b55120599fa1e64c13ca24b07b25" => :x86_64_linux
   end
