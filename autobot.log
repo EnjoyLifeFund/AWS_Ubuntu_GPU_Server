@@ -1,9 +1,15 @@
-==> Determining hypre bottle rebuild...
-==> Bottling hypre-2.11.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hypre-2.11.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hypre-2.11.2_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/99designs/iamy/archive/v2.1.1.tar.gz
+==> Downloading from https://codeload.github.com/99designs/iamy/tar.gz/v2.1.1
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/iamy/2.1.1/bin/iamy -ldflags -X main.Version=v2.1.1
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall iamy`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iamy/2.1.1: 5 files, 23.9MB, built in 7 seconds
+==> Determining iamy bottle rebuild...
+==> Bottling iamy-2.1.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if iamy-2.1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./iamy-2.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0d1b5d6939c8429ccfd69d18d2e678921dbf5600e94e4bba962fe315f29ded2c" => :x86_64_linux
+    sha256 "6d5acb206d881c422bdad621db815d68c6b83f34654384f7c8cb01cc8e39c9d3" => :x86_64_linux
   end
