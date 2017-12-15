@@ -1,3 +1,9 @@
-==> Downloading https://storage.googleapis.com/gwt-releases/gwt-2.8.1.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gwt/2.8.1: 6,926 files, 241.4MB, built in 16 seconds
-This formula doesn't require compiling.
+==> Determining gx bottle rebuild...
+==> Bottling gx-0.12.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gx-0.12.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gx-0.12.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "fc090d78fef0d1b6eeeb56c0a46437da95dc77f9e31f309f6857c724d470ea80" => :x86_64_linux
+  end
