@@ -1,9 +1,15 @@
-==> Determining homebrew/science/raxml bottle rebuild...
-==> Bottling raxml-8.2.11_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if raxml-8.2.11_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./raxml-8.2.11_1.x86_64_linux.bottle.1.tar.gz
+==> Installing rcorrector from homebrew/science
+==> Downloading https://github.com/mourisl/Rcorrector/archive/v1.0.2.tar.gz
+==> Downloading from https://codeload.github.com/mourisl/Rcorrector/tar.gz/v1.0.2
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/rcorrector`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/rcorrector/1.0.2: 8 files, 191.9KB, built in 3 seconds
+==> Determining homebrew/science/rcorrector bottle rebuild...
+==> Bottling rcorrector-1.0.2.x86_64_linux.bottle.1.tar.gz...
+./rcorrector-1.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "28072caa07d0367f4a70ba00685bbca3f571417031ffd0c579c7f913d6d8ac3f" => :x86_64_linux
+    sha256 "3700db2ba572b5bc2df5639681b585bf0338db9b02b2356ef2d369466dec3885" => :x86_64_linux
   end
