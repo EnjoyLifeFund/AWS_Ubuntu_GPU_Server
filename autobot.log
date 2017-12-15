@@ -1,29 +1,19 @@
-==> Installing swarm from homebrew/science
-==> Downloading https://github.com/torognes/swarm/archive/v2.2.2.tar.gz
-==> Downloading from https://codeload.github.com/torognes/swarm/tar.gz/v2.2.2
-==> make -C src
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/swarm
-Target /home/linuxbrew/.linuxbrew/bin/swarm
-is a symlink belonging to geth. You can unlink it:
-  brew unlink geth
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite swarm
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run swarm
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/swarm -> /home/linuxbrew/.linuxbrew/Cellar/geth/1.7.3/bin/swarm
+==> Installing symengine from homebrew/science
+==> Downloading https://github.com/symengine/symengine/archive/v0.3.0.tar.gz
+==> Downloading from https://codeload.github.com/symengine/symengine/tar.gz/v0.3.0
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DCMAKE_PREFIX_PATH=/home/linuxbrew/.linuxbrew/opt/gmp;/home/linuxbrew/.linuxbrew/opt/mpfr;/home/linuxbrew/.linuxbrew/opt/libmpc -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0 -DBUILD_BENCHMARKS=no -DINTEGER_CLASS=gmp -DWITH_SYMENGINE_THREAD_SAFE=yes -DWITH_MPC=yes -DBUILD_FOR_DISTRIBUTION=yes -DBUILD_SHARED_LIBS=yes
+==> make
+==> ctest
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/swarm`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/swarm/2.2.2: 8 files, 629.3KB, built in 1 second
-==> Determining homebrew/science/swarm bottle rebuild...
-==> Bottling swarm-2.2.2.x86_64_linux.bottle.1.tar.gz...
-./swarm-2.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/symengine`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/symengine/0.3.0: 80 files, 6.6MB, built in 27 seconds
+==> Determining homebrew/science/symengine bottle rebuild...
+==> Bottling symengine-0.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if symengine-0.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./symengine-0.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b4f5bb09578efd7d18cbb0ac299a84d1d7f677550a4f9aff94613ff585e20c05" => :x86_64_linux
+    sha256 "3f7939de083595c4af3278ab701d0efb43cbd61bfe7a08db9bbd91bc22704c55" => :x86_64_linux
   end
