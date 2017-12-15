@@ -1,8 +1,15 @@
-==> Determining libmodplug bottle rebuild...
-==> Bottling libmodplug-0.8.9.0.x86_64_linux.bottle.1.tar.gz...
-./libmodplug-0.8.9.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/monome/libmonome/releases/download/v1.4.0/libmonome-1.4.0.tar.bz2
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/127948/1ffdb776-4a6a-11e5-9827-57516ec037c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T220255Z&X-Amz-Expires=300&X-Amz-Signature=5ee5a5de220d879028bbf3df9718a2fc4d937dcf81252641ad414a7edd0a25a0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibmonome-1.4.0.tar.bz2&response-content-type=application%2Foctet-stream
+==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmonome/1.4.0
+==> ./waf build
+==> ./waf install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libmonome`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmonome/1.4.0: 14 files, 168.5KB, built in 2 seconds
+==> Determining libmonome bottle rebuild...
+==> Bottling libmonome-1.4.0.x86_64_linux.bottle.1.tar.gz...
+./libmonome-1.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f608f6fdd2c14ed7143c58391646bf976eb04f485316924ed2a1db94e2d25dd6" => :x86_64_linux
+    sha256 "6c63ef17273979b36e05229bb1b52dd7fef9639a5a4589b405da707e01241998" => :x86_64_linux
   end
