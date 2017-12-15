@@ -1,14 +1,8 @@
-==> Downloading https://github.com/georgmartius/vid.stab/archive/v1.1.0.tar.gz
-==> Downloading from https://codeload.github.com/georgmartius/vid.stab/tar.gz/v1.1.0
-==> cmake . -DUSE_OMP=OFF -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libvidstab/1.1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libvidstab`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libvidstab/1.1.0: 25 files, 373.1KB, built in 3 seconds
-==> Determining libvidstab bottle rebuild...
-==> Bottling libvidstab-1.1.0.x86_64_linux.bottle.1.tar.gz...
-./libvidstab-1.1.0.x86_64_linux.bottle.1.tar.gz
+==> Determining libvo-aacenc bottle rebuild...
+==> Bottling libvo-aacenc-0.1.3.x86_64_linux.bottle.1.tar.gz...
+./libvo-aacenc-0.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "91a16bfdee725de4aef1b6f6ecfdb98b43ba8cab889d89631b3ace346a94b109" => :x86_64_linux
+    sha256 "e91692471cc1b5cc8bd9f8fe9d0ec980d3e8ec8f2f0a3207304954cba3d097ff" => :x86_64_linux
   end
