@@ -1,13 +1,14 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jnettop/jnettop_0.13.0.orig.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0 --man=/home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0/share/man
+==> Downloading https://github.com/jpmens/jo/releases/download/v1.1/jo-1.1.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/53133613/2fc46c7e-3bbb-11e7-99fb-62b2bc039546?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T190746Z&X-Amz-Expires=300&X-Amz-Signature=574178ba8561f95a886fd8b88d443dbd9e0fb74b40dfb2c771cb0c9067720bc8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djo-1.1.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/jo/1.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jnettop`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jnettop/0.13.0: 10 files, 335KB, built in 8 seconds
-==> Determining jnettop bottle rebuild...
-==> Bottling jnettop-0.13.0.x86_64_linux.bottle.1.tar.gz...
-./jnettop-0.13.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall jo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jo/1.1: 9 files, 136.0KB, built in 6 seconds
+==> Determining jo bottle rebuild...
+==> Bottling jo-1.1.x86_64_linux.bottle.1.tar.gz...
+./jo-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2d259e0d031d7285cc31963182d8442b5f0504a481a3d350005a8dfc2eac816f" => :x86_64_linux
+    sha256 "9534d4e4e9229db85a033624f31098214637a9028bd5a77bc697da07975de182" => :x86_64_linux
   end
