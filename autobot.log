@@ -1,4 +1,12 @@
-==> Downloading https://github.com/gcuisinier/jenv/archive/0.4.4.tar.gz
-==> Downloading from https://codeload.github.com/gcuisinier/jenv/tar.gz/0.4.4
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jenv/0.4.4: 78 files, 336.6KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Downloading http://www.bsddiary.net/jerm/jerm-8096.tar.gz
+==> make all
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jerm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jerm/0.8096: 6 files, 108.2KB, built in 1 second
+==> Determining jerm bottle rebuild...
+==> Bottling jerm-0.8096.x86_64_linux.bottle.1.tar.gz...
+./jerm-0.8096.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "94a303cea6782ee10b4898c2a796f59b32c89def66c894d40880df9725918fe4" => :x86_64_linux
+  end
