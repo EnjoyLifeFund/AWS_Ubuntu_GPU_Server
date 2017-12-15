@@ -1,7 +1,16 @@
-==> Determining homebrew/science/velvet bottle rebuild...
-==> Bottling velvet-1.2.10.x86_64_linux.bottle.tar.gz...
-./velvet-1.2.10.x86_64_linux.bottle.tar.gz
+==> Installing fastuniq from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/fastuniq/FastUniq-1.1.tar.gz
+==> Downloading from https://ayera.dl.sourceforge.net/project/fastuniq/FastUniq-1.1.tar.gz
+==> make -C source
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/fastuniq`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fastuniq/1.1: 10 files, 11.5MB, built in 2 seconds
+==> Determining homebrew/science/fastuniq bottle rebuild...
+==> Bottling fastuniq-1.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fastuniq-1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fastuniq-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "ba8624d1956d056b3084473e0421a45c1a417f5821be10d805f8f0fdefde1a46" => :x86_64_linux
+    rebuild 1
+    sha256 "044910e63f8b68473e8ad56b124993c335450697463045698fdea82107911bc5" => :x86_64_linux
   end
