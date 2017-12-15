@@ -1,15 +1,18 @@
-==> Installing libcerf from homebrew/science
-==> Downloading http://apps.jcns.fz-juelich.de/src/libcerf/libcerf-1.5.tgz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcerf/1.5
-==> make check
+==> Installing libctl from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading http://ab-initio.mit.edu/libctl/libctl-3.2.2.tar.gz
+==> Downloading from https://github.com/stevengj/libctl/files/1323238/libctl-3.2.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libctl/3.2.2 LIBS=-lm
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libcerf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcerf/1.5: 27 files, 235.9KB, built in 8 seconds
-==> Determining homebrew/science/libcerf bottle rebuild...
-==> Bottling libcerf-1.5.x86_64_linux.bottle.1.tar.gz...
-./libcerf-1.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libctl`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libctl/3.2.2: 33 files, 868.2KB, built in 12 seconds
+==> Determining homebrew/science/libctl bottle rebuild...
+==> Bottling libctl-3.2.2.x86_64_linux.bottle.1.tar.gz...
+./libctl-3.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6a04e4efcaeca60b727464560d86c43c2cc405614c50c4ee917e473d487efa76" => :x86_64_linux
+    sha256 "3b553c74c64d31359ca3d8bad2f8df9ed40caceae6c6bbb75ff42e95025d7219" => :x86_64_linux
   end
