@@ -1,9 +1,16 @@
-==> Determining libuv bottle rebuild...
-==> Bottling libuv-1.18.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libuv-1.18.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libuv-1.18.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/ktossell/libuvc/archive/v0.0.6.tar.gz
+==> Downloading from https://codeload.github.com/ktossell/libuvc/tar.gz/v0.0.6
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libuvc/0.0.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libuvc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libuvc/0.0.6: 14 files, 282.5KB, built in 3 seconds
+==> Determining libuvc bottle rebuild...
+==> Bottling libuvc-0.0.6.x86_64_linux.bottle.1.tar.gz...
+./libuvc-0.0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c1ec6a9ef67eb7206ee8fa0f6d298db824c1c35327296ae4e4c96c9a02f6b9b2" => :x86_64_linux
+    sha256 "e296042aa81010c3760354c8da09014a220b67f277850d813c4bbc0220b3f291" => :x86_64_linux
   end
