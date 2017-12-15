@@ -1,15 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/libwps/libwps/libwps-0.4.8/libwps-0.4.8.tar.xz
-==> Downloading from https://svwh.dl.sourceforge.net/project/libwps/libwps/libwps-0.4.8/libwps-0.4.8.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libwps/0.4.8 --without-docs
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libwps`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libwps/0.4.8: 17 files, 31.2MB, built in 31 seconds
-==> Determining libwps bottle rebuild...
-==> Bottling libwps-0.4.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libwps-0.4.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libwps-0.4.8.x86_64_linux.bottle.1.tar.gz
+==> Determining libxc bottle rebuild...
+==> Bottling libxc-3.0.1.x86_64_linux.bottle.1.tar.gz...
+./libxc-3.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7ac2c8803bdbf274ed0447e380d916b849244be59e515b948c51ee12c436333d" => :x86_64_linux
+    sha256 "825d6b405988204aec291868596900605b1b5faaeb865bd6ae9c72af2a46afd4" => :x86_64_linux
   end
