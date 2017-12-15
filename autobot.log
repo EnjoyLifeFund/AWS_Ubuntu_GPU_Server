@@ -1,15 +1,13 @@
-==> Cloning https://github.com/Jeffail/leaps.git
-==> Checking out tag v0.8.0
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/leaps/0.8.0/bin/leaps github.com/jeffail/leaps/cmd/leaps
+==> Downloading http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.03.tgz
+==> make BINDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/bin LIBDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/lib MANDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/share/man
+==> make install BINDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/bin LIBDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/lib MANDIR=/home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2/share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall leaps`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/leaps/0.8.0: 5 files, 11.3MB, built in 21 seconds
-==> Determining leaps bottle rebuild...
-==> Bottling leaps-0.8.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if leaps-0.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./leaps-0.8.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ledit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ledit/2.03_2: 7 files, 1.2MB, built in 3 seconds
+==> Determining ledit bottle rebuild...
+==> Bottling ledit-2.03_2.x86_64_linux.bottle.1.tar.gz...
+./ledit-2.03_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f464ca2251b74c44fef3949d6a802b4a6536fa58d95ee6e25876f219889ead9a" => :x86_64_linux
+    sha256 "7f9887693803f108ea7105916e7189a2a35dad72e650a3009ee713705ca6a3cf" => :x86_64_linux
   end
