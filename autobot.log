@@ -1,18 +1,13 @@
-==> Downloading https://hackage.haskell.org/package/hledger-1.4/hledger-1.4.tar.gz
-==> cabal sandbox init
-==> cabal update
-==> cabal install --jobs=32 --max-backjumps=100000 happy
-==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
-==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/hledger/1.4
+==> Downloading https://github.com/hoedown/hoedown/archive/3.0.7.tar.gz
+==> Downloading from https://codeload.github.com/hoedown/hoedown/tar.gz/3.0.7
+==> make hoedown
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hledger`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hledger/1.4: 31 files, 24.3MB, built in 6 minutes 41 seconds
-==> Determining hledger bottle rebuild...
-==> Bottling hledger-1.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hledger-1.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hledger-1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hoedown`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hoedown/3.0.7: 64 files, 490.4KB, built in 2 seconds
+==> Determining hoedown bottle rebuild...
+==> Bottling hoedown-3.0.7.x86_64_linux.bottle.1.tar.gz...
+./hoedown-3.0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7768300c12f9bd2b97179431957535e8f19cb038a2ffc564ef5a8ef530aab273" => :x86_64_linux
+    sha256 "69f5312e26ec7f0bdca3ad6a4038675be92ed6233cebb67c8a9fa86197426221" => :x86_64_linux
   end
