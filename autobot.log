@@ -1,7 +1,11 @@
-==> Determining homebrew/science/samtools bottle rebuild...
-==> Bottling samtools-1.5.x86_64_linux.bottle.1.tar.gz...
-./samtools-1.5.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://dl.suckless.org/tools/ii-1.7.tar.gz
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ii`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ii/1.7: 12 files, 79.2KB, built in 2 seconds
+==> Determining ii bottle rebuild...
+==> Bottling ii-1.7.x86_64_linux.bottle.tar.gz...
+./ii-1.7.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "6414d502c1a7496b3fc3c304d0ad316fba170157345a553de6369e9ce5d1823d" => :x86_64_linux
+    sha256 "97e20e1eacc95c8cd0afba98d74d42659520c0051ad01377b40c5c5f94764654" => :x86_64_linux
   end
