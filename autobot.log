@@ -1,8 +1,19 @@
-==> Determining hicolor-icon-theme bottle rebuild...
-==> Bottling hicolor-icon-theme-0.17.x86_64_linux.bottle.1.tar.gz...
-./hicolor-icon-theme-0.17.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/signal11/hidapi/archive/hidapi-0.8.0-rc1.tar.gz
+==> Downloading from https://codeload.github.com/signal11/hidapi/tar.gz/hidapi-0.8.0-rc1
+==> Downloading https://github.com/signal11/hidapi/pull/219.patch?full_index=1
+==> Downloading from https://patch-diff.githubusercontent.com/raw/signal11/hidapi/pull/219.patch?full_index=1
+==> Patching
+==> Applying 219.patch
+patching file mac/hid.c
+==> ./bootstrap
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hidapi/0.8.0-rc1
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hidapi`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hidapi/0.8.0-rc1: 22 files, 333.2KB, built in 22 seconds
+==> Determining hidapi bottle rebuild...
+==> Bottling hidapi-0.8.0-rc1.x86_64_linux.bottle.tar.gz...
+./hidapi-0.8.0-rc1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "965fa3e74fc44133bc2d813e3e19db3f4237dd02b59cd9d06d16011725f29cc9" => :x86_64_linux
+    sha256 "b721da161720fc5cba29169dc5705ca4d5100e5298c587cceb10686e0d9a9b9e" => :x86_64_linux
   end
