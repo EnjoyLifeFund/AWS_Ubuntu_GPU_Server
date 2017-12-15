@@ -1,30 +1,16 @@
-==> Downloading https://github.com/LASzip/LASzip/archive/v2.2.0.tar.gz
-==> Downloading from https://codeload.github.com/LASzip/LASzip/tar.gz/v2.2.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/laszip@2/2.2.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading http://mirrors.ctan.org/support/latex2html/latex2html-2017.2.tar.gz
+==> Downloading from http://ctan.math.illinois.edu/support/latex2html/latex2html-2017.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/latex2html/2017.2 --without-mktexlsr --with-texpath=/home/linuxbrew/.linuxbrew/Cellar/latex2html/2017.2/share/texmf/tex/latex/html
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink lib/liblaszip.so
-Target /home/linuxbrew/.linuxbrew/lib/liblaszip.so
-is a symlink belonging to laszip. You can unlink it:
-  brew unlink laszip
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite laszip@2
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run laszip@2
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/lib/liblaszip.so -> /home/linuxbrew/.linuxbrew/Cellar/laszip/3.1.1/lib/liblaszip.so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall laszip@2`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/laszip@2/2.2.0: 15 files, 394.5KB, built in 3 seconds
-==> Determining laszip@2 bottle rebuild...
-==> Bottling laszip@2-2.2.0.x86_64_linux.bottle.1.tar.gz...
-./laszip@2-2.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall latex2html`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/latex2html/2017.2: 346 files, 5.5MB, built in 9 seconds
+==> Determining latex2html bottle rebuild...
+==> Bottling latex2html-2017.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if latex2html-2017.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./latex2html-2017.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "aacb3ef4faafa5aba60a34d03372c8ad576606d0336d674825129ad4946479a7" => :x86_64_linux
+    sha256 "196970d305bd50472d8b4aa357ac8cc66fe858580c3577d5cb7920bf5d5b813b" => :x86_64_linux
   end
