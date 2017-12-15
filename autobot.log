@@ -1,42 +1,31 @@
-==> Installing dependencies for ino: picocom
-==> Installing ino dependency: picocom
-==> Downloading https://github.com/npat-efault/picocom/archive/2.2.tar.gz
-==> Downloading from https://codeload.github.com/npat-efault/picocom/tar.gz/2.2
-==> make
-🍺  /home/linuxbrew/.linuxbrew/Cellar/picocom/2.2: 7 files, 170KB, built in 1 second
-==> Installing ino
-==> Downloading https://pypi.python.org/packages/source/i/ino/ino-0.3.6.tar.gz
-==> Downloading https://pypi.python.org/packages/source/a/argparse/argparse-1.2.1.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/o/ordereddict/ordereddict-1.1.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/c/configobj/configobj-5.0.5.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/p/pyserial/pyserial-2.7.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/s/six/six-1.7.2.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> Downloading https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.3.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6/libexec
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6
+==> Downloading https://files.pythonhosted.org/packages/0d/69/62f671f7ec373801377715f0f1dba91f1d2d82be6994746feab118acd10c/internetarchive-1.4.0.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/internetarchive--homebrew-virtualenv-20171215-116187-x12hpp/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/internetarchive--homebrew-virtualenv-20171215-116187-x12hpp/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec
+==> Downloading https://files.pythonhosted.org/packages/e5/1c/b701b3f4bd8d3667df8342f311b3efaeab86078a840fb826bd204118cc6b/args-0.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--args-20171215-116187-1atyh4l/args-0.1.0
+==> Downloading https://files.pythonhosted.org/packages/3d/b4/41ecb1516f1ba728f39ee7062b9dac1352d39823f513bb6f9e8aeb86e26d/clint-0.5.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--clint-20171215-116187-1nvwesr/clint-0.5.1
+==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--docopt-20171215-116187-wlvjnx/docopt-0.6.2
+==> Downloading https://files.pythonhosted.org/packages/b7/ad/760e2ebfced5f7ad4f12c6e0865f2cb646f183fb33ea6db58aa8e890db9c/jsonpatch-0.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--jsonpatch-20171215-116187-mlunvo/jsonpatch-0.4
+==> Downloading https://files.pythonhosted.org/packages/49/6f/183063f01aae1e025cf0130772b55848750a2f3a89bfa11b385b35d7329d/requests-2.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--requests-20171215-116187-1yy3391/requests-2.10.0
+==> Downloading https://files.pythonhosted.org/packages/b0/41/68972daad372fff3a2381e0416ff704faf524b2974e01d1c4fc997b4fb39/schema-0.4.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--schema-20171215-116187-1iljbnu/schema-0.4.0
+==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive--six-20171215-116187-n1g64o/six-1.10.0
+==> /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/internetarchive-20171215-116187-kssl2y/internetarchive-1.4.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ino`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ino/0.3.6: 234 files, 2.9MB, built in 3 seconds
-==> Determining ino bottle rebuild...
-==> Bottling ino-0.3.6.x86_64_linux.bottle.1.tar.gz...
-./ino-0.3.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall internetarchive`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/internetarchive/1.4.0: 1,092 files, 16MB, built in 10 seconds
+==> Determining internetarchive bottle rebuild...
+==> Bottling internetarchive-1.4.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if internetarchive-1.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./internetarchive-1.4.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "e69109d880e17bb7f471a9338bd3ff0c0340eb5a894aa9d73c063d8a963130bd" => :x86_64_linux
+    sha256 "c680036a80d1099735b9457ca3ffd7073d4f859a71f6f7f4eacbfbd3126766ad" => :x86_64_linux
   end
