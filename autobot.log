@@ -1,16 +1,8 @@
-==> Downloading https://github.com/graphql/libgraphqlparser/archive/0.7.0.tar.gz
-==> Downloading from https://codeload.github.com/graphql/libgraphqlparser/tar.gz/0.7.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libgraphqlparser/0.7.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libgraphqlparser`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libgraphqlparser/0.7.0: 24 files, 1.4MB, built in 5 seconds
-==> Determining libgraphqlparser bottle rebuild...
-==> Bottling libgraphqlparser-0.7.0.x86_64_linux.bottle.1.tar.gz...
-./libgraphqlparser-0.7.0.x86_64_linux.bottle.1.tar.gz
+==> Determining libgsf bottle rebuild...
+==> Bottling libgsf-1.14.42.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libgsf-1.14.42.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libgsf-1.14.42.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cf538b633d5e57734454098f5f04bf398315cc28ab07f6ae89af734e811d0b62" => :x86_64_linux
+    sha256 "a95c618508827d71c5d69a8eb117722bc2c901c679ae034d4af5ec08a53af09f" => :x86_64_linux
   end
