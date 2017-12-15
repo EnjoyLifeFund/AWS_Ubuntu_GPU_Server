@@ -1,14 +1,13 @@
-==> Downloading https://www.fefe.de/libowfat/libowfat-0.31.tar.xz
-==> make libowfat.a
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/libowfat/0.31 MAN3DIR=/home/linuxbrew/.linuxbrew/Cellar/libowfat/0.31/share/man/man3 INCLUDEDIR=/home/linuxbrew/.linuxbrew/Cellar/libowfat/0.31/include/libowfat
+==> Downloading https://dev-www.libreoffice.org/src/libpagemaker/libpagemaker-0.0.3.tar.xz
+==> ./configure --without-docs --enable-static=no --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpagemaker/0.0.3
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libowfat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libowfat/0.31: 408 files, 1.2MB, built in 5 seconds
-==> Determining libowfat bottle rebuild...
-==> Bottling libowfat-0.31.x86_64_linux.bottle.1.tar.gz...
-./libowfat-0.31.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libpagemaker`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libpagemaker/0.0.3: 16 files, 2.3MB, built in 18 seconds
+==> Determining libpagemaker bottle rebuild...
+==> Bottling libpagemaker-0.0.3.x86_64_linux.bottle.1.tar.gz...
+./libpagemaker-0.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "07528cd63f9727c49802527e8065beb518320932b23ac952006e25bde80a8890" => :x86_64_linux
+    sha256 "fdda396a80d7ca5caef660bc2a5c283b6dbbda266c1fcfae143cce0a63fc0d74" => :x86_64_linux
   end
