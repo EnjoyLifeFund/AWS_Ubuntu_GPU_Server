@@ -1,12 +1,13 @@
-==> Downloading http://xmailserver.org/pcl-1.12.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpcl/1.12
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/openpgm/libpgm-5.2.122~dfsg.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpgm/5.2.122
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libpcl`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpcl/1.12: 13 files, 114.2KB, built in 6 seconds
-==> Determining libpcl bottle rebuild...
-==> Bottling libpcl-1.12.x86_64_linux.bottle.tar.gz...
-./libpcl-1.12.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libpgm`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libpgm/5.2.122: 29 files, 2.8MB, built in 17 seconds
+==> Determining libpgm bottle rebuild...
+==> Bottling libpgm-5.2.122.x86_64_linux.bottle.tar.gz...
+==> Detecting if libpgm-5.2.122.x86_64_linux.bottle.tar.gz is relocatable...
+./libpgm-5.2.122.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "0349826d9b8ecd2a515a9d7de4837e5da288d01ac91ae5410d39ecf6196e4ba0" => :x86_64_linux
+    sha256 "9a0e5fac82e2ee0960f5047d0810faf550c628167506411036cf9ef70ffc3c7e" => :x86_64_linux
   end
