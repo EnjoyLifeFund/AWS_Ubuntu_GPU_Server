@@ -1,13 +1,15 @@
-==> Installing shrimp from homebrew/science
-==> Downloading http://compbio.cs.toronto.edu/shrimp/releases/SHRiMP_2_2_3.src.tar.gz
+==> Installing sickle from homebrew/science
+==> Downloading https://github.com/najoshi/sickle/archive/v1.33.tar.gz
+==> Downloading from https://codeload.github.com/najoshi/sickle/tar.gz/v1.33
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/shrimp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/shrimp/2.2.3: 21 files, 2.2MB, built in 4 seconds
-==> Determining homebrew/science/shrimp bottle rebuild...
-==> Bottling shrimp-2.2.3.x86_64_linux.bottle.1.tar.gz...
-./shrimp-2.2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/sickle`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/sickle/1.33: 5 files, 66.5KB, built in 1 second
+==> Determining homebrew/science/sickle bottle rebuild...
+==> Bottling sickle-1.33.x86_64_linux.bottle.1.tar.gz...
+./sickle-1.33.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8bdb0120159f858f09dd90d9d9632983cedaba74b37ebece220b9b42050dde9f" => :x86_64_linux
+    sha256 "4110e6a76b3ab68b860dcc9caa9690cdb96d070374a84263ff20bc66c663cb3e" => :x86_64_linux
   end
