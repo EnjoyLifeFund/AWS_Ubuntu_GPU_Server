@@ -1,13 +1,13 @@
-==> Downloading https://developers.yubico.com/libu2f-host/Releases/libu2f-host-1.1.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libu2f-host/1.1.4
+==> Downloading https://developers.yubico.com/libu2f-server/Releases/libu2f-server-1.0.1.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libu2f-server/1.0.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libu2f-host`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libu2f-host/1.1.4: 32 files, 514.3KB, built in 13 seconds
-==> Determining libu2f-host bottle rebuild...
-==> Bottling libu2f-host-1.1.4.x86_64_linux.bottle.1.tar.gz...
-./libu2f-host-1.1.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libu2f-server`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libu2f-server/1.0.1: 31 files, 464.8KB, built in 7 seconds
+==> Determining libu2f-server bottle rebuild...
+==> Bottling libu2f-server-1.0.1.x86_64_linux.bottle.1.tar.gz...
+./libu2f-server-1.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "658b1456bdc2570bd07c8240c50f80d20a28aa5107cc2604757975dace10165b" => :x86_64_linux
+    sha256 "40dd07981338ef933e1d6397ec70344f76e2e5c12adce5ec3ffcdcd51f483ffd" => :x86_64_linux
   end
