@@ -1,14 +1,15 @@
-==> Downloading https://www.rkeene.org/files/oss/libopennet/libopennet-0.9.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9/share/man
-==> make
+==> Downloading https://github.com/osmcode/libosmium/archive/v2.13.1.tar.gz
+==> Downloading from https://codeload.github.com/osmcode/libosmium/tar.gz/v2.13.1
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libosmium/2.13.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DINSTALL_GDALCPP=ON -DINSTALL_PROTOZERO=ON -DINSTALL_UTFCPP=ON ..
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libopennet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libopennet/0.9.9: 16 files, 145KB, built in 8 seconds
-==> Determining libopennet bottle rebuild...
-==> Bottling libopennet-0.9.9.x86_64_linux.bottle.1.tar.gz...
-./libopennet-0.9.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libosmium`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libosmium/2.13.1: 216 files, 1.7MB, built in 22 seconds
+==> Determining libosmium bottle rebuild...
+==> Bottling libosmium-2.13.1.x86_64_linux.bottle.1.tar.gz...
+./libosmium-2.13.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "1e057b7789bd709bf27acada3c8c24c6a4cf2c1a47166088478bda5402cc4e96" => :x86_64_linux
+    sha256 "bacaf14ee5c39afabec1d6836e3376c54ac481466e41673fb2761986224b9979" => :x86_64_linux
   end
