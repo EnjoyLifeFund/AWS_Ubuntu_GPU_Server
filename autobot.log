@@ -1,24 +1,14 @@
-==> Downloading https://github.com/technomancy/leiningen/archive/2.8.1.tar.gz
-==> Downloading from https://codeload.github.com/technomancy/leiningen/tar.gz/2.8.1
-==> Downloading https://github.com/technomancy/leiningen/releases/download/2.8.1/leiningen-2.8.1-standalone.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/356756/57d8593a-bb24-11e7-9275-4464ed55c850?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T203308Z&X-Amz-Expires=300&X-Amz-Signature=622858411f5d305a37e593d19951958841c53b3a986eca781fbcfd623f8abeba&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dleiningen-2.8.1-standalone.zip&response-content-type=application%2Foctet-stream
+==> Downloading https://downloads.sourceforge.net/project/lensfun/0.3.2/lensfun-0.3.2.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/lensfun/0.3.2/lensfun-0.3.2.tar.gz
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lensfun/0.3.2_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall leiningen`
-==> Caveats
-Dependencies will be installed to:
-  $HOME/.m2/repository
-To play around with Clojure run `lein repl` or `lein help`.
-
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/leiningen/2.8.1: 9 files, 13MB, built in 3 seconds
-==> Determining leiningen bottle rebuild...
-==> Bottling leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./leiningen-2.8.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lensfun`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lensfun/0.3.2_1: 66 files, 2.1MB, built in 4 seconds
+==> Determining lensfun bottle rebuild...
+==> Bottling lensfun-0.3.2_1.x86_64_linux.bottle.1.tar.gz...
+./lensfun-0.3.2_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5609a19a26dfb1dbe46d47b18ff873fa3ab54f2c5a2ce9aa626eaf3f5c62c679" => :x86_64_linux
+    sha256 "a8a8fcd6d882cfa4644b3e62def54a9ea118dc41a60ccc1c3ae5e30957f02616" => :x86_64_linux
   end
