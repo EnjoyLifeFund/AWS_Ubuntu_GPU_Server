@@ -1,14 +1,8 @@
-==> Downloading https://github.com/google/guetzli/archive/v1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/google/guetzli/tar.gz/v1.0.1
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall guetzli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/guetzli/1.0.1: 5 files, 3.9MB, built in 7 seconds
-==> Determining guetzli bottle rebuild...
-==> Bottling guetzli-1.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if guetzli-1.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./guetzli-1.0.1.x86_64_linux.bottle.1.tar.gz
+==> Determining guile bottle rebuild...
+==> Bottling guile-2.2.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if guile-2.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./guile-2.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a6f9a101b53b17306dde3e3c46571d462ad28490fd0b645b2004d6bc1beeb946" => :x86_64_linux
+    sha256 "a0d95a9004e62dee6c3acd324e0b0da61c05321a45680abb8547e09d151adcbc" => :x86_64_linux
   end
