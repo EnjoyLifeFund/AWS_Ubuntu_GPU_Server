@@ -1,9 +1,14 @@
-==> Determining jpeg bottle rebuild...
-==> Bottling jpeg-9b.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jpeg-9b.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jpeg-9b.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/google/jsonnet/archive/v0.9.5.tar.gz
+==> Downloading from https://codeload.github.com/google/jsonnet/tar.gz/v0.9.5
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jsonnet`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jsonnet/0.9.5: 5 files, 9.9MB, built in 12 seconds
+==> Determining jsonnet bottle rebuild...
+==> Bottling jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jsonnet-0.9.5.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "de45f25ac58e457ed23e006cef9a1eab1666ff6bf31c1ca67359b4812c02f0ba" => :x86_64_linux
+    sha256 "5820c9413939e4290918fe5cde14b92253f8f9383baa19c762510bd87835cb44" => :x86_64_linux
   end
