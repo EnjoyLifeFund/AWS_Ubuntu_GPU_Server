@@ -1,15 +1,14 @@
-==> Downloading https://downloads.xiph.org/releases/icecast/icecast-2.4.3.tar.gz
-==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/icecast/icecast-2.4.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/icecast/2.4.3
+==> Downloading https://savannah.nongnu.org/download/icoutils/icoutils-0.32.2.tar.bz2
+==> Downloading from http://download.savannah.gnu.org/releases/icoutils/icoutils-0.32.2.tar.bz2
+==> ./configure --disable-rpath --prefix=/home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall icecast`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/icecast/2.4.3: 71 files, 3.7MB, built in 13 seconds
-==> Determining icecast bottle rebuild...
-==> Bottling icecast-2.4.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if icecast-2.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./icecast-2.4.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall icoutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2: 18 files, 570.2KB, built in 40 seconds
+==> Determining icoutils bottle rebuild...
+==> Bottling icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz...
+./icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b01f41b40984326a4e64e8c0f449c1810413d9f454aa1ba176409ad7837a426d" => :x86_64_linux
+    sha256 "1e0b606f5e136455ed1d494d8307eb81944a3426838bf670fafb9bb05ec5edaa" => :x86_64_linux
   end
