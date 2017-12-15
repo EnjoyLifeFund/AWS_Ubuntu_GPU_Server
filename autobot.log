@@ -1,9 +1,4 @@
-==> Determining iso-codes bottle rebuild...
-==> Bottling iso-codes-3.77.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if iso-codes-3.77.x86_64_linux.bottle.1.tar.gz is relocatable...
-./iso-codes-3.77.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e508646151185595504e84dce4fe043f5aba9c42a5d0aab38fcd80097e410bee" => :x86_64_linux
-  end
+==> Downloading https://downloads.sourceforge.net/project/ispcmirror/v1.9.2/ispc-v1.9.2-osx.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/ispcmirror/v1.9.2/ispc-v1.9.2-osx.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ispc/1.9.2: 4 files, 54.9MB, built in 4 seconds
+This formula doesn't require compiling.
