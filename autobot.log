@@ -1,14 +1,13 @@
-==> Downloading https://www.numbercrunch.de/trng/trng-4.19.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtrng/4.19
-==> make
+==> Downloading https://developers.yubico.com/libu2f-host/Releases/libu2f-host-1.1.4.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libu2f-host/1.1.4
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libtrng`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libtrng/4.19: 77 files, 1.5MB, built in 28 seconds
-==> Determining libtrng bottle rebuild...
-==> Bottling libtrng-4.19.x86_64_linux.bottle.1.tar.gz...
-./libtrng-4.19.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libu2f-host`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libu2f-host/1.1.4: 32 files, 514.3KB, built in 13 seconds
+==> Determining libu2f-host bottle rebuild...
+==> Bottling libu2f-host-1.1.4.x86_64_linux.bottle.1.tar.gz...
+./libu2f-host-1.1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "3d23b71aa83887e2cf4f97cdc6134553a4e0b909405752a01fb248cb8ee2eb30" => :x86_64_linux
+    sha256 "658b1456bdc2570bd07c8240c50f80d20a28aa5107cc2604757975dace10165b" => :x86_64_linux
   end
