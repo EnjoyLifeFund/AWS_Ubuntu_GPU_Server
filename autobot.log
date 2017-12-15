@@ -1,20 +1,14 @@
-==> Installing kollector from homebrew/science
-==> Installing dependencies for homebrew/science/kollector: biobloomtools
-==> Installing homebrew/science/kollector dependency: biobloomtools
-==> Downloading https://linuxbrew.bintray.com/bottles-science/biobloomtools-2.0.13_1.x86_64_linux.bottle.tar.gz
-==> Pouring biobloomtools-2.0.13_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/biobloomtools/2.0.13_1: 11 files, 633.6KB
-==> Installing homebrew/science/kollector
-==> Downloading https://github.com/bcgsc/kollector/archive/V1.0.tar.gz
-==> Downloading from https://codeload.github.com/bcgsc/kollector/tar.gz/V1.0
+==> Installing kraken from homebrew/science
+==> Downloading https://ccb.jhu.edu/software/kraken/dl/kraken-0.10.5-beta.tgz
+==> ./install_kraken.sh /home/linuxbrew/.linuxbrew/Cellar/kraken/0.10.5-beta/libexec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kollector`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kollector/1.0: 11 files, 72.4KB, built in 0 seconds
-==> Determining homebrew/science/kollector bottle rebuild...
-==> Bottling kollector-1.0.x86_64_linux.bottle.1.tar.gz...
-./kollector-1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kraken`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kraken/0.10.5-beta: 36 files, 373.9KB, built in 3 seconds
+==> Determining homebrew/science/kraken bottle rebuild...
+==> Bottling kraken-0.10.5-beta.x86_64_linux.bottle.1.tar.gz...
+./kraken-0.10.5-beta.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "eb81c8751c37dbdcba49f97e01f5081fe4809dd575dfad02924ae5098c273c42" => :x86_64_linux
+    sha256 "ea62cf8bf826f568589d5e11cb870b6aefdf9bc7b44f323332cb0d768789c238" => :x86_64_linux
   end
