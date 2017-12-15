@@ -1,15 +1,15 @@
-==> Installing megam from homebrew/science
-==> Downloading http://eightnine.de/megam/megam-0.9.2.tgz
-==> make -e
-==> make clean
-==> make -e opt
+==> Installing methpipe from homebrew/science
+==> Downloading http://smithlabresearch.org/downloads/methpipe-3.4.3.tar.bz2
+==> make all
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/megam`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/megam/0.9.2: 5 files, 6.3MB, built in 6 seconds
-==> Determining homebrew/science/megam bottle rebuild...
-==> Bottling megam-0.9.2.x86_64_linux.bottle.tar.gz...
-==> Detecting if megam-0.9.2.x86_64_linux.bottle.tar.gz is relocatable...
-./megam-0.9.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/methpipe`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/methpipe/3.4.3: 28 files, 12MB, built in 1 minute 17 seconds
+==> Determining homebrew/science/methpipe bottle rebuild...
+==> Bottling methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./methpipe-3.4.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "9790f5e6f41bd9049a4e7b8970135e78a073701e461fd9d631710e7ba17a0f1a" => :x86_64_linux
+    rebuild 1
+    sha256 "654cc953c9e289f15bb44f5bf47a6958cc7ce9bcc961e0b3c30ed62928e2974c" => :x86_64_linux
   end
