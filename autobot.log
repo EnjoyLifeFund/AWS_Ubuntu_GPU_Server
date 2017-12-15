@@ -1,23 +1,8 @@
-==> Downloading http://www.lichteblau.com/download/ldapvi-1.7.tar.gz
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/ldapvi/ldapvi_1.7-10.debian.tar.xz
-==> Patching
-==> Applying patches/05_getline-conflict
-patching file common.h
-patching file misc.c
-Hunk #1 succeeded at 315 (offset -4 lines).
-patching file ldapvi.c
-==> Applying patches/06_fix-vim-modeline
-patching file ldapvi.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ldapvi/1.7_3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ldapvi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ldapvi/1.7_3: 10 files, 261.2KB, built in 7 seconds
-==> Determining ldapvi bottle rebuild...
-==> Bottling ldapvi-1.7_3.x86_64_linux.bottle.1.tar.gz...
-./ldapvi-1.7_3.x86_64_linux.bottle.1.tar.gz
+==> Determining ldc bottle rebuild...
+==> Bottling ldc-1.6.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ldc-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ldc-1.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "260e38e0f3db0c1f5d492ef6a1e5faa5eac391c557ea25a5261921529855a208" => :x86_64_linux
+    sha256 "f7efb02a7eebcac8ab3ae393a183a75440127fa22d7cc61f9f84125b6e2c3e47" => :x86_64_linux
   end
