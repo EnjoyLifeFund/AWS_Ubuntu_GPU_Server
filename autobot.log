@@ -1,13 +1,8 @@
-==> Downloading https://dev-www.libreoffice.org/src/libpagemaker/libpagemaker-0.0.3.tar.xz
-==> ./configure --without-docs --enable-static=no --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpagemaker/0.0.3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libpagemaker`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpagemaker/0.0.3: 16 files, 2.3MB, built in 18 seconds
-==> Determining libpagemaker bottle rebuild...
-==> Bottling libpagemaker-0.0.3.x86_64_linux.bottle.1.tar.gz...
-./libpagemaker-0.0.3.x86_64_linux.bottle.1.tar.gz
+==> Determining libpcap bottle rebuild...
+==> Bottling libpcap-1.8.1.x86_64_linux.bottle.1.tar.gz...
+./libpcap-1.8.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "fdda396a80d7ca5caef660bc2a5c283b6dbbda266c1fcfae143cce0a63fc0d74" => :x86_64_linux
+    sha256 "875e1c18455990a2e68262dffbfaa5b94ae8b1271dafef8c1e9e7bf6fd8665d1" => :x86_64_linux
   end
