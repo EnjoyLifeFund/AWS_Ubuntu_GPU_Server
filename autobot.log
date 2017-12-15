@@ -1,16 +1,21 @@
-==> Installing nanoflann from homebrew/science
-==> Downloading https://github.com/jlblancoc/nanoflann/archive/v1.2.3.tar.gz
-==> Downloading from https://codeload.github.com/jlblancoc/nanoflann/tar.gz/v1.2.3
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/nanoflann/1.2.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Installing nauty from homebrew/science
+==> Downloading http://users.cecs.anu.edu.au/~bdm/nauty/nauty26r5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nauty/26r5
+==> make all
+==> make checks
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nanoflann`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nanoflann/1.2.3: 7 files, 86.5KB, built in 7 seconds
-==> Determining homebrew/science/nanoflann bottle rebuild...
-==> Bottling nanoflann-1.2.3.x86_64_linux.bottle.1.tar.gz...
-./nanoflann-1.2.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nauty`
+==> Caveats
+User guide was saved locally to:
+  /home/linuxbrew/.linuxbrew/opt/nauty/share/doc/nauty/nug26.pdf
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nauty/26r5: 44 files, 7.3MB, built in 38 seconds
+==> Determining homebrew/science/nauty bottle rebuild...
+==> Bottling nauty-26r5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nauty-26r5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nauty-26r5.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "1dbfbe15b8f9bd35fc7234cf0a374cc9c3b72e60c75b46219c27a765f10020bd" => :x86_64_linux
+    sha256 "07fd36a1fea356470ac7ab0e7d0aa0a31e3eb66e10269acb6e4ec8d12fb61399" => :x86_64_linux
   end
