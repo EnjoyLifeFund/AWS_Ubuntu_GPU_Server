@@ -1,9 +1,15 @@
-==> Determining homebrew/science/vigra bottle rebuild...
-==> Bottling vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./vigra-1.11.1_2.x86_64_linux.bottle.1.tar.gz
+==> Installing flash from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/flashpage/FLASH-1.2.11.tar.gz
+==> Downloading from https://versaweb.dl.sourceforge.net/project/flashpage/FLASH-1.2.11.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/flash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flash/1.2.11: 6 files, 142.4KB, built in 2 seconds
+==> Determining homebrew/science/flash bottle rebuild...
+==> Bottling flash-1.2.11.x86_64_linux.bottle.1.tar.gz...
+./flash-1.2.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "ec97bdbc7fbfc0aefa18e234772d58254bce429c60bda990c470e67c13c1bf27" => :x86_64_linux
+    sha256 "53049632a750e7dc0db4054e11c1b28b105a5b83ccf23d9678cb7783d3de3788" => :x86_64_linux
   end
