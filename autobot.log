@@ -1,13 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/openpgm/libpgm-5.2.122~dfsg.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpgm/5.2.122
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libpgm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpgm/5.2.122: 29 files, 2.8MB, built in 17 seconds
-==> Determining libpgm bottle rebuild...
-==> Bottling libpgm-5.2.122.x86_64_linux.bottle.tar.gz...
-==> Detecting if libpgm-5.2.122.x86_64_linux.bottle.tar.gz is relocatable...
-./libpgm-5.2.122.x86_64_linux.bottle.tar.gz
+==> Determining libplist bottle rebuild...
+==> Bottling libplist-2.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libplist-2.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libplist-2.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "9a0e5fac82e2ee0960f5047d0810faf550c628167506411036cf9ef70ffc3c7e" => :x86_64_linux
+    rebuild 1
+    sha256 "83a1909660871e0e2bbf3447cc44eb90b0bada824282edc52e75d8cc4964c543" => :x86_64_linux
   end
