@@ -1,23 +1,14 @@
-==> Installing vcftools from homebrew/science
-==> Downloading https://github.com/vcftools/vcftools/archive/v0.1.15.tar.gz
-==> Downloading from https://codeload.github.com/vcftools/vcftools/tar.gz/v0.1.15
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/vcftools/0.1.15_1 --with-pmdir=lib/perl5/site_perl
-==> make
-==> make install
+==> Installing fasttree from homebrew/science
+==> Downloading http://microbesonline.org/fasttree/FastTree-2.1.10.c
+==> gcc-6 -o FastTree FastTree-2.1.10.c -lm -O3 -finline-functions -funroll-loops -DOPENMP -fopenmp -DUSE_DOUBLE
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/vcftools`
-==> Caveats
-To use the Perl modules, make sure Vcf.pm, VcfStats.pm, and FaSlice.pm
-are included in your PERL5LIB environment variable:
-  export PERL5LIB=/home/linuxbrew/.linuxbrew/lib/perl5/site_perl:${PERL5LIB}
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/vcftools/0.1.15_1: 58 files, 13.2MB, built in 24 seconds
-==> Determining homebrew/science/vcftools bottle rebuild...
-==> Bottling vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fasttree`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fasttree/2.1.10: 3 files, 387.0KB, built in 7 seconds
+==> Determining homebrew/science/fasttree bottle rebuild...
+==> Bottling fasttree-2.1.10.x86_64_linux.bottle.1.tar.gz...
+./fasttree-2.1.10.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e1eed144e6c28acae4f3ccc205662b3bdc6957fa1e170dc69136ee5eb36e0cf7" => :x86_64_linux
+    sha256 "2ab7aaa745c0ccfdcd420d64420d6b95fa72e9af920b755f487123fda761dc6e" => :x86_64_linux
   end
