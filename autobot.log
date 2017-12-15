@@ -1,38 +1,15 @@
-==> Installing xbacklight from linuxbrew/xorg
-==> Installing dependencies for linuxbrew/xorg/xbacklight: linuxbrew/xorg/xcb-util, linuxbrew/xorg/xcb-util-image
-==> Installing linuxbrew/xorg/xbacklight dependency: linuxbrew/xorg/xcb-util
-==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xcb-util-0.4.0.x86_64_linux.bottle.tar.gz
-==> Pouring xcb-util-0.4.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util/0.4.0: 16 files, 100.0KB
-==> Installing linuxbrew/xorg/xbacklight dependency: linuxbrew/xorg/xcb-util-image
-==> Downloading https://linuxbrew.bintray.com/bottles-xorg/xcb-util-image-0.4.0.x86_64_linux.bottle.tar.gz
-==> Pouring xcb-util-image-0.4.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xcb-util-image/0.4.0: 12 files, 110.8KB
-==> Installing linuxbrew/xorg/xbacklight
-==> Downloading https://www.x.org/pub/individual/app/xbacklight-1.2.1.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xbacklight-1.2.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xbacklight/1.2.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
-==> make
+==> Installing xbitmaps from linuxbrew/xorg
+==> Downloading https://xorg.freedesktop.org/archive/individual/data/xbitmaps-1.1.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xbitmaps/1.1.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xbacklight`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xbacklight/1.2.1: 7 files, 84.4KB, built in 6 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-angular-cli
-dnscrypt-proxy
-gegl
-gopass
-heroku
-libgcrypt
-libsodium
-zeromq
-
-==> Determining linuxbrew/xorg/xbacklight bottle rebuild...
-==> Bottling xbacklight-1.2.1.x86_64_linux.bottle.1.tar.gz...
-./xbacklight-1.2.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xbitmaps`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xbitmaps/1.1.1: 76 files, 217KB, built in 5 seconds
+==> Determining linuxbrew/xorg/xbitmaps bottle rebuild...
+==> Bottling xbitmaps-1.1.1.x86_64_linux.bottle.1.tar.gz...
+./xbitmaps-1.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "cfd45334690d3bfebed781351f0045704f11d387ae7c4e8b363951725523b804" => :x86_64_linux
+    sha256 "914ddc674f3e822da9f31ccd7ac1ffe36438113ce0c0954d95cc1ecb1de2d193" => :x86_64_linux
   end
