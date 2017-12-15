@@ -1,9 +1,10 @@
-==> Downloading https://github.com/greatscottgadgets/libbtbb/archive/2017-03-R2.tar.gz
-==> Downloading from https://codeload.github.com/greatscottgadgets/libbtbb/tar.gz/2017-03-R2
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libbtbb/2017-03-R2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading http://caca.zoy.org/files/libcaca/libcaca-0.99.beta19.tar.gz
+==> Downloading from http://caca.zoy.org/attachment/wiki/libcaca/libcaca-0.99.beta19.tar.gz?format=raw
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcaca/0.99b19 --disable-doc --disable-slang --disable-java --disable-csharp --disable-ruby --disable-x11
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libbtbb`
+You can run it manually using `brew postinstall libcaca`
 ==> Caveats
 Python modules have been installed and Homebrew's site-packages is not
 in your Python sys.path, so you will not be able to import the modules
@@ -12,11 +13,11 @@ please run:
   mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
   echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbtbb/2017-03-R2: 15 files, 219.6KB, built in 3 seconds
-==> Determining libbtbb bottle rebuild...
-==> Bottling libbtbb-2017-03-R2.x86_64_linux.bottle.tar.gz...
-./libbtbb-2017-03-R2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcaca/0.99b19: 45 files, 4.0MB, built in 22 seconds
+==> Determining libcaca bottle rebuild...
+==> Bottling libcaca-0.99b19.x86_64_linux.bottle.tar.gz...
+==> Detecting if libcaca-0.99b19.x86_64_linux.bottle.tar.gz is relocatable...
+./libcaca-0.99b19.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "2b74ef518a700047d5861e4c72bd7590dcfae05f7b0d1798d2099468ed2d926c" => :x86_64_linux
+    sha256 "abaa0030934d0a2c39abd2a4c68d34b4e21b5e16bbe953f9bd6b578c740b28fe" => :x86_64_linux
   end
