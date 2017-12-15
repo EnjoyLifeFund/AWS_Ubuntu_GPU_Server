@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/xf86vidmodeproto bottle rebuild...
-==> Bottling xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz...
-./xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz
+==> Installing xgamma from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xgamma-1.0.6.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xgamma-1.0.6.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xgamma/1.0.6 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/xgamma`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xgamma/1.0.6: 7 files, 83.2KB, built in 6 seconds
+==> Determining linuxbrew/xorg/xgamma bottle rebuild...
+==> Bottling xgamma-1.0.6.x86_64_linux.bottle.1.tar.gz...
+./xgamma-1.0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "364bdc02a2485e2584eedd8c1064bf28e3567cc260c63bfca8419813f7289b60" => :x86_64_linux
+    sha256 "bd78d0a62f8dee7c79e157f26927f27e93cfc994fb8adb9680a1b8fbddeecc8e" => :x86_64_linux
   end
