@@ -1,15 +1,14 @@
-==> Installing mtdev from linuxbrew/xorg
-==> Downloading http://bitmath.org/code/mtdev/mtdev-1.1.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mtdev/1.1.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no
-==> make
-==> make install
+==> Installing pciutils from linuxbrew/xorg
+==> Downloading https://www.kernel.org/pub/software/utils/pciutils/pciutils-3.5.1.tar.xz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1 SHAREDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share MANDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share/man SHARED=yes ZLIB=no
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1 SHAREDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share MANDIR=/home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1/share/man SHARED=yes ZLIB=no install install-lib
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/mtdev`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mtdev/1.1.5: 13 files, 175.3KB, built in 7 seconds
-==> Determining linuxbrew/xorg/mtdev bottle rebuild...
-==> Bottling mtdev-1.1.5.x86_64_linux.bottle.1.tar.gz...
-./mtdev-1.1.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/pciutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pciutils/3.5.1: 22 files, 1.4MB, built in 1 second
+==> Determining linuxbrew/xorg/pciutils bottle rebuild...
+==> Bottling pciutils-3.5.1.x86_64_linux.bottle.1.tar.gz...
+./pciutils-3.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "67ecefff25a747288631a77070ccbd56d69b8e5a2892f4f7b9e4120c36ff4514" => :x86_64_linux
+    sha256 "d28927891ce6455b5e6355c7d5efda625f323acd1a853041d7c65cb336974ae6" => :x86_64_linux
   end
