@@ -1,12 +1,7 @@
-==> Downloading https://www.remlab.net/files/libident/libident-0.32.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libident/0.32 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libident/0.32/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libident`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libident/0.32: 13 files, 144KB, built in 12 seconds
-==> Determining libident bottle rebuild...
-==> Bottling libident-0.32.x86_64_linux.bottle.tar.gz...
-./libident-0.32.x86_64_linux.bottle.tar.gz
+==> Determining libidn bottle rebuild...
+==> Bottling libidn-1.33.x86_64_linux.bottle.1.tar.gz...
+./libidn-1.33.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "ab89eeb61034526b8fd4aa729cf6896ead0e60176b8ed49b06e84e05a31e9422" => :x86_64_linux
+    rebuild 1
+    sha256 "76f1996ccdcbd7b80d191a993f50c9c87af5dd486c3233f72332d141a13ae8f1" => :x86_64_linux
   end
