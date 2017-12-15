@@ -1,14 +1,16 @@
-==> Downloading https://downloads.sourceforge.net/project/lensfun/0.3.2/lensfun-0.3.2.tar.gz
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/lensfun/0.3.2/lensfun-0.3.2.tar.gz
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lensfun/0.3.2_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/dropbox/lepton/archive/1.2.1.tar.gz
+==> Downloading from https://codeload.github.com/dropbox/lepton/tar.gz/1.2.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lepton/1.2.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lensfun`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lensfun/0.3.2_1: 66 files, 2.1MB, built in 4 seconds
-==> Determining lensfun bottle rebuild...
-==> Bottling lensfun-0.3.2_1.x86_64_linux.bottle.1.tar.gz...
-./lensfun-0.3.2_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lepton`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lepton/1.2.1: 8 files, 11MB, built in 10 seconds
+==> Determining lepton bottle rebuild...
+==> Bottling lepton-1.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lepton-1.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lepton-1.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a8a8fcd6d882cfa4644b3e62def54a9ea118dc41a60ccc1c3ae5e30957f02616" => :x86_64_linux
+    sha256 "e1f663e45955944a787f77bdedce337da10e7e46be1ee93b6b3f1c70538371ee" => :x86_64_linux
   end
