@@ -1,8 +1,15 @@
-==> Determining libspectre bottle rebuild...
-==> Bottling libspectre-0.2.8_3.x86_64_linux.bottle.1.tar.gz...
-./libspectre-0.2.8_3.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/fontforge/libspiro/releases/download/0.5.20150702/libspiro-0.5.20150702.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/9570173/550e7876-7668-11e6-8e64-a159254279aa?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T224302Z&X-Amz-Expires=300&X-Amz-Signature=a70e73604faf06dd52598f5f219de91dc9eaf03767810e68aa687f21ce52e57b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibspiro-0.5.20150702.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libspiro/0.5.20150702
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libspiro`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libspiro/0.5.20150702: 17 files, 230.2KB, built in 8 seconds
+==> Determining libspiro bottle rebuild...
+==> Bottling libspiro-0.5.20150702.x86_64_linux.bottle.1.tar.gz...
+./libspiro-0.5.20150702.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "c5cbfd40d11ab3fbe4fbb585c3c56c5d22738ee1db33fde181827411971e813d" => :x86_64_linux
+    sha256 "5ea5ba538d0d7aa50461493f933e1dcfe528e12fbabd7014582fa1708b4f26e2" => :x86_64_linux
   end
