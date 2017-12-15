@@ -1,14 +1,12 @@
-==> Installing paxtools from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/biopax/paxtools/paxtools-4.3.1.jar
-==> Downloading from https://svwh.dl.sourceforge.net/project/biopax/paxtools/paxtools-4.3.1.jar
+==> Installing pcap from homebrew/science
+==> Downloading http://seq.cs.iastate.edu/PCAP/pcap.rep.linux.xeon64.tar
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/paxtools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/paxtools/4.3.1: 4 files, 24.5MB, built in 3 seconds
-==> Determining homebrew/science/paxtools bottle rebuild...
-==> Bottling paxtools-4.3.1.x86_64_linux.bottle.tar.gz...
-==> Detecting if paxtools-4.3.1.x86_64_linux.bottle.tar.gz is relocatable...
-./paxtools-4.3.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/pcap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pcap/2005-06-07: 28 files, 751.6KB, built in 1 second
+==> Determining homebrew/science/pcap bottle rebuild...
+==> Bottling pcap-2005-06-07.x86_64_linux.bottle.tar.gz...
+./pcap-2005-06-07.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "bae3a3dd236d24b047a50a792240542ce1f28b382018fe2d27059eef3d75cb3b" => :x86_64_linux
+    sha256 "04ddac76cebe70aace21f36243891aa19ed51879e43a83090b76003746f6d7c3" => :x86_64_linux
   end
