@@ -1,14 +1,15 @@
-==> Downloading https://blake2.net/libb2-0.97.tar.gz
-==> ./configure --disable-silent-rules --enable-fat --prefix=/home/linuxbrew/.linuxbrew/Cellar/libb2/0.97
+==> Downloading https://ftp.isc.org/isc/libbind/6.0/libbind-6.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbind/6.0
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libb2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libb2/0.97: 8 files, 303.5KB, built in 10 seconds
-==> Determining libb2 bottle rebuild...
-==> Bottling libb2-0.97.x86_64_linux.bottle.1.tar.gz...
-./libb2-0.97.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libbind`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libbind/6.0: 55 files, 2.6MB, built in 18 seconds
+==> Determining libbind bottle rebuild...
+==> Bottling libbind-6.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if libbind-6.0.x86_64_linux.bottle.tar.gz is relocatable...
+./libbind-6.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "9a9fe1e2cca6666608e945202be55c8014dcd2ad340109f8367a4ab9e1a0df2e" => :x86_64_linux
+    sha256 "c33f1b9ada0b89a2c3bdef34ca90f704e35de059520d01072907aecd6fad2294" => :x86_64_linux
   end
