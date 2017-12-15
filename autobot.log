@@ -1,14 +1,8 @@
-==> Installing tabtk from homebrew/science
-==> Downloading https://github.com/lh3/tabtk/archive/v0.1.tar.gz
-==> Downloading from https://codeload.github.com/lh3/tabtk/tar.gz/v0.1
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/tabtk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/tabtk/0.1: 4 files, 199.5KB, built in 1 second
-==> Determining homebrew/science/tabtk bottle rebuild...
-==> Bottling tabtk-0.1.x86_64_linux.bottle.1.tar.gz...
-./tabtk-0.1.x86_64_linux.bottle.1.tar.gz
+==> Determining imagemagick bottle rebuild...
+==> Bottling imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz is relocatable...
+./imagemagick-7.0.7-14.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0da09a2c0d2a02063bb78f04d39a0a7167f097ad1d429844faf3fec39f48cb73" => :x86_64_linux
+    sha256 "c8cfe418b6d7fad5b9140ee501a398ff377ccb8376d5dbaba167556e96683cda" => :x86_64_linux
   end
