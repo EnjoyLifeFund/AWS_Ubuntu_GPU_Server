@@ -1,19 +1,15 @@
-==> Installing ess from homebrew/science
-==> Downloading https://ess.r-project.org/downloads/ess/ess-15.09-2.tgz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ess/15.09-2
+==> Installing exonerate from homebrew/science
+==> Downloading http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.2.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/exonerate/2.2.0
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ess`
-==> Caveats
-Emacs Lisp files have been installed to:
-  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/ess
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ess/15.09-2: 163 files, 4.9MB, built in 15 seconds
-==> Determining homebrew/science/ess bottle rebuild...
-==> Bottling ess-15.09-2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ess-15.09-2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ess-15.09-2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/exonerate`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/exonerate/2.2.0: 39 files, 18.1MB, built in 8 minutes 26 seconds
+==> Determining homebrew/science/exonerate bottle rebuild...
+==> Bottling exonerate-2.2.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if exonerate-2.2.0.x86_64_linux.bottle.tar.gz is relocatable...
+./exonerate-2.2.0.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e92874562827735635b417b1a401c1274c40542725d893889b965eb6596f61ce" => :x86_64_linux
+    sha256 "957f7fa18476d38418b2dcb5e56006ac75d4a58d773d9232b6bb7af85afa48c5" => :x86_64_linux
   end
