@@ -1,23 +1,20 @@
-==> Downloading http://caca.zoy.org/files/libcaca/libcaca-0.99.beta19.tar.gz
-==> Downloading from http://caca.zoy.org/attachment/wiki/libcaca/libcaca-0.99.beta19.tar.gz?format=raw
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcaca/0.99b19 --disable-doc --disable-slang --disable-java --disable-csharp --disable-ruby --disable-x11
-==> make
+==> Installing dependencies for libcddb: libcdio
+==> Installing libcddb dependency: libcdio
+==> Downloading https://linuxbrew.bintray.com/bottles/libcdio-1.1.0.x86_64_linux.bottle.tar.gz
+==> Pouring libcdio-1.1.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcdio/1.1.0: 74 files, 8.6MB
+==> Installing libcddb
+==> Downloading https://downloads.sourceforge.net/libcddb/libcddb-1.3.2.tar.bz2
+==> Downloading from https://downloads.sourceforge.net/project/libcddb/libcddb/1.3.2/libcddb-1.3.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libcddb/1.3.2_2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libcaca`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libcaca/0.99b19: 45 files, 4.0MB, built in 22 seconds
-==> Determining libcaca bottle rebuild...
-==> Bottling libcaca-0.99b19.x86_64_linux.bottle.tar.gz...
-==> Detecting if libcaca-0.99b19.x86_64_linux.bottle.tar.gz is relocatable...
-./libcaca-0.99b19.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libcddb`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcddb/1.3.2_2: 24 files, 1.4MB, built in 12 seconds
+==> Determining libcddb bottle rebuild...
+==> Bottling libcddb-1.3.2_2.x86_64_linux.bottle.1.tar.gz...
+./libcddb-1.3.2_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "abaa0030934d0a2c39abd2a4c68d34b4e21b5e16bbe953f9bd6b578c740b28fe" => :x86_64_linux
+    rebuild 1
+    sha256 "ad0f3b84f56bdae04519855e90de2b4ec35b481fc69f3f4ecc400b19cb62bdc8" => :x86_64_linux
   end
