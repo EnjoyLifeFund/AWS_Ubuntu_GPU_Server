@@ -1,25 +1,8 @@
-==> Installing dependencies for libxspf: uriparser
-==> Installing libxspf dependency: uriparser
-==> Downloading https://downloads.sourceforge.net/project/uriparser/Sources/0.8.4/uriparser-0.8.4.tar.bz2
-==> Downloading from https://ayera.dl.sourceforge.net/project/uriparser/Sources/0.8.4/uriparser-0.8.4.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/uriparser/0.8.4 --disable-doc
-==> make check
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/uriparser/0.8.4: 17 files, 1.1MB, built in 13 seconds
-==> Installing libxspf
-==> Downloading https://downloads.xiph.org/releases/xspf/libxspf-1.2.0.tar.bz2
-==> Downloading from https://ftp.osuosl.org/pub/xiph/releases/xspf/libxspf-1.2.0.tar.bz2
-==> Patching
-patching file examples/read/read.cpp
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxspf/1.2.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libxspf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxspf/1.2.0: 38 files, 5.0MB, built in 14 seconds
-==> Determining libxspf bottle rebuild...
-==> Bottling libxspf-1.2.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if libxspf-1.2.0.x86_64_linux.bottle.tar.gz is relocatable...
-./libxspf-1.2.0.x86_64_linux.bottle.tar.gz
+==> Determining libyaml bottle rebuild...
+==> Bottling libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz...
+./libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "1fbc3f232fd6080c336231f40d74f1a4079af0e8b12f9cc826e594a3ba59640d" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d87fd928f77a59bfcb29b9aa2ae2d04c35d0ac744ae929cba042e3a6eb774098" => :x86_64_linux
   end
