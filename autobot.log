@@ -1,16 +1,13 @@
-==> Downloading https://github.com/iron-io/ironcli/archive/0.1.6.tar.gz
-==> Downloading from https://codeload.github.com/iron-io/ironcli/tar.gz/0.1.6
-==> dep ensure
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/ironcli/0.1.6/bin/iron
+==> Downloading https://www.si6networks.com/tools/ipv6toolkit/ipv6toolkit-v2.0.tar.gz
+==> make
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/ipv6toolkit/2.0 PREFIX= MANPREFIX=/share
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ironcli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ironcli/0.1.6: 4 files, 8.4MB, built in 11 seconds
-==> Determining ironcli bottle rebuild...
-==> Bottling ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ipv6toolkit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipv6toolkit/2.0: 44 files, 3.3MB, built in 6 seconds
+==> Determining ipv6toolkit bottle rebuild...
+==> Bottling ipv6toolkit-2.0.x86_64_linux.bottle.tar.gz...
+./ipv6toolkit-2.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6d5ac9c4ba24eb10804b1f34888757955ec32c94f07403cdb417a6b55f1530f8" => :x86_64_linux
+    sha256 "c89c2c158d824c6266522245572fee5b3c79f3fd0cc9df24731284e3de4ecd09" => :x86_64_linux
   end
