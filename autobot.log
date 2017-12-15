@@ -1,13 +1,12 @@
-==> Downloading https://download.videolan.org/pub/libdvbpsi/1.3.1/libdvbpsi-1.3.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvbpsi/1.3.1 --enable-release
+==> Downloading https://download.videolan.org/pub/videolan/libdvdnav/5.0.3/libdvdnav-5.0.3.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdvdnav/5.0.3
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdvbpsi`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvbpsi/1.3.1: 90 files, 2.1MB, built in 12 seconds
-==> Determining libdvbpsi bottle rebuild...
-==> Bottling libdvbpsi-1.3.1.x86_64_linux.bottle.1.tar.gz...
-./libdvbpsi-1.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libdvdnav`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdvdnav/5.0.3: 20 files, 1MB, built in 8 seconds
+==> Determining libdvdnav bottle rebuild...
+==> Bottling libdvdnav-5.0.3.x86_64_linux.bottle.tar.gz...
+./libdvdnav-5.0.3.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "9f2a45559ca6f107ca33f824f08640014ac3625f314ef27777262a4733c615ca" => :x86_64_linux
+    sha256 "8a529ecbfe0b55b14857db3502317a8541ecf521e14e7251a22d7528a815735a" => :x86_64_linux
   end
