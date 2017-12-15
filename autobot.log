@@ -1,21 +1,20 @@
-==> Installing nauty from homebrew/science
-==> Downloading http://users.cecs.anu.edu.au/~bdm/nauty/nauty26r5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/nauty/26r5
-==> make all
-==> make checks
+==> Installing nccmp from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://downloads.sourceforge.net/project/nccmp/nccmp-1.8.2.1.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/nccmp/nccmp-1.8.2.1.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/nccmp/1.8.2.1
+==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nauty`
-==> Caveats
-User guide was saved locally to:
-  /home/linuxbrew/.linuxbrew/opt/nauty/share/doc/nauty/nug26.pdf
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nauty/26r5: 44 files, 7.3MB, built in 38 seconds
-==> Determining homebrew/science/nauty bottle rebuild...
-==> Bottling nauty-26r5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nauty-26r5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nauty-26r5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nccmp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nccmp/1.8.2.1: 9 files, 5.6MB, built in 1 minute 30 seconds
+==> Determining homebrew/science/nccmp bottle rebuild...
+==> Bottling nccmp-1.8.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nccmp-1.8.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nccmp-1.8.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "07fd36a1fea356470ac7ab0e7d0aa0a31e3eb66e10269acb6e4ec8d12fb61399" => :x86_64_linux
+    sha256 "2a644d84fb02c625ebcd0a197b9a1eab54cde5a7d93d12ea080b490d170fc62c" => :x86_64_linux
   end
