@@ -1,8 +1,23 @@
-==> Determining homebrew/science/ticcutils bottle rebuild...
-==> Bottling ticcutils-0.15.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ticcutils-0.15.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ticcutils-0.15.x86_64_linux.bottle.1.tar.gz
+==> Installing tisean from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://www.mpipks-dresden.mpg.de/~tisean/TISEAN_3.0.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/tisean/3.0.1_4
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/tisean`
+==> Caveats
+By default, all TISEAN binaries are prefixed with `tisean-`.
+For unprefixed binaries, use `--without-prefixed-binaries`.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tisean/3.0.1_4: 85 files, 2.8MB, built in 8 seconds
+==> Determining homebrew/science/tisean bottle rebuild...
+==> Bottling tisean-3.0.1_4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if tisean-3.0.1_4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./tisean-3.0.1_4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9a5076aad19b8e5941c36aeda375b1febaadb6b60d82d89a17357ba0a4759611" => :x86_64_linux
+    sha256 "9d055c70f2f91ead69d311488187c2b6872891ec088dfb2eb3db137d74b93c62" => :x86_64_linux
   end
