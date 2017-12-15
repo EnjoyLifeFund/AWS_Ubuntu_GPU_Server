@@ -1,16 +1,16 @@
-==> Installing setxkbmap from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/setxkbmap-1.3.1.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/setxkbmap-1.3.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/setxkbmap/1.3.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --with-xkb-config-root=/home/linuxbrew/.linuxbrew/opt/libx11/share/X11/xkb
+==> Installing smproxy from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/smproxy-1.0.6.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/smproxy-1.0.6.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/smproxy/1.0.6 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/setxkbmap`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/setxkbmap/1.3.1: 7 files, 133.7KB, built in 6 seconds
-==> Determining linuxbrew/xorg/setxkbmap bottle rebuild...
-==> Bottling setxkbmap-1.3.1.x86_64_linux.bottle.1.tar.gz...
-./setxkbmap-1.3.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/smproxy`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/smproxy/1.0.6: 7 files, 128KB, built in 7 seconds
+==> Determining linuxbrew/xorg/smproxy bottle rebuild...
+==> Bottling smproxy-1.0.6.x86_64_linux.bottle.1.tar.gz...
+./smproxy-1.0.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7284ee91d7e609904f1ef4aca843cc4b083f76330ca079c8030a7425ac4487c2" => :x86_64_linux
+    sha256 "7c28f29c409fd8d0051a80245bff25be6b69e2ae32174f0136c055da94f93565" => :x86_64_linux
   end
