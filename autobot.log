@@ -1,14 +1,22 @@
-==> Downloading https://mirror.httrack.com/historical/httrack-3.49.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/httrack/3.49.2
-==> make install
+==> Downloading https://github.com/gohugoio/hugo/archive/v0.31.1.tar.gz
+==> Downloading from https://codeload.github.com/gohugoio/hugo/tar.gz/v0.31.1
+==> dep ensure
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo main.go
+==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen autocomplete --completionfile=hugo.sh
+==> /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1/bin/hugo gen man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall httrack`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/httrack/3.49.2: 247 files, 11.8MB, built in 1 minute 3 seconds
-==> Determining httrack bottle rebuild...
-==> Bottling httrack-3.49.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if httrack-3.49.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./httrack-3.49.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hugo`
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hugo/0.31.1: 31 files, 36MB, built in 15 seconds
+==> Determining hugo bottle rebuild...
+==> Bottling hugo-0.31.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hugo-0.31.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hugo-0.31.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a428c79e5b021803c0b7e59dbae1041b3ef8bd2fe0780c8f4e9d0523306951f7" => :x86_64_linux
+    sha256 "6a93a6c71ee8530f11eaf9f383cd802371829ddb6be9a7b72b58d31a8b214c09" => :x86_64_linux
   end
