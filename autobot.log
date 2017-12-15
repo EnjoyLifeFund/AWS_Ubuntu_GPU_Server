@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/gtmess/gtmess/0.97/gtmess-0.97.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/gtmess/gtmess/0.97/gtmess-0.97.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gtmess/0.97_1 --with-ssl=/home/linuxbrew/.linuxbrew/opt/openssl
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gtmess`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gtmess/0.97_1: 20 files, 975.3KB, built in 13 seconds
-==> Determining gtmess bottle rebuild...
-==> Bottling gtmess-0.97_1.x86_64_linux.bottle.1.tar.gz...
-./gtmess-0.97_1.x86_64_linux.bottle.1.tar.gz
+==> Determining gts bottle rebuild...
+==> Bottling gts-0.7.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gts-0.7.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gts-0.7.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "13adc166d5a14939165a89a874891ea40d51a2f8dba9d73fa83452baf38ee0f5" => :x86_64_linux
+    sha256 "0b54554ddf92a070d18a71e548bade64e5b7eb929329801cf24602baa49a6834" => :x86_64_linux
   end
