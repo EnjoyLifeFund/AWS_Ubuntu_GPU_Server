@@ -1,21 +1,15 @@
-==> Installing quast from homebrew/science
-==> Installing dependencies for homebrew/science/quast: e-mem
-==> Installing homebrew/science/quast dependency: e-mem
-==> Downloading https://linuxbrew.bintray.com/bottles-science/e-mem-1.0.0.x86_64_linux.bottle.tar.gz
-==> Pouring e-mem-1.0.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/e-mem/1.0.0: 9 files, 147KB
-==> Installing homebrew/science/quast
-==> Downloading https://downloads.sourceforge.net/project/quast/quast-4.6.0.tar.gz
-==> Downloading from https://newcontinuum.dl.sourceforge.net/project/quast/quast-4.6.0.tar.gz
-==> /home/linuxbrew/.linuxbrew/Cellar/quast/4.6.0/bin/quast --test
+==> Installing quest from homebrew/science
+==> Downloading http://www-hsc.usc.edu/~valouev/QuEST/QuEST_2.4.tar.gz
+==> ./configure.pl
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/quast`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/quast/4.6.0: 2,455 files, 110.2MB, built in 48 seconds
-==> Determining homebrew/science/quast bottle rebuild...
-==> Bottling quast-4.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if quast-4.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./quast-4.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/quest`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/quest/2.4: 29 files, 1.9MB, built in 26 seconds
+==> Determining homebrew/science/quest bottle rebuild...
+==> Bottling quest-2.4.x86_64_linux.bottle.1.tar.gz...
+./quest-2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "15dc1ea4f39cf4d61d2ec575dd1df1ca112132078a8dc00d51bb05aeb4210716" => :x86_64_linux
+    sha256 "998844ae8c9a8812073ebbe71124d09674453b46729721699f761b7411d7ccb6" => :x86_64_linux
   end
