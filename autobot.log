@@ -1,15 +1,22 @@
-==> Installing flash from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/flashpage/FLASH-1.2.11.tar.gz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/flashpage/FLASH-1.2.11.tar.gz
+==> Installing flexbar from homebrew/science
+==> Installing dependencies for homebrew/science/flexbar: seqan
+==> Installing homebrew/science/flexbar dependency: seqan
+==> Downloading https://github.com/seqan/seqan/releases/download/seqan-v2.3.2/seqan-library-2.3.2.tar.xz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6383869/dbd6ee9e-f85c-11e6-8fe6-28959b86efb1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T053926Z&X-Amz-Expires=300&X-Amz-Signature=61a1b0cfa58cdc3e27510d8ec587376b2fc6836b6a033cb61c6f56251a232737&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dseqan-library-2.3.2.tar.xz&response-content-type=application%2Foctet-stream
+🍺  /home/linuxbrew/.linuxbrew/Cellar/seqan/2.3.2: 1,830 files, 34.8MB, built in 6 seconds
+==> Installing homebrew/science/flexbar
+==> Downloading https://github.com/seqan/flexbar/archive/v3.0.3.tar.gz
+==> Downloading from https://codeload.github.com/seqan/flexbar/tar.gz/v3.0.3
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/flexbar/3.0.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/flash`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flash/1.2.11: 6 files, 142.4KB, built in 2 seconds
-==> Determining homebrew/science/flash bottle rebuild...
-==> Bottling flash-1.2.11.x86_64_linux.bottle.1.tar.gz...
-./flash-1.2.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/flexbar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flexbar/3.0.3: 30 files, 6.9MB, built in 45 seconds
+==> Determining homebrew/science/flexbar bottle rebuild...
+==> Bottling flexbar-3.0.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if flexbar-3.0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./flexbar-3.0.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "53049632a750e7dc0db4054e11c1b28b105a5b83ccf23d9678cb7783d3de3788" => :x86_64_linux
+    sha256 "9ded68d109058d3e6eff4152bc19d23d16828bd275f2f0fa98d044d414af4af3" => :x86_64_linux
   end
