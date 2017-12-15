@@ -1,31 +1,16 @@
-==> Downloading https://github.com/iron-io/functions/archive/0.2.69.tar.gz
-==> Downloading from https://codeload.github.com/iron-io/functions/tar.gz/0.2.69
-==> make dep
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/iron-functions/0.2.69/bin/fn
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/fn
-Target /home/linuxbrew/.linuxbrew/bin/fn
-is a symlink belonging to fn. You can unlink it:
-  brew unlink fn
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite iron-functions
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run iron-functions
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/fn -> /home/linuxbrew/.linuxbrew/Cellar/fn/0.4.28/bin/fn
+==> Downloading https://github.com/iron-io/ironcli/archive/0.1.6.tar.gz
+==> Downloading from https://codeload.github.com/iron-io/ironcli/tar.gz/0.1.6
+==> dep ensure
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/ironcli/0.1.6/bin/iron
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall iron-functions`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/iron-functions/0.2.69: 4 files, 14.9MB, built in 17 seconds
-==> Determining iron-functions bottle rebuild...
-==> Bottling iron-functions-0.2.69.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if iron-functions-0.2.69.x86_64_linux.bottle.1.tar.gz is relocatable...
-./iron-functions-0.2.69.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ironcli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ironcli/0.1.6: 4 files, 8.4MB, built in 11 seconds
+==> Determining ironcli bottle rebuild...
+==> Bottling ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ironcli-0.1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "f015c0e120ec017790cb604961fe25087c87f3055a3457c59ec9cb27c65ffe98" => :x86_64_linux
+    sha256 "6d5ac9c4ba24eb10804b1f34888757955ec32c94f07403cdb417a6b55f1530f8" => :x86_64_linux
   end
