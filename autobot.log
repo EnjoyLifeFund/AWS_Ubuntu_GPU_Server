@@ -1,15 +1,14 @@
-==> Downloading https://ftp.isc.org/isc/libbind/6.0/libbind-6.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbind/6.0
-==> make
+==> Downloading https://downloads.sourceforge.net/project/libbinio/libbinio/1.4/libbinio-1.4.tar.bz2
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/libbinio/libbinio/1.4/libbinio-1.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbinio/1.4
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libbind`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbind/6.0: 55 files, 2.6MB, built in 18 seconds
-==> Determining libbind bottle rebuild...
-==> Bottling libbind-6.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if libbind-6.0.x86_64_linux.bottle.tar.gz is relocatable...
-./libbind-6.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libbinio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libbinio/1.4: 21 files, 758.9KB, built in 10 seconds
+==> Determining libbinio bottle rebuild...
+==> Bottling libbinio-1.4.x86_64_linux.bottle.1.tar.gz...
+./libbinio-1.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "c33f1b9ada0b89a2c3bdef34ca90f704e35de059520d01072907aecd6fad2294" => :x86_64_linux
+    rebuild 1
+    sha256 "f0539f485c76dda065194402a66e811f8f23308bcadc2387ca52689bb79f1c58" => :x86_64_linux
   end
