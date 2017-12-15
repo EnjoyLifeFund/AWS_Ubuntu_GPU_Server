@@ -1,14 +1,17 @@
-==> Installing atpdec from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/atpdec/atpdec%20sources/1.7/atpdec-1.7.tar.gz
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/atpdec/atpdec%20sources/1.7/atpdec-1.7.tar.gz
+==> Installing cuba from homebrew/science
+==> Downloading http://www.feynarts.de/cuba/Cuba-4.1.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cuba/4.1 --datadir=/home/linuxbrew/.linuxbrew/Cellar/cuba/4.1/share/cuba/doc
 ==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/atpdec`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/atpdec/1.7: 6 files, 66.3KB, built in 1 second
-==> Determining homebrew/science/atpdec bottle rebuild...
-==> Bottling atpdec-1.7.x86_64_linux.bottle.tar.gz...
-./atpdec-1.7.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/cuba`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cuba/4.1: 13 files, 1.5MB, built in 56 seconds
+==> Determining homebrew/science/cuba bottle rebuild...
+==> Bottling cuba-4.1.x86_64_linux.bottle.1.tar.gz...
+./cuba-4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "381cfb85bfc9126ac61bfc19865d545a709a378603505d7eb38b73bd6e088cef" => :x86_64_linux
+    rebuild 1
+    sha256 "7e866216fe06c9e676404de7126726a1fba28978162f02a473ace1e707d2510f" => :x86_64_linux
   end
