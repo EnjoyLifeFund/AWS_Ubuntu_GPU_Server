@@ -1,13 +1,7 @@
-==> Downloading http://tildeslash.com/libzdb/dist/libzdb-3.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libzdb/3.1_3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libzdb`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libzdb/3.1_3: 19 files, 1.1MB, built in 10 seconds
-==> Determining libzdb bottle rebuild...
-==> Bottling libzdb-3.1_3.x86_64_linux.bottle.1.tar.gz...
-./libzdb-3.1_3.x86_64_linux.bottle.1.tar.gz
+==> Determining libzip bottle rebuild...
+==> Bottling libzip-1.3.0.x86_64_linux.bottle.1.tar.gz...
+./libzip-1.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8ee6dfe8dcd3903c7742a8514d07996855405506786cfbe54cf3b633c128367b" => :x86_64_linux
+    sha256 "b197f324666eee13444a05c317489ecbcfe5a1ae546f3da9dde43e8d8da7faa2" => :x86_64_linux
   end
