@@ -1,13 +1,14 @@
-==> Downloading https://www.csie.ntu.edu.tw/~cjlin/libsvm/libsvm-3.22.tar.gz
-==> make CFLAGS= -fPIC
-==> make lib
+==> Cloning http://repo.or.cz/libtar.git
+==> Checking out tag v1.2.20
+==> autoreconf --force --install
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20 --mandir=/home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libsvm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libsvm/3.22: 10 files, 355.7KB, built in 4 seconds
-==> Determining libsvm bottle rebuild...
-==> Bottling libsvm-3.22.x86_64_linux.bottle.1.tar.gz...
-./libsvm-3.22.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libtar`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtar/1.2.20: 87 files, 432.7KB, built in 22 seconds
+==> Determining libtar bottle rebuild...
+==> Bottling libtar-1.2.20.x86_64_linux.bottle.tar.gz...
+./libtar-1.2.20.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "eaf263bca2904108eff839a584412aa5f747d467c620c02fe59fee213eb7bca3" => :x86_64_linux
+    sha256 "e195137c642afd15c97e006013d5553b54a6de3f8fd9e90d7ab162fefa89f86e" => :x86_64_linux
   end
