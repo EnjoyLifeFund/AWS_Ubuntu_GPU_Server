@@ -1,13 +1,21 @@
-==> Downloading https://downloads.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libiptcdata/1.0.4
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/libkate/libkate-0.4.1.tar.gz
+==> ./configure --enable-shared --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/libkate/0.4.1_1
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libiptcdata`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libiptcdata/1.0.4: 49 files, 625.8KB, built in 9 seconds
-==> Determining libiptcdata bottle rebuild...
-==> Bottling libiptcdata-1.0.4.x86_64_linux.bottle.tar.gz...
-./libiptcdata-1.0.4.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libkate`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libkate/0.4.1_1: 208 files, 3.6MB, built in 17 seconds
+==> Determining libkate bottle rebuild...
+==> Bottling libkate-0.4.1_1.x86_64_linux.bottle.tar.gz...
+./libkate-0.4.1_1.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "dca197c853469c4bcae44838be32b2dba0b1bf1aecaa7d4bf7e0102c6ebe48c4" => :x86_64_linux
+    sha256 "89404830717700b0f0f2245b7f11fa23032146bd2594069ba7308c406544277e" => :x86_64_linux
   end
