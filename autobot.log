@@ -1,14 +1,15 @@
-==> Installing libbigwig from homebrew/science
-==> Downloading https://github.com/dpryan79/libBigWig/archive/0.4.1.tar.gz
-==> Downloading from https://codeload.github.com/dpryan79/libBigWig/tar.gz/0.4.1
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/libbigwig/0.4.1 INCLUDES=-I/home/linuxbrew/.linuxbrew/opt/curl/include LDLIBS=-L/home/linuxbrew/.linuxbrew/opt/curl/lib
+==> Installing libbuddy from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/buddy/buddy/BuDDy%202.4/buddy-2.4.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/buddy/buddy/BuDDy%202.4/buddy-2.4.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libbuddy/2.4
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/libbigwig`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libbigwig/0.4.1: 10 files, 561.6KB, built in 1 second
-==> Determining homebrew/science/libbigwig bottle rebuild...
-==> Bottling libbigwig-0.4.1.x86_64_linux.bottle.1.tar.gz...
-./libbigwig-0.4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/libbuddy`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libbuddy/2.4: 14 files, 954.0KB, built in 9 seconds
+==> Determining homebrew/science/libbuddy bottle rebuild...
+==> Bottling libbuddy-2.4.x86_64_linux.bottle.1.tar.gz...
+./libbuddy-2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "89eb9b7b57b5a4ad8d2820b1177fcf61c4fd4a9f1fc027746ebb6ccd343e4639" => :x86_64_linux
+    sha256 "76561592b90204b549422ed7a5ecbb62dd7dbb793d2fa9445c3419043da67c98" => :x86_64_linux
   end
