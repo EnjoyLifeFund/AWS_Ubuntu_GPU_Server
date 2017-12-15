@@ -1,16 +1,21 @@
-==> Installing links-scaffolder from homebrew/science
-==> Downloading http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.8.4/links_v1-8-4.tar.gz
-==> swig -Wall -c++ -perl5 BloomFilter.i
-==> g++-6 -c -fPIC -I/home/linuxbrew/.linuxbrew/opt/perl/lib/perl5/5.26.1/x86_64-linux-thread-multi/CORE BloomFilter_wrap.cxx
-==> g++-6 -shared -o BloomFilter.so BloomFilter_wrap.o -L/home/linuxbrew/.linuxbrew/opt/perl/lib/perl5/5.26.1/x86_64-linux-thread-multi/CORE -lperl
+==> Installing littler from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading http://dirk.eddelbuettel.com/code/littler/littler-0.2.3.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/littler/0.2.3_14
+==> make littler.h
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/links-scaffolder`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/links-scaffolder/1.8.4: 28 files, 759.5KB, built in 4 seconds
-==> Determining homebrew/science/links-scaffolder bottle rebuild...
-==> Bottling links-scaffolder-1.8.4.x86_64_linux.bottle.1.tar.gz...
-./links-scaffolder-1.8.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/littler`
+==> Caveats
+This formula installs `r` as `littler` to avoid conflicting
+with the Zsh builtin and case-insensitive filesystems.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/littler/0.2.3_14: 8 files, 135.5KB, built in 13 seconds
+==> Determining homebrew/science/littler bottle rebuild...
+==> Bottling littler-0.2.3_14.x86_64_linux.bottle.1.tar.gz...
+./littler-0.2.3_14.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8f0309d40f6dce81dea1e02826685c508d0fb02530fe198471e4e938e777bdbd" => :x86_64_linux
+    sha256 "9460fb7c6daf0482bf0fd4353909c270a47b9f9808f955e50760c8c93ae6b81f" => :x86_64_linux
   end
