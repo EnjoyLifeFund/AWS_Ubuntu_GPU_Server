@@ -1,15 +1,17 @@
-==> Installing dazz_db from homebrew/science
-==> Downloading https://github.com/thegenemyers/DAZZ_DB/archive/V1.0.tar.gz
-==> Downloading from https://codeload.github.com/thegenemyers/DAZZ_DB/tar.gz/V1.0
-==> make
+==> Installing delly from homebrew/science
+==> Downloading https://github.com/tobiasrausch/delly/archive/v0.7.7.tar.gz
+==> Downloading from https://github.com/dellytools/delly/archive/v0.7.7.tar.gz
+==> make SEQTK_ROOT=/home/linuxbrew/.linuxbrew/opt/htslib BOOST_ROOT=/home/linuxbrew/.linuxbrew/opt/boost src/delly
+==> Downloading https://github.com/tobiasrausch/delly/archive/v0.6.5.tar.gz
+==> Downloading from https://github.com/dellytools/delly/archive/v0.6.5.tar.gz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/dazz_db`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dazz_db/1.0: 16 files, 847.3KB, built in 2 seconds
-==> Determining homebrew/science/dazz_db bottle rebuild...
-==> Bottling dazz_db-1.0.x86_64_linux.bottle.1.tar.gz...
-./dazz_db-1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/delly`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/delly/0.7.7_3: 11 files, 37.2MB, built in 43 seconds
+==> Determining homebrew/science/delly bottle rebuild...
+==> Bottling delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "827698893ff09b4c05a947ce32b9ceb4abed772a398bfa31fd0bbef6f506e915" => :x86_64_linux
+    sha256 "92eb4965687e84091d4ec542d6ae5451c3b47a8afaa09a4d39f250ee9079f084" => :x86_64_linux
   end
