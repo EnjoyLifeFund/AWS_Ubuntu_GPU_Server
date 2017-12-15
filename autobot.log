@@ -1,19 +1,17 @@
-==> Installing kat from homebrew/science
+==> Installing kmerstream from homebrew/science
 ==> Using Homebrew-provided fortran compiler.
 This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/TGAC/KAT/releases/download/Release-2.3.4/kat-2.3.4.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/13294309/5c4c06f2-362b-11e7-8f95-e32a05b60380?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T084617Z&X-Amz-Expires=300&X-Amz-Signature=edd925be6ecbba612ff7c76d0ace63081769978aa0b74b2475e59a76cd577b4a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dkat-2.3.4.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/kat/2.3.4_1 --with-boost=/home/linuxbrew/.linuxbrew/opt/boost
+==> Downloading https://github.com/pmelsted/KmerStream/archive/v1.1.tar.gz
+==> Downloading from https://codeload.github.com/pmelsted/KmerStream/tar.gz/v1.1
 ==> make
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/kat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kat/2.3.4_1: 85 files, 42.3MB, built in 1 minute 1 second
-==> Determining homebrew/science/kat bottle rebuild...
-==> Bottling kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kat-2.3.4_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/kmerstream`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kmerstream/1.1_1: 6 files, 263.8KB, built in 7 seconds
+==> Determining homebrew/science/kmerstream bottle rebuild...
+==> Bottling kmerstream-1.1_1.x86_64_linux.bottle.1.tar.gz...
+./kmerstream-1.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "23e05d45449d6df9c72984b349e38d743c89505d0afa22d9071a72f538a839b9" => :x86_64_linux
+    sha256 "13db87fa9a4e123ad468c00b16e1b0dfc9c6ce37981d162912072ee6e5c0b06b" => :x86_64_linux
   end
