@@ -1,8 +1,22 @@
-==> Downloading https://github.com/MarkBorcherding/test-kitchen-bash-completion/archive/v1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/MarkBorcherding/test-kitchen-bash-completion/tar.gz/v1.0.0
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kitchen-completion/1.0.0: 4 files, 19.3KB, built in 0 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for kitchen-sync: yaml-cpp
+==> Installing kitchen-sync dependency: yaml-cpp
+==> Downloading https://github.com/jbeder/yaml-cpp/archive/release-0.5.3.tar.gz
+==> Downloading from https://codeload.github.com/jbeder/yaml-cpp/tar.gz/release-0.5.3
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/yaml-cpp/0.5.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=ON
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/yaml-cpp/0.5.3: 45 files, 690KB, built in 42 seconds
+==> Installing kitchen-sync
+==> Downloading https://github.com/willbryant/kitchen_sync/archive/0.99.1.tar.gz
+==> Downloading from https://codeload.github.com/willbryant/kitchen_sync/tar.gz/0.99.1
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/kitchen-sync/0.99.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall kitchen-sync`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kitchen-sync/0.99.1: 6 files, 3.4MB, built in 9 seconds
+==> Determining kitchen-sync bottle rebuild...
+==> Bottling kitchen-sync-0.99.1.x86_64_linux.bottle.1.tar.gz...
+./kitchen-sync-0.99.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "283c0e9b511995fa63333dbdf0159cfd736afb4f673fde32e7aa44bc589dd065" => :x86_64_linux
+  end
