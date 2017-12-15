@@ -1,15 +1,14 @@
-==> Downloading https://download.gnome.org/sources/gstreamermm/1.10/gstreamermm-1.10.0.tar.xz
-==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/gstreamermm/1.10/gstreamermm-1.10.0.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gstreamermm/1.10.0
-==> make install
+==> Downloading https://github.com/rwos/gti/archive/v1.6.1.tar.gz
+==> Downloading from https://codeload.github.com/rwos/gti/tar.gz/v1.6.1
+==> make CC=gcc-6 CFLAGS=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gstreamermm`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gstreamermm/1.10.0: 968 files, 39.7MB, built in 54 seconds
-==> Determining gstreamermm bottle rebuild...
-==> Bottling gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gstreamermm-1.10.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gti`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gti/1.6.1: 5 files, 37.7KB, built in 1 second
+==> Determining gti bottle rebuild...
+==> Bottling gti-1.6.1.x86_64_linux.bottle.1.tar.gz...
+./gti-1.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bbfb42eb2aa8c53337ca5f0520c37550ca819304cb4d4ed920bc673e2ab84bb5" => :x86_64_linux
+    sha256 "9d67a63c8aecdccd10f9bdde208456c1e54c27dc88a6296472b5383c5931cd1d" => :x86_64_linux
   end
