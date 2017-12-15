@@ -1,14 +1,5 @@
-==> Installing fasta from homebrew/science
-==> Downloading http://faculty.virginia.edu/wrpearson/fasta/fasta36/fasta-36.3.7.tar.gz
-==> make -f ../make/Makefile.linux64_sse2
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fasta`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fasta/36.3.7: 52 files, 16.5MB, built in 7 seconds
-==> Determining homebrew/science/fasta bottle rebuild...
-==> Bottling fasta-36.3.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fasta-36.3.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fasta-36.3.7.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "50dbe2e6739e3a20dc20ba1f7c4fb97c5b51fbacd81025571e3e5489808aa89d" => :x86_64_linux
-  end
+==> Installing varscan from homebrew/science
+==> Downloading https://github.com/dkoboldt/varscan/raw/master/VarScan.v2.4.3.jar
+==> Downloading from https://raw.githubusercontent.com/dkoboldt/varscan/master/VarScan.v2.4.3.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/varscan/2.4.3: 4 files, 134KB, built in 0 seconds
+This formula doesn't require compiling.
