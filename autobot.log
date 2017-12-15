@@ -1,12 +1,15 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
-==> Best Mirror http://mirror.reverse.net/pub/apache/hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
-Trying a mirror...
-==> Downloading https://archive.apache.org/dist/hive/hive-2.3.1/apache-hive-2.3.1-bin.tar.gz
-==> Caveats
-Hadoop must be in your path for hive executable to work.
-
-If you want to use HCatalog with Pig, set $HCAT_HOME in your profile:
-  export HCAT_HOME=/home/linuxbrew/.linuxbrew/opt/hive/libexec/hcatalog
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hive/2.3.1: 1,071 files, 182.7MB, built in 31 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/DarthSim/hivemind/archive/v1.0.4.tar.gz
+==> Downloading from https://codeload.github.com/DarthSim/hivemind/tar.gz/v1.0.4
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/hivemind/1.0.4/bin/hivemind -v github.com/DarthSim/hivemind/
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall hivemind`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hivemind/1.0.4: 3 files, 3.8MB, built in 1 second
+==> Determining hivemind bottle rebuild...
+==> Bottling hivemind-1.0.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hivemind-1.0.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hivemind-1.0.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "996995a9a600a577c77cbd279cab7629e3238e9d80f1bf9ca1691b5d2708502e" => :x86_64_linux
+  end
