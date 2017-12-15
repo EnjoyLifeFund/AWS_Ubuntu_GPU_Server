@@ -1,22 +1,14 @@
-==> Installing unicycler from homebrew/science
-==> Installing dependencies for homebrew/science/unicycler: spades
-==> Installing homebrew/science/unicycler dependency: spades
-==> Downloading https://linuxbrew.bintray.com/bottles-science/spades-3.11.0.x86_64_linux.bottle.tar.gz
-==> Pouring spades-3.11.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/spades/3.11.0: 144 files, 22.0MB
-==> Installing homebrew/science/unicycler
-==> Downloading https://github.com/rrwick/Unicycler/archive/v0.4.3.tar.gz
-==> Downloading from https://codeload.github.com/rrwick/Unicycler/tar.gz/v0.4.3
-==> python3 setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/unicycler/0.4.3
+==> Installing uniqtag from homebrew/science
+==> Downloading https://github.com/sjackman/uniqtag/archive/1.0.tar.gz
+==> Downloading from https://codeload.github.com/sjackman/uniqtag/tar.gz/1.0
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/uniqtag/1.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/unicycler`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/unicycler/0.4.3: 78 files, 4MB, built in 25 seconds
-==> Determining homebrew/science/unicycler bottle rebuild...
-==> Bottling unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./unicycler-0.4.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/uniqtag`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/uniqtag/1.0: 4 files, 27.8KB, built in 0 seconds
+==> Determining homebrew/science/uniqtag bottle rebuild...
+==> Bottling uniqtag-1.0.x86_64_linux.bottle.tar.gz...
+./uniqtag-1.0.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "c8e06fa37b008077e7fc19b7680c65e921f16df95bcd226f5f3c400c67010026" => :x86_64_linux
+    sha256 "04e9b41e0e72f3e1d939ada73707a6e80d8c001f691bd373a6a63ae3f9d47316" => :x86_64_linux
   end
