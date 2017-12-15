@@ -1,21 +1,3 @@
-==> Downloading https://github.com/prydonius/karn/archive/v0.0.3.tar.gz
-==> Downloading from https://codeload.github.com/prydonius/karn/tar.gz/v0.0.3
-==> Cloning https://github.com/codegangsta/cli.git
-==> Checking out revision f47f7b7e8568e846e9614acd5738092c3acf7058
-==> Cloning https://github.com/mitchellh/go-homedir.git
-==> Checking out revision 7d2d8c8a4e078ce3c58736ab521a40b37a504c52
-==> Cloning https://gopkg.in/yaml.v2
-==> Checking out revision 49c95bdc21843256fb6c4e0d370a05f24a0bf213
-==> go build cmd/karn/karn.go
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall karn`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/karn/0.0.3: 5 files, 3.8MB, built in 2 seconds
-==> Determining karn bottle rebuild...
-==> Bottling karn-0.0.3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if karn-0.0.3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./karn-0.0.3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "fd80b54bbd7fef982ba7ebaa4a816af582f393f1413d22cf1763e47780e863e0" => :x86_64_linux
-  end
+==> Downloading https://ftp.gnu.org/gnu/kawa/kawa-3.0.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kawa/3.0: 11 files, 4.9MB, built in 2 seconds
+This formula doesn't require compiling.
