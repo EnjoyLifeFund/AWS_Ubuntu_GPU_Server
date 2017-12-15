@@ -1,16 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/iodbc/iodbc/3.52.12/libiodbc-3.52.12.tar.gz
-==> Downloading from https://versaweb.dl.sourceforge.net/project/iodbc/iodbc/3.52.12/libiodbc-3.52.12.tar.gz
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libiodbc/3.52.12
+==> Downloading https://downloads.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libiptcdata/1.0.4
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libiodbc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libiodbc/3.52.12: 39 files, 7.7MB, built in 20 seconds
-==> Determining libiodbc bottle rebuild...
-==> Bottling libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libiodbc-3.52.12.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libiptcdata`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libiptcdata/1.0.4: 49 files, 625.8KB, built in 9 seconds
+==> Determining libiptcdata bottle rebuild...
+==> Bottling libiptcdata-1.0.4.x86_64_linux.bottle.tar.gz...
+./libiptcdata-1.0.4.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "c96fc57ec3a5f0087a6f3658b49cbb62cd62211195b1d65b24e6010c3fb69dbc" => :x86_64_linux
+    sha256 "dca197c853469c4bcae44838be32b2dba0b1bf1aecaa7d4bf7e0102c6ebe48c4" => :x86_64_linux
   end
