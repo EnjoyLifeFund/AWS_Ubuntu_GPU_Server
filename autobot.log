@@ -1,18 +1,24 @@
-==> Downloading https://github.com/Keats/gutenberg/archive/v0.2.2.tar.gz
-==> Downloading from https://codeload.github.com/Keats/gutenberg/tar.gz/v0.2.2
-==> cargo build --release
+==> Installing dependencies for gv: ghostscript
+==> Installing gv dependency: ghostscript
+==> Downloading https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs922/ghostscript-9.22.tar.xz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/50461376/53950f9c-a915-11e7-92a5-640d860db95d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T004952Z&X-Amz-Expires=300&X-Amz-Signature=b43a96e6d5f42437b33cc40d0475eb40174c670cf789f685611548fb04ab8a98&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dghostscript-9.22.tar.xz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ghostscript/9.22 --disable-cups --disable-compile-inits --disable-gtk --disable-fontconfig --without-libidn
+==> make install
+==> make install-so
+==> Downloading https://downloads.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ghostscript/9.22: 694 files, 68.9MB, built in 1 minute 57 seconds
+==> Installing gv
+==> Downloading https://ftp.gnu.org/gnu/gv/gv-3.7.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gv/3.7.4 --enable-SIGCHLD-fallback
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gutenberg`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gutenberg/0.2.2: 9 files, 16.9MB, built in 6 minutes 30 seconds
-==> Determining gutenberg bottle rebuild...
-==> Bottling gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gutenberg-0.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gv/3.7.4: 14 files, 1.9MB, built in 37 seconds
+==> Determining gv bottle rebuild...
+==> Bottling gv-3.7.4.x86_64_linux.bottle.1.tar.gz...
+./gv-3.7.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "943c7c8ddbe696ee30201f25d206e187377c7c64ae0899fdabaf7a92f14cfb8a" => :x86_64_linux
+    sha256 "c5689179c73f1caff3a9ce55ea93187221db8a3e59b2b7a112d58b7ea051c0b8" => :x86_64_linux
   end
