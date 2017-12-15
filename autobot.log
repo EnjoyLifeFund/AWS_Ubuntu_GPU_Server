@@ -1,18 +1,8 @@
-==> Installing luit from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/luit-1.1.1.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/luit-1.1.1.tar.bz2
-==> Patching
-patching file sys.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/luit/1.1.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --with-localealiasfile=/home/linuxbrew/.linuxbrew/opt/libx11/share/X11/locale/locale.alias
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/luit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/luit/1.1.1: 7 files, 197.7KB, built in 8 seconds
-==> Determining linuxbrew/xorg/luit bottle rebuild...
-==> Bottling luit-1.1.1.x86_64_linux.bottle.1.tar.gz...
-./luit-1.1.1.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/mesa bottle rebuild...
+==> Bottling mesa-17.2.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mesa-17.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mesa-17.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0eff069151468ec09a518c077dfa8e825541c821353817f399f274fd96e4785a" => :x86_64_linux
+    sha256 "8b5a5d5fe978e1229dbff620f6cdd52edb7576e9b1763b095e7dca25eb459cce" => :x86_64_linux
   end
