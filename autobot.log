@@ -1,15 +1,30 @@
-==> Downloading https://github.com/LASzip/LASzip/releases/download/3.1.1/laszip-src-3.1.1.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2236116/7e3ddf2a-adc6-11e7-887c-60782a1185f4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T201838Z&X-Amz-Expires=300&X-Amz-Signature=92b718d84da67aa7996dddab8440bce8083bc1fb277e07e0b2dce4f54a17194f&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlaszip-src-3.1.1.tar.gz&response-content-type=application%2Foctet-stream
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/laszip/3.1.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://github.com/LASzip/LASzip/archive/v2.2.0.tar.gz
+==> Downloading from https://codeload.github.com/LASzip/LASzip/tar.gz/v2.2.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/laszip@2/2.2.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink lib/liblaszip.so
+Target /home/linuxbrew/.linuxbrew/lib/liblaszip.so
+is a symlink belonging to laszip. You can unlink it:
+  brew unlink laszip
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite laszip@2
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run laszip@2
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/lib/liblaszip.so -> /home/linuxbrew/.linuxbrew/Cellar/laszip/3.1.1/lib/liblaszip.so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall laszip`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/laszip/3.1.1: 23 files, 1MB, built in 4 seconds
-==> Determining laszip bottle rebuild...
-==> Bottling laszip-3.1.1.x86_64_linux.bottle.1.tar.gz...
-./laszip-3.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall laszip@2`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/laszip@2/2.2.0: 15 files, 394.5KB, built in 3 seconds
+==> Determining laszip@2 bottle rebuild...
+==> Bottling laszip@2-2.2.0.x86_64_linux.bottle.1.tar.gz...
+./laszip@2-2.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "938f8524dacba6969e8b5049b2506d32b2ca09d0987e1fea714f9eec3a595d42" => :x86_64_linux
+    sha256 "aacb3ef4faafa5aba60a34d03372c8ad576606d0336d674825129ad4946479a7" => :x86_64_linux
   end
