@@ -1,12 +1,14 @@
-==> Downloading https://liblqr.wdfiles.com/local--files/en:download-page/liblqr-1-0.4.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/liblqr/0.4.2
+==> Downloading https://github.com/x42/libltc/releases/download/v1.3.0/libltc-1.3.0.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5425807/3c932412-c8cb-11e6-8525-f1cea7ffdd71?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T215422Z&X-Amz-Expires=300&X-Amz-Signature=353cb3009cc582e83399c18b204a8634a78dc3243f1e5e1a2d563cf97912b0bf&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibltc-1.3.0.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libltc/1.3.0
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liblqr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liblqr/0.4.2: 25 files, 374.3KB, built in 9 seconds
-==> Determining liblqr bottle rebuild...
-==> Bottling liblqr-0.4.2.x86_64_linux.bottle.tar.gz...
-./liblqr-0.4.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libltc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libltc/1.3.0: 13 files, 247.5KB, built in 6 seconds
+==> Determining libltc bottle rebuild...
+==> Bottling libltc-1.3.0.x86_64_linux.bottle.1.tar.gz...
+./libltc-1.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "d9b045baa91a34c68896d46018a89b6c3fa103b7b2a1f81b77749bdba1b32b1c" => :x86_64_linux
+    rebuild 1
+    sha256 "fd3811c6ec65ac8fba7e93acef98d415bd96ee8d53bbadee852c61f85eb68488" => :x86_64_linux
   end
