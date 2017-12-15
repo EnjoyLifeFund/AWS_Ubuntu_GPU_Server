@@ -1,15 +1,48 @@
-==> Downloading https://github.com/royhills/ike-scan/releases/download/1.9/ike-scan-1.9.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/12139441/20dc4328-560c-11e3-80e4-b338429e97cf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T181838Z&X-Amz-Expires=300&X-Amz-Signature=92482f799ba007ec3ff7b8aa2c5bb807142103092a01f63a9bc4080d4af04c30&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dike-scan-1.9.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1 --mandir=/home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1/share/man --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
+==> Installing stacks from homebrew/science
+==> Installing dependencies for homebrew/science/stacks: google-sparsehash
+==> Installing homebrew/science/stacks dependency: google-sparsehash
+==> Downloading https://github.com/sparsehash/sparsehash/archive/sparsehash-2.0.3.tar.gz
+==> Downloading from https://codeload.github.com/sparsehash/sparsehash/tar.gz/sparsehash-2.0.3
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3
+==> make check
 ==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/google-sparsehash/2.0.3: 49 files, 653.0KB, built in 1 minute 26 seconds
+==> Installing homebrew/science/stacks
+==> Downloading http://catchenlab.life.illinois.edu/stacks/source/stacks-1.46.tar.gz
+==> Patching
+patching file src/DNANSeq.h
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/stacks/1.46 --enable-sparsehash  --disable-openmp
+==> make
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/populations
+Target /home/linuxbrew/.linuxbrew/bin/populations
+is a symlink belonging to populations. You can unlink it:
+  brew unlink populations
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite stacks
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run stacks
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/populations -> /home/linuxbrew/.linuxbrew/Cellar/populations/1.2.33-2_1/bin/populations
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ike-scan`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ike-scan/1.9_1: 15 files, 4.5MB, built in 9 seconds
-==> Determining ike-scan bottle rebuild...
-==> Bottling ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ike-scan-1.9_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/stacks`
+==> Caveats
+For instructions on setting up the web interface:
+    /home/linuxbrew/.linuxbrew/opt/stacks/README
+
+The PHP and MySQL scripts have been installed to:
+    /home/linuxbrew/.linuxbrew/opt/stacks/share
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/stacks/1.46: 76 files, 102.4MB, built in 1 minute
+==> Determining homebrew/science/stacks bottle rebuild...
+==> Bottling stacks-1.46.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if stacks-1.46.x86_64_linux.bottle.1.tar.gz is relocatable...
+./stacks-1.46.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7a9a5e35566d63f186429febe2ffe6062dc35bd190acc3760568e9a7a678ac6e" => :x86_64_linux
+    sha256 "c25a777ede1d12d56ec00f029ade3543cc235cf75de9e3d22d6cf810a95d2b91" => :x86_64_linux
   end
