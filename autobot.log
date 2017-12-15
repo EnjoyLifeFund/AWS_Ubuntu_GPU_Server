@@ -1,20 +1,13 @@
-==> Installing rnammer from homebrew/science
-==> Downloading http://bioinformatics.se/resources_2/rnammer-1.2.src.tar.Z
-==> Patching
-patching file rnammer
+==> Installing ropebwt from homebrew/science
+==> Downloading https://github.com/lh3/ropebwt/archive/216c9f7.tar.gz
+==> Downloading from https://codeload.github.com/lh3/ropebwt/tar.gz/216c9f7460681dc156a3c676ff7b373cf72a1801
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/rnammer`
-==> Caveats
-For academic users there is no license fee. For the complete license see
-  /home/linuxbrew/.linuxbrew/opt/rnammer/LICENSE
-There is also a web service at
-  https://www.cbs.dtu.dk/services/RNAmmer/
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/rnammer/1.2: 33 files, 2.2MB, built in 3 seconds
-==> Determining homebrew/science/rnammer bottle rebuild...
-==> Bottling rnammer-1.2.x86_64_linux.bottle.tar.gz...
-./rnammer-1.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/ropebwt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ropebwt/20130801: 5 files, 364.7KB, built in 1 second
+==> Determining homebrew/science/ropebwt bottle rebuild...
+==> Bottling ropebwt-20130801.x86_64_linux.bottle.tar.gz...
+./ropebwt-20130801.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "978e7e086307c13cfa2d7a58c97e687e7f74b73dc92a94d9155551be3d660568" => :x86_64_linux
+    sha256 "262432334601e6946f4c5b58c4e0aed6ca9a526a92fe07adcee4352d900d19ab" => :x86_64_linux
   end
