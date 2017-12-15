@@ -1,19 +1,14 @@
-==> Installing fplll from homebrew/science
-==> Downloading https://github.com/fplll/fplll/releases/download/5.2.0/fplll-5.2.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/24889750/a648477a-970b-11e7-8efd-c32a82fbf90b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T054255Z&X-Amz-Expires=300&X-Amz-Signature=59b1b804daa8b4ee77f62576a4a20c7c334ee3ab41df16c1412cd5834f00fe97&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfplll-5.2.0.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fplll/5.2.0 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr
+==> Installing fqzcomp from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/fqzcomp/fqzcomp-4.6.tar.gz
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/fqzcomp/fqzcomp-4.6.tar.gz
 ==> make
-==> make check
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fplll`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fplll/5.2.0: 56 files, 26.7MB, built in 4 minutes 39 seconds
-==> Determining homebrew/science/fplll bottle rebuild...
-==> Bottling fplll-5.2.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fplll-5.2.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fplll-5.2.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fqzcomp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fqzcomp/4.6: 4 files, 312.6KB, built in 6 seconds
+==> Determining homebrew/science/fqzcomp bottle rebuild...
+==> Bottling fqzcomp-4.6.x86_64_linux.bottle.1.tar.gz...
+./fqzcomp-4.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c78f6b82d511c9f075ff399297fcf22c873b9b3d205d2196c88c8f02e91bb3ac" => :x86_64_linux
+    sha256 "49558aa2db7a321f2d5a62327cad56b5c37917c034265e163006b0181e091ceb" => :x86_64_linux
   end
