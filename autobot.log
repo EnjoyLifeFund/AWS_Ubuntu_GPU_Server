@@ -1,15 +1,4 @@
-==> Cloning https://github.com/edenhill/kafkacat.git
-==> Checking out tag 1.3.1
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kafkacat/1.3.1_1 --enable-json
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kafkacat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kafkacat/1.3.1_1: 5 files, 146.4KB, built in 1 second
-==> Determining kafkacat bottle rebuild...
-==> Bottling kafkacat-1.3.1_1.x86_64_linux.bottle.1.tar.gz...
-./kafkacat-1.3.1_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "13b5a8409cc15c2ab6cf6d69eb9e1b3a0496dce85962aa3ef405637b9ec047e3" => :x86_64_linux
-  end
+==> Downloading https://bintray.com/artifact/download/kaitai-io/universal/0.7/kaitai-struct-compiler-0.7.zip
+==> Downloading from https://dl.bintray.com/kaitai-io/universal/0.7/kaitai-struct-compiler-0.7.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/kaitai-struct-compiler/0.7: 10 files, 7.5MB, built in 4 seconds
+This formula doesn't require compiling.
