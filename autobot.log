@@ -1,8 +1,30 @@
-==> Determining libconfig bottle rebuild...
-==> Bottling libconfig-1.7.1.x86_64_linux.bottle.1.tar.gz...
-./libconfig-1.7.1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://s3.amazonaws.com/packages.couchbase.com/clients/c/libcouchbase-2.8.3.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libcouchbase/2.8.3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DLCB_NO_TESTS=1 -DLCB_BUILD_LIBEVENT=ON -DLCB_BUILD_LIBEV=OFF -DLCB_BUILD_LIBUV=OFF
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/cbc
+Target /home/linuxbrew/.linuxbrew/bin/cbc
+is a symlink belonging to coinmp. You can unlink it:
+  brew unlink coinmp
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite libcouchbase
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run libcouchbase
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/cbc -> /home/linuxbrew/.linuxbrew/Cellar/coinmp/1.7.3_2/bin/cbc
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libcouchbase`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libcouchbase/2.8.3: 104 files, 4.7MB, built in 11 seconds
+==> Determining libcouchbase bottle rebuild...
+==> Bottling libcouchbase-2.8.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libcouchbase-2.8.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libcouchbase-2.8.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "558aa2e0c8d1aef4b5bb7aff27cea3117da1b55120599fa1e64c13ca24b07b25" => :x86_64_linux
+    sha256 "e17dcf4f0fac1fab22ddd770685998d8a5eb7d751eec60e5b4f02ae5758e96f6" => :x86_64_linux
   end
