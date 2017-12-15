@@ -1,25 +1,8 @@
-==> Downloading https://github.com/hunspell/hunspell/archive/v1.6.2.tar.gz
-==> Downloading from https://codeload.github.com/hunspell/hunspell/tar.gz/v1.6.2
-==> autoreconf -fiv
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hunspell/1.6.2 --with-ui --with-readline
-==> make
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hunspell`
-==> Caveats
-Dictionary files (*.aff and *.dic) should be placed in
-~/Library/Spelling/ or /Library/Spelling/.  Homebrew itself
-provides no dictionaries for Hunspell, but you can download
-compatible dictionaries from other sources, such as
-https://wiki.openoffice.org/wiki/Dictionaries .
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hunspell/1.6.2: 853 files, 12MB, built in 43 seconds
-==> Determining hunspell bottle rebuild...
-==> Bottling hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hunspell-1.6.2.x86_64_linux.bottle.1.tar.gz
+==> Determining hwloc bottle rebuild...
+==> Bottling hwloc-1.11.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hwloc-1.11.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hwloc-1.11.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "96517c68daf883af551ba0376f93802459b1ec2a491e97aa170a63f8fa1c2d4d" => :x86_64_linux
+    sha256 "f575f99893dd548e810bb2737507365bad9922f7e5df2189c8244c5249546df7" => :x86_64_linux
   end
