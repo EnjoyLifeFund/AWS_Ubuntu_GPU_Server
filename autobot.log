@@ -1,16 +1,16 @@
-==> Installing xlsclients from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xlsclients-1.1.3.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xlsclients-1.1.3.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xlsclients/1.1.3 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> Installing xmessage from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/xmessage-1.0.4.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/xmessage-1.0.4.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xmessage/1.0.4 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
 ==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xlsclients`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xlsclients/1.1.3: 7 files, 100.5KB, built in 6 seconds
-==> Determining linuxbrew/xorg/xlsclients bottle rebuild...
-==> Bottling xlsclients-1.1.3.x86_64_linux.bottle.1.tar.gz...
-./xlsclients-1.1.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall linuxbrew/xorg/xmessage`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xmessage/1.0.4: 9 files, 141.0KB, built in 7 seconds
+==> Determining linuxbrew/xorg/xmessage bottle rebuild...
+==> Bottling xmessage-1.0.4.x86_64_linux.bottle.1.tar.gz...
+./xmessage-1.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "12956c4486a9bfe2720704e404b40a96e7d045a5c5c7039b4444938229158427" => :x86_64_linux
+    sha256 "554bc3bf48992a096cbadcac0504a3692bb3830c7f38bd82a5021dd98b49e825" => :x86_64_linux
   end
