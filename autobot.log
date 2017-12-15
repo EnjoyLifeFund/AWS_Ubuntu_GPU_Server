@@ -1,8 +1,14 @@
-==> Determining homebrew/science/quicktree bottle rebuild...
-==> Bottling quicktree-2.2.x86_64_linux.bottle.1.tar.gz...
-./quicktree-2.2.x86_64_linux.bottle.1.tar.gz
+==> Installing quip from homebrew/science
+==> Downloading https://homes.cs.washington.edu/~dcjones/quip/quip-1.1.8.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/quip/1.1.8
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/quip`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/quip/1.1.8: 12 files, 3.6MB, built in 12 seconds
+==> Determining homebrew/science/quip bottle rebuild...
+==> Bottling quip-1.1.8.x86_64_linux.bottle.tar.gz...
+==> Detecting if quip-1.1.8.x86_64_linux.bottle.tar.gz is relocatable...
+./quip-1.1.8.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "8e2431c2875ec7bd0bcb9876928dea7fb86e8295af7e3ebfe038ce607141273f" => :x86_64_linux
+    sha256 "402562f7a1f5cd8fe041fc44b14266295d23d06728cc409c231485481c982b7f" => :x86_64_linux
   end
