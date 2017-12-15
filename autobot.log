@@ -1,17 +1,18 @@
-==> Installing cuba from homebrew/science
-==> Downloading http://www.feynarts.de/cuba/Cuba-4.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cuba/4.1 --datadir=/home/linuxbrew/.linuxbrew/Cellar/cuba/4.1/share/cuba/doc
-==> make
-==> make check
-==> make install
+==> Downloading https://github.com/matricks/bam/archive/v0.5.0.tar.gz
+==> Downloading from https://codeload.github.com/matricks/bam/tar.gz/v0.5.0
+==> Downloading https://github.com/matricks/bam/commit/27b28f09.patch?full_index=1
+==> Patching
+==> Applying 27b28f09.patch
+patching file src/tools.lua
+==> ./make_unix.sh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/cuba`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cuba/4.1: 13 files, 1.5MB, built in 56 seconds
-==> Determining homebrew/science/cuba bottle rebuild...
-==> Bottling cuba-4.1.x86_64_linux.bottle.1.tar.gz...
-./cuba-4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bam`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bam/0.5.0: 5 files, 351.8KB, built in 2 minutes 7 seconds
+==> Determining bam bottle rebuild...
+==> Bottling bam-0.5.0.x86_64_linux.bottle.1.tar.gz...
+./bam-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7e866216fe06c9e676404de7126726a1fba28978162f02a473ace1e707d2510f" => :x86_64_linux
+    sha256 "7d3bd87d301d627cd8038197e409973c0e6f59c984da50097f95017d07e6afe2" => :x86_64_linux
   end
