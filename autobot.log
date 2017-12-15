@@ -1,17 +1,16 @@
-==> Installing dextractor from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/thegenemyers/DEXTRACTOR/archive/V1.0.tar.gz
-==> Downloading from https://codeload.github.com/thegenemyers/DEXTRACTOR/tar.gz/V1.0
-==> make
+==> Installing diamond from homebrew/science
+==> Downloading https://github.com/bbuchfink/diamond/archive/v0.9.13.tar.gz
+==> Downloading from https://codeload.github.com/bbuchfink/diamond/tar.gz/v0.9.13
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/diamond/0.9.13 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/dextractor`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dextractor/1.0_4: 8 files, 331KB, built in 2 seconds
-==> Determining homebrew/science/dextractor bottle rebuild...
-==> Bottling dextractor-1.0_4.x86_64_linux.bottle.1.tar.gz...
-./dextractor-1.0_4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/diamond`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/diamond/0.9.13: 5 files, 3MB, built in 7 seconds
+==> Determining homebrew/science/diamond bottle rebuild...
+==> Bottling diamond-0.9.13.x86_64_linux.bottle.1.tar.gz...
+./diamond-0.9.13.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "6a8002a587d47e227cf4f264a976fcf7a9145dafd27cbaa770971c683f9db841" => :x86_64_linux
+    sha256 "d1de2299f12e67edde39b568101cdc09abfd5ed14281a6d5ea2c3e2b1c15efc6" => :x86_64_linux
   end
