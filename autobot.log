@@ -1,17 +1,15 @@
-==> Installing qsopt_ex from homebrew/science
-==> Downloading https://www.math.uwaterloo.ca/~bico/qsopt/ex/QSex090408.tgz
-==> Patching
-patching file EG/eg_lpnum.c
-==> make
-==> make -C demo
+==> Installing qualimap from homebrew/science
+==> Downloading https://bitbucket.org/kokonech/qualimap/downloads/qualimap-build-28-03-16.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/00d80ec0-50ec-47b6-afe9-2a8c8015a430/downloads/186d2952-15c0-48f0-bb5d-d802f57edacd/qualimap-build-28-03-16.tar.gz?Signature=y08dDm5SPsatOUuCSm3G4rAISXA%3D&Expires=1513342350&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=0butLXHnNsbKHu.RkwVe9jRQmT.mOKd6&response-content-disposition=attachment%3B%20filename%3D%22qualimap-build-28-03-16.tar.gz%22
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/qsopt_ex`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/qsopt_ex/2.5: 14 files, 73.5MB, built in 16 seconds
-==> Determining homebrew/science/qsopt_ex bottle rebuild...
-==> Bottling qsopt_ex-2.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if qsopt_ex-2.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./qsopt_ex-2.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/qualimap`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/qualimap/20160328: 44 files, 43.7MB, built in 6 seconds
+==> Determining homebrew/science/qualimap bottle rebuild...
+==> Bottling qualimap-20160328.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if qualimap-20160328.x86_64_linux.bottle.1.tar.gz is relocatable...
+./qualimap-20160328.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "41df03113ba53b1eeb3e39705c45a4483f8ddca86ee31869bc279372f22acaaf" => :x86_64_linux
+    sha256 "f499643dd54d5e08e3c7a8fb2f5a9ba435a2d58a6b08ad9b35e1ab1a73f9e300" => :x86_64_linux
   end
