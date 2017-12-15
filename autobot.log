@@ -1,4 +1,13 @@
-==> Downloading https://github.com/patric-r/jvmtop/releases/download/0.8.0/jvmtop-0.8.0.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/39074930/b8828664-2afa-11e5-9374-982632e0593e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171215T194215Z&X-Amz-Expires=300&X-Amz-Signature=b43b1dddb03eefd39d3902308d5758baf2680c50727fbda4bafdc8870a116612&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Djvmtop-0.8.0.tar.gz&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jvmtop/0.8.0: 6 files, 116.7KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jxrlib/jxrlib_1.1.orig.tar.gz
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall jxrlib`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jxrlib/1.1: 62 files, 2.7MB, built in 2 seconds
+==> Determining jxrlib bottle rebuild...
+==> Bottling jxrlib-1.1.x86_64_linux.bottle.1.tar.gz...
+./jxrlib-1.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "109772f698c72eac81142a1ae537b31bdb29aaf35eb58ee5da43faadebb376ab" => :x86_64_linux
+  end
