@@ -1,15 +1,15 @@
-==> Installing a5 from homebrew/science
-==> Downloading https://downloads.sourceforge.net/project/ngopt/a5_miseq_linux_20160825.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/ngopt/a5_miseq_linux_20160825.tar.gz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/a5`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/a5/20160825: 32 files, 17MB, built in 1 second
-==> Determining homebrew/science/a5 bottle rebuild...
-==> Bottling a5-20160825.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if a5-20160825.x86_64_linux.bottle.1.tar.gz is relocatable...
-./a5-20160825.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6e2fdee71027f7cdb04be6e4e540d0672160d2d5a27ce38cdbb03682019510be" => :x86_64_linux
-  end
+==> Installing abacas from homebrew/science
+==> Installing dependencies for homebrew/science/abacas: tcsh, mummer
+==> Installing homebrew/science/abacas dependency: tcsh
+==> Downloading https://linuxbrew.bintray.com/bottles/tcsh-6.20.00_1.x86_64_linux.bottle.tar.gz
+==> Pouring tcsh-6.20.00_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/tcsh/6.20.00_1: 19 files, 2.3MB
+==> Installing homebrew/science/abacas dependency: mummer
+==> Downloading https://linuxbrew.bintray.com/bottles-science/mummer-3.23_2.x86_64_linux.bottle.tar.gz
+==> Pouring mummer-3.23_2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mummer/3.23_2: 147 files, 6.8MB
+==> Installing homebrew/science/abacas
+==> Downloading https://downloads.sourceforge.net/project/abacas/abacas.1.3.1.pl
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/abacas/abacas.1.3.1.pl
+🍺  /home/linuxbrew/.linuxbrew/Cellar/abacas/1.3.1: 3 files, 76.8KB, built in 1 second
+This formula doesn't require compiling.
