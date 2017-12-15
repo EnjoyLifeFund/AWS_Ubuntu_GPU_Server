@@ -1,17 +1,17 @@
-==> Installing delly from homebrew/science
-==> Downloading https://github.com/tobiasrausch/delly/archive/v0.7.7.tar.gz
-==> Downloading from https://github.com/dellytools/delly/archive/v0.7.7.tar.gz
-==> make SEQTK_ROOT=/home/linuxbrew/.linuxbrew/opt/htslib BOOST_ROOT=/home/linuxbrew/.linuxbrew/opt/boost src/delly
-==> Downloading https://github.com/tobiasrausch/delly/archive/v0.6.5.tar.gz
-==> Downloading from https://github.com/dellytools/delly/archive/v0.6.5.tar.gz
+==> Installing dextractor from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/thegenemyers/DEXTRACTOR/archive/V1.0.tar.gz
+==> Downloading from https://codeload.github.com/thegenemyers/DEXTRACTOR/tar.gz/V1.0
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/delly`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/delly/0.7.7_3: 11 files, 37.2MB, built in 43 seconds
-==> Determining homebrew/science/delly bottle rebuild...
-==> Bottling delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./delly-0.7.7_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/dextractor`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dextractor/1.0_4: 8 files, 331KB, built in 2 seconds
+==> Determining homebrew/science/dextractor bottle rebuild...
+==> Bottling dextractor-1.0_4.x86_64_linux.bottle.1.tar.gz...
+./dextractor-1.0_4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "92eb4965687e84091d4ec542d6ae5451c3b47a8afaa09a4d39f250ee9079f084" => :x86_64_linux
+    sha256 "6a8002a587d47e227cf4f264a976fcf7a9145dafd27cbaa770971c683f9db841" => :x86_64_linux
   end
