@@ -1,16 +1,15 @@
-==> Downloading https://github.com/sctplab/usrsctp/archive/0.9.3.0.tar.gz
-==> Downloading from https://codeload.github.com/sctplab/usrsctp/tar.gz/0.9.3.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libusrsctp/0.9.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
+==> Downloading https://swtch.com/plan9port/unix/libutf-20110530.tgz
+==> Downloading from https://9fans.github.io/plan9port/unix/libutf-20110530.tgz
+Trying a mirror...
+==> Downloading http://distfiles.exherbo.org/distfiles/libutf-20110530.tgz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/libutf/20110530 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libusrsctp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libusrsctp/0.9.3.0: 9 files, 1.9MB, built in 6 seconds
-==> Determining libusrsctp bottle rebuild...
-==> Bottling libusrsctp-0.9.3.0.x86_64_linux.bottle.1.tar.gz...
-./libusrsctp-0.9.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libutf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libutf/20110530: 10 files, 136.9KB, built in 2 seconds
+==> Determining libutf bottle rebuild...
+==> Bottling libutf-20110530.x86_64_linux.bottle.tar.gz...
+./libutf-20110530.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "fd80d91296b4a7239237e4b4d08c5d5c545427463a48dd6f110d42e844017fad" => :x86_64_linux
+    sha256 "7eb19cb69fea52d15d703dbfae1c101032299cd2e779fea27c1960ee19924a02" => :x86_64_linux
   end
