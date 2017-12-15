@@ -1,16 +1,8 @@
-==> Downloading https://github.com/dropbox/lepton/archive/1.2.1.tar.gz
-==> Downloading from https://codeload.github.com/dropbox/lepton/tar.gz/1.2.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lepton/1.2.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lepton`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lepton/1.2.1: 8 files, 11MB, built in 10 seconds
-==> Determining lepton bottle rebuild...
-==> Bottling lepton-1.2.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lepton-1.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lepton-1.2.1.x86_64_linux.bottle.1.tar.gz
+==> Determining leptonica bottle rebuild...
+==> Bottling leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./leptonica-1.74.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e1f663e45955944a787f77bdedce337da10e7e46be1ee93b6b3f1c70538371ee" => :x86_64_linux
+    sha256 "1e0aa345c66d97db9bace683a8ac4daf91237257fad8ec7e4ff443e3bceba625" => :x86_64_linux
   end
