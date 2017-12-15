@@ -1,17 +1,14 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://downloads.sourceforge.net/project/mcmc-jags/JAGS/4.x/Source/JAGS-4.3.0.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/mcmc-jags/JAGS/4.x/Source/JAGS-4.3.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/jags/4.3.0
+==> Downloading https://savannah.nongnu.org/download/icoutils/icoutils-0.32.2.tar.bz2
+==> Downloading from http://download.savannah.gnu.org/releases/icoutils/icoutils-0.32.2.tar.bz2
+==> ./configure --disable-rpath --prefix=/home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jags`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jags/4.3.0: 118 files, 34MB, built in 1 minute 17 seconds
-==> Determining jags bottle rebuild...
-==> Bottling jags-4.3.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if jags-4.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./jags-4.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall icoutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/icoutils/0.32.2: 18 files, 570.2KB, built in 40 seconds
+==> Determining icoutils bottle rebuild...
+==> Bottling icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz...
+./icoutils-0.32.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e9fa2edce9685dc29f1f6d9b8cf54a2b1ad24ed77f3e52958508410ff18d1231" => :x86_64_linux
+    sha256 "1e0b606f5e136455ed1d494d8307eb81944a3426838bf670fafb9bb05ec5edaa" => :x86_64_linux
   end
