@@ -1,14 +1,13 @@
-==> Downloading https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.12.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4 --mandir=/home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4/share/man --disable-amrnb --disable-amrwb
-==> make
+==> Downloading https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.12.4.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-rtsp-server/1.12.4 --disable-silent-rules --disable-examples --disable-tests --enable-introspection=yes
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gst-plugins-ugly`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-plugins-ugly/1.12.4: 99 files, 3.4MB, built in 30 seconds
-==> Determining gst-plugins-ugly bottle rebuild...
-==> Bottling gst-plugins-ugly-1.12.4.x86_64_linux.bottle.1.tar.gz...
-./gst-plugins-ugly-1.12.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gst-rtsp-server`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-rtsp-server/1.12.4: 34 files, 2.7MB, built in 26 seconds
+==> Determining gst-rtsp-server bottle rebuild...
+==> Bottling gst-rtsp-server-1.12.4.x86_64_linux.bottle.1.tar.gz...
+./gst-rtsp-server-1.12.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "416ab54c9e692419d46474b9ab848163e7b807ba56afd430ba403da681384f6b" => :x86_64_linux
+    sha256 "a9adf7f89fff66db72dc426defbe089a3fe7580922b91099417e81d4a70406b3" => :x86_64_linux
   end
