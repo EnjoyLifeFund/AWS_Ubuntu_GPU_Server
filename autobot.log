@@ -1,19 +1,24 @@
-==> Installing dependencies for libmrss: libnxml
-==> Installing libmrss dependency: libnxml
-==> Downloading https://www.autistici.org/bakunin/libnxml/libnxml-0.18.3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libnxml/0.18.3
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libnxml/0.18.3: 13 files, 523.3KB, built in 12 seconds
-==> Installing libmrss
-==> Downloading https://www.autistici.org/bakunin/libmrss/libmrss-0.19.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmrss/0.19.2
+==> Installing dependencies for libmspub: libwpd, libwpg
+==> Installing libmspub dependency: libwpd
+==> Downloading https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.x86_64_linux.bottle.tar.gz
+==> Pouring libwpd-0.10.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libwpd/0.10.2: 15 files, 8.6MB
+==> Installing libmspub dependency: libwpg
+==> Downloading https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.x86_64_linux.bottle.tar.gz
+==> Pouring libwpg-0.3.2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libwpg/0.3.2: 15 files, 1.2MB
+==> Installing libmspub
+==> Downloading https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.2.tar.xz
+==> ./configure --without-docs --enable-static=no --disable-werror --disable-tests --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmspub/0.1.2_6
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmrss`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libmrss/0.19.2: 13 files, 564KB, built in 11 seconds
-==> Determining libmrss bottle rebuild...
-==> Bottling libmrss-0.19.2.x86_64_linux.bottle.tar.gz...
-./libmrss-0.19.2.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libmspub`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmspub/0.1.2_6: 14 files, 6.4MB, built in 24 seconds
+==> Determining libmspub bottle rebuild...
+==> Bottling libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libmspub-0.1.2_6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "dff4e8e36c9730d4f777307d3f324b144b0273cb1826e895e17a26155941a3de" => :x86_64_linux
+    rebuild 1
+    sha256 "75a872531cd068c1e656978029ec5827ed9599c90589e7b185818a1bdb6f7798" => :x86_64_linux
   end
