@@ -1,17 +1,9 @@
-==> Downloading https://archive.apache.org/dist/commons/daemon/source/commons-daemon-1.0.15-native-src.tar.gz
-==> Patching
-patching file unix/native/java.c
-patching file unix/native/location.c
-==> ./configure
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jsvc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jsvc/1.0.15: 7 files, 96.9KB, built in 4 seconds
-==> Determining jsvc bottle rebuild...
-==> Bottling jsvc-1.0.15.x86_64_linux.bottle.1.tar.gz...
-./jsvc-1.0.15.x86_64_linux.bottle.1.tar.gz
+==> Determining juju bottle rebuild...
+==> Bottling juju-2.2.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if juju-2.2.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./juju-2.2.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "2fe4cd19adcb2909225645065fb35de5be8eb057d96888afe2a4589855fba16f" => :x86_64_linux
+    sha256 "8eb8b0ee481a1f83d39d3c00fdc6db5b6be6d19f3f97fedf5656a35089cdcb46" => :x86_64_linux
   end
