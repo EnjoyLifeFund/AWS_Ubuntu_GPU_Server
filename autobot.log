@@ -1,15 +1,8 @@
-==> Downloading https://github.com/dinhviethoa/libetpan/archive/1.8.tar.gz
-==> Downloading from https://codeload.github.com/dinhviethoa/libetpan/tar.gz/1.8
-==> ./autogen.sh --disable-debug --disable-dependency-tracking --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libetpan/1.8
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libetpan`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libetpan/1.8: 176 files, 11MB, built in 43 seconds
-==> Determining libetpan bottle rebuild...
-==> Bottling libetpan-1.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libetpan-1.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libetpan-1.8.x86_64_linux.bottle.1.tar.gz
+==> Determining libev bottle rebuild...
+==> Bottling libev-4.24.x86_64_linux.bottle.1.tar.gz...
+./libev-4.24.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b2ac9e3d9fd227ab295aa4216c383065f351118ab2ee87668a1cbec1f3ee7f65" => :x86_64_linux
+    sha256 "aaebef0225cc386c95b9c22cec176923082d1854b0bbdff9617d46f4360fcd95" => :x86_64_linux
   end
