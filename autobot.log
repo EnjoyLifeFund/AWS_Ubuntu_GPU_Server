@@ -1,15 +1,14 @@
-==> Installing dsk from homebrew/science
-==> Downloading http://gatb-tools.gforge.inria.fr/versions/src/dsk-2.1.0-Source.tar.gz
-==> cmake ..
+==> Installing dwgsim from homebrew/science
+==> Cloning https://github.com/nh13/DWGSIM.git
+==> Checking out tag dwgsim.0.1.12
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/dsk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dsk/2.1.0: 43 files, 12.3MB, built in 1 minute 15 seconds
-==> Determining homebrew/science/dsk bottle rebuild...
-==> Bottling dsk-2.1.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dsk-2.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dsk-2.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/dwgsim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dwgsim/0.1.12: 6 files, 1.3MB, built in 7 seconds
+==> Determining homebrew/science/dwgsim bottle rebuild...
+==> Bottling dwgsim-0.1.12.x86_64_linux.bottle.1.tar.gz...
+./dwgsim-0.1.12.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e74d206b935afbb308f283ef27fa5beb0bb186a666008936133b0784d96a8020" => :x86_64_linux
+    sha256 "2acd1bc1ea1580da26ae61389f9f0a6c8a045856cdec0e080e6e1189dbf4fcb2" => :x86_64_linux
   end
