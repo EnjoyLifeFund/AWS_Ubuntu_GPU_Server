@@ -1,15 +1,15 @@
-==> Cloning https://github.com/hyperhq/hypercli.git
-==> Checking out tag v1.10.16
-==> ./build.sh
+==> Downloading https://github.com/01org/hyperscan/archive/v4.6.0.tar.gz
+==> Downloading from https://github.com/intel/hyperscan/archive/v4.6.0.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hyperscan/4.6.0_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_STATIC_AND_SHARED=on
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hyper`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hyper/1.10.16: 8 files, 9.8MB, built in 7 seconds
-==> Determining hyper bottle rebuild...
-==> Bottling hyper-1.10.16.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hyper-1.10.16.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hyper-1.10.16.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall hyperscan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/hyperscan/4.6.0_1: 23 files, 32.8MB, built in 1 minute 51 seconds
+==> Determining hyperscan bottle rebuild...
+==> Bottling hyperscan-4.6.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hyperscan-4.6.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hyperscan-4.6.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "8896833c2df39ea1bbf11d711cafee5062349e8997a1da029d3c3bb42f4b42f1" => :x86_64_linux
+    sha256 "0b6dd3a99ad194c2a8873e9caff7f2b004bc5302494e5eb03de142851527c7e8" => :x86_64_linux
   end
