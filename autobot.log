@@ -1,13 +1,3 @@
-==> Downloading http://www.urbanophile.com/arenn/coding/gzrt/gzrt-0.8.tar.gz
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gzrt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gzrt/0.8: 6 files, 44.2KB, built in 1 second
-==> Determining gzrt bottle rebuild...
-==> Bottling gzrt-0.8.x86_64_linux.bottle.1.tar.gz...
-./gzrt-0.8.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "2a60f80f7f369be74088bd4427bdb5f15765121b9b3b0726b53260ba6671ce68" => :x86_64_linux
-  end
+==> Downloading https://www.h2database.com/h2-2017-06-10.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/h2/1.4.196: 1,512 files, 20.2MB, built in 7 seconds
+This formula doesn't require compiling.
