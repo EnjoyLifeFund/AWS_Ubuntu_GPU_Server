@@ -1,15 +1,8 @@
-==> Downloading https://gstreamer.freedesktop.org/src/gst-editing-services/gstreamer-editing-services-1.12.4.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-editing-services/1.12.4 --disable-gtk-doc --disable-docbook
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gst-editing-services`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-editing-services/1.12.4: 77 files, 4.8MB, built in 35 seconds
-==> Determining gst-editing-services bottle rebuild...
-==> Bottling gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz
+==> Determining gst-libav bottle rebuild...
+==> Bottling gst-libav-1.12.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gst-libav-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gst-libav-1.12.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "91085f65d2260b51284f19625d2fa924558720d58cc330fd8f9f3dd08e892e5f" => :x86_64_linux
+    sha256 "9bfe0db7b9b7928dfcaf3f1deb497b609c25d9ff5f4608beaec06bbe206d0f1a" => :x86_64_linux
   end
