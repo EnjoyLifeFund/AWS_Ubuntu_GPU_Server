@@ -1,29 +1,13 @@
-==> Downloading https://download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdca/0.0.5
-==> make
+==> Downloading http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/libdiscid-0.6.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libdiscid/0.6.2
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/dcadec
-Target /home/linuxbrew/.linuxbrew/bin/dcadec
-is a symlink belonging to dcadec. You can unlink it:
-  brew unlink dcadec
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite libdca
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run libdca
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/dcadec -> /home/linuxbrew/.linuxbrew/Cellar/dcadec/0.2.0/bin/dcadec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libdca`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libdca/0.0.5: 25 files, 516.9KB, built in 17 seconds
-==> Determining libdca bottle rebuild...
-==> Bottling libdca-0.0.5.x86_64_linux.bottle.tar.gz...
-./libdca-0.0.5.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libdiscid`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libdiscid/0.6.2: 12 files, 265KB, built in 7 seconds
+==> Determining libdiscid bottle rebuild...
+==> Bottling libdiscid-0.6.2.x86_64_linux.bottle.1.tar.gz...
+./libdiscid-0.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "f13ce9eab425d1d67bbe3ea8c2d0b76c89e84ea38bd7c195528ccd929c1d27fd" => :x86_64_linux
+    rebuild 1
+    sha256 "4a32b63ddbc01e6df28e090d6a6081feb204cfe44f5b765125f7d87917bcad6b" => :x86_64_linux
   end
