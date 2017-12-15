@@ -1,15 +1,19 @@
-==> Installing skewer from homebrew/science
-==> Downloading https://github.com/relipmoc/skewer/archive/0.2.2.tar.gz
-==> Downloading from https://codeload.github.com/relipmoc/skewer/tar.gz/0.2.2
-==> make CXX=g++-6 CXXFLAGS=-c
+==> Installing slicot from homebrew/science
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/s/slicot/slicot_5.0+20101122.orig.tar.gz
+==> make lib OPTS=-fPIC SLICOTLIB=../libslicot_pic.a FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran
+==> make clean
+==> make lib OPTS=-fPIC -fdefault-integer-8 SLICOTLIB=../libslicot64_pic.a FORTRAN=/home/linuxbrew/.linuxbrew/bin/gfortran LOADER=/home/linuxbrew/.linuxbrew/bin/gfortran
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/skewer`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/skewer/0.2.2: 5 files, 355.1KB, built in 2 seconds
-==> Determining homebrew/science/skewer bottle rebuild...
-==> Bottling skewer-0.2.2.x86_64_linux.bottle.1.tar.gz...
-./skewer-0.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/slicot`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/slicot/5.0+20101122_3: 5 files, 10.3MB, built in 6 seconds
+==> Determining homebrew/science/slicot bottle rebuild...
+==> Bottling slicot-5.0+20101122_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if slicot-5.0+20101122_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./slicot-5.0+20101122_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "4112f711286ba05fb8aa5e65c0c073273686ea73796f2830c2db80bdb0b74e2f" => :x86_64_linux
+    sha256 "dff8dc1d3d282d12cf1a8dcb74861a06ee0cc7f5709bf343772ed935060c446a" => :x86_64_linux
   end
