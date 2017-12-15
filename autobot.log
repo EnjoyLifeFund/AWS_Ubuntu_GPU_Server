@@ -1,8 +1,4 @@
-==> Determining itstool bottle rebuild...
-==> Bottling itstool-2.0.4_1.x86_64_linux.bottle.1.tar.gz...
-./itstool-2.0.4_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "70b400bf787314345dc664b8279f8b2d91484ad3b870cdd053f91058ae45c7d5" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=ant/ivy/2.4.0/apache-ivy-2.4.0-bin.tar.gz
+==> Best Mirror http://mirror.cogentco.com/pub/apache/ant/ivy/2.4.0/apache-ivy-2.4.0-bin.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ivy/2.4.0: 982 files, 19.2MB, built in 2 seconds
+This formula doesn't require compiling.
