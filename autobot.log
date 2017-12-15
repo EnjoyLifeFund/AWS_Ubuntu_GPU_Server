@@ -1,8 +1,16 @@
-==> Determining linuxbrew/xorg/glu bottle rebuild...
-==> Bottling glu-9.0.0.x86_64_linux.bottle.1.tar.gz...
-./glu-9.0.0.x86_64_linux.bottle.1.tar.gz
+==> Installing iceauth from linuxbrew/xorg
+==> Downloading https://www.x.org/pub/individual/app/iceauth-1.0.7.tar.bz2
+==> Downloading from https://www.x.org/archive//individual/app/iceauth-1.0.7.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/iceauth/1.0.7 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall linuxbrew/xorg/iceauth`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/iceauth/1.0.7: 7 files, 149.2KB, built in 5 seconds
+==> Determining linuxbrew/xorg/iceauth bottle rebuild...
+==> Bottling iceauth-1.0.7.x86_64_linux.bottle.1.tar.gz...
+./iceauth-1.0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "656d5a031dd50486271b9203f767422531c7c0103d7a3600830e639c798ad6b7" => :x86_64_linux
+    sha256 "b2eb5dc1066c22b2d7f4b91205ab9ead0e2e223769912799bf47d88afa325496" => :x86_64_linux
   end
