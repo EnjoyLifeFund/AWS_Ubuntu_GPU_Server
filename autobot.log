@@ -1,16 +1,13 @@
-==> Installing mantaflow from homebrew/science
-==> Downloading http://mantaflow.com/download/manta-src-0.11.tar.gz
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mantaflow/0.11 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
+==> Installing mapsembler2 from homebrew/science
+==> Downloading https://www.irisa.fr/symbiose/people/ppeterlongo/mapsembler2_2.2.4.zip
+==> ./compile_all_tools.sh
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mantaflow`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mantaflow/0.11: 30 files, 5.0MB, built in 17 seconds
-==> Determining homebrew/science/mantaflow bottle rebuild...
-==> Bottling mantaflow-0.11.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mantaflow-0.11.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mantaflow-0.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/mapsembler2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mapsembler2/2.2.4_1: 7 files, 472.6KB, built in 1 minute 30 seconds
+==> Determining homebrew/science/mapsembler2 bottle rebuild...
+==> Bottling mapsembler2-2.2.4_1.x86_64_linux.bottle.1.tar.gz...
+./mapsembler2-2.2.4_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d49b42bde10b831e916a800ac59c3b69b15860abdc928126a744e788c6186589" => :x86_64_linux
+    sha256 "c83c3566e4c23b795ae1226ce749500ea2a7a561e5e0a425d9d15c746f4c931e" => :x86_64_linux
   end
