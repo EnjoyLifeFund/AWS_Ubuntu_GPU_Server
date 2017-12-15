@@ -1,14 +1,15 @@
-==> Downloading http://libestr.adiscon.com/files/download/libestr-0.1.10.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libestr/0.1.10
-==> make
+==> Downloading https://github.com/dinhviethoa/libetpan/archive/1.8.tar.gz
+==> Downloading from https://codeload.github.com/dinhviethoa/libetpan/tar.gz/1.8
+==> ./autogen.sh --disable-debug --disable-dependency-tracking --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libetpan/1.8
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libestr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libestr/0.1.10: 13 files, 130.4KB, built in 7 seconds
-==> Determining libestr bottle rebuild...
-==> Bottling libestr-0.1.10.x86_64_linux.bottle.1.tar.gz...
-./libestr-0.1.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libetpan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libetpan/1.8: 176 files, 11MB, built in 43 seconds
+==> Determining libetpan bottle rebuild...
+==> Bottling libetpan-1.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libetpan-1.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libetpan-1.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0e58502a4663350c25fdf3b904a3f959b3fe88fc027841c399df1c656bf45d41" => :x86_64_linux
+    sha256 "b2ac9e3d9fd227ab295aa4216c383065f351118ab2ee87668a1cbec1f3ee7f65" => :x86_64_linux
   end
