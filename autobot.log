@@ -1,20 +1,31 @@
-==> Downloading http://www.sentex.net/~mwandel/jhead/jhead-3.00.tar.gz
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jhead/jhead_3.00-4.debian.tar.xz
-==> Patching
-File makefile is read-only; trying to patch anyway
-patching file makefile
-Hunk #1 succeeded at 1 with fuzz 2.
-==> Applying patches/31_CVE-2016-3822
-File exif.c is read-only; trying to patch anyway
-patching file exif.c
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/jhead/3.00_1
+==> Downloading https://github.com/simeji/jid/archive/0.7.2.tar.gz
+==> Downloading from https://codeload.github.com/simeji/jid/tar.gz/0.7.2
+==> Cloning https://github.com/bitly/go-simplejson.git
+==> Checking out revision aabad6e819789e569bd6aabf444c935aa9ba1e44
+==> Cloning https://github.com/fatih/color.git
+==> Checking out revision 42c364ba490082e4815b5222728711b3440603eb
+==> Cloning https://github.com/mattn/go-colorable.git
+==> Checking out revision d228849504861217f796da67fae4f6e347643f15
+==> Cloning https://github.com/mattn/go-isatty.git
+==> Checking out revision 30a891c33c7cde7b02a981314b4228ec99380cca
+==> Cloning https://github.com/mattn/go-runewidth.git
+==> Checking out revision 737072b4e32b7a5018b4a7125da8d12de90e8045
+==> Cloning https://github.com/nsf/termbox-go.git
+==> Checking out revision abe82ce5fb7a42fbd6784a5ceb71aff977e09ed8
+==> Cloning https://github.com/nwidger/jsoncolor.git
+==> Checking out revision 0192e84d44af834c3a90c8a17bf670483b91ad5a
+==> Cloning https://github.com/pkg/errors.git
+==> Checking out revision 248dadf4e9068a0b3e79f02ed0a610d935de5302
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/jid/0.7.2/bin/jid cmd/jid/jid.go
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jhead`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jhead/3.00_1: 7 files, 164.4KB, built in 1 second
-==> Determining jhead bottle rebuild...
-==> Bottling jhead-3.00_1.x86_64_linux.bottle.tar.gz...
-./jhead-3.00_1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall jid`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jid/0.7.2: 6 files, 3MB, built in 3 seconds
+==> Determining jid bottle rebuild...
+==> Bottling jid-0.7.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if jid-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./jid-0.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "9eb354fcf98f1a26c5f44eeddfe85fc15736c429984760847d68e4191b7a004d" => :x86_64_linux
+    rebuild 1
+    sha256 "c596ae3adcab070f14047a6c6c9799829b71c04090a7d13dc3f3ac95a77b928b" => :x86_64_linux
   end
