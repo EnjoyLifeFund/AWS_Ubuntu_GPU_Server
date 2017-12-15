@@ -1,8 +1,23 @@
-==> Determining homebrew/science/vcflib bottle rebuild...
-==> Bottling vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./vcflib-1.0.0_1.x86_64_linux.bottle.1.tar.gz
+==> Installing vcftools from homebrew/science
+==> Downloading https://github.com/vcftools/vcftools/archive/v0.1.15.tar.gz
+==> Downloading from https://codeload.github.com/vcftools/vcftools/tar.gz/v0.1.15
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/vcftools/0.1.15_1 --with-pmdir=lib/perl5/site_perl
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/vcftools`
+==> Caveats
+To use the Perl modules, make sure Vcf.pm, VcfStats.pm, and FaSlice.pm
+are included in your PERL5LIB environment variable:
+  export PERL5LIB=/home/linuxbrew/.linuxbrew/lib/perl5/site_perl:${PERL5LIB}
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/vcftools/0.1.15_1: 58 files, 13.2MB, built in 24 seconds
+==> Determining homebrew/science/vcftools bottle rebuild...
+==> Bottling vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./vcftools-0.1.15_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a04a26f6f1ab8d0388bfb8eefc7319b1d3f7b0fdbc420ee7660ac3fa23f6abd5" => :x86_64_linux
+    sha256 "e1eed144e6c28acae4f3ccc205662b3bdc6957fa1e170dc69136ee5eb36e0cf7" => :x86_64_linux
   end
