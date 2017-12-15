@@ -1,3 +1,14 @@
-==> Downloading https://ioke.org/dist/ioke-P-ikj-0.4.0.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ioke/0.4.0: 257 files, 2.2MB, built in 4 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/koct9i/ioping/archive/v1.0.tar.gz
+==> Downloading from https://codeload.github.com/koct9i/ioping/tar.gz/v1.0
+==> make
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ioping/1.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ioping`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ioping/1.0: 7 files, 144.5KB, built in 1 second
+==> Determining ioping bottle rebuild...
+==> Bottling ioping-1.0.x86_64_linux.bottle.1.tar.gz...
+./ioping-1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "87bb6e6a9fab9c1f90da12b8b1d8c8a01c851221cdb1254f3110a07e1b48d0dd" => :x86_64_linux
+  end
