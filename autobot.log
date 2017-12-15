@@ -1,14 +1,16 @@
-==> Installing mallet from homebrew/science
-==> Downloading http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz
+==> Installing mantaflow from homebrew/science
+==> Downloading http://mantaflow.com/download/manta-src-0.11.tar.gz
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mantaflow/0.11 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/mallet`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mallet/2.0.8: 2,778 files, 22.3MB, built in 3 seconds
-==> Determining homebrew/science/mallet bottle rebuild...
-==> Bottling mallet-2.0.8.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mallet-2.0.8.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mallet-2.0.8.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/mantaflow`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mantaflow/0.11: 30 files, 5.0MB, built in 17 seconds
+==> Determining homebrew/science/mantaflow bottle rebuild...
+==> Bottling mantaflow-0.11.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mantaflow-0.11.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mantaflow-0.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0a61e5fa14484c7cc6371d9399fd3de6b8e1b257c4cbbea31aa7b409ad603992" => :x86_64_linux
+    sha256 "d49b42bde10b831e916a800ac59c3b69b15860abdc928126a744e788c6186589" => :x86_64_linux
   end
