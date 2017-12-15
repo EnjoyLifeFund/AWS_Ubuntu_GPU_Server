@@ -1,15 +1,15 @@
-==> Downloading https://github.com/google/gumbo-parser/archive/v0.10.1.tar.gz
-==> Downloading from https://codeload.github.com/google/gumbo-parser/tar.gz/v0.10.1
-==> ./autogen.sh
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gumbo-parser/0.10.1
+==> Downloading https://download.gnome.org/sources/gupnp/1.0/gupnp-1.0.2.tar.xz
+==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/gupnp/1.0/gupnp-1.0.2.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gupnp/1.0.2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gumbo-parser`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gumbo-parser/0.10.1: 12 files, 2MB, built in 22 seconds
-==> Determining gumbo-parser bottle rebuild...
-==> Bottling gumbo-parser-0.10.1.x86_64_linux.bottle.1.tar.gz...
-./gumbo-parser-0.10.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gupnp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gupnp/1.0.2: 97 files, 2.0MB, built in 25 seconds
+==> Determining gupnp bottle rebuild...
+==> Bottling gupnp-1.0.2.x86_64_linux.bottle.1.tar.gz...
+./gupnp-1.0.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "49cf499bbe0c7607458fa997d47c0961f51f59124c36c329730e4a28881dcece" => :x86_64_linux
+    sha256 "505591fcbd006fffdfe14dc699852c3379e79e088d7b0d9d6739a594b24194ec" => :x86_64_linux
   end
