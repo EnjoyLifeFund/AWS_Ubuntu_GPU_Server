@@ -1,14 +1,21 @@
-==> Downloading https://github.com/gdraheim/zziplib/archive/v0.13.67.tar.gz
-==> Downloading from https://codeload.github.com/gdraheim/zziplib/tar.gz/v0.13.67
-==> ./configure --without-debug --prefix=/home/linuxbrew/.linuxbrew/Cellar/libzzip/0.13.67
+==> Downloading https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.48.tar.xz
+==> ./autogen.sh
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48/bin --with-openssl --with-ldap --with-zlib --with-bzip2
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libzzip`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libzzip/0.13.67: 157 files, 648.6KB, built in 18 seconds
-==> Determining libzzip bottle rebuild...
-==> Bottling libzzip-0.13.67.x86_64_linux.bottle.1.tar.gz...
-./libzzip-0.13.67.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lighttpd`
+==> Caveats
+Docroot is: /home/linuxbrew/.linuxbrew/var/www
+
+The default port has been set in /home/linuxbrew/.linuxbrew/etc/lighttpd/lighttpd.conf to 8080 so that
+lighttpd can run without sudo.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lighttpd/1.4.48: 72 files, 3.6MB, built in 36 seconds
+==> Determining lighttpd bottle rebuild...
+==> Bottling lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lighttpd-1.4.48.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "33fc6e2735ac4f04af376681e19f9d2e7473b689f79aed59522aa457a4e5607f" => :x86_64_linux
+    sha256 "062f7b10b85a8bc0bc21e038b436d12f16ea6ebc670a4fee8d2ebeaa5bfc3a31" => :x86_64_linux
   end
