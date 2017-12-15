@@ -1,16 +1,8 @@
-==> Installing xhost from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/xhost-1.0.7.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/xhost-1.0.7.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/xhost/1.0.7 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-unix-transport --enable-tcp-transport --enable-ipv6 --enable-local-transport --enable-secure-rpc
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/xhost`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/xhost/1.0.7: 8 files, 113.5KB, built in 7 seconds
-==> Determining linuxbrew/xorg/xhost bottle rebuild...
-==> Bottling xhost-1.0.7.x86_64_linux.bottle.1.tar.gz...
-./xhost-1.0.7.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/xineramaproto bottle rebuild...
+==> Bottling xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "3f96179c1376c1707c51e24b5d34837a716b15f343d43e12b2e5bfd910045b4d" => :x86_64_linux
+    sha256 "41134ec9c162ba36f40cdd7424a1e84bc254c63adc619d88eac68ffa4dbfe97f" => :x86_64_linux
   end
