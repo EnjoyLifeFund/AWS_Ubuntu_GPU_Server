@@ -1,15 +1,8 @@
-==> Downloading https://github.com/nickbruun/hayai/archive/v1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/nickbruun/hayai/tar.gz/v1.0.1
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/hayai/1.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hayai`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hayai/1.0.1: 24 files, 800KB, built in 5 seconds
-==> Determining hayai bottle rebuild...
-==> Bottling hayai-1.0.1.x86_64_linux.bottle.1.tar.gz...
-./hayai-1.0.1.x86_64_linux.bottle.1.tar.gz
+==> Determining hdf5 bottle rebuild...
+==> Bottling hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hdf5-1.10.1_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "2a4ae857e482e64774c8d854504475fee17233695ac56fa9c5ba2b143001db7e" => :x86_64_linux
+    sha256 "aa5770de212b8c7d72d93e37c72768732dd7dfe1e2892fee675dab413945e457" => :x86_64_linux
   end
