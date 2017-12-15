@@ -1,13 +1,20 @@
-==> Downloading http://lav.yar.ru/download/le/le-1.16.5.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/le/1.16.5
+==> Downloading https://github.com/leanprover/lean/archive/v3.3.0.tar.gz
+==> Downloading from https://codeload.github.com/leanprover/lean/tar.gz/v3.3.0
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall le`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/le/1.16.5: 63 files, 553.9KB, built in 48 seconds
-==> Determining le bottle rebuild...
-==> Bottling le-1.16.5.x86_64_linux.bottle.1.tar.gz...
-./le-1.16.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lean`
+==> Caveats
+Emacs Lisp files have been installed to:
+  /home/linuxbrew/.linuxbrew/share/emacs/site-lisp/lean
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lean/3.3.0: 878 files, 62.4MB, built in 1 minute 26 seconds
+==> Determining lean bottle rebuild...
+==> Bottling lean-3.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lean-3.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lean-3.3.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "12254c364b8240d5531a38485c09c9079090c5f5e716d799a53c091c11038fc9" => :x86_64_linux
+    sha256 "0d505c08eecd2f6d57e3451a7a28f5b99b27c53315813369113246356372c46a" => :x86_64_linux
   end
