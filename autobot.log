@@ -1,18 +1,15 @@
-==> Installing nonpareil from homebrew/science
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/lmrodriguezr/nonpareil/archive/v3.1.1.tar.gz
-==> Downloading from https://codeload.github.com/lmrodriguezr/nonpareil/tar.gz/v3.1.1
-==> make nonpareil
-==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1 mandir=/home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1/share/man/man1 install
+==> Installing nxtrim from homebrew/science
+==> Downloading https://github.com/sequencing/NxTrim/archive/v0.4.2.tar.gz
+==> Downloading from https://codeload.github.com/sequencing/NxTrim/tar.gz/v0.4.2
+==> make BOOST_ROOT=/home/linuxbrew/.linuxbrew/opt/boost
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/nonpareil`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/nonpareil/3.1.1: 26 files, 392.9KB, built in 13 seconds
-==> Determining homebrew/science/nonpareil bottle rebuild...
-==> Bottling nonpareil-3.1.1.x86_64_linux.bottle.1.tar.gz...
-./nonpareil-3.1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/nxtrim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/nxtrim/0.4.2: 7 files, 195.5KB, built in 3 seconds
+==> Determining homebrew/science/nxtrim bottle rebuild...
+==> Bottling nxtrim-0.4.2.x86_64_linux.bottle.1.tar.gz...
+./nxtrim-0.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "b8a82c96debddfa586190b943a60c0533bf8f585381a0dc436823614c46a5cd7" => :x86_64_linux
+    sha256 "a70cece96950a66c67757164a2b5e4d63319af18e8ce33ab27f3e8afab96d7ee" => :x86_64_linux
   end
