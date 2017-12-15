@@ -1,14 +1,15 @@
-==> Downloading http://www.phontron.com/kytea/download/kytea-0.4.7.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/kytea/0.4.7
+==> Cloning https://github.com/l-smash/l-smash.git
+==> Checking out tag v2.9.1
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/l-smash/2.9.1 --enable-shared
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kytea`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/kytea/0.4.7: 42 files, 147.4MB, built in 37 seconds
-==> Determining kytea bottle rebuild...
-==> Bottling kytea-0.4.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if kytea-0.4.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./kytea-0.4.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall l-smash`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/l-smash/2.9.1: 12 files, 1.9MB, built in 7 seconds
+==> Determining l-smash bottle rebuild...
+==> Bottling l-smash-2.9.1.x86_64_linux.bottle.1.tar.gz...
+./l-smash-2.9.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5ef1b99eef670313a1a43a25d155f3e63dbfc18d8da56b9879555599d0991aee" => :x86_64_linux
+    sha256 "4b99956ab5d0a30bba41b9586200cdb05ae254507e15aab66ff415aeea8c337c" => :x86_64_linux
   end
