@@ -1,9 +1,15 @@
-==> Determining gx-go bottle rebuild...
-==> Bottling gx-go-1.6.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gx-go-1.6.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gx-go-1.6.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://download.gnome.org/sources/gxml/0.14/gxml-0.14.3.tar.xz
+==> Downloading from http://mirror.umd.edu/gnome/sources/gxml/0.14/gxml-0.14.3.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/gxml/0.14.3 --disable-schemas-compile
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gxml`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gxml/0.14.3: 134 files, 18.7MB, built in 1 minute 8 seconds
+==> Determining gxml bottle rebuild...
+==> Bottling gxml-0.14.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gxml-0.14.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gxml-0.14.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "4293eecf6bf8b2617feca719c73d142c97a88499d09947d3f5ed3405a2a247b4" => :x86_64_linux
+    sha256 "6ffd4938dd07b838350ccc6cfd96472621b5c80b31778d6406a3d7e19ffdd4ba" => :x86_64_linux
   end
