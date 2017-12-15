@@ -1,15 +1,13 @@
-==> Downloading https://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz
-==> autoreconf -fvi
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/liboil/0.3.17
-==> make
+==> Downloading https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
+==> Downloading from https://astuteinternet.dl.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libopendkim/2.10.3 --disable-filter --with-unbound=/home/linuxbrew/.linuxbrew/opt/unbound --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall liboil`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/liboil/0.3.17: 61 files, 6.4MB, built in 40 seconds
-==> Determining liboil bottle rebuild...
-==> Bottling liboil-0.3.17.x86_64_linux.bottle.tar.gz...
-==> Detecting if liboil-0.3.17.x86_64_linux.bottle.tar.gz is relocatable...
-./liboil-0.3.17.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall libopendkim`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libopendkim/2.10.3: 159 files, 2MB, built in 20 seconds
+==> Determining libopendkim bottle rebuild...
+==> Bottling libopendkim-2.10.3.x86_64_linux.bottle.tar.gz...
+./libopendkim-2.10.3.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "6acde6f8c05e0ae25af1cff4e9fffa718e6a5c2bf62f348c70d067a56394d996" => :x86_64_linux
+    sha256 "cc224f1ebe074624827ccd0c0b9d136ff7317da54c4675ba3df8c30742187f06" => :x86_64_linux
   end
