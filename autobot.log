@@ -1,13 +1,3 @@
-==> Downloading https://www.chiark.greenend.org.uk/~sgtatham/ipbt/ipbt-20170831.3c40fd3.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ipbt/20170831
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ipbt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ipbt/20170831: 7 files, 847KB, built in 5 seconds
-==> Determining ipbt bottle rebuild...
-==> Bottling ipbt-20170831.x86_64_linux.bottle.1.tar.gz...
-./ipbt-20170831.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "291751ed2f9c22bd898028bd0fce9165e67e5d4e82d3342986ba6cde10e6126a" => :x86_64_linux
-  end
+==> Downloading http://jodies.de/ipcalc-archive/ipcalc-0.41.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ipcalc/0.41: 5 files, 44.5KB, built in 2 seconds
+This formula doesn't require compiling.
