@@ -1,19 +1,14 @@
-==> Downloading https://libav.org/releases/libav-12.2.tar.xz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/b6e917c/libav/Check-for--no_weak_imports-in-ldflags-on-macOS.patch
-==> Patching
-==> Applying Check-for--no_weak_imports-in-ldflags-on-macOS.patch
-patching file configure
-Hunk #1 succeeded at 3825 with fuzz 2 (offset 8 lines).
-==> ./configure --disable-shared --disable-indev=jack --prefix=/home/linuxbrew/.linuxbrew/Cellar/libav/12.2 --enable-gpl --enable-nonfree --enable-version3 --enable-vda --cc=gcc-6 --host-cflags= --host-ldflags= --enable-libfaac --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid
-==> make
+==> Downloading https://blake2.net/libb2-0.97.tar.gz
+==> ./configure --disable-silent-rules --enable-fat --prefix=/home/linuxbrew/.linuxbrew/Cellar/libb2/0.97
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libav`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libav/12.2: 9 files, 37.6MB, built in 45 seconds
-==> Determining libav bottle rebuild...
-==> Bottling libav-12.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if libav-12.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./libav-12.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libb2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libb2/0.97: 8 files, 303.5KB, built in 10 seconds
+==> Determining libb2 bottle rebuild...
+==> Bottling libb2-0.97.x86_64_linux.bottle.1.tar.gz...
+./libb2-0.97.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "5a08e427f49f32942bb705ca398666a04ac01b16c334dd92b08155b114a3e817" => :x86_64_linux
+    sha256 "9a9fe1e2cca6666608e945202be55c8014dcd2ad340109f8367a4ab9e1a0df2e" => :x86_64_linux
   end
