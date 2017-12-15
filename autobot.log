@@ -1,15 +1,8 @@
-==> Installing libxfontcache from linuxbrew/xorg
-==> Downloading https://www.x.org/archive//individual/lib/libXfontcache-1.0.5.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libxfontcache/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules --enable-static=no
-==> make
-==> make check
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/libxfontcache`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxfontcache/1.0.5: 17 files, 96.5KB, built in 10 seconds
-==> Determining linuxbrew/xorg/libxfontcache bottle rebuild...
-==> Bottling libxfontcache-1.0.5.x86_64_linux.bottle.tar.gz...
-./libxfontcache-1.0.5.x86_64_linux.bottle.tar.gz
+==> Determining linuxbrew/xorg/libxft bottle rebuild...
+==> Bottling libxft-2.3.2.x86_64_linux.bottle.1.tar.gz...
+./libxft-2.3.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "56dad04cc8aa960fb3565d7886ab5cb39cfe1053c36f851f8feb8da426440de4" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "5e92d8ce1ef91456955d712bb716cd73de584c12ec71f718603091c0eb8a13db" => :x86_64_linux
   end
