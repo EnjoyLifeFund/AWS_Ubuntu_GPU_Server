@@ -1,15 +1,15 @@
-==> Downloading https://download.gnome.org/sources/gssdp/1.0/gssdp-1.0.2.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/gssdp/1.0/gssdp-1.0.2.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gssdp/1.0.2
+==> Downloading https://gstreamer.freedesktop.org/src/gst-editing-services/gstreamer-editing-services-1.12.4.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gst-editing-services/1.12.4 --disable-gtk-doc --disable-docbook
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gssdp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gssdp/1.0.2: 37 files, 522.2KB, built in 22 seconds
-==> Determining gssdp bottle rebuild...
-==> Bottling gssdp-1.0.2.x86_64_linux.bottle.1.tar.gz...
-./gssdp-1.0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gst-editing-services`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gst-editing-services/1.12.4: 77 files, 4.8MB, built in 35 seconds
+==> Determining gst-editing-services bottle rebuild...
+==> Bottling gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gst-editing-services-1.12.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6ada139ac3a9fb0c6bb3b6eb7a6a686af4d8dc6c660db0455055f935634fd4d2" => :x86_64_linux
+    sha256 "91085f65d2260b51284f19625d2fa924558720d58cc330fd8f9f3dd08e892e5f" => :x86_64_linux
   end
