@@ -1,14 +1,15 @@
-==> Installing adam from homebrew/science
-==> Downloading https://search.maven.org/remotecontent?filepath=org/bdgenomics/adam/adam-distribution-spark2_2.11/0.22.0/adam-distribution-spark2_2.11-0.22.0-bin.tar.gz
+==> Installing adapterremoval from homebrew/science
+==> Downloading https://github.com/MikkelSchubert/adapterremoval/archive/v2.2.2.tar.gz
+==> Downloading from https://codeload.github.com/MikkelSchubert/adapterremoval/tar.gz/v2.2.2
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/adapterremoval/2.2.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/adam`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/adam/0.22.0: 383 files, 51.9MB, built in 4 seconds
-==> Determining homebrew/science/adam bottle rebuild...
-==> Bottling adam-0.22.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if adam-0.22.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./adam-0.22.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/adapterremoval`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/adapterremoval/2.2.2: 18 files, 1.6MB, built in 4 seconds
+==> Determining homebrew/science/adapterremoval bottle rebuild...
+==> Bottling adapterremoval-2.2.2.x86_64_linux.bottle.1.tar.gz...
+./adapterremoval-2.2.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "403267b462302974da88ee907011793a4c7883f37579e026ef913bd40a673884" => :x86_64_linux
+    sha256 "e1459cc851ba15a3a3a361e2eae06617990bbc6805c0b26defec061956c49176" => :x86_64_linux
   end
