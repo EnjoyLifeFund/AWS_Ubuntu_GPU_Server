@@ -1,13 +1,1 @@
-==> Downloading ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6 --mandir=/home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hfsutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hfsutils/3.2.6: 36 files, 561.4KB, built in 4 seconds
-==> Determining hfsutils bottle rebuild...
-==> Bottling hfsutils-3.2.6.x86_64_linux.bottle.1.tar.gz...
-./hfsutils-3.2.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "ac97177e8633502e0b71f7c27425cf2a2c4c46fe2336474240681d97eb21dd43" => :x86_64_linux
-  end
+This formula doesn't require compiling.
