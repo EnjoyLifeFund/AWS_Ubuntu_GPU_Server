@@ -1,16 +1,8 @@
-==> Installing bdftopcf from linuxbrew/xorg
-==> Downloading https://www.x.org/pub/individual/app/bdftopcf-1.0.5.tar.bz2
-==> Downloading from https://www.x.org/archive//individual/app/bdftopcf-1.0.5.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bdftopcf/1.0.5 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --disable-silent-rules
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall linuxbrew/xorg/bdftopcf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bdftopcf/1.0.5: 8 files, 71.5KB, built in 8 seconds
-==> Determining linuxbrew/xorg/bdftopcf bottle rebuild...
-==> Bottling bdftopcf-1.0.5.x86_64_linux.bottle.1.tar.gz...
-./bdftopcf-1.0.5.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/bigreqsproto bottle rebuild...
+==> Bottling bigreqsproto-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./bigreqsproto-1.1.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "dccdcb6e730229a08d637e44166d638e61337b3b80e689dfa5e36002de2b6626" => :x86_64_linux
+    sha256 "9dff7a2f38ea83de5c43fc71f79f16935176a312ffbe0f94af8a1bfb1b776571" => :x86_64_linux
   end
