@@ -1,25 +1,17 @@
-==> Downloading https://github.com/mit-nlp/MITIE/archive/v0.5.tar.gz
-==> Downloading from https://codeload.github.com/mit-nlp/MITIE/tar.gz/v0.5
-==> Downloading https://downloads.sourceforge.net/project/mitie/binaries/MITIE-models-v0.2.tar.bz2
-==> Downloading from https://cytranet.dl.sourceforge.net/project/mitie/binaries/MITIE-models-v0.2.tar.bz2
-==> make mitielib
-==> make
+==> Downloading https://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2
+==> Downloading from https://phoenixnap.dl.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2
+==> Patching
+patching file corec/tools/coremake/gcc_osx_x64.build
+==> ./mkclean/configure
+==> make mkclean
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mitie`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mitie/0.5: 108 files, 677.4MB, built in 3 minutes 25 seconds
-==> Determining mitie bottle rebuild...
-==> Bottling mitie-0.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mitie-0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mitie-0.5.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mkclean`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mkclean/0.8.10: 5 files, 572.5KB, built in 1 minute 4 seconds
+==> Determining mkclean bottle rebuild...
+==> Bottling mkclean-0.8.10.x86_64_linux.bottle.1.tar.gz...
+./mkclean-0.8.10.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "a142644d90f9ced60b9d86a415df108f8f1811183dadc3f2f0f002af785f3d29" => :x86_64_linux
+    sha256 "1b959726c9083452ccd9d56456bd36259aa693b11675dfc38ce968ebefe29a3c" => :x86_64_linux
   end
