@@ -1,7 +1,16 @@
-==> Determining luajit bottle rebuild...
-==> Bottling luajit-2.0.5.x86_64_linux.bottle.1.tar.gz...
-./luajit-2.0.5.x86_64_linux.bottle.1.tar.gz
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/vsergeev/luaradio/archive/v0.5.0.tar.gz
+==> Downloading from https://codeload.github.com/vsergeev/luaradio/tar.gz/v0.5.0
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/luaradio/0.5.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall luaradio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/luaradio/0.5.0: 13 files, 946.3KB, built in 2 seconds
+==> Determining luaradio bottle rebuild...
+==> Bottling luaradio-0.5.0.x86_64_linux.bottle.1.tar.gz...
+./luaradio-0.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e895e08d47ed4b649e596cef6e1005b91b5a2f82e604193298632240db390f30" => :x86_64_linux
+    sha256 "39c3f1c9c2d732fc32b7534f182973136dabf4970105585043fe1ae7602a30eb" => :x86_64_linux
   end
