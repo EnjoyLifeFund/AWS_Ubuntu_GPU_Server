@@ -1,14 +1,15 @@
-==> Downloading https://downloads.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz
-==> Downloading from https://gigenet.dl.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz
-==> make
+==> Downloading https://github.com/swh/LRDF/archive/v0.6.1.tar.gz
+==> Downloading from https://codeload.github.com/swh/LRDF/tar.gz/v0.6.1
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lrdf/0.6.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lpc21isp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lpc21isp/1.97: 4 files, 3.3MB, built in 2 seconds
-==> Determining lpc21isp bottle rebuild...
-==> Bottling lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lrdf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lrdf/0.6.1: 33 files, 384.4KB, built in 21 seconds
+==> Determining lrdf bottle rebuild...
+==> Bottling lrdf-0.6.1.x86_64_linux.bottle.1.tar.gz...
+./lrdf-0.6.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "de65df603590e9ac5ca9fb11a5311dbc71b4a1b86159d27129bb4f174c1957ff" => :x86_64_linux
+    sha256 "4864b8465839ac507a2c64c44b01730ba616f167b3e6d3b962feba2b2b57b72e" => :x86_64_linux
   end
