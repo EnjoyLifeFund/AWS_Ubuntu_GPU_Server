@@ -1,19 +1,19 @@
-==> Downloading https://www.mirrorservice.org/sites/distfiles.macports.org/mecab/mecab-jumandic-7.0-20130310.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mecab-jumandic/7.0-20130310 --with-charset=utf8 --with-dicdir=/home/linuxbrew/.linuxbrew/Cellar/mecab-jumandic/7.0-20130310/lib/mecab/dic/jumandic
+==> Downloading https://ja.osdn.net/frs/redir.php?f=%2Funidic%2F58338%2Funidic-mecab-2.1.2_src.zip
+==> Downloading from http://jaist.dl.osdn.jp/unidic/58338/unidic-mecab-2.1.2_src.zip
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mecab-unidic/2.1.2 --with-dicdir=/home/linuxbrew/.linuxbrew/Cellar/mecab-unidic/2.1.2/lib/mecab/dic/unidic
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mecab-jumandic`
+You can run it manually using `brew postinstall mecab-unidic`
 ==> Caveats
-To enable mecab-jumandic dictionary, add to /home/linuxbrew/.linuxbrew/etc/mecabrc:
-  dicdir = /home/linuxbrew/.linuxbrew/lib/mecab/dic/jumandic
+To enable mecab-unidic dictionary, add to /home/linuxbrew/.linuxbrew/etc/mecabrc:
+  dicdir = /home/linuxbrew/.linuxbrew/lib/mecab/dic/unidic
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mecab-jumandic/7.0-20130310: 16 files, 137.2MB, built in 13 seconds
-==> Determining mecab-jumandic bottle rebuild...
-==> Bottling mecab-jumandic-7.0-20130310.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mecab-jumandic-7.0-20130310.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mecab-jumandic-7.0-20130310.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mecab-unidic/2.1.2: 12 files, 196.2MB, built in 35 seconds
+==> Determining mecab-unidic bottle rebuild...
+==> Bottling mecab-unidic-2.1.2.x86_64_linux.bottle.tar.gz...
+==> Detecting if mecab-unidic-2.1.2.x86_64_linux.bottle.tar.gz is relocatable...
+./mecab-unidic-2.1.2.x86_64_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "eeaef8830adc19970e10bb622226af9a8f830fb8baead9c7e189f99d58132eab" => :x86_64_linux
+    sha256 "0be118a59e127ed016076540813b71431f6d67139c5339305f02ce0aa359b69c" => :x86_64_linux
   end
