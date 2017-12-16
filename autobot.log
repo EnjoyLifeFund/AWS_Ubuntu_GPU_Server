@@ -1,15 +1,16 @@
 ==> Upgrading 1 outdated package, with result:
-git-crypt 0.6.0
-==> Upgrading git-crypt 
-==> Downloading https://www.agwa.name/projects/git-crypt/downloads/git-crypt-0.6.0.tar.gz
-==> make
+fuse-zip 0.4.4
+==> Upgrading fuse-zip 
+==> Downloading https://bitbucket.org/agalanin/fuse-zip/downloads/fuse-zip-0.4.4.tar.gz
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/4cb36c18-bb1f-4bdf-8947-eed9ab399849/downloads/814cf68a-41eb-4680-a23f-4457faf04cca/fuse-zip-0.4.4.tar.gz?Signature=3dtCzlpsUJ3B8J%2Fmqsysi%2FluKns%3D&Expires=1513396471&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=wktuQSh38snvMbDhcOpMei6QqOGZBNkB&response-content-disposition=attachment%3B%20filename%3D%22fuse-zip-0.4.4.tar.gz%22
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/fuse-zip/0.4.4 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall git-crypt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/git-crypt/0.6.0: 9 files, 258.4KB, built in 4 seconds
-==> Determining git-crypt bottle rebuild...
-==> Bottling git-crypt-0.6.0.x86_64_linux.bottle.1.tar.gz...
-./git-crypt-0.6.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall fuse-zip`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fuse-zip/0.4.4: 9 files, 631.8KB, built in 3 seconds
+==> Determining fuse-zip bottle rebuild...
+==> Bottling fuse-zip-0.4.4.x86_64_linux.bottle.1.tar.gz...
+./fuse-zip-0.4.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "6e34bc36a49fbc3da1b0aec334db3726fdaf19abd4ca5ac84eab0e4bb723765f" => :x86_64_linux
+    sha256 "95d50709e2cf396f78de1718ea23e136afdc35be191add6a7cf847ac39cc9451" => :x86_64_linux
   end
