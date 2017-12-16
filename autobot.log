@@ -1,7 +1,1 @@
-==> Determining tre bottle rebuild...
-==> Bottling tre-0.8.0.x86_64_linux.bottle.1.tar.gz...
-./tre-0.8.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "8e82f4bbfc5162d5981c2be6cbc5ae06a616540f564ac7450b1e76b4a891e6ea" => :x86_64_linux
-  end
+This formula doesn't require compiling.
