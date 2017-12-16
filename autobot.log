@@ -1,14 +1,13 @@
-==> Downloading https://matt.ucc.asn.au/dropbear/releases/dropbear-2017.75.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dropbear/2017.75 --enable-pam --enable-zlib --enable-bundled-libtom --sysconfdir=/home/linuxbrew/.linuxbrew/etc/dropbear
-==> make
+==> Downloading https://dl.duosecurity.com/duo_unix-1.10.1.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/duo_unix/1.10.1 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --includedir=/home/linuxbrew/.linuxbrew/Cellar/duo_unix/1.10.1/include/duo --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-pam=/home/linuxbrew/.linuxbrew/Cellar/duo_unix/1.10.1/lib/pam/
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dropbear`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dropbear/2017.75: 14 files, 822.4KB, built in 54 seconds
-==> Determining dropbear bottle rebuild...
-==> Bottling dropbear-2017.75.x86_64_linux.bottle.1.tar.gz...
-./dropbear-2017.75.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall duo_unix`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/duo_unix/1.10.1: 21 files, 726.3KB, built in 9 seconds
+==> Determining duo_unix bottle rebuild...
+==> Bottling duo_unix-1.10.1.x86_64_linux.bottle.1.tar.gz...
+./duo_unix-1.10.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aa309592c9ca802bde54caf3f06e8214d8f316d9dc350f4924635d18e5781c76" => :x86_64_linux
+    sha256 "9bf702c3fbad353d4f8243f3b2f64e0aa4757e9a968aae37b42337008d4a601a" => :x86_64_linux
   end
