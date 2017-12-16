@@ -1,8 +1,3 @@
-==> Determining meson bottle rebuild...
-==> Bottling meson-0.44.0.x86_64_linux.bottle.1.tar.gz...
-./meson-0.44.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "4abb14ae64fc81e628342d34ce5c8471e79b9d27d08ea6c4101c869b17da03e3" => :x86_64_linux
-  end
+==> Downloading http://downloads.metabase.com/v0.26.1/metabase.jar
+🍺  /home/linuxbrew/.linuxbrew/Cellar/metabase/0.26.1: 4 files, 114MB, built in 9 seconds
+This formula doesn't require compiling.
