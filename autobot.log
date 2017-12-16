@@ -1,3 +1,9 @@
-==> Downloading http://downloads.metabase.com/v0.26.1/metabase.jar
-🍺  /home/linuxbrew/.linuxbrew/Cellar/metabase/0.26.1: 4 files, 114MB, built in 9 seconds
-This formula doesn't require compiling.
+==> Determining metis bottle rebuild...
+==> Bottling metis-5.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if metis-5.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./metis-5.1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "e9d579ef4b27545002fb5bdd7916766148c3fcb8404b33b8dd005d4caa699b7f" => :x86_64_linux
+  end
