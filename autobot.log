@@ -1,13 +1,7 @@
-==> Downloading https://dl.bintray.com/homebrew/mirror/lzop-1.04.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lzop/1.04
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lzop`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lzop/1.04: 20 files, 593.4KB, built in 18 seconds
-==> Determining lzop bottle rebuild...
-==> Bottling lzop-1.04.x86_64_linux.bottle.1.tar.gz...
-./lzop-1.04.x86_64_linux.bottle.1.tar.gz
+==> Determining m4 bottle rebuild...
+==> Bottling m4-1.4.18.x86_64_linux.bottle.1.tar.gz...
+./m4-1.4.18.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "41ebf6b85b7ebe3fdedd56137c28806364d7fa66ba22f1965635cfb442bdf4b8" => :x86_64_linux
+    sha256 "d67f45d7657e34206dd90e3c9e7b0eb519d227f69b9a1f1f64b8dc0f28b509a8" => :x86_64_linux
   end
