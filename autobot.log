@@ -1,14 +1,17 @@
-==> Downloading https://downloads.sourceforge.net/project/lsdvd/lsdvd/lsdvd-0.17.tar.gz
-==> Downloading from https://newcontinuum.dl.sourceforge.net/project/lsdvd/lsdvd/lsdvd-0.17.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17 --mandir=/home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17/share/man
-==> make install
+==> Downloading https://mirrorservice.org/sites/lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_4.89.tar.bz2
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c3acbb8/lsof/lsof-489-darwin-compile-fix.patch
+==> Patching
+==> Applying lsof-489-darwin-compile-fix.patch
+patching file dialects/darwin/libproc/dfile.c
+==> ./Configure -n linux
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lsdvd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17: 8 files, 131.6KB, built in 4 seconds
-==> Determining lsdvd bottle rebuild...
-==> Bottling lsdvd-0.17.x86_64_linux.bottle.1.tar.gz...
-./lsdvd-0.17.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lsof`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lsof/4.89: 6 files, 372.4KB, built in 4 seconds
+==> Determining lsof bottle rebuild...
+==> Bottling lsof-4.89.x86_64_linux.bottle.1.tar.gz...
+./lsof-4.89.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8584a6ef75c241f57cff8e29c51110d3ea5c3ecb7bbe48e398797fe943e114ca" => :x86_64_linux
+    sha256 "bf78442cf743df2c7490c94eb4b5053fbacc2b0e866fe0c01f016eefa1c3ee25" => :x86_64_linux
   end
