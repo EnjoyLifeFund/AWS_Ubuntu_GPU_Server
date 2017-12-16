@@ -1,23 +1,7 @@
-==> Installing dependencies for fuse-emulator: libspectrum
-==> Installing fuse-emulator dependency: libspectrum
-==> Downloading https://downloads.sourceforge.net/project/fuse-emulator/libspectrum/1.4.1/libspectrum-1.4.1.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/fuse-emulator/libspectrum/1.4.1/libspectrum-1.4.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libspectrum/1.4.1
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libspectrum/1.4.1: 13 files, 2.4MB, built in 9 seconds
-==> Installing fuse-emulator
-==> Downloading https://downloads.sourceforge.net/project/fuse-emulator/fuse/1.5.0/fuse-1.5.0.tar.gz
-==> Downloading from https://ayera.dl.sourceforge.net/project/fuse-emulator/fuse/1.5.0/fuse-1.5.0.tar.gz
-==> ./configure --disable-sdltest --with-sdl --prefix=/home/linuxbrew/.linuxbrew/Cellar/fuse-emulator/1.5.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fuse-emulator`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fuse-emulator/1.5.0: 34 files, 4.7MB, built in 16 seconds
-==> Determining fuse-emulator bottle rebuild...
-==> Bottling fuse-emulator-1.5.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fuse-emulator-1.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fuse-emulator-1.5.0.x86_64_linux.bottle.1.tar.gz
+==> Determining gdal bottle rebuild...
+==> Bottling gdal-1.11.5_3.x86_64_linux.bottle.tar.gz...
+==> Detecting if gdal-1.11.5_3.x86_64_linux.bottle.tar.gz is relocatable...
+./gdal-1.11.5_3.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "f1ae5f95311738520463fedcb4428571a9895752c6978bc22ca8afc8846b504c" => :x86_64_linux
+    sha256 "1fb28e3f944eed6988038fe69b6f6d1cf795e6a5e83690a3a5990ea2e901c7bf" => :x86_64_linux
   end
