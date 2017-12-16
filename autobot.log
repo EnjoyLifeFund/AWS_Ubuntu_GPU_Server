@@ -1,8 +1,17 @@
-==> Determining clisp bottle rebuild...
-==> Bottling clisp-2.49_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clisp-2.49_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clisp-2.49_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://hackage.haskell.org/package/cryptol-2.5.0/cryptol-2.5.0.tar.gz
+==> cabal sandbox init
+==> cabal update
+==> cabal install --jobs=32 --max-backjumps=100000 alex
+==> cabal install --jobs=32 --max-backjumps=100000 happy<1.19.6
+==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
+==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/cryptol/2.5.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cryptol`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cryptol/2.5.0: 8 files, 17.6MB, built in 7 minutes 2 seconds
+==> Determining cryptol bottle rebuild...
+==> Bottling cryptol-2.5.0.x86_64_linux.bottle.tar.gz...
+==> Detecting if cryptol-2.5.0.x86_64_linux.bottle.tar.gz is relocatable...
+./cryptol-2.5.0.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "be30615d66655354feb850946ecadda95c6695e46bef81bb9eb13a371c9b8c99" => :x86_64_linux
+    sha256 "b988b7f7612a83ce309b2851cdbf39ca3500862da791f25b292c86499b0fa942" => :x86_64_linux
   end
