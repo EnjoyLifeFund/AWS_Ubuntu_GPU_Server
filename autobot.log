@@ -1,8 +1,15 @@
-==> Determining miniupnpc bottle rebuild...
-==> Bottling miniupnpc-2.0.20171102.x86_64_linux.bottle.1.tar.gz...
-./miniupnpc-2.0.20171102.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/MiniZinc/libminizinc/archive/2.1.6.tar.gz
+==> Downloading from https://codeload.github.com/MiniZinc/libminizinc/tar.gz/2.1.6
+==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/minizinc/2.1.6 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> cmake --build . --target install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall minizinc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minizinc/2.1.6: 325 files, 48.8MB, built in 15 seconds
+==> Determining minizinc bottle rebuild...
+==> Bottling minizinc-2.1.6.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if minizinc-2.1.6.x86_64_linux.bottle.1.tar.gz is relocatable...
+./minizinc-2.1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ac9b70003424eb8dbd0761022e0b7555f0da7cdce6061ff65f8ea38d4d42dd42" => :x86_64_linux
+    sha256 "de82271a207ea249a2aee4d005301708ac314ca9f2ccc65d9efa1e9d140f3003" => :x86_64_linux
   end
