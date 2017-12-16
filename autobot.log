@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining vala bottle rebuild...
+==> Bottling vala-0.38.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if vala-0.38.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./vala-0.38.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "54979d127fa7edb6511f1131750e75d60b69915a1c65ad20362b89616a382b89" => :x86_64_linux
+  end
