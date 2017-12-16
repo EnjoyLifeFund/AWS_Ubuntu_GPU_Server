@@ -1,30 +1,12 @@
-==> Downloading http://mandoc.bsd.lv/snapshots/mandoc-1.14.3.tar.gz
-==> ./configure
-==> make
+==> Downloading https://ftp.gnu.org/gnu/marst/marst-2.7.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/marst/2.7
 ==> make install
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/soelim
-Target /home/linuxbrew/.linuxbrew/bin/soelim
-is a symlink belonging to groff. You can unlink it:
-  brew unlink groff
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite mandoc
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run mandoc
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/soelim -> /home/linuxbrew/.linuxbrew/Cellar/groff/1.22.3/bin/soelim
-/home/linuxbrew/.linuxbrew/share/man/man1/soelim.1 -> /home/linuxbrew/.linuxbrew/Cellar/groff/1.22.3/share/man/man1/soelim.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mandoc`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mandoc/1.14.3: 29 files, 2.5MB, built in 15 seconds
-==> Determining mandoc bottle rebuild...
-==> Bottling mandoc-1.14.3.x86_64_linux.bottle.1.tar.gz...
-./mandoc-1.14.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall marst`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/marst/2.7: 14 files, 582.3KB, built in 9 seconds
+==> Determining marst bottle rebuild...
+==> Bottling marst-2.7.x86_64_linux.bottle.tar.gz...
+./marst-2.7.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "c8b4699cdb72d6fee577d4f374d9850ff1932b013c615f8f286225a6818a823f" => :x86_64_linux
+    sha256 "847ee7c88a68a441d62006e5d87e7eb48db6cba16af74ea5c764c612dec1e38f" => :x86_64_linux
   end
