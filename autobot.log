@@ -1,13 +1,14 @@
-==> Downloading https://github.com/robertdavidgraham/masscan/archive/1.0.4.tar.gz
-==> Downloading from https://codeload.github.com/robertdavidgraham/masscan/tar.gz/1.0.4
-==> make
+==> Downloading https://github.com/laurent22/massren/archive/v1.5.4.tar.gz
+==> Downloading from https://codeload.github.com/laurent22/massren/tar.gz/v1.5.4
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/massren/1.5.4/bin/massren
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall masscan`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/masscan/1.0.4: 5 files, 1.3MB, built in 2 seconds
-==> Determining masscan bottle rebuild...
-==> Bottling masscan-1.0.4.x86_64_linux.bottle.1.tar.gz...
-./masscan-1.0.4.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall massren`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/massren/1.5.4: 4 files, 7.2MB, built in 26 seconds
+==> Determining massren bottle rebuild...
+==> Bottling massren-1.5.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if massren-1.5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./massren-1.5.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "e43f87a60ce31807cbf88826ba89be167faddebac4a05691b827e27b0d3c75b5" => :x86_64_linux
+    sha256 "034ef29cd9482016262a8e189ae14d9f0c9a9b9a740a69a9b8047d79120d384c" => :x86_64_linux
   end
