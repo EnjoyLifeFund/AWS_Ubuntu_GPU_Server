@@ -1,12 +1,15 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mdf2iso/mdf2iso_0.3.1.orig.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mdf2iso/0.3.1
-==> make install
+==> Downloading https://github.com/visit1985/mdp/archive/1.0.10.tar.gz
+==> Downloading from https://codeload.github.com/visit1985/mdp/tar.gz/1.0.10
+==> make
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mdp/1.0.10
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mdf2iso`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mdf2iso/0.3.1: 4 files, 42.8KB, built in 5 seconds
-==> Determining mdf2iso bottle rebuild...
-==> Bottling mdf2iso-0.3.1.x86_64_linux.bottle.tar.gz...
-./mdf2iso-0.3.1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall mdp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mdp/1.0.10: 8 files, 114.4KB, built in 1 second
+==> Determining mdp bottle rebuild...
+==> Bottling mdp-1.0.10.x86_64_linux.bottle.1.tar.gz...
+./mdp-1.0.10.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "413086c1b398e1eba5c910b7b12666b46c7a7bf502962535b4ad058227fb2b8e" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d570b7b7e0da25aba688e40f070ff547bd83cbb56ed59fc582f7314410563708" => :x86_64_linux
   end
