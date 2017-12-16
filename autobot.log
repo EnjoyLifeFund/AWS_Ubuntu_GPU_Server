@@ -1,41 +1,15 @@
-==> Downloading https://github.com/LogtalkDotOrg/logtalk3/archive/lgt3130stable.tar.gz
-==> Downloading from https://codeload.github.com/LogtalkDotOrg/logtalk3/tar.gz/lgt3130stable
-==> ./install.sh -p /home/linuxbrew/.linuxbrew/Cellar/logtalk/3.13.0
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink share/mime/XMLnamespaces
-Target /home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
-already exists. You may want to remove it:
-  rm '/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces'
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite logtalk
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run logtalk
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/share/mime/XMLnamespaces
-/home/linuxbrew/.linuxbrew/share/mime/aliases
-/home/linuxbrew/.linuxbrew/share/mime/generic-icons
-/home/linuxbrew/.linuxbrew/share/mime/globs
-/home/linuxbrew/.linuxbrew/share/mime/globs2
-/home/linuxbrew/.linuxbrew/share/mime/icons
-/home/linuxbrew/.linuxbrew/share/mime/magic
-/home/linuxbrew/.linuxbrew/share/mime/mime.cache
-/home/linuxbrew/.linuxbrew/share/mime/subclasses
-/home/linuxbrew/.linuxbrew/share/mime/treemagic
-/home/linuxbrew/.linuxbrew/share/mime/types
-/home/linuxbrew/.linuxbrew/share/mime/version
+==> Cloning https://github.com/busyloop/lolcat.git
+==> Checking out tag v90.8.8
+==> gem build lolcat.gemspec
+==> gem install lolcat-90.8.8.gem
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall logtalk`
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/logtalk/3.13.0: 4,450 files, 29.5MB, built in 4 seconds
-==> Determining logtalk bottle rebuild...
-==> Bottling logtalk-3.13.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if logtalk-3.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./logtalk-3.13.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lolcat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lolcat/90.8.8: 127 files, 495.6KB, built in 2 seconds
+==> Determining lolcat bottle rebuild...
+==> Bottling lolcat-90.8.8.x86_64_linux.bottle.1.tar.gz...
+./lolcat-90.8.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "e4a51937f49f9d3e73fa5c31cee6711fe9c2e2c80c826094fe4f5b785124c8f9" => :x86_64_linux
+    sha256 "87dfe8d80f33933b3071e206df809b994070d33c8994d08578f96d51de505086" => :x86_64_linux
   end
