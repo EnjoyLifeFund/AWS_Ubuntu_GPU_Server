@@ -1,16 +1,6 @@
-==> Downloading https://github.com/jessek/hashdeep/archive/release-4.4.tar.gz
-==> Downloading from https://codeload.github.com/jessek/hashdeep/tar.gz/release-4.4
-==> sh bootstrap.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/md5deep/4.4
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall md5deep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/md5deep/4.4: 21 files, 15.3MB, built in 21 seconds
-==> Determining md5deep bottle rebuild...
-==> Bottling md5deep-4.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if md5deep-4.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./md5deep-4.4.x86_64_linux.bottle.1.tar.gz
+==> Determining md5sha1sum bottle rebuild...
+==> Bottling md5sha1sum-0.9.5.x86_64_linux.bottle.tar.gz...
+./md5sha1sum-0.9.5.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "67f88d11757ba8cc6ba2c9a8d3f0a2f1911473e464cb5a2ca49077dbc78f44ba" => :x86_64_linux
+    sha256 "fbc061db8d051169edb2b9d10af04286a20c89a268b988484ef0ed01f5861ec1" => :x86_64_linux
   end
