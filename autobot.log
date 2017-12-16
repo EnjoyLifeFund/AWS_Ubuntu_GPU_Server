@@ -1,21 +1,3 @@
-==> Downloading https://github.com/t3rm1n4l/megacmd/archive/0.013.tar.gz
-==> Downloading from https://codeload.github.com/t3rm1n4l/megacmd/tar.gz/0.013
-==> Cloning https://github.com/t3rm1n4l/go-humanize.git
-==> Checking out revision e7ed15be05eb554fbaa83ac9b335556d6390fb9f
-==> Cloning https://github.com/t3rm1n4l/go-mega.git
-==> Checking out revision 551abb8f1c87053be3f24282d198a6614c0ca14f
-==> Cloning https://github.com/t3rm1n4l/megacmd.git
-==> Checking out revision d7f3f3a2427cc52b71cad90b26889e2a33fc3565
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/megacmd/0.013/bin/megacmd
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall megacmd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/megacmd/0.013: 4 files, 6.2MB, built in 2 seconds
-==> Determining megacmd bottle rebuild...
-==> Bottling megacmd-0.013.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if megacmd-0.013.x86_64_linux.bottle.1.tar.gz is relocatable...
-./megacmd-0.013.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b55bba96976b6ffe5e7add436e4b4b52ccce8ba1b999e9741d5347abcf8c8409" => :x86_64_linux
-  end
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/memcache-top/memcache-top-v0.6
+🍺  /home/linuxbrew/.linuxbrew/Cellar/memcache-top/0.6: 3 files, 27KB, built in 1 second
+This formula doesn't require compiling.
