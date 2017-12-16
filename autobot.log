@@ -1,1 +1,8 @@
+==> Cloning https://github.com/juven/maven-bash-completion.git
+==> Checking out revision 106b6ca03badc9474cf7b6b1b7039ad950a17f89
+==> Caveats
+Bash completion has been installed to:
+  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/maven-completion/20160501: 5 files, 45.9KB, built in 1 second
 This formula doesn't require compiling.
