@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining scalapack bottle rebuild...
+==> Bottling scalapack-2.0.2_9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if scalapack-2.0.2_9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./scalapack-2.0.2_9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "73037ba3705f0108980c2669e13aac398620ea6e7fd66c1a5323e6bb26823052" => :x86_64_linux
+  end
