@@ -1,13 +1,8 @@
-==> Downloading https://invisible-mirror.net/archives/mawk/mawk-1.3.4-20171017.tgz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mawk/1.3.4-20171017 --disable-silent-rules --with-readline=/usr/lib --mandir=/home/linuxbrew/.linuxbrew/Cellar/mawk/1.3.4-20171017/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mawk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mawk/1.3.4-20171017: 7 files, 637.7KB, built in 7 seconds
-==> Determining mawk bottle rebuild...
-==> Bottling mawk-1.3.4-20171017.x86_64_linux.bottle.1.tar.gz...
-./mawk-1.3.4-20171017.x86_64_linux.bottle.1.tar.gz
+==> Determining mbedtls bottle rebuild...
+==> Bottling mbedtls-2.6.0.x86_64_linux.bottle.1.tar.gz...
+./mbedtls-2.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f4b3b9138e4d4c033e83ab212e69fbee8594265de78e2fdba43a008fb1763fbc" => :x86_64_linux
+    sha256 "56ac5bc995b2b91e02f40aab2e567c99fc4058a8ac6fcfd7c1cc1fed4e3ebf64" => :x86_64_linux
   end
