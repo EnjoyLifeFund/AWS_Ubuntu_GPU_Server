@@ -1,6 +1,18 @@
 ==> Upgrading 1 outdated package, with result:
-flyway 5.0.2
-==> Upgrading flyway 
-==> Downloading https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.0.2/flyway-commandline-5.0.2.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/flyway/5.0.2: 22 files, 16MB, built in 2 seconds
-This formula doesn't require compiling.
+pyenv 1.2.0
+==> Upgrading pyenv 
+==> Downloading https://github.com/pyenv/pyenv/archive/v1.2.0.tar.gz
+==> Downloading from https://codeload.github.com/pyenv/pyenv/tar.gz/v1.2.0
+==> src/configure
+==> make -C src
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall pyenv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pyenv/1.2.0: 580 files, 2.8MB, built in 1 second
+==> Determining pyenv bottle rebuild...
+==> Bottling pyenv-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./pyenv-1.2.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3f809524f96fe5d732b2a0e11068d07966ab98336d35510a43e11356c71e24bd" => :x86_64_linux
+  end
