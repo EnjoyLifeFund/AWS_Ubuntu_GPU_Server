@@ -1,15 +1,17 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading http://www.whence.com/minimodem/minimodem-0.24.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/minimodem/0.24 --without-alsa
-==> make install
+==> Cloning https://github.com/minio/minio.git
+==> Checking out tag RELEASE.2017-11-22T19-55-46Z
+==> go build -o /tmp/minio-20171216-117353-1ex7vww/minio -ldflags -X github.com/minio/minio/cmd.Version=2017-11-22T19:55:46Z
+-X github.com/minio/minio/cmd.ReleaseTag=RELEASE.2017-11-22T19-55-46Z
+-X github.com/minio/minio/cmd.CommitID=d1a6c32d800f1d5b703baad1f8aeede6cf2cdf48
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall minimodem`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minimodem/0.24: 9 files, 238.3KB, built in 3 seconds
-==> Determining minimodem bottle rebuild...
-==> Bottling minimodem-0.24.x86_64_linux.bottle.1.tar.gz...
-./minimodem-0.24.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall minio`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minio/20171122195546: 3 files, 32.1MB, built in 10 seconds
+==> Determining minio bottle rebuild...
+==> Bottling minio-20171122195546.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if minio-20171122195546.x86_64_linux.bottle.1.tar.gz is relocatable...
+./minio-20171122195546.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c12eb3995b072360d4ed23e2310525d973062cc0a411e1c0de9a52954f3962c4" => :x86_64_linux
+    sha256 "3fbdbd13da90ba8969dee8e32dbf99421186df158b06ee97bc82890adac933ce" => :x86_64_linux
   end
