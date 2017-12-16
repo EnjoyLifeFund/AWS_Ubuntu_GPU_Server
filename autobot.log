@@ -1,13 +1,8 @@
-==> Downloading https://mesa.freedesktop.org/archive/glw/glw-8.0.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mesalib-glw/8.0.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mesalib-glw`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mesalib-glw/8.0.0: 12 files, 147.4KB, built in 12 seconds
-==> Determining mesalib-glw bottle rebuild...
-==> Bottling mesalib-glw-8.0.0.x86_64_linux.bottle.1.tar.gz...
-./mesalib-glw-8.0.0.x86_64_linux.bottle.1.tar.gz
+==> Determining meson bottle rebuild...
+==> Bottling meson-0.44.0.x86_64_linux.bottle.1.tar.gz...
+./meson-0.44.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7cc4b356062040fdd53c6a820713471701dff4da191e5244adf99ad45a12a65a" => :x86_64_linux
+    sha256 "4abb14ae64fc81e628342d34ce5c8471e79b9d27d08ea6c4101c869b17da03e3" => :x86_64_linux
   end
