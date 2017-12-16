@@ -1,18 +1,14 @@
-==> Downloading https://mediaarea.net/download/binary/mediaconch/17.11/MediaConch_CLI_17.11_GNU_FromSource.tar.bz2
-==> ./configure --enable-shared --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11 --libdir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/lib/mediaconch --includedir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/include/mediaconch
-==> make install
-==> ./configure --enable-static --enable-shared --with-libcurl --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11 --libdir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/lib/mediaconch --includedir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/include/mediaconch
-==> make install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11
+==> Downloading https://mednafen.github.io/releases/files/mednafen-0.9.48.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mednafen/0.9.48
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mediaconch`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11: 54 files, 35MB, built in 2 minutes 5 seconds
-==> Determining mediaconch bottle rebuild...
-==> Bottling mediaconch-17.11.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mediaconch-17.11.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mediaconch-17.11.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mednafen`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mednafen/0.9.48: 12 files, 135.1MB, built in 3 minutes 52 seconds
+==> Determining mednafen bottle rebuild...
+==> Bottling mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "03058a829a2533c8f68a414c03b432d3afc28647cab0a00a3af7048c6f6087f4" => :x86_64_linux
+    sha256 "61e826d9c0279ae71672d0434e975c4a5b30d9e17404d01ff67d78e8b525a387" => :x86_64_linux
   end
