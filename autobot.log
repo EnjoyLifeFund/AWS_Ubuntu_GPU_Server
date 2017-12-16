@@ -1,14 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/log4c/log4c/1.2.4/log4c-1.2.4.tar.gz
-==> Downloading from https://iweb.dl.sourceforge.net/project/log4c/log4c/1.2.4/log4c-1.2.4.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/log4c/1.2.4
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall log4c`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/log4c/1.2.4: 43 files, 940.8KB, built in 17 seconds
-==> Determining log4c bottle rebuild...
-==> Bottling log4c-1.2.4.x86_64_linux.bottle.1.tar.gz...
-./log4c-1.2.4.x86_64_linux.bottle.1.tar.gz
+==> Determining log4cplus bottle rebuild...
+==> Bottling log4cplus-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./log4cplus-1.2.0.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "88b5b95f24e4edde2160c6106eb29e705a8df23c5122d73c31679293e78b78d1" => :x86_64_linux
+    sha256 "648d94123140ae0611f6d3bbe55f24b3db717d5f0c54969309d28f0f3333ad73" => :x86_64_linux
   end
