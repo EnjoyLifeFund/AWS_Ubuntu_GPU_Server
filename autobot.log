@@ -1,14 +1,14 @@
-==> Downloading https://www.cern.ch/mathlibs/sw/5_34_14/Minuit2/Minuit2-5.34.14.tar.gz
-==> Downloading from https://cern.ch/project-mathlibs/sw/5_34_14/Minuit2/Minuit2-5.34.14.tar.gz
-==> ./configure --with-pic --disable-openmp --prefix=/home/linuxbrew/.linuxbrew/Cellar/minuit2/5.34.14
+==> Downloading https://github.com/KLab/miruo/archive/0.9.6b.tar.gz
+==> Downloading from https://codeload.github.com/KLab/miruo/tar.gz/0.9.6b
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/miruo/0.9.6b --with-libpcap=/usr
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall minuit2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minuit2/5.34.14: 125 files, 28.3MB, built in 22 seconds
-==> Determining minuit2 bottle rebuild...
-==> Bottling minuit2-5.34.14.x86_64_linux.bottle.tar.gz...
-==> Detecting if minuit2-5.34.14.x86_64_linux.bottle.tar.gz is relocatable...
-./minuit2-5.34.14.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall miruo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/miruo/0.9.6b: 9 files, 201.2KB, built in 6 seconds
+==> Determining miruo bottle rebuild...
+==> Bottling miruo-0.9.6b.x86_64_linux.bottle.1.tar.gz...
+./miruo-0.9.6b.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "58c78086b8d03aca8bdae6fb50528faa8d6d902ca394a66c20f66ab07cc0ef8c" => :x86_64_linux
+    rebuild 1
+    sha256 "2b6eaf1418faaf86e8f8c0208e39f887635f330993876adbbe8d95eb98544039" => :x86_64_linux
   end
