@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/piler bottle rebuild...
+==> Bottling piler-1.0_1.x86_64_linux.bottle.1.tar.gz...
+./piler-1.0_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2344396b096a3df7fb80bc868acb91d92d1984f72b119d9fb4bdf91941758a7a" => :x86_64_linux
+  end
