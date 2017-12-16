@@ -1,15 +1,9 @@
-==> Cloning https://github.com/busyloop/lolcat.git
-==> Checking out tag v90.8.8
-==> gem build lolcat.gemspec
-==> gem install lolcat-90.8.8.gem
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lolcat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lolcat/90.8.8: 127 files, 495.6KB, built in 2 seconds
-==> Determining lolcat bottle rebuild...
-==> Bottling lolcat-90.8.8.x86_64_linux.bottle.1.tar.gz...
-./lolcat-90.8.8.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "87dfe8d80f33933b3071e206df809b994070d33c8994d08578f96d51de505086" => :x86_64_linux
-  end
+==> Downloading https://github.com/per9000/lorem/archive/6da0a5ac4dcce0e2463a0d820baafde72210fbff.tar.gz
+==> Downloading from https://codeload.github.com/per9000/lorem/tar.gz/6da0a5ac4dcce0e2463a0d820baafde72210fbff
+==> Downloading https://github.com/per9000/lorem/commit/1e3167d15b1337665a236a1e65a582ad2e3dd994.diff?full_index=1
+==> Patching
+==> Applying 1e3167d15b1337665a236a1e65a582ad2e3dd994.diff
+patching file README.md
+patching file lorem
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lorem/0.7.4: 5 files, 76.6KB, built in 1 second
+This formula doesn't require compiling.
