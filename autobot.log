@@ -1,30 +1,14 @@
-==> Downloading https://github.com/commercialhaskell/stack/releases/download/v1.6.1/stack-1.6.1-sdist-1.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/34817922/537bd170-dacb-11e7-9e87-946e2f56aeb8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T131149Z&X-Amz-Expires=300&X-Amz-Signature=e1a0fa0bbcf84c0ae3f83b214463718f0bdbe45f92bca07bdeacd09c9bb12bfb&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dstack-1.6.1-sdist-1.tar.gz&response-content-type=application%2Foctet-stream
-==> cabal sandbox init
-==> cabal update
-==> cabal install --jobs=32 --max-backjumps=100000
-==> stack -j32 setup
-==> stack -j32 --local-bin-path=/home/linuxbrew/.linuxbrew/Cellar/haskell-stack/1.6.1/bin --extra-include-dirs=/home/linuxbrew/.linuxbrew/opt/zlib/include --extra-lib-dirs=/home/linuxbrew/.linuxbrew/opt/zlib/lib install
+==> Installing ace-corrector from homebrew/science
+==> Cloning https://github.com/Sheikhizadeh/ACE.git
+==> Checking out revision 189f154997aeef954d690a8a08300233c21305f3
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall haskell-stack`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/haskell-stack/1.6.1: 6 files, 54.9MB, built in 27 minutes 15 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> New Formulae
-arcade-learning-environment
-genometools
-gifski
-prodigal
-==> Updated Formulae
-grafana
-jhipster
-
-==> Determining haskell-stack bottle rebuild...
-==> Bottling haskell-stack-1.6.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if haskell-stack-1.6.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./haskell-stack-1.6.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/ace-corrector`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ace-corrector/20150501: 5 files, 51.4KB, built in 1 second
+==> Determining homebrew/science/ace-corrector bottle rebuild...
+==> Bottling ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz...
+./ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ead514764461f5e5c471b4a8e239743ef5dbdf966f25b3d625b488c879485b12" => :x86_64_linux
+    sha256 "14d3c45715629e0e57d33450a4f2688af8098e8969a5f81fa31f949fa0e29a9e" => :x86_64_linux
   end
