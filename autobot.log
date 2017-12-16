@@ -1,7 +1,7 @@
 ==> Upgrading 1 outdated package, with result:
-ack 2.20
-==> Upgrading ack 
-==> Downloading https://beyondgrep.com/ack-2.20-single-file
-==> pod2man /home/linuxbrew/.linuxbrew/Cellar/ack/2.20/bin/ack ack.1
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ack/2.20: 4 files, 212.9KB, built in 1 second
+davmail 4.8.1-2507
+==> Upgrading davmail 
+==> Downloading https://downloads.sourceforge.net/project/davmail/davmail/4.8.1/davmail-4.8.1-2507.zip
+==> Downloading from https://pilotfiber.dl.sourceforge.net/project/davmail/davmail/4.8.1/davmail-4.8.1-2507.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/davmail/4.8.1-2507: 23 files, 5.3MB, built in 3 seconds
 This formula doesn't require compiling.
