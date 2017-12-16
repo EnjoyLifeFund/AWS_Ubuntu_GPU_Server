@@ -1,3 +1,23 @@
-==> Downloading https://dl.bintray.com/jfrog/artifactory/jfrog-artifactory-oss-5.6.2.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/artifactory/5.6.2: 93 files, 93.1MB, built in 9 seconds
-This formula doesn't require compiling.
+==> Upgrading 1 outdated package, with result:
+assimp 4.1.0
+==> Upgrading assimp 
+==> Downloading https://github.com/assimp/assimp/archive/v4.1.0.tar.gz
+==> Downloading from https://codeload.github.com/assimp/assimp/tar.gz/v4.1.0
+==> Downloading https://github.com/assimp/assimp/pull/1634.patch?full_index=1
+==> Downloading from https://patch-diff.githubusercontent.com/raw/assimp/assimp/pull/1634.patch?full_index=1
+==> Patching
+==> Applying 1634.patch
+patching file contrib/unzip/unzip.c
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DASSIMP_BUILD_TESTS=OFF
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall assimp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0: 61 files, 79.3MB, built in 49 seconds
+==> Determining assimp bottle rebuild...
+==> Bottling assimp-4.1.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if assimp-4.1.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./assimp-4.1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "7527dcba30fecd140905552a421762839fd03f246936ce80efa163010c64b072" => :x86_64_linux
+  end
