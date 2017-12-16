@@ -1,18 +1,6 @@
 ==> Upgrading 1 outdated package, with result:
-advancemame 3.6
-==> Upgrading advancemame 
-==> Downloading https://github.com/amadvance/advancemame/releases/download/v3.6/advancemame-3.6.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/17920489/8192f348-de01-11e7-957f-8529bb88e157?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T034802Z&X-Amz-Expires=300&X-Amz-Signature=4ac2d39b973cc89c14a81560573488e04894410ca191f1e41de22f172737686a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dadvancemame-3.6.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/advancemame/3.6
-==> make install LDFLAGS= mandir=/home/linuxbrew/.linuxbrew/Cellar/advancemame/3.6/share/man docdir=/home/linuxbrew/.linuxbrew/Cellar/advancemame/3.6/share/doc/advancemame
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall advancemame`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/advancemame/3.6: 104 files, 61.9MB, built in 1 minute 15 seconds
-==> Determining advancemame bottle rebuild...
-==> Bottling advancemame-3.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if advancemame-3.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./advancemame-3.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "59e0b5c66d1892cf87d343139e322a083d3628fac932f1d904e1165fecfea42f" => :x86_64_linux
-  end
+chromedriver 2.34
+==> Upgrading chromedriver 
+==> Downloading https://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip
+🍺  /home/linuxbrew/.linuxbrew/Cellar/chromedriver/2.34: 3 files, 7.6MB, built in 1 second
+This formula doesn't require compiling.
