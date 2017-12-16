@@ -1,8 +1,1 @@
-==> Determining physfs bottle rebuild...
-==> Bottling physfs-3.0.1.x86_64_linux.bottle.1.tar.gz...
-./physfs-3.0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "06743dc82a15fa877bcd69215c7815203e3c9dfc711bfa731545589c4be151f2" => :x86_64_linux
-  end
+This formula doesn't require compiling.
