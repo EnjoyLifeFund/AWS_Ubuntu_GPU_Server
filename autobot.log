@@ -1,14 +1,21 @@
-==> Downloading https://mednafen.github.io/releases/files/mednafen-0.9.48.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mednafen/0.9.48
-==> make install
+==> Downloading https://github.com/t3rm1n4l/megacmd/archive/0.013.tar.gz
+==> Downloading from https://codeload.github.com/t3rm1n4l/megacmd/tar.gz/0.013
+==> Cloning https://github.com/t3rm1n4l/go-humanize.git
+==> Checking out revision e7ed15be05eb554fbaa83ac9b335556d6390fb9f
+==> Cloning https://github.com/t3rm1n4l/go-mega.git
+==> Checking out revision 551abb8f1c87053be3f24282d198a6614c0ca14f
+==> Cloning https://github.com/t3rm1n4l/megacmd.git
+==> Checking out revision d7f3f3a2427cc52b71cad90b26889e2a33fc3565
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/megacmd/0.013/bin/megacmd
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mednafen`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mednafen/0.9.48: 12 files, 135.1MB, built in 3 minutes 52 seconds
-==> Determining mednafen bottle rebuild...
-==> Bottling mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mednafen-0.9.48.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall megacmd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/megacmd/0.013: 4 files, 6.2MB, built in 2 seconds
+==> Determining megacmd bottle rebuild...
+==> Bottling megacmd-0.013.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if megacmd-0.013.x86_64_linux.bottle.1.tar.gz is relocatable...
+./megacmd-0.013.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "61e826d9c0279ae71672d0434e975c4a5b30d9e17404d01ff67d78e8b525a387" => :x86_64_linux
+    sha256 "b55bba96976b6ffe5e7add436e4b4b52ccce8ba1b999e9741d5347abcf8c8409" => :x86_64_linux
   end
