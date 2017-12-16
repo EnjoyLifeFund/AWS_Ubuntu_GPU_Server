@@ -1,8 +1,1 @@
-==> Determining valgrind bottle rebuild...
-==> Bottling valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "531f1aabde9c92e343719db2792c8aa81d5ecc1a40a8443fff0d4db96eebfae2" => :x86_64_linux
-  end
+This formula doesn't require compiling.
