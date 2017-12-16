@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining linuxbrew/xorg/xorg-cf-files bottle rebuild...
+==> Bottling xorg-cf-files-1.0.6.x86_64_linux.bottle.1.tar.gz...
+./xorg-cf-files-1.0.6.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "27c80a1c807f1727e79cdc8c9f526414dcb9a357fe71ccdcfd4632ac8be03b6e" => :x86_64_linux
+  end
