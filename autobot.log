@@ -1,7 +1,14 @@
-==> Determining minizip bottle rebuild...
-==> Bottling minizip-1.2.11.x86_64_linux.bottle.tar.gz...
-./minizip-1.2.11.x86_64_linux.bottle.tar.gz
+==> Downloading https://www.cern.ch/mathlibs/sw/5_34_14/Minuit2/Minuit2-5.34.14.tar.gz
+==> Downloading from https://cern.ch/project-mathlibs/sw/5_34_14/Minuit2/Minuit2-5.34.14.tar.gz
+==> ./configure --with-pic --disable-openmp --prefix=/home/linuxbrew/.linuxbrew/Cellar/minuit2/5.34.14
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall minuit2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minuit2/5.34.14: 125 files, 28.3MB, built in 22 seconds
+==> Determining minuit2 bottle rebuild...
+==> Bottling minuit2-5.34.14.x86_64_linux.bottle.tar.gz...
+==> Detecting if minuit2-5.34.14.x86_64_linux.bottle.tar.gz is relocatable...
+./minuit2-5.34.14.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "222e9e9f9672055057b3bb1c18962ddcb72fa8051b1d624323bf9e726b01cb62" => :x86_64_linux
+    sha256 "58c78086b8d03aca8bdae6fb50528faa8d6d902ca394a66c20f66ab07cc0ef8c" => :x86_64_linux
   end
