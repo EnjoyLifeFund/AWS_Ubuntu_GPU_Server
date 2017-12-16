@@ -1,8 +1,1 @@
-==> Determining yara bottle rebuild...
-==> Bottling yara-3.7.0.x86_64_linux.bottle.1.tar.gz...
-./yara-3.7.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "19571ac955f9bf012c7d29dffe39833fdc21fea8b934bec818551eb2ef05e795" => :x86_64_linux
-  end
+This formula doesn't require compiling.
