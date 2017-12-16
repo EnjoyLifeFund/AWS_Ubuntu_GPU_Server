@@ -1,7 +1,1 @@
-==> Determining homebrew/science/tabtk bottle rebuild...
-==> Bottling tabtk-0.1.x86_64_linux.bottle.1.tar.gz...
-./tabtk-0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "0d0bd7bda183f1337c9ad7b8721d3b1c9b5545b5a51e81f6efb9942bbd03f1f0" => :x86_64_linux
-  end
+This formula doesn't require compiling.
