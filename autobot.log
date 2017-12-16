@@ -1,8 +1,1 @@
-==> Determining homebrew/science/samtools@0.1 bottle rebuild...
-==> Bottling samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz is relocatable...
-./samtools@0.1-0.1.20.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "63c552a98b8a95494d5aac952f9efe3ad1db9cbc83ab07cff7d07e3b2c3c59b3" => :x86_64_linux
-  end
+This formula doesn't require compiling.
