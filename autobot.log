@@ -1,16 +1,14 @@
-==> Installing cufflinks from homebrew/science
-==> Downloading https://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cufflinks/2.2.1_3 --mandir=/home/linuxbrew/.linuxbrew/Cellar/cufflinks/2.2.1_3/share/man
-==> make
+==> Installing fastml from homebrew/science
+==> Downloading https://fastml.tau.ac.il/source/FastML.v3.1.tgz
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/cufflinks`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cufflinks/2.2.1_3: 14 files, 191MB, built in 41 seconds
-==> Determining homebrew/science/cufflinks bottle rebuild...
-==> Bottling cufflinks-2.2.1_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cufflinks-2.2.1_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cufflinks-2.2.1_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall homebrew/science/fastml`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fastml/3.1_1: 6 files, 3.9MB, built in 30 seconds
+==> Determining homebrew/science/fastml bottle rebuild...
+==> Bottling fastml-3.1_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fastml-3.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fastml-3.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f9e58aadbe0a3d7bdefcd7a3c9ef604084a9c7d0e6801b7ca5dd03e9b66b992c" => :x86_64_linux
+    sha256 "38379d0526bb19ac7cd8a4d22de71304e98df69087a413ed73cb807c549d31fe" => :x86_64_linux
   end
