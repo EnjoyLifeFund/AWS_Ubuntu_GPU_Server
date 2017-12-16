@@ -1,15 +1,8 @@
-==> Downloading https://downloads.sourceforge.net/project/camellia/Unix_Linux%20Distribution/v2.7.0/CamelliaLib-2.7.0.tar.gz
-==> Downloading from https://master.dl.sourceforge.net/project/camellia/Unix_Linux%20Distribution/v2.7.0/CamelliaLib-2.7.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/camellia/2.7.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall camellia`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/camellia/2.7.0: 15 files, 7.9MB, built in 36 seconds
-==> Determining camellia bottle rebuild...
-==> Bottling camellia-2.7.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if camellia-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./camellia-2.7.0.x86_64_linux.bottle.1.tar.gz
+==> Determining camlp4 bottle rebuild...
+==> Bottling camlp4-4.06+1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if camlp4-4.06+1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./camlp4-4.06+1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "5f5ba1a8390982146d7afde9b0b8c0ae6810afea25e36ce37117b3a78a193111" => :x86_64_linux
+    sha256 "b05414542a23276bee87c4653edf87c226ef7a99ab60c27efa786fa38cbaca7a" => :x86_64_linux
   end
