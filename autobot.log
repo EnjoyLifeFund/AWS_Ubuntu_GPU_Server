@@ -1,34 +1,4 @@
-==> Downloading https://mat.boum.org/files/mat-0.6.1.tar.xz
-==> Downloading https://pypi.python.org/packages/source/h/hachoir-core/hachoir-core-1.3.3.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1/libexec
-==> Downloading https://pypi.python.org/packages/source/h/hachoir-parser/hachoir-parser-1.3.4.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1/libexec
-==> Downloading https://pypi.python.org/packages/source/p/pdfrw/pdfrw-0.2.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1/libexec
-==> Downloading https://launchpad.net/python-distutils-extra/trunk/2.38/+download/python-distutils-extra-2.38.tar.gz
-==> Downloading from https://launchpadlibrarian.net/145592954/python-distutils-extra-2.38.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1/libexec --single-version-externally-managed --record=installed.txt
-==> Downloading https://pypi.python.org/packages/source/m/mutagen/mutagen-1.31.tar.gz
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1/libexec
-==> python setup.py install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mat`
-==> Caveats
-MAT was built without PDF support nor GUI.
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mat/0.6.1: 664 files, 6.5MB, built in 11 seconds
-==> Determining mat bottle rebuild...
-==> Bottling mat-0.6.1.x86_64_linux.bottle.1.tar.gz...
-./mat-0.6.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "317fd8e9779a7ed429ef77e7690f6934aa0e13c1754e6c44c4fdd2751bf5cce7" => :x86_64_linux
-  end
+==> Downloading https://github.com/matlab2tikz/matlab2tikz/archive/v1.1.0.tar.gz
+==> Downloading from https://codeload.github.com/matlab2tikz/matlab2tikz/tar.gz/v1.1.0
+🍺  /home/linuxbrew/.linuxbrew/Cellar/matlab2tikz/1.1.0: 20 files, 399KB, built in 1 second
+This formula doesn't require compiling.
