@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining bashdb bottle rebuild...
+==> Bottling bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz...
+./bashdb-4.4-0.94.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "276a84be7e1fd7d46092edf74ece774892ec20e572d009b743ee14651cd8060d" => :x86_64_linux
+  end
