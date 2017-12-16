@@ -1,22 +1,7 @@
-==> Downloading https://ftp.gnu.org/gnu/mailutils/mailutils-3.4.tar.gz
-==> ./configure --disable-mh --prefix=/home/linuxbrew/.linuxbrew/Cellar/mailutils/3.4 --without-guile --without-tokyocabinet
-==> make PYTHON_LIBS=-undefined dynamic_lookup install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mailutils`
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mailutils/3.4: 315 files, 19.5MB, built in 1 minute 31 seconds
-==> Determining mailutils bottle rebuild...
-==> Bottling mailutils-3.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mailutils-3.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mailutils-3.4.x86_64_linux.bottle.1.tar.gz
+==> Determining make bottle rebuild...
+==> Bottling make-4.2.1_1.x86_64_linux.bottle.1.tar.gz...
+./make-4.2.1_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "684f98d81254776c8a8bc624508bdfd8e26fc0cd50ccec75d545ff44c85ff4f3" => :x86_64_linux
+    sha256 "c2dab4995ff6df27527b8db2d66146f94d9f02ff2297021a0c4feab8e538fbcb" => :x86_64_linux
   end
