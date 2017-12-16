@@ -1,37 +1,13 @@
-==> Installing dependencies for mftrace: potrace, t1utils, fontforge
-==> Installing mftrace dependency: potrace
-==> Downloading https://potrace.sourceforge.io/download/1.15/potrace-1.15.tar.gz
-==> Downloading from http://potrace.sourceforge.net/download/1.15/potrace-1.15.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/potrace/1.15 --mandir=/home/linuxbrew/.linuxbrew/Cellar/potrace/1.15/share/man --with-libpotrace
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/potrace/1.15: 17 files, 885.3KB, built in 10 seconds
-==> Installing mftrace dependency: t1utils
-==> Downloading https://linuxbrew.bintray.com/bottles/t1utils-1.41.x86_64_linux.bottle.tar.gz
-==> Pouring t1utils-1.41.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/t1utils/1.41: 17 files, 946KB
-==> Installing mftrace dependency: fontforge
-==> Downloading https://linuxbrew.bintray.com/bottles/fontforge-20170731_2.x86_64_linux.bottle.1.tar.gz
-==> Pouring fontforge-20170731_2.x86_64_linux.bottle.1.tar.gz
-==> Caveats
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fontforge/20170731_2: 1,253 files, 64.2MB
-==> Installing mftrace
-==> Downloading http://lilypond.org/downloads/sources/mftrace/mftrace-1.2.19.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mftrace/1.2.19_1
-==> make install
+==> Downloading https://devio.us/~bcallah/mg/mg-20170917.tar.gz
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mg/20170917 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/mg/20170917/share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mftrace`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mftrace/1.2.19_1: 12 files, 161.9KB, built in 9 seconds
-==> Determining mftrace bottle rebuild...
-==> Bottling mftrace-1.2.19_1.x86_64_linux.bottle.1.tar.gz...
-./mftrace-1.2.19_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mg`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mg/20170917: 9 files, 257.2KB, built in 2 seconds
+==> Determining mg bottle rebuild...
+==> Bottling mg-20170917.x86_64_linux.bottle.1.tar.gz...
+./mg-20170917.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "9cdbff2ec0ac36a384bb8bdc70e358419b938857f185d1b18510e3c26f661574" => :x86_64_linux
+    sha256 "21eca128f3a96f45ab3fd856708e7008a8017d9639ed26c3ad520617bb31c1df" => :x86_64_linux
   end
