@@ -1,7 +1,1 @@
-==> Determining sdl_ttf bottle rebuild...
-==> Bottling sdl_ttf-2.0.11_1.x86_64_linux.bottle.1.tar.gz...
-./sdl_ttf-2.0.11_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "f77e34aacd0285907150bad349123c586331c7805fd78a7f053ab5d89fed75ba" => :x86_64_linux
-  end
+This formula doesn't require compiling.
