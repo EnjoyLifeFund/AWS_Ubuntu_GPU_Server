@@ -1,9 +1,16 @@
-==> Determining asciidoc bottle rebuild...
-==> Bottling asciidoc-8.6.10_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if asciidoc-8.6.10_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./asciidoc-8.6.10_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/zeromq/libzmq/releases/download/v4.2.3/zeromq-4.2.3.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/263379/b7c24f68-e013-11e7-94c6-ed72c49c3157?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T080926Z&X-Amz-Expires=300&X-Amz-Signature=fe298542d5913873694bb9b4f32db8f118962e26ea060e52c639ebc23e80587a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dzeromq-4.2.3.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/zeromq/4.2.3
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall zeromq`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zeromq/4.2.3: 78 files, 24MB, built in 22 seconds
+==> Determining zeromq bottle rebuild...
+==> Bottling zeromq-4.2.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if zeromq-4.2.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./zeromq-4.2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d4603cdd9beebd0f7f29b3ba28a9b9b71e561e98264ce2b3fd75a93bb2188663" => :x86_64_linux
+    sha256 "1fd7adc68eea33874023c44e06c3efd79d4dd7a9007ed173c8d009a044f33f43" => :x86_64_linux
   end
