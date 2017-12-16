@@ -1,18 +1,18 @@
-==> Downloading https://mediaarea.net/download/binary/mediainfo/17.10/MediaInfo_CLI_17.10_GNU_FromSource.tar.bz2
-==> ./configure --enable-static --enable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
+==> Downloading https://mediaarea.net/download/binary/mediaconch/17.11/MediaConch_CLI_17.11_GNU_FromSource.tar.bz2
+==> ./configure --enable-shared --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11 --libdir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/lib/mediaconch --includedir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/include/mediaconch
 ==> make install
-==> ./configure --with-libcurl --enable-static --enable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
+==> ./configure --enable-static --enable-shared --with-libcurl --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11 --libdir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/lib/mediaconch --includedir=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11/include/mediaconch
 ==> make install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall media-info`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/media-info/17.10: 54 files, 32.9MB, built in 1 minute 41 seconds
-==> Determining media-info bottle rebuild...
-==> Bottling media-info-17.10.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if media-info-17.10.x86_64_linux.bottle.1.tar.gz is relocatable...
-./media-info-17.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mediaconch`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mediaconch/17.11: 54 files, 35MB, built in 2 minutes 5 seconds
+==> Determining mediaconch bottle rebuild...
+==> Bottling mediaconch-17.11.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mediaconch-17.11.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mediaconch-17.11.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "c817c83d7932668d4dd3b974023b7229bb09fdd6f4c35374958c96f4d6663726" => :x86_64_linux
+    sha256 "03058a829a2533c8f68a414c03b432d3afc28647cab0a00a3af7048c6f6087f4" => :x86_64_linux
   end
