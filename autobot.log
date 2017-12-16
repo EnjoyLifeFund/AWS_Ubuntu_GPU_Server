@@ -1,8 +1,15 @@
-==> Determining homebrew/science/fgsl bottle rebuild...
-==> Bottling fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz
+==> Installing freebayes from homebrew/science
+==> Cloning https://github.com/ekg/freebayes.git
+==> Checking out tag v1.1.0
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/freebayes`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freebayes/1.1.0_1: 10 files, 30MB, built in 4 minutes 32 seconds
+==> Determining homebrew/science/freebayes bottle rebuild...
+==> Bottling freebayes-1.1.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freebayes-1.1.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freebayes-1.1.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "50199081f6bec22a862c369c3f91a58da4f49d69d9485953e2f669f09a93e40a" => :x86_64_linux
+    sha256 "abb5182cd9af1516649c3382438a8496993c6e69a43fb3211546ce68b8459140" => :x86_64_linux
   end
