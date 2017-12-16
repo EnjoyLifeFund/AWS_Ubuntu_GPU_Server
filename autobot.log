@@ -1,7 +1,1 @@
-==> Determining linuxbrew/xorg/xmodmap bottle rebuild...
-==> Bottling xmodmap-1.0.9.x86_64_linux.bottle.1.tar.gz...
-./xmodmap-1.0.9.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "a3b6e4fca7320c8415653852e714966ba268de5fee207d2caf5d4cb446492358" => :x86_64_linux
-  end
+This formula doesn't require compiling.
