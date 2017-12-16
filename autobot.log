@@ -1,20 +1,18 @@
-==> Downloading https://ja.osdn.net/frs/redir.php?f=%2Funidic%2F58338%2Funidic-mecab_kana-accent-2.1.2_src.zip
-==> Downloading from http://jaist.dl.osdn.jp/unidic/58338/unidic-mecab_kana-accent-2.1.2_src.zip
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mecab-unidic-extended/2.1.2 --with-dicdir=/home/linuxbrew/.linuxbrew/Cellar/mecab-unidic-extended/2.1.2/lib/mecab/dic/unidic-extended
+==> Downloading https://mediaarea.net/download/binary/mediainfo/17.10/MediaInfo_CLI_17.10_GNU_FromSource.tar.bz2
+==> ./configure --enable-static --enable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
+==> make install
+==> ./configure --with-libcurl --enable-static --enable-shared --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
+==> make install
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/media-info/17.10
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mecab-unidic-extended`
-==> Caveats
-To enable mecab-unidic dictionary, add to /home/linuxbrew/.linuxbrew/etc/mecabrc:
-  dicdir = /home/linuxbrew/.linuxbrew/lib/mecab/dic/unidic-extended
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mecab-unidic-extended/2.1.2: 12 files, 247.5MB, built in 33 seconds
-==> Determining mecab-unidic-extended bottle rebuild...
-==> Bottling mecab-unidic-extended-2.1.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mecab-unidic-extended-2.1.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mecab-unidic-extended-2.1.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall media-info`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/media-info/17.10: 54 files, 32.9MB, built in 1 minute 41 seconds
+==> Determining media-info bottle rebuild...
+==> Bottling media-info-17.10.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if media-info-17.10.x86_64_linux.bottle.1.tar.gz is relocatable...
+./media-info-17.10.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ab6d98e7a808660b148d12536906ee1d29d4fc7123d72e24c6995c23021c543d" => :x86_64_linux
+    sha256 "c817c83d7932668d4dd3b974023b7229bb09fdd6f4c35374958c96f4d6663726" => :x86_64_linux
   end
