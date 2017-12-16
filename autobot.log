@@ -1,14 +1,26 @@
-==> Downloading https://github.com/lindenb/makefile2graph/archive/v1.5.0.tar.gz
-==> Downloading from https://codeload.github.com/lindenb/makefile2graph/tar.gz/v1.5.0
-==> make
-==> make test
+==> Installing dependencies for makensis: mingw-w64
+==> Installing makensis dependency: mingw-w64
+==> Downloading https://linuxbrew.bintray.com/bottles/mingw-w64-5.0.3.x86_64_linux.bottle.tar.gz
+==> Pouring mingw-w64-5.0.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mingw-w64/5.0.3: 7,842 files, 619.7MB
+==> Installing makensis
+==> Downloading https://downloads.sourceforge.net/project/nsis/NSIS%203/3.02.1/nsis-3.02.1-src.tar.bz2
+==> Downloading from https://versaweb.dl.sourceforge.net/project/nsis/NSIS%203/3.02.1/nsis-3.02.1-src.tar.bz2
+==> Patching
+patching file SCons/config.py
+==> Downloading https://downloads.sourceforge.net/project/libpng/zlib/1.2.8/zlib128-dll.zip
+==> Downloading from https://svwh.dl.sourceforge.net/project/libpng/zlib/1.2.8/zlib128-dll.zip
+==> /home/linuxbrew/.linuxbrew/opt/scons/bin/scons makensis STRIP=0 ZLIB_W32=/tmp/makensis--zlib-win32-20171216-79663-1w9kxkq SKIPUTILS=NSIS Menu PREFIX_DOC=/home/linuxbrew/.linuxbrew/Cellar/makensis/3.02.1/share/nsis/Docs VERSION=3.02.1
+==> Downloading https://downloads.sourceforge.net/project/nsis/NSIS%203/3.02.1/nsis-3.02.1.zip
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/nsis/NSIS%203/3.02.1/nsis-3.02.1.zip
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall makefile2graph`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/makefile2graph/1.5.0: 9 files, 118.8KB, built in 1 second
-==> Determining makefile2graph bottle rebuild...
-==> Bottling makefile2graph-1.5.0.x86_64_linux.bottle.1.tar.gz...
-./makefile2graph-1.5.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall makensis`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/makensis/3.02.1: 444 files, 9.5MB, built in 33 seconds
+==> Determining makensis bottle rebuild...
+==> Bottling makensis-3.02.1.x86_64_linux.bottle.tar.gz...
+==> Detecting if makensis-3.02.1.x86_64_linux.bottle.tar.gz is relocatable...
+./makensis-3.02.1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "e682260297759649a4b84a686c31c5049e528a54471ac8c40e3315e3d2bad0b9" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "6403801f9f2bbfec1f25dc53572282d9e3c46c37bdaa43612846144e2541617a" => :x86_64_linux
   end
