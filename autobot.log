@@ -1,17 +1,14 @@
-==> Downloading https://github.com/johnkerl/miller/releases/download/v5.2.2/mlr-5.2.2.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/35003822/3580ff6a-6cda-11e7-89cc-b4fbba20e8d3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T012840Z&X-Amz-Expires=300&X-Amz-Signature=dfeb569d99f90a007555edea342562f32d8b028fecf4b48655f74911858686d8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dmlr-5.2.2.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/miller/5.2.2 --disable-silent-rules
-==> make
-==> make check
+==> Downloading http://www.codesink.org/download/mimetic-0.9.8.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/mimetic/0.9.8
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall miller`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/miller/5.2.2: 6 files, 3.3MB, built in 25 seconds
-==> Determining miller bottle rebuild...
-==> Bottling miller-5.2.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if miller-5.2.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./miller-5.2.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mimetic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mimetic/0.9.8: 63 files, 10.8MB, built in 26 seconds
+==> Determining mimetic bottle rebuild...
+==> Bottling mimetic-0.9.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mimetic-0.9.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mimetic-0.9.8.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "a6d4c02245cc07e01322784433c01920d31c9c4a5da5d8f1b45913e957653194" => :x86_64_linux
+    sha256 "e0195b831bc9af08c7c017ed08345599108df223457b6ffff31885b9bba94af4" => :x86_64_linux
   end
