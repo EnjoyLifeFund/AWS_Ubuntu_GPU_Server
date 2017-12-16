@@ -1,7 +1,18 @@
 ==> Upgrading 1 outdated package, with result:
-fuseki 3.5.0
-==> Upgrading fuseki 
-==> Downloading https://www.apache.org/dyn/closer.lua?path=/jena/binaries/apache-jena-fuseki-3.5.0.tar.gz
-==> Best Mirror http://download.nextag.com/apache/jena/binaries/apache-jena-fuseki-3.5.0.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fuseki/3.5.0: 157 files, 52.9MB, built in 4 seconds
-This formula doesn't require compiling.
+antlr4-cpp-runtime 4.7.1
+==> Upgrading antlr4-cpp-runtime 
+==> Downloading http://www.antlr.org/download/antlr4-cpp-runtime-4.7.1-source.zip
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/antlr4-cpp-runtime/4.7.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall antlr4-cpp-runtime`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/antlr4-cpp-runtime/4.7.1: 167 files, 4.9MB, built in 17 seconds
+==> Determining antlr4-cpp-runtime bottle rebuild...
+==> Bottling antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "435b2abecbd29c0df59e6f9305742838af69e59e567c152f59c9c8e2c690ea9f" => :x86_64_linux
+  end
