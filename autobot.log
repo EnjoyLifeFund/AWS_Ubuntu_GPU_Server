@@ -1,15 +1,8 @@
-==> Downloading https://github.com/jedisct1/minisign/archive/0.7.tar.gz
-==> Downloading from https://codeload.github.com/jedisct1/minisign/tar.gz/0.7
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/minisign/0.7_1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall minisign`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minisign/0.7_1: 6 files, 67.8KB, built in 1 second
-==> Determining minisign bottle rebuild...
-==> Bottling minisign-0.7_1.x86_64_linux.bottle.1.tar.gz...
-./minisign-0.7_1.x86_64_linux.bottle.1.tar.gz
+==> Determining miniupnpc bottle rebuild...
+==> Bottling miniupnpc-2.0.20171102.x86_64_linux.bottle.1.tar.gz...
+./miniupnpc-2.0.20171102.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "95c18215a4315f0738e856d5b8df2bc4a36d6faf30e298acf01bf760873d6822" => :x86_64_linux
+    sha256 "ac9b70003424eb8dbd0761022e0b7555f0da7cdce6061ff65f8ea38d4d42dd42" => :x86_64_linux
   end
