@@ -1,13 +1,15 @@
-==> Downloading https://devio.us/~bcallah/mg/mg-20170917.tar.gz
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mg/20170917 MANDIR=/home/linuxbrew/.linuxbrew/Cellar/mg/20170917/share/man
+==> Cloning https://github.com/micropython/micropython.git
+==> Checking out tag v1.9.3
+==> make axtls
+==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/micropython/1.9.3 V=1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mg`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mg/20170917: 9 files, 257.2KB, built in 2 seconds
-==> Determining mg bottle rebuild...
-==> Bottling mg-20170917.x86_64_linux.bottle.1.tar.gz...
-./mg-20170917.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall micropython`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/micropython/1.9.3: 5 files, 401.3KB, built in 29 seconds
+==> Determining micropython bottle rebuild...
+==> Bottling micropython-1.9.3.x86_64_linux.bottle.1.tar.gz...
+./micropython-1.9.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "21eca128f3a96f45ab3fd856708e7008a8017d9639ed26c3ad520617bb31c1df" => :x86_64_linux
+    sha256 "be9493a6d8a0b02b6b3b553d9cbda8c5d70988b2d7b95ec7c9fb30caf5cca5fd" => :x86_64_linux
   end
