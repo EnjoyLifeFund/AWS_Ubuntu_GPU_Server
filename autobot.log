@@ -1,15 +1,16 @@
-==> Downloading https://www.midnight-commander.org/downloads/mc-4.8.20.tar.xz
-==> Downloading from https://midnight-commander.org/downloads/mc-4.8.20.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/midnight-commander/4.8.20 --without-x --with-screen=slang --enable-vfs-sftp
-==> make install
+==> Downloading https://hackage.haskell.org/package/mighttpd2-3.4.2/mighttpd2-3.4.2.tar.gz
+==> cabal sandbox init
+==> cabal update
+==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
+==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/mighttpd2/3.4.2
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall midnight-commander`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/midnight-commander/4.8.20: 327 files, 12.2MB, built in 1 minute 8 seconds
-==> Determining midnight-commander bottle rebuild...
-==> Bottling midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz is relocatable...
-./midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mighttpd2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mighttpd2/3.4.2: 9 files, 19.6MB, built in 5 minutes 30 seconds
+==> Determining mighttpd2 bottle rebuild...
+==> Bottling mighttpd2-3.4.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mighttpd2-3.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mighttpd2-3.4.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "76dbbc26ff6ad4478d26a79c88e132ce557e2801e669e5a31724c94b5313ae77" => :x86_64_linux
+    sha256 "31d876ccac42875b28581d04a7590f89e635c87929054d2b3a2e8be470d7ad17" => :x86_64_linux
   end
