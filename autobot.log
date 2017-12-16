@@ -1,13 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/memcacheq/memcacheq-0.2.0.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/memcacheq/0.2.0_2 --enable-threads
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall memcacheq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/memcacheq/0.2.0_2: 8 files, 107.7KB, built in 7 seconds
-==> Determining memcacheq bottle rebuild...
-==> Bottling memcacheq-0.2.0_2.x86_64_linux.bottle.1.tar.gz...
-./memcacheq-0.2.0_2.x86_64_linux.bottle.1.tar.gz
+==> Determining menhir bottle rebuild...
+==> Bottling menhir-20171206.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if menhir-20171206.x86_64_linux.bottle.1.tar.gz is relocatable...
+./menhir-20171206.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "797d20c6a38b3944d46182c70a83a03b391634ec3349eb68f753a3f52746b8d2" => :x86_64_linux
+    sha256 "cc4bb0ecb5da028db145101114dee62238cb431dc3cabd1e1dc12b06af796dc2" => :x86_64_linux
   end
