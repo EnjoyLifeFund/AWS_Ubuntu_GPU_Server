@@ -1,16 +1,13 @@
-==> Downloading https://github.com/luvit/luvit/archive/2.14.2.tar.gz
-==> Downloading from https://codeload.github.com/luvit/luvit/tar.gz/2.14.2
+==> Downloading https://web.archive.org/web/20150915000000/www.ff.iij4u.or.jp/~nrt/freeware/lv451.tar.gz
+==> Downloading from https://web.archive.org/web/20150908231214/http://www.ff.iij4u.or.jp/~nrt/freeware/lv451.tar.gz
+==> ../src/configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lv/4.51
 ==> make
-==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall luvit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/luvit/2.14.2: 9 files, 13MB, built in 42 seconds
-==> Determining luvit bottle rebuild...
-==> Bottling luvit-2.14.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if luvit-2.14.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./luvit-2.14.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lv/4.51: 7 files, 844.5KB, built in 5 seconds
+==> Determining lv bottle rebuild...
+==> Bottling lv-4.51.x86_64_linux.bottle.tar.gz...
+./lv-4.51.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "4a560824ed40417f277e8d2c254227957f5f759078d82770bc097ce3e23cb68b" => :x86_64_linux
+    sha256 "441c72502c8a7d8e3ab58bfff031901e2e47bfa87d7bdbf2b8c4620d031bed37" => :x86_64_linux
   end
