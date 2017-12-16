@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining bazaar bottle rebuild...
+==> Bottling bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "bbf2b0065e14ec27c4a1252e2c0958c0f3044cef4e451f9f2e396f4cbef3deaf" => :x86_64_linux
+  end
