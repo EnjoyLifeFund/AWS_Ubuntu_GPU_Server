@@ -1,21 +1,24 @@
-==> Using Homebrew-provided fortran compiler.
-This may be changed by setting the FC environment variable.
-==> Downloading https://github.com/devttys0/binwalk/archive/v2.1.1.tar.gz
-==> Downloading from https://github.com/ReFirmLabs/binwalk/archive/v2.1.1.tar.gz
-==> Downloading https://pypi.python.org/packages/source/n/numpy/numpy-1.10.2.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://downloads.sourceforge.net/project/scipy/scipy/0.16.1/scipy-0.16.1.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/scipy/scipy/0.16.1/scipy-0.16.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec --single-version-externally-managed --record=installed.txt
+==> Downloading https://get.bitlbee.org/src/bitlbee-3.5.1.tar.gz
+==> Downloading https://github.com/bitlbee/bitlbee/commit/17a58dfa.patch?full_index=1
+==> Downloading https://github.com/bitlbee/bitlbee/commit/eb73d05e.patch?full_index=1
+==> Patching
+==> Applying 17a58dfa.patch
+patching file storage_xml.c
+==> Applying eb73d05e.patch
+patching file protocols/nogaim.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bitlbee/3.5.1 --plugindir=/home/linuxbrew/.linuxbrew/lib/bitlbee/ --debug=0 --ssl=gnutls --etcdir=/home/linuxbrew/.linuxbrew/etc/bitlbee --pidfile=/home/linuxbrew/.linuxbrew/var/bitlbee/run/bitlbee.pid --config=/home/linuxbrew/.linuxbrew/var/bitlbee/lib/ --ipsocket=/home/linuxbrew/.linuxbrew/var/bitlbee/run/bitlbee.sock
+==> make
+==> make install
+==> make install-dev
+==> make install-etc
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall binwalk`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3: 1,952 files, 57.3MB, built in 7 minutes 22 seconds
-==> Determining binwalk bottle rebuild...
-==> Bottling binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz is relocatable...
-./binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bitlbee`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bitlbee/3.5.1: 48 files, 3.2MB, built in 6 seconds
+==> Determining bitlbee bottle rebuild...
+==> Bottling bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0cc7ef17bbd07c9a193661b35a7cdd84cf993bdb931e750e0a524166282d0988" => :x86_64_linux
+    sha256 "d4a35393798415bbe1fd9e0801351e06b88a5521c27369c7bfe3e06ce52d0b91" => :x86_64_linux
   end
