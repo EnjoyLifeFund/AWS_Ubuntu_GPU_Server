@@ -1,14 +1,13 @@
-==> Downloading https://download.gnome.org/sources/gexiv2/0.10/gexiv2-0.10.6.tar.xz
-==> Downloading from http://ftp.cse.buffalo.edu/pub/Gnome/sources/gexiv2/0.10/gexiv2-0.10.6.tar.xz
-==> ./configure --disable-silent-rules --enable-introspection --prefix=/home/linuxbrew/.linuxbrew/Cellar/gexiv2/0.10.6_1
-==> make install
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/git-multipush/git-multipush-2.3.tar.bz2
+==> make prefix=/home/linuxbrew/.linuxbrew/Cellar/git-multipush/2.3 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gexiv2`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gexiv2/0.10.6_1: 43 files, 1.7MB, built in 20 seconds
-==> Determining gexiv2 bottle rebuild...
-==> Bottling gexiv2-0.10.6_1.x86_64_linux.bottle.1.tar.gz...
-./gexiv2-0.10.6_1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-multipush`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-multipush/2.3: 7 files, 58.6KB, built in 0 seconds
+==> Determining git-multipush bottle rebuild...
+==> Bottling git-multipush-2.3.x86_64_linux.bottle.1.tar.gz...
+./git-multipush-2.3.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e5dd639e431e054266bf71ad4c854b9fa6fd0fe7bcf429ded354e8fd7431054e" => :x86_64_linux
+    sha256 "6bc0743ce1ad29e0b4672f64a61bb23f6c535fd71ec510445dc1d46df98a1b2e" => :x86_64_linux
   end
