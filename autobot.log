@@ -1,8 +1,16 @@
-==> Determining bazaar bottle rebuild...
-==> Bottling bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bazaar-2.7.0_1.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://hackage.haskell.org/package/bench-1.0.7/bench-1.0.7.tar.gz
+==> cabal sandbox init
+==> cabal update
+==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
+==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/bench/1.0.7
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bench`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bench/1.0.7: 6 files, 20.8MB, built in 7 minutes 9 seconds
+==> Determining bench bottle rebuild...
+==> Bottling bench-1.0.7.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bench-1.0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bench-1.0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bbf2b0065e14ec27c4a1252e2c0958c0f3044cef4e451f9f2e396f4cbef3deaf" => :x86_64_linux
+    sha256 "f92ce6ce644afae9698641ae870bc6cf0b646de8febd60dc61be143f8d44b75b" => :x86_64_linux
   end
