@@ -1,8 +1,14 @@
-==> Determining mercurial bottle rebuild...
-==> Bottling mercurial-4.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if mercurial-4.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./mercurial-4.4.2.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/mergelog/mergelog-4.5.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/mergelog/mergelog/4.5/mergelog-4.5.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mergelog/4.5 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mergelog/4.5/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall mergelog`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mergelog/4.5: 11 files, 94.6KB, built in 4 seconds
+==> Determining mergelog bottle rebuild...
+==> Bottling mergelog-4.5.x86_64_linux.bottle.1.tar.gz...
+./mergelog-4.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "9ac235ef28aa52fc1a27a93f0c47d9d283de46d9c1cf8a48920afcaa06be3944" => :x86_64_linux
+    sha256 "c90565fe7af99c3de2bed0eeca22f6c99ffe60d6a0e56a5dfcbd822a3b12317a" => :x86_64_linux
   end
