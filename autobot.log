@@ -1,14 +1,25 @@
-==> Downloading https://github.com/KLab/miruo/archive/0.9.6b.tar.gz
-==> Downloading from https://codeload.github.com/KLab/miruo/tar.gz/0.9.6b
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/miruo/0.9.6b --with-libpcap=/usr
-==> make install
+==> Downloading https://github.com/mit-nlp/MITIE/archive/v0.5.tar.gz
+==> Downloading from https://codeload.github.com/mit-nlp/MITIE/tar.gz/v0.5
+==> Downloading https://downloads.sourceforge.net/project/mitie/binaries/MITIE-models-v0.2.tar.bz2
+==> Downloading from https://cytranet.dl.sourceforge.net/project/mitie/binaries/MITIE-models-v0.2.tar.bz2
+==> make mitielib
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall miruo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/miruo/0.9.6b: 9 files, 201.2KB, built in 6 seconds
-==> Determining miruo bottle rebuild...
-==> Bottling miruo-0.9.6b.x86_64_linux.bottle.1.tar.gz...
-./miruo-0.9.6b.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mitie`
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/ubuntu/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ubuntu/.local/lib/python2.7/site-packages/homebrew.pth
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mitie/0.5: 108 files, 677.4MB, built in 3 minutes 25 seconds
+==> Determining mitie bottle rebuild...
+==> Bottling mitie-0.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mitie-0.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mitie-0.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "2b6eaf1418faaf86e8f8c0208e39f887635f330993876adbbe8d95eb98544039" => :x86_64_linux
+    sha256 "a142644d90f9ced60b9d86a415df108f8f1811183dadc3f2f0f002af785f3d29" => :x86_64_linux
   end
