@@ -1,13 +1,14 @@
-==> Downloading https://linuxcontainers.org/downloads/lxd/lxd-2.20.tar.gz
-==> go install -v github.com/lxc/lxd/lxc
+==> Downloading https://downloads.sourceforge.net/lxsplit/lxsplit-0.2.4.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/lxsplit/lxsplit/0.2.4/lxsplit-0.2.4.tar.gz
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lxc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lxc/2.20: 6 files, 12.1MB, built in 7 seconds
-==> Determining lxc bottle rebuild...
-==> Bottling lxc-2.20.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lxc-2.20.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lxc-2.20.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lxsplit`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lxsplit/0.2.4: 6 files, 55KB, built in 1 second
+==> Determining lxsplit bottle rebuild...
+==> Bottling lxsplit-0.2.4.x86_64_linux.bottle.1.tar.gz...
+./lxsplit-0.2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bf7a5abeef115c752b039241290a69d1762398d876cd149c84a854fbcf56459b" => :x86_64_linux
+    sha256 "43ee52ffd7b0be9af2f14ff079ee994db3bfd1fff6ec7a8fe94407eb5c8199bc" => :x86_64_linux
   end
