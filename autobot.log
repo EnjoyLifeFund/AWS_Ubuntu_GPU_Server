@@ -1,14 +1,11 @@
-==> Installing ace-corrector from homebrew/science
-==> Cloning https://github.com/Sheikhizadeh/ACE.git
-==> Checking out revision 189f154997aeef954d690a8a08300233c21305f3
-==> make
+==> Downloading ftp://ftp.knackered.org/pub/psutils/psutils-p17.tar.gz
+==> make -f Makefile.unix PERL=/usr/bin/perl BINDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/bin INCLUDEDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/share/psutils MANDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/share/man/man1 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/ace-corrector`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ace-corrector/20150501: 5 files, 51.4KB, built in 1 second
-==> Determining homebrew/science/ace-corrector bottle rebuild...
-==> Bottling ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz...
-./ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall psutils`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/psutils/p17: 47 files, 319.2KB, built in 1 second
+==> Determining psutils bottle rebuild...
+==> Bottling psutils-p17.x86_64_linux.bottle.tar.gz...
+./psutils-p17.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "14d3c45715629e0e57d33450a4f2688af8098e8969a5f81fa31f949fa0e29a9e" => :x86_64_linux
+    sha256 "ddf62b443d673c27c2b50545a938c901d33374758d596b3a85cef6d9d1c827b9" => :x86_64_linux
   end
