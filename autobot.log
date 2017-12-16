@@ -1,17 +1,12 @@
-==> Downloading https://mirrorservice.org/sites/lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_4.89.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c3acbb8/lsof/lsof-489-darwin-compile-fix.patch
-==> Patching
-==> Applying lsof-489-darwin-compile-fix.patch
-patching file dialects/darwin/libproc/dfile.c
-==> ./Configure -n linux
+==> Downloading https://www.lsv.ens-cachan.fr/~gastin/ltl2ba/ltl2ba-1.2b1.tar.gz
+==> Downloading from https://www.lsv.fr/~gastin/ltl2ba/ltl2ba-1.2b1.tar.gz
 ==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lsof`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lsof/4.89: 6 files, 372.4KB, built in 4 seconds
-==> Determining lsof bottle rebuild...
-==> Bottling lsof-4.89.x86_64_linux.bottle.1.tar.gz...
-./lsof-4.89.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall ltl2ba`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ltl2ba/1.2b1: 5 files, 124.4KB, built in 4 seconds
+==> Determining ltl2ba bottle rebuild...
+==> Bottling ltl2ba-1.2b1.x86_64_linux.bottle.tar.gz...
+./ltl2ba-1.2b1.x86_64_linux.bottle.tar.gz
   bottle do
-    rebuild 1
-    sha256 "bf78442cf743df2c7490c94eb4b5053fbacc2b0e866fe0c01f016eefa1c3ee25" => :x86_64_linux
+    sha256 "8e36f1ab5154734cb337371c2862212ebd92480766a2108c1fa12eb8c92621d2" => :x86_64_linux
   end
