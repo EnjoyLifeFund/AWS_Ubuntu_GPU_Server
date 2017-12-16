@@ -1,14 +1,14 @@
-==> Downloading https://github.com/cgag/loc/archive/v0.4.1.tar.gz
-==> Downloading from https://codeload.github.com/cgag/loc/tar.gz/v0.4.1
-==> cargo build --release
+==> Downloading https://downloads.sourceforge.net/project/log4c/log4c/1.2.4/log4c-1.2.4.tar.gz
+==> Downloading from https://iweb.dl.sourceforge.net/project/log4c/log4c/1.2.4/log4c-1.2.4.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/log4c/1.2.4
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall loc`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/loc/0.4.1: 6 files, 5.9MB, built in 2 minutes 6 seconds
-==> Determining loc bottle rebuild...
-==> Bottling loc-0.4.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if loc-0.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./loc-0.4.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall log4c`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/log4c/1.2.4: 43 files, 940.8KB, built in 17 seconds
+==> Determining log4c bottle rebuild...
+==> Bottling log4c-1.2.4.x86_64_linux.bottle.1.tar.gz...
+./log4c-1.2.4.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "80080c0dc98748c4288f44b6e7624b08b991a09bec72676c1cafad6f9348583a" => :x86_64_linux
+    sha256 "88b5b95f24e4edde2160c6106eb29e705a8df23c5122d73c31679293e78b78d1" => :x86_64_linux
   end
