@@ -1,16 +1,8 @@
-==> Downloading https://github.com/lra/mackup/archive/0.8.16.tar.gz
-==> Downloading from https://codeload.github.com/lra/mackup/tar.gz/0.8.16
-==> Downloading https://pypi.python.org/packages/source/d/docopt/docopt-0.6.2.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mackup/0.8.16/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/mackup/0.8.16/libexec --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mackup`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mackup/0.8.16: 400 files, 372.2KB, built in 1 second
-==> Determining mackup bottle rebuild...
-==> Bottling mackup-0.8.16.x86_64_linux.bottle.1.tar.gz...
-./mackup-0.8.16.x86_64_linux.bottle.1.tar.gz
+==> Determining mad bottle rebuild...
+==> Bottling mad-0.15.1b.x86_64_linux.bottle.2.tar.gz...
+./mad-0.15.1b.x86_64_linux.bottle.2.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d664cb213386200dac314dcf1f2ef0e3debe41d077e07fbb21ad208cdc927a8c" => :x86_64_linux
+    rebuild 2
+    sha256 "29aa98f038ef29dea66267659dc3fb1ba02e3a30e9bf7f15b3f4428f57e3d86a" => :x86_64_linux
   end
