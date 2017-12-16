@@ -1,3 +1,7 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/memcache-top/memcache-top-v0.6
-🍺  /home/linuxbrew/.linuxbrew/Cellar/memcache-top/0.6: 3 files, 27KB, built in 1 second
-This formula doesn't require compiling.
+==> Determining memcached bottle rebuild...
+==> Bottling memcached-1.5.3.x86_64_linux.bottle.1.tar.gz...
+./memcached-1.5.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5945a60d88bb00b3345697a21c867cba6d6dd1bed8d020eb1d3ff7e77e544b9b" => :x86_64_linux
+  end
