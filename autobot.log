@@ -1,13 +1,16 @@
-==> Downloading ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit-0.52.tar.gz
-==> make CC=gcc-6 CFLAGS= STATIC= sense all
+==> Downloading https://github.com/tanakh/cless/archive/0.3.0.0.tar.gz
+==> Downloading from https://codeload.github.com/tanakh/cless/tar.gz/0.3.0.0
+==> cabal sandbox init
+==> cabal update
+==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
+==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/cless/0.3.0.0_1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chkrootkit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chkrootkit/0.52: 15 files, 196KB, built in 7 seconds
-==> Determining chkrootkit bottle rebuild...
-==> Bottling chkrootkit-0.52.x86_64_linux.bottle.1.tar.gz...
-./chkrootkit-0.52.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cless`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cless/0.3.0.0_1: 6 files, 15.4MB, built in 3 minutes 28 seconds
+==> Determining cless bottle rebuild...
+==> Bottling cless-0.3.0.0_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if cless-0.3.0.0_1.x86_64_linux.bottle.tar.gz is relocatable...
+./cless-0.3.0.0_1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a9cc6ffb16cb696c187ac2680842044324944fe7e35e5818a90348d9e24aa3ba" => :x86_64_linux
+    sha256 "096512c1b69c880279cef95a0d51ae9084701211ea612be7ac163a7a0ff83ee0" => :x86_64_linux
   end
