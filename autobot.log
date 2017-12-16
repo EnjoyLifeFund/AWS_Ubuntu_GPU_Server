@@ -1,9 +1,1 @@
-==> Determining homebrew/science/yices bottle rebuild...
-==> Bottling yices-2.5.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if yices-2.5.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./yices-2.5.4.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b80657cf2ac37df134b5b4eaa95b5af66b50d3175c7fa2076864e35865fcc209" => :x86_64_linux
-  end
+This formula doesn't require compiling.
