@@ -1,12 +1,55 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mkcue/mkcue_1.orig.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mkcue/1
-==> make install
+==> Downloading https://github.com/mkdocs/mkdocs/archive/0.17.2.tar.gz
+==> Downloading from https://codeload.github.com/mkdocs/mkdocs/tar.gz/0.17.2
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/mkdocs--homebrew-virtualenv-20171216-28206-1lqbsd7/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/mkdocs--homebrew-virtualenv-20171216-28206-1lqbsd7/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec
+==> Downloading https://files.pythonhosted.org/packages/68/3c/1317a9113c377d1e33711ca8de1e80afbaf4a3c950dd0edfaf61f9bfe6d8/backports_abc-0.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--backports_abc-20171216-28206-82vh9c/backports_abc-0.5
+==> Downloading https://files.pythonhosted.org/packages/23/3f/8be01c50ed24a4bd6b8da799839066ce0288f66f5e11f0367323467f0cbc/certifi-2017.11.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--certifi-20171216-28206-1md5o6f/certifi-2017.11.5
+==> Downloading https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--click-20171216-28206-1351u8x/click-6.7
+==> Downloading https://files.pythonhosted.org/packages/56/e6/332789f295cf22308386cf5bbd1f4e00ed11484299c5d7383378cf48ba47/Jinja2-2.10.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--Jinja2-20171216-28206-febmkg/Jinja2-2.10
+==> Downloading https://files.pythonhosted.org/packages/e9/2e/c4972828cf526a2e5f5571d647fb2740df68f17e8084a9a1092f4d209f4c/livereload-2.5.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--livereload-20171216-28206-3orkyn/livereload-2.5.1
+==> Downloading https://files.pythonhosted.org/packages/29/82/dfe242bcfd9eec0e7bf93a80a8f8d8515a95b980c44f5c0b45606397a423/Markdown-2.6.9.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--Markdown-20171216-28206-1djqwk8/Markdown-2.6.9
+==> Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--MarkupSafe-20171216-28206-ssnxmk/MarkupSafe-1.0
+==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--PyYAML-20171216-28206-n4if4n/PyYAML-3.12
+==> Downloading https://files.pythonhosted.org/packages/d9/e9/513ad8dc17210db12cb14f2d4d190d618fb87dd38814203ea71c87ba5b68/singledispatch-3.4.0.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--singledispatch-20171216-28206-17un2w2/singledispatch-3.4.0.3
+==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--six-20171216-28206-11x4350/six-1.11.0
+==> Downloading https://files.pythonhosted.org/packages/fa/14/52e2072197dd0e63589e875ebf5984c91a027121262aa08f71a49b958359/tornado-4.5.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs--tornado-20171216-28206-1i4wz9a/tornado-4.5.2
+==> /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/mkdocs-20171216-28206-17njmsh/mkdocs-0.17.2
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/mkdocs
+Target /home/linuxbrew/.linuxbrew/bin/mkdocs
+already exists. You may want to remove it:
+  rm '/home/linuxbrew/.linuxbrew/bin/mkdocs'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite mkdocs
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run mkdocs
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/mkdocs
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mkcue`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mkcue/1: 6 files, 118.7KB, built in 1 minute 39 seconds
-==> Determining mkcue bottle rebuild...
-==> Bottling mkcue-1.x86_64_linux.bottle.tar.gz...
-./mkcue-1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall mkdocs`
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mkdocs/0.17.2: 1,407 files, 19.3MB, built in 7 minutes 5 seconds
+==> Determining mkdocs bottle rebuild...
+==> Bottling mkdocs-0.17.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mkdocs-0.17.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mkdocs-0.17.2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "0b10a7de73e6b26205ca7fd47f5f0299aa024c86c3638e32f9943f3f694fa64a" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c7467883ef9ee07062916762f3e3a9490ba7c867dd79552bb7a3c104a4bb3216" => :x86_64_linux
   end
