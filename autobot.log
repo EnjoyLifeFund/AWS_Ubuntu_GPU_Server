@@ -1,15 +1,13 @@
-==> Downloading https://esoteric.sange.fi/orphaned/malbolge/malbolge.c
-==> Downloading from https://sange.fi/esoteric/orphaned/malbolge/malbolge.c
-==> Patching
-patching file malbolge.c
-==> g++-6 malbolge.c -o malbolge
+==> Downloading https://www.mhonarc.org/release/misc/man2html3.0.1.tar.gz
+==> /usr/bin/perl install.me -batch -binpath /home/linuxbrew/.linuxbrew/Cellar/man2html/3.0.1/bin -manpath /home/linuxbrew/.linuxbrew/Cellar/man2html/3.0.1/share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall malbolge`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/malbolge/0.1.0: 3 files, 29.2KB, built in 3 seconds
-==> Determining malbolge bottle rebuild...
-==> Bottling malbolge-0.1.0.x86_64_linux.bottle.1.tar.gz...
-./malbolge-0.1.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall man2html`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/man2html/3.0.1: 7 files, 88.6KB, built in 2 seconds
+==> Determining man2html bottle rebuild...
+==> Bottling man2html-3.0.1.x86_64_linux.bottle.1.tar.gz...
+./man2html-3.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0e85f260e8bc629ff21643c150d5d2e1540d1984a43a2c27f537c09475cc880e" => :x86_64_linux
+    sha256 "d2331f872e2053da51a4b7321d7dd80ed9f60ee3e095e6c7290ce98a49492c35" => :x86_64_linux
   end
