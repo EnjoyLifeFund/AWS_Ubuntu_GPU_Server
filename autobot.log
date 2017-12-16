@@ -1,14 +1,7 @@
-==> Installing bact from homebrew/science
-==> Downloading http://chasen.org/~taku/software/bact/bact-0.13.tar.gz
-==> make
-==> make test
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/bact`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bact/0.13: 20 files, 833.4KB, built in 9 seconds
-==> Determining homebrew/science/bact bottle rebuild...
-==> Bottling bact-0.13.x86_64_linux.bottle.1.tar.gz...
-./bact-0.13.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/biobloomtools bottle rebuild...
+==> Bottling biobloomtools-2.0.13_1.x86_64_linux.bottle.1.tar.gz...
+./biobloomtools-2.0.13_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "3ad6b6e2202998ffeed743b3c9d9a971ee04d8b6f1fef741a7a6c27f67aeb6ab" => :x86_64_linux
+    sha256 "0bd46778465420e24e12454c54579fc15e782583351c22d994de2eef0fd88bc9" => :x86_64_linux
   end
