@@ -1,14 +1,13 @@
-==> Downloading https://github.com/simonwagner/mergepbx/archive/v0.10.tar.gz
-==> Downloading from https://codeload.github.com/simonwagner/mergepbx/tar.gz/v0.10
-==> ./build.py
+==> Downloading https://mesa.freedesktop.org/archive/glw/glw-8.0.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mesalib-glw/8.0.0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mergepbx`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mergepbx/0.10: 6 files, 431.6KB, built in 1 second
-==> Determining mergepbx bottle rebuild...
-==> Bottling mergepbx-0.10.x86_64_linux.bottle.1.tar.gz...
-./mergepbx-0.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mesalib-glw`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mesalib-glw/8.0.0: 12 files, 147.4KB, built in 12 seconds
+==> Determining mesalib-glw bottle rebuild...
+==> Bottling mesalib-glw-8.0.0.x86_64_linux.bottle.1.tar.gz...
+./mesalib-glw-8.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "630478091e020102c6643d0fda0963a388d0dacc9f40a8cef13f2e5cb2e1857a" => :x86_64_linux
+    sha256 "7cc4b356062040fdd53c6a820713471701dff4da191e5244adf99ad45a12a65a" => :x86_64_linux
   end
