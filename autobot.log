@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/phyx bottle rebuild...
+==> Bottling phyx-0.99_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if phyx-0.99_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./phyx-0.99_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7b0cb43ee24669ba738937bd1b312368ad9f7417c98346341b9a59d836af61c8" => :x86_64_linux
+  end
