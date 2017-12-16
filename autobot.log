@@ -1,7 +1,1 @@
-==> Determining base64 bottle rebuild...
-==> Bottling base64-1.5.x86_64_linux.bottle.1.tar.gz...
-./base64-1.5.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "7545c4e99cb337833f45812c209f289bfc3ee09ce4caf0b22e82271247348d56" => :x86_64_linux
-  end
+This formula doesn't require compiling.
