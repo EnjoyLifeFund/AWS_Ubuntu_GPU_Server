@@ -1,18 +1,14 @@
-==> Downloading https://dovecot.org/releases/2.2/dovecot-2.2.33.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2 --libexecdir=/home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2/libexec --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --with-ssl=openssl --with-sqlite --with-zlib --with-bzlib
+==> Downloading https://matt.ucc.asn.au/dropbear/releases/dropbear-2017.75.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dropbear/2017.75 --enable-pam --enable-zlib --enable-bundled-libtom --sysconfdir=/home/linuxbrew/.linuxbrew/etc/dropbear
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dovecot`
-==> Caveats
-For Dovecot to work, you may need to create a dovecot user
-and group depending on your configuration file options.
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2: 1,077 files, 70.3MB, built in 2 minutes 4 seconds
-==> Determining dovecot bottle rebuild...
-==> Bottling dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dropbear`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dropbear/2017.75: 14 files, 822.4KB, built in 54 seconds
+==> Determining dropbear bottle rebuild...
+==> Bottling dropbear-2017.75.x86_64_linux.bottle.1.tar.gz...
+./dropbear-2017.75.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aff2e4f20f8862ea7130add28af6068d98796a8a74689587954f589355b3b787" => :x86_64_linux
+    sha256 "aa309592c9ca802bde54caf3f06e8214d8f316d9dc350f4924635d18e5781c76" => :x86_64_linux
   end
