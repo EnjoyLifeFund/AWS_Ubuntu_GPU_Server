@@ -1,25 +1,15 @@
-==> Downloading https://github.com/bup/bup/archive/0.29.1.tar.gz
-==> Downloading from https://codeload.github.com/bup/bup/tar.gz/0.29.1
-==> Downloading https://files.pythonhosted.org/packages/68/3c/1317a9113c377d1e33711ca8de1e80afbaf4a3c950dd0edfaf61f9bfe6d8/backports_abc-0.5.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/b6/fa/ca682d5ace0700008d246664e50db8d095d23750bb212c0086305450c276/certifi-2017.1.23.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/d9/e9/513ad8dc17210db12cb14f2d4d190d618fb87dd38814203ea71c87ba5b68/singledispatch-3.4.0.3.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/5c/0b/2e5cef0d30811532b27ece726fb66a41f63344af8b693c90cec9474d9022/tornado-4.4.3.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> make
-==> make test
-==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1 PREFIX=
+==> Downloading https://downloads.sourceforge.net/project/camellia/Unix_Linux%20Distribution/v2.7.0/CamelliaLib-2.7.0.tar.gz
+==> Downloading from https://master.dl.sourceforge.net/project/camellia/Unix_Linux%20Distribution/v2.7.0/CamelliaLib-2.7.0.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/camellia/2.7.0
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bup`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1: 285 files, 4.5MB, built in 1 minute 8 seconds
-==> Determining bup bottle rebuild...
-==> Bottling bup-0.29.1.x86_64_linux.bottle.1.tar.gz...
-./bup-0.29.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall camellia`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/camellia/2.7.0: 15 files, 7.9MB, built in 36 seconds
+==> Determining camellia bottle rebuild...
+==> Bottling camellia-2.7.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if camellia-2.7.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./camellia-2.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "aa69c538cbf3037339d768aee3830a442cf2bd3695620a73e0a9da613980abac" => :x86_64_linux
+    sha256 "5f5ba1a8390982146d7afde9b0b8c0ae6810afea25e36ce37117b3a78a193111" => :x86_64_linux
   end
