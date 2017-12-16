@@ -1,8 +1,1 @@
-==> Determining linuxbrew/xorg/util-macros bottle rebuild...
-==> Bottling util-macros-1.19.0.x86_64_linux.bottle.1.tar.gz...
-./util-macros-1.19.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a56348458ff86ead28bc8faa5bdbf890d1f0f2ca80a387666960c7916c515ce9" => :x86_64_linux
-  end
+This formula doesn't require compiling.
