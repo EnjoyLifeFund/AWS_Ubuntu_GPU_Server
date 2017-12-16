@@ -1,8 +1,4 @@
-==> Determining mad bottle rebuild...
-==> Bottling mad-0.15.1b.x86_64_linux.bottle.2.tar.gz...
-./mad-0.15.1b.x86_64_linux.bottle.2.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 2
-    sha256 "29aa98f038ef29dea66267659dc3fb1ba02e3a30e9bf7f15b3f4428f57e3d86a" => :x86_64_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz
+==> Best Mirror http://apache.mirrors.ionfish.org/mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mahout/0.13.0: 29 files, 155.3MB, built in 25 seconds
+This formula doesn't require compiling.
