@@ -1,11 +1,39 @@
-==> Downloading ftp://ftp.knackered.org/pub/psutils/psutils-p17.tar.gz
-==> make -f Makefile.unix PERL=/usr/bin/perl BINDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/bin INCLUDEDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/share/psutils MANDIR=/home/linuxbrew/.linuxbrew/Cellar/psutils/p17/share/man/man1 install
+==> Installing amos from homebrew/science
+==> Downloading https://downloads.sourceforge.net/project/amos/amos/3.1.0/amos-3.1.0.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/amos/amos/3.1.0/amos-3.1.0.tar.gz
+==> Downloading https://www.cpan.org/authors/id/S/SH/SHLOMIF/Statistics-Descriptive-3.0612.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/amos/3.1.0_1/libexec
+==> make
+==> make install
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/amos/3.1.0_1 --with-Boost-dir=/home/linuxbrew/.linuxbrew/opt/boost BUILD_QT4=no DELTAFILTER=/home/linuxbrew/.linuxbrew/opt/mummer/libexec/delta-filter SHOWCOORDS=/home/linuxbrew/.linuxbrew/opt/mummer/libexec/show-coords
+==> make install
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/count-kmers
+Target /home/linuxbrew/.linuxbrew/bin/count-kmers
+is a symlink belonging to quake. You can unlink it:
+  brew unlink quake
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite amos
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run amos
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/count-kmers -> /home/linuxbrew/.linuxbrew/Cellar/quake/0.3.5_2/bin/count-kmers
+/home/linuxbrew/.linuxbrew/bin/count-qmers -> /home/linuxbrew/.linuxbrew/Cellar/quake/0.3.5_2/bin/count-qmers
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall psutils`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/psutils/p17: 47 files, 319.2KB, built in 1 second
-==> Determining psutils bottle rebuild...
-==> Bottling psutils-p17.x86_64_linux.bottle.tar.gz...
-./psutils-p17.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall homebrew/science/amos`
+==> Caveats
+The Perl modules have been installed in
+  /home/linuxbrew/.linuxbrew/opt/amos/lib/AMOS
+  /home/linuxbrew/.linuxbrew/opt/amos/lib/TIGR
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/amos/3.1.0_1: 332 files, 445.9MB, built in 4 minutes 50 seconds
+==> Determining homebrew/science/amos bottle rebuild...
+==> Bottling amos-3.1.0_1.x86_64_linux.bottle.tar.gz...
+==> Detecting if amos-3.1.0_1.x86_64_linux.bottle.tar.gz is relocatable...
+./amos-3.1.0_1.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "ddf62b443d673c27c2b50545a938c901d33374758d596b3a85cef6d9d1c827b9" => :x86_64_linux
+    sha256 "ead5aa857550157ca71bdf1723add27e9eed3480570ce50faee1c11a501aa774" => :x86_64_linux
   end
