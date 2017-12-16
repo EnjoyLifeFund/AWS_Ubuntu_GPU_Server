@@ -1,15 +1,15 @@
 ==> Upgrading 1 outdated package, with result:
-bmake 20171207
-==> Upgrading bmake 
-==> Downloading http://www.crufty.net/ftp/pub/sjg/bmake-20171207.tar.gz
-==> sh boot-strap --prefix=/home/linuxbrew/.linuxbrew/Cellar/bmake/20171207 -DWITHOUT_PROG_LINK --install
+git-crypt 0.6.0
+==> Upgrading git-crypt 
+==> Downloading https://www.agwa.name/projects/git-crypt/downloads/git-crypt-0.6.0.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bmake`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bmake/20171207: 82 files, 608.6KB, built in 35 seconds
-==> Determining bmake bottle rebuild...
-==> Bottling bmake-20171207.x86_64_linux.bottle.1.tar.gz...
-./bmake-20171207.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall git-crypt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/git-crypt/0.6.0: 9 files, 258.4KB, built in 4 seconds
+==> Determining git-crypt bottle rebuild...
+==> Bottling git-crypt-0.6.0.x86_64_linux.bottle.1.tar.gz...
+./git-crypt-0.6.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "3e9baedae3f36d3d79f999f4bdd59fdd46185b823c7d5b6496cf99c6149dee03" => :x86_64_linux
+    sha256 "6e34bc36a49fbc3da1b0aec334db3726fdaf19abd4ca5ac84eab0e4bb723765f" => :x86_64_linux
   end
