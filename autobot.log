@@ -1,18 +1,7 @@
 ==> Upgrading 1 outdated package, with result:
-clhep 2.4.0.1
-==> Upgrading clhep 
-==> Downloading https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.4.0.1.tgz
-==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev /tmp/clhep-20171216-23639-1gm0f9a/2.4.0.1/CLHEP
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clhep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.1: 348 files, 11.8MB, built in 35 seconds
-==> Determining clhep bottle rebuild...
-==> Bottling clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "a9c557cb1204966c96e12d5fdac387e38f6a17543faab7aec359919731236c8d" => :x86_64_linux
-  end
+ack 2.20
+==> Upgrading ack 
+==> Downloading https://beyondgrep.com/ack-2.20-single-file
+==> pod2man /home/linuxbrew/.linuxbrew/Cellar/ack/2.20/bin/ack ack.1
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ack/2.20: 4 files, 212.9KB, built in 1 second
+This formula doesn't require compiling.
