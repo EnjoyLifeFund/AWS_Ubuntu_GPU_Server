@@ -1,17 +1,42 @@
-==> Downloading https://hackage.haskell.org/package/cryptol-2.5.0/cryptol-2.5.0.tar.gz
-==> cabal sandbox init
-==> cabal update
-==> cabal install --jobs=32 --max-backjumps=100000 alex
-==> cabal install --jobs=32 --max-backjumps=100000 happy<1.19.6
-==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
-==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/cryptol/2.5.0
+==> Downloading https://ftp.gnu.org/non-gnu/cvs/source/feature/1.12.13/cvs-1.12.13.tar.bz2
+==> Downloading https://opensource.apple.com/tarballs/cvs/cvs-45.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/24118ec737c7/cvs/vasnprintf-high-sierra-fix.diff
+==> Patching
+==> Applying patches/PR5178707.diff
+patching file src/error.c
+==> Applying patches/ea.diff
+patching file src/ignore.c
+==> Applying patches/endian.diff
+patching file config.h.in
+==> Applying patches/fixtest-client-20.diff
+patching file src/client.c
+==> Applying patches/fixtest-recase.diff
+patching file src/sanity.sh
+==> Applying patches/i18n.diff
+patching file src/client.c
+==> Applying patches/initgroups.diff
+patching file src/server.c
+==> Applying patches/remove-libcrypto.diff
+patching file configure
+==> Applying patches/remove-info.diff
+patching file doc/Makefile.in
+==> Applying patches/tag.diff
+patching file doc/cvs.1
+==> Applying patches/zlib.diff
+patching file src/zlib.c
+==> Applying vasnprintf-high-sierra-fix.diff
+patching file lib/vasnprintf.c
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/cvs/1.12.13_1 --infodir=/home/linuxbrew/.linuxbrew/Cellar/cvs/1.12.13_1/share/info --mandir=/home/linuxbrew/.linuxbrew/Cellar/cvs/1.12.13_1/share/man --sysconfdir=/home/linuxbrew/.linuxbrew/etc --with-gssapi --enable-pam --enable-encryption --with-external-zlib --enable-case-sensitivity --with-editor=vim ac_cv_func_working_mktime=no
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cryptol`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cryptol/2.5.0: 8 files, 17.6MB, built in 7 minutes 2 seconds
-==> Determining cryptol bottle rebuild...
-==> Bottling cryptol-2.5.0.x86_64_linux.bottle.tar.gz...
-==> Detecting if cryptol-2.5.0.x86_64_linux.bottle.tar.gz is relocatable...
-./cryptol-2.5.0.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cvs`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cvs/1.12.13_1: 35 files, 3.7MB, built in 49 seconds
+==> Determining cvs bottle rebuild...
+==> Bottling cvs-1.12.13_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cvs-1.12.13_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cvs-1.12.13_1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "b988b7f7612a83ce309b2851cdbf39ca3500862da791f25b292c86499b0fa942" => :x86_64_linux
+    rebuild 1
+    sha256 "e300d8626fb40a859d668d58d317ede4fea5180b5653fd014b342fddbac83fb0" => :x86_64_linux
   end
