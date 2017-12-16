@@ -1,16 +1,27 @@
-==> Downloading https://downloads.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9/share/man --infodir=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9/share/info
-==> make
+==> Installing dependencies for mcrypt: mhash
+==> Installing mcrypt dependency: mhash
+==> Downloading https://downloads.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mhash/0.9.9.9
+==> make install
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mhash/0.9.9.9: 20 files, 975.0KB, built in 19 seconds
+==> Installing mcrypt
+==> Downloading https://downloads.sourceforge.net/project/mcrypt/MCrypt/2.6.8/mcrypt-2.6.8.tar.gz
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/mcrypt/MCrypt/2.6.8/mcrypt-2.6.8.tar.gz
+==> Patching
+patching file src/rfc2440.c
+==> Downloading https://downloads.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8/share/man
+==> make install
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --with-libmcrypt-prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mboxgrep`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9: 11 files, 106.4KB, built in 4 seconds
-==> Determining mboxgrep bottle rebuild...
-==> Bottling mboxgrep-0.7.9.x86_64_linux.bottle.1.tar.gz...
-./mboxgrep-0.7.9.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mcrypt`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8: 24 files, 1.2MB, built in 33 seconds
+==> Determining mcrypt bottle rebuild...
+==> Bottling mcrypt-2.6.8.x86_64_linux.bottle.tar.gz...
+./mcrypt-2.6.8.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "8dd6eab184fd8b36ad20f0e58ccbe520768d4d9fb6c55b94d35360881242384c" => :x86_64_linux
+    sha256 "19ee5e06a41bf82d4eb6d33b57d66888749b49a34ab73932b353d19f2d09a9a1" => :x86_64_linux
   end
