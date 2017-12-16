@@ -1,17 +1,12 @@
-==> Downloading https://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2
-==> Downloading from https://phoenixnap.dl.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2
-==> Patching
-patching file corec/tools/coremake/gcc_osx_x64.build
-==> ./mkclean/configure
-==> make mkclean
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mkcue/mkcue_1.orig.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mkcue/1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mkclean`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mkclean/0.8.10: 5 files, 572.5KB, built in 1 minute 4 seconds
-==> Determining mkclean bottle rebuild...
-==> Bottling mkclean-0.8.10.x86_64_linux.bottle.1.tar.gz...
-./mkclean-0.8.10.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mkcue`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mkcue/1: 6 files, 118.7KB, built in 1 minute 39 seconds
+==> Determining mkcue bottle rebuild...
+==> Bottling mkcue-1.x86_64_linux.bottle.tar.gz...
+./mkcue-1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "1b959726c9083452ccd9d56456bd36259aa693b11675dfc38ce968ebefe29a3c" => :x86_64_linux
+    sha256 "0b10a7de73e6b26205ca7fd47f5f0299aa024c86c3638e32f9943f3f694fa64a" => :x86_64_linux
   end
