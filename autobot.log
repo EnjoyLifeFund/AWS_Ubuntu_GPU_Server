@@ -1,9 +1,14 @@
-==> Downloading https://github.com/per9000/lorem/archive/6da0a5ac4dcce0e2463a0d820baafde72210fbff.tar.gz
-==> Downloading from https://codeload.github.com/per9000/lorem/tar.gz/6da0a5ac4dcce0e2463a0d820baafde72210fbff
-==> Downloading https://github.com/per9000/lorem/commit/1e3167d15b1337665a236a1e65a582ad2e3dd994.diff?full_index=1
-==> Patching
-==> Applying 1e3167d15b1337665a236a1e65a582ad2e3dd994.diff
-patching file README.md
-patching file lorem
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lorem/0.7.4: 5 files, 76.6KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://download.savannah.gnu.org/releases/lout/lout-3.40.tar.gz
+==> Downloading from https://download-mirror.savannah.gnu.org/releases/lout/lout-3.40.tar.gz
+==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40 LOUTLIBDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/lib LOUTDOCDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/share/doc/lout MANDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/share/man allinstall
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall lout`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lout/3.40: 610 files, 10.0MB, built in 11 seconds
+==> Determining lout bottle rebuild...
+==> Bottling lout-3.40.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lout-3.40.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lout-3.40.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "b4108bfb43cf4a13b1cff0b90768ec270e83a77395a3ae89f8af33590e496e14" => :x86_64_linux
+  end
