@@ -1,14 +1,55 @@
-==> Downloading https://downloads.sourceforge.net/project/mailcheck/mailcheck/1.91.2/mailcheck_1.91.2.tar.gz
-==> Downloading from https://svwh.dl.sourceforge.net/project/mailcheck/mailcheck/1.91.2/mailcheck_1.91.2.tar.gz
-==> make mailcheck
+==> Downloading https://github.com/mailhog/MailHog/archive/v1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/mailhog/MailHog/tar.gz/v1.0.0
+==> Cloning https://github.com/gorilla/context.git
+==> Checking out revision 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+==> Cloning https://github.com/gorilla/mux.git
+==> Checking out revision 599cba5e7b6137d46ddf58fb1765f5d928e69604
+==> Cloning https://github.com/gorilla/pat.git
+==> Checking out revision cf955c3d1f2c27ee96f93e9738085c762ff5f49d
+==> Cloning https://github.com/gorilla/websocket.git
+==> Checking out revision a91eba7f97777409bc2c443f5534d41dd20c5720
+==> Cloning https://github.com/ian-kent/envconf.git
+==> Checking out revision c19809918c02ab33dc8635d68c77649313185275
+==> Cloning https://github.com/ian-kent/go-log.git
+==> Checking out revision 5731446c36ab9f716106ce0731f484c50fdf1ad1
+==> Cloning https://github.com/ian-kent/goose.git
+==> Checking out revision c3541ea826ad9e0f8a4a8c15ca831e8b0adde58c
+==> Cloning https://github.com/ian-kent/linkio.git
+==> Checking out revision 77fb4b01842cb4b019137c0227df9a8f9779d0bd
+==> Cloning https://github.com/mailhog/MailHog-Server.git
+==> Checking out revision 50f74a1aa2991b96313144d1ac718ce4d6739dfd
+==> Cloning https://github.com/mailhog/MailHog-UI.git
+==> Checking out revision 24b31a47cc5b65d23576bb9884c941d2b88381f7
+==> Cloning https://github.com/mailhog/data.git
+==> Checking out revision 024d554958b5bea5db220bfd84922a584d878ded
+==> Cloning https://github.com/mailhog/http.git
+==> Checking out revision 2e653938bf190d0e2fbe4825ce74e5bc149a62f2
+==> Cloning https://github.com/mailhog/mhsendmail.git
+==> Checking out revision 9e70164f299c9e06af61402e636f5bbdf03e7dbb
+==> Cloning https://github.com/mailhog/smtp.git
+==> Checking out revision 0c4e9b7e0625fec61d0c30d7b2f6c62852be6c54
+==> Cloning https://github.com/mailhog/storage.git
+==> Checking out revision 6d871fb23ecd873cb10cdfc3a8dec5f50d2af8fa
+==> Cloning https://github.com/philhofer/fwd.git
+==> Checking out revision 98c11a7a6ec829d672b03833c3d69a7fae1ca972
+==> Cloning https://github.com/t-k/fluent-logger-golang.git
+==> Checking out revision 0f8ec08f2057a61574b6943e75045fffbeae894e
+==> Cloning https://github.com/tinylib/msgp.git
+==> Checking out revision 362bfb3384d53ae4d5dd745983a4d70b6d23628c
+==> Cloning https://go.googlesource.com/crypto.git
+==> Checking out revision cbc3d0884eac986df6e78a039b8792e869bff863
+==> Cloning https://gopkg.in/mgo.v2.git
+==> Checking out revision 3f83fa5005286a7fe593b055f0d7771a7dce4655
+==> go install -v .../MailHog
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mailcheck`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mailcheck/1.91.2: 6 files, 73.9KB, built in 1 second
-==> Determining mailcheck bottle rebuild...
-==> Bottling mailcheck-1.91.2.x86_64_linux.bottle.1.tar.gz...
-./mailcheck-1.91.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mailhog`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mailhog/1.0.0: 5 files, 11.4MB, built in 12 seconds
+==> Determining mailhog bottle rebuild...
+==> Bottling mailhog-1.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mailhog-1.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mailhog-1.0.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "b460f8cf9779e6f4fc90d54b46d9535e210b11ff658b7198a59f430d5b5564ff" => :x86_64_linux
+    sha256 "04c5879b18fa09801605817f31dbee95272285baa068200580fe270eb992b94d" => :x86_64_linux
   end
