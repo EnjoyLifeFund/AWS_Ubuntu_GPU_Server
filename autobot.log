@@ -1,13 +1,8 @@
-==> Downloading https://web.archive.org/web/20150915000000/www.ff.iij4u.or.jp/~nrt/freeware/lv451.tar.gz
-==> Downloading from https://web.archive.org/web/20150908231214/http://www.ff.iij4u.or.jp/~nrt/freeware/lv451.tar.gz
-==> ../src/configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lv/4.51
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lv/4.51: 7 files, 844.5KB, built in 5 seconds
-==> Determining lv bottle rebuild...
-==> Bottling lv-4.51.x86_64_linux.bottle.tar.gz...
-./lv-4.51.x86_64_linux.bottle.tar.gz
+==> Determining lv2 bottle rebuild...
+==> Bottling lv2-1.14.0.x86_64_linux.bottle.1.tar.gz...
+./lv2-1.14.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "441c72502c8a7d8e3ab58bfff031901e2e47bfa87d7bdbf2b8c4620d031bed37" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "bc950bf4837c4991d0cde1705dcf8ce8e93f8337699a4a11d82e43ccb088725b" => :x86_64_linux
   end
