@@ -1,14 +1,14 @@
-==> Downloading https://dl.bintray.com/homebrew/mirror/lrzsz-0.12.20.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20 --mandir=/home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20/share/man
-==> make
+==> Downloading https://downloads.sourceforge.net/project/lsdvd/lsdvd/lsdvd-0.17.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/lsdvd/lsdvd/lsdvd-0.17.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17 --mandir=/home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lrzsz`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20: 19 files, 1016.4KB, built in 22 seconds
-==> Determining lrzsz bottle rebuild...
-==> Bottling lrzsz-0.12.20.x86_64_linux.bottle.1.tar.gz...
-./lrzsz-0.12.20.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lsdvd`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lsdvd/0.17: 8 files, 131.6KB, built in 4 seconds
+==> Determining lsdvd bottle rebuild...
+==> Bottling lsdvd-0.17.x86_64_linux.bottle.1.tar.gz...
+./lsdvd-0.17.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "007c850631c01e3d9308274eb29db80a1bbdd25fa98cef57212a7b13e47e1917" => :x86_64_linux
+    sha256 "8584a6ef75c241f57cff8e29c51110d3ea5c3ecb7bbe48e398797fe943e114ca" => :x86_64_linux
   end
