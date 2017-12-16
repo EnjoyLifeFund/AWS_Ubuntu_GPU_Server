@@ -1,8 +1,1 @@
-==> Determining homebrew/science/trnascan bottle rebuild...
-==> Bottling trnascan-1.23.x86_64_linux.bottle.1.tar.gz...
-./trnascan-1.23.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "02395e247a291a3b7e30f15759ed3574a232f82830a94f7d6c7092e20acf153b" => :x86_64_linux
-  end
+This formula doesn't require compiling.
