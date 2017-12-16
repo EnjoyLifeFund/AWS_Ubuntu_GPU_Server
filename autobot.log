@@ -1,29 +1,7 @@
-==> Using a fortran compiler found at /usr/bin/gfortran.
-This may be changed by setting the FC environment variable.
-==> Downloading https://support.hdfgroup.org/ftp/HDF5/current18/src/hdf5-1.8.20.tar.bz2
-==> autoreconf -fiv
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/hdf5@1.8/1.8.20 --with-szlib=/home/linuxbrew/.linuxbrew/opt/szip --enable-build-mode=production --enable-fortran --enable-cxx
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall hdf5@1.8`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/hdf5@1.8/bin:$PATH"' >> ~/.bash_profile
-
-For compilers to find this software you may need to set:
-    LDFLAGS:  -L/home/linuxbrew/.linuxbrew/opt/hdf5@1.8/lib
-    CPPFLAGS: -I/home/linuxbrew/.linuxbrew/opt/hdf5@1.8/include
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/hdf5@1.8/1.8.20: 250 files, 16.7MB, built in 2 minutes 19 seconds
-==> Determining hdf5@1.8 bottle rebuild...
-==> Bottling hdf5@1.8-1.8.20.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if hdf5@1.8-1.8.20.x86_64_linux.bottle.1.tar.gz is relocatable...
-./hdf5@1.8-1.8.20.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/ace-corrector bottle rebuild...
+==> Bottling ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz...
+./ace-corrector-20150501.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "ee395850235267d78321a70c92b5e1f26faaade25f1482c1fda8048842a278c4" => :x86_64_linux
+    sha256 "b19cd598afa7a638a0479939025cef9874ce83d496413c8ce445246e56b5e31e" => :x86_64_linux
   end
