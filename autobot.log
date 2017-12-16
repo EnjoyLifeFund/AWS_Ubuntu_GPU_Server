@@ -1,1 +1,7 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/oases bottle rebuild...
+==> Bottling oases-0.2.08.x86_64_linux.bottle.tar.gz...
+./oases-0.2.08.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "96c255a58d951a98d0ab1b64a56aeb65952573220f32081987355f8af0e5feb3" => :x86_64_linux
+  end
