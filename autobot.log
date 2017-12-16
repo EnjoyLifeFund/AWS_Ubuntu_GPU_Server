@@ -1,1 +1,7 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/triangle bottle rebuild...
+==> Bottling triangle-1.6.x86_64_linux.bottle.tar.gz...
+./triangle-1.6.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "02ffae98bf3bbf8133f65ff4d5740a1fa7a1819f3fb9d0592a0a9f09b7d725fa" => :x86_64_linux
+  end
