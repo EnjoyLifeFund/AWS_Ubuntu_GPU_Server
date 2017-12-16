@@ -1,20 +1,12 @@
-==> Downloading https://github.com/niklasso/minisat/archive/releases/2.2.0.tar.gz
-==> Downloading from https://codeload.github.com/niklasso/minisat/tar.gz/releases/2.2.0
-==> Downloading https://github.com/niklasso/minisat/commit/9bd874980a7e5d65cecaba4edeb7127a41050ed1.patch?full_index=1
-==> Downloading https://github.com/niklasso/minisat/commit/cfae87323839064832c8b3608bf595548dd1a1f3.patch?full_index=1
-==> Patching
-==> Applying 9bd874980a7e5d65cecaba4edeb7127a41050ed1.patch
-patching file utils/System.cc
-==> Applying cfae87323839064832c8b3608bf595548dd1a1f3.patch
-patching file utils/System.cc
-Hunk #2 succeeded at 71 with fuzz 2.
-==> make -C simp r
+==> Downloading https://dl.exactcode.de/oss/minised/minised-1.15.tar.gz
+==> make
+==> make DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/minised/1.15 PREFIX= install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall minisat`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minisat/2.2.0_1: 5 files, 723.3KB, built in 3 seconds
-==> Determining minisat bottle rebuild...
-==> Bottling minisat-2.2.0_1.x86_64_linux.bottle.tar.gz...
-./minisat-2.2.0_1.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall minised`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minised/1.15: 6 files, 70.8KB, built in 4 seconds
+==> Determining minised bottle rebuild...
+==> Bottling minised-1.15.x86_64_linux.bottle.tar.gz...
+./minised-1.15.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "b3e3b4df6c9daae31b323e4d44e117287686d75b820ede9546118ee75c3587a7" => :x86_64_linux
+    sha256 "203a1100d372563215068f9e0580e73e802237f1c09ae4ab4c337f52d391eb99" => :x86_64_linux
   end
