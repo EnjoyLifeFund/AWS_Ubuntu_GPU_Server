@@ -1,13 +1,13 @@
-==> Downloading http://lwtools.projects.l-w.ca/releases/lwtools/lwtools-4.14.tar.gz
-==> make
-==> make install INSTALLDIR=/home/linuxbrew/.linuxbrew/Cellar/lwtools/4.14/bin
+==> Downloading https://linuxcontainers.org/downloads/lxd/lxd-2.20.tar.gz
+==> go install -v github.com/lxc/lxd/lxc
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lwtools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lwtools/4.14: 7 files, 333.4KB, built in 2 seconds
-==> Determining lwtools bottle rebuild...
-==> Bottling lwtools-4.14.x86_64_linux.bottle.1.tar.gz...
-./lwtools-4.14.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lxc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lxc/2.20: 6 files, 12.1MB, built in 7 seconds
+==> Determining lxc bottle rebuild...
+==> Bottling lxc-2.20.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lxc-2.20.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lxc-2.20.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "584c3b2e9af47e832d5bb405969c0dc289b8b83e3e60bd36ae242f7c633ef79d" => :x86_64_linux
+    sha256 "bf7a5abeef115c752b039241290a69d1762398d876cd149c84a854fbcf56459b" => :x86_64_linux
   end
