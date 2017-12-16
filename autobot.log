@@ -1,6 +1,1 @@
-==> Determining bastet bottle rebuild...
-==> Bottling bastet-0.43.2.x86_64_linux.bottle.tar.gz...
-./bastet-0.43.2.x86_64_linux.bottle.tar.gz
-  bottle do
-    sha256 "a14fb48fe936a819c4dfcfc7f4c52724955e7b4c1e816d8ca1c9886f94eeb067" => :x86_64_linux
-  end
+This formula doesn't require compiling.
