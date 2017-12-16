@@ -1,22 +1,8 @@
-==> Upgrading 1 outdated package, with result:
-gopass 1.6.4
-==> Upgrading gopass 
-==> Downloading https://github.com/justwatchcom/gopass/releases/download/v1.6.4/gopass-1.6.4.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/80723074/8353caf0-e044-11e7-8f00-1305eb57c275?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T035559Z&X-Amz-Expires=300&X-Amz-Signature=ad156d09a33c7af73586e1ddfa8c86b8b0cf9b24bbdf2308ac125fb519379dfd&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgopass-1.6.4.tar.gz&response-content-type=application%2Foctet-stream
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gopass`
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/gopass/1.6.4: 7 files, 9.5MB, built in 8 seconds
-==> Determining gopass bottle rebuild...
-==> Bottling gopass-1.6.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gopass-1.6.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gopass-1.6.4.x86_64_linux.bottle.1.tar.gz
+==> Determining linuxbrew/xorg/mkfontdir bottle rebuild...
+==> Bottling mkfontdir-1.0.7.x86_64_linux.bottle.1.tar.gz...
+./mkfontdir-1.0.7.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0471e7f24e942df21839b7d0217fce24bf39deaa5819787ad278d165fef44408" => :x86_64_linux
+    sha256 "0e2c149c2dbe30a9c404afea36cea83a8edac64b8e70aa5448a455eeceebbedc" => :x86_64_linux
   end
