@@ -1,8 +1,5 @@
-==> Downloading https://github.com/DhavalKapil/luaver/archive/v1.1.0.tar.gz
-==> Downloading from https://codeload.github.com/DhavalKapil/luaver/tar.gz/v1.1.0
-==> Caveats
-Add the following at the end of the correct file yourself:
-  if which luaver > /dev/null; then . `which luaver`; fi
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/luaver/1.1.0: 6 files, 45.2KB, built in 1 second
+==> Downloading https://downloads.sourceforge.net/project/luciddb/luciddb/luciddb-0.9.4/luciddb-bin-macos32-0.9.4.tar.bz2
+==> Downloading from http://cfhcable.dl.sourceforge.net/project/luciddb/luciddb/luciddb-0.9.4/luciddb-bin-macos32-0.9.4.tar.bz2
+==> ./install.sh
+🍺  /home/linuxbrew/.linuxbrew/Cellar/luciddb/0.9.4: 173 files, 109.3MB, built in 6 seconds
 This formula doesn't require compiling.
