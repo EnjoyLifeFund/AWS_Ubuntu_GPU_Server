@@ -1,39 +1,17 @@
 ==> Upgrading 1 outdated package, with result:
-dnscrypt-proxy 1.9.5_2
-==> Upgrading dnscrypt-proxy 
-==> Downloading https://github.com/jedisct1/dnscrypt-proxy/archive/1.9.5.tar.gz
-==> Downloading from https://codeload.github.com/jedisct1/dnscrypt-proxy/tar.gz/1.9.5
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --enable-plugins --enable-relaxed-plugins-permissions --enable-plugins-root
-==> make install
+convox 20171213132441
+==> Upgrading convox 
+==> Downloading https://github.com/convox/rack/archive/20171213132441.tar.gz
+==> Downloading from https://codeload.github.com/convox/rack/tar.gz/20171213132441
+==> go build -ldflags=-X main.Version=20171213132441 -o /home/linuxbrew/.linuxbrew/Cellar/convox/20171213132441/bin/convox -v github.com/convox/rack/cmd/convox
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dnscrypt-proxy`
-==> Caveats
-After starting dnscrypt-proxy, you will need to point your
-local DNS server to 127.0.0.1. You can do this by going to
-System Preferences > "Network" and clicking the "Advanced..."
-button for your interface. You will see a "DNS" tab where you
-can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
-
-By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
-and under the "nobody" user using a random resolver. If you would like to
-change these settings, you will have to edit the configuration file:
-/home/linuxbrew/.linuxbrew/etc/dnscrypt-proxy.conf (e.g., ResolverName, etc.)
-
-To check that dnscrypt-proxy is working correctly, open Terminal and enter the
-following command. Replace en1 with whatever network interface you're using:
-
-    sudo tcpdump -i en1 -vvv 'port 443'
-
-You should see a line in the result that looks like this:
-
-    resolver2.dnscrypt.eu.https
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_2: 32 files, 2.4MB, built in 1 minute 5 seconds
-==> Determining dnscrypt-proxy bottle rebuild...
-==> Bottling dnscrypt-proxy-1.9.5_2.x86_64_linux.bottle.1.tar.gz...
-./dnscrypt-proxy-1.9.5_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall convox`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/convox/20171213132441: 3 files, 20.6MB, built in 10 seconds
+==> Determining convox bottle rebuild...
+==> Bottling convox-20171213132441.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if convox-20171213132441.x86_64_linux.bottle.1.tar.gz is relocatable...
+./convox-20171213132441.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bcf23104e76946f55abb9c66a0112a4354f7bac7ea20880eb15ac0359e5f8884" => :x86_64_linux
+    sha256 "c9deb4e6a3e44ead9a3d0f220a594c47e3ffbad599bfef54ab19635f3ac7db23" => :x86_64_linux
   end
