@@ -1,5 +1,5 @@
 bot_path
-llvm-*.bottle.*.tar.gz
+llvm*.bottle.*.tar.gz
 rust-*.bottle.*.tar.gz
 message.txt
 tmpBot

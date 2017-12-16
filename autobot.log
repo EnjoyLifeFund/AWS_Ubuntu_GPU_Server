@@ -1,8 +1,14 @@
-==> Determining lmdb bottle rebuild...
-==> Bottling lmdb-0.9.21.x86_64_linux.bottle.1.tar.gz...
-./lmdb-0.9.21.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/cgag/loc/archive/v0.4.1.tar.gz
+==> Downloading from https://codeload.github.com/cgag/loc/tar.gz/v0.4.1
+==> cargo build --release
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall loc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/loc/0.4.1: 6 files, 5.9MB, built in 2 minutes 6 seconds
+==> Determining loc bottle rebuild...
+==> Bottling loc-0.4.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if loc-0.4.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./loc-0.4.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "22a9e34ed5ebb530c8feb187fbdc2228b467810d9aa68c14530dbe4939d8ff83" => :x86_64_linux
+    sha256 "80080c0dc98748c4288f44b6e7624b08b991a09bec72676c1cafad6f9348583a" => :x86_64_linux
   end
