@@ -1,24 +1,25 @@
-==> Downloading https://get.bitlbee.org/src/bitlbee-3.5.1.tar.gz
-==> Downloading https://github.com/bitlbee/bitlbee/commit/17a58dfa.patch?full_index=1
-==> Downloading https://github.com/bitlbee/bitlbee/commit/eb73d05e.patch?full_index=1
-==> Patching
-==> Applying 17a58dfa.patch
-patching file storage_xml.c
-==> Applying eb73d05e.patch
-patching file protocols/nogaim.c
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bitlbee/3.5.1 --plugindir=/home/linuxbrew/.linuxbrew/lib/bitlbee/ --debug=0 --ssl=gnutls --etcdir=/home/linuxbrew/.linuxbrew/etc/bitlbee --pidfile=/home/linuxbrew/.linuxbrew/var/bitlbee/run/bitlbee.pid --config=/home/linuxbrew/.linuxbrew/var/bitlbee/lib/ --ipsocket=/home/linuxbrew/.linuxbrew/var/bitlbee/run/bitlbee.sock
+==> Downloading https://github.com/bup/bup/archive/0.29.1.tar.gz
+==> Downloading from https://codeload.github.com/bup/bup/tar.gz/0.29.1
+==> Downloading https://files.pythonhosted.org/packages/68/3c/1317a9113c377d1e33711ca8de1e80afbaf4a3c950dd0edfaf61f9bfe6d8/backports_abc-0.5.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/b6/fa/ca682d5ace0700008d246664e50db8d095d23750bb212c0086305450c276/certifi-2017.1.23.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/d9/e9/513ad8dc17210db12cb14f2d4d190d618fb87dd38814203ea71c87ba5b68/singledispatch-3.4.0.3.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/5c/0b/2e5cef0d30811532b27ece726fb66a41f63344af8b693c90cec9474d9022/tornado-4.4.3.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1/libexec/vendor --single-version-externally-managed --record=installed.txt
 ==> make
-==> make install
-==> make install-dev
-==> make install-etc
+==> make test
+==> make install DESTDIR=/home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1 PREFIX=
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bitlbee`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bitlbee/3.5.1: 48 files, 3.2MB, built in 6 seconds
-==> Determining bitlbee bottle rebuild...
-==> Bottling bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bitlbee-3.5.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bup`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bup/0.29.1: 285 files, 4.5MB, built in 1 minute 8 seconds
+==> Determining bup bottle rebuild...
+==> Bottling bup-0.29.1.x86_64_linux.bottle.1.tar.gz...
+./bup-0.29.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "d4a35393798415bbe1fd9e0801351e06b88a5521c27369c7bfe3e06ce52d0b91" => :x86_64_linux
+    sha256 "aa69c538cbf3037339d768aee3830a442cf2bd3695620a73e0a9da613980abac" => :x86_64_linux
   end
