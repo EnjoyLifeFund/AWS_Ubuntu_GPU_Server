@@ -1,15 +1,14 @@
-==> Cloning https://github.com/micropython/micropython.git
-==> Checking out tag v1.9.3
-==> make axtls
-==> make install PREFIX=/home/linuxbrew/.linuxbrew/Cellar/micropython/1.9.3 V=1
+==> Downloading https://www.fourmilab.ch/webtools/midicsv/midicsv-1.1.tar.gz
+==> make
+==> make check
+==> make install INSTALL_DEST=/home/linuxbrew/.linuxbrew/Cellar/midicsv/1.1
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall micropython`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/micropython/1.9.3: 5 files, 401.3KB, built in 29 seconds
-==> Determining micropython bottle rebuild...
-==> Bottling micropython-1.9.3.x86_64_linux.bottle.1.tar.gz...
-./micropython-1.9.3.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall midicsv`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/midicsv/1.1: 8 files, 133.6KB, built in 2 seconds
+==> Determining midicsv bottle rebuild...
+==> Bottling midicsv-1.1.x86_64_linux.bottle.1.tar.gz...
+./midicsv-1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "be9493a6d8a0b02b6b3b553d9cbda8c5d70988b2d7b95ec7c9fb30caf5cca5fd" => :x86_64_linux
+    sha256 "7990a78fda712eb31a754c3cf8ffea334b1b6b1e0156f429ffb84f72de78eac4" => :x86_64_linux
   end
