@@ -1,20 +1,18 @@
 ==> Upgrading 1 outdated package, with result:
-apm-server 6.0.1
-==> Upgrading apm-server 
-==> Downloading https://github.com/elastic/apm-server/archive/v6.0.1.tar.gz
-==> Downloading from https://codeload.github.com/elastic/apm-server/tar.gz/v6.0.1
-==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/apm-server-20171216-18481-hyboac/apm-server-6.0.1/vendor --single-version-externally-managed --record=installed.txt
-==> make
-==> make update
+clhep 2.4.0.1
+==> Upgrading clhep 
+==> Downloading https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.4.0.1.tgz
+==> cmake -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev /tmp/clhep-20171216-23639-1gm0f9a/2.4.0.1/CLHEP
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apm-server`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apm-server/6.0.1: 28 files, 42.8MB, built in 28 seconds
-==> Determining apm-server bottle rebuild...
-==> Bottling apm-server-6.0.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if apm-server-6.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./apm-server-6.0.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clhep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clhep/2.4.0.1: 348 files, 11.8MB, built in 35 seconds
+==> Determining clhep bottle rebuild...
+==> Bottling clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clhep-2.4.0.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "c9c0d18567f74931aebea7c26ffcc04afb29ee07588736c7fe684feac5f9a4f2" => :x86_64_linux
+    sha256 "a9c557cb1204966c96e12d5fdac387e38f6a17543faab7aec359919731236c8d" => :x86_64_linux
   end
