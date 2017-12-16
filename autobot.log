@@ -1,7 +1,14 @@
-==> Determining makedepend bottle rebuild...
-==> Bottling makedepend-1.0.5.x86_64_linux.bottle.tar.gz...
-./makedepend-1.0.5.x86_64_linux.bottle.tar.gz
+==> Downloading https://github.com/lindenb/makefile2graph/archive/v1.5.0.tar.gz
+==> Downloading from https://codeload.github.com/lindenb/makefile2graph/tar.gz/v1.5.0
+==> make
+==> make test
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall makefile2graph`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/makefile2graph/1.5.0: 9 files, 118.8KB, built in 1 second
+==> Determining makefile2graph bottle rebuild...
+==> Bottling makefile2graph-1.5.0.x86_64_linux.bottle.1.tar.gz...
+./makefile2graph-1.5.0.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "2300651ad1a0c9420c0e29f0e4446e162cc2a15c2c099240fc1c576476ccb21e" => :x86_64_linux
+    rebuild 1
+    sha256 "e682260297759649a4b84a686c31c5049e528a54471ac8c40e3315e3d2bad0b9" => :x86_64_linux
   end
