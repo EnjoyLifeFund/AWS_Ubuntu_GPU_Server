@@ -1,4 +1,14 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz
-==> Best Mirror http://apache.mirrors.ionfish.org/mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mahout/0.13.0: 29 files, 155.3MB, built in 25 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/mailcheck/mailcheck/1.91.2/mailcheck_1.91.2.tar.gz
+==> Downloading from https://svwh.dl.sourceforge.net/project/mailcheck/mailcheck/1.91.2/mailcheck_1.91.2.tar.gz
+==> make mailcheck
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall mailcheck`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mailcheck/1.91.2: 6 files, 73.9KB, built in 1 second
+==> Determining mailcheck bottle rebuild...
+==> Bottling mailcheck-1.91.2.x86_64_linux.bottle.1.tar.gz...
+./mailcheck-1.91.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "b460f8cf9779e6f4fc90d54b46d9535e210b11ff658b7198a59f430d5b5564ff" => :x86_64_linux
+  end
