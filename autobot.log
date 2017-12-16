@@ -1,16 +1,1 @@
-==> Downloading https://downloads.sourceforge.net/project/bacula/bacula/9.0.6/bacula-9.0.6.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/bacula/bacula/9.0.6/bacula-9.0.6.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bacula-fd/9.0.6 --sbindir=/home/linuxbrew/.linuxbrew/Cellar/bacula-fd/9.0.6/bin --with-working-dir=/home/linuxbrew/.linuxbrew/var/lib/bacula --with-pid-dir=/home/linuxbrew/.linuxbrew/var/run --with-logdir=/home/linuxbrew/.linuxbrew/var/log/bacula --enable-client-only --disable-conio --with-readline=/home/linuxbrew/.linuxbrew/opt/readline
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bacula-fd`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bacula-fd/9.0.6: 62 files, 5.9MB, built in 40 seconds
-==> Determining bacula-fd bottle rebuild...
-==> Bottling bacula-fd-9.0.6.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bacula-fd-9.0.6.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bacula-fd-9.0.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "695de8e9e539b97f8ee8d83fe80da3bfbe5afa52c5e23d7b2e8e2754a30c9cc1" => :x86_64_linux
-  end
+This formula doesn't require compiling.
