@@ -1,17 +1,20 @@
-==> Cloning https://github.com/minio/minio.git
-==> Checking out tag RELEASE.2017-11-22T19-55-46Z
-==> go build -o /tmp/minio-20171216-117353-1ex7vww/minio -ldflags -X github.com/minio/minio/cmd.Version=2017-11-22T19:55:46Z
--X github.com/minio/minio/cmd.ReleaseTag=RELEASE.2017-11-22T19-55-46Z
--X github.com/minio/minio/cmd.CommitID=d1a6c32d800f1d5b703baad1f8aeede6cf2cdf48
+==> Downloading https://github.com/niklasso/minisat/archive/releases/2.2.0.tar.gz
+==> Downloading from https://codeload.github.com/niklasso/minisat/tar.gz/releases/2.2.0
+==> Downloading https://github.com/niklasso/minisat/commit/9bd874980a7e5d65cecaba4edeb7127a41050ed1.patch?full_index=1
+==> Downloading https://github.com/niklasso/minisat/commit/cfae87323839064832c8b3608bf595548dd1a1f3.patch?full_index=1
+==> Patching
+==> Applying 9bd874980a7e5d65cecaba4edeb7127a41050ed1.patch
+patching file utils/System.cc
+==> Applying cfae87323839064832c8b3608bf595548dd1a1f3.patch
+patching file utils/System.cc
+Hunk #2 succeeded at 71 with fuzz 2.
+==> make -C simp r
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall minio`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/minio/20171122195546: 3 files, 32.1MB, built in 10 seconds
-==> Determining minio bottle rebuild...
-==> Bottling minio-20171122195546.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if minio-20171122195546.x86_64_linux.bottle.1.tar.gz is relocatable...
-./minio-20171122195546.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall minisat`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/minisat/2.2.0_1: 5 files, 723.3KB, built in 3 seconds
+==> Determining minisat bottle rebuild...
+==> Bottling minisat-2.2.0_1.x86_64_linux.bottle.tar.gz...
+./minisat-2.2.0_1.x86_64_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "3fbdbd13da90ba8969dee8e32dbf99421186df158b06ee97bc82890adac933ce" => :x86_64_linux
+    sha256 "b3e3b4df6c9daae31b323e4d44e117287686d75b820ede9546118ee75c3587a7" => :x86_64_linux
   end
