@@ -1,12 +1,13 @@
-==> Downloading https://ftp.gnu.org/gnu/marst/marst-2.7.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/marst/2.7
-==> make install
+==> Downloading https://github.com/robertdavidgraham/masscan/archive/1.0.4.tar.gz
+==> Downloading from https://codeload.github.com/robertdavidgraham/masscan/tar.gz/1.0.4
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall marst`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/marst/2.7: 14 files, 582.3KB, built in 9 seconds
-==> Determining marst bottle rebuild...
-==> Bottling marst-2.7.x86_64_linux.bottle.tar.gz...
-./marst-2.7.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall masscan`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/masscan/1.0.4: 5 files, 1.3MB, built in 2 seconds
+==> Determining masscan bottle rebuild...
+==> Bottling masscan-1.0.4.x86_64_linux.bottle.1.tar.gz...
+./masscan-1.0.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "847ee7c88a68a441d62006e5d87e7eb48db6cba16af74ea5c764c612dec1e38f" => :x86_64_linux
+    rebuild 1
+    sha256 "e43f87a60ce31807cbf88826ba89be167faddebac4a05691b827e27b0d3c75b5" => :x86_64_linux
   end
