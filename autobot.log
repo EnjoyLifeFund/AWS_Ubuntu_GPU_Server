@@ -1,18 +1,39 @@
 ==> Upgrading 1 outdated package, with result:
-antlr4-cpp-runtime 4.7.1
-==> Upgrading antlr4-cpp-runtime 
-==> Downloading http://www.antlr.org/download/antlr4-cpp-runtime-4.7.1-source.zip
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/antlr4-cpp-runtime/4.7.1 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+dnscrypt-proxy 1.9.5_2
+==> Upgrading dnscrypt-proxy 
+==> Downloading https://github.com/jedisct1/dnscrypt-proxy/archive/1.9.5.tar.gz
+==> Downloading from https://codeload.github.com/jedisct1/dnscrypt-proxy/tar.gz/1.9.5
+==> ./autogen.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_2 --sysconfdir=/home/linuxbrew/.linuxbrew/etc --enable-plugins --enable-relaxed-plugins-permissions --enable-plugins-root
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall antlr4-cpp-runtime`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/antlr4-cpp-runtime/4.7.1: 167 files, 4.9MB, built in 17 seconds
-==> Determining antlr4-cpp-runtime bottle rebuild...
-==> Bottling antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./antlr4-cpp-runtime-4.7.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dnscrypt-proxy`
+==> Caveats
+After starting dnscrypt-proxy, you will need to point your
+local DNS server to 127.0.0.1. You can do this by going to
+System Preferences > "Network" and clicking the "Advanced..."
+button for your interface. You will see a "DNS" tab where you
+can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
+
+By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
+and under the "nobody" user using a random resolver. If you would like to
+change these settings, you will have to edit the configuration file:
+/home/linuxbrew/.linuxbrew/etc/dnscrypt-proxy.conf (e.g., ResolverName, etc.)
+
+To check that dnscrypt-proxy is working correctly, open Terminal and enter the
+following command. Replace en1 with whatever network interface you're using:
+
+    sudo tcpdump -i en1 -vvv 'port 443'
+
+You should see a line in the result that looks like this:
+
+    resolver2.dnscrypt.eu.https
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dnscrypt-proxy/1.9.5_2: 32 files, 2.4MB, built in 1 minute 5 seconds
+==> Determining dnscrypt-proxy bottle rebuild...
+==> Bottling dnscrypt-proxy-1.9.5_2.x86_64_linux.bottle.1.tar.gz...
+./dnscrypt-proxy-1.9.5_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "435b2abecbd29c0df59e6f9305742838af69e59e567c152f59c9c8e2c690ea9f" => :x86_64_linux
+    sha256 "bcf23104e76946f55abb9c66a0112a4354f7bac7ea20880eb15ac0359e5f8884" => :x86_64_linux
   end
