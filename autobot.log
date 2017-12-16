@@ -1,3 +1,21 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=org/sonatype/maven/shell/dist/mvnsh-assembly/1.1.0/mvnsh-assembly-1.1.0-bin.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/maven-shell/1.1.0: 126 files, 19.8MB, built in 3 seconds
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
+==> Best Mirror http://mirrors.sonic.net/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
+The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
+Could not symlink bin/mvn
+Target /home/linuxbrew/.linuxbrew/bin/mvn
+is a symlink belonging to maven. You can unlink it:
+  brew unlink maven
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite maven@3.0
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run maven@3.0
+
+Possible conflicting files are:
+/home/linuxbrew/.linuxbrew/bin/mvn -> /home/linuxbrew/.linuxbrew/Cellar/maven/3.5.2/bin/mvn
+/home/linuxbrew/.linuxbrew/bin/mvnDebug -> /home/linuxbrew/.linuxbrew/Cellar/maven/3.5.2/bin/mvnDebug
+/home/linuxbrew/.linuxbrew/bin/mvnyjp -> /home/linuxbrew/.linuxbrew/Cellar/maven/3.5.2/bin/mvnyjp
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/maven@3.0/3.0.5: 44 files, 5.7MB, built in 1 second
 This formula doesn't require compiling.
