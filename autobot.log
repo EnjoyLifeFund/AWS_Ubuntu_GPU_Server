@@ -1,16 +1,21 @@
-==> Downloading https://hackage.haskell.org/package/bench-1.0.7/bench-1.0.7.tar.gz
-==> cabal sandbox init
-==> cabal update
-==> cabal install --jobs=32 --max-backjumps=100000 --only-dependencies
-==> cabal install --jobs=32 --max-backjumps=100000 --prefix=/home/linuxbrew/.linuxbrew/Cellar/bench/1.0.7
+==> Using Homebrew-provided fortran compiler.
+This may be changed by setting the FC environment variable.
+==> Downloading https://github.com/devttys0/binwalk/archive/v2.1.1.tar.gz
+==> Downloading from https://github.com/ReFirmLabs/binwalk/archive/v2.1.1.tar.gz
+==> Downloading https://pypi.python.org/packages/source/n/numpy/numpy-1.10.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://downloads.sourceforge.net/project/scipy/scipy/0.16.1/scipy-0.16.1.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/scipy/scipy/0.16.1/scipy-0.16.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3/libexec --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bench`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bench/1.0.7: 6 files, 20.8MB, built in 7 minutes 9 seconds
-==> Determining bench bottle rebuild...
-==> Bottling bench-1.0.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bench-1.0.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bench-1.0.7.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall binwalk`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/binwalk/2.1.1_3: 1,952 files, 57.3MB, built in 7 minutes 22 seconds
+==> Determining binwalk bottle rebuild...
+==> Bottling binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./binwalk-2.1.1_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "f92ce6ce644afae9698641ae870bc6cf0b646de8febd60dc61be143f8d44b75b" => :x86_64_linux
+    sha256 "0cc7ef17bbd07c9a193661b35a7cdd84cf993bdb931e750e0a524166282d0988" => :x86_64_linux
   end
