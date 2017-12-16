@@ -1,14 +1,15 @@
-==> Downloading https://www.fourmilab.ch/webtools/midicsv/midicsv-1.1.tar.gz
-==> make
-==> make check
-==> make install INSTALL_DEST=/home/linuxbrew/.linuxbrew/Cellar/midicsv/1.1
+==> Downloading https://www.midnight-commander.org/downloads/mc-4.8.20.tar.xz
+==> Downloading from https://midnight-commander.org/downloads/mc-4.8.20.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/midnight-commander/4.8.20 --without-x --with-screen=slang --enable-vfs-sftp
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall midicsv`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/midicsv/1.1: 8 files, 133.6KB, built in 2 seconds
-==> Determining midicsv bottle rebuild...
-==> Bottling midicsv-1.1.x86_64_linux.bottle.1.tar.gz...
-./midicsv-1.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall midnight-commander`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/midnight-commander/4.8.20: 327 files, 12.2MB, built in 1 minute 8 seconds
+==> Determining midnight-commander bottle rebuild...
+==> Bottling midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz is relocatable...
+./midnight-commander-4.8.20.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "7990a78fda712eb31a754c3cf8ffea334b1b6b1e0156f429ffb84f72de78eac4" => :x86_64_linux
+    sha256 "76dbbc26ff6ad4478d26a79c88e132ce557e2801e669e5a31724c94b5313ae77" => :x86_64_linux
   end
