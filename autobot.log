@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining taglib bottle rebuild...
+==> Bottling taglib-1.11.1.x86_64_linux.bottle.1.tar.gz...
+./taglib-1.11.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "46c7d35d2b5a3d9c42449b9cd653eff5a2ac456a2227ce6862f4f385abff7d08" => :x86_64_linux
+  end
