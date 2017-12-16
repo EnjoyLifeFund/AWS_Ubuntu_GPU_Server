@@ -1,9 +1,1 @@
-==> Determining linuxbrew/xorg/xorg-docs bottle rebuild...
-==> Bottling xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz is relocatable...
-./xorg-docs-1.7.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "130bd4bd1d1d7f6c433aee055babc3d8fd4033e20b854c53d7a8dd0c44c2b2db" => :x86_64_linux
-  end
+This formula doesn't require compiling.
