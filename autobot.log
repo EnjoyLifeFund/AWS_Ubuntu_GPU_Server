@@ -1,1 +1,7 @@
-This formula doesn't require compiling.
+==> Determining udunits bottle rebuild...
+==> Bottling udunits-2.2.25.x86_64_linux.bottle.1.tar.gz...
+./udunits-2.2.25.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d19124cc00e07090b72a4060e9d63d691123b115d0acf2a32a0e8887fa68ba22" => :x86_64_linux
+  end
