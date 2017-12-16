@@ -1,6 +1,15 @@
-==> Determining md5sha1sum bottle rebuild...
-==> Bottling md5sha1sum-0.9.5.x86_64_linux.bottle.tar.gz...
-./md5sha1sum-0.9.5.x86_64_linux.bottle.tar.gz
+==> Downloading https://download.drobilla.net/mda-lv2-1.2.2.tar.bz2
+==> ./waf configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mda-lv2/1.2.2
+==> ./waf
+==> ./waf install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall mda-lv2`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mda-lv2/1.2.2: 87 files, 3.6MB, built in 6 seconds
+==> Determining mda-lv2 bottle rebuild...
+==> Bottling mda-lv2-1.2.2.x86_64_linux.bottle.tar.gz...
+==> Detecting if mda-lv2-1.2.2.x86_64_linux.bottle.tar.gz is relocatable...
+./mda-lv2-1.2.2.x86_64_linux.bottle.tar.gz
   bottle do
-    sha256 "fbc061db8d051169edb2b9d10af04286a20c89a268b988484ef0ed01f5861ec1" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "c1d9721bccc7a22f1e37b26833ebb61ee0a942d47f672956fe769990c0a5537f" => :x86_64_linux
   end
