@@ -1,8 +1,1 @@
-==> Determining homebrew/science/nanopolish bottle rebuild...
-==> Bottling nanopolish-0.7.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nanopolish-0.7.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nanopolish-0.7.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "6a0032db78d4e2c091b3d6a4f19364e7363d335b38f046872020688b93a327d5" => :x86_64_linux
-  end
+This formula doesn't require compiling.
