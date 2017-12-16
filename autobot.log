@@ -1,14 +1,14 @@
-==> Downloading https://download.savannah.gnu.org/releases/lout/lout-3.40.tar.gz
-==> Downloading from https://download-mirror.savannah.gnu.org/releases/lout/lout-3.40.tar.gz
-==> make PREFIX=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40 LOUTLIBDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/lib LOUTDOCDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/share/doc/lout MANDIR=/home/linuxbrew/.linuxbrew/Cellar/lout/3.40/share/man allinstall
+==> Downloading https://downloads.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz
+==> Downloading from https://gigenet.dl.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lout`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lout/3.40: 610 files, 10.0MB, built in 11 seconds
-==> Determining lout bottle rebuild...
-==> Bottling lout-3.40.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if lout-3.40.x86_64_linux.bottle.1.tar.gz is relocatable...
-./lout-3.40.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lpc21isp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lpc21isp/1.97: 4 files, 3.3MB, built in 2 seconds
+==> Determining lpc21isp bottle rebuild...
+==> Bottling lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz is relocatable...
+./lpc21isp-1.97.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "b4108bfb43cf4a13b1cff0b90768ec270e83a77395a3ae89f8af33590e496e14" => :x86_64_linux
+    sha256 "de65df603590e9ac5ca9fb11a5311dbc71b4a1b86159d27129bb4f174c1957ff" => :x86_64_linux
   end
