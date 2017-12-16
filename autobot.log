@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/seqdb bottle rebuild...
+==> Bottling seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./seqdb-0.2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "617bbd74b69a4128e7719befa6d0a5f0eeea6415fcad966d7232cf7e9090da9f" => :x86_64_linux
+  end
