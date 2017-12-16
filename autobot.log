@@ -1,7 +1,33 @@
-==> Determining homebrew/science/biobloomtools bottle rebuild...
-==> Bottling biobloomtools-2.0.13_1.x86_64_linux.bottle.1.tar.gz...
-./biobloomtools-2.0.13_1.x86_64_linux.bottle.1.tar.gz
+==> Installing bowtie from homebrew/science
+==> Downloading https://github.com/BenLangmead/bowtie/archive/v1.2.1.1.tar.gz
+==> Downloading from https://codeload.github.com/BenLangmead/bowtie/tar.gz/v1.2.1.1
+==> Downloading https://cpan.metacpan.org/authors/id/B/BU/BURAK/Sys-Info-0.78.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/B/BU/BURAK/Sys-Info-Base-0.7804.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/G/GA/GARU/Clone-0.38.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/B/BU/BURAK/Sys-Info-Driver-Linux-0.7903.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.126.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> Downloading https://cpan.metacpan.org/authors/id/W/WS/WSNYDER/Unix-Processors-2.045.tar.gz
+==> perl Makefile.PL LIB=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/PerlLib PREFIX=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1/libexec/vendor
+==> make install
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall homebrew/science/bowtie`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/bowtie/1.2.1.1: 181 files, 15.6MB, built in 30 seconds
+==> Determining homebrew/science/bowtie bottle rebuild...
+==> Bottling bowtie-1.2.1.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if bowtie-1.2.1.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./bowtie-1.2.1.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "0bd46778465420e24e12454c54579fc15e782583351c22d994de2eef0fd88bc9" => :x86_64_linux
+    sha256 "1621a87d0ea77893f182cdbcc1b599205a0d2136ede365eb21a6b4cf86e56f43" => :x86_64_linux
   end
