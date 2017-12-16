@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/nauty bottle rebuild...
+==> Bottling nauty-26r5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nauty-26r5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nauty-26r5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "82971fb110598306cbe17720149ddd4b7041f8695faf21e22cdb35826c75d9ae" => :x86_64_linux
+  end
