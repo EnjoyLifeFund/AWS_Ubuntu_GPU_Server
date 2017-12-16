@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining homebrew/science/vcake bottle rebuild...
+==> Bottling vcake-2.0.x86_64_linux.bottle.1.tar.gz...
+./vcake-2.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "efe204983c26910a4018cdd6aa12f2069420b1aacfb7e3f3a7dc13771f5fbef8" => :x86_64_linux
+  end
