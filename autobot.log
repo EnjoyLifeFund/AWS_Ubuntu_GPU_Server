@@ -1,12 +1,7 @@
-==> Downloading https://www.lsv.ens-cachan.fr/~gastin/ltl2ba/ltl2ba-1.2b1.tar.gz
-==> Downloading from https://www.lsv.fr/~gastin/ltl2ba/ltl2ba-1.2b1.tar.gz
-==> make
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ltl2ba`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ltl2ba/1.2b1: 5 files, 124.4KB, built in 4 seconds
-==> Determining ltl2ba bottle rebuild...
-==> Bottling ltl2ba-1.2b1.x86_64_linux.bottle.tar.gz...
-./ltl2ba-1.2b1.x86_64_linux.bottle.tar.gz
+==> Determining lua bottle rebuild...
+==> Bottling lua-5.3.4_2.x86_64_linux.bottle.1.tar.gz...
+./lua-5.3.4_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "8e36f1ab5154734cb337371c2862212ebd92480766a2108c1fa12eb8c92621d2" => :x86_64_linux
+    rebuild 1
+    sha256 "54c88de1f7b3663281bc1f672dc52ca9c8a9e0a326406d493ed136d6043d9f93" => :x86_64_linux
   end
