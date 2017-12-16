@@ -1,23 +1,14 @@
-==> Downloading https://download.elastic.co/logstash/logstash/logstash-2.4.0.tar.gz
-The formula built, but is not symlinked into /home/linuxbrew/.linuxbrew
-Could not symlink bin/logstash
-Target /home/linuxbrew/.linuxbrew/bin/logstash
-is a symlink belonging to logstash. You can unlink it:
-  brew unlink logstash
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite logstash@2.4
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run logstash@2.4
-
-Possible conflicting files are:
-/home/linuxbrew/.linuxbrew/bin/logstash -> /home/linuxbrew/.linuxbrew/Cellar/logstash/6.0.1/bin/logstash
-/home/linuxbrew/.linuxbrew/bin/logstash-plugin -> /home/linuxbrew/.linuxbrew/Cellar/logstash/6.0.1/bin/logstash-plugin
+==> Downloading https://artifacts.elastic.co/downloads/logstash/logstash-5.6.5.tar.gz
 ==> Caveats
 Please read the getting started guide located at:
   https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html
-The logstash `plugin` command is available as `logstash-plugin`.
+
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/logstash@5.6/bin:$PATH"' >> ~/.bash_profile
+
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/logstash@2.4/2.4.0: 10,198 files, 145.6MB, built in 9 seconds
+🍺  /home/linuxbrew/.linuxbrew/Cellar/logstash@5.6/5.6.5: 11,245 files, 193MB, built in 11 seconds
 This formula doesn't require compiling.
