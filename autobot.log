@@ -1,18 +1,6 @@
 ==> Upgrading 1 outdated package, with result:
-bedtools 2.27.0
-==> Upgrading bedtools 
-==> Downloading https://github.com/arq5x/bedtools2/archive/v2.27.0.tar.gz
-==> Downloading from https://codeload.github.com/arq5x/bedtools2/tar.gz/v2.27.0
-==> make
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/bedtools/2.27.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bedtools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bedtools/2.27.0: 43 files, 4.1MB, built in 15 seconds
-==> Determining bedtools bottle rebuild...
-==> Bottling bedtools-2.27.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if bedtools-2.27.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./bedtools-2.27.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "27005a269205ca874cf1cf28d17b9d7d85c331a01ad8e9e2a5569cb22038f153" => :x86_64_linux
-  end
+flyway 5.0.2
+==> Upgrading flyway 
+==> Downloading https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.0.2/flyway-commandline-5.0.2.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/flyway/5.0.2: 22 files, 16MB, built in 2 seconds
+This formula doesn't require compiling.
