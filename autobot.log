@@ -1,6 +1,9 @@
-==> Upgrading 1 outdated package, with result:
-chromedriver 2.34
-==> Upgrading chromedriver 
-==> Downloading https://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/chromedriver/2.34: 3 files, 7.6MB, built in 1 second
-This formula doesn't require compiling.
+==> Determining juju bottle rebuild...
+==> Bottling juju-2.3.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if juju-2.3.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./juju-2.3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3168247ccbaf1107f9d9e529b5c76c567bc4ba1ed45772211f03da169c2f3ef3" => :x86_64_linux
+  end
