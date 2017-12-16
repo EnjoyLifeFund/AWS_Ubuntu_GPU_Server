@@ -1,15 +1,14 @@
-==> Downloading https://github.com/swh/LRDF/archive/v0.6.1.tar.gz
-==> Downloading from https://codeload.github.com/swh/LRDF/tar.gz/v0.6.1
-==> ./autogen.sh
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lrdf/0.6.1
+==> Downloading https://dl.bintray.com/homebrew/mirror/lrzsz-0.12.20.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20 --mandir=/home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20/share/man
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lrdf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/lrdf/0.6.1: 33 files, 384.4KB, built in 21 seconds
-==> Determining lrdf bottle rebuild...
-==> Bottling lrdf-0.6.1.x86_64_linux.bottle.1.tar.gz...
-./lrdf-0.6.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall lrzsz`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lrzsz/0.12.20: 19 files, 1016.4KB, built in 22 seconds
+==> Determining lrzsz bottle rebuild...
+==> Bottling lrzsz-0.12.20.x86_64_linux.bottle.1.tar.gz...
+./lrzsz-0.12.20.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "4864b8465839ac507a2c64c44b01730ba616f167b3e6d3b962feba2b2b57b72e" => :x86_64_linux
+    sha256 "007c850631c01e3d9308274eb29db80a1bbdd25fa98cef57212a7b13e47e1917" => :x86_64_linux
   end
