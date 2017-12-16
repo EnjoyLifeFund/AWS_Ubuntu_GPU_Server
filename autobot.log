@@ -1,20 +1,8 @@
-==> Installing fastx_toolkit from homebrew/science
-==> Downloading https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/fastx_toolkit-0.0.14.tar.bz2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/14233196/f0821c9e-764e-11e3-99f0-a5603899c05f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T144501Z&X-Amz-Expires=300&X-Amz-Signature=73ca5ebeb86353572faea2b26834f1e98371be5ecf1d679726ab213a5584d8a1&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfastx_toolkit-0.0.14.tar.bz2&response-content-type=application%2Foctet-stream
-==> Downloading https://github.com/agordon/libgtextutils/releases/download/0.7/libgtextutils-0.7.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/14094273/4a8d6664-764d-11e3-8b5c-5a4aa996a4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T144502Z&X-Amz-Expires=300&X-Amz-Signature=7b7e7b8418ab2dde27302960b28b75e683fed0b7ba980816c5f7ad63d12b2885&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibgtextutils-0.7.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fastx_toolkit/0.0.14_1
-==> make
-==> make install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/fastx_toolkit/0.0.14_1 PKG_CONFIG_PATH=/home/linuxbrew/.linuxbrew/Cellar/fastx_toolkit/0.0.14_1/lib/pkgconfig
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall homebrew/science/fastx_toolkit`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/fastx_toolkit/0.0.14_1: 43 files, 2.0MB, built in 21 seconds
-==> Determining homebrew/science/fastx_toolkit bottle rebuild...
-==> Bottling fastx_toolkit-0.0.14_1.x86_64_linux.bottle.1.tar.gz...
-./fastx_toolkit-0.0.14_1.x86_64_linux.bottle.1.tar.gz
+==> Determining homebrew/science/fgsl bottle rebuild...
+==> Bottling fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./fgsl-1.2.0_3.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "19ec3a75c73b6a97ea52422d7b162b45cf765fdd652a09d08e1c7cd46e5a341e" => :x86_64_linux
+    sha256 "50199081f6bec22a862c369c3f91a58da4f49d69d9485953e2f669f09a93e40a" => :x86_64_linux
   end
