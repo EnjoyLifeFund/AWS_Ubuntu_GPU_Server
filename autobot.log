@@ -1,27 +1,16 @@
-==> Installing dependencies for mcrypt: mhash
-==> Installing mcrypt dependency: mhash
-==> Downloading https://downloads.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mhash/0.9.9.9
-==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mhash/0.9.9.9: 20 files, 975.0KB, built in 19 seconds
-==> Installing mcrypt
-==> Downloading https://downloads.sourceforge.net/project/mcrypt/MCrypt/2.6.8/mcrypt-2.6.8.tar.gz
-==> Downloading from http://cfhcable.dl.sourceforge.net/project/mcrypt/MCrypt/2.6.8/mcrypt-2.6.8.tar.gz
-==> Patching
-patching file src/rfc2440.c
-==> Downloading https://downloads.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz
-==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8/share/man
-==> make install
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --with-libmcrypt-prefix=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8/share/man
+==> Downloading https://github.com/jessek/hashdeep/archive/release-4.4.tar.gz
+==> Downloading from https://codeload.github.com/jessek/hashdeep/tar.gz/release-4.4
+==> sh bootstrap.sh
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/md5deep/4.4
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mcrypt`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mcrypt/2.6.8: 24 files, 1.2MB, built in 33 seconds
-==> Determining mcrypt bottle rebuild...
-==> Bottling mcrypt-2.6.8.x86_64_linux.bottle.tar.gz...
-./mcrypt-2.6.8.x86_64_linux.bottle.tar.gz
+You can run it manually using `brew postinstall md5deep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/md5deep/4.4: 21 files, 15.3MB, built in 21 seconds
+==> Determining md5deep bottle rebuild...
+==> Bottling md5deep-4.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if md5deep-4.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./md5deep-4.4.x86_64_linux.bottle.1.tar.gz
   bottle do
-    sha256 "19ee5e06a41bf82d4eb6d33b57d66888749b49a34ab73932b353d19f2d09a9a1" => :x86_64_linux
+    rebuild 1
+    sha256 "67f88d11757ba8cc6ba2c9a8d3f0a2f1911473e464cb5a2ca49077dbc78f44ba" => :x86_64_linux
   end
