@@ -1,15 +1,8 @@
-==> Downloading https://github.com/brianb/mdbtools/archive/0.7.1.tar.gz
-==> Downloading from https://codeload.github.com/brianb/mdbtools/tar.gz/0.7.1
-==> autoreconf -i -f
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mdbtools/0.7.1_1 --disable-man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mdbtools`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mdbtools/0.7.1_1: 27 files, 1.3MB, built in 42 seconds
-==> Determining mdbtools bottle rebuild...
-==> Bottling mdbtools-0.7.1_1.x86_64_linux.bottle.1.tar.gz...
-./mdbtools-0.7.1_1.x86_64_linux.bottle.1.tar.gz
+==> Determining mdds bottle rebuild...
+==> Bottling mdds-1.3.1.x86_64_linux.bottle.1.tar.gz...
+./mdds-1.3.1.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "6536c47550e30bc5fed7e397577b2df57e685e530c9d963f9490618c0205b1c2" => :x86_64_linux
+    sha256 "d42954439b3fb17711ddd467838c6daf18554e919e86f3c0e75045a45e960988" => :x86_64_linux
   end
