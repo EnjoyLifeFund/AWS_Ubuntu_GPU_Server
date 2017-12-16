@@ -1,17 +1,16 @@
-==> Downloading https://github.com/szechyjs/mbelib/archive/v1.3.0.tar.gz
-==> Downloading from https://codeload.github.com/szechyjs/mbelib/tar.gz/v1.3.0
-==> cmake .. -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/mbelib/1.3.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> Downloading https://downloads.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz
+==> Downloading from https://superb-sea2.dl.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9 --mandir=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9/share/man --infodir=/home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9/share/info
 ==> make
-==> make test
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mbelib`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/mbelib/1.3.0: 10 files, 290.3KB, built in 8 seconds
-==> Determining mbelib bottle rebuild...
-==> Bottling mbelib-1.3.0.x86_64_linux.bottle.1.tar.gz...
-./mbelib-1.3.0.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mboxgrep`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mboxgrep/0.7.9: 11 files, 106.4KB, built in 4 seconds
+==> Determining mboxgrep bottle rebuild...
+==> Bottling mboxgrep-0.7.9.x86_64_linux.bottle.1.tar.gz...
+./mboxgrep-0.7.9.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "e99d1839972249bf2c5493b4735e7afc61b393673b0c050d3bff3b9105895fce" => :x86_64_linux
+    sha256 "8dd6eab184fd8b36ad20f0e58ccbe520768d4d9fb6c55b94d35360881242384c" => :x86_64_linux
   end
