@@ -1,8 +1,15 @@
-==> Determining log4cplus bottle rebuild...
-==> Bottling log4cplus-1.2.0.x86_64_linux.bottle.1.tar.gz...
-./log4cplus-1.2.0.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/log4cpp/log4cpp-1.1.x%20%28new%29/log4cpp-1.1/log4cpp-1.1.3.tar.gz
+==> Downloading from https://newcontinuum.dl.sourceforge.net/project/log4cpp/log4cpp-1.1.x%20%28new%29/log4cpp-1.1/log4cpp-1.1.3.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/log4cpp/1.1.3
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall log4cpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/log4cpp/1.1.3: 68 files, 3.5MB, built in 16 seconds
+==> Determining log4cpp bottle rebuild...
+==> Bottling log4cpp-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./log4cpp-1.1.3.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "648d94123140ae0611f6d3bbe55f24b3db717d5f0c54969309d28f0f3333ad73" => :x86_64_linux
+    sha256 "2eed5e3b5f26ac5f3b8c8fb3394e2babfa8173a497e82f204716bdf6f91b8abd" => :x86_64_linux
   end
