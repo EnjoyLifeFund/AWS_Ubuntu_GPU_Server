@@ -1,7 +1,21 @@
 ==> Upgrading 1 outdated package, with result:
-davmail 4.8.1-2507
-==> Upgrading davmail 
-==> Downloading https://downloads.sourceforge.net/project/davmail/davmail/4.8.1/davmail-4.8.1-2507.zip
-==> Downloading from https://pilotfiber.dl.sourceforge.net/project/davmail/davmail/4.8.1/davmail-4.8.1-2507.zip
-🍺  /home/linuxbrew/.linuxbrew/Cellar/davmail/4.8.1-2507: 23 files, 5.3MB, built in 3 seconds
-This formula doesn't require compiling.
+grpc 1.8.0
+==> Upgrading grpc 
+==> Downloading https://github.com/grpc/grpc/archive/v1.8.0.tar.gz
+==> Downloading from https://codeload.github.com/grpc/grpc/tar.gz/v1.8.0
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.8.0
+==> make install-plugins prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.8.0
+==> Downloading https://github.com/google/googletest/archive/release-1.8.0.tar.gz
+==> Downloading from https://codeload.github.com/google/googletest/tar.gz/release-1.8.0
+==> make grpc_cli prefix=/home/linuxbrew/.linuxbrew/Cellar/grpc/1.8.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall grpc`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/grpc/1.8.0: 199 files, 31.7MB, built in 31 seconds
+==> Determining grpc bottle rebuild...
+==> Bottling grpc-1.8.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if grpc-1.8.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./grpc-1.8.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "bda7ea1575f806ac45593f755749cb9051350f4c60490d27f8005294087a1a4e" => :x86_64_linux
+  end
