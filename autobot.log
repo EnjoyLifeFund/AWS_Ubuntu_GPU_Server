@@ -1,1 +1,9 @@
-This formula doesn't require compiling.
+==> Determining z3 bottle rebuild...
+==> Bottling z3-4.5.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if z3-4.5.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./z3-4.5.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9b68c3ef2db41e60ce4bfec11d48d91b283f768cb0bb0a1b7fd095959943a5c9" => :x86_64_linux
+  end
