@@ -1,17 +1,18 @@
-==> Downloading https://github.com/zeromq/czmq/releases/download/v4.0.2/czmq-4.0.2.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1510809/2f0b7dee-cf9c-11e6-893c-79c92a15d9a7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171216T095749Z&X-Amz-Expires=300&X-Amz-Signature=bb9cf15ac8586a4e89bfcf7bcebee94ea953fe9f7941e6b476e274f54100ac69&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dczmq-4.0.2.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/czmq/4.0.2
-==> make
-==> make ZSYS_INTERFACE=lo0 check-verbose
+==> Downloading https://dovecot.org/releases/2.2/dovecot-2.2.33.2.tar.gz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2 --libexecdir=/home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2/libexec --sysconfdir=/home/linuxbrew/.linuxbrew/etc --localstatedir=/home/linuxbrew/.linuxbrew/var --with-ssl=openssl --with-sqlite --with-zlib --with-bzlib
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall czmq`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/czmq/4.0.2: 109 files, 5.2MB, built in 42 seconds
-==> Determining czmq bottle rebuild...
-==> Bottling czmq-4.0.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if czmq-4.0.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./czmq-4.0.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall dovecot`
+==> Caveats
+For Dovecot to work, you may need to create a dovecot user
+and group depending on your configuration file options.
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dovecot/2.2.33.2: 1,077 files, 70.3MB, built in 2 minutes 4 seconds
+==> Determining dovecot bottle rebuild...
+==> Bottling dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./dovecot-2.2.33.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "bd93d59ae6bd160065b47bdc2c03baeb35f74465873d3d2861da7080eb7a16e4" => :x86_64_linux
+    sha256 "aff2e4f20f8862ea7130add28af6068d98796a8a74689587954f589355b3b787" => :x86_64_linux
   end
