@@ -1,8 +1,1 @@
-==> Determining sbcl bottle rebuild...
-==> Bottling sbcl-1.4.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if sbcl-1.4.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./sbcl-1.4.2.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "b5d39d70540f6c4385dd6188e9e2e7692702fa26a3b5e1ea157214b30e764352" => :x86_64_linux
-  end
+This formula doesn't require compiling.
